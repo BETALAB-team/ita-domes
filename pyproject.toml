@@ -1,0 +1,20 @@
+[project]
+name = "itaDomES"
+version = "0.0.1"
+authors = [
+  { name="Jacopo Vivian", email="jacopo.vivian@hotmail.com" },
+  { name="Enrico Prataviera", email="enrico.prataviera@unipd.it" },
+]
+description = "A simulation tool for the evaluation of the energy consumption of Italian residential buildings."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE*"]
+
+[project.urls]
+Homepage = "https://github.com/BETALAB-team/itaDomES"
+Issues = "https://github.com/BETALAB-team/itaDomES/issues"
