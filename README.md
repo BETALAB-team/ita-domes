@@ -1,6 +1,6 @@
-# GRINS-Tool
+# ita-domes
 
-This project contains a simulation tool for the evaluation of the energy consumption of Italian residential buildings.
+This package contains a simulation tool for Italian residential building stock.
 
 ## How to install
 
