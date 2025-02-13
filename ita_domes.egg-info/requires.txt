@@ -1,0 +1,10 @@
+pandas
+numpy
+pvlib
+scipy
+matplotlib
+geopandas
+pathlib
+blosc
+progressbar2
+eureca-ubem@ git+https://github.com/BETALAB-team/EUReCA@grins_model

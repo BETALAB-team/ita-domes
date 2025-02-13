@@ -13,7 +13,7 @@ import numpy as np
 import random
 import pickle
 import pvlib
-# import pythermalcomfort.psychrometrics
+import pythermalcomfort.psychrometrics
 from eureca_building.weather import WeatherFile
 import time
 import sys

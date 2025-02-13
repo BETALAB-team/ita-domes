@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "ita-domes"
 version = "0.0.1"
@@ -8,18 +12,14 @@ authors = [
 dependencies = [
 	"pandas",
 	"numpy",
-	"csv",
 	"pvlib",
 	"scipy",
-	"eureca-building",
 	"matplotlib",
 	"geopandas",
 	"pathlib",
-	"pythermalcomfort",
 	"blosc",
-	"pickle",
-	"io",
 	"progressbar2",
+	"eureca-ubem @ git+https://github.com/BETALAB-team/EUReCA@grins_model"
 ]
 
 description = "A simulation tool for the evaluation of the energy consumption of Italian residential buildings."
@@ -35,4 +35,8 @@ Homepage = "https://github.com/BETALAB-team/ita-domes"
 Issues = "https://github.com/BETALAB-team/ita-domes/issues"
 
 [tool.setuptools]
-py-modules = []
+py-modules = [
+"funcs",
+"classes",
+"resources"
+]

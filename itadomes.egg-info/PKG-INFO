@@ -1,5 +1,5 @@
 Metadata-Version: 2.2
-Name: ita-domes
+Name: itadomes
 Version: 0.0.1
 Summary: A simulation tool for the evaluation of the energy consumption of Italian residential buildings.
 Author-email: Jacopo Vivian <jacopo.vivian@hotmail.com>, Enrico Prataviera <enrico.prataviera@unipd.it>
@@ -19,7 +19,6 @@ Requires-Dist: geopandas
 Requires-Dist: pathlib
 Requires-Dist: blosc
 Requires-Dist: progressbar2
-Requires-Dist: eureca-ubem@ git+https://github.com/BETALAB-team/EUReCA@grins_model
 
 # ita-domes
 
