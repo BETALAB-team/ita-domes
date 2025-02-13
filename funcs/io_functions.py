@@ -18,8 +18,12 @@ from eureca_building.weather import WeatherFile
 import time
 import sys
 
-global main_wd 
-main_wd = sys.path[0]
+from importlib import resources as impresources
+from resources import istat_data as istat_data_file
+from resources import HVAC_data as HVAC_data_file
+from resources import user_data as user_data_file
+from resources import appliances_data as appliances_data_file
+from resources import conversion_factors as conversion_factors_file
 
 def read_istat_data(year = 2013, selected_regions = None, number_of_buildings = None):
     
@@ -29,9 +33,8 @@ def read_istat_data(year = 2013, selected_regions = None, number_of_buildings = 
     istat_data = dict()
     
     # Import database ISTAT 2013
-    istat_file = 'istat_microdata_' + str(year) + '.csv'
-    # main_wd = sys.path[0]
-    istat_path = os.path.join(main_wd, 'resources', 'istat_data', istat_file)
+    istat_path = impresources.files(istat_data_file) / ('istat_microdata_' + str(year) + '.csv')
+    
     istat_tot = pd.read_csv(istat_path, delimiter=';')
     istat_tot.index = istat_tot['id']  # edifici da 1 a 20000
     
@@ -82,50 +85,48 @@ def read_appliances_data(year = 2013):
     print("\nImporting electrical appliances dataset..")
     
     # Import household appliances GfK
-    appliances_file = 'Database_elettrodomestici_' + str(year) + '.xlsx'
-    # main_wd = sys.path[0]
-    appliances_path = os.path.join(main_wd, 'resources', 'appliances_data', 
-                                   appliances_file)
+    appliances_file = impresources.files(appliances_data_file) / ('Database_elettrodomestici_' + str(year) + '.xlsx')
+    
     # Lights
-    db_lights = pd.read_excel(appliances_path,
+    db_lights = pd.read_excel(appliances_file,
                               sheet_name="illuminazioneMOIRAE", 
                               header=0,index_col=0)
     # Small household appliances
-    db_little_appliances = pd.read_excel(appliances_path,
+    db_little_appliances = pd.read_excel(appliances_file,
                                          sheet_name="piccoli_elettrodomestici_MOIRAE", 
                                          header=0,index_col=0)
     # Fridges and freezers
-    db_refrigerators = pd.read_excel(appliances_path,
+    db_refrigerators = pd.read_excel(appliances_file,
                                      sheet_name="frigoriferi", 
                                      header=0,index_col=0)
     # Big household appliances (washing machine, tumble dryers etc)
-    db_appliances = pd.read_excel(appliances_path,
+    db_appliances = pd.read_excel(appliances_file,
                                   sheet_name="grandi_elettrodomestici", 
                                   header=0,index_col=0)
     # TVs
-    db_TVs = pd.read_excel(appliances_path,
+    db_TVs = pd.read_excel(appliances_file,
                            sheet_name="schermi_MOIRAE", 
                            header=0,index_col=0)
     # Cooking devices 
-    db_cookings = pd.read_excel(appliances_path,
+    db_cookings = pd.read_excel(appliances_file,
                                 sheet_name="cottura_cibi", 
                                 header=0,index_col=0)
     # Cooling systems
-    db_cool = pd.read_excel(appliances_path,
+    db_cool = pd.read_excel(appliances_file,
                             sheet_name="Raffrescamento", 
                             header=0, index_col=[0,1,2], usecols = "B,E:G")
     db_cool.sort_index(inplace = True)
-    db_cool_cor = pd.read_excel(appliances_path,
+    db_cool_cor = pd.read_excel(appliances_file,
                                 sheet_name="CorrezioneRaffrescamento", 
                                 header=0, index_col=[0,1], usecols = "A,C,E")
     db_cool_cor.sort_index(inplace = True)
     
     # Standby 
-    db_standby = pd.read_excel(appliances_path,
+    db_standby = pd.read_excel(appliances_file,
                                sheet_name="Standby", 
                                header=0)
     # DHW 
-    db_dhw = pd.read_excel(appliances_path,
+    db_dhw = pd.read_excel(appliances_file,
                            sheet_name="ACS", 
                            header=0,index_col=0)
     
