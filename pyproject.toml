@@ -1,12 +1,14 @@
 [project]
-name = "itaDomES"
+name = "ita-domes"
 version = "0.0.1"
 authors = [
   { name="Jacopo Vivian", email="jacopo.vivian@hotmail.com" },
   { name="Enrico Prataviera", email="enrico.prataviera@unipd.it" },
 ]
+build-backend = "hatchling.build"
 description = "A simulation tool for the evaluation of the energy consumption of Italian residential buildings."
 readme = "README.md"
+requires = ["hatchling"]
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -16,5 +18,5 @@ license = "MIT"
 license-files = ["LICENSE*"]
 
 [project.urls]
-Homepage = "https://github.com/BETALAB-team/itaDomES"
-Issues = "https://github.com/BETALAB-team/itaDomES/issues"
+Homepage = "https://github.com/BETALAB-team/ita-domes"
+Issues = "https://github.com/BETALAB-team/ita-domes/issues"
