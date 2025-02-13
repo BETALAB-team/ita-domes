@@ -12,6 +12,8 @@ from funcs.aux_functions import decodificRegion2
 import os
 import sys
 global main_wd 
+from pathlib import Path
+import json
 main_wd = sys.path[0]
 
 class Process(object):
@@ -413,6 +415,33 @@ class PostProcess(object):
         
         self.fuel_properties = pd.read_excel(conv_filepath, sheet_name='Properties', index_col=0)
         self.pe_conversion_factors = pd.read_excel(conv_filepath, sheet_name='PrimaryEnergy', index_col=0)
+        
+        
+    def print_csv_files(self, output_folder = None):
+        for key,value in self.all.items():
+            
+            if isinstance(value, pd.DataFrame):
+                file_name = key + '.csv'
+                output_file = os.path.join(main_wd, 'output', output_folder, file_name)
+                output_filepath = Path(output_file)
+                output_filepath.parent.mkdir(parents=True, exist_ok=True)
+                value.to_csv(output_filepath)
+            elif isinstance(value, dict):
+                file_name = key + '.json'
+                output_file = os.path.join(main_wd, 'output', output_folder, file_name)  
+                output_filepath = Path(output_file)
+                output_filepath.parent.mkdir(parents=True, exist_ok=True)
+                json_obj = json.dumps(value)
+                json_file =  open(output_filepath, "w")
+                json_file.write(json_obj)
+                json_file.close()
+            else:
+                print(f"\Could not print {key} because is neither a Dataframe nor a dictionary")
+
+            
+            
+        
+        
 
    
 #%%
