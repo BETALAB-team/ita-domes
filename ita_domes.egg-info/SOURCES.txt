@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+ita_domes.egg-info/PKG-INFO
+ita_domes.egg-info/SOURCES.txt
+ita_domes.egg-info/dependency_links.txt
+ita_domes.egg-info/top_level.txt

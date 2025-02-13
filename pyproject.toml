@@ -5,18 +5,34 @@ authors = [
   { name="Jacopo Vivian", email="jacopo.vivian@hotmail.com" },
   { name="Enrico Prataviera", email="enrico.prataviera@unipd.it" },
 ]
-build-backend = "hatchling.build"
+dependencies = [
+	"pandas",
+	"numpy",
+	"csv",
+	"pvlib",
+	"scipy",
+	"eureca-building",
+	"matplotlib",
+	"geopandas",
+	"pathlib",
+	"pythermalcomfort",
+	"blosc",
+	"pickle",
+	"io",
+	"progressbar2",
+]
+
 description = "A simulation tool for the evaluation of the energy consumption of Italian residential buildings."
 readme = "README.md"
-requires = ["hatchling"]
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-license = "MIT"
-license-files = ["LICENSE*"]
 
 [project.urls]
 Homepage = "https://github.com/BETALAB-team/ita-domes"
 Issues = "https://github.com/BETALAB-team/ita-domes/issues"
+
+[tool.setuptools]
+py-modules = []
