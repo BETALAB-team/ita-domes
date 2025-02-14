@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-itadomes.egg-info/PKG-INFO
-itadomes.egg-info/SOURCES.txt
-itadomes.egg-info/dependency_links.txt
-itadomes.egg-info/requires.txt
-itadomes.egg-info/top_level.txt

@@ -1,9 +1,0 @@
-pandas
-numpy
-pvlib
-scipy
-matplotlib
-geopandas
-pathlib
-blosc
-progressbar2

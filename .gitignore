@@ -1,0 +1,13 @@
+dist/
+build/
+ita_domes.egg-info/
+resources/weather_data/CTI/
+resources/weather_data/epw_template_files/
+resources/weather_data/analyze_weather_data.py/
+resources/weather_data/replace_weather_data.py/
+resources/user_data/schedules_EN16798_Residential.xlsx/
+resources/user_data/create_standard_users.py/
+resources/istat_data/Reg01012024_g/
+resources/istat_data/domande istat.xlsx/
+resources/istat_data/residential_buildings_census.csv/
+.idea/
