@@ -22,7 +22,7 @@ logging.getLogger().setLevel(logging.CRITICAL)
 # lettura file istat 
 istat_data = read_istat_data(year = 2013, 
                              selected_regions = None,
-                             number_of_buildings = 20000) #None
+                             number_of_buildings = 10) #None
 
 # lettura file elettrodomestici
 appliances_data = read_appliances_data(year = 2013)

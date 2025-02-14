@@ -24,6 +24,10 @@ from resources import HVAC_data as HVAC_data_file
 from resources import user_data as user_data_file
 from resources import appliances_data as appliances_data_file
 from resources import conversion_factors as conversion_factors_file
+from resources import weather_data as weather_data_file
+from resources.weather_data import CTI as weather_data_classes
+
+from funcs.aux_functions import regioni
 
 def read_istat_data(year = 2013, selected_regions = None, number_of_buildings = None):
     
@@ -162,28 +166,31 @@ def read_weather_data(year = 'CTI', replace_data = True, month_resample = True, 
         weather_file = 'WeatherData_' + str(year) + '.pickle'
     else:
         weather_file = 'WeatherData_CTI.pickle'
-        
-    weather_path = os.path.join(main_wd, 'resources', 'weather_data', 
-                                weather_file)
+
+    cti_file = impresources.files(weather_data_file) / weather_file
+
     # read weather data
-    w = pd.read_pickle(weather_path)
+    w = pd.read_pickle(cti_file)
     
     # ----------------------------------------------------------------------
-    #                         to be replaced 
-    
+    #                         to be replaced
     print('Reading weather file classes from CTI reference year')
-    weather_file_eureca = 'WeatherData_CTI_eureca_classes.dat'
-    weather_path_eureca = os.path.join(main_wd, 'resources', 'weather_data', 
-                                weather_file_eureca)
-    with open(weather_path_eureca, 'rb') as handle:
-        w_eureca_cp = handle.read()
-    w_eureca = pickle.loads(blosc.decompress(w_eureca_cp))
+
+    w_eureca = dict()
+    for reg in regioni.values():
+
+        cti_file = impresources.files(weather_data_classes) / (f'WeatherData_CTI_eureca_classes_{reg}.dat')
+        with open(cti_file, 'rb') as handle:
+            w_eureca_cp = handle.read()
+        w_eureca.update(pickle.loads(blosc.decompress(w_eureca_cp)))
+
+
     # ----------------------------------------------------------------------
     #                            new code
     if replace_data == True:
         # irradiances_calculation = True
-        w_eureca = replace_eureca_weather_classes(w, 
-                                                  w_eureca, 
+        w_eureca = replace_eureca_weather_classes(w,
+                                                  w_eureca,
                                                   irradiances_calculation = True)
     
     # ----------------------------------------------------------------------

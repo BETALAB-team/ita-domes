@@ -5,6 +5,9 @@ resources/weather_data/CTI/
 resources/weather_data/epw_template_files/
 resources/weather_data/analyze_weather_data.py/
 resources/weather_data/replace_weather_data.py/
+resources/weather_data/WeatherData_2013.pickle
+resources/weather_data/WeatherData_CTI.pickle
+resources/weather_data/WeatherData_CTI_eureca_classes.dat
 resources/user_data/schedules_EN16798_Residential.xlsx/
 resources/user_data/create_standard_users.py/
 resources/istat_data/Reg01012024_g/
