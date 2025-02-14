@@ -9,8 +9,12 @@ import pandas as pd
 import os
 import numpy as np
 import sys
-global main_wd 
-main_wd = sys.path[0]
+
+from importlib import resources as impresources
+from resources import istat_data as istat_data_file
+
+# global main_wd
+# main_wd = sys.path[0]
 
 
 #%%
@@ -70,8 +74,10 @@ def wrn(message):
 #%%
 
 def scegli_provincia_distr(reg, rand, sort_by = 'Numero_edifici'):
-    
-    census = pd.read_csv(os.path.join(main_wd,'resources','istat_data','residential_buildings_census.csv'), 
+
+    # os.path.join(main_wd, 'resources', 'istat_data', 'residential_buildings_census.csv')
+    istat_path = impresources.files(istat_data_file) / ('residential_buildings_census.csv')
+    census = pd.read_csv(istat_path,
                          keep_default_na=False, index_col=0)
     # napoli = pd.DataFrame({'prov':'NA','Regione':'Campania','Numero_edifici':292920,'Persone_edificio':10.37}, index=[0])
     # census = pd.concat([census,napoli],ignore_index = True)

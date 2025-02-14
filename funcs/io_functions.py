@@ -25,6 +25,7 @@ from resources import user_data as user_data_file
 from resources import appliances_data as appliances_data_file
 from resources import conversion_factors as conversion_factors_file
 from resources import weather_data as weather_data_file
+from resources import envelope_data as envelope_data_file
 from resources.weather_data import CTI as weather_data_classes
 
 from funcs.aux_functions import regioni
@@ -226,12 +227,23 @@ def read_envelopes_data(selected_buildings = None):
     
     print("\nImporting building envelopes information (already processed)..")
     # Import building envelopes
-    envelope_file = 'envelopes.pickle'
-    envelope_path = os.path.join(main_wd, 'resources', 'envelope_data', 
-                                 envelope_file)
+
+    # envelope_file = 'envelopes.pickle'
+    # envelope_path = os.path.join(main_wd, 'resources', 'envelope_data',
+    #                              envelope_file)
+    # selected_envelopes = dict()
+    # with open(envelope_path, 'rb') as handle:
+    #     envelopes = pickle.load(handle)
+
+    envelopes = dict()
+    for sec in range(1,6):
+
+        env_file = impresources.files(envelope_data_file) / (f'envelopes_{sec}.pickle')
+        with open(env_file, 'rb') as handle:
+            env_classes = pickle.load(handle)
+        envelopes.update(env_classes)
+
     selected_envelopes = dict()
-    with open(envelope_path, 'rb') as handle:
-        envelopes = pickle.load(handle) 
     if selected_buildings is None:
         selected_envelopes = envelopes
     else:
@@ -245,17 +257,20 @@ def read_envelopes_data(selected_buildings = None):
     return selected_envelopes
 
 
-def save_output(res):
+def save_output(output_path, res):
     tic = time.process_time()   
     print("\nSaving simulation results into output file..")
     time_string = time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime())
     output_file = 'output_' + time_string + '.pickle'
-    output_path = os.path.join(main_wd, 'output', output_file)
+    if not os.path.isdir(os.path.join(output_path, 'output')):
+        os.mkdir(os.path.join(output_path, 'output'))
+    output_path = os.path.join(output_path, 'output', output_file)
     output = dict()
     # output['consumption_appliances'] = consumption_appliances
     # output['consumption_hvac'] = consumption_hvac
     # output['buildings_data'] = buildings_data
     output['res'] = res
+
     with open(output_path, 'wb') as handle:
         pickle.dump(output, handle, protocol=pickle.HIGHEST_PROTOCOL)
     comp_time = time.process_time() - tic

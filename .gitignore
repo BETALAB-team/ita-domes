@@ -16,3 +16,4 @@ resources/istat_data/residential_buildings_census.csv/
 resources/envelope_data/envelopes.pickle
 resources/envelope_data/envelopes - Copy.pickle
 .idea/
+output/

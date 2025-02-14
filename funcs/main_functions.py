@@ -19,11 +19,14 @@ from classes.Impianti11300_v2 import crea_impianti
 from classes.Results import Process #, Visual
 # from classes.Building import BuildingModel
 # from classes.thermalZone import Building
+from importlib import resources as impresources
+from resources import user_data as user_data_file
+from resources import HVAC_data as HVAC_data_file
 from progressbar import progressbar as pg
 import time
 import sys
-global main_wd 
-main_wd = sys.path[0]
+# global main_wd
+# main_wd = sys.path[0]
 #########################################################
 # Config loading
 # Loads a global config object
@@ -206,11 +209,13 @@ def process_building_data(istat_data, envelopes_data, consumption_appliances, us
 
 def process_HVAC_data(dataset, buildings_data, consumption_appliances):
     
-    file_matrici = os.path.join(main_wd, 'resources','HVAC_data','Impianti.xlsx')
-    
+    # file_matrici = os.path.join(main_wd, 'resources','HVAC_data','Impianti.xlsx')
+
+    hvac_file = impresources.files(HVAC_data_file) / (f'Impianti.xlsx')
+
     info_acs = consumption_appliances["DHW_info"]
     
-    info_impianti = crea_impianti(dataset, file_matrici, info_acs) # P_desing risc
+    info_impianti = crea_impianti(dataset, hvac_file, info_acs) # P_desing risc
     
     info_impianti["PDC"] = info_impianti["PDC"].fillna("No")
     info_impianti["PDC acs"] = info_impianti["PDC acs"].fillna("No")
@@ -268,9 +273,11 @@ def process_users_data(istat_data, consumption_appliances):
     
     print("\nOverwriting real users on standard users data..")
     # Import building envelopes
-    standard_users_path = os.path.join(main_wd,'resources', 'user_data', 'standard_users.pickle')
-    
-    with open(standard_users_path, 'rb') as handle:
+    # standard_users_path = os.path.join(main_wd,'resources', 'user_data', 'standard_users.pickle')
+
+    user_file = impresources.files(user_data_file) / (f'standard_users.pickle')
+
+    with open(user_file, 'rb') as handle:
         standard_users = pickle.load(handle) 
         
     
@@ -877,7 +884,7 @@ def simulate_hvac(building_data, weather_data, **kwargs):
     return results_dict
 
 
-def process_results(consumption_appliances, consumption_hvac, buildings_data, **kwargs):
+def process_results(output_path, consumption_appliances, consumption_hvac, buildings_data, **kwargs):
     
     save_results = kwargs['save_results']
     
@@ -892,7 +899,7 @@ def process_results(consumption_appliances, consumption_hvac, buildings_data, **
     if save_results is True:
         from funcs.io_functions import save_output
         # results = res.all
-        save_output(res)
+        save_output(output_path, res)
     
     return res
 

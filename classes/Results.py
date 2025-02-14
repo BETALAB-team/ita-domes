@@ -11,10 +11,12 @@ import geopandas as gpd
 from funcs.aux_functions import decodificRegion2
 import os
 import sys
-global main_wd 
+# global main_wd
 from pathlib import Path
 import json
-main_wd = sys.path[0]
+from importlib import resources as impresources
+from resources import conversion_factors as conversion_factors_file
+# main_wd = sys.path[0]
 
 class Process(object):
     
@@ -138,11 +140,12 @@ class Process(object):
     
 
     def read_fuel_properties(self):
-        
-        conv_filename = 'Fuels.xlsx'
-        conv_filepath = os.path.join(main_wd, 'resources', 'conversion_factors', conv_filename)
-        
+
+        # conv_filepath = os.path.join(main_wd, 'resources', 'conversion_factors', conv_filename)
+
+        conv_filepath = impresources.files(conversion_factors_file) / 'Fuels.xlsx'
         self.fuel_properties = pd.read_excel(conv_filepath, sheet_name='Properties', index_col=0)
+
         # self.pe_conversion_factors = pd.read_excel(conv_filepath, sheet_name='PrimaryEnergy', index_col=0)
               
         return

@@ -61,7 +61,8 @@ consumption_hvac = simulate_hvac(buildings_data, weather_data, output_folder = N
 #%% (5) Processing dei risultati
 
 # summary risultati per ogni utente
-res = process_results(consumption_appliances, consumption_hvac, buildings_data, 
+output_path = "."
+res = process_results(output_path, consumption_appliances, consumption_hvac, buildings_data,
                       save_results = True)
 
 
