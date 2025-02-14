@@ -16,7 +16,7 @@ and activate it:
 
 2. As second step, install the libraries listed in the requirements file.
 
-`pip install -r venv/requirements.txt`
+`pip install git+https://github.com/BETALAB-team/ita-domes.git`
 
 
 3. Since the simulation relies on EUReCA, you need to install it inside `gtenv` as explained [here](https://github.com/BETALAB-team/EUReCA/tree/main).
