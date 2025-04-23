@@ -6,7 +6,7 @@ Created on Tue Apr 30 12:05:03 2024
 """
 
 import sys
-sys.path.insert(0, r"C:\Projects\GRINS-Tool")
+sys.path.insert(0, r"C:\Projects\ita-domes")
 
 from funcs.io_functions import read_istat_data, read_appliances_data, read_weather_data, read_envelopes_data
 from funcs.main_functions import process_building_data, process_users_data, process_HVAC_data, process_results 
@@ -22,7 +22,7 @@ logging.getLogger().setLevel(logging.CRITICAL)
 # lettura file istat 
 istat_data = read_istat_data(year = 2013, 
                              selected_regions = None,
-                             number_of_buildings = 10) #None
+                             number_of_buildings = 20000) #None
 
 # lettura file elettrodomestici
 appliances_data = read_appliances_data(year = 2013)
@@ -61,7 +61,7 @@ consumption_hvac = simulate_hvac(buildings_data, weather_data, output_folder = N
 #%% (5) Processing dei risultati
 
 # summary risultati per ogni utente
-output_path = "."
+output_path = "C:\Data\grins\sim_istat2013_weather2013"
 res = process_results(output_path, consumption_appliances, consumption_hvac, buildings_data,
                       save_results = True)
 

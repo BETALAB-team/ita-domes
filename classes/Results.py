@@ -16,7 +16,7 @@ from pathlib import Path
 import json
 from importlib import resources as impresources
 from resources import conversion_factors as conversion_factors_file
-# main_wd = sys.path[0]
+main_wd = sys.path[0]
 
 class Process(object):
     

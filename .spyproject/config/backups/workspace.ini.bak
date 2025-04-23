@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['simulation.py', 'funcs\\io_functions.py', '.gitignore']
+recent_files = ['simulation.py', 'analysis.py', 'classes\\Results.py', 'funcs\\io_functions.py']
 
 [main]
 version = 0.2.0

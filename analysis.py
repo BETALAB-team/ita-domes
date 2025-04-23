@@ -7,7 +7,8 @@ Created on Wed Dec 11 16:27:49 2024
 
 
 import sys
-sys.path.insert(0, r"C:\Projects\GRINS-Tool")
+sys.path.insert(0, r"C:\Projects\ita-domes")
+sys.path.insert(1, r"C:\Data\grins\sim_istat2013_weather2013")
 from funcs.io_functions import import_output
 from classes.Results import PostProcess
 
@@ -19,7 +20,7 @@ from classes.Results import PostProcess
 
 
 #%%
-res = import_output('output_weather2013_v3.pickle')  #  #output_2024-11-25_19-56-49.pickle
+res = import_output('output_weather2013_v1.pickle')  #  #output_2024-11-25_19-56-49.pickle
 # results = res.all
 # results['info'] = {'model': '1C', 'um': 'GWh'}
 results = res.resume
