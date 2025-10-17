@@ -2,6 +2,8 @@ dist/
 build/
 ita_domes.egg-info/
 resources/weather_data/CTI/*.xlsx
+resources/weather_data/CTI
+resources/weather_data/WeatherData_2022.pickle
 resources/weather_data/epw_template_files/
 resources/weather_data/analyze_weather_data.py/
 resources/weather_data/replace_weather_data.py/

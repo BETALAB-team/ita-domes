@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['simulation.py', 'analysis.py', 'classes\\Results.py', 'funcs\\io_functions.py']
+recent_files = ['simulation.py', 'analysis.py', 'classes\\Results.py', 'resources\\istat_data\\Microdati21\\process_microdata_21.py', '..\\..\\Users\\vivijac14771\\OneDrive - Università degli Studi di Padova\\Documents\\Articoli\\2025\\Articolo-UBEM-Padova\\RisultatiSim\\output_processing_filtered_v1.py', '..\\..\\Users\\vivijac14771\\OneDrive - Università degli Studi di Padova\\Documents\\Presentazioni\\UrbanFuturesSymposium - Empa\\graph-padua.py']
 
 [main]
 version = 0.2.0
