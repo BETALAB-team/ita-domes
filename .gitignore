@@ -12,6 +12,7 @@ resources/weather_data/WeatherData_CTI_eureca_classes.dat
 resources/user_data/schedules_EN16798_Residential.xlsx/
 resources/user_data/create_standard_users.py/
 resources/istat_data/Reg01012024_g/
+resources/istat_data/Microdati21
 resources/istat_data/domande istat.xlsx/
 resources/istat_data/residential_buildings_census.csv/
 resources/envelope_data/envelopes.pickle
