@@ -2,6 +2,14 @@ dist/
 build/
 ita_domes.egg-info/
 resources/weather_data/CTI
+resources/weather_data/WeatherData_2014.pickle
+resources/weather_data/WeatherData_2015.pickle
+resources/weather_data/WeatherData_2016.pickle
+resources/weather_data/WeatherData_2017.pickle
+resources/weather_data/WeatherData_2018.pickle
+resources/weather_data/WeatherData_2019.pickle
+resources/weather_data/WeatherData_2020.pickle
+resources/weather_data/WeatherData_2021.pickle
 resources/weather_data/WeatherData_2022.pickle
 resources/weather_data/epw_template_files/
 resources/weather_data/analyze_weather_data.py
