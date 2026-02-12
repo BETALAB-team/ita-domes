@@ -30,7 +30,7 @@ You can find the documentation on how to use the tool by opening two files local
 
 ## How to cite
 
-It will be updated when we'll have a publication.
+Vivian, J.; Prataviera, E.; Carnieletto, L.; Pasut, W.; Zarrella, A. A model to simulate the energy consumption of the Italian residential building stock with regional resolution. Proc. of the 27th REHVA World Congress - CLIMA 2025 Conference. Milan, 4-6 June 2025. https://hdl.handle.net/11577/3560800
 
 
 ## Acknowledgements
