@@ -1,0 +1,8 @@
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+text=(ROOT/'04_analysis/check_full_step_balances_v3.py').read_text()
+text=text.replace("SITE=sys.argv[1]\nRUN=ROOT/'05_simulations/climate_campaign_v3'/SITE", "import argparse\nparser=argparse.ArgumentParser();parser.add_argument('SITE');parser.add_argument('--campaign',required=True);args=parser.parse_args()\nSITE=args.SITE\nRUN=ROOT/'05_simulations'/args.campaign/SITE\nassert RUN.resolve().is_relative_to((ROOT/'05_simulations').resolve())\ndesign=json.loads((RUN/'design.json').read_text())")
+text=text.replace("for case in ['seeded','early','late','repeat_seeded','warmup_seeded']:", "for case,warmup in design['cases']:")
+text=text.replace("'prior_numerical_checks_pass':json.loads((RUN/'checks.json').read_text())['pass']", "'prior_numerical_checks_pass':json.loads((RUN/'checks.json').read_text())['pass'] if (RUN/'checks.json').exists() else bool(design['replay_only_seeded'])")
+text=text.replace("gate['pass']=", "forcing=json.loads((RUN/'weather_forcing_correction.json').read_text())\ngate['forcing_gate_pass']=forcing['active_forcing_gate_pass'] and 0<forcing['corrected_IR_mean_delta_K']<50\ngate['longwave_sign_checks_pass']=all(json.loads((RUN/f'{case}_longwave_check.json').read_text())['pass'] for case,warmup in design['cases'])\ngate['invalid_weather_fields_blocked']=forcing['active_path_guarded_invalid_keys']==['wind_speed','opaque_sky_coverage']\ngate['pass']=gate['forcing_gate_pass'] and gate['longwave_sign_checks_pass'] and gate['invalid_weather_fields_blocked'] and ")
+(ROOT/'04_analysis/check_full_step_balances_v4.py').write_text(text)

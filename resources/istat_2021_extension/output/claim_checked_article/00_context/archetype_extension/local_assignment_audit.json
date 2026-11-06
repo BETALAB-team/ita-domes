@@ -1,0 +1,907 @@
+{
+  "original_candidate_stats": [
+    {
+      "label": "Cluster 1",
+      "n": 6953,
+      "household_share_pct": 38.94147297675721,
+      "people_share_pct": 28.022355582023913,
+      "max_age_mean": 78.05796059254997,
+      "max_age_sd": 5.073363418982572,
+      "min_age_mean": 71.10455918308644,
+      "min_age_sd": 10.06277038085945,
+      "number_mean": 1.7595282611822236,
+      "number_sd": 0.5724208244074348,
+      "studio_ind_mean": 0.491113804935177,
+      "studio_ind_sd": 0.1221509909671134
+    },
+    {
+      "label": "Cluster 2",
+      "n": 4172,
+      "household_share_pct": 23.366003920470458,
+      "people_share_pct": 34.353383114205876,
+      "max_age_mean": 55.6653883029722,
+      "max_age_sd": 7.18310175816304,
+      "min_age_mean": 20.536193672099714,
+      "min_age_sd": 7.261785281515096,
+      "number_mean": 3.5949185043144776,
+      "number_sd": 0.8645239427779952,
+      "studio_ind_mean": 0.7594836070147671,
+      "studio_ind_sd": 0.08815656413615038
+    },
+    {
+      "label": "Cluster 3",
+      "n": 2702,
+      "household_share_pct": 15.13301596191543,
+      "people_share_pct": 21.208026020431536,
+      "max_age_mean": 70.92524056254626,
+      "max_age_sd": 7.543895943756857,
+      "min_age_mean": 33.60732790525537,
+      "min_age_sd": 9.810805135723323,
+      "number_mean": 3.426720947446336,
+      "number_sd": 0.6243814406959214,
+      "studio_ind_mean": 0.5822249049303083,
+      "studio_ind_sd": 0.0843245099032939
+    },
+    {
+      "label": "Cluster 4",
+      "n": 1451,
+      "household_share_pct": 8.126575189022683,
+      "people_share_pct": 6.026386916487242,
+      "max_age_mean": 70.9565816678153,
+      "max_age_sd": 9.323691168019328,
+      "min_age_mean": 60.06822880771882,
+      "min_age_sd": 15.354348936848721,
+      "number_mean": 1.8132322536181944,
+      "number_sd": 0.6002217640348071,
+      "studio_ind_mean": 0.7900161902574031,
+      "studio_ind_sd": 0.07240457147006285
+    },
+    {
+      "label": "Cluster 5",
+      "n": 2577,
+      "household_share_pct": 14.43293195183422,
+      "people_share_pct": 10.389848366851437,
+      "max_age_mean": 59.49786573535118,
+      "max_age_sd": 7.637716924711738,
+      "min_age_mean": 52.190143577803646,
+      "min_age_sd": 10.656494783656486,
+      "number_mean": 1.760186263096624,
+      "number_sd": 0.5263975448560516,
+      "studio_ind_mean": 0.5034416172367278,
+      "studio_ind_sd": 0.09637744603596732
+    }
+  ],
+  "original_to_numeric_labels": [
+    {
+      "original": "Cluster 1",
+      "numeric": "0",
+      "n": 6875
+    },
+    {
+      "original": "Cluster 1",
+      "numeric": "2",
+      "n": 66
+    },
+    {
+      "original": "Cluster 1",
+      "numeric": "3",
+      "n": 12
+    },
+    {
+      "original": "Cluster 2",
+      "numeric": "1",
+      "n": 4151
+    },
+    {
+      "original": "Cluster 2",
+      "numeric": "2",
+      "n": 7
+    },
+    {
+      "original": "Cluster 2",
+      "numeric": "3",
+      "n": 14
+    },
+    {
+      "original": "Cluster 3",
+      "numeric": "0",
+      "n": 287
+    },
+    {
+      "original": "Cluster 3",
+      "numeric": "1",
+      "n": 625
+    },
+    {
+      "original": "Cluster 3",
+      "numeric": "2",
+      "n": 1458
+    },
+    {
+      "original": "Cluster 3",
+      "numeric": "3",
+      "n": 332
+    },
+    {
+      "original": "Cluster 4",
+      "numeric": "3",
+      "n": 1451
+    },
+    {
+      "original": "Cluster 5",
+      "numeric": "0",
+      "n": 1
+    },
+    {
+      "original": "Cluster 5",
+      "numeric": "1",
+      "n": 25
+    },
+    {
+      "original": "Cluster 5",
+      "numeric": "2",
+      "n": 2549
+    },
+    {
+      "original": "Cluster 5",
+      "numeric": "3",
+      "n": 2
+    }
+  ],
+  "original_to_baseline": [
+    {
+      "original": "Cluster 1",
+      "baseline": "1",
+      "n": 6871
+    },
+    {
+      "original": "Cluster 1",
+      "baseline": "3",
+      "n": 68
+    },
+    {
+      "original": "Cluster 1",
+      "baseline": "4",
+      "n": 14
+    },
+    {
+      "original": "Cluster 2",
+      "baseline": "2",
+      "n": 4135
+    },
+    {
+      "original": "Cluster 2",
+      "baseline": "3",
+      "n": 7
+    },
+    {
+      "original": "Cluster 2",
+      "baseline": "4",
+      "n": 30
+    },
+    {
+      "original": "Cluster 3",
+      "baseline": "1",
+      "n": 276
+    },
+    {
+      "original": "Cluster 3",
+      "baseline": "2",
+      "n": 599
+    },
+    {
+      "original": "Cluster 3",
+      "baseline": "3",
+      "n": 1466
+    },
+    {
+      "original": "Cluster 3",
+      "baseline": "4",
+      "n": 361
+    },
+    {
+      "original": "Cluster 4",
+      "baseline": "1",
+      "n": 2
+    },
+    {
+      "original": "Cluster 4",
+      "baseline": "2",
+      "n": 17
+    },
+    {
+      "original": "Cluster 4",
+      "baseline": "3",
+      "n": 3
+    },
+    {
+      "original": "Cluster 4",
+      "baseline": "4",
+      "n": 1429
+    },
+    {
+      "original": "Cluster 5",
+      "baseline": "1",
+      "n": 16
+    },
+    {
+      "original": "Cluster 5",
+      "baseline": "2",
+      "n": 30
+    },
+    {
+      "original": "Cluster 5",
+      "baseline": "3",
+      "n": 2521
+    },
+    {
+      "original": "Cluster 5",
+      "baseline": "4",
+      "n": 10
+    }
+  ],
+  "same_ids_original_baseline": true,
+  "same_semantic_label_n": 13901,
+  "raw_id_join_n": 17855,
+  "original_features_match_baseline": {
+    "max_age": 3997,
+    "min_age": 4088,
+    "number": 17855,
+    "studio_ind": 17855
+  },
+  "original_id3523": {
+    "max_age": "73",
+    "min_age": "70",
+    "number": "2",
+    "studio_ind": "0.3809523809523809",
+    "identi": "3523",
+    "loneliness": "52.25",
+    "generation": "91.28",
+    "segment": "Cluster 1",
+    "new1": "50.75",
+    "new2": "38.09523809523809"
+  },
+  "baseline_id3523": {
+    "id": "3523",
+    "agemin": "70",
+    "agemax": "72",
+    "nmembers": "2",
+    "education": "0.380952380952",
+    "pc1": "-51.5",
+    "pc2": "91.3333333333",
+    "pc1_scaled": "0.196506550218",
+    "pc2_scaled": "0.676470588235",
+    "education_scaled": "0.380952380952",
+    "archetype": "1"
+  },
+  "tracked_source_checks": [
+    {
+      "path": "Clustered.csv",
+      "worktree_sha256": "9e51b19d917c9d74e6406f54e561d0fd82c733bc617e1047feefe320990db1a2",
+      "HEAD_blob_sha256": "1cb54e0d0da5be023880b914d89703502fa0ba181162a5a97b640112de76603f",
+      "byte_identical_to_HEAD": false,
+      "LF_normalized_worktree_equals_HEAD": true
+    },
+    {
+      "path": "clusters.csv",
+      "worktree_sha256": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90",
+      "HEAD_blob_sha256": "5fe10886fc70792cb0a2212fc8249283654e4ace9f172d061f8428b036efadd0",
+      "byte_identical_to_HEAD": false,
+      "LF_normalized_worktree_equals_HEAD": true
+    },
+    {
+      "path": "family_trees.csv",
+      "worktree_sha256": "4a554cbffdfe3ce6f11dbdbb1609977fc96cad28d36bf401a3f9d825ba4725e6",
+      "HEAD_blob_sha256": "d4f7cbdc34117a3e88724deaac613fc50c2b58d75dcadd7c77570a31ce3d6650",
+      "byte_identical_to_HEAD": false,
+      "LF_normalized_worktree_equals_HEAD": true
+    },
+    {
+      "path": "01_PCA_Exploratory.py",
+      "worktree_sha256": "557450d3ff5d52adeee4b38f071058b9169f20631d03804209381d86d4b95939",
+      "HEAD_blob_sha256": "12f81393f4094d44d5f7140b45d8c581d2c559bdf9935789778b55b460a72de6",
+      "byte_identical_to_HEAD": false,
+      "LF_normalized_worktree_equals_HEAD": true
+    },
+    {
+      "path": "03_PCA_Clustering.py",
+      "worktree_sha256": "c2fe140e16a339cb0a27f95a90bb7609e6138a85ce03fbf2afcafd93614a62d0",
+      "HEAD_blob_sha256": "9c1364871008bae538c95d7232e8b62752d7959a1250d37a5249cc33d836dd51",
+      "byte_identical_to_HEAD": false,
+      "LF_normalized_worktree_equals_HEAD": true
+    }
+  ],
+  "numeric_four_group_stats": [
+    {
+      "numeric_segment": "0",
+      "candidate_published_cluster": 1,
+      "n": 7163,
+      "household_share_pct": 40.11761411369364,
+      "people_share_pct": 29.89371936414861,
+      "max_age_mean": 78.2540834845735,
+      "max_age_sd": 5.024230148661411,
+      "min_age_mean": 70.18818930615664,
+      "min_age_sd": 11.244163342520853,
+      "number_mean": 1.8220019544883428,
+      "number_sd": 0.6574867411989118,
+      "studio_ind_mean": 0.49237465163054994,
+      "studio_ind_sd": 0.12088015680836826
+    },
+    {
+      "numeric_segment": "1",
+      "candidate_published_cluster": 2,
+      "n": 4801,
+      "household_share_pct": 26.888826659199104,
+      "people_share_pct": 40.21027074075771,
+      "max_age_mean": 57.23078525307228,
+      "max_age_sd": 8.577784896895924,
+      "min_age_mean": 21.150801916267444,
+      "min_age_sd": 7.5696325787735335,
+      "number_mean": 3.656529889606332,
+      "number_sd": 0.8751925726138841,
+      "studio_ind_mean": 0.7446408872049364,
+      "studio_ind_sd": 0.09299607539530157
+    },
+    {
+      "numeric_segment": "2",
+      "candidate_published_cluster": 3,
+      "n": 4080,
+      "household_share_pct": 22.850742089050687,
+      "people_share_pct": 21.253836639333,
+      "max_age_mean": 63.01372549019608,
+      "max_age_sd": 7.999344655870261,
+      "min_age_mean": 45.963725490196076,
+      "min_age_sd": 12.841774113650088,
+      "number_mean": 2.274264705882353,
+      "number_sd": 0.822295621578031,
+      "studio_ind_mean": 0.5158518129474011,
+      "studio_ind_sd": 0.08705055039745246
+    },
+    {
+      "numeric_segment": "3",
+      "candidate_published_cluster": 4,
+      "n": 1811,
+      "household_share_pct": 10.142817138056566,
+      "people_share_pct": 8.642173255760685,
+      "max_age_mean": 72.06073992269464,
+      "max_age_sd": 9.047062910001001,
+      "min_age_mean": 55.600220872446165,
+      "min_age_sd": 17.12554487436841,
+      "number_mean": 2.0833793484262837,
+      "number_sd": 0.7958489398251346,
+      "studio_ind_mean": 0.7694965218432915,
+      "studio_ind_sd": 0.07900602190066569
+    }
+  ],
+  "numeric_vs_baseline": [
+    {
+      "numeric": "0",
+      "baseline": "1",
+      "n": 7074
+    },
+    {
+      "numeric": "0",
+      "baseline": "3",
+      "n": 84
+    },
+    {
+      "numeric": "0",
+      "baseline": "4",
+      "n": 5
+    },
+    {
+      "numeric": "1",
+      "baseline": "2",
+      "n": 4738
+    },
+    {
+      "numeric": "1",
+      "baseline": "3",
+      "n": 18
+    },
+    {
+      "numeric": "1",
+      "baseline": "4",
+      "n": 45
+    },
+    {
+      "numeric": "2",
+      "baseline": "1",
+      "n": 86
+    },
+    {
+      "numeric": "2",
+      "baseline": "2",
+      "n": 13
+    },
+    {
+      "numeric": "2",
+      "baseline": "3",
+      "n": 3956
+    },
+    {
+      "numeric": "2",
+      "baseline": "4",
+      "n": 25
+    },
+    {
+      "numeric": "3",
+      "baseline": "1",
+      "n": 5
+    },
+    {
+      "numeric": "3",
+      "baseline": "2",
+      "n": 30
+    },
+    {
+      "numeric": "3",
+      "baseline": "3",
+      "n": 7
+    },
+    {
+      "numeric": "3",
+      "baseline": "4",
+      "n": 1769
+    }
+  ],
+  "numeric_plus1_baseline_label_agreement_n": 17537,
+  "terminology_note": "Clustered.csv hasfivegroupsandisnotpublishedfour-groupassignment. clusters.csv hasfourgroups. Bytehashdifferencesfromgitblobmaybelinendings;normalizationcheckincluded.",
+  "ID_join_checks": {
+    "archived_unique_n": 17855,
+    "official_raw_unique_n": 20000,
+    "compact_unique_n": 20000,
+    "archive_missing_from_raw": 0,
+    "archive_missing_from_compact": 0,
+    "outside_archived_assignment_domain": 2145,
+    "join_rule": "One-to-oneIDjoin,notrowposition"
+  },
+  "published_rounded_comparison": [
+    {
+      "archetype_id": 1,
+      "metric": "min_age_mean",
+      "published": 70.2,
+      "archived_derived": 70.18818930615664,
+      "archived_rounded_1decimal": 70.2,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 1,
+      "metric": "min_age_sd",
+      "published": 11.2,
+      "archived_derived": 11.244163342520853,
+      "archived_rounded_1decimal": 11.2,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 1,
+      "metric": "max_age_mean",
+      "published": 78.3,
+      "archived_derived": 78.2540834845735,
+      "archived_rounded_1decimal": 78.3,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 1,
+      "metric": "max_age_sd",
+      "published": 5.0,
+      "archived_derived": 5.024230148661411,
+      "archived_rounded_1decimal": 5.0,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 1,
+      "metric": "number_mean",
+      "published": 1.8,
+      "archived_derived": 1.8220019544883428,
+      "archived_rounded_1decimal": 1.8,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 1,
+      "metric": "number_sd",
+      "published": 0.7,
+      "archived_derived": 0.6574867411989118,
+      "archived_rounded_1decimal": 0.7,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 1,
+      "metric": "studio_ind_mean",
+      "published": 0.5,
+      "archived_derived": 0.49237465163054994,
+      "archived_rounded_1decimal": 0.5,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 1,
+      "metric": "studio_ind_sd",
+      "published": 0.1,
+      "archived_derived": 0.12088015680836826,
+      "archived_rounded_1decimal": 0.1,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 1,
+      "metric": "household_share_pct",
+      "published": 40.1,
+      "archived_derived": 40.11761411369364,
+      "archived_rounded_1decimal": 40.1,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 1,
+      "metric": "people_share_pct",
+      "published": 29.9,
+      "archived_derived": 29.89371936414861,
+      "archived_rounded_1decimal": 29.9,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 2,
+      "metric": "min_age_mean",
+      "published": 21.2,
+      "archived_derived": 21.150801916267444,
+      "archived_rounded_1decimal": 21.2,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 2,
+      "metric": "min_age_sd",
+      "published": 7.6,
+      "archived_derived": 7.5696325787735335,
+      "archived_rounded_1decimal": 7.6,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 2,
+      "metric": "max_age_mean",
+      "published": 57.2,
+      "archived_derived": 57.23078525307228,
+      "archived_rounded_1decimal": 57.2,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 2,
+      "metric": "max_age_sd",
+      "published": 8.6,
+      "archived_derived": 8.577784896895924,
+      "archived_rounded_1decimal": 8.6,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 2,
+      "metric": "number_mean",
+      "published": 3.7,
+      "archived_derived": 3.656529889606332,
+      "archived_rounded_1decimal": 3.7,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 2,
+      "metric": "number_sd",
+      "published": 0.9,
+      "archived_derived": 0.8751925726138841,
+      "archived_rounded_1decimal": 0.9,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 2,
+      "metric": "studio_ind_mean",
+      "published": 0.7,
+      "archived_derived": 0.7446408872049364,
+      "archived_rounded_1decimal": 0.7,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 2,
+      "metric": "studio_ind_sd",
+      "published": 0.1,
+      "archived_derived": 0.09299607539530157,
+      "archived_rounded_1decimal": 0.1,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 2,
+      "metric": "household_share_pct",
+      "published": 26.9,
+      "archived_derived": 26.888826659199104,
+      "archived_rounded_1decimal": 26.9,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 2,
+      "metric": "people_share_pct",
+      "published": 40.2,
+      "archived_derived": 40.21027074075771,
+      "archived_rounded_1decimal": 40.2,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 3,
+      "metric": "min_age_mean",
+      "published": 46.0,
+      "archived_derived": 45.963725490196076,
+      "archived_rounded_1decimal": 46.0,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 3,
+      "metric": "min_age_sd",
+      "published": 12.8,
+      "archived_derived": 12.841774113650088,
+      "archived_rounded_1decimal": 12.8,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 3,
+      "metric": "max_age_mean",
+      "published": 63.0,
+      "archived_derived": 63.01372549019608,
+      "archived_rounded_1decimal": 63.0,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 3,
+      "metric": "max_age_sd",
+      "published": 8.0,
+      "archived_derived": 7.999344655870261,
+      "archived_rounded_1decimal": 8.0,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 3,
+      "metric": "number_mean",
+      "published": 2.3,
+      "archived_derived": 2.274264705882353,
+      "archived_rounded_1decimal": 2.3,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 3,
+      "metric": "number_sd",
+      "published": 0.8,
+      "archived_derived": 0.822295621578031,
+      "archived_rounded_1decimal": 0.8,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 3,
+      "metric": "studio_ind_mean",
+      "published": 0.5,
+      "archived_derived": 0.5158518129474011,
+      "archived_rounded_1decimal": 0.5,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 3,
+      "metric": "studio_ind_sd",
+      "published": 0.1,
+      "archived_derived": 0.08705055039745246,
+      "archived_rounded_1decimal": 0.1,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 3,
+      "metric": "household_share_pct",
+      "published": 22.9,
+      "archived_derived": 22.850742089050687,
+      "archived_rounded_1decimal": 22.9,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 3,
+      "metric": "people_share_pct",
+      "published": 21.3,
+      "archived_derived": 21.253836639333,
+      "archived_rounded_1decimal": 21.3,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 4,
+      "metric": "min_age_mean",
+      "published": 55.6,
+      "archived_derived": 55.600220872446165,
+      "archived_rounded_1decimal": 55.6,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 4,
+      "metric": "min_age_sd",
+      "published": 17.1,
+      "archived_derived": 17.12554487436841,
+      "archived_rounded_1decimal": 17.1,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 4,
+      "metric": "max_age_mean",
+      "published": 72.2,
+      "archived_derived": 72.06073992269464,
+      "archived_rounded_1decimal": 72.1,
+      "one_decimal_match": false,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 4,
+      "metric": "max_age_sd",
+      "published": 9.0,
+      "archived_derived": 9.047062910001001,
+      "archived_rounded_1decimal": 9.0,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 4,
+      "metric": "number_mean",
+      "published": 2.1,
+      "archived_derived": 2.0833793484262837,
+      "archived_rounded_1decimal": 2.1,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 4,
+      "metric": "number_sd",
+      "published": 0.8,
+      "archived_derived": 0.7958489398251346,
+      "archived_rounded_1decimal": 0.8,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 4,
+      "metric": "studio_ind_mean",
+      "published": 0.8,
+      "archived_derived": 0.7694965218432915,
+      "archived_rounded_1decimal": 0.8,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 4,
+      "metric": "studio_ind_sd",
+      "published": 0.1,
+      "archived_derived": 0.07900602190066569,
+      "archived_rounded_1decimal": 0.1,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 4,
+      "metric": "household_share_pct",
+      "published": 10.1,
+      "archived_derived": 10.142817138056566,
+      "archived_rounded_1decimal": 10.1,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    },
+    {
+      "archetype_id": 4,
+      "metric": "people_share_pct",
+      "published": 8.6,
+      "archived_derived": 8.642173255760685,
+      "archived_rounded_1decimal": 8.6,
+      "one_decimal_match": true,
+      "source_locator": "ARCH2025-FULLp7Table3orFig5"
+    }
+  ],
+  "published_rounded_match_count": 39,
+  "published_rounded_comparisons": 40,
+  "baseline_disagreement_n": 318,
+  "baseline_disagreement_denominator": 17855,
+  "archived_feature_ranges": [
+    {
+      "archetype_id": 1,
+      "evidence_class": "Derived range in archived features;not published thresholds or exact observed ages",
+      "min_age": {
+        "min": 30.0,
+        "max": 84.0
+      },
+      "max_age": {
+        "min": 70.0,
+        "max": 84.0
+      },
+      "number": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "studio_ind": {
+        "min": 0.0,
+        "max": 0.6666666666666666
+      }
+    },
+    {
+      "archetype_id": 2,
+      "evidence_class": "Derived range in archived features;not published thresholds or exact observed ages",
+      "min_age": {
+        "min": 11.0,
+        "max": 51.0
+      },
+      "max_age": {
+        "min": 21.0,
+        "max": 84.0
+      },
+      "number": {
+        "min": 1.0,
+        "max": 6.0
+      },
+      "studio_ind": {
+        "min": 0.4761904761904761,
+        "max": 1.0
+      }
+    },
+    {
+      "archetype_id": 3,
+      "evidence_class": "Derived range in archived features;not published thresholds or exact observed ages",
+      "min_age": {
+        "min": 11.0,
+        "max": 64.0
+      },
+      "max_age": {
+        "min": 22.0,
+        "max": 84.0
+      },
+      "number": {
+        "min": 1.0,
+        "max": 5.0
+      },
+      "studio_ind": {
+        "min": 0.0,
+        "max": 0.7142857142857142
+      }
+    },
+    {
+      "archetype_id": 4,
+      "evidence_class": "Derived range in archived features;not published thresholds or exact observed ages",
+      "min_age": {
+        "min": 11.0,
+        "max": 84.0
+      },
+      "max_age": {
+        "min": 50.0,
+        "max": 84.0
+      },
+      "number": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "studio_ind": {
+        "min": 0.6137566137566137,
+        "max": 1.0
+      }
+    }
+  ]
+}

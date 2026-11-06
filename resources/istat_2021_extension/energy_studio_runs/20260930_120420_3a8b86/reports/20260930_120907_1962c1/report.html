@@ -1,0 +1,129 @@
+<!doctype html><meta charset="utf-8"><title>Independent schedule benchmark</title>
+    <style>body{font:16px system-ui;max-width:1180px;margin:35px auto;padding:20px;color:#223746}img{max-width:100%}table{border-collapse:collapse}td,th{padding:9px;border-bottom:1px solid #ddd}section{margin:40px 0}</style>
+    <h1>Independent schedule benchmark</h1><p>45 cases. Reference: Milano__Multi-family__P2.</p>
+    <p>Schedule evidence: <b>synthetic</b>. Predeclared Energy Studio synthetic stress-test cases; no ISTAT inputs.</p>
+    <p>EnergyPlus receives independent schedules. The known-aggregate hybrid receives only household size, annual appliance kWh, mean presence and equivalent thermostat hours. The ISTAT-profile hybrid receives demographic assignments and frozen survey indices. Both use only one reference EP result. No target thermal solver, 1R1C state or hourly hybrid prediction is used.</p>
+    <p>Target EP outputs are evaluation only. Geometry and weather are shared experimental controls. This is a model-to-model stress test, not measured-building validation. Synthetic household cases are not a representative population sample.</p>
+    <h2>Accuracy (reference excluded)</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>method</th>
+      <th>end_use</th>
+      <th>n</th>
+      <th>mae_kwh</th>
+      <th>rmse_kwh</th>
+      <th>bias_kwh</th>
+      <th>cvrmse_percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>istat_profile</td>
+      <td>appliance_kwh</td>
+      <td>44</td>
+      <td>364.54</td>
+      <td>469.35</td>
+      <td>247.35</td>
+      <td>31.28</td>
+    </tr>
+    <tr>
+      <td>istat_profile</td>
+      <td>cooling_kwh</td>
+      <td>44</td>
+      <td>344.94</td>
+      <td>433.07</td>
+      <td>260.15</td>
+      <td>37.68</td>
+    </tr>
+    <tr>
+      <td>istat_profile</td>
+      <td>heating_kwh</td>
+      <td>44</td>
+      <td>202.57</td>
+      <td>249.88</td>
+      <td>-171.47</td>
+      <td>11.34</td>
+    </tr>
+    <tr>
+      <td>known_summary</td>
+      <td>cooling_kwh</td>
+      <td>44</td>
+      <td>295.62</td>
+      <td>378.92</td>
+      <td>281.90</td>
+      <td>32.97</td>
+    </tr>
+    <tr>
+      <td>known_summary</td>
+      <td>heating_kwh</td>
+      <td>44</td>
+      <td>83.57</td>
+      <td>107.89</td>
+      <td>-30.56</td>
+      <td>4.90</td>
+    </tr>
+  </tbody>
+</table>
+    <p>Known-aggregate appliance accuracy is excluded: annual appliance energy was supplied as an input. EP thermal demand is ideal sensible load, not delivered fuel or HVAC electricity.</p>
+    <h2>Demographic-only assignment</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>profile_id</th>
+      <th>agemin</th>
+      <th>agemax</th>
+      <th>nmembers</th>
+      <th>education</th>
+      <th>archetype</th>
+      <th>outside_reference_range</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P1</td>
+      <td>72</td>
+      <td>77</td>
+      <td>2</td>
+      <td>0.277778</td>
+      <td>1</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>P2</td>
+      <td>8</td>
+      <td>46</td>
+      <td>4</td>
+      <td>0.666667</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>P3</td>
+      <td>40</td>
+      <td>48</td>
+      <td>2</td>
+      <td>0.666667</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>P4</td>
+      <td>32</td>
+      <td>32</td>
+      <td>1</td>
+      <td>1.000000</td>
+      <td>4</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>P2_shift</td>
+      <td>8</td>
+      <td>46</td>
+      <td>4</td>
+      <td>0.666667</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+    <section><h2>Independent weekday schedules</h2><p>Synthetic inputs, specified before simulation. Weekend schedules differ; all 8,760 input hours are saved.</p><img src="plots/schedule_controls.png"><p><a href="plots/schedule_controls.svg">SVG</a> / <a href="plots/schedule_controls.csv">data CSV</a></p></section><section><h2>Independent weekday schedules</h2><p>Synthetic inputs, specified before simulation. Weekend schedules differ; all 8,760 input hours are saved.</p><img src="plots/schedule_electricity.png"><p><a href="plots/schedule_electricity.svg">SVG</a> / <a href="plots/schedule_electricity.csv">data CSV</a></p></section><section><h2>Aggregates seen by the transfer model</h2><p>Equivalent hours come from annual mean thermostat settings. They are not hours with positive heating energy.</p><img src="plots/input_aggregates.png"><p><a href="plots/input_aggregates.svg">SVG</a> / <a href="plots/input_aggregates.csv">data CSV</a></p></section><section><h2>Heating transfer errors</h2><p>Reference excluded. Markers only. Known aggregates test thermal transfer; ISTAT profiles add behavioural prediction error.</p><img src="plots/heating_kwh_errors.png"><p><a href="plots/heating_kwh_errors.svg">SVG</a> / <a href="plots/heating_kwh_errors.csv">data CSV</a></p></section><section><h2>Cooling transfer errors</h2><p>Reference excluded. Markers only. Known aggregates test thermal transfer; ISTAT profiles add behavioural prediction error.</p><img src="plots/cooling_kwh_errors.png"><p><a href="plots/cooling_kwh_errors.svg">SVG</a> / <a href="plots/cooling_kwh_errors.csv">data CSV</a></p></section><section><h2>Annual demand by climate</h2><p>Equal-weight scenario means; these are not Italian population estimates.</p><img src="plots/annual_climate.png"><p><a href="plots/annual_climate.svg">SVG</a> / <a href="plots/annual_climate.csv">data CSV</a></p></section><section><h2>Annual demand by exposure</h2><p>Equal-weight scenario means; these are not Italian population estimates.</p><img src="plots/annual_dwelling.png"><p><a href="plots/annual_dwelling.svg">SVG</a> / <a href="plots/annual_dwelling.csv">data CSV</a></p></section><section><h2>Error by independent household profile</h2><p>Mean absolute error, reference excluded. P2_shift is deliberately timing-shifted.</p><img src="plots/profile_errors.png"><p><a href="plots/profile_errors.svg">SVG</a> / <a href="plots/profile_errors.csv">data CSV</a></p></section><section><h2>Same totals, different timing</h2><p>P2_shift minus P2. Same household size, annual energy, mean presence and operation hours.</p><img src="plots/timing_pair.png"><p><a href="plots/timing_pair.svg">SVG</a> / <a href="plots/timing_pair.csv">data CSV</a></p></section><section><h2>Appliance electricity prediction</h2><p>Known-aggregate appliance agreement is bookkeeping and is excluded from validation metrics. ISTAT supplies a separate prediction.</p><img src="plots/appliance_prediction.png"><p><a href="plots/appliance_prediction.svg">SVG</a> / <a href="plots/appliance_prediction.csv">data CSV</a></p></section><h2>Reproducibility</h2><p>Frozen schedules: independent_inputs/. Predictions: predictions_frozen.csv. Transfer terms: known_summary_transfer_audit.csv and istat_profile_transfer_audit.csv. See INDEPENDENT_BENCHMARK.md in the application for equations and input schema.</p>
+    <p>EnergyPlus 25.1 documentation: <a href="https://bigladdersoftware.com/epx/docs/25-1/input-output-reference/group-schedules.html">Schedules</a> and <a href="https://bigladdersoftware.com/epx/docs/25-1/input-output-reference/group-internal-gains-people-lights-other.html">Internal gains</a>.</p>

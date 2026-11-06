@@ -1,0 +1,27 @@
+{
+  "original_review03_sha256": "dda6e7288e34af7368f458cc40390297efa7b3da0ab097cabb1cb606e9e77e34",
+  "replay_manifest_sha256": "712e8c1d1c22a933ec7645c765bbafca12c45de823e7ff155716ad5ea3aa8591",
+  "replay_command_argv": [
+    "C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\run_climate_campaign_v4.py",
+    "Padova",
+    "--campaign",
+    "climate_campaign_v4_replay",
+    "--replay-only-seeded"
+  ],
+  "launch_cwd": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data",
+  "replay_status": "complete_replay_seeded_only",
+  "hourly_sha256": "2ba2e81abb095ff47eee0bbdbd4f8b969972d9558db67e6b7119eb88d33c0fcc",
+  "primary_hourly_sha256": "2ba2e81abb095ff47eee0bbdbd4f8b969972d9558db67e6b7119eb88d33c0fcc",
+  "hourly_byte_identity": true,
+  "source_snapshots_identical": true,
+  "replay_source_matches_manifest": true,
+  "replay_summary_matches_manifest": true,
+  "replay_inputs_match_primary": true,
+  "prior_v3_manifests_unchanged": true,
+  "review02_sha256": "3e258716d7516c05d8b78c306b358ff5651d204ed39110b831652877fa761fd4",
+  "response02_sha256": "1f6069e8dbfcdae9692199c759ec55293e83a98871aff1e19b28bcfaa86796d2",
+  "issue_register02_sha256": "50f28e39ffb1867b063e333be8dfe991d04abd1f2b6b76b9477853affb3b14c9",
+  "new_annual_execution_by_reviewer": false
+}

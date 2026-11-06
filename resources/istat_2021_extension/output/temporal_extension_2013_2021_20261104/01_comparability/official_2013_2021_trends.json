@@ -1,0 +1,64 @@
+{
+  "access_date": "2026-11-04",
+  "sources": {
+    "2013": {
+      "url": "https://www.istat.it/wp-content/uploads/2014/12/StatReport_Consumi_energetici.pdf",
+      "depth": "OfficialPDFopened,16pages;relevantp2,p3,p5text read",
+      "publication_date": "2014-12-15"
+    },
+    "2021": {
+      "url": "https://www.istat.it/comunicato-stampa/i-consumi-energetici-delle-famiglie-anno-2021/",
+      "local_primary_pdf": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\METADATI\\ISTAT_MFR_ECH_Allegato_2_CEF2021_REPORT_21giugno2022.pdf",
+      "depth": "OfficialreleaseHTMLopened;entire locally supplied primaryPDFextracted13pages,targetp2,p4,p5,p9read",
+      "publication_date": "2022-06-21"
+    }
+  },
+  "rows": [
+    {
+      "indicator": "Any cooling availability",
+      "2013": "29.4%",
+      "2021": "48.8%",
+      "denominator": "All resident households;main dwelling",
+      "locator_2013": "2013reportp2,Figure1 and preceding paragraph;webPDFP1lines90–96",
+      "locator_2021": "June2022reportp2 overview,p5cooling section",
+      "interpretation": "Official cross-sectional equipment prevalence increased19.4percentage points. Not transition probabilities."
+    },
+    {
+      "indicator": "Unique/prevalent heating autonomous",
+      "2013": "65.8%",
+      "2021": "65.7%",
+      "denominator": "Households equipped with heating;one main/only system",
+      "locator_2013": "2013reportp3Prospetto1,Italy row",
+      "locator_2021": "June2022reportp2 I numeri chiave,Italyrow",
+      "interpretation": "Main-system mix;not system availability,which can overlap."
+    },
+    {
+      "indicator": "Unique/prevalent heating centralized",
+      "2013": "15.7%",
+      "2021": "17.1%",
+      "denominator": "Households equipped with heating",
+      "locator_2013": "2013reportp3Prospetto1",
+      "locator_2021": "June2022reportp2 keynumberstable",
+      "interpretation": "Descriptive mode-sensitive comparison."
+    },
+    {
+      "indicator": "Unique/prevalent heating individual appliances",
+      "2013": "18.5%",
+      "2021": "17.2%",
+      "denominator": "Households equipped with heating",
+      "locator_2013": "2013reportp3Prospetto1",
+      "locator_2021": "June2022reportp2 keynumberstable",
+      "interpretation": "Descriptive mix;no individual replacement inference."
+    },
+    {
+      "indicator": "Heating daily hours context",
+      "2013": "Published wording:slightly less than8hours/day",
+      "2021": "8hours33minutes/day",
+      "denominator": "2021explicitly frequency daily/almost daily orsome days/week;2013question3.11routes same two frequencies",
+      "locator_2013": "2013reportp5Figure4+text;questionnaire3.10/3.11",
+      "locator_2021": "June2022reportp4Figure2footnote(a);questionnaire3.7/3.8",
+      "interpretation": "Conditional reported main-system dailyhours.2013typicalwinter versus2021coldmonths2020;pandemic/weather/mode differences. Do not state causal behavioral increase orannualenergychange."
+    }
+  ],
+  "limitations": "Equipment2013/2021atinterview;heating/cooling2021reference2020;2021reportp9andp13note(i) explicitly warn2013not perfectly comparable because surveytechnique changed. Noexactmeasurement-equivalence orindividualtransitionclaim. Published2013archetypes unchanged."
+}

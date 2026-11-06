@@ -1,0 +1,242 @@
+{
+  "archive_hash": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90",
+  "assignment_hash": "be8bc93ad8f5143f6393e9b270840a7e5a2edd90724edb60b2fb624680b09e2f",
+  "archive_labels_match": true,
+  "archive_demographic_summaries": {
+    "1": {
+      "n": 7163,
+      "household_percent": 40.11761411369365,
+      "person_percent": 29.89371936414861,
+      "means": {
+        "min_age": 70.18818930615664,
+        "max_age": 78.2540834845735,
+        "number": 1.8220019544883428,
+        "studio_ind": 0.4923746516305499
+      },
+      "SD": {
+        "min_age": 11.244163342520851,
+        "max_age": 5.024230148661411,
+        "number": 0.6574867411989118,
+        "studio_ind": 0.12088015680836826
+      }
+    },
+    "2": {
+      "n": 4801,
+      "household_percent": 26.888826659199104,
+      "person_percent": 40.21027074075771,
+      "means": {
+        "min_age": 21.150801916267444,
+        "max_age": 57.23078525307228,
+        "number": 3.656529889606332,
+        "studio_ind": 0.7446408872049363
+      },
+      "SD": {
+        "min_age": 7.569632578773534,
+        "max_age": 8.577784896895924,
+        "number": 0.875192572613884,
+        "studio_ind": 0.09299607539530157
+      }
+    },
+    "3": {
+      "n": 4080,
+      "household_percent": 22.850742089050684,
+      "person_percent": 21.253836639333,
+      "means": {
+        "min_age": 45.963725490196076,
+        "max_age": 63.01372549019608,
+        "number": 2.274264705882353,
+        "studio_ind": 0.5158518129474011
+      },
+      "SD": {
+        "min_age": 12.841774113650088,
+        "max_age": 7.999344655870261,
+        "number": 0.822295621578031,
+        "studio_ind": 0.08705055039745246
+      }
+    },
+    "4": {
+      "n": 1811,
+      "household_percent": 10.142817138056568,
+      "person_percent": 8.642173255760685,
+      "means": {
+        "min_age": 55.600220872446165,
+        "max_age": 72.06073992269464,
+        "number": 2.0833793484262837,
+        "studio_ind": 0.7694965218432915
+      },
+      "SD": {
+        "min_age": 17.12554487436841,
+        "max_age": 9.047062910001003,
+        "number": 0.7958489398251346,
+        "studio_ind": 0.07900602190066569
+      }
+    }
+  },
+  "raw_band_columns": [
+    "q_3_11A",
+    "q_3_11B",
+    "q_3_11C",
+    "q_3_11tot"
+  ],
+  "raw_eligible_n": 13624,
+  "raw_eligible_ids_exact": true,
+  "raw_to_compact_fields": {
+    "q_3_11A": {
+      "observed_mismatch_n": 0,
+      "blank_to_zero_n": 0,
+      "affirmative_predicate_mismatch_n": 0
+    },
+    "q_3_11B": {
+      "observed_mismatch_n": 0,
+      "blank_to_zero_n": 0,
+      "affirmative_predicate_mismatch_n": 0
+    },
+    "q_3_11C": {
+      "observed_mismatch_n": 0,
+      "blank_to_zero_n": 0,
+      "affirmative_predicate_mismatch_n": 0
+    },
+    "q_3_13_2": {
+      "observed_mismatch_n": 0,
+      "blank_to_zero_n": 3364,
+      "affirmative_predicate_mismatch_n": 0
+    },
+    "q_3_13_3": {
+      "observed_mismatch_n": 0,
+      "blank_to_zero_n": 3364,
+      "affirmative_predicate_mismatch_n": 0
+    },
+    "q_3_19_6": {
+      "observed_mismatch_n": 0,
+      "blank_to_zero_n": 10248,
+      "affirmative_predicate_mismatch_n": 0
+    },
+    "q_2_32C": {
+      "observed_mismatch_n": 0,
+      "blank_to_zero_n": 8789,
+      "affirmative_predicate_mismatch_n": 0
+    },
+    "q_2_32D": {
+      "observed_mismatch_n": 0,
+      "blank_to_zero_n": 8789,
+      "affirmative_predicate_mismatch_n": 0
+    }
+  },
+  "derived_metrics_max_abs_error": 6.51925802230835e-09,
+  "site_extra": {
+    "Padova": {
+      "repeat_max_numeric_error": 0.0,
+      "warmup_relative_changes": {
+        "annual": -4.6629367034256575e-15,
+        "peak": 0.0
+      },
+      "IR_mean_delta_K": 12.77565604632737,
+      "IR_to_forcing_delta_error": 0.0,
+      "SHGC_spline_max_error": 3.3306690738754696e-16,
+      "cloud_99_n": 8760,
+      "negative_wind_n": 0,
+      "weather_metadata": {
+        "location": {
+          "latitude": 45.408,
+          "longitude": 11.873,
+          "elevation": 25.0,
+          "irradiance_time_offset": 0.1765
+        },
+        "meteo_data": {
+          "radiation_db": "PVGIS-SARAH3",
+          "meteo_db": "ERA5",
+          "year_min": 2005,
+          "year_max": 2023,
+          "use_horizon": true,
+          "horizon_db": "DEM-calculated"
+        }
+      }
+    },
+    "Bolzano": {
+      "repeat_max_numeric_error": 0.0,
+      "warmup_relative_changes": {
+        "annual": -3.4416913763379853e-15,
+        "peak": 0.0
+      },
+      "IR_mean_delta_K": 17.620782214282908,
+      "IR_to_forcing_delta_error": 0.0,
+      "SHGC_spline_max_error": 3.3306690738754696e-16,
+      "cloud_99_n": 8760,
+      "negative_wind_n": 0,
+      "weather_metadata": {
+        "location": {
+          "latitude": 46.5,
+          "longitude": 11.35,
+          "elevation": 272.0,
+          "irradiance_time_offset": 0.1777
+        },
+        "meteo_data": {
+          "radiation_db": "PVGIS-SARAH3",
+          "meteo_db": "ERA5",
+          "year_min": 2005,
+          "year_max": 2023,
+          "use_horizon": true,
+          "horizon_db": "DEM-calculated"
+        }
+      }
+    },
+    "Roma": {
+      "repeat_max_numeric_error": 0.0,
+      "warmup_relative_changes": {
+        "annual": -1.5563106359195444e-12,
+        "peak": 0.0
+      },
+      "IR_mean_delta_K": 13.551708113654966,
+      "IR_to_forcing_delta_error": 0.0,
+      "SHGC_spline_max_error": 3.3306690738754696e-16,
+      "cloud_99_n": 8760,
+      "negative_wind_n": 0,
+      "weather_metadata": {
+        "location": {
+          "latitude": 41.9,
+          "longitude": 12.5,
+          "elevation": 72.0,
+          "irradiance_time_offset": 0.1723
+        },
+        "meteo_data": {
+          "radiation_db": "PVGIS-SARAH3",
+          "meteo_db": "ERA5",
+          "year_min": 2005,
+          "year_max": 2023,
+          "use_horizon": true,
+          "horizon_db": "DEM-calculated"
+        }
+      }
+    },
+    "Palermo": {
+      "repeat_max_numeric_error": 0.0,
+      "warmup_relative_changes": {
+        "annual": -2.1478364642391057e-08,
+        "peak": 0.0
+      },
+      "IR_mean_delta_K": 14.073726997419666,
+      "IR_to_forcing_delta_error": 0.0,
+      "SHGC_spline_max_error": 3.3306690738754696e-16,
+      "cloud_99_n": 8760,
+      "negative_wind_n": 1,
+      "weather_metadata": {
+        "location": {
+          "latitude": 38.12,
+          "longitude": 13.36,
+          "elevation": 29.0,
+          "irradiance_time_offset": 0.1672
+        },
+        "meteo_data": {
+          "radiation_db": "PVGIS-SARAH3",
+          "meteo_db": "ERA5",
+          "year_min": 2005,
+          "year_max": 2023,
+          "use_horizon": true,
+          "horizon_db": "DEM-calculated"
+        }
+      }
+    }
+  },
+  "claim_count": 106,
+  "claim_ledger_content_mismatches": []
+}

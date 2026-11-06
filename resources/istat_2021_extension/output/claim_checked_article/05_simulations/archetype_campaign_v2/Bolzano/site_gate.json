@@ -1,0 +1,22 @@
+{
+  "site": "Bolzano",
+  "created_utc": "2026-10-20T13:51:03Z",
+  "campaign": "archetype_campaign_v2",
+  "annual_executions": 38,
+  "scientific_executions": 36,
+  "technical_executions": 2,
+  "checks": {
+    "checks.json": true,
+    "full_step_balance_checks.json": true,
+    "independent_surface_forcing_checks.json": true,
+    "profile_preservation_checks.json": true,
+    "completion_manifest.json": true
+  },
+  "pass": true,
+  "expansion_permitted_if_Padova": false,
+  "launch_gate_sha256": "5add9fc600a0efca51ca2c8171e8cf0752ce75cddcdadd5aecb20b99d0ed41ef",
+  "selection_manifest_sha256": "a34a21e694b1c0117e915567c0eab56f83bfa3aa03b586ab6443006e0b8daed4",
+  "frozen_manifest_sha256": "e4f55a46862ce954398a87a387de130461f31a71d0279b93f8a35c27d1f5ddfe",
+  "checker_sha256": "5ebe0737d9021287d23138bacd0417e0aeded057f498800fa336e679044d4237",
+  "diagnostic_note": "Historical failure.txt, if present, is a preserved source-drift preflight diagnostic; not an annual execution."
+}

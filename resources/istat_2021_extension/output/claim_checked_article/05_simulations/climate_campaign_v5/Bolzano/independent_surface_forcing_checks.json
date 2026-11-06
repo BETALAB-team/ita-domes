@@ -1,0 +1,181 @@
+{
+  "site": "Bolzano",
+  "rows": 8760,
+  "surfaces": {
+    "wall0.0": {
+      "type": "ExtWall",
+      "opaque_glazed_area_m2": [
+        24.0,
+        6.0
+      ],
+      "max_SW_LW_window_reconstruction_error_W": [
+        2.8421709430404007e-13,
+        0.0,
+        1.3642420526593924e-12
+      ],
+      "SHGC_curve_errors": [
+        3.3306690738754696e-16,
+        5.551115123125783e-17
+      ],
+      "pass": true
+    },
+    "wall90.0": {
+      "type": "ExtWall",
+      "opaque_glazed_area_m2": [
+        19.2,
+        4.8
+      ],
+      "max_SW_LW_window_reconstruction_error_W": [
+        1.7053025658242404e-13,
+        7.105427357601002e-15,
+        6.821210263296962e-13
+      ],
+      "SHGC_curve_errors": [
+        3.3306690738754696e-16,
+        5.551115123125783e-17
+      ],
+      "pass": true
+    },
+    "wall180.0": {
+      "type": "ExtWall",
+      "opaque_glazed_area_m2": [
+        24.0,
+        6.0
+      ],
+      "max_SW_LW_window_reconstruction_error_W": [
+        8.526512829121202e-14,
+        0.0,
+        2.2737367544323206e-13
+      ],
+      "SHGC_curve_errors": [
+        2.220446049250313e-16,
+        5.551115123125783e-17
+      ],
+      "pass": true
+    },
+    "wall-90.0": {
+      "type": "ExtWall",
+      "opaque_glazed_area_m2": [
+        19.2,
+        4.8
+      ],
+      "max_SW_LW_window_reconstruction_error_W": [
+        1.7053025658242404e-13,
+        7.105427357601002e-15,
+        9.094947017729282e-13
+      ],
+      "SHGC_curve_errors": [
+        3.3306690738754696e-16,
+        5.551115123125783e-17
+      ],
+      "pass": true
+    },
+    "Roof": {
+      "type": "Roof",
+      "opaque_glazed_area_m2": [
+        80.00000000000001,
+        0.0
+      ],
+      "max_SW_LW_window_reconstruction_error_W": [
+        1.3642420526593924e-12,
+        2.842170943040401e-14,
+        0.0
+      ],
+      "SHGC_curve_errors": [],
+      "pass": true
+    }
+  },
+  "node_reconstruction_max_error_W": [
+    0.0,
+    8.526512829121202e-14,
+    2.7284841053187847e-12
+  ],
+  "case_checks": [
+    {
+      "case": "seeded",
+      "solver_forcing_max_air_surface_mass_error_W": [
+        0.0,
+        8.526512829121202e-14,
+        2.7284841053187847e-12
+      ],
+      "surface_order_checks": {
+        "reverse_rotate_max_node_forcing_error_W": [
+          1.8189894035458565e-12,
+          1.8189894035458565e-12
+        ],
+        "surface_count": 8,
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "case": "early",
+      "solver_forcing_max_air_surface_mass_error_W": [
+        0.0,
+        8.526512829121202e-14,
+        2.7284841053187847e-12
+      ],
+      "surface_order_checks": {
+        "reverse_rotate_max_node_forcing_error_W": [
+          1.8189894035458565e-12,
+          1.8189894035458565e-12
+        ],
+        "surface_count": 8,
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "case": "late",
+      "solver_forcing_max_air_surface_mass_error_W": [
+        0.0,
+        8.526512829121202e-14,
+        2.7284841053187847e-12
+      ],
+      "surface_order_checks": {
+        "reverse_rotate_max_node_forcing_error_W": [
+          1.8189894035458565e-12,
+          1.8189894035458565e-12
+        ],
+        "surface_count": 8,
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "case": "repeat_seeded",
+      "solver_forcing_max_air_surface_mass_error_W": [
+        0.0,
+        8.526512829121202e-14,
+        2.7284841053187847e-12
+      ],
+      "surface_order_checks": {
+        "reverse_rotate_max_node_forcing_error_W": [
+          1.8189894035458565e-12,
+          1.8189894035458565e-12
+        ],
+        "surface_count": 8,
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "case": "warmup_seeded",
+      "solver_forcing_max_air_surface_mass_error_W": [
+        0.0,
+        8.526512829121202e-14,
+        2.7284841053187847e-12
+      ],
+      "surface_order_checks": {
+        "reverse_rotate_max_node_forcing_error_W": [
+          1.8189894035458565e-12,
+          1.8189894035458565e-12
+        ],
+        "surface_count": 8,
+        "pass": true
+      },
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,417 @@
+{
+  "scope": "author-side post-hoc arithmetic and peak-context check; no new endpoint or empirical/physical validation",
+  "setpoint_partitions": [
+    {
+      "site": "Padova",
+      "case": "seeded",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Padova",
+      "case": "seeded",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 1323,
+      "heating_kWh": 2375.6174880874
+    },
+    {
+      "site": "Padova",
+      "case": "seeded",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1495,
+      "heating_kWh": 7198.400679812883
+    },
+    {
+      "site": "Padova",
+      "case": "early",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Padova",
+      "case": "early",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 1229,
+      "heating_kWh": 1882.6991418768848
+    },
+    {
+      "site": "Padova",
+      "case": "early",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1456,
+      "heating_kWh": 7776.933640481615
+    },
+    {
+      "site": "Padova",
+      "case": "late",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Padova",
+      "case": "late",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 1287,
+      "heating_kWh": 2207.734792752013
+    },
+    {
+      "site": "Padova",
+      "case": "late",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1496,
+      "heating_kWh": 7398.56164660119
+    },
+    {
+      "site": "Bolzano",
+      "case": "seeded",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Bolzano",
+      "case": "seeded",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 2073,
+      "heating_kWh": 5380.284246969751
+    },
+    {
+      "site": "Bolzano",
+      "case": "seeded",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1635,
+      "heating_kWh": 10470.929528369843
+    },
+    {
+      "site": "Bolzano",
+      "case": "early",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Bolzano",
+      "case": "early",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 2077,
+      "heating_kWh": 4734.494848659193
+    },
+    {
+      "site": "Bolzano",
+      "case": "early",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1628,
+      "heating_kWh": 11101.188378781733
+    },
+    {
+      "site": "Bolzano",
+      "case": "late",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Bolzano",
+      "case": "late",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 2052,
+      "heating_kWh": 5162.093655582754
+    },
+    {
+      "site": "Bolzano",
+      "case": "late",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1635,
+      "heating_kWh": 10693.370667670913
+    },
+    {
+      "site": "Roma",
+      "case": "seeded",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Roma",
+      "case": "seeded",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 839,
+      "heating_kWh": 1166.7215500827338
+    },
+    {
+      "site": "Roma",
+      "case": "seeded",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1466,
+      "heating_kWh": 5435.507221169514
+    },
+    {
+      "site": "Roma",
+      "case": "early",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Roma",
+      "case": "early",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 593,
+      "heating_kWh": 742.2531519546075
+    },
+    {
+      "site": "Roma",
+      "case": "early",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1442,
+      "heating_kWh": 5994.192543920116
+    },
+    {
+      "site": "Roma",
+      "case": "late",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Roma",
+      "case": "late",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 810,
+      "heating_kWh": 1014.2237250461105
+    },
+    {
+      "site": "Roma",
+      "case": "late",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1456,
+      "heating_kWh": 5621.016649499744
+    },
+    {
+      "site": "Palermo",
+      "case": "seeded",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Palermo",
+      "case": "seeded",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 545,
+      "heating_kWh": 590.6905425739818
+    },
+    {
+      "site": "Palermo",
+      "case": "seeded",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1307,
+      "heating_kWh": 4488.146657312368
+    },
+    {
+      "site": "Palermo",
+      "case": "early",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Palermo",
+      "case": "early",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 417,
+      "heating_kWh": 422.79941664166023
+    },
+    {
+      "site": "Palermo",
+      "case": "early",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1270,
+      "heating_kWh": 4852.493744451767
+    },
+    {
+      "site": "Palermo",
+      "case": "late",
+      "setpoint_C": 0,
+      "calendar_hours": 4392,
+      "positive_hours": 0,
+      "heating_kWh": 0.0
+    },
+    {
+      "site": "Palermo",
+      "case": "late",
+      "setpoint_C": 19,
+      "calendar_hours": 2730,
+      "positive_hours": 525,
+      "heating_kWh": 508.74513683771363
+    },
+    {
+      "site": "Palermo",
+      "case": "late",
+      "setpoint_C": 22,
+      "calendar_hours": 1638,
+      "positive_hours": 1302,
+      "heating_kWh": 4619.939225391755
+    }
+  ],
+  "annual_peak_context": [
+    {
+      "site": "Padova",
+      "case": "seeded",
+      "hour": 8241,
+      "peak_kW": 10.049540394516585,
+      "setpoint_C": 22.0,
+      "previous_setpoint_C": 19.0,
+      "old_air_C": 19.0,
+      "previous_air_C": 19.0
+    },
+    {
+      "site": "Padova",
+      "case": "early",
+      "hour": 8237,
+      "peak_kW": 10.253471877549893,
+      "setpoint_C": 22.0,
+      "previous_setpoint_C": 19.0,
+      "old_air_C": 19.0,
+      "previous_air_C": 19.0
+    },
+    {
+      "site": "Padova",
+      "case": "late",
+      "hour": 8241,
+      "peak_kW": 9.838176213778482,
+      "setpoint_C": 22.0,
+      "previous_setpoint_C": 19.0,
+      "old_air_C": 19.0,
+      "previous_air_C": 19.0
+    },
+    {
+      "site": "Bolzano",
+      "case": "seeded",
+      "hour": 6912,
+      "peak_kW": 17.80862080867205,
+      "setpoint_C": 19.0,
+      "previous_setpoint_C": 0.0,
+      "old_air_C": 9.641374807205992,
+      "previous_air_C": 9.641374807205992
+    },
+    {
+      "site": "Bolzano",
+      "case": "early",
+      "hour": 6912,
+      "peak_kW": 17.80862080867205,
+      "setpoint_C": 19.0,
+      "previous_setpoint_C": 0.0,
+      "old_air_C": 9.641374807205992,
+      "previous_air_C": 9.641374807205992
+    },
+    {
+      "site": "Bolzano",
+      "case": "late",
+      "hour": 6912,
+      "peak_kW": 17.80862080867205,
+      "setpoint_C": 19.0,
+      "previous_setpoint_C": 0.0,
+      "old_air_C": 9.641374807205992,
+      "previous_air_C": 9.641374807205992
+    },
+    {
+      "site": "Roma",
+      "case": "seeded",
+      "hour": 8241,
+      "peak_kW": 8.909926839273298,
+      "setpoint_C": 22.0,
+      "previous_setpoint_C": 19.0,
+      "old_air_C": 19.0,
+      "previous_air_C": 19.0
+    },
+    {
+      "site": "Roma",
+      "case": "early",
+      "hour": 8309,
+      "peak_kW": 9.651766061306555,
+      "setpoint_C": 22.0,
+      "previous_setpoint_C": 19.0,
+      "old_air_C": 19.0,
+      "previous_air_C": 19.0
+    },
+    {
+      "site": "Roma",
+      "case": "late",
+      "hour": 8308,
+      "peak_kW": 9.211202940624576,
+      "setpoint_C": 22.0,
+      "previous_setpoint_C": 19.0,
+      "old_air_C": 19.0,
+      "previous_air_C": 19.0
+    },
+    {
+      "site": "Palermo",
+      "case": "seeded",
+      "hour": 657,
+      "peak_kW": 8.292527171918435,
+      "setpoint_C": 22.0,
+      "previous_setpoint_C": 19.0,
+      "old_air_C": 19.0,
+      "previous_air_C": 19.0
+    },
+    {
+      "site": "Palermo",
+      "case": "early",
+      "hour": 701,
+      "peak_kW": 8.787517382639285,
+      "setpoint_C": 22.0,
+      "previous_setpoint_C": 19.0,
+      "old_air_C": 19.0,
+      "previous_air_C": 19.0
+    },
+    {
+      "site": "Palermo",
+      "case": "late",
+      "hour": 700,
+      "peak_kW": 8.418924698544206,
+      "setpoint_C": 22.0,
+      "previous_setpoint_C": 19.0,
+      "old_air_C": 19.0,
+      "previous_air_C": 19.0
+    }
+  ],
+  "bolzano_same_season_onset_peak_all_profiles": true,
+  "pass": true
+}

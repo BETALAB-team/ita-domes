@@ -1,0 +1,41 @@
+{
+  "year": 2013,
+  "pages": 22,
+  "figures": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "A.1",
+    "B.1"
+  ],
+  "tables": [
+    "Table 1",
+    "Algorithm 1",
+    "Algorithm 2",
+    "Table 2",
+    "Table 3",
+    "Table 4",
+    "Table 4 (continued)",
+    "Table 5",
+    "Table 6",
+    "Table 6 (continued)",
+    "Table 7",
+    "Table 8",
+    "Table A.1",
+    "Table B.1",
+    "Table C.1"
+  ],
+  "vector_placements": 14,
+  "text_characters": 62532,
+  "pdf_sha256": "d908d274ee0e27c65df4c93b5867af0db23682f5fa2401fd0b190200acbf296c",
+  "automated_checks_passed": true,
+  "visual_review_required": false,
+  "visual_review": "All 22 final pages rendered and inspected; equations, tables, figure axes and captions checked."
+}

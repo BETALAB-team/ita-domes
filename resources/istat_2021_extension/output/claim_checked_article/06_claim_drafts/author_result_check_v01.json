@@ -1,0 +1,95 @@
+{
+  "status": "12 primary outputs independently integrated and table deltas checked; no empirical validation",
+  "source_table": "04_analysis/paired_schedule_contrasts_v3.csv",
+  "source_table_sha256": "9fc3475ccc4fe6f5c696b05d146a882d09281ab7ffc5b90466e1e91ea146c3b6",
+  "sites": {
+    "Padova": {
+      "runs": {
+        "seeded": {
+          "annual_kWh": 5947.725172656399,
+          "peak_kW": 8.869599357134677,
+          "hourly_sha256": "fd3d0a61db11174c56af7c52af52f217d85fc3af8c678668b0006d633a0911e4"
+        },
+        "early": {
+          "annual_kWh": 6078.713796238734,
+          "peak_kW": 9.018531364349917,
+          "hourly_sha256": "bda58bca421ddd5c7d946efae1daef68b1b79e18f4e00924acc72e00c4fe52f8"
+        },
+        "late": {
+          "annual_kWh": 5988.123201222301,
+          "peak_kW": 8.656040846577536,
+          "hourly_sha256": "5e334581ed6c0c050c78023abf2859dd6f3be24797242ca747a07e0c7edcd380"
+        }
+      },
+      "checks_pass": true,
+      "full_step_checks_sha256": "e6277222a55695bf58f88a0f8fa89d244e25bdb2f69839eaee8ae379ecabd27c",
+      "completion_manifest_sha256": "6fce31d773358393cbd2deb3213b67140b425d8f384ca7a07102cae83b9f7288"
+    },
+    "Bolzano": {
+      "runs": {
+        "seeded": {
+          "annual_kWh": 10613.61357325859,
+          "peak_kW": 10.779184394384117,
+          "hourly_sha256": "805f897da3d8918785f6d7f0300ee21729d97583968e8987fad56d8202689039"
+        },
+        "early": {
+          "annual_kWh": 10657.376389123503,
+          "peak_kW": 10.628887228957135,
+          "hourly_sha256": "c10117e348d3074bd086ccad787b047a57c74bb0aaf5031df8431188d9991c7e"
+        },
+        "late": {
+          "annual_kWh": 10632.361144027995,
+          "peak_kW": 11.025653198726209,
+          "hourly_sha256": "47069c3b566ec148f297b640fd5fec4c9105b49f2b246d608e209713627f561a"
+        }
+      },
+      "checks_pass": true,
+      "full_step_checks_sha256": "ca9a6ec7354cca6c4b5c4a63bde1240eb35ae538aca37fb8af8b176294a000a3",
+      "completion_manifest_sha256": "40670d1442deeaff6cf9c1fcf31af1485a24bcb6a18aff9e2a4ac5a910e33163"
+    },
+    "Roma": {
+      "runs": {
+        "seeded": {
+          "annual_kWh": 3325.654149884864,
+          "peak_kW": 7.704409464531209,
+          "hourly_sha256": "17d18e0b13804e6ad49b5630d0b8f45ae1cee7aa4a0a4f86c084d7955bc79e88"
+        },
+        "early": {
+          "annual_kWh": 3521.934191865771,
+          "peak_kW": 8.333649163624449,
+          "hourly_sha256": "5db4383c3cee57cbff068d01fc1d9c055cf121d9680a3a29b2fd4c7ca92049fd"
+        },
+        "late": {
+          "annual_kWh": 3373.4960992619544,
+          "peak_kW": 7.9126664663527215,
+          "hourly_sha256": "6d0a40d2ea103a30c542bdafc70e7b5dcf62a20726a96f89ac5558398fb3d67a"
+        }
+      },
+      "checks_pass": true,
+      "full_step_checks_sha256": "9625cf987499da2d84f08efc65e71ed30cc420e9fd0144eefab5efc721ac2ced",
+      "completion_manifest_sha256": "6bb3debc0b9a2e966a8fce4fe34e0edcaf54a05aa8ed6828914078b7582b8d82"
+    },
+    "Palermo": {
+      "runs": {
+        "seeded": {
+          "annual_kWh": 2321.090971637145,
+          "peak_kW": 7.078467294216047,
+          "hourly_sha256": "7f5f3c0eecf007423343334e21b54fceb574967e5a0f2913b911f6545ae3dc2f"
+        },
+        "early": {
+          "annual_kWh": 2475.230565733084,
+          "peak_kW": 7.510986609389605,
+          "hourly_sha256": "3ad8aeee0fea501817df85e0f9495eb3fbd65e2e463731dd4e141a2f2d024813"
+        },
+        "late": {
+          "annual_kWh": 2363.074385867603,
+          "peak_kW": 7.102335756049921,
+          "hourly_sha256": "0a54a0830553e9b510a87488c0334d86fcb0a5d53930106b7841ea31a62a1c68"
+        }
+      },
+      "checks_pass": true,
+      "full_step_checks_sha256": "c105c96c29b6dbb1031dde77f3eb753a6b08494477e1ba3ecd7339ad9218e9c7",
+      "completion_manifest_sha256": "4d01b73bc67916f12d1bbfa0f6fd2d24cbb0083effa89eb5dfa62c678c1c181e"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "method": "published PCA equations, min-max scaling, k-means++ and Lloyd iteration",
+  "pca_equations": {
+    "pc1": "-0.25*agemin - 0.75*agemax + 10*nmembers",
+    "pc2": "(1/3)*agemin + (2/3)*agemax + 10*nmembers"
+  },
+  "cluster_features": [
+    "pc1_scaled",
+    "pc2_scaled",
+    "education_scaled"
+  ],
+  "age_seed": 42,
+  "cluster_seed": 1,
+  "survey_year": 2013,
+  "available_member_columns": 12,
+  "age_class_ranges_inclusive": null,
+  "education_years_by_code": {
+    "0": 0.0,
+    "1": 0.0,
+    "3": 12.0,
+    "4": 8.0,
+    "5": 12.0,
+    "7": 16.0,
+    "9": 18.0,
+    "10": 21.0
+  },
+  "unknown_education_codes": [
+    99
+  ],
+  "education_age_basis": "class_code",
+  "iterations": 14,
+  "inertia": 509.14929012493747,
+  "calinski_harabasz_score": 9657.970821303832,
+  "exploratory_pca_explained_variance_ratio": [
+    0.8203470069715137,
+    0.1435395317572889,
+    0.03611346127119733
+  ],
+  "exploratory_pca_first_two_cumulative": 0.9638865387288027,
+  "feature_scaling": {
+    "pc1": {
+      "minimum": -74.0,
+      "maximum": 40.5
+    },
+    "pc2": {
+      "minimum": 30.0,
+      "maximum": 120.66666666666666
+    },
+    "education": {
+      "minimum": 0.0,
+      "maximum": 1.0
+    }
+  },
+  "centers": {
+    "1": {
+      "pc1_scaled": 0.1391900827957347,
+      "pc2_scaled": 0.7033814293337698,
+      "education_scaled": 0.4922510587548582
+    },
+    "2": {
+      "pc1_scaled": 0.5446609532456063,
+      "pc2_scaled": 0.5699329146006872,
+      "education_scaled": 0.744975370984577
+    },
+    "3": {
+      "pc1_scaled": 0.33240786993022675,
+      "pc2_scaled": 0.5530741263294994,
+      "education_scaled": 0.5155608270368499
+    },
+    "4": {
+      "pc1_scaled": 0.2374726482205954,
+      "pc2_scaled": 0.6351202628556841,
+      "education_scaled": 0.7677186987111162
+    }
+  }
+}

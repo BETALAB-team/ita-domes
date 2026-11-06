@@ -1,0 +1,2 @@
+site,schedule,setpoint_C,calendar_hours_at_setpoint,positive_heating_hours_gt_1e_minus6W,positive_sensible_heating_kWh,share_annual_sensible_heating_percent,positive_load_tolerance_W
+Padova,seeded,19.0,2730,1323,2375.6174880874,24.813170880042378,1e-06

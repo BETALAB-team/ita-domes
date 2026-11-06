@@ -1,0 +1,163 @@
+{
+  "policy": "Published paper numbers frozen exactly as printed. Archived membership is supplementary article-consistent evidence, not certified identical published membership.",
+  "sources": [
+    {
+      "path": "C:\\Users\\khajmoh18975\\Downloads\\1-s2.0-S0378778825006541-main.pdf",
+      "bytes": 3665396,
+      "sha256": "8995443d5c1b92313730c75c99512f94122aac4f8e0a79b4fe00bca5b269aae2"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\clusters.csv",
+      "bytes": 2314550,
+      "sha256": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\Clustered.csv",
+      "bytes": 1449310,
+      "sha256": "9e51b19d917c9d74e6406f54e561d0fd82c733bc617e1047feefe320990db1a2"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\family_trees.csv",
+      "bytes": 4141751,
+      "sha256": "4a554cbffdfe3ce6f11dbdbb1609977fc96cad28d36bf401a3f9d825ba4725e6"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat_microdata_2013.csv",
+      "bytes": 16125363,
+      "sha256": "a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\01_PCA_Exploratory.py",
+      "bytes": 4605,
+      "sha256": "557450d3ff5d52adeee4b38f071058b9169f20631d03804209381d86d4b95939"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\02_Families_Analysis.py",
+      "bytes": 4137,
+      "sha256": "5067d46f95eb4f84f772f829beecbc7a09236298c2aa3e155a540a36a5a1cb0b"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\03_PCA_Clustering.py",
+      "bytes": 2884,
+      "sha256": "c2fe140e16a339cb0a27f95a90bb7609e6138a85ce03fbf2afcafd93614a62d0"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\archetype_pipeline.py",
+      "bytes": 26526,
+      "sha256": "47a1c223c205125b7c4bf7396561d556e1dfff05c801f6070c1bb11b055b0b67"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\household_archetypes.csv",
+      "bytes": 1596532,
+      "sha256": "1d4dea8d57a21927e6066d03e036d16da6530ec4e1e76196c9fc06807f2fff72"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\2013\\households.csv",
+      "bytes": 4268062,
+      "sha256": "5304a2d39e6a44b9b723ae000d993e97bf88c4e91bc4907c2478bc1596e14bd6"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\local_assignment_audit.json",
+      "bytes": 24993,
+      "sha256": "bb7a79b0f5cbc880cd532a0028c127af95a0e5937c8787ca7bc1578237d9e099"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\published_appendix_A_group_lookup.csv",
+      "bytes": 8427,
+      "sha256": "594bee8075a7f7ee4f21acf13a4ed086edb44c6454085c8ac75b7d0582ba2225"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_complete_text.txt",
+      "bytes": 86960,
+      "sha256": "1c85768cf431ff61fa895117fa3ad11ad6fad8200a4a6366c68944c4b34d13fa"
+    }
+  ],
+  "archive_n": 17855,
+  "label_map": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4
+  },
+  "published_cell_matches": 39,
+  "published_cell_checks": 40,
+  "unresolved": [
+    "A4 max-age72.2 paper versus72.1 archive rounded",
+    "Eq3 A4 age-squared0.152 versus Table4 0.02",
+    "Six electricity groups in prose versus E1-E5 tables/appendix",
+    "Duplicated H6/H7 examples",
+    "p9 prose conflicts with Table5"
+  ],
+  "integrity_after": [
+    {
+      "path": "C:\\Users\\khajmoh18975\\Downloads\\1-s2.0-S0378778825006541-main.pdf",
+      "sha256": "8995443d5c1b92313730c75c99512f94122aac4f8e0a79b4fe00bca5b269aae2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\clusters.csv",
+      "sha256": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\Clustered.csv",
+      "sha256": "9e51b19d917c9d74e6406f54e561d0fd82c733bc617e1047feefe320990db1a2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\family_trees.csv",
+      "sha256": "4a554cbffdfe3ce6f11dbdbb1609977fc96cad28d36bf401a3f9d825ba4725e6",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat_microdata_2013.csv",
+      "sha256": "a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\01_PCA_Exploratory.py",
+      "sha256": "557450d3ff5d52adeee4b38f071058b9169f20631d03804209381d86d4b95939",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\02_Families_Analysis.py",
+      "sha256": "5067d46f95eb4f84f772f829beecbc7a09236298c2aa3e155a540a36a5a1cb0b",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\03_PCA_Clustering.py",
+      "sha256": "c2fe140e16a339cb0a27f95a90bb7609e6138a85ce03fbf2afcafd93614a62d0",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\archetype_pipeline.py",
+      "sha256": "47a1c223c205125b7c4bf7396561d556e1dfff05c801f6070c1bb11b055b0b67",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\household_archetypes.csv",
+      "sha256": "1d4dea8d57a21927e6066d03e036d16da6530ec4e1e76196c9fc06807f2fff72",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\2013\\households.csv",
+      "sha256": "5304a2d39e6a44b9b723ae000d993e97bf88c4e91bc4907c2478bc1596e14bd6",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\local_assignment_audit.json",
+      "sha256": "bb7a79b0f5cbc880cd532a0028c127af95a0e5937c8787ca7bc1578237d9e099",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\published_appendix_A_group_lookup.csv",
+      "sha256": "594bee8075a7f7ee4f21acf13a4ed086edb44c6454085c8ac75b7d0582ba2225",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_complete_text.txt",
+      "sha256": "1c85768cf431ff61fa895117fa3ad11ad6fad8200a4a6366c68944c4b34d13fa",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "scope": "Structural/provenance audit only; not scientific or empirical validation.",
+  "prior_full_cycles": 4,
+  "extension_full_cycles": 2,
+  "total_full_cycles": 6,
+  "pre_run_audit_counted_as_cycle": false,
+  "drafts": [
+    {
+      "version": "v05",
+      "path": "06_claim_drafts\\article_claims_v05.md",
+      "sha256": "2e5889e3948a72dab10af6867b4fad193f7bfd40efecab8248c3fb3aad9773fa",
+      "claims": 105,
+      "duplicate_ids": []
+    },
+    {
+      "version": "v06",
+      "path": "06_claim_drafts\\article_claims_v06.md",
+      "sha256": "0075415fec3e985bbd55a6cfc363fd94a7d73b9421ddc9699ff82a4ae79f5c7b",
+      "claims": 106,
+      "duplicate_ids": []
+    },
+    {
+      "version": "v07",
+      "path": "06_claim_drafts\\article_claims_v07.md",
+      "sha256": "9aa90444db044ab1480872fbf496db171f359e39e10cf1207f76a4c586757df9",
+      "claims": 106,
+      "duplicate_ids": []
+    }
+  ],
+  "cycles": [
+    {
+      "round": 5,
+      "input_version": 5,
+      "revision_version": 6,
+      "files_present": {
+        "input": true,
+        "review": true,
+        "response": true,
+        "revision": true,
+        "register": true
+      },
+      "complete": true,
+      "review_input_hash_recorded": true,
+      "hashes": {
+        "input": "2e5889e3948a72dab10af6867b4fad193f7bfd40efecab8248c3fb3aad9773fa",
+        "review": "1b62bd323c4ca0682d3ac6428891172e45d458cc8ac15b3746e0b4142eede899",
+        "response": "87cc8c9fc92def0b3ed80b63f58e9054aa40e9c8775d10fde27f958f984268f5",
+        "revision": "0075415fec3e985bbd55a6cfc363fd94a7d73b9421ddc9699ff82a4ae79f5c7b",
+        "register": "74388bbf2a015bf3e264f906d62c1aff774fe820b42fa80732f10c4b7edfe8e9"
+      }
+    },
+    {
+      "round": 6,
+      "input_version": 6,
+      "revision_version": 7,
+      "files_present": {
+        "input": true,
+        "review": true,
+        "response": true,
+        "revision": true,
+        "register": true
+      },
+      "complete": true,
+      "review_input_hash_recorded": true,
+      "hashes": {
+        "input": "0075415fec3e985bbd55a6cfc363fd94a7d73b9421ddc9699ff82a4ae79f5c7b",
+        "review": "67015c5f00462ee246098d637821a789fd6ce6ce7eba4014a43d44780883bdef",
+        "response": "72a2b245f5f020d9b904000263ee7c92719f8e2c04e42bafae35143868b2e27d",
+        "revision": "9aa90444db044ab1480872fbf496db171f359e39e10cf1207f76a4c586757df9",
+        "register": "382c03eacb1a93cdecc7ca2d5f8336e59021709901e4749eb0210d5699e4bbff"
+      }
+    }
+  ],
+  "latest_ledger": {
+    "version": 7,
+    "claims": 106,
+    "draft_hash_matches": true,
+    "enum_errors": [],
+    "unresolved_source_ids": [],
+    "prior_v04_ids_retained": true
+  },
+  "extension_final_closure_exists": true
+}

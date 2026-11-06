@@ -1,0 +1,117 @@
+{
+  "method": "published PCA equations, min-max scaling, k-means++ and Lloyd iteration",
+  "pca_equations": {
+    "pc1": "-0.25*agemin - 0.75*agemax + 10*nmembers",
+    "pc2": "(1/3)*agemin + (2/3)*agemax + 10*nmembers"
+  },
+  "cluster_features": [
+    "pc1_scaled",
+    "pc2_scaled",
+    "education_scaled"
+  ],
+  "age_seed": 42,
+  "cluster_seed": 1,
+  "survey_year": 2021,
+  "available_member_columns": 5,
+  "age_class_ranges_inclusive": {
+    "1": [
+      0,
+      5
+    ],
+    "2": [
+      6,
+      10
+    ],
+    "3": [
+      11,
+      14
+    ],
+    "4": [
+      15,
+      19
+    ],
+    "5": [
+      20,
+      29
+    ],
+    "6": [
+      30,
+      39
+    ],
+    "7": [
+      40,
+      49
+    ],
+    "8": [
+      50,
+      59
+    ],
+    "9": [
+      60,
+      69
+    ],
+    "10": [
+      70,
+      79
+    ],
+    "11": [
+      80,
+      100
+    ]
+  },
+  "education_years_by_code": {
+    "1": 5.0,
+    "3": 8.0,
+    "4": 12.0,
+    "6": 18.0
+  },
+  "unknown_education_codes": [
+    0
+  ],
+  "education_age_basis": "realized_age",
+  "iterations": 19,
+  "inertia": 2308.4696187900445,
+  "calinski_harabasz_score": 37340.25685049453,
+  "exploratory_pca_explained_variance_ratio": [
+    0.7410597021108346,
+    0.2317608531218087,
+    0.027179444767356734
+  ],
+  "exploratory_pca_first_two_cumulative": 0.9728205552326433,
+  "feature_scaling": {
+    "pc1": {
+      "minimum": -90.0,
+      "maximum": 33.25
+    },
+    "pc2": {
+      "minimum": 25.0,
+      "maximum": 133.66666666666666
+    },
+    "education": {
+      "minimum": 0.23809523809523805,
+      "maximum": 1.0
+    }
+  },
+  "centers": {
+    "1": {
+      "pc1_scaled": 0.23046866814878764,
+      "pc2_scaled": 0.6474584017302564,
+      "education_scaled": 0.13519023400241614
+    },
+    "2": {
+      "pc1_scaled": 0.6795731905257468,
+      "pc2_scaled": 0.4122161237823805,
+      "education_scaled": 0.6746324432501258
+    },
+    "3": {
+      "pc1_scaled": 0.47399429457984843,
+      "pc2_scaled": 0.455280792826799,
+      "education_scaled": 0.37501376668077685
+    },
+    "4": {
+      "pc1_scaled": 0.3726062110585693,
+      "pc2_scaled": 0.5290744639123339,
+      "education_scaled": 0.7394117442911683
+    }
+  }
+}

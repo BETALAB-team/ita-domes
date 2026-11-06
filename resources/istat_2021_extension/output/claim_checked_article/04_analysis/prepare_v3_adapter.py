@@ -1,0 +1,15 @@
+"""Build a new corrected campaign adapter without changing v1/v2 artifacts."""
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+text=(ROOT/'04_analysis/run_climate_campaign_v2.py').read_text()
+text=text.replace("RUN=ROOT/f'05_simulations/climate_campaign_v2/{SITE}'", "RUN=ROOT/f'05_simulations/climate_campaign_v3/{SITE}'")
+text=text.replace("    RUN.mkdir(parents=True,exist_ok=True)", "    transitions=json.loads((ROOT/'05_simulations/single_commit_transition_checks.json').read_text())\n    assert transitions['pass'] and transitions['adapter_sha256']==sha(ROOT/'04_analysis/single_commit_1c.py')\n    RUN.mkdir(parents=True,exist_ok=True)",1)
+text=text.replace("['simulation_protocol.md','simulation_protocol_v2_addendum.md']", "['simulation_protocol.md','simulation_protocol_v2_addendum.md','correction_protocol_v3.md']")
+text=text.replace("    audit=json.loads", "    (RUN/'single_commit_1c.py').write_bytes((ROOT/'04_analysis/single_commit_1c.py').read_bytes())\n    (RUN/'transition_checks_pre_run.json').write_bytes((ROOT/'05_simulations/single_commit_transition_checks.json').read_bytes())\n    audit=json.loads",1)
+text=text.replace("    write(RUN/'design.json',design)", "    design['correction']='single old-state solve and one physical-state commit; sensible-only local adapter'\n    design['correction_protocol']='03_methods/correction_protocol_v3.md'\n    write(RUN/'design.json',design)")
+text=text.replace("'protocol_v2_sha256':sha(RUN/'simulation_protocol_v2_addendum.md')", "'protocol_v2_sha256':sha(RUN/'simulation_protocol_v2_addendum.md'),'correction_protocol_sha256':sha(RUN/'correction_protocol_v3.md'),'correction_module_sha256':sha(RUN/'single_commit_1c.py'),'transition_gate_sha256':sha(RUN/'transition_checks_pre_run.json')")
+text=text.replace("    from eureca_building.config import load_config", "    from single_commit_1c import solve_1c_single_commit\n    from eureca_building.config import load_config")
+text=text.replace("        rows=[]", "        parameters={k:float(getattr(z,k)) for k in ['Htr_is','Htr_w','Htr_ms','Htr_em','Cm','_air_thermal_capacity']}\n        parameters['timestep_seconds']=3600.\n        write(RUN/f'{name}_network_parameters.json',parameters)\n        rows=[]")
+text=text.replace("            z.solve_timestep(h,weather,flag=z.flag,model='1C')\n            if h>=0: rows.append((h,z.sensible_zone_load,z.zone_air_temperature,lower[h],weather.hourly_data['out_air_db_temperature'][h]))\n        out=pd.DataFrame(rows,columns=['hour','sensible_load_W','air_temperature_C','heating_setpoint_C','outdoor_temperature_C'])", "            diagnostic=solve_1c_single_commit(z,h,weather)\n            if h>=0: rows.append({'hour':h,'sensible_load_W':z.sensible_zone_load,'air_temperature_C':z.zone_air_temperature,'heating_setpoint_C':lower[h],'outdoor_temperature_C':weather.hourly_data['out_air_db_temperature'][h],**diagnostic})\n        out=pd.DataFrame(rows)")
+(ROOT/'04_analysis/run_climate_campaign_v3.py').write_text(text)
+print('Prepared corrected v3 adapter; original v1/v2 files untouched')

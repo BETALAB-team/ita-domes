@@ -1,0 +1,19 @@
+panel,series,x,category,value,reference_line
+Sensible heating,EnergyPlus,0.0,Apartment,1097.8303825681821,False
+Sensible heating,EnergyPlus,1.0,Multi-family,2560.9471630385483,False
+Sensible heating,EnergyPlus,2.0,Single-family,2995.5018260681572,False
+Sensible heating,One-run hybrid,0.0,Apartment,976.733655029221,False
+Sensible heating,One-run hybrid,1.0,Multi-family,2445.2358897488166,False
+Sensible heating,One-run hybrid,2.0,Single-family,2841.4383025579227,False
+Sensible heating,Survey + physics,0.0,Apartment,1549.5039874962947,False
+Sensible heating,Survey + physics,1.0,Multi-family,3879.1565561662646,False
+Sensible heating,Survey + physics,2.0,Single-family,4507.697628077006,False
+Sensible cooling,EnergyPlus,0.0,Apartment,1294.4733073252771,False
+Sensible cooling,EnergyPlus,1.0,Multi-family,951.4269660559881,False
+Sensible cooling,EnergyPlus,2.0,Single-family,1336.2820777121062,False
+Sensible cooling,One-run hybrid,0.0,Apartment,1221.5835144503071,False
+Sensible cooling,One-run hybrid,1.0,Multi-family,992.3520074441543,False
+Sensible cooling,One-run hybrid,2.0,Single-family,1507.136571215693,False
+Sensible cooling,Survey + physics,0.0,Apartment,2120.995463685509,False
+Sensible cooling,Survey + physics,1.0,Multi-family,1722.9883026993646,False
+Sensible cooling,Survey + physics,2.0,Single-family,2616.7918876520275,False

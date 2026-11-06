@@ -1,0 +1,22 @@
+{
+  "module": "C:\\Works\\EUReCA\\EUReCA\\eureca_building\\thermal_zone.py",
+  "module_sha256": "ea041c53f13b499de33185ab212ce63bc306f50261cb52ee3ee3e99bc44d2fff",
+  "description": "hand-specified 1C conductance/capacitance network, convective steady heat and zero-gradient equilibrium; independent node residual arithmetic",
+  "zero_gradient_result_W_C_C_C": [
+    9.70219437727866e-13,
+    20.0,
+    20.0,
+    20.0
+  ],
+  "zero_gradient_max_error": 9.70219437727866e-13,
+  "steady_solver_W": 3327.2727272727248,
+  "steady_analytical_W": 3327.272727272727,
+  "steady_error_W": 2.2737367544323206e-12,
+  "transient_air_surface_mass_residual_W": [
+    -1.4210854715202004e-13,
+    1.7053025658242404e-12,
+    -5.9117155615240335e-12
+  ],
+  "pass": true,
+  "scope": "implementation/physics verification of network algebra only; no benchmark certification, envelope parameter verification or empirical accuracy"
+}

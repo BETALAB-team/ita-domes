@@ -1,0 +1,13 @@
+site,schedule,quarantined_v2_heating_kWh,corrected_v3_heating_kWh,v3_minus_v2_heating_kWh,role
+Padova,seeded,6521.185621151082,5947.725172656399,-573.4604484946831,implementation-correction diagnostic; v2 is not scientific evidence
+Padova,early,6376.549898365349,6078.713796238734,-297.8361021266146,implementation-correction diagnostic; v2 is not scientific evidence
+Padova,late,6412.555599108988,5988.123201222301,-424.4323978866869,implementation-correction diagnostic; v2 is not scientific evidence
+Bolzano,seeded,11334.015236005616,10613.61357325859,-720.4016627470264,implementation-correction diagnostic; v2 is not scientific evidence
+Bolzano,early,10979.0620947104,10657.376389123503,-321.6857055868968,implementation-correction diagnostic; v2 is not scientific evidence
+Bolzano,late,11283.141150090692,10632.361144027995,-650.7800060626978,implementation-correction diagnostic; v2 is not scientific evidence
+Roma,seeded,3868.0694480668217,3325.654149884864,-542.4152981819575,implementation-correction diagnostic; v2 is not scientific evidence
+Roma,early,3891.382336298381,3521.934191865771,-369.44814443260975,implementation-correction diagnostic; v2 is not scientific evidence
+Roma,late,3646.0670775726812,3373.4960992619544,-272.5709783107268,implementation-correction diagnostic; v2 is not scientific evidence
+Palermo,seeded,2547.398703647533,2321.090971637145,-226.307732010388,implementation-correction diagnostic; v2 is not scientific evidence
+Palermo,early,2723.5788659277396,2475.230565733084,-248.34830019465562,implementation-correction diagnostic; v2 is not scientific evidence
+Palermo,late,2434.123928863755,2363.074385867603,-71.04954299615201,implementation-correction diagnostic; v2 is not scientific evidence

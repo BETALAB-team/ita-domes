@@ -1,0 +1,7 @@
+C:\Works\EUReCA\EUReCA\.venv\Scripts\python.exe -B C:\Works\GRINS\GRINS-Tool\resources\istat_data\output\claim_checked_article\04_analysis\run_climate_campaign_v3.py
+exit=1
+Traceback (most recent call last):
+  File "C:\Works\GRINS\GRINS-Tool\resources\istat_data\output\claim_checked_article\04_analysis\run_climate_campaign_v3.py", line 8, in <module>
+    SITE=sys.argv[1]
+         ~~~~~~~~^^^
+IndexError: list index out of range

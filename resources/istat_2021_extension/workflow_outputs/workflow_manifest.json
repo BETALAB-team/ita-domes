@@ -1,0 +1,179 @@
+{
+  "configuration": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_config.json",
+  "inputs": {
+    "raw_istat": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat_microdata_2013.csv",
+      "sha256": "a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f"
+    },
+    "energy_results": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\results_grins.csv",
+      "sha256": "c9232f7e21897e77ae38daba767f854708f259bf4292358a7bca5c2ab2b30de1"
+    }
+  },
+  "outputs": {
+    "baseline_households": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\household_archetypes.csv",
+      "sha256": "1d4dea8d57a21927e6066d03e036d16da6530ec4e1e76196c9fc06807f2fff72"
+    },
+    "baseline_summary": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\archetype_summary.csv",
+      "sha256": "548b22002bf6b7384bdeb6d5e78ce67468909435f01ccdff8ef52953d5781889"
+    },
+    "baseline_exclusions": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\preprocessing_exclusions.csv",
+      "sha256": "1e4138fc49c349ee2d6f05a1400bfd6de6d997776a62773e82344096a99d637c"
+    },
+    "baseline_model": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\archetype_model.json",
+      "sha256": "6b66f24c60981d0f9d3a513c75b34e705d716fd0e9e04ee106eddf9c1ed18508"
+    },
+    "baseline_validation": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\validation_report.json",
+      "sha256": "d4904bfa734dd9f2c4a4595974527b9e2b69f866c3949796e7b27c52d273db97"
+    },
+    "pfe_probabilities": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\pfe_outputs\\dwelling_archetype_probabilities.csv",
+      "sha256": "f24a8059dda4df2b7339c73aff69cb4d1be533912e07379b741979d05707bb27"
+    },
+    "pfe_unsupported_windows": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\pfe_outputs\\unsupported_windows.csv",
+      "sha256": "889036aadb3bdc349786a2a2b5ceb258e738e8b600d01f033b2d01edd69caa8f"
+    },
+    "pfe_model": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\pfe_outputs\\pfe_model.json",
+      "sha256": "e7087348e13b9cb20c8dc13ababd7c5fc5e6fcdd2e1979ba27ceec6c7eca56db"
+    },
+    "pfe_validation": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\pfe_outputs\\validation_report.json",
+      "sha256": "4c97c167e76c441c267001597ab2d329a2836235a1649f31b3051eb775de6413"
+    },
+    "energy_dataset": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\energy_analysis_dataset.csv",
+      "sha256": "da2feb7ed3e3695b9411aaf8b28b224e3bfbf84b778c0c4d05730b6c3487e6b6"
+    },
+    "energy_exclusions": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\energy_exclusions.csv",
+      "sha256": "2e5fe40dfe85900bdd4117bde064c7be9315deb426b4fe6d1b6f09e6064396d2"
+    },
+    "anova_results": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\anova_results.csv",
+      "sha256": "ef7fbe5dd42141263f7147e30dc388a8b944d085828386867b94e410138130ae"
+    },
+    "heating_groups": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\heating_tukey_groups.csv",
+      "sha256": "1539d3973228e79cc53f8913693b22fc90e3f92bd391eef407b047bd1641f722"
+    },
+    "electricity_groups": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\electricity_tukey_groups.csv",
+      "sha256": "a235392c83006a2048ee44d817f9d2ab135034ede82c3dc77376de4642ac1daf"
+    },
+    "energy_group_summary": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\energy_group_summary.csv",
+      "sha256": "37d5f05bcaa7b72e184b467083be0ce5888ca29413cfdb98e3244c445272271e"
+    },
+    "energy_factor_summary": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\energy_factor_summary.csv",
+      "sha256": "39bcc9b813fa9b479f12d453a3a14db382836143ecf3b80c0f94a549f7ba2724"
+    },
+    "tukey_merge_history": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\tukey_merge_history.csv",
+      "sha256": "dedc1d5c84e58ed364149a4a1988a52cf012806d082a704e46feca591ffffa96"
+    },
+    "energy_model": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\energy_model.json",
+      "sha256": "fa826ef0682b3dd87b75ab3df2892e6246b362de4bc1fc63d9111b9c90d4c9e4"
+    },
+    "energy_validation": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\validation_report.json",
+      "sha256": "ba6cb5434150676a6207b1ff51541fd56a9247bb8a9d3e07b8f58ad342c2db56"
+    },
+    "word_report": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\istat_archetype_energy_report.docx",
+      "sha256": "b2bf044eac67102822424e43d317b9bbba1cc32e546340704ad0bcf081d35323"
+    },
+    "report_validation": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_validation.json",
+      "sha256": "96a40ea425801677ae6956d85b40e160eb79266a9d408eb4193bbf3d7f0bf9a4"
+    },
+    "report_figure_study_process_flow_svg": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\study_process_flow.svg",
+      "sha256": "cb7012dd28c07845d48238fe7c30eaf6ecb9bf101f36e53b11418bf0bd957ea3"
+    },
+    "report_figure_study_process_flow_png": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\study_process_flow.png",
+      "sha256": "42d80134466b0f5b62a440174c6b3c8c48ae4709db213aad9cc615c26596a34e"
+    },
+    "report_figure_pca_explained_variance_svg": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\pca_explained_variance.svg",
+      "sha256": "110ec7909f964c60fc9233f5968876285ecd5327dcdd6c1667a10ddf34019f3c"
+    },
+    "report_figure_pca_explained_variance_png": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\pca_explained_variance.png",
+      "sha256": "9f7a6faa71b0c563ac05323c9cb0c5497f4b5a6a3204aa0364d25497e4d07e6e"
+    },
+    "report_figure_clustering_elbow_svg": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\clustering_elbow.svg",
+      "sha256": "eff801a34d00d32b58f0bbdccd5562cd6a4a9a0c0725a0b0b673c69617f092b9"
+    },
+    "report_figure_clustering_elbow_png": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\clustering_elbow.png",
+      "sha256": "2a17ac4cbbf732484e8cb9ab92868c729a47572baa906ae7e18722d37a676e09"
+    },
+    "report_figure_regional_cluster_centroids_svg": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\regional_cluster_centroids.svg",
+      "sha256": "8b240c4d1d39448361f6d1e8b485ffe00055943cb09b52d7c45c0bd217c18a78"
+    },
+    "report_figure_regional_cluster_centroids_png": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\regional_cluster_centroids.png",
+      "sha256": "9044e47137a8e36ea49e902d7fd876e2e949f42e924b256da078e713e9e85e58"
+    },
+    "report_figure_archetype_population_shares_svg": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\archetype_population_shares.svg",
+      "sha256": "4b9d03c16267da39a11eb31a2b01d752a113ebe75f533f380200be852f729d49"
+    },
+    "report_figure_archetype_population_shares_png": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\archetype_population_shares.png",
+      "sha256": "5d27d302581f01352143ecb190e9d4721ecc173285fea070dec63bfdd7c6c9aa"
+    },
+    "report_figure_dwelling_probability_profiles_svg": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\dwelling_probability_profiles.svg",
+      "sha256": "eb5364151003f339254261c5db7edf28dfcd0771dbe3ad25e06e94a667c4b675"
+    },
+    "report_figure_dwelling_probability_profiles_png": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\dwelling_probability_profiles.png",
+      "sha256": "5703405cd842ae85c979e3b29603956b95b8f55a18595df1be7b87359d9369d1"
+    },
+    "report_figure_probability_model_validation_svg": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\probability_model_validation.svg",
+      "sha256": "1114ae5ac784b1f87cccc07a508819f6142f2d07f2d00bfb55d1038d3c511b40"
+    },
+    "report_figure_probability_model_validation_png": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\probability_model_validation.png",
+      "sha256": "998a1bde03076f604b3d9c0c834b08b46a9ab872ef43e69069017c9d3e58e1e7"
+    },
+    "report_figure_energy_group_boxplots_svg": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\energy_group_boxplots.svg",
+      "sha256": "0cf4ad10d9d9f49432aedfa675dbbb9661549cc66e35bc963b120e24a3eb8f9b"
+    },
+    "report_figure_energy_group_boxplots_png": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\energy_group_boxplots.png",
+      "sha256": "6bc2a6786ac563b7357afa0d3cee302642ad10e7ef263d632f2ac23b2ecc0009"
+    },
+    "report_figure_electricity_standard_comparison_svg": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\electricity_standard_comparison.svg",
+      "sha256": "7b7a9745d854235707ab6f4765d51a114db1c1fbec92c0054d7d2a3a3a66f9d6"
+    },
+    "report_figure_electricity_standard_comparison_png": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\electricity_standard_comparison.png",
+      "sha256": "142ac26d33da0525edb9eac46a5277419a0856afab6a2d7c38ea5c464bb386b1"
+    },
+    "report_figure_group_assignment_matrix_svg": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\group_assignment_matrix.svg",
+      "sha256": "e08cb156b23ffcda080ea587c65960e4311caee8c9cdcbe407f7893c7a80ce19"
+    },
+    "report_figure_group_assignment_matrix_png": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\group_assignment_matrix.png",
+      "sha256": "fbe8e422ad3b04fe3d01fec11eb378c32f2d3efd7ec104392e1c3e05396d30f9"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "configuration": {
+    "title": "Italian Household Archetypes and Energy Analysis",
+    "subtitle": "Automated methods and results report",
+    "cluster_seed": 1,
+    "raw_source_to_canonical": {}
+  },
+  "validation": {
+    "passed": true,
+    "checks": {
+      "docx_exists": true,
+      "all_paper_replica_svg_figures_exist": true,
+      "all_png_fallbacks_exist": true,
+      "all_figures_are_embedded": true,
+      "native_svgs_are_embedded_with_png_fallbacks": true,
+      "all_figures_have_captions": true,
+      "appendix_assignment_figure_is_present": true,
+      "all_tables_have_captions": true,
+      "report_contains_multiple_result_tables": true,
+      "report_contains_no_interpretation_heading": true
+    },
+    "counts": {
+      "tables": 10,
+      "table_captions": 10,
+      "figures": 10,
+      "figure_captions": 10
+    }
+  },
+  "outputs": {
+    "docx": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\istat_archetype_energy_report.docx",
+    "docx_sha256": "b2bf044eac67102822424e43d317b9bbba1cc32e546340704ad0bcf081d35323",
+    "figures": {
+      "study_process_flow": {
+        "svg": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\study_process_flow.svg",
+        "png": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\study_process_flow.png"
+      },
+      "pca_explained_variance": {
+        "svg": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\pca_explained_variance.svg",
+        "png": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\pca_explained_variance.png"
+      },
+      "clustering_elbow": {
+        "svg": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\clustering_elbow.svg",
+        "png": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\clustering_elbow.png"
+      },
+      "regional_cluster_centroids": {
+        "svg": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\regional_cluster_centroids.svg",
+        "png": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\regional_cluster_centroids.png"
+      },
+      "archetype_population_shares": {
+        "svg": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\archetype_population_shares.svg",
+        "png": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\archetype_population_shares.png"
+      },
+      "dwelling_probability_profiles": {
+        "svg": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\dwelling_probability_profiles.svg",
+        "png": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\dwelling_probability_profiles.png"
+      },
+      "probability_model_validation": {
+        "svg": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\probability_model_validation.svg",
+        "png": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\probability_model_validation.png"
+      },
+      "energy_group_boxplots": {
+        "svg": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\energy_group_boxplots.svg",
+        "png": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\energy_group_boxplots.png"
+      },
+      "electricity_standard_comparison": {
+        "svg": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\electricity_standard_comparison.svg",
+        "png": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\electricity_standard_comparison.png"
+      },
+      "group_assignment_matrix": {
+        "svg": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\group_assignment_matrix.svg",
+        "png": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\workflow_outputs\\report_figures\\group_assignment_matrix.png"
+      }
+    }
+  }
+}

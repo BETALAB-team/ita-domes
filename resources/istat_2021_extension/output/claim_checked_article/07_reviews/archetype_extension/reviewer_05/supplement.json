@@ -1,0 +1,25 @@
+{
+  "raw_eligibility_and_predicates_pass": true,
+  "v1_five_roles_one_profile": true,
+  "unchanged_test_ids": true,
+  "surface_checks": [
+    {
+      "site": "Padova",
+      "surface_algebra_pass": true
+    },
+    {
+      "site": "Bolzano",
+      "surface_algebra_pass": true
+    },
+    {
+      "site": "Roma",
+      "surface_algebra_pass": true
+    },
+    {
+      "site": "Palermo",
+      "surface_algebra_pass": true
+    }
+  ],
+  "raw_sha256": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+  "old_pilot_files_checked": 20
+}

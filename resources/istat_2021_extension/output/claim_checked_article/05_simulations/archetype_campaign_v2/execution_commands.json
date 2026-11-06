@@ -1,0 +1,54 @@
+{
+  "cwd": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data",
+  "campaign": "archetype_campaign_v2",
+  "source_status": "exact frozen reviewed sources unchanged during annual execution",
+  "annual_commands": {
+    "Padova": [
+      "C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe",
+      "-B",
+      "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\archetype_extension\\run_mixture_campaign.py",
+      "Padova",
+      "--campaign",
+      "archetype_campaign_v2"
+    ],
+    "Bolzano": [
+      "C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe",
+      "-B",
+      "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\archetype_extension\\run_mixture_campaign.py",
+      "Bolzano",
+      "--campaign",
+      "archetype_campaign_v2"
+    ],
+    "Roma": [
+      "C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe",
+      "-B",
+      "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\archetype_extension\\run_mixture_campaign.py",
+      "Roma",
+      "--campaign",
+      "archetype_campaign_v2"
+    ],
+    "Palermo": [
+      "C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe",
+      "-B",
+      "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\archetype_extension\\run_mixture_campaign.py",
+      "Palermo",
+      "--campaign",
+      "archetype_campaign_v2"
+    ]
+  },
+  "postprocessing_command_argv": [
+    "C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\archetype_extension\\analyze_mixtures.py",
+    "--campaign",
+    "archetype_campaign_v2",
+    "--out-name",
+    "results_v2"
+  ],
+  "analysis_script_sha256": "07fb6f014aa8ffe84e3cb72669b07fa1012827b6db05eeac9168bc821f7285fc",
+  "independent_site_gate_checker_sha256": "5ebe0737d9021287d23138bacd0417e0aeded057f498800fa336e679044d4237",
+  "assembly_script_sha256": "69715e6a1592a10eaad1b3c06585109f6c50df864691b42aec4823514240772c",
+  "annual_execution_count": 152,
+  "optional_replay_count": 0,
+  "preflight_failure_counted_as_annual": false
+}

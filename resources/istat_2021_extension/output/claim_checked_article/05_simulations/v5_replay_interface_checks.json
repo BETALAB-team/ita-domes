@@ -1,0 +1,24 @@
+{
+  "test": "existing completed destination is rejected without modifying any file",
+  "command_argv": [
+    "C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\run_climate_campaign_v5.py",
+    "Padova",
+    "--campaign",
+    "climate_campaign_v5"
+  ],
+  "return_code": 1,
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\run_climate_campaign_v5.py\", line 183, in <module>\n    try: main()\n         ~~~~^^\n  File \"C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\run_climate_campaign_v5.py\", line 36, in main\n    raise FileExistsError(f'Refusing to overwrite existing simulation outputs: {RUN}')\nFileExistsError: Refusing to overwrite existing simulation outputs: C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\05_simulations\\climate_campaign_v5\\Padova\n",
+  "all_before_after_file_hashes_equal": true,
+  "file_count": 44,
+  "pass": true,
+  "separate_genuine_annual_replay": {
+    "campaign": "climate_campaign_v5_replay",
+    "case": "seeded",
+    "hours": 8760,
+    "not_an_additional_scientific_sample": true,
+    "byte_identical_hourly_output": true,
+    "independent_full_step_gate_pass": true
+  }
+}

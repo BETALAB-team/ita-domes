@@ -1,0 +1,9 @@
+# User-authorized extension — 20 October 2026
+
+The user asks: “ok i would like to have the user archetypes implemented soemwhere in it and obviously. get the agents up and running again. also the lit review is too scarce”. This steers the ongoing CLIMA journal-extension project: implement the existing published user archetypes in the analysis/simulations and substantially strengthen the literature synthesis. It does not authorize new sidebar chats, external contact, publication or a switch to generic clustering.
+
+Earlier instructions persist: actual specialist agents with requested model assignments, claim-first authoring and independent review, no generative images, traceable new simulations, explicit missing-validation boundaries. The earlier four cycles cover the prior scope; they do not approve new archetype claims. Additional fresh scientific review and revision are required before updated prose.
+
+Additional human steering during execution: “also you know use the literature already there in the article of which this will be the extension”. The original request identifies CLIMA as the primary foundation. Root therefore directs a source-by-source audit of its17references and carries relevant methods/literature forward as the review's backbone, with the linked2025archetype paper and newer studies extending that foundation. References are verified for their actual support and relevance; inherited citations do not establish tests, standards compliance or empirical accuracy. This is steering of the active extension, not a replacement task.
+
+Prior delivery is preserved in ../delivery_history/pre_archetypes_20261020. Existing v00–v04, reviews01–04, immutable run snapshots and v5 outputs remain unchanged. New worker artifacts use archetype_extension subdirectories and new campaign identities. Current final/prose pointers will change only after the extension's review gate, preserving previous snapshots.

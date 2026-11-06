@@ -1,0 +1,428 @@
+{
+  "access_date": "2026-10-20",
+  "all_17_mapped": true,
+  "references": [
+    {
+      "conference_reference_number": 1,
+      "verified_source_ids": [
+        "CF-SRC-GREENDEAL2019"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-GREENDEAL2019",
+          "title": "The European Green Deal",
+          "authors": [
+            "European Commission"
+          ],
+          "year": 2019,
+          "doi": null,
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019DC0640",
+          "access_depth": "Official EUR-Lex text/metadata indexed; direct canonical fetch returned minimal page",
+          "locator": "Document heading/date 11December2019; Communication introduction",
+          "limits": "Context only; no current compliance, simulation accuracy or retrofit-savings claim."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 2,
+      "verified_source_ids": [
+        "CF-SRC-EPBD2024"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-EPBD2024",
+          "title": "Directive (EU) 2024/1275 of the European Parliament and of the Council of 24 April 2024 on the energy performance of buildings (recast)",
+          "authors": [
+            "European Parliament and Council of the European Union"
+          ],
+          "year": 2024,
+          "doi": null,
+          "url": "https://eur-lex.europa.eu/eli/dir/2024/1275/oj",
+          "access_depth": "Official EUR-Lex original directive heading/recitals indexed",
+          "locator": "Official Journal L2024/1275,8May2024; title/date",
+          "limits": "No implementation, compliance or interpretation of current duties assessed."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 3,
+      "verified_source_ids": [
+        "CF-SRC-EESC2022",
+        "CF-SRC-FIT552021"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-EESC2022",
+          "title": "Opinion of the European Economic and Social Committee on the Communication: 'Fit for 55': delivering the EU's 2030 Climate Target on the way to climate neutrality [COM(2021) 550 final]",
+          "authors": [
+            "European Economic and Social Committee"
+          ],
+          "year": 2022,
+          "doi": null,
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=uriserv:OJ.C_.2022.275.01.0101.01.ENG",
+          "access_depth": "Official EUR-Lex heading/metadata and document relationship",
+          "locator": "CELEX52021AE5481; vote24February2022; OJ18July2022",
+          "limits": "Do not carry the printed author/title/year combination forward unchanged."
+        },
+        {
+          "id": "CF-SRC-FIT552021",
+          "title": "'Fit for 55': delivering the EU's 2030 Climate Target on the way to climate neutrality",
+          "authors": [
+            "European Commission"
+          ],
+          "year": 2021,
+          "doi": null,
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021DC0550",
+          "access_depth": "Official EUR-Lex text and document metadata indexed",
+          "locator": "CELEX52021DC0550; Commission communication14July2021",
+          "limits": "Optional policy context only; correction must not be silently attributed to the original bibliography."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 4,
+      "verified_source_ids": [
+        "CF-SRC-BROGGER2018"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-BROGGER2018",
+          "title": "Estimating the energy-saving potential in national building stocks – A methodology review",
+          "authors": [
+            "Morten Brøgger",
+            "Kim Bjarne Wittchen"
+          ],
+          "year": 2018,
+          "doi": "10.1016/j.rser.2017.05.239",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364032117308857",
+          "access_depth": "Original publisher abstract/section excerpts and author-institution metadata; not complete full-text appraisal",
+          "locator": "Abstract; methodological discussion of extrapolation/representativeness; Discussion/Conclusion excerpts",
+          "limits": "A methodology review, not a primary empirical effect estimate; no reviewed source's numerical performance imported."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 5,
+      "verified_source_ids": [
+        "CF-SRC-CALAMA2024"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-CALAMA2024",
+          "title": "Household energy vulnerability evaluation in southern Spain through parametric energy simulation models and socio-economic data",
+          "authors": [
+            "Carmen María Calama-González",
+            "Rocío Escandón",
+            "Rafael Suárez",
+            "Alicia Alonso",
+            "Ángel Luis León-Rodríguez"
+          ],
+          "year": 2024,
+          "doi": "10.1016/j.scs.2024.105276",
+          "url": "https://idus.us.es/server/api/core/bitstreams/d437d2eb-631e-4c9e-9d1f-5f19c3e4287b/content",
+          "access_depth": "Primary author-institution abstract and indexed complete selected methods page; directPDF403",
+          "locator": "§2.2p4,Stages1–3; §2.3p4; originalpaper metadata",
+          "limits": "Southern-Spain social-housing/adaptive comfort scope; inherited temperature checks do not validate Italian demand/carriers. Referenced prior validation papers not independently audited."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 6,
+      "verified_source_ids": [
+        "SRC-MOIRAE2020"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "SRC-MOIRAE2020",
+          "title": "MOIRAE – bottom-up MOdel to compute the energy consumption of the Italian REsidential sector: Model design, validation and evaluation of electrification pathways",
+          "authors": [
+            "Giorgio Besagni",
+            "Marco Borgarello",
+            "Lidia Premoli Vilà",
+            "Behzad Najafi",
+            "Fabio Rinaldi"
+          ],
+          "year": 2020,
+          "doi": "10.1016/j.energy.2020.118674",
+          "url": "https://www.researchgate.net/publication/344001872_MOIRAE_-_bottom-up_MOdel_to_compute_the_energy_consumption_of_the_Italian_REsidential_sector_Model_design_validation_and_evaluation_of_electrification_pathways",
+          "access_depth": "Author-uploaded primary abstract; publisher direct fetch failed; metadata corroborated by author ORCID",
+          "locator": "Abstract on author-uploaded publication; ORCID0000-0003-4166-2476 contributor/DOI record",
+          "limits": "Abstract-only appraisal. Expenditure comparisons do not demonstrate hourly metered accuracy. No asserted software-lineage identity"
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 7,
+      "verified_source_ids": [
+        "CF-SRC-RSE2021"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-RSE2021",
+          "title": "Applicativo per la valutazione dei consumi energetici degli edifici residenziali italiani",
+          "authors": [
+            "L. Croci",
+            "S. Viani",
+            "Enrico Prataviera",
+            "Angelo Zarrella"
+          ],
+          "year": 2021,
+          "doi": null,
+          "url": "https://www.rse-web.it/rapporti/applicativo-per-la-valutazione-dei-consumi-energetici-degli-edifici-residenziali-italiani/",
+          "access_depth": "Official report page abstract/metadata; download link returns page/access UI rather than fullreport",
+          "locator": "Rif.RSE21012539; AnnoRapporto2021; Autori; description paragraphs",
+          "limits": "Report body not obtained; product page year2022 is distinct from report2021. Correct authorViani; no code identity or numerical accuracy inherited."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 8,
+      "verified_source_ids": [
+        "SRC-MODENA2024"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "SRC-MODENA2024",
+          "title": "Analysis of Energy Consumption Scenarios of the Italian Residential Building Stock",
+          "authors": [
+            "Enrico Prataviera",
+            "Jacopo Vivian",
+            "Francesca Gaudino",
+            "Angelo Zarrella"
+          ],
+          "year": 2024,
+          "doi": null,
+          "url": "https://pro.unibz.it/library/bupress/publications/fulltext/9788860462022_21.pdf",
+          "access_depth": "Full8-page primary proceedings chapter; selected methods/results inspected",
+          "locator": "Sections2.2–2.3 pp158–160; Section3.1 pp160–161; Section3.2 pp162–163",
+          "limits": "2013versus2018GSE heating comparison uses HDD correction; forecast weather uses a different baseline source. No household/hourly measured validation established by those aggregate checks. Relationship to ita-domes requires code/conference provenance"
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 9,
+      "verified_source_ids": [
+        "CF-SRC-ISTAT2013PUF"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-ISTAT2013PUF",
+          "title": "Indagine sui consumi energetici delle famiglie: microdati ad uso pubblico, anno 2013",
+          "authors": [
+            "Istituto nazionale di statistica"
+          ],
+          "year": 2017,
+          "doi": null,
+          "url": "https://www.istat.it/microdati/indagine-sui-consumi-energetici-delle-famiglie-anno-2013-2/",
+          "access_depth": "Official exact landing page referenced by CLIMA; metadata/description inspected",
+          "locator": "Referenceperiod2013; publication30August2017; pageID22523; publicuse tag",
+          "limits": "Distinct from current research-fileMFRpage. Landing description is not questionnaire comparability, local representativeness or metered truth."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 10,
+      "verified_source_ids": [
+        "SRC-EURECA2021"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "SRC-EURECA2021",
+          "title": "EUReCA: An open-source urban building energy modelling tool for the efficient evaluation of cities energy demand",
+          "authors": [
+            "Enrico Prataviera",
+            "Pierdonato Romano",
+            "Laura Carnieletto",
+            "Francesco Pirotti",
+            "Jacopo Vivian",
+            "Angelo Zarrella"
+          ],
+          "year": 2021,
+          "doi": "10.1016/j.renene.2021.03.144",
+          "url": "https://github.com/BETALAB-team/EUReCA",
+          "access_depth": "Official author-maintained software README and citation; publisher indexed record; direct publisher full fetch failed",
+          "locator": "Official repository README How to cite EUReCA and Input/Output sections",
+          "limits": "Current repository documentation does not prove the conference version/configuration; no quantitative validation imported"
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 11,
+      "verified_source_ids": [
+        "CF-SRC-VIVIAN2017"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-VIVIAN2017",
+          "title": "An evaluation of the suitability of lumped-capacitance models in calculating energy needs and thermal behaviour of buildings",
+          "authors": [
+            "Jacopo Vivian",
+            "Angelo Zarrella",
+            "Giuseppe Emmi",
+            "Michele De Carli"
+          ],
+          "year": 2017,
+          "doi": "10.1016/j.enbuild.2017.06.021",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378778816314244",
+          "access_depth": "Original publisher abstract/highlights/methodology/conclusion excerpts indexed; direct403; author-institution metadata corroborated",
+          "locator": "Abstract; Methodology; ResultsAndDiscussion; Conclusions",
+          "limits": "Inter-model comparison, not measured dwelling validation. Does not establish correctness of current adapter; no benchmark has been run by citing it."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 12,
+      "verified_source_ids": [
+        "AE-SRC-CARNIELETTO2021"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "AE-SRC-CARNIELETTO2021",
+          "title": "Italian prototype building models for urban scale building performance simulation",
+          "authors": [
+            "Laura Carnieletto",
+            "Martina Ferrando",
+            "Lorenzo Teso",
+            "Kaiyu Sun",
+            "Wanni Zhang",
+            "Francesco Causone",
+            "Piercarlo Romagnoni",
+            "Angelo Zarrella",
+            "Tianzhen Hong"
+          ],
+          "year": 2021,
+          "doi": "10.1016/j.buildenv.2021.107590",
+          "url": "https://escholarship.org/content/qt8q57r16d/qt8q57r16d_noSplash_a473a55b40e402f3c45f423bc4dbdf0c.pdf",
+          "access_depth": "Full34-page author manuscript available; selected complete methods/conclusion pages inspected",
+          "locator": "Abstract PDFp3; §3.5/3.6 PDFpp23–27; Discussion/Conclusion PDFpp28–29",
+          "limits": "Does not identify demographic users or validate their assignment; prototypes are not household behaviour measurements."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 13,
+      "verified_source_ids": [
+        "CF-SRC-DPR4121993"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-DPR4121993",
+          "title": "Decreto del Presidente della Repubblica 26 agosto 1993, n. 412",
+          "authors": [
+            "Presidente della Repubblica Italiana"
+          ],
+          "year": 1993,
+          "doi": null,
+          "url": "https://www.gazzettaufficiale.it/eli/id/1993/10/14/093G0451/sg",
+          "access_depth": "Official original-act landing metadata; article-specific legal provisions not audited",
+          "locator": "Title/date; GU14October1993; CLIMA§3.1p1304citesforheatingseason",
+          "limits": "No current compliance or legal limit interpreted. Regulatory operating windows do not measure actual household use."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 14,
+      "verified_source_ids": [
+        "CF-SRC-STAFFELL2012"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-STAFFELL2012",
+          "title": "A review of domestic heat pumps",
+          "authors": [
+            "Iain Staffell",
+            "Dan Brett",
+            "Nigel Brandon",
+            "Adam Hawkes"
+          ],
+          "year": 2012,
+          "doi": "10.1039/C2EE22653G",
+          "url": "https://pubs.rsc.org/en/content/articlehtml/2012/ee/c2ee22653g",
+          "access_depth": "Original publisher abstract/metadata; no detailed correlation rederivation",
+          "locator": "Abstract/ArticleInformation;5(11)9291–9306; CLIMA§3.1p1305",
+          "limits": "Current useful-sensible heating experiment has no heat-pump/final-energy conversion; omit from central argument unless that boundary is added and verified."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 15,
+      "verified_source_ids": [
+        "CF-SRC-UNI113002019"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-UNI113002019",
+          "title": "UNI/TS 11300-2:2019. Prestazioni energetiche degli edifici - Parte 2: Determinazione del fabbisogno di energia primaria e dei rendimenti per la climatizzazione invernale, per la produzione di acqua calda sanitaria, per la ventilazione e per l'illuminazione in edifici non residenziali",
+          "authors": [
+            "Ente Italiano di Normazione"
+          ],
+          "year": 2019,
+          "doi": null,
+          "url": "https://store.uni.com/uni-ts-11300-2-2019",
+          "access_depth": "Official UNI catalog title/summary/edition date; standard body not accessed",
+          "locator": "Catalog Sommario; entry7February2019; CLIMA§3.2p1306",
+          "limits": "Catalog scope alone does not verify a coefficient/formula or show current implementation compliance. Current ideal-load study excludes DHW."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 16,
+      "verified_source_ids": [
+        "CF-SRC-UNI103492016"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-UNI103492016",
+          "title": "UNI 10349-1:2016. Riscaldamento e raffrescamento degli edifici - Dati climatici - Parte 1: Medie mensili per la valutazione della prestazione termo-energetica dell'edificio e metodi per ripartire l'irradianza solare nella frazione diretta e diffusa e per calcolare l'irradianza solare su di una superficie inclinata",
+          "authors": [
+            "Ente Italiano di Normazione"
+          ],
+          "year": 2016,
+          "doi": null,
+          "url": "https://store.uni.com/uni-10349-1-2016",
+          "access_depth": "Official UNI catalog title/summary/edition date; standard body not accessed",
+          "locator": "Catalog Sommario;31March2016; CLIMA§3.3p1306",
+          "limits": "Does not establish current PVGISweather compliance or historical-year matching. Corrigendum exists but not technically audited."
+        }
+      ]
+    },
+    {
+      "conference_reference_number": 17,
+      "verified_source_ids": [
+        "CF-SRC-ISO159272005"
+      ],
+      "details_file": "conference_reference_crosswalk.md",
+      "sources": [
+        {
+          "id": "CF-SRC-ISO159272005",
+          "title": "ISO 15927-4:2005. Hygrothermal performance of buildings - Calculation and presentation of climatic data - Part 4: Hourly data for assessing the annual energy use for heating and cooling",
+          "authors": [
+            "International Organization for Standardization"
+          ],
+          "year": 2005,
+          "doi": null,
+          "url": "https://www.iso.org/standard/41371.html",
+          "access_depth": "Official ISO catalog abstract/edition information; full standard not accessed",
+          "locator": "Abstract; edition1,July2005; CLIMA§3.3p1306",
+          "limits": "No conformity audit of downloaded weather files; typical-year maxima are not extreme design-year evidence."
+        }
+      ]
+    }
+  ]
+}

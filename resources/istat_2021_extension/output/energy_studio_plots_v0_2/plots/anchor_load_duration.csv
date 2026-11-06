@@ -1,0 +1,883 @@
+panel,series,x,category,value,reference_line
+Sensible heating,EnergyPlus,1.0,,2.826067998247882,False
+Sensible heating,EnergyPlus,61.0,,1.815599932151991,False
+Sensible heating,EnergyPlus,121.0,,1.5362909280245896,False
+Sensible heating,EnergyPlus,181.0,,1.3590423497915722,False
+Sensible heating,EnergyPlus,241.0,,1.2078538136863093,False
+Sensible heating,EnergyPlus,301.0,,1.114125871362685,False
+Sensible heating,EnergyPlus,361.0,,1.0113558781687697,False
+Sensible heating,EnergyPlus,421.0,,0.916775206855856,False
+Sensible heating,EnergyPlus,481.0,,0.8250757080867188,False
+Sensible heating,EnergyPlus,541.0,,0.7430012683860532,False
+Sensible heating,EnergyPlus,601.0,,0.6390420411668983,False
+Sensible heating,EnergyPlus,661.0,,0.5474396529733158,False
+Sensible heating,EnergyPlus,721.0,,0.4822794146423111,False
+Sensible heating,EnergyPlus,781.0,,0.419854987872079,False
+Sensible heating,EnergyPlus,841.0,,0.324618838364885,False
+Sensible heating,EnergyPlus,901.0,,0.2418907347810614,False
+Sensible heating,EnergyPlus,961.0,,0.179191676968664,False
+Sensible heating,EnergyPlus,1021.0,,0.1185986583523335,False
+Sensible heating,EnergyPlus,1081.0,,0.0560132254107784,False
+Sensible heating,EnergyPlus,1141.0,,0.0222330638964494,False
+Sensible heating,EnergyPlus,1201.0,,0.0,False
+Sensible heating,EnergyPlus,1261.0,,0.0,False
+Sensible heating,EnergyPlus,1321.0,,0.0,False
+Sensible heating,EnergyPlus,1381.0,,0.0,False
+Sensible heating,EnergyPlus,1441.0,,0.0,False
+Sensible heating,EnergyPlus,1501.0,,0.0,False
+Sensible heating,EnergyPlus,1561.0,,0.0,False
+Sensible heating,EnergyPlus,1621.0,,0.0,False
+Sensible heating,EnergyPlus,1681.0,,0.0,False
+Sensible heating,EnergyPlus,1741.0,,0.0,False
+Sensible heating,EnergyPlus,1801.0,,0.0,False
+Sensible heating,EnergyPlus,1861.0,,0.0,False
+Sensible heating,EnergyPlus,1921.0,,0.0,False
+Sensible heating,EnergyPlus,1981.0,,0.0,False
+Sensible heating,EnergyPlus,2041.0,,0.0,False
+Sensible heating,EnergyPlus,2101.0,,0.0,False
+Sensible heating,EnergyPlus,2161.0,,0.0,False
+Sensible heating,EnergyPlus,2221.0,,0.0,False
+Sensible heating,EnergyPlus,2281.0,,0.0,False
+Sensible heating,EnergyPlus,2341.0,,0.0,False
+Sensible heating,EnergyPlus,2401.0,,0.0,False
+Sensible heating,EnergyPlus,2461.0,,0.0,False
+Sensible heating,EnergyPlus,2521.0,,0.0,False
+Sensible heating,EnergyPlus,2581.0,,0.0,False
+Sensible heating,EnergyPlus,2641.0,,0.0,False
+Sensible heating,EnergyPlus,2701.0,,0.0,False
+Sensible heating,EnergyPlus,2761.0,,0.0,False
+Sensible heating,EnergyPlus,2821.0,,0.0,False
+Sensible heating,EnergyPlus,2881.0,,0.0,False
+Sensible heating,EnergyPlus,2941.0,,0.0,False
+Sensible heating,EnergyPlus,3001.0,,0.0,False
+Sensible heating,EnergyPlus,3061.0,,0.0,False
+Sensible heating,EnergyPlus,3121.0,,0.0,False
+Sensible heating,EnergyPlus,3181.0,,0.0,False
+Sensible heating,EnergyPlus,3241.0,,0.0,False
+Sensible heating,EnergyPlus,3301.0,,0.0,False
+Sensible heating,EnergyPlus,3361.0,,0.0,False
+Sensible heating,EnergyPlus,3421.0,,0.0,False
+Sensible heating,EnergyPlus,3481.0,,0.0,False
+Sensible heating,EnergyPlus,3541.0,,0.0,False
+Sensible heating,EnergyPlus,3601.0,,0.0,False
+Sensible heating,EnergyPlus,3661.0,,0.0,False
+Sensible heating,EnergyPlus,3721.0,,0.0,False
+Sensible heating,EnergyPlus,3781.0,,0.0,False
+Sensible heating,EnergyPlus,3841.0,,0.0,False
+Sensible heating,EnergyPlus,3901.0,,0.0,False
+Sensible heating,EnergyPlus,3961.0,,0.0,False
+Sensible heating,EnergyPlus,4021.0,,0.0,False
+Sensible heating,EnergyPlus,4081.0,,0.0,False
+Sensible heating,EnergyPlus,4141.0,,0.0,False
+Sensible heating,EnergyPlus,4201.0,,0.0,False
+Sensible heating,EnergyPlus,4261.0,,0.0,False
+Sensible heating,EnergyPlus,4321.0,,0.0,False
+Sensible heating,EnergyPlus,4381.0,,0.0,False
+Sensible heating,EnergyPlus,4441.0,,0.0,False
+Sensible heating,EnergyPlus,4501.0,,0.0,False
+Sensible heating,EnergyPlus,4561.0,,0.0,False
+Sensible heating,EnergyPlus,4621.0,,0.0,False
+Sensible heating,EnergyPlus,4681.0,,0.0,False
+Sensible heating,EnergyPlus,4741.0,,0.0,False
+Sensible heating,EnergyPlus,4801.0,,0.0,False
+Sensible heating,EnergyPlus,4861.0,,0.0,False
+Sensible heating,EnergyPlus,4921.0,,0.0,False
+Sensible heating,EnergyPlus,4981.0,,0.0,False
+Sensible heating,EnergyPlus,5041.0,,0.0,False
+Sensible heating,EnergyPlus,5101.0,,0.0,False
+Sensible heating,EnergyPlus,5161.0,,0.0,False
+Sensible heating,EnergyPlus,5221.0,,0.0,False
+Sensible heating,EnergyPlus,5281.0,,0.0,False
+Sensible heating,EnergyPlus,5341.0,,0.0,False
+Sensible heating,EnergyPlus,5401.0,,0.0,False
+Sensible heating,EnergyPlus,5461.0,,0.0,False
+Sensible heating,EnergyPlus,5521.0,,0.0,False
+Sensible heating,EnergyPlus,5581.0,,0.0,False
+Sensible heating,EnergyPlus,5641.0,,0.0,False
+Sensible heating,EnergyPlus,5701.0,,0.0,False
+Sensible heating,EnergyPlus,5761.0,,0.0,False
+Sensible heating,EnergyPlus,5821.0,,0.0,False
+Sensible heating,EnergyPlus,5881.0,,0.0,False
+Sensible heating,EnergyPlus,5941.0,,0.0,False
+Sensible heating,EnergyPlus,6001.0,,0.0,False
+Sensible heating,EnergyPlus,6061.0,,0.0,False
+Sensible heating,EnergyPlus,6121.0,,0.0,False
+Sensible heating,EnergyPlus,6181.0,,0.0,False
+Sensible heating,EnergyPlus,6241.0,,0.0,False
+Sensible heating,EnergyPlus,6301.0,,0.0,False
+Sensible heating,EnergyPlus,6361.0,,0.0,False
+Sensible heating,EnergyPlus,6421.0,,0.0,False
+Sensible heating,EnergyPlus,6481.0,,0.0,False
+Sensible heating,EnergyPlus,6541.0,,0.0,False
+Sensible heating,EnergyPlus,6601.0,,0.0,False
+Sensible heating,EnergyPlus,6661.0,,0.0,False
+Sensible heating,EnergyPlus,6721.0,,0.0,False
+Sensible heating,EnergyPlus,6781.0,,0.0,False
+Sensible heating,EnergyPlus,6841.0,,0.0,False
+Sensible heating,EnergyPlus,6901.0,,0.0,False
+Sensible heating,EnergyPlus,6961.0,,0.0,False
+Sensible heating,EnergyPlus,7021.0,,0.0,False
+Sensible heating,EnergyPlus,7081.0,,0.0,False
+Sensible heating,EnergyPlus,7141.0,,0.0,False
+Sensible heating,EnergyPlus,7201.0,,0.0,False
+Sensible heating,EnergyPlus,7261.0,,0.0,False
+Sensible heating,EnergyPlus,7321.0,,0.0,False
+Sensible heating,EnergyPlus,7381.0,,0.0,False
+Sensible heating,EnergyPlus,7441.0,,0.0,False
+Sensible heating,EnergyPlus,7501.0,,0.0,False
+Sensible heating,EnergyPlus,7561.0,,0.0,False
+Sensible heating,EnergyPlus,7621.0,,0.0,False
+Sensible heating,EnergyPlus,7681.0,,0.0,False
+Sensible heating,EnergyPlus,7741.0,,0.0,False
+Sensible heating,EnergyPlus,7801.0,,0.0,False
+Sensible heating,EnergyPlus,7861.0,,0.0,False
+Sensible heating,EnergyPlus,7921.0,,0.0,False
+Sensible heating,EnergyPlus,7981.0,,0.0,False
+Sensible heating,EnergyPlus,8041.0,,0.0,False
+Sensible heating,EnergyPlus,8101.0,,0.0,False
+Sensible heating,EnergyPlus,8161.0,,0.0,False
+Sensible heating,EnergyPlus,8221.0,,0.0,False
+Sensible heating,EnergyPlus,8281.0,,0.0,False
+Sensible heating,EnergyPlus,8341.0,,0.0,False
+Sensible heating,EnergyPlus,8401.0,,0.0,False
+Sensible heating,EnergyPlus,8461.0,,0.0,False
+Sensible heating,EnergyPlus,8521.0,,0.0,False
+Sensible heating,EnergyPlus,8581.0,,0.0,False
+Sensible heating,EnergyPlus,8641.0,,0.0,False
+Sensible heating,EnergyPlus,8701.0,,0.0,False
+Sensible heating,EnergyPlus,8760.0,,0.0,False
+Sensible heating,One-run hybrid,1.0,,9.638998568040146,False
+Sensible heating,One-run hybrid,61.0,,4.9125642788232655,False
+Sensible heating,One-run hybrid,121.0,,2.086657713009551,False
+Sensible heating,One-run hybrid,181.0,,0.821597679559289,False
+Sensible heating,One-run hybrid,241.0,,0.6818321583051108,False
+Sensible heating,One-run hybrid,301.0,,0.5803454011047048,False
+Sensible heating,One-run hybrid,361.0,,0.4885299921619049,False
+Sensible heating,One-run hybrid,421.0,,0.4152487806225071,False
+Sensible heating,One-run hybrid,481.0,,0.355356351276713,False
+Sensible heating,One-run hybrid,541.0,,0.2815127561449115,False
+Sensible heating,One-run hybrid,601.0,,0.1816821305716098,False
+Sensible heating,One-run hybrid,661.0,,0.0,False
+Sensible heating,One-run hybrid,721.0,,0.0,False
+Sensible heating,One-run hybrid,781.0,,0.0,False
+Sensible heating,One-run hybrid,841.0,,0.0,False
+Sensible heating,One-run hybrid,901.0,,0.0,False
+Sensible heating,One-run hybrid,961.0,,0.0,False
+Sensible heating,One-run hybrid,1021.0,,0.0,False
+Sensible heating,One-run hybrid,1081.0,,0.0,False
+Sensible heating,One-run hybrid,1141.0,,0.0,False
+Sensible heating,One-run hybrid,1201.0,,0.0,False
+Sensible heating,One-run hybrid,1261.0,,0.0,False
+Sensible heating,One-run hybrid,1321.0,,0.0,False
+Sensible heating,One-run hybrid,1381.0,,0.0,False
+Sensible heating,One-run hybrid,1441.0,,0.0,False
+Sensible heating,One-run hybrid,1501.0,,0.0,False
+Sensible heating,One-run hybrid,1561.0,,0.0,False
+Sensible heating,One-run hybrid,1621.0,,0.0,False
+Sensible heating,One-run hybrid,1681.0,,0.0,False
+Sensible heating,One-run hybrid,1741.0,,0.0,False
+Sensible heating,One-run hybrid,1801.0,,0.0,False
+Sensible heating,One-run hybrid,1861.0,,0.0,False
+Sensible heating,One-run hybrid,1921.0,,0.0,False
+Sensible heating,One-run hybrid,1981.0,,0.0,False
+Sensible heating,One-run hybrid,2041.0,,0.0,False
+Sensible heating,One-run hybrid,2101.0,,0.0,False
+Sensible heating,One-run hybrid,2161.0,,0.0,False
+Sensible heating,One-run hybrid,2221.0,,0.0,False
+Sensible heating,One-run hybrid,2281.0,,0.0,False
+Sensible heating,One-run hybrid,2341.0,,0.0,False
+Sensible heating,One-run hybrid,2401.0,,0.0,False
+Sensible heating,One-run hybrid,2461.0,,0.0,False
+Sensible heating,One-run hybrid,2521.0,,0.0,False
+Sensible heating,One-run hybrid,2581.0,,0.0,False
+Sensible heating,One-run hybrid,2641.0,,0.0,False
+Sensible heating,One-run hybrid,2701.0,,0.0,False
+Sensible heating,One-run hybrid,2761.0,,0.0,False
+Sensible heating,One-run hybrid,2821.0,,0.0,False
+Sensible heating,One-run hybrid,2881.0,,0.0,False
+Sensible heating,One-run hybrid,2941.0,,0.0,False
+Sensible heating,One-run hybrid,3001.0,,0.0,False
+Sensible heating,One-run hybrid,3061.0,,0.0,False
+Sensible heating,One-run hybrid,3121.0,,0.0,False
+Sensible heating,One-run hybrid,3181.0,,0.0,False
+Sensible heating,One-run hybrid,3241.0,,0.0,False
+Sensible heating,One-run hybrid,3301.0,,0.0,False
+Sensible heating,One-run hybrid,3361.0,,0.0,False
+Sensible heating,One-run hybrid,3421.0,,0.0,False
+Sensible heating,One-run hybrid,3481.0,,0.0,False
+Sensible heating,One-run hybrid,3541.0,,0.0,False
+Sensible heating,One-run hybrid,3601.0,,0.0,False
+Sensible heating,One-run hybrid,3661.0,,0.0,False
+Sensible heating,One-run hybrid,3721.0,,0.0,False
+Sensible heating,One-run hybrid,3781.0,,0.0,False
+Sensible heating,One-run hybrid,3841.0,,0.0,False
+Sensible heating,One-run hybrid,3901.0,,0.0,False
+Sensible heating,One-run hybrid,3961.0,,0.0,False
+Sensible heating,One-run hybrid,4021.0,,0.0,False
+Sensible heating,One-run hybrid,4081.0,,0.0,False
+Sensible heating,One-run hybrid,4141.0,,0.0,False
+Sensible heating,One-run hybrid,4201.0,,0.0,False
+Sensible heating,One-run hybrid,4261.0,,0.0,False
+Sensible heating,One-run hybrid,4321.0,,0.0,False
+Sensible heating,One-run hybrid,4381.0,,0.0,False
+Sensible heating,One-run hybrid,4441.0,,0.0,False
+Sensible heating,One-run hybrid,4501.0,,0.0,False
+Sensible heating,One-run hybrid,4561.0,,0.0,False
+Sensible heating,One-run hybrid,4621.0,,0.0,False
+Sensible heating,One-run hybrid,4681.0,,0.0,False
+Sensible heating,One-run hybrid,4741.0,,0.0,False
+Sensible heating,One-run hybrid,4801.0,,0.0,False
+Sensible heating,One-run hybrid,4861.0,,0.0,False
+Sensible heating,One-run hybrid,4921.0,,0.0,False
+Sensible heating,One-run hybrid,4981.0,,0.0,False
+Sensible heating,One-run hybrid,5041.0,,0.0,False
+Sensible heating,One-run hybrid,5101.0,,0.0,False
+Sensible heating,One-run hybrid,5161.0,,0.0,False
+Sensible heating,One-run hybrid,5221.0,,0.0,False
+Sensible heating,One-run hybrid,5281.0,,0.0,False
+Sensible heating,One-run hybrid,5341.0,,0.0,False
+Sensible heating,One-run hybrid,5401.0,,0.0,False
+Sensible heating,One-run hybrid,5461.0,,0.0,False
+Sensible heating,One-run hybrid,5521.0,,0.0,False
+Sensible heating,One-run hybrid,5581.0,,0.0,False
+Sensible heating,One-run hybrid,5641.0,,0.0,False
+Sensible heating,One-run hybrid,5701.0,,0.0,False
+Sensible heating,One-run hybrid,5761.0,,0.0,False
+Sensible heating,One-run hybrid,5821.0,,0.0,False
+Sensible heating,One-run hybrid,5881.0,,0.0,False
+Sensible heating,One-run hybrid,5941.0,,0.0,False
+Sensible heating,One-run hybrid,6001.0,,0.0,False
+Sensible heating,One-run hybrid,6061.0,,0.0,False
+Sensible heating,One-run hybrid,6121.0,,0.0,False
+Sensible heating,One-run hybrid,6181.0,,0.0,False
+Sensible heating,One-run hybrid,6241.0,,0.0,False
+Sensible heating,One-run hybrid,6301.0,,0.0,False
+Sensible heating,One-run hybrid,6361.0,,0.0,False
+Sensible heating,One-run hybrid,6421.0,,0.0,False
+Sensible heating,One-run hybrid,6481.0,,0.0,False
+Sensible heating,One-run hybrid,6541.0,,0.0,False
+Sensible heating,One-run hybrid,6601.0,,0.0,False
+Sensible heating,One-run hybrid,6661.0,,0.0,False
+Sensible heating,One-run hybrid,6721.0,,0.0,False
+Sensible heating,One-run hybrid,6781.0,,0.0,False
+Sensible heating,One-run hybrid,6841.0,,0.0,False
+Sensible heating,One-run hybrid,6901.0,,0.0,False
+Sensible heating,One-run hybrid,6961.0,,0.0,False
+Sensible heating,One-run hybrid,7021.0,,0.0,False
+Sensible heating,One-run hybrid,7081.0,,0.0,False
+Sensible heating,One-run hybrid,7141.0,,0.0,False
+Sensible heating,One-run hybrid,7201.0,,0.0,False
+Sensible heating,One-run hybrid,7261.0,,0.0,False
+Sensible heating,One-run hybrid,7321.0,,0.0,False
+Sensible heating,One-run hybrid,7381.0,,0.0,False
+Sensible heating,One-run hybrid,7441.0,,0.0,False
+Sensible heating,One-run hybrid,7501.0,,0.0,False
+Sensible heating,One-run hybrid,7561.0,,0.0,False
+Sensible heating,One-run hybrid,7621.0,,0.0,False
+Sensible heating,One-run hybrid,7681.0,,0.0,False
+Sensible heating,One-run hybrid,7741.0,,0.0,False
+Sensible heating,One-run hybrid,7801.0,,0.0,False
+Sensible heating,One-run hybrid,7861.0,,0.0,False
+Sensible heating,One-run hybrid,7921.0,,0.0,False
+Sensible heating,One-run hybrid,7981.0,,0.0,False
+Sensible heating,One-run hybrid,8041.0,,0.0,False
+Sensible heating,One-run hybrid,8101.0,,0.0,False
+Sensible heating,One-run hybrid,8161.0,,0.0,False
+Sensible heating,One-run hybrid,8221.0,,0.0,False
+Sensible heating,One-run hybrid,8281.0,,0.0,False
+Sensible heating,One-run hybrid,8341.0,,0.0,False
+Sensible heating,One-run hybrid,8401.0,,0.0,False
+Sensible heating,One-run hybrid,8461.0,,0.0,False
+Sensible heating,One-run hybrid,8521.0,,0.0,False
+Sensible heating,One-run hybrid,8581.0,,0.0,False
+Sensible heating,One-run hybrid,8641.0,,0.0,False
+Sensible heating,One-run hybrid,8701.0,,0.0,False
+Sensible heating,One-run hybrid,8760.0,,0.0,False
+Sensible heating,Survey + physics,1.0,,15.291442697551409,False
+Sensible heating,Survey + physics,61.0,,7.793360963527747,False
+Sensible heating,Survey + physics,121.0,,3.3103031007480417,False
+Sensible heating,Survey + physics,181.0,,1.3033940972953724,False
+Sensible heating,Survey + physics,241.0,,1.0816681115235725,False
+Sensible heating,Survey + physics,301.0,,0.920668094630131,False
+Sensible heating,Survey + physics,361.0,,0.7750108404360845,False
+Sensible heating,Survey + physics,421.0,,0.6587564972953649,False
+Sensible heating,Survey + physics,481.0,,0.5637423062574082,False
+Sensible heating,Survey + physics,541.0,,0.4465957898876356,False
+Sensible heating,Survey + physics,601.0,,0.2882230834659933,False
+Sensible heating,Survey + physics,661.0,,0.0,False
+Sensible heating,Survey + physics,721.0,,0.0,False
+Sensible heating,Survey + physics,781.0,,0.0,False
+Sensible heating,Survey + physics,841.0,,0.0,False
+Sensible heating,Survey + physics,901.0,,0.0,False
+Sensible heating,Survey + physics,961.0,,0.0,False
+Sensible heating,Survey + physics,1021.0,,0.0,False
+Sensible heating,Survey + physics,1081.0,,0.0,False
+Sensible heating,Survey + physics,1141.0,,0.0,False
+Sensible heating,Survey + physics,1201.0,,0.0,False
+Sensible heating,Survey + physics,1261.0,,0.0,False
+Sensible heating,Survey + physics,1321.0,,0.0,False
+Sensible heating,Survey + physics,1381.0,,0.0,False
+Sensible heating,Survey + physics,1441.0,,0.0,False
+Sensible heating,Survey + physics,1501.0,,0.0,False
+Sensible heating,Survey + physics,1561.0,,0.0,False
+Sensible heating,Survey + physics,1621.0,,0.0,False
+Sensible heating,Survey + physics,1681.0,,0.0,False
+Sensible heating,Survey + physics,1741.0,,0.0,False
+Sensible heating,Survey + physics,1801.0,,0.0,False
+Sensible heating,Survey + physics,1861.0,,0.0,False
+Sensible heating,Survey + physics,1921.0,,0.0,False
+Sensible heating,Survey + physics,1981.0,,0.0,False
+Sensible heating,Survey + physics,2041.0,,0.0,False
+Sensible heating,Survey + physics,2101.0,,0.0,False
+Sensible heating,Survey + physics,2161.0,,0.0,False
+Sensible heating,Survey + physics,2221.0,,0.0,False
+Sensible heating,Survey + physics,2281.0,,0.0,False
+Sensible heating,Survey + physics,2341.0,,0.0,False
+Sensible heating,Survey + physics,2401.0,,0.0,False
+Sensible heating,Survey + physics,2461.0,,0.0,False
+Sensible heating,Survey + physics,2521.0,,0.0,False
+Sensible heating,Survey + physics,2581.0,,0.0,False
+Sensible heating,Survey + physics,2641.0,,0.0,False
+Sensible heating,Survey + physics,2701.0,,0.0,False
+Sensible heating,Survey + physics,2761.0,,0.0,False
+Sensible heating,Survey + physics,2821.0,,0.0,False
+Sensible heating,Survey + physics,2881.0,,0.0,False
+Sensible heating,Survey + physics,2941.0,,0.0,False
+Sensible heating,Survey + physics,3001.0,,0.0,False
+Sensible heating,Survey + physics,3061.0,,0.0,False
+Sensible heating,Survey + physics,3121.0,,0.0,False
+Sensible heating,Survey + physics,3181.0,,0.0,False
+Sensible heating,Survey + physics,3241.0,,0.0,False
+Sensible heating,Survey + physics,3301.0,,0.0,False
+Sensible heating,Survey + physics,3361.0,,0.0,False
+Sensible heating,Survey + physics,3421.0,,0.0,False
+Sensible heating,Survey + physics,3481.0,,0.0,False
+Sensible heating,Survey + physics,3541.0,,0.0,False
+Sensible heating,Survey + physics,3601.0,,0.0,False
+Sensible heating,Survey + physics,3661.0,,0.0,False
+Sensible heating,Survey + physics,3721.0,,0.0,False
+Sensible heating,Survey + physics,3781.0,,0.0,False
+Sensible heating,Survey + physics,3841.0,,0.0,False
+Sensible heating,Survey + physics,3901.0,,0.0,False
+Sensible heating,Survey + physics,3961.0,,0.0,False
+Sensible heating,Survey + physics,4021.0,,0.0,False
+Sensible heating,Survey + physics,4081.0,,0.0,False
+Sensible heating,Survey + physics,4141.0,,0.0,False
+Sensible heating,Survey + physics,4201.0,,0.0,False
+Sensible heating,Survey + physics,4261.0,,0.0,False
+Sensible heating,Survey + physics,4321.0,,0.0,False
+Sensible heating,Survey + physics,4381.0,,0.0,False
+Sensible heating,Survey + physics,4441.0,,0.0,False
+Sensible heating,Survey + physics,4501.0,,0.0,False
+Sensible heating,Survey + physics,4561.0,,0.0,False
+Sensible heating,Survey + physics,4621.0,,0.0,False
+Sensible heating,Survey + physics,4681.0,,0.0,False
+Sensible heating,Survey + physics,4741.0,,0.0,False
+Sensible heating,Survey + physics,4801.0,,0.0,False
+Sensible heating,Survey + physics,4861.0,,0.0,False
+Sensible heating,Survey + physics,4921.0,,0.0,False
+Sensible heating,Survey + physics,4981.0,,0.0,False
+Sensible heating,Survey + physics,5041.0,,0.0,False
+Sensible heating,Survey + physics,5101.0,,0.0,False
+Sensible heating,Survey + physics,5161.0,,0.0,False
+Sensible heating,Survey + physics,5221.0,,0.0,False
+Sensible heating,Survey + physics,5281.0,,0.0,False
+Sensible heating,Survey + physics,5341.0,,0.0,False
+Sensible heating,Survey + physics,5401.0,,0.0,False
+Sensible heating,Survey + physics,5461.0,,0.0,False
+Sensible heating,Survey + physics,5521.0,,0.0,False
+Sensible heating,Survey + physics,5581.0,,0.0,False
+Sensible heating,Survey + physics,5641.0,,0.0,False
+Sensible heating,Survey + physics,5701.0,,0.0,False
+Sensible heating,Survey + physics,5761.0,,0.0,False
+Sensible heating,Survey + physics,5821.0,,0.0,False
+Sensible heating,Survey + physics,5881.0,,0.0,False
+Sensible heating,Survey + physics,5941.0,,0.0,False
+Sensible heating,Survey + physics,6001.0,,0.0,False
+Sensible heating,Survey + physics,6061.0,,0.0,False
+Sensible heating,Survey + physics,6121.0,,0.0,False
+Sensible heating,Survey + physics,6181.0,,0.0,False
+Sensible heating,Survey + physics,6241.0,,0.0,False
+Sensible heating,Survey + physics,6301.0,,0.0,False
+Sensible heating,Survey + physics,6361.0,,0.0,False
+Sensible heating,Survey + physics,6421.0,,0.0,False
+Sensible heating,Survey + physics,6481.0,,0.0,False
+Sensible heating,Survey + physics,6541.0,,0.0,False
+Sensible heating,Survey + physics,6601.0,,0.0,False
+Sensible heating,Survey + physics,6661.0,,0.0,False
+Sensible heating,Survey + physics,6721.0,,0.0,False
+Sensible heating,Survey + physics,6781.0,,0.0,False
+Sensible heating,Survey + physics,6841.0,,0.0,False
+Sensible heating,Survey + physics,6901.0,,0.0,False
+Sensible heating,Survey + physics,6961.0,,0.0,False
+Sensible heating,Survey + physics,7021.0,,0.0,False
+Sensible heating,Survey + physics,7081.0,,0.0,False
+Sensible heating,Survey + physics,7141.0,,0.0,False
+Sensible heating,Survey + physics,7201.0,,0.0,False
+Sensible heating,Survey + physics,7261.0,,0.0,False
+Sensible heating,Survey + physics,7321.0,,0.0,False
+Sensible heating,Survey + physics,7381.0,,0.0,False
+Sensible heating,Survey + physics,7441.0,,0.0,False
+Sensible heating,Survey + physics,7501.0,,0.0,False
+Sensible heating,Survey + physics,7561.0,,0.0,False
+Sensible heating,Survey + physics,7621.0,,0.0,False
+Sensible heating,Survey + physics,7681.0,,0.0,False
+Sensible heating,Survey + physics,7741.0,,0.0,False
+Sensible heating,Survey + physics,7801.0,,0.0,False
+Sensible heating,Survey + physics,7861.0,,0.0,False
+Sensible heating,Survey + physics,7921.0,,0.0,False
+Sensible heating,Survey + physics,7981.0,,0.0,False
+Sensible heating,Survey + physics,8041.0,,0.0,False
+Sensible heating,Survey + physics,8101.0,,0.0,False
+Sensible heating,Survey + physics,8161.0,,0.0,False
+Sensible heating,Survey + physics,8221.0,,0.0,False
+Sensible heating,Survey + physics,8281.0,,0.0,False
+Sensible heating,Survey + physics,8341.0,,0.0,False
+Sensible heating,Survey + physics,8401.0,,0.0,False
+Sensible heating,Survey + physics,8461.0,,0.0,False
+Sensible heating,Survey + physics,8521.0,,0.0,False
+Sensible heating,Survey + physics,8581.0,,0.0,False
+Sensible heating,Survey + physics,8641.0,,0.0,False
+Sensible heating,Survey + physics,8701.0,,0.0,False
+Sensible heating,Survey + physics,8760.0,,0.0,False
+Sensible cooling,EnergyPlus,1.0,,3.016744228080358,False
+Sensible cooling,EnergyPlus,61.0,,2.231045206893587,False
+Sensible cooling,EnergyPlus,121.0,,1.9650884116977116,False
+Sensible cooling,EnergyPlus,181.0,,1.7305755900104725,False
+Sensible cooling,EnergyPlus,241.0,,1.5860934977186087,False
+Sensible cooling,EnergyPlus,301.0,,1.4486006372646898,False
+Sensible cooling,EnergyPlus,361.0,,1.3104008836062078,False
+Sensible cooling,EnergyPlus,421.0,,1.1213446855420317,False
+Sensible cooling,EnergyPlus,481.0,,0.9178107690641072,False
+Sensible cooling,EnergyPlus,541.0,,0.7958282035471221,False
+Sensible cooling,EnergyPlus,601.0,,0.6749341575170373,False
+Sensible cooling,EnergyPlus,661.0,,0.6031105736614207,False
+Sensible cooling,EnergyPlus,721.0,,0.5211005216747708,False
+Sensible cooling,EnergyPlus,781.0,,0.4195983190509941,False
+Sensible cooling,EnergyPlus,841.0,,0.3309492481381412,False
+Sensible cooling,EnergyPlus,901.0,,0.2425858662714381,False
+Sensible cooling,EnergyPlus,961.0,,0.1601851264224815,False
+Sensible cooling,EnergyPlus,1021.0,,0.0948394499641853,False
+Sensible cooling,EnergyPlus,1081.0,,0.0344403545613467,False
+Sensible cooling,EnergyPlus,1141.0,,0.0,False
+Sensible cooling,EnergyPlus,1201.0,,0.0,False
+Sensible cooling,EnergyPlus,1261.0,,0.0,False
+Sensible cooling,EnergyPlus,1321.0,,0.0,False
+Sensible cooling,EnergyPlus,1381.0,,0.0,False
+Sensible cooling,EnergyPlus,1441.0,,0.0,False
+Sensible cooling,EnergyPlus,1501.0,,0.0,False
+Sensible cooling,EnergyPlus,1561.0,,0.0,False
+Sensible cooling,EnergyPlus,1621.0,,0.0,False
+Sensible cooling,EnergyPlus,1681.0,,0.0,False
+Sensible cooling,EnergyPlus,1741.0,,0.0,False
+Sensible cooling,EnergyPlus,1801.0,,0.0,False
+Sensible cooling,EnergyPlus,1861.0,,0.0,False
+Sensible cooling,EnergyPlus,1921.0,,0.0,False
+Sensible cooling,EnergyPlus,1981.0,,0.0,False
+Sensible cooling,EnergyPlus,2041.0,,0.0,False
+Sensible cooling,EnergyPlus,2101.0,,0.0,False
+Sensible cooling,EnergyPlus,2161.0,,0.0,False
+Sensible cooling,EnergyPlus,2221.0,,0.0,False
+Sensible cooling,EnergyPlus,2281.0,,0.0,False
+Sensible cooling,EnergyPlus,2341.0,,0.0,False
+Sensible cooling,EnergyPlus,2401.0,,0.0,False
+Sensible cooling,EnergyPlus,2461.0,,0.0,False
+Sensible cooling,EnergyPlus,2521.0,,0.0,False
+Sensible cooling,EnergyPlus,2581.0,,0.0,False
+Sensible cooling,EnergyPlus,2641.0,,0.0,False
+Sensible cooling,EnergyPlus,2701.0,,0.0,False
+Sensible cooling,EnergyPlus,2761.0,,0.0,False
+Sensible cooling,EnergyPlus,2821.0,,0.0,False
+Sensible cooling,EnergyPlus,2881.0,,0.0,False
+Sensible cooling,EnergyPlus,2941.0,,0.0,False
+Sensible cooling,EnergyPlus,3001.0,,0.0,False
+Sensible cooling,EnergyPlus,3061.0,,0.0,False
+Sensible cooling,EnergyPlus,3121.0,,0.0,False
+Sensible cooling,EnergyPlus,3181.0,,0.0,False
+Sensible cooling,EnergyPlus,3241.0,,0.0,False
+Sensible cooling,EnergyPlus,3301.0,,0.0,False
+Sensible cooling,EnergyPlus,3361.0,,0.0,False
+Sensible cooling,EnergyPlus,3421.0,,0.0,False
+Sensible cooling,EnergyPlus,3481.0,,0.0,False
+Sensible cooling,EnergyPlus,3541.0,,0.0,False
+Sensible cooling,EnergyPlus,3601.0,,0.0,False
+Sensible cooling,EnergyPlus,3661.0,,0.0,False
+Sensible cooling,EnergyPlus,3721.0,,0.0,False
+Sensible cooling,EnergyPlus,3781.0,,0.0,False
+Sensible cooling,EnergyPlus,3841.0,,0.0,False
+Sensible cooling,EnergyPlus,3901.0,,0.0,False
+Sensible cooling,EnergyPlus,3961.0,,0.0,False
+Sensible cooling,EnergyPlus,4021.0,,0.0,False
+Sensible cooling,EnergyPlus,4081.0,,0.0,False
+Sensible cooling,EnergyPlus,4141.0,,0.0,False
+Sensible cooling,EnergyPlus,4201.0,,0.0,False
+Sensible cooling,EnergyPlus,4261.0,,0.0,False
+Sensible cooling,EnergyPlus,4321.0,,0.0,False
+Sensible cooling,EnergyPlus,4381.0,,0.0,False
+Sensible cooling,EnergyPlus,4441.0,,0.0,False
+Sensible cooling,EnergyPlus,4501.0,,0.0,False
+Sensible cooling,EnergyPlus,4561.0,,0.0,False
+Sensible cooling,EnergyPlus,4621.0,,0.0,False
+Sensible cooling,EnergyPlus,4681.0,,0.0,False
+Sensible cooling,EnergyPlus,4741.0,,0.0,False
+Sensible cooling,EnergyPlus,4801.0,,0.0,False
+Sensible cooling,EnergyPlus,4861.0,,0.0,False
+Sensible cooling,EnergyPlus,4921.0,,0.0,False
+Sensible cooling,EnergyPlus,4981.0,,0.0,False
+Sensible cooling,EnergyPlus,5041.0,,0.0,False
+Sensible cooling,EnergyPlus,5101.0,,0.0,False
+Sensible cooling,EnergyPlus,5161.0,,0.0,False
+Sensible cooling,EnergyPlus,5221.0,,0.0,False
+Sensible cooling,EnergyPlus,5281.0,,0.0,False
+Sensible cooling,EnergyPlus,5341.0,,0.0,False
+Sensible cooling,EnergyPlus,5401.0,,0.0,False
+Sensible cooling,EnergyPlus,5461.0,,0.0,False
+Sensible cooling,EnergyPlus,5521.0,,0.0,False
+Sensible cooling,EnergyPlus,5581.0,,0.0,False
+Sensible cooling,EnergyPlus,5641.0,,0.0,False
+Sensible cooling,EnergyPlus,5701.0,,0.0,False
+Sensible cooling,EnergyPlus,5761.0,,0.0,False
+Sensible cooling,EnergyPlus,5821.0,,0.0,False
+Sensible cooling,EnergyPlus,5881.0,,0.0,False
+Sensible cooling,EnergyPlus,5941.0,,0.0,False
+Sensible cooling,EnergyPlus,6001.0,,0.0,False
+Sensible cooling,EnergyPlus,6061.0,,0.0,False
+Sensible cooling,EnergyPlus,6121.0,,0.0,False
+Sensible cooling,EnergyPlus,6181.0,,0.0,False
+Sensible cooling,EnergyPlus,6241.0,,0.0,False
+Sensible cooling,EnergyPlus,6301.0,,0.0,False
+Sensible cooling,EnergyPlus,6361.0,,0.0,False
+Sensible cooling,EnergyPlus,6421.0,,0.0,False
+Sensible cooling,EnergyPlus,6481.0,,0.0,False
+Sensible cooling,EnergyPlus,6541.0,,0.0,False
+Sensible cooling,EnergyPlus,6601.0,,0.0,False
+Sensible cooling,EnergyPlus,6661.0,,0.0,False
+Sensible cooling,EnergyPlus,6721.0,,0.0,False
+Sensible cooling,EnergyPlus,6781.0,,0.0,False
+Sensible cooling,EnergyPlus,6841.0,,0.0,False
+Sensible cooling,EnergyPlus,6901.0,,0.0,False
+Sensible cooling,EnergyPlus,6961.0,,0.0,False
+Sensible cooling,EnergyPlus,7021.0,,0.0,False
+Sensible cooling,EnergyPlus,7081.0,,0.0,False
+Sensible cooling,EnergyPlus,7141.0,,0.0,False
+Sensible cooling,EnergyPlus,7201.0,,0.0,False
+Sensible cooling,EnergyPlus,7261.0,,0.0,False
+Sensible cooling,EnergyPlus,7321.0,,0.0,False
+Sensible cooling,EnergyPlus,7381.0,,0.0,False
+Sensible cooling,EnergyPlus,7441.0,,0.0,False
+Sensible cooling,EnergyPlus,7501.0,,0.0,False
+Sensible cooling,EnergyPlus,7561.0,,0.0,False
+Sensible cooling,EnergyPlus,7621.0,,0.0,False
+Sensible cooling,EnergyPlus,7681.0,,0.0,False
+Sensible cooling,EnergyPlus,7741.0,,0.0,False
+Sensible cooling,EnergyPlus,7801.0,,0.0,False
+Sensible cooling,EnergyPlus,7861.0,,0.0,False
+Sensible cooling,EnergyPlus,7921.0,,0.0,False
+Sensible cooling,EnergyPlus,7981.0,,0.0,False
+Sensible cooling,EnergyPlus,8041.0,,0.0,False
+Sensible cooling,EnergyPlus,8101.0,,0.0,False
+Sensible cooling,EnergyPlus,8161.0,,0.0,False
+Sensible cooling,EnergyPlus,8221.0,,0.0,False
+Sensible cooling,EnergyPlus,8281.0,,0.0,False
+Sensible cooling,EnergyPlus,8341.0,,0.0,False
+Sensible cooling,EnergyPlus,8401.0,,0.0,False
+Sensible cooling,EnergyPlus,8461.0,,0.0,False
+Sensible cooling,EnergyPlus,8521.0,,0.0,False
+Sensible cooling,EnergyPlus,8581.0,,0.0,False
+Sensible cooling,EnergyPlus,8641.0,,0.0,False
+Sensible cooling,EnergyPlus,8701.0,,0.0,False
+Sensible cooling,EnergyPlus,8760.0,,0.0,False
+Sensible cooling,One-run hybrid,1.0,,10.824629789364485,False
+Sensible cooling,One-run hybrid,61.0,,6.087325342095618,False
+Sensible cooling,One-run hybrid,121.0,,2.6345509478836355,False
+Sensible cooling,One-run hybrid,181.0,,0.8835639873217792,False
+Sensible cooling,One-run hybrid,241.0,,0.735670979934754,False
+Sensible cooling,One-run hybrid,301.0,,0.6159931430746793,False
+Sensible cooling,One-run hybrid,361.0,,0.5530410815494211,False
+Sensible cooling,One-run hybrid,421.0,,0.485860977929561,False
+Sensible cooling,One-run hybrid,481.0,,0.4147726557513339,False
+Sensible cooling,One-run hybrid,541.0,,0.3381617222319367,False
+Sensible cooling,One-run hybrid,601.0,,0.2674651874617233,False
+Sensible cooling,One-run hybrid,661.0,,0.1729694610288074,False
+Sensible cooling,One-run hybrid,721.0,,0.0587403799502491,False
+Sensible cooling,One-run hybrid,781.0,,0.0,False
+Sensible cooling,One-run hybrid,841.0,,-0.0,False
+Sensible cooling,One-run hybrid,901.0,,-0.0,False
+Sensible cooling,One-run hybrid,961.0,,-0.0,False
+Sensible cooling,One-run hybrid,1021.0,,-0.0,False
+Sensible cooling,One-run hybrid,1081.0,,-0.0,False
+Sensible cooling,One-run hybrid,1141.0,,-0.0,False
+Sensible cooling,One-run hybrid,1201.0,,-0.0,False
+Sensible cooling,One-run hybrid,1261.0,,-0.0,False
+Sensible cooling,One-run hybrid,1321.0,,-0.0,False
+Sensible cooling,One-run hybrid,1381.0,,-0.0,False
+Sensible cooling,One-run hybrid,1441.0,,-0.0,False
+Sensible cooling,One-run hybrid,1501.0,,-0.0,False
+Sensible cooling,One-run hybrid,1561.0,,-0.0,False
+Sensible cooling,One-run hybrid,1621.0,,-0.0,False
+Sensible cooling,One-run hybrid,1681.0,,-0.0,False
+Sensible cooling,One-run hybrid,1741.0,,-0.0,False
+Sensible cooling,One-run hybrid,1801.0,,-0.0,False
+Sensible cooling,One-run hybrid,1861.0,,-0.0,False
+Sensible cooling,One-run hybrid,1921.0,,-0.0,False
+Sensible cooling,One-run hybrid,1981.0,,-0.0,False
+Sensible cooling,One-run hybrid,2041.0,,-0.0,False
+Sensible cooling,One-run hybrid,2101.0,,-0.0,False
+Sensible cooling,One-run hybrid,2161.0,,-0.0,False
+Sensible cooling,One-run hybrid,2221.0,,-0.0,False
+Sensible cooling,One-run hybrid,2281.0,,-0.0,False
+Sensible cooling,One-run hybrid,2341.0,,-0.0,False
+Sensible cooling,One-run hybrid,2401.0,,-0.0,False
+Sensible cooling,One-run hybrid,2461.0,,-0.0,False
+Sensible cooling,One-run hybrid,2521.0,,-0.0,False
+Sensible cooling,One-run hybrid,2581.0,,-0.0,False
+Sensible cooling,One-run hybrid,2641.0,,-0.0,False
+Sensible cooling,One-run hybrid,2701.0,,-0.0,False
+Sensible cooling,One-run hybrid,2761.0,,-0.0,False
+Sensible cooling,One-run hybrid,2821.0,,-0.0,False
+Sensible cooling,One-run hybrid,2881.0,,-0.0,False
+Sensible cooling,One-run hybrid,2941.0,,-0.0,False
+Sensible cooling,One-run hybrid,3001.0,,-0.0,False
+Sensible cooling,One-run hybrid,3061.0,,-0.0,False
+Sensible cooling,One-run hybrid,3121.0,,-0.0,False
+Sensible cooling,One-run hybrid,3181.0,,0.0,False
+Sensible cooling,One-run hybrid,3241.0,,-0.0,False
+Sensible cooling,One-run hybrid,3301.0,,-0.0,False
+Sensible cooling,One-run hybrid,3361.0,,-0.0,False
+Sensible cooling,One-run hybrid,3421.0,,-0.0,False
+Sensible cooling,One-run hybrid,3481.0,,0.0,False
+Sensible cooling,One-run hybrid,3541.0,,-0.0,False
+Sensible cooling,One-run hybrid,3601.0,,-0.0,False
+Sensible cooling,One-run hybrid,3661.0,,-0.0,False
+Sensible cooling,One-run hybrid,3721.0,,-0.0,False
+Sensible cooling,One-run hybrid,3781.0,,-0.0,False
+Sensible cooling,One-run hybrid,3841.0,,-0.0,False
+Sensible cooling,One-run hybrid,3901.0,,-0.0,False
+Sensible cooling,One-run hybrid,3961.0,,-0.0,False
+Sensible cooling,One-run hybrid,4021.0,,-0.0,False
+Sensible cooling,One-run hybrid,4081.0,,-0.0,False
+Sensible cooling,One-run hybrid,4141.0,,-0.0,False
+Sensible cooling,One-run hybrid,4201.0,,-0.0,False
+Sensible cooling,One-run hybrid,4261.0,,-0.0,False
+Sensible cooling,One-run hybrid,4321.0,,-0.0,False
+Sensible cooling,One-run hybrid,4381.0,,0.0,False
+Sensible cooling,One-run hybrid,4441.0,,-0.0,False
+Sensible cooling,One-run hybrid,4501.0,,-0.0,False
+Sensible cooling,One-run hybrid,4561.0,,0.0,False
+Sensible cooling,One-run hybrid,4621.0,,-0.0,False
+Sensible cooling,One-run hybrid,4681.0,,-0.0,False
+Sensible cooling,One-run hybrid,4741.0,,-0.0,False
+Sensible cooling,One-run hybrid,4801.0,,-0.0,False
+Sensible cooling,One-run hybrid,4861.0,,-0.0,False
+Sensible cooling,One-run hybrid,4921.0,,-0.0,False
+Sensible cooling,One-run hybrid,4981.0,,-0.0,False
+Sensible cooling,One-run hybrid,5041.0,,-0.0,False
+Sensible cooling,One-run hybrid,5101.0,,-0.0,False
+Sensible cooling,One-run hybrid,5161.0,,-0.0,False
+Sensible cooling,One-run hybrid,5221.0,,-0.0,False
+Sensible cooling,One-run hybrid,5281.0,,-0.0,False
+Sensible cooling,One-run hybrid,5341.0,,-0.0,False
+Sensible cooling,One-run hybrid,5401.0,,-0.0,False
+Sensible cooling,One-run hybrid,5461.0,,0.0,False
+Sensible cooling,One-run hybrid,5521.0,,-0.0,False
+Sensible cooling,One-run hybrid,5581.0,,-0.0,False
+Sensible cooling,One-run hybrid,5641.0,,-0.0,False
+Sensible cooling,One-run hybrid,5701.0,,-0.0,False
+Sensible cooling,One-run hybrid,5761.0,,-0.0,False
+Sensible cooling,One-run hybrid,5821.0,,-0.0,False
+Sensible cooling,One-run hybrid,5881.0,,-0.0,False
+Sensible cooling,One-run hybrid,5941.0,,-0.0,False
+Sensible cooling,One-run hybrid,6001.0,,-0.0,False
+Sensible cooling,One-run hybrid,6061.0,,-0.0,False
+Sensible cooling,One-run hybrid,6121.0,,-0.0,False
+Sensible cooling,One-run hybrid,6181.0,,-0.0,False
+Sensible cooling,One-run hybrid,6241.0,,-0.0,False
+Sensible cooling,One-run hybrid,6301.0,,-0.0,False
+Sensible cooling,One-run hybrid,6361.0,,-0.0,False
+Sensible cooling,One-run hybrid,6421.0,,-0.0,False
+Sensible cooling,One-run hybrid,6481.0,,-0.0,False
+Sensible cooling,One-run hybrid,6541.0,,-0.0,False
+Sensible cooling,One-run hybrid,6601.0,,-0.0,False
+Sensible cooling,One-run hybrid,6661.0,,-0.0,False
+Sensible cooling,One-run hybrid,6721.0,,-0.0,False
+Sensible cooling,One-run hybrid,6781.0,,-0.0,False
+Sensible cooling,One-run hybrid,6841.0,,-0.0,False
+Sensible cooling,One-run hybrid,6901.0,,-0.0,False
+Sensible cooling,One-run hybrid,6961.0,,-0.0,False
+Sensible cooling,One-run hybrid,7021.0,,-0.0,False
+Sensible cooling,One-run hybrid,7081.0,,-0.0,False
+Sensible cooling,One-run hybrid,7141.0,,-0.0,False
+Sensible cooling,One-run hybrid,7201.0,,-0.0,False
+Sensible cooling,One-run hybrid,7261.0,,-0.0,False
+Sensible cooling,One-run hybrid,7321.0,,-0.0,False
+Sensible cooling,One-run hybrid,7381.0,,-0.0,False
+Sensible cooling,One-run hybrid,7441.0,,-0.0,False
+Sensible cooling,One-run hybrid,7501.0,,-0.0,False
+Sensible cooling,One-run hybrid,7561.0,,-0.0,False
+Sensible cooling,One-run hybrid,7621.0,,-0.0,False
+Sensible cooling,One-run hybrid,7681.0,,-0.0,False
+Sensible cooling,One-run hybrid,7741.0,,-0.0,False
+Sensible cooling,One-run hybrid,7801.0,,-0.0,False
+Sensible cooling,One-run hybrid,7861.0,,-0.0,False
+Sensible cooling,One-run hybrid,7921.0,,-0.0,False
+Sensible cooling,One-run hybrid,7981.0,,-0.0,False
+Sensible cooling,One-run hybrid,8041.0,,-0.0,False
+Sensible cooling,One-run hybrid,8101.0,,-0.0,False
+Sensible cooling,One-run hybrid,8161.0,,-0.0,False
+Sensible cooling,One-run hybrid,8221.0,,-0.0,False
+Sensible cooling,One-run hybrid,8281.0,,-0.0,False
+Sensible cooling,One-run hybrid,8341.0,,-0.0,False
+Sensible cooling,One-run hybrid,8401.0,,-0.0,False
+Sensible cooling,One-run hybrid,8461.0,,-0.0,False
+Sensible cooling,One-run hybrid,8521.0,,-0.0,False
+Sensible cooling,One-run hybrid,8581.0,,-0.0,False
+Sensible cooling,One-run hybrid,8641.0,,-0.0,False
+Sensible cooling,One-run hybrid,8701.0,,-0.0,False
+Sensible cooling,One-run hybrid,8760.0,,0.0,False
+Sensible cooling,Survey + physics,1.0,,18.79445032429753,False
+Sensible cooling,Survey + physics,61.0,,10.56922370336053,False
+Sensible cooling,Survey + physics,121.0,,4.574284560334789,False
+Sensible cooling,Survey + physics,181.0,,1.53410322488566,False
+Sensible cooling,Survey + physics,241.0,,1.27732143791153,False
+Sensible cooling,Survey + physics,301.0,,1.069528727809237,False
+Sensible cooling,Survey + physics,361.0,,0.9602271243205832,False
+Sensible cooling,Survey + physics,421.0,,0.8435845097615914,False
+Sensible cooling,Survey + physics,481.0,,0.720156183267777,False
+Sensible cooling,Survey + physics,541.0,,0.5871391275026849,False
+Sensible cooling,Survey + physics,601.0,,0.4643910486589874,False
+Sensible cooling,Survey + physics,661.0,,0.3003212124742141,False
+Sensible cooling,Survey + physics,721.0,,0.1019889986528709,False
+Sensible cooling,Survey + physics,781.0,,0.0,False
+Sensible cooling,Survey + physics,841.0,,-0.0,False
+Sensible cooling,Survey + physics,901.0,,-0.0,False
+Sensible cooling,Survey + physics,961.0,,-0.0,False
+Sensible cooling,Survey + physics,1021.0,,-0.0,False
+Sensible cooling,Survey + physics,1081.0,,-0.0,False
+Sensible cooling,Survey + physics,1141.0,,-0.0,False
+Sensible cooling,Survey + physics,1201.0,,-0.0,False
+Sensible cooling,Survey + physics,1261.0,,-0.0,False
+Sensible cooling,Survey + physics,1321.0,,-0.0,False
+Sensible cooling,Survey + physics,1381.0,,-0.0,False
+Sensible cooling,Survey + physics,1441.0,,-0.0,False
+Sensible cooling,Survey + physics,1501.0,,-0.0,False
+Sensible cooling,Survey + physics,1561.0,,-0.0,False
+Sensible cooling,Survey + physics,1621.0,,-0.0,False
+Sensible cooling,Survey + physics,1681.0,,-0.0,False
+Sensible cooling,Survey + physics,1741.0,,-0.0,False
+Sensible cooling,Survey + physics,1801.0,,-0.0,False
+Sensible cooling,Survey + physics,1861.0,,-0.0,False
+Sensible cooling,Survey + physics,1921.0,,-0.0,False
+Sensible cooling,Survey + physics,1981.0,,-0.0,False
+Sensible cooling,Survey + physics,2041.0,,-0.0,False
+Sensible cooling,Survey + physics,2101.0,,-0.0,False
+Sensible cooling,Survey + physics,2161.0,,-0.0,False
+Sensible cooling,Survey + physics,2221.0,,-0.0,False
+Sensible cooling,Survey + physics,2281.0,,-0.0,False
+Sensible cooling,Survey + physics,2341.0,,-0.0,False
+Sensible cooling,Survey + physics,2401.0,,-0.0,False
+Sensible cooling,Survey + physics,2461.0,,-0.0,False
+Sensible cooling,Survey + physics,2521.0,,-0.0,False
+Sensible cooling,Survey + physics,2581.0,,-0.0,False
+Sensible cooling,Survey + physics,2641.0,,-0.0,False
+Sensible cooling,Survey + physics,2701.0,,-0.0,False
+Sensible cooling,Survey + physics,2761.0,,-0.0,False
+Sensible cooling,Survey + physics,2821.0,,-0.0,False
+Sensible cooling,Survey + physics,2881.0,,-0.0,False
+Sensible cooling,Survey + physics,2941.0,,-0.0,False
+Sensible cooling,Survey + physics,3001.0,,-0.0,False
+Sensible cooling,Survey + physics,3061.0,,-0.0,False
+Sensible cooling,Survey + physics,3121.0,,-0.0,False
+Sensible cooling,Survey + physics,3181.0,,0.0,False
+Sensible cooling,Survey + physics,3241.0,,-0.0,False
+Sensible cooling,Survey + physics,3301.0,,-0.0,False
+Sensible cooling,Survey + physics,3361.0,,-0.0,False
+Sensible cooling,Survey + physics,3421.0,,-0.0,False
+Sensible cooling,Survey + physics,3481.0,,0.0,False
+Sensible cooling,Survey + physics,3541.0,,-0.0,False
+Sensible cooling,Survey + physics,3601.0,,-0.0,False
+Sensible cooling,Survey + physics,3661.0,,-0.0,False
+Sensible cooling,Survey + physics,3721.0,,-0.0,False
+Sensible cooling,Survey + physics,3781.0,,-0.0,False
+Sensible cooling,Survey + physics,3841.0,,-0.0,False
+Sensible cooling,Survey + physics,3901.0,,-0.0,False
+Sensible cooling,Survey + physics,3961.0,,-0.0,False
+Sensible cooling,Survey + physics,4021.0,,-0.0,False
+Sensible cooling,Survey + physics,4081.0,,-0.0,False
+Sensible cooling,Survey + physics,4141.0,,-0.0,False
+Sensible cooling,Survey + physics,4201.0,,-0.0,False
+Sensible cooling,Survey + physics,4261.0,,-0.0,False
+Sensible cooling,Survey + physics,4321.0,,-0.0,False
+Sensible cooling,Survey + physics,4381.0,,0.0,False
+Sensible cooling,Survey + physics,4441.0,,-0.0,False
+Sensible cooling,Survey + physics,4501.0,,-0.0,False
+Sensible cooling,Survey + physics,4561.0,,0.0,False
+Sensible cooling,Survey + physics,4621.0,,-0.0,False
+Sensible cooling,Survey + physics,4681.0,,-0.0,False
+Sensible cooling,Survey + physics,4741.0,,-0.0,False
+Sensible cooling,Survey + physics,4801.0,,-0.0,False
+Sensible cooling,Survey + physics,4861.0,,-0.0,False
+Sensible cooling,Survey + physics,4921.0,,-0.0,False
+Sensible cooling,Survey + physics,4981.0,,-0.0,False
+Sensible cooling,Survey + physics,5041.0,,-0.0,False
+Sensible cooling,Survey + physics,5101.0,,-0.0,False
+Sensible cooling,Survey + physics,5161.0,,-0.0,False
+Sensible cooling,Survey + physics,5221.0,,-0.0,False
+Sensible cooling,Survey + physics,5281.0,,-0.0,False
+Sensible cooling,Survey + physics,5341.0,,-0.0,False
+Sensible cooling,Survey + physics,5401.0,,-0.0,False
+Sensible cooling,Survey + physics,5461.0,,0.0,False
+Sensible cooling,Survey + physics,5521.0,,-0.0,False
+Sensible cooling,Survey + physics,5581.0,,-0.0,False
+Sensible cooling,Survey + physics,5641.0,,-0.0,False
+Sensible cooling,Survey + physics,5701.0,,-0.0,False
+Sensible cooling,Survey + physics,5761.0,,-0.0,False
+Sensible cooling,Survey + physics,5821.0,,-0.0,False
+Sensible cooling,Survey + physics,5881.0,,-0.0,False
+Sensible cooling,Survey + physics,5941.0,,-0.0,False
+Sensible cooling,Survey + physics,6001.0,,-0.0,False
+Sensible cooling,Survey + physics,6061.0,,-0.0,False
+Sensible cooling,Survey + physics,6121.0,,-0.0,False
+Sensible cooling,Survey + physics,6181.0,,-0.0,False
+Sensible cooling,Survey + physics,6241.0,,-0.0,False
+Sensible cooling,Survey + physics,6301.0,,-0.0,False
+Sensible cooling,Survey + physics,6361.0,,-0.0,False
+Sensible cooling,Survey + physics,6421.0,,-0.0,False
+Sensible cooling,Survey + physics,6481.0,,-0.0,False
+Sensible cooling,Survey + physics,6541.0,,-0.0,False
+Sensible cooling,Survey + physics,6601.0,,-0.0,False
+Sensible cooling,Survey + physics,6661.0,,-0.0,False
+Sensible cooling,Survey + physics,6721.0,,-0.0,False
+Sensible cooling,Survey + physics,6781.0,,-0.0,False
+Sensible cooling,Survey + physics,6841.0,,-0.0,False
+Sensible cooling,Survey + physics,6901.0,,-0.0,False
+Sensible cooling,Survey + physics,6961.0,,-0.0,False
+Sensible cooling,Survey + physics,7021.0,,-0.0,False
+Sensible cooling,Survey + physics,7081.0,,-0.0,False
+Sensible cooling,Survey + physics,7141.0,,-0.0,False
+Sensible cooling,Survey + physics,7201.0,,-0.0,False
+Sensible cooling,Survey + physics,7261.0,,-0.0,False
+Sensible cooling,Survey + physics,7321.0,,-0.0,False
+Sensible cooling,Survey + physics,7381.0,,-0.0,False
+Sensible cooling,Survey + physics,7441.0,,-0.0,False
+Sensible cooling,Survey + physics,7501.0,,-0.0,False
+Sensible cooling,Survey + physics,7561.0,,-0.0,False
+Sensible cooling,Survey + physics,7621.0,,-0.0,False
+Sensible cooling,Survey + physics,7681.0,,-0.0,False
+Sensible cooling,Survey + physics,7741.0,,-0.0,False
+Sensible cooling,Survey + physics,7801.0,,-0.0,False
+Sensible cooling,Survey + physics,7861.0,,-0.0,False
+Sensible cooling,Survey + physics,7921.0,,-0.0,False
+Sensible cooling,Survey + physics,7981.0,,-0.0,False
+Sensible cooling,Survey + physics,8041.0,,-0.0,False
+Sensible cooling,Survey + physics,8101.0,,-0.0,False
+Sensible cooling,Survey + physics,8161.0,,-0.0,False
+Sensible cooling,Survey + physics,8221.0,,-0.0,False
+Sensible cooling,Survey + physics,8281.0,,-0.0,False
+Sensible cooling,Survey + physics,8341.0,,-0.0,False
+Sensible cooling,Survey + physics,8401.0,,-0.0,False
+Sensible cooling,Survey + physics,8461.0,,-0.0,False
+Sensible cooling,Survey + physics,8521.0,,-0.0,False
+Sensible cooling,Survey + physics,8581.0,,-0.0,False
+Sensible cooling,Survey + physics,8641.0,,-0.0,False
+Sensible cooling,Survey + physics,8701.0,,-0.0,False
+Sensible cooling,Survey + physics,8760.0,,0.0,False

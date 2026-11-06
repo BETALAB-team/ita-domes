@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "survey_year": 2013,
+  "source": {
+    "microdata": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\MICRODATI\\ECH_Microdati_Anno_2013.txt",
+    "microdata_sha256": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+    "legend": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\legenda_istat.xlsx",
+    "legend_sha256": "3becc761ef680abc8a5160f806b782a8e55d981916f4e3bc4cd69a6418ce60d9"
+  },
+  "mapping": {
+    "nprog": "id"
+  },
+  "available_member_columns": 12,
+  "row_counts": {
+    "source_households": 20000,
+    "households_with_zero_members": 95,
+    "households_exceeding_available_member_columns": 0
+  },
+  "validation": {
+    "passed": true,
+    "checks": {
+      "schema_is_exact": true,
+      "ids_are_nonmissing": true,
+      "ids_are_unique": true,
+      "household_counts_are_nonnegative": true,
+      "regions_are_canonical": true
+    }
+  },
+  "output": {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\multiyear_outputs\\2013\\harmonized_istat.csv",
+    "sha256": "9fd03a42b7707db03a0ad4eabac18dddf25504fd394122c5d9c66f10023fb115",
+    "columns": [
+      "id",
+      "survey_year",
+      "q_1_1_sq1",
+      "cletad_1",
+      "cletad_2",
+      "cletad_3",
+      "cletad_4",
+      "cletad_5",
+      "cletad_6",
+      "cletad_7",
+      "cletad_8",
+      "cletad_9",
+      "cletad_10",
+      "cletad_11",
+      "cletad_12",
+      "titstu_1",
+      "titstu_2",
+      "titstu_3",
+      "titstu_4",
+      "titstu_5",
+      "titstu_6",
+      "titstu_7",
+      "titstu_8",
+      "titstu_9",
+      "titstu_10",
+      "titstu_11",
+      "titstu_12",
+      "reg",
+      "rip",
+      "q_2_4_ric",
+      "q_2_7_class",
+      "q_2_1",
+      "q_3_17",
+      "q_3_11A",
+      "q_3_11B",
+      "q_3_11C",
+      "q_5_8A",
+      "q_5_8B",
+      "q_5_8C"
+    ]
+  }
+}

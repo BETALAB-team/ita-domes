@@ -1,0 +1,181 @@
+[
+  {
+    "file": "C:\\Works\\PaduaDigital\\PaduaDigitalModel\\ANACI-processed\\AB_GB_MERGED_NO Duplicates BASE.geojson",
+    "sha256": "a2f5103dc6f3e44bc8379627792ce33f14f13e62c6bbad96cfec79d669113863",
+    "features": 16117,
+    "fields": {
+      "ExtWallCoef_cal": {
+        "nonnull": 1001,
+        "numeric_count": 1001,
+        "positive_count": 1001,
+        "zero_count": 0,
+        "negative_count": 0,
+        "min": 0.7500000000524581,
+        "max": 1.249999999454231
+      },
+      "STDMC_1999": {
+        "nonnull": 1001,
+        "numeric_count": 1001,
+        "positive_count": 348,
+        "zero_count": 653,
+        "negative_count": 0,
+        "min": 0.0,
+        "max": 183684.0
+      },
+      "STDMC_2021": {
+        "nonnull": 1001,
+        "numeric_count": 1001,
+        "positive_count": 1000,
+        "zero_count": 1,
+        "negative_count": 0,
+        "min": 0.0,
+        "max": 334568.0
+      },
+      "TSet_cal": {
+        "nonnull": 1001,
+        "numeric_count": 1001,
+        "positive_count": 1001,
+        "zero_count": 0,
+        "negative_count": 0,
+        "min": 17.000004987774922,
+        "max": 21.999996511323328
+      },
+      "Verified": {
+        "nonnull": 505,
+        "numeric_count": 505,
+        "positive_count": 505,
+        "zero_count": 0,
+        "negative_count": 0,
+        "min": true,
+        "max": true
+      }
+    }
+  },
+  {
+    "file": "C:\\Works\\PaduaDigital\\PaduaDigitalModel\\ANACI-processed\\Edifici_Bano.geojson",
+    "sha256": "1e4d0da423ceaf275973317fa77afed2f9887f3fe5a014429475a60af0aecf5c",
+    "features": 497,
+    "fields": {
+      "ExtWallCoef_cal": {
+        "nonnull": 497,
+        "numeric_count": 497,
+        "positive_count": 497,
+        "zero_count": 0,
+        "negative_count": 0,
+        "min": 17.000008328144315,
+        "max": 21.999996511323328
+      },
+      "STDMC_1999": {
+        "nonnull": 497,
+        "numeric_count": 497,
+        "positive_count": 244,
+        "zero_count": 253,
+        "negative_count": 0,
+        "min": 0.0,
+        "max": 183684.0
+      },
+      "STDMC_2020": {
+        "nonnull": 0,
+        "numeric_count": 0,
+        "positive_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "min": null,
+        "max": null
+      },
+      "STDMC_2021": {
+        "nonnull": 497,
+        "numeric_count": 497,
+        "positive_count": 496,
+        "zero_count": 1,
+        "negative_count": 0,
+        "min": 0.0,
+        "max": 334568.0
+      },
+      "TSet_cal": {
+        "nonnull": 497,
+        "numeric_count": 497,
+        "positive_count": 497,
+        "zero_count": 0,
+        "negative_count": 0,
+        "min": 0.7500000002789327,
+        "max": 1.249999999454231
+      }
+    }
+  },
+  {
+    "file": "C:\\Works\\PaduaDigital\\PaduaDigitalModel\\ANACI-processed\\Edifici_Busato.geojson",
+    "sha256": "2ad4aff666c8ac1e90b5715870546ecc6da549fdd4d0292c48bec895b035ae73",
+    "features": 508,
+    "fields": {
+      "STDMC_1999": {
+        "nonnull": 508,
+        "numeric_count": 508,
+        "positive_count": 106,
+        "zero_count": 402,
+        "negative_count": 0,
+        "min": 0.0,
+        "max": 89077.0
+      },
+      "STDMC_2021": {
+        "nonnull": 508,
+        "numeric_count": 508,
+        "positive_count": 508,
+        "zero_count": 0,
+        "negative_count": 0,
+        "min": 83.0,
+        "max": 202659.0
+      }
+    }
+  },
+  {
+    "file": "C:\\Works\\PaduaDigital\\PaduaDigitalModel\\ANACI-processed\\solo_condomini MOD.geojson",
+    "sha256": "a12487478469ac80c063c4610a9e6964bd9feaa8816a2ad092b26f75791f3fa5",
+    "features": 489,
+    "fields": {
+      "STDMC_1999": {
+        "nonnull": 489,
+        "numeric_count": 489,
+        "positive_count": 242,
+        "zero_count": 247,
+        "negative_count": 0,
+        "min": 0.0,
+        "max": 183684.0
+      },
+      "STDMC_2021": {
+        "nonnull": 489,
+        "numeric_count": 489,
+        "positive_count": 489,
+        "zero_count": 0,
+        "negative_count": 0,
+        "min": 600.0,
+        "max": 334568.0
+      }
+    }
+  },
+  {
+    "file": "C:\\Works\\PaduaDigital\\PaduaDigitalModel\\ANACI-processed\\solo_condomini_nuovo.geojson",
+    "sha256": "23c227a90a2e054fa2271bb7c9f243e40a045b5fca99e260664159f5f2ab4245",
+    "features": 2555,
+    "fields": {
+      "STDMC_1999": {
+        "nonnull": 2555,
+        "numeric_count": 2555,
+        "positive_count": 831,
+        "zero_count": 1724,
+        "negative_count": 0,
+        "min": 0.0,
+        "max": 296570.0
+      },
+      "STDMC_2021": {
+        "nonnull": 2555,
+        "numeric_count": 2555,
+        "positive_count": 2518,
+        "zero_count": 37,
+        "negative_count": 0,
+        "min": 0.0,
+        "max": 459887.0
+      }
+    }
+  }
+]

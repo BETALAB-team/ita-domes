@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-04",
+  "status": "complete",
+  "correction": "Published 2013 Figure 8 restored after tracing original H/E plotting code; substituted heating/cooling yearly boxplots removed",
+  "pages": 10,
+  "source_integrity": {
+    "checked": 14,
+    "changed": [],
+    "all_unchanged": true
+  },
+  "analysis_artifacts_verified": 40,
+  "analysis_artifacts_changed": [],
+  "original_plot_code_and_supporting_files_unchanged": true,
+  "figure8_code_trace": "figure8_code_trace.json",
+  "figure8_report_page": 5,
+  "newer_direct_comparisons_report_page": 6,
+  "qa": "qa/verification.json",
+  "figure_sha256": {
+    "cluster_proportions.png": "57fc5c12497ae9a0fb21fd9f37759691b5479d5a0adcf6b47fa5a18f58388d46",
+    "cooling_availability.png": "9a6d6dd279a969d78b943d0adc372d6c934c2d19c6d480f52cd5cd7adab46ad0",
+    "published_figure8_2013.png": "195da7b2564cd0dfe2b8a8b583f224a12f978fb48eec086dc159f89c2c9b803f",
+    "regional_proportions.png": "4b05fb5b886413af73a68bea6a2df132d08d98ff73660f3a499f770923fd1914",
+    "within_cluster_sum_squares.png": "daacfd7eb377e5e599ee1a2e0042e2825eb3a60fdb5703988c9cd9069e3ff1cc"
+  },
+  "outputs": [
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\04_report\\paper_figure_corrected\\Household_archetypes_2013_2021_corrected_report.docx",
+      "bytes": 435160,
+      "sha256": "16d9bccfd770d6f492102d1dbb66842ec563e30ba69282b1eb537938a649fa25"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\04_report\\paper_figure_corrected\\Household_archetypes_2013_2021_corrected_report.pdf",
+      "bytes": 592215,
+      "sha256": "ba8f12effc96c42f48fb9ccdb6c57fe044838aecb5a02a8afe2f774bafe20f2e"
+    }
+  ]
+}

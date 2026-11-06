@@ -1,0 +1,85 @@
+{
+  "site": "Padova",
+  "checked_utc": "2026-10-20T10:17:43Z",
+  "checker": "independent CSV arithmetic; no engine import",
+  "cases": [
+    {
+      "case": "seeded",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.148681232938543e-11,
+        7.867129170335829e-11,
+        1.887201506178826e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 9.094947017729282e-13,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "fd3d0a61db11174c56af7c52af52f217d85fc3af8c678668b0006d633a0911e4",
+      "pass": true
+    },
+    {
+      "case": "early",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.148681232938543e-11,
+        7.867129170335829e-11,
+        1.887201506178826e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "bda58bca421ddd5c7d946efae1daef68b1b79e18f4e00924acc72e00c4fe52f8",
+      "pass": true
+    },
+    {
+      "case": "late",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.148681232938543e-11,
+        7.867129170335829e-11,
+        1.887201506178826e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -9.094947017729282e-13,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "5e334581ed6c0c050c78023abf2859dd6f3be24797242ca747a07e0c7edcd380",
+      "pass": true
+    },
+    {
+      "case": "repeat_seeded",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.148681232938543e-11,
+        7.867129170335829e-11,
+        1.887201506178826e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 9.094947017729282e-13,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "fd3d0a61db11174c56af7c52af52f217d85fc3af8c678668b0006d633a0911e4",
+      "pass": true
+    },
+    {
+      "case": "warmup_seeded",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.148681232938543e-11,
+        7.867129170335829e-11,
+        1.887201506178826e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "89f1c87445660487c015bb7b443aadc00008b9c29902d3f21c996e2fa76f987e",
+      "pass": true
+    }
+  ],
+  "prior_numerical_checks_pass": true,
+  "transition_gate_pass": true,
+  "pass": true
+}

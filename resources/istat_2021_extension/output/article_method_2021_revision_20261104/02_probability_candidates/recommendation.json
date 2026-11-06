@@ -1,0 +1,72 @@
+{
+  "recommendation": "Full six-term quadratic probability matrix on recovered historical125-node primary domain",
+  "matrix_basis_order": [
+    "intercept",
+    "age/100",
+    "area/100",
+    "age*area/10000",
+    "age^2/10000",
+    "area^2/10000"
+  ],
+  "fit_windows": 125,
+  "domain": {
+    "age_centers": [
+      15,
+      135
+    ],
+    "area_centers": [
+      40,
+      136
+    ],
+    "window_halfwidth_age": 15,
+    "window_halfwidth_area": 40
+  },
+  "dense_support_invalid_n": 0,
+  "dense_support_max_simplex_error": 4.440892098500626e-16,
+  "apparent": [
+    {
+      "archetype": 1,
+      "n_windows": 125,
+      "RMSE": 0.018473802347637767,
+      "R2": 0.9050432830902526,
+      "adjusted_R2": 0.9010535050688346
+    },
+    {
+      "archetype": 2,
+      "n_windows": 125,
+      "RMSE": 0.020221435742137254,
+      "R2": 0.8611002289516715,
+      "adjusted_R2": 0.8552641041177081
+    },
+    {
+      "archetype": 3,
+      "n_windows": 125,
+      "RMSE": 0.010091693970302415,
+      "R2": 0.9483323978758863,
+      "adjusted_R2": 0.9461614902236126
+    },
+    {
+      "archetype": 4,
+      "n_windows": 125,
+      "RMSE": 0.010141395300635351,
+      "R2": 0.9165823101942354,
+      "adjusted_R2": 0.9130773652444134
+    }
+  ],
+  "household_validation_fair": {
+    "new125_backward": {
+      "RMSE": 0.022559720348439824,
+      "countweighted_RMSE": 0.020812393739346964
+    },
+    "new125_full_quadratic": {
+      "RMSE": 0.022555983027652143,
+      "countweighted_RMSE": 0.02077033323182095
+    },
+    "old21_backward": {
+      "RMSE": 0.040465472896593996,
+      "countweighted_RMSE": 0.03630375759307592
+    }
+  },
+  "vintage_matching": "Equal weighting of same historical age-centre nodes in each window-center-era group; empirical and predicted points use identical weights. Overlapping window counts are not independent household denominators.",
+  "selection_limits": "No nested final untouched split; repeated splits compare candidates conditionally on frozen household labels; differences are descriptive, no independent-window inference."
+}

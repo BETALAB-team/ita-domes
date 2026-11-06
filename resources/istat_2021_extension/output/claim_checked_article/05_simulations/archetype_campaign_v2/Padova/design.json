@@ -1,0 +1,232 @@
+{
+  "site": "Padova",
+  "protocol": "03_methods/archetype_extension/mixture_protocol_v2.md",
+  "response": null,
+  "building": {
+    "width_m": 10,
+    "depth_m": 8,
+    "height_m": 3,
+    "floor_m2": 80,
+    "volume_m3": 240,
+    "U_wall": 1.0,
+    "U_roof": 0.8,
+    "U_floor": 0.8,
+    "U_window": 2.8,
+    "g_window": 0.65,
+    "wwr": 0.2,
+    "frame_factor": 0.15,
+    "weight_class": "Heavy",
+    "internal_mass_area_m2": [
+      400,
+      160
+    ],
+    "gain_W": 240,
+    "infiltration_ACH": 0.3
+  },
+  "cases": [
+    [
+      "profile_018bbe23d2c79c65",
+      168
+    ],
+    [
+      "profile_0ba87e52dc3aab04",
+      168
+    ],
+    [
+      "profile_137bfc01628cfaa3",
+      168
+    ],
+    [
+      "profile_14753a3b5ec0df3d",
+      168
+    ],
+    [
+      "profile_14ddd7bffc8c47d7",
+      168
+    ],
+    [
+      "profile_1b4ca2e74b79c90e",
+      168
+    ],
+    [
+      "profile_1e526dff0f49dc82",
+      168
+    ],
+    [
+      "profile_25a45218566c3160",
+      168
+    ],
+    [
+      "profile_2c3bb0191d34a620",
+      168
+    ],
+    [
+      "profile_307037ddb97640c5",
+      168
+    ],
+    [
+      "profile_3fe14a6c114086b6",
+      168
+    ],
+    [
+      "profile_41d4d5b784fdfa84",
+      168
+    ],
+    [
+      "profile_57161fdeb29de709",
+      168
+    ],
+    [
+      "profile_6108efe9e58f6cba",
+      168
+    ],
+    [
+      "profile_7e5f58e423a25471",
+      168
+    ],
+    [
+      "profile_81682c292b2c9c7c",
+      168
+    ],
+    [
+      "profile_8eaa3aac3d4ac6f9",
+      168
+    ],
+    [
+      "profile_93ee760003d6925b",
+      168
+    ],
+    [
+      "profile_9450b1c9a71b9c19",
+      168
+    ],
+    [
+      "profile_9753525a7981d467",
+      168
+    ],
+    [
+      "profile_9b3f3b90d7dfb380",
+      168
+    ],
+    [
+      "profile_9b69518b1843a3f7",
+      168
+    ],
+    [
+      "profile_a24f277e55d33677",
+      168
+    ],
+    [
+      "profile_aa5a7b151b3c3ab3",
+      168
+    ],
+    [
+      "profile_c318993d2fed990a",
+      168
+    ],
+    [
+      "profile_ccf8c6938973195d",
+      168
+    ],
+    [
+      "profile_cd558223cc43db28",
+      168
+    ],
+    [
+      "profile_d26aa1a8b37eaf97",
+      168
+    ],
+    [
+      "profile_da15a31706143ae1",
+      168
+    ],
+    [
+      "profile_ddf59f6da52c52e5",
+      168
+    ],
+    [
+      "profile_e1d0773f5ee6b6d7",
+      168
+    ],
+    [
+      "profile_e795df5ce5e452a1",
+      168
+    ],
+    [
+      "profile_e9dd2daa39499e65",
+      168
+    ],
+    [
+      "profile_f7fcb6a8c2046d9d",
+      168
+    ],
+    [
+      "profile_f9c307728d863a17",
+      168
+    ],
+    [
+      "profile_fa8d5f91549f24b8",
+      168
+    ],
+    [
+      "repeat_component",
+      168
+    ],
+    [
+      "warmup_component",
+      336
+    ]
+  ],
+  "cooling_upper_C": 50,
+  "calendar": "2023 nonleap fixed UTC+1 no DST",
+  "energy_boundary": "ideal sensible heating thermal demand, no system/final energy",
+  "campaign": "archetype_campaign_v2",
+  "replay_only_seeded": false,
+  "replay_only_component": false,
+  "technical_reference_profile_id": "profile_fa8d5f91549f24b8",
+  "selection_manifest_sha256": "a34a21e694b1c0117e915567c0eab56f83bfa3aa03b586ab6443006e0b8daed4",
+  "case_to_profile_id": {
+    "profile_018bbe23d2c79c65": "profile_018bbe23d2c79c65",
+    "profile_0ba87e52dc3aab04": "profile_0ba87e52dc3aab04",
+    "profile_137bfc01628cfaa3": "profile_137bfc01628cfaa3",
+    "profile_14753a3b5ec0df3d": "profile_14753a3b5ec0df3d",
+    "profile_14ddd7bffc8c47d7": "profile_14ddd7bffc8c47d7",
+    "profile_1b4ca2e74b79c90e": "profile_1b4ca2e74b79c90e",
+    "profile_1e526dff0f49dc82": "profile_1e526dff0f49dc82",
+    "profile_25a45218566c3160": "profile_25a45218566c3160",
+    "profile_2c3bb0191d34a620": "profile_2c3bb0191d34a620",
+    "profile_307037ddb97640c5": "profile_307037ddb97640c5",
+    "profile_3fe14a6c114086b6": "profile_3fe14a6c114086b6",
+    "profile_41d4d5b784fdfa84": "profile_41d4d5b784fdfa84",
+    "profile_57161fdeb29de709": "profile_57161fdeb29de709",
+    "profile_6108efe9e58f6cba": "profile_6108efe9e58f6cba",
+    "profile_7e5f58e423a25471": "profile_7e5f58e423a25471",
+    "profile_81682c292b2c9c7c": "profile_81682c292b2c9c7c",
+    "profile_8eaa3aac3d4ac6f9": "profile_8eaa3aac3d4ac6f9",
+    "profile_93ee760003d6925b": "profile_93ee760003d6925b",
+    "profile_9450b1c9a71b9c19": "profile_9450b1c9a71b9c19",
+    "profile_9753525a7981d467": "profile_9753525a7981d467",
+    "profile_9b3f3b90d7dfb380": "profile_9b3f3b90d7dfb380",
+    "profile_9b69518b1843a3f7": "profile_9b69518b1843a3f7",
+    "profile_a24f277e55d33677": "profile_a24f277e55d33677",
+    "profile_aa5a7b151b3c3ab3": "profile_aa5a7b151b3c3ab3",
+    "profile_c318993d2fed990a": "profile_c318993d2fed990a",
+    "profile_ccf8c6938973195d": "profile_ccf8c6938973195d",
+    "profile_cd558223cc43db28": "profile_cd558223cc43db28",
+    "profile_d26aa1a8b37eaf97": "profile_d26aa1a8b37eaf97",
+    "profile_da15a31706143ae1": "profile_da15a31706143ae1",
+    "profile_ddf59f6da52c52e5": "profile_ddf59f6da52c52e5",
+    "profile_e1d0773f5ee6b6d7": "profile_e1d0773f5ee6b6d7",
+    "profile_e795df5ce5e452a1": "profile_e795df5ce5e452a1",
+    "profile_e9dd2daa39499e65": "profile_e9dd2daa39499e65",
+    "profile_f7fcb6a8c2046d9d": "profile_f7fcb6a8c2046d9d",
+    "profile_f9c307728d863a17": "profile_f9c307728d863a17",
+    "profile_fa8d5f91549f24b8": "profile_fa8d5f91549f24b8",
+    "repeat_component": "profile_fa8d5f91549f24b8",
+    "warmup_component": "profile_fa8d5f91549f24b8"
+  },
+  "surface_correction": "each external surface initializes its own area, plane irradiance, construction and radiative coefficient",
+  "weather_correction": "horizontal IR effective sky temperature; native annual mean delta retained",
+  "correction": "single old-state solve and one physical-state commit; sensible-only local adapter",
+  "correction_protocol": "03_methods/correction_protocol_v3.md"
+}

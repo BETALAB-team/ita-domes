@@ -1,0 +1,1165 @@
+{
+  "Sheet1": [
+    [
+      "Numero progressivo record"
+    ],
+    [
+      "Sesso componente 1"
+    ],
+    [
+      "Sesso componente 2"
+    ],
+    [
+      "Sesso componente 3"
+    ],
+    [
+      "Sesso componente 4"
+    ],
+    [
+      "Sesso componente 5"
+    ],
+    [
+      "Sesso componente 6"
+    ],
+    [
+      "Sesso componente 7"
+    ],
+    [
+      "Sesso componente 8"
+    ],
+    [
+      "Sesso componente 9"
+    ],
+    [
+      "Sesso componente 10"
+    ],
+    [
+      "Sesso componente 11"
+    ],
+    [
+      "Sesso componente 12"
+    ],
+    [
+      "Età componente 01"
+    ],
+    [
+      "Età componente 02"
+    ],
+    [
+      "Età componente 03"
+    ],
+    [
+      "Età componente 04"
+    ],
+    [
+      "Età componente 05"
+    ],
+    [
+      "Età componente 06"
+    ],
+    [
+      "Età componente 07"
+    ],
+    [
+      "Età componente 08"
+    ],
+    [
+      "Età componente 09"
+    ],
+    [
+      "Età componente 10"
+    ],
+    [
+      "Età componente 11"
+    ],
+    [
+      "Età componente 12"
+    ],
+    [
+      "Relazione di parentela con PR comp 01"
+    ],
+    [
+      "Relazione di parentela con PR comp 02"
+    ],
+    [
+      "Relazione di parentela con PR comp 03"
+    ],
+    [
+      "Relazione di parentela con PR comp 04"
+    ],
+    [
+      "Relazione di parentela con PR comp 05"
+    ],
+    [
+      "Relazione di parentela con PR comp 06"
+    ],
+    [
+      "Relazione di parentela con PR comp 07"
+    ],
+    [
+      "Relazione di parentela con PR comp 08"
+    ],
+    [
+      "Relazione di parentela con PR comp 09"
+    ],
+    [
+      "Relazione di parentela con PR comp 10"
+    ],
+    [
+      "Relazione di parentela con PR comp 11"
+    ],
+    [
+      "Relazione di parentela con PR comp 12"
+    ],
+    [
+      "Condizione professionale comp 01"
+    ],
+    [
+      "Condizione professionale comp 02"
+    ],
+    [
+      "Condizione professionale comp 03"
+    ],
+    [
+      "Condizione professionale comp 04"
+    ],
+    [
+      "Condizione professionale comp 05"
+    ],
+    [
+      "Condizione professionale comp 06"
+    ],
+    [
+      "Condizione professionale comp 07"
+    ],
+    [
+      "Condizione professionale comp 08"
+    ],
+    [
+      "Condizione professionale comp 09"
+    ],
+    [
+      "Condizione professionale comp 10"
+    ],
+    [
+      "Condizione professionale comp 11"
+    ],
+    [
+      "Condizione professionale comp 12"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 01"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 02"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 03"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 04"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 05"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 06"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 07"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 08"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 09"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 10"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 11"
+    ],
+    [
+      "Tipo di lavoro che svolge comp 12"
+    ],
+    [
+      "Livello di inquadramento comp 01"
+    ],
+    [
+      "Livello di inquadramento comp 02"
+    ],
+    [
+      "Livello di inquadramento comp 03"
+    ],
+    [
+      "Livello di inquadramento comp 04"
+    ],
+    [
+      "Livello di inquadramento comp 05"
+    ],
+    [
+      "Livello di inquadramento comp 06"
+    ],
+    [
+      "Livello di inquadramento comp 07"
+    ],
+    [
+      "Livello di inquadramento comp 08"
+    ],
+    [
+      "Livello di inquadramento comp 09"
+    ],
+    [
+      "Livello di inquadramento comp 10"
+    ],
+    [
+      "Livello di inquadramento comp 11"
+    ],
+    [
+      "Livello di inquadramento comp 12"
+    ],
+    [
+      "Titolo di studio comp 01"
+    ],
+    [
+      "Titolo di studio comp 02"
+    ],
+    [
+      "Titolo di studio comp 03"
+    ],
+    [
+      "Titolo di studio comp 04"
+    ],
+    [
+      "Titolo di studio comp 05"
+    ],
+    [
+      "Titolo di studio comp 06"
+    ],
+    [
+      "Titolo di studio comp 07"
+    ],
+    [
+      "Titolo di studio comp 08"
+    ],
+    [
+      "Titolo di studio comp 09"
+    ],
+    [
+      "Titolo di studio comp 10"
+    ],
+    [
+      "Titolo di studio comp 11"
+    ],
+    [
+      "Titolo di studio comp 12"
+    ],
+    [
+      "Numero d'ordine del componente"
+    ],
+    [
+      "Anno"
+    ],
+    [
+      "Ripartizione geografica"
+    ],
+    [
+      "Regione"
+    ],
+    [
+      "Numero persone che vivono nell'abitazione"
+    ],
+    [
+      "Interruzione domicilio componente 10"
+    ],
+    [
+      "Tipo di abitazione"
+    ],
+    [
+      "Piano dell'appartamento"
+    ],
+    [
+      "Numero del piano"
+    ],
+    [
+      "Numero di stanze"
+    ],
+    [
+      "Ulteriori dotazioni:Cantina"
+    ],
+    [
+      "Ulteriori dotazioni:Solaio o soffitta"
+    ],
+    [
+      "Ulteriori dotazioni:Box auto o posto auto"
+    ],
+    [
+      "Ulteriori dotazioni:Balcone o terrazzo"
+    ],
+    [
+      "Ulteriori dotazioni:Giardino privato"
+    ],
+    [
+      "Finestre con infissi in legno"
+    ],
+    [
+      "Finestre con infissi in acciaio o allumin"
+    ],
+    [
+      "Finestre con infissi in plastica/PVC"
+    ],
+    [
+      "Conoscenza procedure certificazione energ"
+    ],
+    [
+      "Tipologia di muratura dell'edificio"
+    ],
+    [
+      "Coinbentazione/Isolamento pareti"
+    ],
+    [
+      "Sistema di coinbentazione:cappotto estern"
+    ],
+    [
+      "Sistema di coinbentazione:cappotto intern"
+    ],
+    [
+      "Sistema di coinbentazione:intercapedini"
+    ],
+    [
+      "Sistema di coinbentazione: Non sa"
+    ],
+    [
+      "Tipo di copertura dell'abitazione"
+    ],
+    [
+      "Esposizione dell'abitazione - Nord"
+    ],
+    [
+      "Esposizione dell'abitazione - Est"
+    ],
+    [
+      "Esposizione dell'abitazione - Sud"
+    ],
+    [
+      "Esposizione dell'abitazione -Ovest"
+    ],
+    [
+      "Esposizione dell'abitazione -Non sa"
+    ],
+    [
+      "Dotazione di impianto di riscaldamento"
+    ],
+    [
+      "Tipo di impianto di riscaldamento: centra"
+    ],
+    [
+      "Tipo di impianto di riscaldamento: autono"
+    ],
+    [
+      "Tipo di impianto di riscaldamento:apparec"
+    ],
+    [
+      "Tipo di impianto di riscaldamento:apparec"
+    ],
+    [
+      "Tipo di apparecchi singoli fissi:climatiz"
+    ],
+    [
+      "Tipo di apparecchi singoli fissi:altri ap"
+    ],
+    [
+      "Tipo di apparecchi singoli fissi:stufe tr"
+    ],
+    [
+      "Tipo di apparecchi singoli fissi:caminett"
+    ],
+    [
+      "Tipo di apparecchi singoli fissi:stufe fisse metano"
+    ],
+    [
+      "Tipo di apparecchi singoli fissi:stufe fisse GPL"
+    ],
+    [
+      "Tipo di apparecchi singoli portatili:clim"
+    ],
+    [
+      "Tipo di apparecchi singoli portatili:appa"
+    ],
+    [
+      "Tipo di apparecchi singoli portatili:stuf"
+    ],
+    [
+      "Impianto prevalente di riscaldamento"
+    ],
+    [
+      "Tipo di impianto condizionamento: sistemi"
+    ],
+    [
+      "Tipo di impianto condizionamento: impiant"
+    ],
+    [
+      "Tipo di impianto condizionamento: condizi"
+    ],
+    [
+      "Tipo di impianto condizionamento: condizi"
+    ],
+    [
+      "Tipo di impianto condizionamento: climati"
+    ],
+    [
+      "Tipo di impianto condizionamento: climati"
+    ],
+    [
+      "Impianto prevalente di condizionamento"
+    ],
+    [
+      "Dotazione impianto di riscaldamento acqua"
+    ],
+    [
+      "Tipo di impianto riscaldamento acqua: cen"
+    ],
+    [
+      "Tipo di impianto riscaldamento acqua: aut"
+    ],
+    [
+      "Tipo di impianto riscaldamento acqua: uno"
+    ],
+    [
+      "Tipo di apparecchi singoli: scaldabagni e"
+    ],
+    [
+      "Tipo di apparecchi singoli: scaldabagni a"
+    ],
+    [
+      "Tipo di apparecchi singoli: scaldabagni a"
+    ],
+    [
+      "Tipo di apparecchi singoli:scaldabagni a"
+    ],
+    [
+      "Tipo di apparecchi singoli:scaldabagni a"
+    ],
+    [
+      "Impianto prevalente di riscaldamento dell"
+    ],
+    [
+      "Tipo di apparecchiature a biomasse: camin"
+    ],
+    [
+      "Tipo di apparecchiature a biomasse:camino"
+    ],
+    [
+      "Tipo di apparecchiature a biomasse: stufe"
+    ],
+    [
+      "Tipo di apparecchiature a biomasse: stufa"
+    ],
+    [
+      "Tipo di apparecchiature a biomasse: scald"
+    ],
+    [
+      "Tipo di apparecchiature a biomasse: calda"
+    ],
+    [
+      "Tipo di apparecchiature a biomasse: appar"
+    ],
+    [
+      "Servizi di cui dispone l'abitazione: meta"
+    ],
+    [
+      "Servizi di cui dispone l'abitazione: impi"
+    ],
+    [
+      "Servizi di cui dispone l'abitazione: impi"
+    ],
+    [
+      "Servizi di cui dispone l'abitazione: GPL"
+    ],
+    [
+      "Cambiamento gestori ultimi 5 anni"
+    ],
+    [
+      "Gestori cambiati: fornitore di metano o g"
+    ],
+    [
+      "Gestori cambiati: fornitore di energia el"
+    ],
+    [
+      "Gestori cambiati:compagnia telefonica"
+    ],
+    [
+      "Gestori cambiati: altro"
+    ],
+    [
+      "Impianto di riscaldamento unico o prevale"
+    ],
+    [
+      "Fonte alimentazione impianti centralizzat"
+    ],
+    [
+      "Impianto a pompa di calore (centralizzti"
+    ],
+    [
+      "Tipologia di pompa di calore (centralizzt"
+    ],
+    [
+      "Modalità di diffusione del calore - termo"
+    ],
+    [
+      "Modalità di diffusione del calore - conve"
+    ],
+    [
+      "Modalità di diffusione del calore - pavim"
+    ],
+    [
+      "Apparecchio fisso prevalente (se 2.32=mul"
+    ],
+    [
+      "Apparecchio fisso portatile (se 2.33=mult"
+    ],
+    [
+      "Tipo di manutenzione dell'impianto di ris"
+    ],
+    [
+      "Frequenza di utilizzo dell'impianto di ri"
+    ],
+    [
+      "Numero di ore di accensione per fascia or"
+    ],
+    [
+      "Numero di ore di accensione per fascia or"
+    ],
+    [
+      "Numero di ore di accensione per fascia or"
+    ],
+    [
+      "Possibilità di regolazione della temperat"
+    ],
+    [
+      "Modalità di regolazione della temperatura"
+    ],
+    [
+      "Modalità di regolazione della temperatura"
+    ],
+    [
+      "Modalità di regolazione della temperatura"
+    ],
+    [
+      "Utilizzo sistema ausiliario di riscaldame"
+    ],
+    [
+      "Frequenza di utilizzo sistema di riscalda"
+    ],
+    [
+      "Numero medio giornaliero di ore di accens"
+    ],
+    [
+      "Isolamento termico della casa"
+    ],
+    [
+      "Investimenti negli ultimi 5 anni per ridu"
+    ],
+    [
+      "Tipologia di investimento - sostituzione"
+    ],
+    [
+      "Tipologia di investimento - sostituzione"
+    ],
+    [
+      "Tipologia di investimento - passaggio sin"
+    ],
+    [
+      "Tipologia di investimento - impianti ener"
+    ],
+    [
+      "Tipologia di investimento - modifica sist"
+    ],
+    [
+      "Tipologia di investimento - applicazione"
+    ],
+    [
+      "Tipologia di investimento - isolamento te"
+    ],
+    [
+      "Tipologia di investimento -sostituzione p"
+    ],
+    [
+      "Tipologia di investimento - altro"
+    ],
+    [
+      "Ulteriori investimenti in programma"
+    ],
+    [
+      "Descrizione degli investimenti in program"
+    ],
+    [
+      "Impianto riscaldamento acqua unico o prev"
+    ],
+    [
+      "Coincidenza impianto riscaldamento abitaz"
+    ],
+    [
+      "Fonte alimentazione impianti centralizzat"
+    ],
+    [
+      "Impianto a pompa di calore centralizzati"
+    ],
+    [
+      "Tipologia a pompa di calore centralizzati"
+    ],
+    [
+      "Apparecchio singolo prevalente"
+    ],
+    [
+      "Impianto singolo istantaneo/ad accumulo"
+    ],
+    [
+      "Capacità scaldabagno"
+    ],
+    [
+      "Impianto solare per solo acqua o anche ab"
+    ],
+    [
+      "Superficie pannelli solari"
+    ],
+    [
+      "Capacità del serbatoio impianto solare"
+    ],
+    [
+      "Risparmio spese per il riscaldamento dell"
+    ],
+    [
+      "Risparmio spese per il riscaldamento dell"
+    ],
+    [
+      "Tipo di manutenzione dell'impianto di ris"
+    ],
+    [
+      "Utilizzo di sistemi ausiliari di riscalda"
+    ],
+    [
+      "Frequenza di utilizzo sistemi riscaldamen"
+    ],
+    [
+      "Investimenti negli ultimi 5 anni per ridu"
+    ],
+    [
+      "Descrizione investimenti effettuati - Pas"
+    ],
+    [
+      "Descrizione investimenti effettuati - pas"
+    ],
+    [
+      "Descrizione investimenti effettuati - sos"
+    ],
+    [
+      "Descrizione investimenti effettuati - sos"
+    ],
+    [
+      "Descrizione investimenti effettuati - imp"
+    ],
+    [
+      "Descrizione investimenti effettuati - mod"
+    ],
+    [
+      "Descrizione investimenti effettuati - alt"
+    ],
+    [
+      "Ulteriori investimenti in programma"
+    ],
+    [
+      "Descrizione investimenti in programma"
+    ],
+    [
+      "Impianto di condizionamento unico o preva"
+    ],
+    [
+      "Coincidenza impianto di condizionamento e"
+    ],
+    [
+      "Impianto a pompa di calore(5.0=1,2)"
+    ],
+    [
+      "Tipologia di pompa di calore centralizzti"
+    ],
+    [
+      "Tipo di manutenzione dell'impianto di con"
+    ],
+    [
+      "Frequenza di utilizzo dell'impianto di co"
+    ],
+    [
+      "Numero di ore di accensione per fascia or"
+    ],
+    [
+      "Numero di ore di accensione per fascia or"
+    ],
+    [
+      "Numero di ore di accensione per fascia or"
+    ],
+    [
+      "Sistema di condizionamento in tutte/alcun"
+    ],
+    [
+      "Numero di stanze con il condizionatore ac"
+    ],
+    [
+      "Utilizzo sistema ausiliario di riscaldame"
+    ],
+    [
+      "Frequenza di utilizzo sistema di riscalda"
+    ],
+    [
+      "Numero medio giornaliero di ore di accens"
+    ],
+    [
+      "Investimenti negli ultimi 5 anni per ridu"
+    ],
+    [
+      "Tipologia di investimenti fatti - passagg"
+    ],
+    [
+      "Tipologia di investimenti fatti -sostituz"
+    ],
+    [
+      "Tipologia di investimenti fatti - sostitu"
+    ],
+    [
+      "Tipologia di investimenti fatti - modific"
+    ],
+    [
+      "Tipologia di investimenti fatti -disposit"
+    ],
+    [
+      "Tipologia di investimenti fatti - Altro"
+    ],
+    [
+      "Ulteriori investimenti in programma"
+    ],
+    [
+      "Descrizione degli investimenti in program"
+    ],
+    [
+      "Utilizzo di biomasse"
+    ],
+    [
+      "Tipo di biomasse utilizzate:legna da arde"
+    ],
+    [
+      "Tipo di biomasse utilizzate:pellets"
+    ],
+    [
+      "Tipo di biomasse utilizzate:cippato"
+    ],
+    [
+      "Tipo di biomasse utilizzate:carbonella"
+    ],
+    [
+      "Tipo di biomasse utilizzate:gusci di mand"
+    ],
+    [
+      "Tipo di biomasse utilizzate:sansa"
+    ],
+    [
+      "Tipo di biomasse utilizzate:scarti di leg"
+    ],
+    [
+      "Utilizzo di legna negli ultimi 12 mesi"
+    ],
+    [
+      "Tipo di legna utilizzata negli ultimi 12"
+    ],
+    [
+      "Canale approvvigionamento legna utilizzat"
+    ],
+    [
+      "Quantità di legna autoprodotta/recuperata"
+    ],
+    [
+      "Apparecchi con cui si è utilizzata legna"
+    ],
+    [
+      "Apparecchi con cui si è utilizzata legna"
+    ],
+    [
+      "Apparecchi con cui si è utilizzata legna"
+    ],
+    [
+      "Apparecchi con cui si è utilizzata legna"
+    ],
+    [
+      "Apparecchi con cui si è utilizzata legna"
+    ],
+    [
+      "Apparecchi con cui si è utilizzata legna"
+    ],
+    [
+      "Apparecchi con cui si è utilizzata legna"
+    ],
+    [
+      "Luogo di conservazione della legna"
+    ],
+    [
+      "Utilizzo pellets negli ultimi 12 mesi"
+    ],
+    [
+      "Apparecchi con cui si sono utilizzati pel"
+    ],
+    [
+      "Apparecchi con cui si sono utilizzati pel"
+    ],
+    [
+      "Apparecchi con cui si sono utilizzati pel"
+    ],
+    [
+      "Apparecchi con cui si sono utilizzati pel"
+    ],
+    [
+      "Apparecchi con cui si sono utilizzati pel"
+    ],
+    [
+      "Apparecchi con cui si sono utilizzati pel"
+    ],
+    [
+      "Apparecchi con cui si sono utilizzati pel"
+    ],
+    [
+      "Luogo di conservazione dei pellets"
+    ],
+    [
+      "Spesa sostenuta per i gusci utilizzati negli ultimi 12 mesi"
+    ],
+    [
+      "Soddisfazione per l'uso di biomasse per i"
+    ],
+    [
+      "Soddisfazione per l'uso di biomasse per i"
+    ],
+    [
+      "Soddisfazione per l'uso di biomasse per c"
+    ],
+    [
+      "Opinione sul risparmio deteminato dall'us"
+    ],
+    [
+      "Numero di lampadine a risparmio energetic"
+    ],
+    [
+      "Classi di accensione lampadine a risparmi"
+    ],
+    [
+      "Classi di accensione lampadine a risparmi"
+    ],
+    [
+      "Classi di accensione lampadine a risparmi"
+    ],
+    [
+      "Numero di lampadine tradizionali"
+    ],
+    [
+      "Classi di accensione lampadine tradiziona"
+    ],
+    [
+      "Classi di accensione lampadine tradiziona"
+    ],
+    [
+      "Classi di accensione lampadine tradiziona"
+    ],
+    [
+      "Investimenti negli ultimi 5 anni per ridu"
+    ],
+    [
+      "Tipologia di investimenti fatti - cambio"
+    ],
+    [
+      "Tipologia di investimenti fatti - regolat"
+    ],
+    [
+      "Tipologia di investimenti fatti - sostitu"
+    ],
+    [
+      "Tipologia di investimenti fatti - impiant"
+    ],
+    [
+      "Tipologia di investimenti fatti - Altro"
+    ],
+    [
+      "Ulteriori investimenti in programma"
+    ],
+    [
+      "Descrizione degli investimenti in program"
+    ],
+    [
+      "Dotazione di frigoriferi"
+    ],
+    [
+      "Numero frigoriferi"
+    ],
+    [
+      "Dimensioni frigorifero"
+    ],
+    [
+      "Dotazione di vano congelatore"
+    ],
+    [
+      "Dotazione di congelatore"
+    ],
+    [
+      "Dotazione di lavatrice"
+    ],
+    [
+      "Dimnesioni lavatrice"
+    ],
+    [
+      "Numero di lavaggi lavatrice effettuati in una settimana"
+    ],
+    [
+      "Numero di lavaggi lavatrice per classe di temperatura: a meno di 30 gradi"
+    ],
+    [
+      "Numero di lavaggi lavatrice per classe di temperatura: tra 31 e 60 gradi"
+    ],
+    [
+      "Numero di lavaggi lavatrice per classe di temperatura: oltre 60 gradi"
+    ],
+    [
+      "Numero di lavaggi lavatrice per classe di orario: prima delle 8 o dopo le 19"
+    ],
+    [
+      "Numero di lavaggi lavatrice per classe di orario: tra le 8 e le 19"
+    ],
+    [
+      "Numero di lavaggi lavatrice per classe di orario: nei weekend e festivi"
+    ],
+    [
+      "Funzione di asciugatura della lavatrice"
+    ],
+    [
+      "Dotazione di asciugatrice separata dalla lavatrice"
+    ],
+    [
+      "Dimensioni asciugatrice"
+    ],
+    [
+      "Numero di lavaggi con asciugatura effettuati in una settimana"
+    ],
+    [
+      "Dotazione di lavastoviglie"
+    ],
+    [
+      "Numero di lavaggi della lavastoviglie effettuati in una settimana"
+    ],
+    [
+      "Numero di lavaggi lavastoviglie per classe di orario: prima delle 8 o dopo le 19"
+    ],
+    [
+      "Numero di lavaggi lavastoviglie per classe di orario: tra le 8 e le 19"
+    ],
+    [
+      "Numero di lavaggi lavastoviglie per classe di orario: nei weekend e festivi"
+    ],
+    [
+      "Dotazione di elettrodomestici per la pulizia della casa: aspirapolvere, scopa elettrica, battitappeto"
+    ],
+    [
+      "Dotazione di elettrodomestici per la pulizia della casa:lavapavimenti o generatori di vapore"
+    ],
+    [
+      "Dotazione di elettrodomestici per la pulizia della casa: robot puliscipavimenti"
+    ],
+    [
+      "Dotazione di elettrodomestici per la pulizia della casa: ferri da stiro"
+    ],
+    [
+      "Dotazione fornelli"
+    ],
+    [
+      "Fonte alimentazione fornelli"
+    ],
+    [
+      "Frequenza di utilizzo fornelli"
+    ],
+    [
+      "Dotazione forno"
+    ],
+    [
+      "Fonte alimentazione forno"
+    ],
+    [
+      "Frequenza di utilizzo forno"
+    ],
+    [
+      "Dimensioni forno elettrico"
+    ],
+    [
+      "Dotazione di elettrodomestici per cucinare: robot da cucina"
+    ],
+    [
+      "Dotazione di elettrodomestici per cucinare: frullatore"
+    ],
+    [
+      "Dotazione di elettrodomestici per cucinare: macinacaffè elettrici"
+    ],
+    [
+      "Dotazione di elettrodomestici per cucinare: affettatrice"
+    ],
+    [
+      "Dotazione di elettrodomestici per cucinare: macchina per il pane"
+    ],
+    [
+      "Dotazione di elettrodomestici per cucinare: per te/caffè/cappuccino elettrica"
+    ],
+    [
+      "Dotazione di elettrodomestici per cucinare: tostapane"
+    ],
+    [
+      "Dotazione di elettrodomestici per cucinare: forno a micronde"
+    ],
+    [
+      "Dotazione di elettrodomestici per cucinare: forno a legna o altre biomasse"
+    ],
+    [
+      "Dotazione di elettrodomestici per cucinare: barbecue a legna"
+    ],
+    [
+      "Dotazione di elettrodomestici per cucinare: pastra, bistecchiera, griglia elettrica"
+    ],
+    [
+      "Dotazione di televisori a colori"
+    ],
+    [
+      "Numero di TV a colori"
+    ],
+    [
+      "Numero di TV a colori per tipologi: a tubo catodico"
+    ],
+    [
+      "Numero di TV a colori per tipologia: al plasma"
+    ],
+    [
+      "Numero di TV a colori per tipologia: TV LCD"
+    ],
+    [
+      "Numero di TV a colori per tipologia: TV a LED"
+    ],
+    [
+      "Numero di ore di accensione del televisore"
+    ],
+    [
+      "Dotazione di PC"
+    ],
+    [
+      "Numero di PC"
+    ],
+    [
+      "Numero di PC per tipologia : PC da tavolo"
+    ],
+    [
+      "Numero di PC per tipologia : PC portatili"
+    ],
+    [
+      "Numero di ore di accensione del PC in media"
+    ],
+    [
+      "Modalità di uso del PC"
+    ],
+    [
+      "Connessione ADSL ad internet"
+    ],
+    [
+      "Altro tipo di connessione ad internet"
+    ],
+    [
+      "Fonte alimentazione RISCALDAMENTO (1=metano;2=gasolio)"
+    ],
+    [
+      "Fonte alimentazione ACQUA (1=metano;2=gasolio)"
+    ],
+    [
+      "ORE TOTALI DI ACCENSIONE IMPIANTO UNICO O"
+    ],
+    [
+      "ORE TOTALI DI ACCENSIONE IMPIANTO UNICO O"
+    ],
+    [
+      "Regione con Trento e Bolzano separate"
+    ],
+    [
+      "Anno di costruzione immobile in classi"
+    ],
+    [
+      "Superficie dell'immobile in classi (in metri quadrati)"
+    ],
+    [
+      "Numero di finestre con infissi in legno (classi)"
+    ],
+    [
+      "Numero finestre con infissi in acciaio o alluminio (classi)"
+    ],
+    [
+      "Numero finestre con infissi in plastica/PVC (classi)"
+    ],
+    [
+      "Anno impianto di riscaldamento in classi"
+    ],
+    [
+      "Anno impianto di riscaldamento acqua in c"
+    ],
+    [
+      "Anno impianto di condizionamento in class"
+    ],
+    [
+      "Quantitativi di legna utilizzata negli ul"
+    ],
+    [
+      "Spesa sostenuta per la legna utilizzata n"
+    ],
+    [
+      "Quantitativi di pellets utilizzata negli"
+    ],
+    [
+      "Spesa sostenuta per i pellets utilizzati"
+    ],
+    [
+      "Anno frigorifero in classi"
+    ],
+    [
+      "Anno congelatore in classi"
+    ],
+    [
+      "Anno della lavatrice in classi"
+    ],
+    [
+      "Anno asciugatrice in classi"
+    ],
+    [
+      "Anno lavastoviglie in classi"
+    ],
+    [
+      "Anno forno in classi"
+    ],
+    [
+      "Spesa per l'energia elettrica in classi"
+    ],
+    [
+      "Spesa per il metano/gas di rete in classi"
+    ],
+    [
+      "Spesa per il gasolio in classi"
+    ],
+    [
+      "Spesa per il GPL in classi"
+    ],
+    [
+      "COEFFICIENTE DI RIPORTO FINALE"
+    ],
+    [
+      "Identificativo famiglia"
+    ],
+    [
+      "Dominio: tipologia comunale"
+    ]
+  ]
+}

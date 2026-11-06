@@ -1,0 +1,5 @@
+scenario,archetype,share_pct,n,changed_pct,education
+review_triggered_archive_age_imputation_alignment,1,32.49554367201426,44880,10.17602495543672,held fixed at primary proxy
+review_triggered_archive_age_imputation_alignment,2,30.026737967914443,44880,10.17602495543672,held fixed at primary proxy
+review_triggered_archive_age_imputation_alignment,3,23.609625668449198,44880,10.17602495543672,held fixed at primary proxy
+review_triggered_archive_age_imputation_alignment,4,13.868092691622103,44880,10.17602495543672,held fixed at primary proxy

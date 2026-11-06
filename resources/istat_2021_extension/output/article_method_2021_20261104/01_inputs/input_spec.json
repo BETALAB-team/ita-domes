@@ -1,0 +1,15 @@
+{
+  "input": "analysis_input_2021.csv",
+  "raw_columns": "All original2021raw columns retained as numeric;whitespace/missing\u2192NaN. Canonical derivedcolumns appended.",
+  "domain": "Fullrelease preserved;1\u20135eligibilityflag available. Archetype/PFEowner choosesexplicitcohort.",
+  "macroregion": "OfficialRIP1NW2NE3Centre4South5Islands;4/5collapsedto4South/islands",
+  "dwelling": "2021fivecategoryown-wave labels;commonthreecategorycollapse;onlysingle/multifamily1/2directlymatch2013. Apartment codes3\u20135arefloor in2021 versusnumberofapartmentsin2013.",
+  "heating": "Sumv3_8a/b/c onlywhenallvalid0\u20138;conditionalfreqv3_7=1/2 forcomparability;allreported sumsretained.",
+  "cooling": "Inventoryyesunion v2_11a..e;allNoabsent;partialunknownretained. Dailyhoursfreq1/2/3,commonfreq1/2alsoincluded;missingnotzero.",
+  "insulation": "Originalsubjectiveratingunavailable. Improvementrawfieldsretainedseparately;doNOTsubstituteintooriginalratingfactor. FulloriginalANOVAmissingtermsnotestimable. H/Egroupsdwellingtype\u00d7location\u00d7archetypefeasiblewithoutthisfactor.",
+  "age": "2021codes1\u20138translateintoyearsageat2021;unknowncode9missing. Before1950cap150assumption;notrecovereddata.",
+  "area": "<40lower10and300+upper400aredeclaredfiniteproxybounds;notpublishedsourcebounds.",
+  "draws": "Transparentinclusiveuniformdrawsinfullrawroworder;ageRandomState42,areaRandomState43. Midpointsandboundsincluded;notclaimoforiginalunseededrandomstream. PFEownermaydrawjointlyaccordingtoworkflow.",
+  "electricity": "Reuseauditedreference2013parameters2021ownership/usemodel;notmetered,notupdatedefficiency,andnotwhole-houseelectricity.9componentspluslower/upperscenariosretained.",
+  "original2013": "No2013fit/output/sourcechanged."
+}

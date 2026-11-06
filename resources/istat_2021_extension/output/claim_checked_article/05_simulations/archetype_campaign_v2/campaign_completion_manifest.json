@@ -1,0 +1,302 @@
+{
+  "status": "candidate technical campaign complete; fresh full-claim review pending",
+  "created_utc": "2026-10-20T13:56:12Z",
+  "campaign": "archetype_campaign_v2",
+  "test_respondents": 32,
+  "shared_real_components": 4,
+  "unique_profiles": 36,
+  "scientific_executions": 144,
+  "technical_executions": 8,
+  "annual_executions_total": 152,
+  "exported_hourly_rows": 1331520,
+  "primary_profile_rows": 1261440,
+  "maximum_air_surface_mass_abs_residual_W": [
+    2.376054908381775e-11,
+    9.526957001071423e-11,
+    1.77351466845721e-10
+  ],
+  "all_site_gates_pass": true,
+  "sites": [
+    {
+      "site": "Padova",
+      "scientific_executions": 36,
+      "technical_executions": 2,
+      "rows": 332880,
+      "site_gate_sha256": "4091d99bdaa65917bc5064ca1a7abd06ccaf4a4ee15d160b42998392406814df",
+      "pass": true,
+      "created_utc": "2026-10-20T13:48:23Z",
+      "repeat_max_difference": 0.0,
+      "warmup_annual_relative_difference": 4.551914400963142e-15,
+      "warmup_peak_relative_difference": 0.0,
+      "maximum_state_continuity_error_K": 0.0,
+      "max_solver_forcing_reconstruction_error_W": 1.8189894035458565e-12,
+      "command": "& C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe -B C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\archetype_extension\\run_mixture_campaign.py Padova --campaign archetype_campaign_v2",
+      "frozen_manifest_sha256": "22d0ad69643955d93633bafd8e2c57f62a54b925c17921f4dab97769c7402504"
+    },
+    {
+      "site": "Bolzano",
+      "scientific_executions": 36,
+      "technical_executions": 2,
+      "rows": 332880,
+      "site_gate_sha256": "3f4e3cb664ec9064a95e12d78eaa25bb321d2d2432e2f36cb42e54a71f017d24",
+      "pass": true,
+      "created_utc": "2026-10-20T13:51:03Z",
+      "repeat_max_difference": 0.0,
+      "warmup_annual_relative_difference": 3.4416913763379853e-15,
+      "warmup_peak_relative_difference": 0.0,
+      "maximum_state_continuity_error_K": 0.0,
+      "max_solver_forcing_reconstruction_error_W": 2.7284841053187847e-12,
+      "command": "& C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe -B C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\archetype_extension\\run_mixture_campaign.py Bolzano --campaign archetype_campaign_v2",
+      "frozen_manifest_sha256": "e4f55a46862ce954398a87a387de130461f31a71d0279b93f8a35c27d1f5ddfe"
+    },
+    {
+      "site": "Roma",
+      "scientific_executions": 36,
+      "technical_executions": 2,
+      "rows": 332880,
+      "site_gate_sha256": "856168835311dda801ec2dff91dec6bf6dc002cdb21c119385aa5f615a397788",
+      "pass": true,
+      "created_utc": "2026-10-20T13:53:33Z",
+      "repeat_max_difference": 0.0,
+      "warmup_annual_relative_difference": 1.5559775690121569e-12,
+      "warmup_peak_relative_difference": 0.0,
+      "maximum_state_continuity_error_K": 0.0,
+      "max_solver_forcing_reconstruction_error_W": 2.7284841053187847e-12,
+      "command": "& C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe -B C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\archetype_extension\\run_mixture_campaign.py Roma --campaign archetype_campaign_v2",
+      "frozen_manifest_sha256": "8bd53728f376cd9b98efdeec26016063b4bd666e8a478e61c23d21d3733d0789"
+    },
+    {
+      "site": "Palermo",
+      "scientific_executions": 36,
+      "technical_executions": 2,
+      "rows": 332880,
+      "site_gate_sha256": "09d247db026f87b2ae4757bc7b5c1fb9876db2ca17798549a7ba6fd98164ca76",
+      "pass": true,
+      "created_utc": "2026-10-20T13:55:34Z",
+      "repeat_max_difference": 0.0,
+      "warmup_annual_relative_difference": 2.1478364642391057e-08,
+      "warmup_peak_relative_difference": 0.0,
+      "maximum_state_continuity_error_K": 0.0,
+      "max_solver_forcing_reconstruction_error_W": 2.7284841053187847e-12,
+      "command": "& C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe -B C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\archetype_extension\\run_mixture_campaign.py Palermo --campaign archetype_campaign_v2",
+      "frozen_manifest_sha256": "9f19a7f608274e8345781e5d232c0b907bf07522bf31bf7ab03fae53bce50f9d"
+    }
+  ],
+  "analysis_manifest_sha256": "f8e5803ede9299103d36a3ccfd2432d517d4220a5227b83362858d90ea94aa9b",
+  "selection_manifest_sha256": "a34a21e694b1c0117e915567c0eab56f83bfa3aa03b586ab6443006e0b8daed4",
+  "runtime_manifest_sha256": "bf1eb3abaf62373885533464e954a79088b7fbe4b9b98bc8a1fd8f41e4d23340",
+  "input_only_v1_annual_executions": 0,
+  "preflight_diagnostic_annual_executions": 0,
+  "source_records": [
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\run.log",
+      "sha256": "b65cb566fe15c3bc9964f9c79c99c2f689329df434b4fbe045a0456f92ffe5f4"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\full_balance_check.log",
+      "sha256": "f628dd36a72002a782d576592fe8a8008b9ec3b54f1820ab956631546f9f2252"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\surface_check.log",
+      "sha256": "172779facf4c14e98ace95f36577c31910278008ec35ee6b772257eece58de2a"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\site_gate.log",
+      "sha256": "455beee7d3d5f737b921d89d7abfb7a7af32c1a0135fde99e26049d7f001bfaf"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\design.json",
+      "sha256": "eb1f1203a9574ae9f8f19947ea32d2308ca8fb363ccad3cce16e9da75b79b17b"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\frozen_manifest.json",
+      "sha256": "22d0ad69643955d93633bafd8e2c57f62a54b925c17921f4dab97769c7402504"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\completion_manifest.json",
+      "sha256": "74b8960523c54d96e042fc7722297489cd897b1cd8f3d5117c7d92de808b008f"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\summary.json",
+      "sha256": "2049bdeaa611ee269f81c1a820edffe864aeafc32c424b5f1622637ec1a922e4"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\checks.json",
+      "sha256": "4231843483f9db2e9b9b5df4e9d90f4b44d7a6ef97028b8fadce173084434cb3"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\full_step_balance_checks.json",
+      "sha256": "403f0629f00af2cb1f6a2c89b34e0fce4b65557c330a3e80ae83bace944e8e49"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\independent_surface_forcing_checks.json",
+      "sha256": "827f9fd323a5e42f96a4cc3b43425e3328e080a08b09129a52b85dddd46866ec"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\profile_preservation_checks.json",
+      "sha256": "e47fbdc12f13d32835621adad053275469896d073c5367bf04635fcd7194097c"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Padova\\site_gate.json",
+      "sha256": "4091d99bdaa65917bc5064ca1a7abd06ccaf4a4ee15d160b42998392406814df"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\run.log",
+      "sha256": "3daaed75e1fe7dff165091acae128bfac7e08c22ec4cf5195292e3db80b81750"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\full_balance_check.log",
+      "sha256": "446834ea52a6e5d93e48765d09fc89c6cb3d6b12fdebc70fc9593317f9d2bdae"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\surface_check.log",
+      "sha256": "01ffb956bc0653040bfb6b7c302192f13eb82ce0d691e6453686c729a03453e8"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\site_gate.log",
+      "sha256": "549753ce35736f6c9d6bc78c079b8847f65e907f089553bcd0705117a49c8c77"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\design.json",
+      "sha256": "10e1347218333bcbf637a375e636060d19c07453b31df0c2bab4d6dc169b9fb5"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\frozen_manifest.json",
+      "sha256": "e4f55a46862ce954398a87a387de130461f31a71d0279b93f8a35c27d1f5ddfe"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\completion_manifest.json",
+      "sha256": "f643fdd922593c557005802f730644454b29ee5a4da029cf8455a858aabb26d8"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\summary.json",
+      "sha256": "3f6f35ff6ad3063fa8c4393c289c024792d04f5980878e673232698c8a7bf8ac"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\checks.json",
+      "sha256": "83727e8f443326e1635705c1ddf5f35fb5a43874f91d584074fdbc717c87a1ea"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\full_step_balance_checks.json",
+      "sha256": "f3f97264d3c3bcf76e452d02c3f36a89c03fbab77135cdf81e94ce0c653de39a"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\independent_surface_forcing_checks.json",
+      "sha256": "2ba9633e23540204a44bf33bfd3d1e26bd5e58ffdba58e3db5803079bed4962e"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\profile_preservation_checks.json",
+      "sha256": "183e19b86c6a1a50cdc2f7c6c60399926e437f9f5f093e0962aa8f0c91ee5209"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Bolzano\\site_gate.json",
+      "sha256": "3f4e3cb664ec9064a95e12d78eaa25bb321d2d2432e2f36cb42e54a71f017d24"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\run.log",
+      "sha256": "7e50ac54cd8f13af3cabfc8e4b43c704151fa1e7fecce9833903dc0b4e2ea2a3"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\full_balance_check.log",
+      "sha256": "29c0d3fb2b9115f21c45cc286db1cb6b9974745cacca885737b3a3d912789399"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\surface_check.log",
+      "sha256": "e0cf69911dac18de0c8074ee4830c6914aee6e26756a965f7c9e3a373d619f41"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\site_gate.log",
+      "sha256": "df925b6315095509c4e9552eaf7affe264293b93288ebedcdd2da80aabb01cae"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\design.json",
+      "sha256": "6dd4a92d7670d2dbaae712fe0ea08b11ebf1bd15da226c35824f668967646ea7"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\frozen_manifest.json",
+      "sha256": "8bd53728f376cd9b98efdeec26016063b4bd666e8a478e61c23d21d3733d0789"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\completion_manifest.json",
+      "sha256": "7310cecb866efe3432afe801e9e7cf34d892f8658f5ba8a9936d21f5ee80fa00"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\summary.json",
+      "sha256": "72a4fac87ffa4abeabfa1b2bf53d8478d8a899e2ce02afa63c7fee59f585266e"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\checks.json",
+      "sha256": "c71c8fff71e2dd436c902a4b624ba961697a157c85152db9e461e38f989c2ba1"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\full_step_balance_checks.json",
+      "sha256": "f2bcfd754eeec489d30f89baa950e92cdf0c4ced762aadf34d56213f78a8871d"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\independent_surface_forcing_checks.json",
+      "sha256": "f0c359503ad33a3605d5fdc10a2810baf3aec1ed04ad6d45ee8bf6de1cce862e"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\profile_preservation_checks.json",
+      "sha256": "ff360fe9a5cff8046363e946b761981993a674cd08497b5b235789d96750a444"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Roma\\site_gate.json",
+      "sha256": "856168835311dda801ec2dff91dec6bf6dc002cdb21c119385aa5f615a397788"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\run.log",
+      "sha256": "ef395b94198e9f5f0a9d697bfb67a905d1969ab50e96722c395db87c920e1526"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\full_balance_check.log",
+      "sha256": "a318a6ecaeab3c3cbddc305c747f91d83a5ec4d6645c7fa4112bae7655b6eb36"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\surface_check.log",
+      "sha256": "bbf1a73aac15e3786b04de530054fcb252181a24ef0e2505eac931a618c2db8b"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\site_gate.log",
+      "sha256": "ff103c9d80527bd2c8da2bed7a095fe7a061ed803bb1c5f183bf1d6ecc284382"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\design.json",
+      "sha256": "21c77901838e65c568ff1639188a16d6957b6eacda33152a5c47876ae54d371d"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\frozen_manifest.json",
+      "sha256": "9f19a7f608274e8345781e5d232c0b907bf07522bf31bf7ab03fae53bce50f9d"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\completion_manifest.json",
+      "sha256": "85d42a65b22fc48182e8b296d52eccdc0008dbc65ac0fad0316f99a8463803dd"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\summary.json",
+      "sha256": "19f3211d06839d8aa116d8dcc4d7ee48170e68685470cbe549b6e66c45698161"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\checks.json",
+      "sha256": "17b64877961bb3e58c9feaa70fbea3d844a2e3272950f2b86598b74c38353656"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\full_step_balance_checks.json",
+      "sha256": "c7a56a097984b3278d551e08381b5893c86f7110670b527b24729d2eea1cee36"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\independent_surface_forcing_checks.json",
+      "sha256": "c917a812e71e322c1e4de986b42c1ffb2cdd030be3ab4e99d3191863a34231bd"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\profile_preservation_checks.json",
+      "sha256": "b794c789373fab51e1a92d5e0f06951eca4dc93075108d6c2b9191e7565dec5d"
+    },
+    {
+      "path": "05_simulations\\archetype_campaign_v2\\Palermo\\site_gate.json",
+      "sha256": "09d247db026f87b2ae4757bc7b5c1fb9876db2ca17798549a7ba6fd98164ca76"
+    }
+  ],
+  "inventory_sha256": "f1bca8e91fd37d4fa9f9ff9051a46b7163d9c0e57d3127f5b3dfe1eff9c2587f",
+  "assembler_sha256": "69715e6a1592a10eaad1b3c06585109f6c50df864691b42aec4823514240772c"
+}

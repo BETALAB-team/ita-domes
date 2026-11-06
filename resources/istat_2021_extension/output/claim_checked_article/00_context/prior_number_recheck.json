@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-20",
+  "scope": "Read-only recomputation of selected saved table summaries; not rerun of pipelines",
+  "2013": {
+    "n": 19445,
+    "weight_sum": 25266108.0,
+    "kish_effective_n": 6925.619484390377,
+    "heating": {
+      "n": 18105,
+      "weighted_mean": 7.8783907133266435
+    },
+    "electricity": {
+      "n": 19445,
+      "weighted_mean": 2175.0766955463223
+    },
+    "outside_reference_range_n": 0
+  },
+  "2021": {
+    "n": 52632,
+    "weight_sum": 23608115.214703433,
+    "kish_effective_n": 23054.24173634781,
+    "heating": {
+      "n": 48705,
+      "weighted_mean": 8.507635751624427
+    },
+    "electricity": {
+      "n": 52632,
+      "weighted_mean": 1936.752173159976
+    },
+    "outside_reference_range_n": 3189,
+    "cooling_present_n": 24073,
+    "cooling_weighted_pct": 48.57341233890027,
+    "cooling_hours": {
+      "n": 17493,
+      "weighted_mean": 5.967014925713722
+    },
+    "improvement_known_n": 52200,
+    "improvement_weighted_known_pct": 9.963111177804254
+  },
+  "sample_manifest_checks": [
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\2013\\households.csv",
+      "expected": "5304a2d39e6a44b9b723ae000d993e97bf88c4e91bc4907c2478bc1596e14bd6",
+      "actual": "5304a2d39e6a44b9b723ae000d993e97bf88c4e91bc4907c2478bc1596e14bd6",
+      "match": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\2021\\households.csv",
+      "expected": "f4e107325b0d8df62991a445c8be433e28d9d6ed4bf2fac47e4476ee04f64d52",
+      "actual": "f4e107325b0d8df62991a445c8be433e28d9d6ed4bf2fac47e4476ee04f64d52",
+      "match": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\appliance_audit\\electricity_2021.csv",
+      "expected": "8afbec1516244b369ada111fb649a569b31c6acb96f420b858c73cc748f34fe7",
+      "actual": "8afbec1516244b369ada111fb649a569b31c6acb96f420b858c73cc748f34fe7",
+      "match": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\2013\\results.json",
+      "expected": "8bcd059ef71b12a75e41ddc6e851d1327bfad63969b6a49f419f17c93365bde6",
+      "actual": "8bcd059ef71b12a75e41ddc6e851d1327bfad63969b6a49f419f17c93365bde6",
+      "match": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\2021\\results.json",
+      "expected": "6fa8fdcfc69f2f5d87da2c6ea0098a1127f0b3451aaba3174b7a27b12582ea5d",
+      "actual": "6fa8fdcfc69f2f5d87da2c6ea0098a1127f0b3451aaba3174b7a27b12582ea5d",
+      "match": true
+    }
+  ]
+}

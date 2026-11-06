@@ -1,0 +1,22 @@
+{
+  "source": "Original paper Figures3,5,6,7,8 and AppendixA",
+  "new_plots": "All2021statisticalpanelsderivefromnew2021fit;2013sharepanelusesunchangedprintedpercentages",
+  "font": "Times New Roman",
+  "cluster_colours": [
+    "#4169E1",
+    "#50C878",
+    "#FFBF00",
+    "#D50032"
+  ],
+  "probability_basis": [
+    "1",
+    "age/100",
+    "area/100",
+    "age*area/10000",
+    "age^2/10000",
+    "area^2/10000"
+  ],
+  "primary_probability_fit_centres": "age20\u2013140 years;area40,80,120 m\u00b2",
+  "figure6_lines": "Four illustrative building ages20,60,100,140years;crossesare21empiricalfittingwindows;graylinesarethefittedmatrix",
+  "equation_coefficients_rounded_digits": 5
+}

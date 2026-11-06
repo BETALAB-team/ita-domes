@@ -1,0 +1,192 @@
+{
+  "access_date": "2026-10-20",
+  "requested_worker_model": "gpt-6.1-sol",
+  "confirmed_worker_model": "unknown",
+  "primary": {
+    "id": "ARCH2025-FULL",
+    "authors": [
+      "Mohamad Hasan Khajedehi",
+      "Jacopo Vivian",
+      "Angelo Zarrella"
+    ],
+    "title": "Identification of Italian user archetypes for building energy simulations based on a national survey",
+    "journal": "Energy and Buildings",
+    "volume": 344,
+    "article_number": "115924",
+    "publication_year": 2025,
+    "available_online": "2025-05-27",
+    "received": "2025-02-12",
+    "revised": "2025-05-09",
+    "accepted": "2025-05-24",
+    "doi": "10.1016/j.enbuild.2025.115924",
+    "url": "https://doi.org/10.1016/j.enbuild.2025.115924",
+    "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0378778825006541",
+    "institutional_handle": "https://research.unipd.it/handle/11577/3560767",
+    "institutional_pdf_url": "https://www.research.unipd.it/retrieve/01d67fde-fa74-4d70-b216-26ba79c542bd/1-s2.0-S0378778825006541-main.pdf",
+    "local_path": "C:\\Users\\khajmoh18975\\Downloads\\1-s2.0-S0378778825006541-main.pdf",
+    "sha256": "8995443d5c1b92313730c75c99512f94122aac4f8e0a79b4fe00bca5b269aae2",
+    "pages": 15,
+    "access_depth": "Complete local primary PDF read;all15renderedpageimages inspected,including Tables1-8,Eq1-3,Fig1-10andAppendixA. Publisher and institutional indexed metadata checked.",
+    "licence": "CC BY4.0 stated in PDFp1;institutionalrecord identifies publisherVersionofRecord/CreativeCommons",
+    "access_qualification": "InstitutionalPDFwebopen403;publisher/institutionindexedpagesavailable. Complete localPDFdirectlyread;403doesnotmeanPDFabsent."
+  },
+  "published_code_link": {
+    "url": "https://github.com/BETALAB-team/ita-domes/tree/UserArchetypes",
+    "source_locator": "ARCH2025-FULLp14Dataavailability",
+    "access_qualification": "Webopenrawfiles/API/branchcachemissorinaccessible;gitls-remotefailedduethelocallyconfigured127.0.0.1:9proxy. Noauthorcontactattempted. Branchabsenceoridentitynotinferred.",
+    "identity_to_local_GRINS_checkout": "Unverified;localoriginviv89/GRINS-Tool,notdeclaredpublishedURL"
+  },
+  "local_repository": {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool",
+    "head": "a129009e177da391792b57c8af5055b18ce64374",
+    "branch": "data_analysis",
+    "cluster_file_last_change": ""
+  },
+  "local_sources": [
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\clusters.csv",
+      "kind": "Archived four-group assignment;preferred input",
+      "exists": true,
+      "bytes": 2314550,
+      "sha256": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90",
+      "git_path": "resources/istat_data/clusters.csv",
+      "git_blob_sha256": "5fe10886fc70792cb0a2212fc8249283654e4ace9f172d061f8428b036efadd0",
+      "LF_normalized_worktree_equals_HEAD": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\Clustered.csv",
+      "kind": "Archived five-group assignment;excluded",
+      "exists": true,
+      "bytes": 1449310,
+      "sha256": "9e51b19d917c9d74e6406f54e561d0fd82c733bc617e1047feefe320990db1a2",
+      "git_path": "resources/istat_data/Clustered.csv",
+      "git_blob_sha256": "1cb54e0d0da5be023880b914d89703502fa0ba181162a5a97b640112de76603f",
+      "LF_normalized_worktree_equals_HEAD": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\family_trees.csv",
+      "kind": "Archived derived demographic features",
+      "exists": true,
+      "bytes": 4141751,
+      "sha256": "4a554cbffdfe3ce6f11dbdbb1609977fc96cad28d36bf401a3f9d825ba4725e6",
+      "git_path": "resources/istat_data/family_trees.csv",
+      "git_blob_sha256": "d4f7cbdc34117a3e88724deaac613fc50c2b58d75dcadd7c77570a31ce3d6650",
+      "LF_normalized_worktree_equals_HEAD": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\01_PCA_Exploratory.py",
+      "kind": "Legacy four-cluster analysis code",
+      "exists": true,
+      "bytes": 4605,
+      "sha256": "557450d3ff5d52adeee4b38f071058b9169f20631d03804209381d86d4b95939",
+      "git_path": "resources/istat_data/01_PCA_Exploratory.py",
+      "git_blob_sha256": "12f81393f4094d44d5f7140b45d8c581d2c559bdf9935789778b55b460a72de6",
+      "LF_normalized_worktree_equals_HEAD": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\03_PCA_Clustering.py",
+      "kind": "Legacy20-cluster exploratory code",
+      "exists": true,
+      "bytes": 2884,
+      "sha256": "c2fe140e16a339cb0a27f95a90bb7609e6138a85ce03fbf2afcafd93614a62d0",
+      "git_path": "resources/istat_data/03_PCA_Clustering.py",
+      "git_blob_sha256": "9c1364871008bae538c95d7232e8b62752d7959a1250d37a5249cc33d836dd51",
+      "LF_normalized_worktree_equals_HEAD": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\00_Clustering_Exploratory.py",
+      "kind": "Legacy5-cluster exploratory code",
+      "exists": true,
+      "bytes": 3181,
+      "sha256": "3e5e77cdad129f142f8b524023f22f3008b133b47bb7fc5dc64c56e9bf475a21",
+      "git_path": "resources/istat_data/00_Clustering_Exploratory.py",
+      "git_blob_sha256": "be1c9caab7e774484ae45fec4f3b9eb4998485a50331e951f538a95e778b5e1c",
+      "LF_normalized_worktree_equals_HEAD": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\02_Families_Analysis.py",
+      "kind": "Legacy demographic preprocessing",
+      "exists": true,
+      "bytes": 4137,
+      "sha256": "5067d46f95eb4f84f772f829beecbc7a09236298c2aa3e155a540a36a5a1cb0b",
+      "git_path": "resources/istat_data/02_Families_Analysis.py",
+      "git_blob_sha256": "46e9d5b33dbddf36a07e364c33b1dd35662c96aa9dbb8253ccc8f6801827cabc",
+      "LF_normalized_worktree_equals_HEAD": true
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\archetype_pipeline.py",
+      "kind": "Later deterministic reconstruction",
+      "exists": true,
+      "bytes": 26526,
+      "sha256": "47a1c223c205125b7c4bf7396561d556e1dfff05c801f6070c1bb11b055b0b67"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\household_archetypes.csv",
+      "kind": "Later deterministic reconstructed assignments",
+      "exists": true,
+      "bytes": 1596532,
+      "sha256": "1d4dea8d57a21927e6066d03e036d16da6530ec4e1e76196c9fc06807f2fff72"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\archetype_model.json",
+      "kind": "Later reconstruction centers/scales",
+      "exists": true,
+      "bytes": 1532,
+      "sha256": "6b66f24c60981d0f9d3a513c75b34e705d716fd0e9e04ee106eddf9c1ed18508"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\validation_report.json",
+      "kind": "Tolerance comparison,notprimarymembershipproof",
+      "exists": true,
+      "bytes": 13411,
+      "sha256": "d4904bfa734dd9f2c4a4595974527b9e2b69f866c3949796e7b27c52d273db97"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\2013\\households.csv",
+      "kind": "Later revised weighted/train-based representation",
+      "exists": true,
+      "bytes": 4268062,
+      "sha256": "5304a2d39e6a44b9b723ae000d993e97bf88c4e91bc4907c2478bc1596e14bd6"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\reference_model.json",
+      "kind": "Later revised fitted model",
+      "exists": true,
+      "bytes": 2402,
+      "sha256": "e565e3924576544ebdc16a0f340b102bfa9318dbde317c1523a87cc8e6fe61e0"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat_microdata_2013.csv",
+      "kind": "Compact survey input",
+      "exists": true,
+      "bytes": 16125363,
+      "sha256": "a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\MICRODATI\\ECH_Microdati_Anno_2013.txt",
+      "kind": "Official raw public-use survey",
+      "exists": true,
+      "bytes": 16583186,
+      "sha256": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\results_grins.csv",
+      "kind": "Model-derived appliance/end-use estimates",
+      "exists": true,
+      "bytes": 4853985,
+      "sha256": "c9232f7e21897e77ae38daba767f854708f259bf4292358a7bca5c2ab2b30de1"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\classes\\EndUse.py",
+      "kind": "Current candidate schedule/gain bridge",
+      "exists": true,
+      "bytes": 36853,
+      "sha256": "cf7442f0b2ddb39b338c2047a1b95016d3a4d246604da15cd49c9a823cc436d5"
+    }
+  ],
+  "boundaries": [
+    "Published table-level correspondence is not proof of exact per-record published memberships.",
+    "Archive assignments are derived labels;rawhours/ownership/memberclasses are surveyresponses;appliancekWh aremodeloutputs.",
+    "Localuseonly;nopublicredistributionorcontactauthorized."
+  ]
+}

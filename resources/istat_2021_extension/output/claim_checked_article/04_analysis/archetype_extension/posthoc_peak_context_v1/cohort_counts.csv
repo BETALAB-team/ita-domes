@@ -1,0 +1,9 @@
+site,role,denominator,n_positive_heating_maximum,n_first_max_on_restart_day,n_any_max_on_restart_day,n_all_max_on_restart_day,n_first_max_at_restart_hour,n_any_max_at_restart_hour,n_first_max_in_January,n_multiple_exact_ties
+Padova,test,32,32,2,2,2,2,2,0,0
+Padova,component,4,4,0,0,0,0,0,0,0
+Bolzano,test,32,32,27,27,27,18,18,5,0
+Bolzano,component,4,4,2,2,2,2,2,2,0
+Roma,test,32,32,0,0,0,0,0,0,0
+Roma,component,4,4,0,0,0,0,0,0,0
+Palermo,test,32,32,0,0,0,0,0,32,0
+Palermo,component,4,4,0,0,0,0,0,4,0

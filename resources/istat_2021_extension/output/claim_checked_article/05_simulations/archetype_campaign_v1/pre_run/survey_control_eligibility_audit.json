@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-20",
+  "scope": "Independentarchived-membership/raw-eligibilityandcompact-predicateaudit;noannualsimulation",
+  "eligibility": "Assignedtolowcaseclusters.csv;rawq_3_0in{1,2};all3rawhoursobservedinteger0..8;sum>0",
+  "eligible_n": 13624,
+  "group_counts": {
+    "1": 5430,
+    "2": 3693,
+    "3": 2991,
+    "4": 1510
+  },
+  "frequency_counts": {
+    "1": 12866,
+    "2": 758
+  },
+  "excluded_central_individual_missing_one_or_more_raw_hours_n": 622,
+  "source_branch_counts": [
+    {
+      "archetype_id": 1,
+      "assumed_on_off_C": "22/11",
+      "n": 3420
+    },
+    {
+      "archetype_id": 1,
+      "assumed_on_off_C": "22/19",
+      "n": 1021
+    },
+    {
+      "archetype_id": 1,
+      "assumed_on_off_C": "24/13",
+      "n": 726
+    },
+    {
+      "archetype_id": 1,
+      "assumed_on_off_C": "24/21",
+      "n": 263
+    },
+    {
+      "archetype_id": 2,
+      "assumed_on_off_C": "22/11",
+      "n": 1900
+    },
+    {
+      "archetype_id": 2,
+      "assumed_on_off_C": "22/19",
+      "n": 859
+    },
+    {
+      "archetype_id": 2,
+      "assumed_on_off_C": "24/13",
+      "n": 603
+    },
+    {
+      "archetype_id": 2,
+      "assumed_on_off_C": "24/21",
+      "n": 331
+    },
+    {
+      "archetype_id": 3,
+      "assumed_on_off_C": "22/11",
+      "n": 1716
+    },
+    {
+      "archetype_id": 3,
+      "assumed_on_off_C": "22/19",
+      "n": 618
+    },
+    {
+      "archetype_id": 3,
+      "assumed_on_off_C": "24/13",
+      "n": 443
+    },
+    {
+      "archetype_id": 3,
+      "assumed_on_off_C": "24/21",
+      "n": 214
+    },
+    {
+      "archetype_id": 4,
+      "assumed_on_off_C": "22/11",
+      "n": 839
+    },
+    {
+      "archetype_id": 4,
+      "assumed_on_off_C": "22/19",
+      "n": 333
+    },
+    {
+      "archetype_id": 4,
+      "assumed_on_off_C": "24/13",
+      "n": 228
+    },
+    {
+      "archetype_id": 4,
+      "assumed_on_off_C": "24/21",
+      "n": 110
+    }
+  ],
+  "raw_blank_to_compact_zero_counts_in_eligible": {
+    "q_3_13_2": 3364,
+    "q_3_13_3": 3364,
+    "q_3_19_6": 10248,
+    "q_2_32C": 8789,
+    "q_2_32D": 8789
+  },
+  "other_raw_compact_selected_field_mismatches": [],
+  "source_branch_predicate_mismatches": [],
+  "membership_unique_n": 17855,
+  "raw_unique_n": 20000,
+  "compact_unique_n": 20000,
+  "source_paths": {
+    "membership": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\clusters.csv",
+    "raw": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\MICRODATI\\ECH_Microdati_Anno_2013.txt",
+    "compact": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat_microdata_2013.csv"
+  },
+  "selected_manifest_ids_audit": "Pendingmethods-selectedmanifest;thisauditchecksfulleligibleuniverseinstead",
+  "interpretation": "Setpointbranchesareinheritedcodeassumptions,notrespondenttemperatures. Missingoptionsareonlysourcepredicatefalse;notexplicitnoanswers."
+}

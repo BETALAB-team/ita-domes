@@ -1,0 +1,25 @@
+{
+  "version": "v06",
+  "records": [
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\registry_history\\v06_frozen\\local_sources.json",
+      "sha256": "703de24ecf972037ec5fa492f949f9af32810cbc7b709c63b0b06d9fcb537f94"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\registry_history\\v06_frozen\\local_source_ledger.md",
+      "sha256": "d95441dcfb4cde98b72aff494ce2b6fcb2e108b543933ef46e7c7c0e111bdc0b"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\registry_history\\v06_frozen\\registry_audit_v06.json",
+      "sha256": "2db9898d96dfaa44bd61f82e8208d609156a69d844721326587c7fb98e22ae71"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\registry_history\\v06_frozen\\registry_audit_v06.md",
+      "sha256": "2897eab3925d90d03a8257a2a1733c2a42ffe5a4f66d3ccae8c8f773542605c7"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\registry_history\\v06_frozen\\registry_audit.py",
+      "sha256": "3eb6514c3b834059af9e30925a1865f30fb9fc033f6cf1f94eae5afc6eb25d88"
+    }
+  ]
+}

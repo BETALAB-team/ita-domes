@@ -1,0 +1,447 @@
+{
+  "passed": true,
+  "source": {
+    "title": "Identification of Italian user archetypes for building energy simulations based on a national survey",
+    "doi": "10.1016/j.enbuild.2025.115924",
+    "input_file": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat_microdata_2013.csv",
+    "input_sha256": "a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f"
+  },
+  "configuration": {
+    "age_seed": 42,
+    "cluster_seed": 1,
+    "n_archetypes": 4,
+    "source_to_canonical": {}
+  },
+  "row_counts": {
+    "raw_households": 20000,
+    "eligible_households": 17855,
+    "excluded_households": 2145,
+    "exclusions_by_reason": {
+      "undefined_education_index": 2050,
+      "zero_members": 95
+    }
+  },
+  "model_metrics": {
+    "inertia": 509.14929012493747,
+    "calinski_harabasz_score": 9657.970821303832,
+    "iterations": 14,
+    "exploratory_pca_explained_variance_ratio": [
+      0.8203470069715137,
+      0.1435395317572889,
+      0.03611346127119733
+    ],
+    "exploratory_pca_first_two_cumulative": 0.9638865387288027
+  },
+  "paper_validation": {
+    "passed": true,
+    "checks": [
+      {
+        "archetype": 1,
+        "metric": "agemin_mean",
+        "actual": 70.25429169574319,
+        "paper": 70.2,
+        "difference": 0.054291695743188484,
+        "absolute_difference": 0.054291695743188484,
+        "tolerance": 0.75,
+        "passed": true
+      },
+      {
+        "archetype": 1,
+        "metric": "agemin_sd",
+        "actual": 11.135395102238817,
+        "paper": 11.2,
+        "difference": -0.06460489776118195,
+        "absolute_difference": 0.06460489776118195,
+        "tolerance": 1.0,
+        "passed": true
+      },
+      {
+        "archetype": 1,
+        "metric": "agemax_mean",
+        "actual": 78.25010467550594,
+        "paper": 78.3,
+        "difference": -0.04989532449405942,
+        "absolute_difference": 0.04989532449405942,
+        "tolerance": 0.75,
+        "passed": true
+      },
+      {
+        "archetype": 1,
+        "metric": "agemax_sd",
+        "actual": 5.023504391731214,
+        "paper": 5.0,
+        "difference": 0.02350439173121366,
+        "absolute_difference": 0.02350439173121366,
+        "tolerance": 1.0,
+        "passed": true
+      },
+      {
+        "archetype": 1,
+        "metric": "nmembers_mean",
+        "actual": 1.81884159106769,
+        "paper": 1.8,
+        "difference": 0.01884159106769001,
+        "absolute_difference": 0.01884159106769001,
+        "tolerance": 0.15,
+        "passed": true
+      },
+      {
+        "archetype": 1,
+        "metric": "nmembers_sd",
+        "actual": 0.6523650639067567,
+        "paper": 0.7,
+        "difference": -0.04763493609324321,
+        "absolute_difference": 0.04763493609324321,
+        "tolerance": 0.15,
+        "passed": true
+      },
+      {
+        "archetype": 1,
+        "metric": "education_mean",
+        "actual": 0.49225105875489683,
+        "paper": 0.5,
+        "difference": -0.007748941245103169,
+        "absolute_difference": 0.007748941245103169,
+        "tolerance": 0.1,
+        "passed": true
+      },
+      {
+        "archetype": 1,
+        "metric": "education_sd",
+        "actual": 0.12106184840871963,
+        "paper": 0.1,
+        "difference": 0.02106184840871962,
+        "absolute_difference": 0.02106184840871962,
+        "tolerance": 0.05,
+        "passed": true
+      },
+      {
+        "archetype": 1,
+        "metric": "household_share_pct",
+        "actual": 40.12881545785494,
+        "paper": 40.1,
+        "difference": 0.028815457854939552,
+        "absolute_difference": 0.028815457854939552,
+        "tolerance": 0.5,
+        "passed": true
+      },
+      {
+        "archetype": 1,
+        "metric": "people_share_pct",
+        "actual": 29.85019927619222,
+        "paper": 29.9,
+        "difference": -0.04980072380777756,
+        "absolute_difference": 0.04980072380777756,
+        "tolerance": 0.5,
+        "passed": true
+      },
+      {
+        "archetype": 2,
+        "metric": "agemin_mean",
+        "actual": 21.14222965906714,
+        "paper": 21.2,
+        "difference": -0.05777034093285849,
+        "absolute_difference": 0.05777034093285849,
+        "tolerance": 0.75,
+        "passed": true
+      },
+      {
+        "archetype": 2,
+        "metric": "agemin_sd",
+        "actual": 7.563141239204081,
+        "paper": 7.6,
+        "difference": -0.03685876079591832,
+        "absolute_difference": 0.03685876079591832,
+        "tolerance": 1.0,
+        "passed": true
+      },
+      {
+        "archetype": 2,
+        "metric": "agemax_mean",
+        "actual": 57.1604266889772,
+        "paper": 57.2,
+        "difference": -0.03957331102279937,
+        "absolute_difference": 0.03957331102279937,
+        "tolerance": 0.75,
+        "passed": true
+      },
+      {
+        "archetype": 2,
+        "metric": "agemax_sd",
+        "actual": 8.533492380194387,
+        "paper": 8.6,
+        "difference": -0.0665076198056127,
+        "absolute_difference": 0.0665076198056127,
+        "tolerance": 1.0,
+        "passed": true
+      },
+      {
+        "archetype": 2,
+        "metric": "nmembers_mean",
+        "actual": 3.6519556578121732,
+        "paper": 3.7,
+        "difference": -0.04804434218782694,
+        "absolute_difference": 0.04804434218782694,
+        "tolerance": 0.15,
+        "passed": true
+      },
+      {
+        "archetype": 2,
+        "metric": "nmembers_sd",
+        "actual": 0.8813329357513275,
+        "paper": 0.9,
+        "difference": -0.018667064248672482,
+        "absolute_difference": 0.018667064248672482,
+        "tolerance": 0.15,
+        "passed": true
+      },
+      {
+        "archetype": 2,
+        "metric": "education_mean",
+        "actual": 0.7449753709845741,
+        "paper": 0.7,
+        "difference": 0.04497537098457416,
+        "absolute_difference": 0.04497537098457416,
+        "tolerance": 0.1,
+        "passed": true
+      },
+      {
+        "archetype": 2,
+        "metric": "education_sd",
+        "actual": 0.09290177971782716,
+        "paper": 0.1,
+        "difference": -0.007098220282172843,
+        "absolute_difference": 0.007098220282172843,
+        "tolerance": 0.05,
+        "passed": true
+      },
+      {
+        "archetype": 2,
+        "metric": "household_share_pct",
+        "actual": 26.77681321758611,
+        "paper": 26.9,
+        "difference": -0.1231867824138888,
+        "absolute_difference": 0.1231867824138888,
+        "tolerance": 0.5,
+        "passed": true
+      },
+      {
+        "archetype": 2,
+        "metric": "people_share_pct",
+        "actual": 39.99267030097577,
+        "paper": 40.2,
+        "difference": -0.20732969902423548,
+        "absolute_difference": 0.20732969902423548,
+        "tolerance": 0.5,
+        "passed": true
+      },
+      {
+        "archetype": 3,
+        "metric": "agemin_mean",
+        "actual": 45.86789667896679,
+        "paper": 46.0,
+        "difference": -0.1321033210332132,
+        "absolute_difference": 0.1321033210332132,
+        "tolerance": 0.75,
+        "passed": true
+      },
+      {
+        "archetype": 3,
+        "metric": "agemin_sd",
+        "actual": 12.846823006003852,
+        "paper": 12.8,
+        "difference": 0.046823006003851475,
+        "absolute_difference": 0.046823006003851475,
+        "tolerance": 1.0,
+        "passed": true
+      },
+      {
+        "archetype": 3,
+        "metric": "agemax_mean",
+        "actual": 63.055350553505534,
+        "paper": 63.0,
+        "difference": 0.05535055350553364,
+        "absolute_difference": 0.05535055350553364,
+        "tolerance": 0.75,
+        "passed": true
+      },
+      {
+        "archetype": 3,
+        "metric": "agemax_sd",
+        "actual": 7.985046095854339,
+        "paper": 8.0,
+        "difference": -0.014953904145660779,
+        "absolute_difference": 0.014953904145660779,
+        "tolerance": 1.0,
+        "passed": true
+      },
+      {
+        "archetype": 3,
+        "metric": "nmembers_mean",
+        "actual": 2.281918819188192,
+        "paper": 2.3,
+        "difference": -0.018081180811807762,
+        "absolute_difference": 0.018081180811807762,
+        "tolerance": 0.15,
+        "passed": true
+      },
+      {
+        "archetype": 3,
+        "metric": "nmembers_sd",
+        "actual": 0.8284022297379612,
+        "paper": 0.8,
+        "difference": 0.028402229737961138,
+        "absolute_difference": 0.028402229737961138,
+        "tolerance": 0.15,
+        "passed": true
+      },
+      {
+        "archetype": 3,
+        "metric": "education_mean",
+        "actual": 0.5155608270368418,
+        "paper": 0.5,
+        "difference": 0.015560827036841807,
+        "absolute_difference": 0.015560827036841807,
+        "tolerance": 0.1,
+        "passed": true
+      },
+      {
+        "archetype": 3,
+        "metric": "education_sd",
+        "actual": 0.08618606373616751,
+        "paper": 0.1,
+        "difference": -0.013813936263832496,
+        "absolute_difference": 0.013813936263832496,
+        "tolerance": 0.05,
+        "passed": true
+      },
+      {
+        "archetype": 3,
+        "metric": "household_share_pct",
+        "actual": 22.76673200784094,
+        "paper": 22.9,
+        "difference": -0.13326799215905893,
+        "absolute_difference": 0.13326799215905893,
+        "tolerance": 0.5,
+        "passed": true
+      },
+      {
+        "archetype": 3,
+        "metric": "people_share_pct",
+        "actual": 21.246965046497778,
+        "paper": 21.3,
+        "difference": -0.0530349535022232,
+        "absolute_difference": 0.0530349535022232,
+        "tolerance": 0.5,
+        "passed": true
+      },
+      {
+        "archetype": 4,
+        "metric": "agemin_mean",
+        "actual": 55.16052060737527,
+        "paper": 55.6,
+        "difference": -0.4394793926247331,
+        "absolute_difference": 0.4394793926247331,
+        "tolerance": 0.75,
+        "passed": true
+      },
+      {
+        "archetype": 4,
+        "metric": "agemin_sd",
+        "actual": 17.407697605364525,
+        "paper": 17.1,
+        "difference": 0.30769760536452395,
+        "absolute_difference": 0.30769760536452395,
+        "tolerance": 1.0,
+        "passed": true
+      },
+      {
+        "archetype": 4,
+        "metric": "agemax_mean",
+        "actual": 72.1529284164859,
+        "paper": 72.2,
+        "difference": -0.04707158351409646,
+        "absolute_difference": 0.04707158351409646,
+        "tolerance": 0.75,
+        "passed": true
+      },
+      {
+        "archetype": 4,
+        "metric": "agemax_sd",
+        "actual": 8.92127728417852,
+        "paper": 9.0,
+        "difference": -0.07872271582147938,
+        "absolute_difference": 0.07872271582147938,
+        "tolerance": 1.0,
+        "passed": true
+      },
+      {
+        "archetype": 4,
+        "metric": "nmembers_mean",
+        "actual": 2.1095444685466376,
+        "paper": 2.1,
+        "difference": 0.009544468546637486,
+        "absolute_difference": 0.009544468546637486,
+        "tolerance": 0.15,
+        "passed": true
+      },
+      {
+        "archetype": 4,
+        "metric": "nmembers_sd",
+        "actual": 0.8135691404287938,
+        "paper": 0.8,
+        "difference": 0.013569140428793758,
+        "absolute_difference": 0.013569140428793758,
+        "tolerance": 0.15,
+        "passed": true
+      },
+      {
+        "archetype": 4,
+        "metric": "education_mean",
+        "actual": 0.7677186987111064,
+        "paper": 0.8,
+        "difference": -0.032281301288893616,
+        "absolute_difference": 0.032281301288893616,
+        "tolerance": 0.1,
+        "passed": true
+      },
+      {
+        "archetype": 4,
+        "metric": "education_sd",
+        "actual": 0.07980734082413722,
+        "paper": 0.1,
+        "difference": -0.020192659175862784,
+        "absolute_difference": 0.020192659175862784,
+        "tolerance": 0.05,
+        "passed": true
+      },
+      {
+        "archetype": 4,
+        "metric": "household_share_pct",
+        "actual": 10.327639316718006,
+        "paper": 10.1,
+        "difference": 0.2276393167180064,
+        "absolute_difference": 0.2276393167180064,
+        "tolerance": 0.5,
+        "passed": true
+      },
+      {
+        "archetype": 4,
+        "metric": "people_share_pct",
+        "actual": 8.910165376334234,
+        "paper": 8.6,
+        "difference": 0.31016537633423447,
+        "absolute_difference": 0.31016537633423447,
+        "tolerance": 0.5,
+        "passed": true
+      }
+    ]
+  },
+  "outputs": {
+    "households": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\household_archetypes.csv",
+    "summary": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\archetype_summary.csv",
+    "exclusions": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\preprocessing_exclusions.csv",
+    "model": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\archetype_model.json",
+    "validation": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\validation_report.json"
+  }
+}

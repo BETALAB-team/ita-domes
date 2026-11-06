@@ -1,0 +1,6 @@
+{
+  "chronology": "Padova five v4 cases; active forcing, guarded invalid fields, longwave sign, transitions and independent full-step balances passed before expansion",
+  "gate_sha256": "261177a9e25c8323fe0598cc6ec27519411b5fa72b3c540ba96c69b2ff547671",
+  "gate": "output\\claim_checked_article\\05_simulations\\climate_campaign_v4\\Padova\\full_step_balance_checks.json",
+  "approved_utc": "2026-10-20T10:43:03Z"
+}

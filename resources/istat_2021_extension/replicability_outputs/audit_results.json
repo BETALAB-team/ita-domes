@@ -1,0 +1,341 @@
+{
+  "source_config": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\multiyear_workflow_config.json",
+  "production_pipeline_modified": false,
+  "inputs": {
+    "2013": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\MICRODATI\\ECH_Microdati_Anno_2013.txt",
+      "sha256": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+      "raw_rows": 20000
+    },
+    "2021": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\MICRODATI\\ISTAT_MFR_ECH_Microdati_2021_DELIMITED.txt",
+      "sha256": "dd7afa7fcf581014e4a95c27035422b08fa9fb2f211c7551deeb4568fe174eb4",
+      "raw_rows": 54069
+    }
+  },
+  "current_runs": {
+    "2013": {
+      "archetypes_passed": true,
+      "paper_tolerance_matches": 40,
+      "rows": {
+        "raw_households": 20000,
+        "eligible_households": 17855,
+        "excluded_households": 2145,
+        "exclusions_by_reason": {
+          "undefined_education_index": 2050,
+          "zero_members": 95
+        }
+      },
+      "pfe_rows": {
+        "archetyped_households": 17855,
+        "configured_windows": 63,
+        "supported_windows": 63,
+        "unsupported_windows": 0,
+        "windows_below_minimum_support": 12,
+        "unique_households_contributing_to_windows": 4374
+      }
+    },
+    "2021": {
+      "archetypes_passed": true,
+      "paper_tolerance_matches": 13,
+      "rows": {
+        "raw_households": 54069,
+        "eligible_households": 53520,
+        "excluded_households": 549,
+        "exclusions_by_reason": {
+          "member_count_exceeds_available_columns": 549
+        }
+      },
+      "pfe_rows": {
+        "archetyped_households": 53520,
+        "configured_windows": 63,
+        "supported_windows": 63,
+        "unsupported_windows": 0,
+        "windows_below_minimum_support": 9,
+        "unique_households_contributing_to_windows": 14017
+      }
+    }
+  },
+  "energy": {
+    "passed": true,
+    "source": {
+      "title": "Identification of Italian user archetypes for building energy simulations based on a national survey",
+      "doi": "10.1016/j.enbuild.2025.115924",
+      "raw_input": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\harmonized_istat.csv",
+      "raw_input_sha256": "9fd03a42b7707db03a0ad4eabac18dddf25504fd394122c5d9c66f10023fb115",
+      "archetypes_input": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\baseline\\household_archetypes.csv",
+      "archetypes_input_sha256": "1d4dea8d57a21927e6066d03e036d16da6530ec4e1e76196c9fc06807f2fff72",
+      "energy_input": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\results_grins.csv",
+      "energy_input_sha256": "c9232f7e21897e77ae38daba767f854708f259bf4292358a7bca5c2ab2b30de1"
+    },
+    "configuration": {
+      "dwelling_seed": 42,
+      "alpha": 0.05,
+      "expected_heating_groups": 7,
+      "accepted_electricity_groups": [
+        5,
+        6
+      ],
+      "raw_source_to_canonical": {},
+      "energy_source_to_canonical": {}
+    },
+    "row_counts": {
+      "raw_households": 20000,
+      "archetyped_households": 17855,
+      "analysis_households": 17605,
+      "energy_stage_exclusions": 250,
+      "raw_households_without_archetype": 2145
+    },
+    "validation": {
+      "passed": true,
+      "checks": {
+        "analysis_dataset_is_nonempty": true,
+        "analysis_household_ids_are_unique": true,
+        "all_four_archetypes_are_present": true,
+        "responses_are_finite": true,
+        "all_28_anova_rows_are_present": true,
+        "anova_statistics_are_finite": true,
+        "anova_p_values_are_bounded": true,
+        "heating_tukey_reduction_is_nonempty": true,
+        "electricity_tukey_reduction_is_nonempty": true,
+        "all_remaining_tukey_pairs_are_significant": true
+      },
+      "paper_alignment": {
+        "anova_significance_matches": 25,
+        "anova_terms_compared": 28,
+        "all_anova_significance_decisions_match": false,
+        "heating_groups": 8,
+        "paper_heating_groups": 7,
+        "heating_group_count_matches_paper": false,
+        "electricity_groups": 4,
+        "paper_text_electricity_groups": 6,
+        "paper_table_6_electricity_groups_listed": 5,
+        "electricity_group_count_matches_a_published_count": false
+      }
+    },
+    "outputs": {
+      "analysis_dataset": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\energy\\energy_analysis_dataset.csv",
+      "exclusions": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\energy\\energy_exclusions.csv",
+      "anova": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\energy\\anova_results.csv",
+      "heating_groups": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\energy\\heating_tukey_groups.csv",
+      "electricity_groups": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\energy\\electricity_tukey_groups.csv",
+      "group_summary": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\energy\\energy_group_summary.csv",
+      "factor_summary": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\energy\\energy_factor_summary.csv",
+      "merge_history": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\energy\\tukey_merge_history.csv",
+      "model": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\energy\\energy_model.json",
+      "validation": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\energy\\validation_report.json"
+    }
+  },
+  "sample_comparison": [
+    {
+      "year": 2013,
+      "raw_households": 20000,
+      "current_retained": 17855,
+      "common_retained": 19688,
+      "common_excluded": 312,
+      "weighted_population_coverage_pct": 99.20549566531926,
+      "heating_comparable_n": 18332,
+      "unknown_construction_n": 648,
+      "outside_reference_range_n": 0
+    },
+    {
+      "year": 2021,
+      "raw_households": 54069,
+      "current_retained": 53520,
+      "common_retained": 53520,
+      "common_excluded": 549,
+      "weighted_population_coverage_pct": 98.69487739124878,
+      "heating_comparable_n": 49545,
+      "unknown_construction_n": 6045,
+      "outside_reference_range_n": 2983
+    }
+  ],
+  "comparison_assumptions": {
+    "sample": "1-5 members; defined education among members with positive potential schooling",
+    "age_reference": "codebook class midpoints, open age bands capped at 100; 2013 and 2021 retain different class boundaries",
+    "education_years_common_categories": [
+      5,
+      8,
+      12,
+      18
+    ],
+    "education_primary_warning": "no qualification and primary combined in BOTH waves; 5 is upper-bound assumption",
+    "clustering": "2013 unweighted four-cluster best of ten starts; same feature scaling and centers applied to 2021 without clipping",
+    "weights": "coef_red (2013), PESO (2021), used for conditional summaries, not cluster fitting",
+    "dwelling": "six area bins x four construction-period bins; no invented continuous ages/areas; unknown construction excluded",
+    "heating": "frequency categories 1/2 and all 3 eight-hour bands observed, both waves; not all-household mean",
+    "limits": [
+      "different survey frames and CATI/CAWI modes",
+      "2021 energy reference is 2020 (COVID period)",
+      "no directly comparable modeled appliance kWh for 2021",
+      "point estimates; no survey-design confidence intervals"
+    ]
+  },
+  "preprocessing_sensitivity": {
+    "Current legacy coding": {
+      "retained": 17855,
+      "paper_checks_passed": 40,
+      "shared_households": 17855,
+      "best_permutation_agreement_pct": 100.0,
+      "contingency": [
+        [
+          7165,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4781,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4065,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1844
+        ]
+      ]
+    },
+    "Education recoding fixed": {
+      "retained": 17855,
+      "paper_checks_passed": 20,
+      "shared_households": 17855,
+      "best_permutation_agreement_pct": 81.0025203024363,
+      "contingency": [
+        [
+          5199,
+          0,
+          196,
+          1770
+        ],
+        [
+          0,
+          4471,
+          310,
+          0
+        ],
+        [
+          366,
+          45,
+          3507,
+          147
+        ],
+        [
+          16,
+          380,
+          162,
+          1286
+        ]
+      ]
+    },
+    "Age intervals fixed": {
+      "retained": 17855,
+      "paper_checks_passed": 16,
+      "shared_households": 17855,
+      "best_permutation_agreement_pct": 73.077569308317,
+      "contingency": [
+        [
+          3522,
+          0,
+          1463,
+          2180
+        ],
+        [
+          0,
+          4726,
+          10,
+          45
+        ],
+        [
+          23,
+          308,
+          3446,
+          288
+        ],
+        [
+          52,
+          438,
+          0,
+          1354
+        ]
+      ]
+    },
+    "Both recodings fixed": {
+      "retained": 17855,
+      "paper_checks_passed": 20,
+      "shared_households": 17855,
+      "best_permutation_agreement_pct": 77.6197143657239,
+      "contingency": [
+        [
+          4683,
+          0,
+          1027,
+          1455
+        ],
+        [
+          0,
+          4514,
+          226,
+          41
+        ],
+        [
+          156,
+          250,
+          3601,
+          58
+        ],
+        [
+          16,
+          618,
+          149,
+          1061
+        ]
+      ]
+    }
+  },
+  "paper_arithmetic": {
+    "iso_deviation_for_E5_pct": -40.69084628670121,
+    "paper_printed_iso_deviation_for_E5_pct": -60,
+    "eq3_prob4_age_squared": 0.152,
+    "table4_prob4_age_squared": 0.02
+  },
+  "historical_recovery": {
+    "saved_table_sha256": "8de054f2c8ce1eed3b5af045b68849a1e24ae6b1273cb9e4dd2e1dc2a02903ec",
+    "saved_cluster_sha256": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90",
+    "saved_windows": 350,
+    "regression_windows": 125,
+    "recovered_raw_windows": 350,
+    "paper_f_statistics_recovered_at_printed_precision": 3,
+    "mean_absolute_probability_difference_raw_vs_saved": 0.027964478861917195,
+    "historical_generator_git_ref": "e7094f4:resources/istat_data/classification_analysis_bayes.py",
+    "historical_window_half_widths": [
+      15,
+      40
+    ],
+    "historical_grid_steps": [
+      5,
+      24
+    ],
+    "source_warning": "Archived routine predates final paper; raw recovery retains saved cluster labels and uses a new fixed dwelling seed. It is not an exact raw-to-paper reproduction."
+  },
+  "regional_manova_caution": "Literal household-level model in Section 3.1; Table 2 may instead test regional centroids (different unit of analysis).",
+  "checks": {
+    "common_shares_sum_to_100": true,
+    "common_cell_probabilities_sum_to_one": true,
+    "comparison_model_frozen_to_2013": true,
+    "both_raw_waves_rerun": true,
+    "no_2021_kwh_fabricated": true
+  },
+  "software": {
+    "numpy": "2.5.1",
+    "pandas": "2.3.3"
+  }
+}

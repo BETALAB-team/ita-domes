@@ -1,0 +1,42 @@
+{
+  "status": "post hoc descriptive peak context after R5-02; primary outcomes unchanged",
+  "created_utc": "2026-10-20T14:29:04Z",
+  "script_sha256": "5f87fc35b5fa28fbbb53bb17a9384f245f9b4500cfaa2d3147b58588bf584700",
+  "plan_sha256": "e40d49fe58dad9099a25e277a5c5c322eb98d298ff12a651c427e70e750e9715",
+  "selection_manifest_sha256": "a34a21e694b1c0117e915567c0eab56f83bfa3aa03b586ab6443006e0b8daed4",
+  "role_manifest_sha256": "6e7ff06e55f078b617271d286499d6fa98a6d04bf7e060bb2170e15556ffcb1f",
+  "scientific_hourly_files_read": 144,
+  "scientific_rows_read": 1261440,
+  "test_files": 128,
+  "component_files": 16,
+  "per_site_denominators": {
+    "test": 32,
+    "component": 4
+  },
+  "technical_cases_read": 0,
+  "annual_simulations_run": 0,
+  "exact_tie_rule": "all exactly equal positive maxima preserved; first occurrence used for first-max context",
+  "restart_hour": 6912,
+  "restart_day_inclusive": [
+    6912,
+    6935
+  ],
+  "calendar": "2023 nonleap fixed UTC+1, no DST",
+  "read_producer_endpoint_summaries": false,
+  "imported_engine_or_producer_analysis": false,
+  "primary_endpoints_changed": false,
+  "frozen_results_changed": false,
+  "output_sha256": {
+    "cohort_counts.csv": "ce81c5fb21338365fdb084b1c846f9829e4e20d669993ccd259c946170af45f2",
+    "diagnostic_plan.md": "e40d49fe58dad9099a25e277a5c5c322eb98d298ff12a651c427e70e750e9715",
+    "diagnostic_script.py": "5f87fc35b5fa28fbbb53bb17a9384f245f9b4500cfaa2d3147b58588bf584700",
+    "input_file_hashes.csv": "240da5582988c96fbed3edfb081e3aaaff29bedb79a22135d88dd8f192c2c60f",
+    "scientific_peak_context.csv": "bb54fdc70d85bb7228c8203240a137ee0d04f26a2ac9a36697bf20f5d76c45ce"
+  },
+  "command_argv": [
+    "C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\archetype_extension\\posthoc_peak_context.py"
+  ],
+  "python": "3.14.6 (main, Jul 18 2026, 17:08:46) [MSC v.1944 64 bit (AMD64)]"
+}

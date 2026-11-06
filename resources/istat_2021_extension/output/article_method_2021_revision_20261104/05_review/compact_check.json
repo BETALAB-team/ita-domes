@@ -1,0 +1,48 @@
+{
+  "H": {
+    "best_k": 15,
+    "selected_k": 4,
+    "one_standard_error_only": 3,
+    "fidelity_only": 4,
+    "rmse_best": 4.785174400297338,
+    "rmse_threshold": 4.8127734921385885,
+    "rmse_selected": 4.791449564207381,
+    "delta_best": 0.0062751639100433465,
+    "pct_loss_vs_best": 0.131137621852484,
+    "fidelity": 0.9531297916433478,
+    "previous_k_fidelity": 0.9150318324624311,
+    "paper_resolution_k": 7,
+    "paper_resolution_rmse": 4.787163871094657,
+    "paper_resolution_fidelity": 0.986508743273949,
+    "one_group": 5.050823457900345,
+    "choice_fidelity_sensitivity": {
+      "0.9": 3,
+      "0.95": 4,
+      "0.975": 6,
+      "0.99": 9
+    }
+  },
+  "E": {
+    "best_k": 10,
+    "selected_k": 5,
+    "one_standard_error_only": 5,
+    "fidelity_only": 5,
+    "rmse_best": 717.2793072137308,
+    "rmse_threshold": 720.8324788238662,
+    "rmse_selected": 720.6075542279061,
+    "delta_best": 3.3282470141753038,
+    "pct_loss_vs_best": 0.4640099025167599,
+    "fidelity": 0.9553582844202492,
+    "previous_k_fidelity": 0.9384551964507614,
+    "paper_resolution_k": 5,
+    "paper_resolution_rmse": 720.6075542279061,
+    "paper_resolution_fidelity": 0.9553582844202492,
+    "one_group": 786.5674954362128,
+    "choice_fidelity_sensitivity": {
+      "0.9": 5,
+      "0.95": 5,
+      "0.975": 7,
+      "0.99": 10
+    }
+  }
+}

@@ -1,0 +1,181 @@
+scenario_id,scenario,stage,heating_kwh,cooling_kwh
+I001,Milano__Apartment__P1,Weather only,4500.022303541253,984.8625584516467
+I001,Milano__Apartment__P1,Weather + exposure,1786.5825452032682,1418.6128781350333
+I001,Milano__Apartment__P1,+ aggregate hours,2020.7389061956703,1462.8319280318096
+I001,Milano__Apartment__P1,+ aggregate gains,2569.268844113053,1081.2208585025578
+I002,Milano__Apartment__P2,Weather only,4500.022303541253,984.8625584516467
+I002,Milano__Apartment__P2,Weather + exposure,1786.5825452032682,1418.6128781350333
+I002,Milano__Apartment__P2,+ aggregate hours,1786.5825452032682,1418.6128781350333
+I002,Milano__Apartment__P2,+ aggregate gains,1786.5825452032661,1418.612878135035
+I003,Milano__Apartment__P3,Weather only,4500.022303541253,984.8625584516467
+I003,Milano__Apartment__P3,Weather + exposure,1786.5825452032682,1418.6128781350333
+I003,Milano__Apartment__P3,+ aggregate hours,1708.6397315717759,1327.2529038062032
+I003,Milano__Apartment__P3,+ aggregate gains,2314.2342864820707,909.1948627672643
+I004,Milano__Apartment__P4,Weather only,4500.022303541253,984.8625584516467
+I004,Milano__Apartment__P4,Weather + exposure,1786.5825452032682,1418.6128781350333
+I004,Milano__Apartment__P4,+ aggregate hours,1632.188897987876,1327.2529038062032
+I004,Milano__Apartment__P4,+ aggregate gains,2494.2481597883348,755.9773631778921
+I005,Milano__Apartment__P2_shift,Weather only,4500.022303541253,984.8625584516467
+I005,Milano__Apartment__P2_shift,Weather + exposure,1786.5825452032682,1418.6128781350333
+I005,Milano__Apartment__P2_shift,+ aggregate hours,1786.5825452032682,1418.6128781350333
+I005,Milano__Apartment__P2_shift,+ aggregate gains,1786.5825452032655,1418.612878135035
+I006,Milano__Multi-family__P1,Weather only,4500.022303541253,984.8625584516467
+I006,Milano__Multi-family__P1,Weather + exposure,4500.022303541253,984.8625584516467
+I006,Milano__Multi-family__P1,+ aggregate hours,5155.36389872551,1052.056046026668
+I006,Milano__Multi-family__P1,+ aggregate gains,5806.499009820131,799.9632098187088
+I007,Milano__Multi-family__P2,Weather only,4500.022303541253,984.8625584516467
+I007,Milano__Multi-family__P2,Weather + exposure,4500.022303541253,984.8625584516467
+I007,Milano__Multi-family__P2,+ aggregate hours,4500.022303541253,984.8625584516467
+I007,Milano__Multi-family__P2,+ aggregate gains,4500.022303541253,984.8625584516467
+I008,Milano__Multi-family__P3,Weather only,4500.022303541253,984.8625584516467
+I008,Milano__Multi-family__P3,Weather + exposure,4500.022303541253,984.8625584516467
+I008,Milano__Multi-family__P3,+ aggregate hours,4286.197718620134,849.8142062325417
+I008,Milano__Multi-family__P3,+ aggregate gains,4998.822085480916,587.3999958939612
+I009,Milano__Multi-family__P4,Weather only,4500.022303541253,984.8625584516467
+I009,Milano__Multi-family__P4,Weather + exposure,4500.022303541253,984.8625584516467
+I009,Milano__Multi-family__P4,+ aggregate hours,4081.8361026453786,849.8142062325417
+I009,Milano__Multi-family__P4,+ aggregate gains,5073.451986089935,493.2558579824379
+I010,Milano__Multi-family__P2_shift,Weather only,4500.022303541253,984.8625584516467
+I010,Milano__Multi-family__P2_shift,Weather + exposure,4500.022303541253,984.8625584516467
+I010,Milano__Multi-family__P2_shift,+ aggregate hours,4500.022303541253,984.8625584516467
+I010,Milano__Multi-family__P2_shift,+ aggregate gains,4500.022303541249,984.8625584516476
+I011,Milano__Single-family__P1,Weather only,4500.022303541253,984.8625584516467
+I011,Milano__Single-family__P1,Weather + exposure,5306.242284376487,1466.8013755337327
+I011,Milano__Single-family__P1,+ aggregate hours,6037.218595701492,1551.5263093800274
+I011,Milano__Single-family__P1,+ aggregate gains,6682.3192962678795,1263.4968391690195
+I012,Milano__Single-family__P2,Weather only,4500.022303541253,984.8625584516467
+I012,Milano__Single-family__P2,Weather + exposure,5306.242284376487,1466.8013755337327
+I012,Milano__Single-family__P2,+ aggregate hours,5306.242284376487,1466.8013755337327
+I012,Milano__Single-family__P2,+ aggregate gains,5306.242284376483,1466.8013755337342
+I013,Milano__Single-family__P3,Weather only,4500.022303541253,984.8625584516467
+I013,Milano__Single-family__P3,Weather + exposure,5306.242284376487,1466.8013755337327
+I013,Milano__Single-family__P3,+ aggregate hours,5071.384731186552,1294.0491172123332
+I013,Milano__Single-family__P3,+ aggregate gains,5771.048745193604,995.3831728251478
+I014,Milano__Single-family__P4,Weather only,4500.022303541253,984.8625584516467
+I014,Milano__Single-family__P4,Weather + exposure,5306.242284376487,1466.8013755337327
+I014,Milano__Single-family__P4,+ aggregate hours,4843.300688698497,1294.0491172123332
+I014,Milano__Single-family__P4,+ aggregate gains,5816.405590886666,883.6916076375716
+I015,Milano__Single-family__P2_shift,Weather only,4500.022303541253,984.8625584516467
+I015,Milano__Single-family__P2_shift,Weather + exposure,5306.242284376487,1466.8013755337327
+I015,Milano__Single-family__P2_shift,+ aggregate hours,5306.242284376487,1466.8013755337327
+I015,Milano__Single-family__P2_shift,+ aggregate gains,5306.242284376483,1466.8013755337342
+I016,Roma__Apartment__P1,Weather only,1875.6991976571635,1309.9682665516957
+I016,Roma__Apartment__P1,Weather + exposure,502.419219300085,1688.448825485844
+I016,Roma__Apartment__P1,+ aggregate hours,652.638543793894,1741.4647563111798
+I016,Roma__Apartment__P1,+ aggregate gains,1033.3130221059494,1300.0701888030828
+I017,Roma__Apartment__P2,Weather only,1875.6991976571635,1309.9682665516957
+I017,Roma__Apartment__P2,Weather + exposure,502.419219300085,1688.448825485844
+I017,Roma__Apartment__P2,+ aggregate hours,502.419219300085,1688.448825485844
+I017,Roma__Apartment__P2,+ aggregate gains,502.4192193000834,1688.4488254858459
+I018,Roma__Apartment__P3,Weather only,1875.6991976571635,1309.9682665516957
+I018,Roma__Apartment__P3,Weather + exposure,502.419219300085,1688.448825485844
+I018,Roma__Apartment__P3,+ aggregate hours,454.9623348608264,1580.613509565223
+I018,Roma__Apartment__P3,+ aggregate gains,853.5406609640813,1112.0319090980888
+I019,Roma__Apartment__P4,Weather only,1875.6991976571635,1309.9682665516957
+I019,Roma__Apartment__P4,Weather + exposure,502.419219300085,1688.448825485844
+I019,Roma__Apartment__P4,+ aggregate hours,409.71307763818027,1580.613509565223
+I019,Roma__Apartment__P4,+ aggregate gains,980.7725183562252,945.0507372408825
+I020,Roma__Apartment__P2_shift,Weather only,1875.6991976571635,1309.9682665516957
+I020,Roma__Apartment__P2_shift,Weather + exposure,502.419219300085,1688.448825485844
+I020,Roma__Apartment__P2_shift,+ aggregate hours,502.419219300085,1688.448825485844
+I020,Roma__Apartment__P2_shift,+ aggregate gains,502.4192193000832,1688.4488254858459
+I021,Roma__Multi-family__P1,Weather only,1875.6991976571635,1309.9682665516957
+I021,Roma__Multi-family__P1,Weather + exposure,1875.6991976571635,1309.9682665516957
+I021,Roma__Multi-family__P1,+ aggregate hours,2335.1393042893774,1392.0883267328747
+I021,Roma__Multi-family__P1,+ aggregate gains,2849.5567936492466,1079.4416537357386
+I022,Roma__Multi-family__P2,Weather only,1875.6991976571635,1309.9682665516957
+I022,Roma__Multi-family__P2,Weather + exposure,1875.6991976571635,1309.9682665516957
+I022,Roma__Multi-family__P2,+ aggregate hours,1875.6991976571635,1309.9682665516957
+I022,Roma__Multi-family__P2,+ aggregate gains,1875.6991976571617,1309.9682665516968
+I023,Roma__Multi-family__P3,Weather only,1875.6991976571635,1309.9682665516957
+I023,Roma__Multi-family__P3,Weather + exposure,1875.6991976571635,1309.9682665516957
+I023,Roma__Multi-family__P3,+ aggregate hours,1725.7803793145813,1142.581974161001
+I023,Roma__Multi-family__P3,+ aggregate gains,2221.9086788879677,815.9822713186892
+I024,Roma__Multi-family__P4,Weather only,1875.6991976571635,1309.9682665516957
+I024,Roma__Multi-family__P4,Weather + exposure,1875.6991976571635,1309.9682665516957
+I024,Roma__Multi-family__P4,+ aggregate hours,1582.1471861945306,1142.581974161001
+I024,Roma__Multi-family__P4,+ aggregate gains,2275.80674726015,701.2314328382744
+I025,Roma__Multi-family__P2_shift,Weather only,1875.6991976571635,1309.9682665516957
+I025,Roma__Multi-family__P2_shift,Weather + exposure,1875.6991976571635,1309.9682665516957
+I025,Roma__Multi-family__P2_shift,+ aggregate hours,1875.6991976571635,1309.9682665516957
+I025,Roma__Multi-family__P2_shift,+ aggregate gains,1875.6991976571617,1309.9682665516968
+I026,Roma__Single-family__P1,Weather only,1875.6991976571635,1309.9682665516957
+I026,Roma__Single-family__P1,Weather + exposure,2209.1548855107367,1916.7492384830166
+I026,Roma__Single-family__P1,+ aggregate hours,2719.0623568061096,2012.910799569199
+I026,Roma__Single-family__P1,+ aggregate gains,3206.2410388248154,1683.5866655995396
+I027,Roma__Single-family__P2,Weather only,1875.6991976571635,1309.9682665516957
+I027,Roma__Single-family__P2,Weather + exposure,2209.1548855107367,1916.7492384830166
+I027,Roma__Single-family__P2,+ aggregate hours,2209.1548855107367,1916.7492384830166
+I027,Roma__Single-family__P2,+ aggregate gains,2209.154885510735,1916.749238483018
+I028,Roma__Single-family__P3,Weather only,1875.6991976571635,1309.9682665516957
+I028,Roma__Single-family__P3,Weather + exposure,2209.1548855107367,1916.7492384830166
+I028,Roma__Single-family__P3,+ aggregate hours,2042.0651653277755,1719.0815432798363
+I028,Roma__Single-family__P3,+ aggregate gains,2531.227440295897,1357.5376473453432
+I029,Roma__Single-family__P4,Weather only,1875.6991976571635,1309.9682665516957
+I029,Roma__Single-family__P4,Weather + exposure,2209.1548855107367,1916.7492384830166
+I029,Roma__Single-family__P4,+ aggregate hours,1880.1994335395661,1719.0815432798363
+I029,Roma__Single-family__P4,+ aggregate gains,2562.746604252092,1217.256791915554
+I030,Roma__Single-family__P2_shift,Weather only,1875.6991976571635,1309.9682665516957
+I030,Roma__Single-family__P2_shift,Weather + exposure,2209.1548855107367,1916.7492384830166
+I030,Roma__Single-family__P2_shift,+ aggregate hours,2209.1548855107367,1916.7492384830166
+I030,Roma__Single-family__P2_shift,+ aggregate gains,2209.154885510735,1916.749238483018
+I031,Palermo__Apartment__P1,Weather only,453.1111953664898,1880.3023836596835
+I031,Palermo__Apartment__P1,Weather + exposure,37.40691089070875,2254.7814541379294
+I031,Palermo__Apartment__P1,+ aggregate hours,69.58227559316553,2319.2751427669386
+I031,Palermo__Apartment__P1,+ aggregate gains,220.4819488731602,1767.2619667463464
+I032,Palermo__Apartment__P2,Weather only,453.1111953664898,1880.3023836596835
+I032,Palermo__Apartment__P2,Weather + exposure,37.40691089070875,2254.7814541379294
+I032,Palermo__Apartment__P2,+ aggregate hours,37.40691089070875,2254.7814541379294
+I032,Palermo__Apartment__P2,+ aggregate gains,37.406910890708474,2254.7814541379325
+I033,Palermo__Apartment__P3,Weather only,453.1111953664898,1880.3023836596835
+I033,Palermo__Apartment__P3,Weather + exposure,37.40691089070875,2254.7814541379294
+I033,Palermo__Apartment__P3,+ aggregate hours,30.24874474587151,2122.277401960621
+I033,Palermo__Apartment__P3,+ aggregate gains,134.90932183759327,1526.4353951715332
+I034,Palermo__Apartment__P4,Weather only,453.1111953664898,1880.3023836596835
+I034,Palermo__Apartment__P4,Weather + exposure,37.40691089070875,2254.7814541379294
+I034,Palermo__Apartment__P4,+ aggregate hours,24.519996799329867,2122.277401960621
+I034,Palermo__Apartment__P4,+ aggregate gains,193.1968795004467,1307.5112632340938
+I035,Palermo__Apartment__P2_shift,Weather only,453.1111953664898,1880.3023836596835
+I035,Palermo__Apartment__P2_shift,Weather + exposure,37.40691089070875,2254.7814541379294
+I035,Palermo__Apartment__P2_shift,+ aggregate hours,37.40691089070875,2254.7814541379294
+I035,Palermo__Apartment__P2_shift,+ aggregate gains,37.406910890708424,2254.7814541379325
+I036,Palermo__Multi-family__P1,Weather only,453.1111953664898,1880.3023836596835
+I036,Palermo__Multi-family__P1,Weather + exposure,453.1111953664898,1880.3023836596835
+I036,Palermo__Multi-family__P1,+ aggregate hours,739.1890888284651,1984.7415638939822
+I036,Palermo__Multi-family__P1,+ aggregate gains,1096.5907554183862,1593.617286298159
+I037,Palermo__Multi-family__P2,Weather only,453.1111953664898,1880.3023836596835
+I037,Palermo__Multi-family__P2,Weather + exposure,453.1111953664898,1880.3023836596835
+I037,Palermo__Multi-family__P2,+ aggregate hours,453.1111953664898,1880.3023836596835
+I037,Palermo__Multi-family__P2,+ aggregate gains,453.1111953664889,1880.3023836596853
+I038,Palermo__Multi-family__P3,Weather only,453.1111953664898,1880.3023836596835
+I038,Palermo__Multi-family__P3,Weather + exposure,453.1111953664898,1880.3023836596835
+I038,Palermo__Multi-family__P3,+ aggregate hours,373.75067974070697,1672.4826694407984
+I038,Palermo__Multi-family__P3,+ aggregate gains,663.8088286875789,1259.5507054387697
+I039,Palermo__Multi-family__P4,Weather only,453.1111953664898,1880.3023836596835
+I039,Palermo__Multi-family__P4,Weather + exposure,453.1111953664898,1880.3023836596835
+I039,Palermo__Multi-family__P4,+ aggregate hours,301.2234042337122,1672.4826694407984
+I039,Palermo__Multi-family__P4,+ aggregate gains,699.4251131570703,1107.7825984467067
+I040,Palermo__Multi-family__P2_shift,Weather only,453.1111953664898,1880.3023836596835
+I040,Palermo__Multi-family__P2_shift,Weather + exposure,453.1111953664898,1880.3023836596835
+I040,Palermo__Multi-family__P2_shift,+ aggregate hours,453.1111953664898,1880.3023836596835
+I040,Palermo__Multi-family__P2_shift,+ aggregate gains,453.1111953664889,1880.3023836596853
+I041,Palermo__Single-family__P1,Weather only,453.1111953664898,1880.3023836596835
+I041,Palermo__Single-family__P1,Weather + exposure,531.2475464266082,2690.3377806371755
+I041,Palermo__Single-family__P1,+ aggregate hours,846.73279107332,2812.8622777173964
+I041,Palermo__Single-family__P1,+ aggregate gains,1190.726719258992,2392.4048307240832
+I042,Palermo__Single-family__P2,Weather only,453.1111953664898,1880.3023836596835
+I042,Palermo__Single-family__P2,Weather + exposure,531.2475464266082,2690.3377806371755
+I042,Palermo__Single-family__P2,+ aggregate hours,531.2475464266082,2690.3377806371755
+I042,Palermo__Single-family__P2,+ aggregate gains,531.2475464266073,2690.3377806371773
+I043,Palermo__Single-family__P3,Weather only,453.1111953664898,1880.3023836596835
+I043,Palermo__Single-family__P3,Weather + exposure,531.2475464266082,2690.3377806371755
+I043,Palermo__Single-family__P3,+ aggregate hours,441.58085950991835,2437.393308487528
+I043,Palermo__Single-family__P3,+ aggregate gains,721.2982695153307,1986.480432195964
+I044,Palermo__Single-family__P4,Weather only,453.1111953664898,1880.3023836596835
+I044,Palermo__Single-family__P4,Weather + exposure,531.2475464266082,2690.3377806371755
+I044,Palermo__Single-family__P4,+ aggregate hours,359.43865332671794,2437.393308487528
+I044,Palermo__Single-family__P4,+ aggregate gains,741.8415722617075,1811.8633577840271
+I045,Palermo__Single-family__P2_shift,Weather only,453.1111953664898,1880.3023836596835
+I045,Palermo__Single-family__P2_shift,Weather + exposure,531.2475464266082,2690.3377806371755
+I045,Palermo__Single-family__P2_shift,+ aggregate hours,531.2475464266082,2690.3377806371755
+I045,Palermo__Single-family__P2_shift,+ aggregate gains,531.2475464266073,2690.3377806371773

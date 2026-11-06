@@ -1,0 +1,5 @@
+archetype,train_households,test_households,train_windows,test_windows,RMSE,MAE,qualification
+1,32698,14014,21,21,0.07194693326601274,0.05396328944396331,new-household PFE holdout conditional on all-household demographic fit; not external validation
+2,32698,14014,21,21,0.08930991292602271,0.060071593508305945,new-household PFE holdout conditional on all-household demographic fit; not external validation
+3,32698,14014,21,21,0.0983021912114908,0.07595581340109384,new-household PFE holdout conditional on all-household demographic fit; not external validation
+4,32698,14014,21,21,0.05112495217732032,0.040384449324331335,new-household PFE holdout conditional on all-household demographic fit; not external validation

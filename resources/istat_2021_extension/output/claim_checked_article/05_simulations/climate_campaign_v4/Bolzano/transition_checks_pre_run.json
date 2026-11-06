@@ -1,0 +1,97 @@
+{
+  "purpose": "pre-run local selector transition verification; no annual results used",
+  "cases": [
+    {
+      "case": "off_to_heating",
+      "expected_mode": "heating on",
+      "selected_mode": "heating on",
+      "old_state_unchanged_during_trials": true,
+      "solution_W_C_C_C": [
+        3699.491017964071,
+        22.0,
+        16.27913506320692,
+        14.636934131736526
+      ],
+      "node_residual_W": [
+        -5.684341886080801e-13,
+        -2.2737367544323206e-13,
+        7.503331289626658e-12
+      ],
+      "pass": true
+    },
+    {
+      "case": "heating_to_off",
+      "expected_mode": "off",
+      "selected_mode": "off",
+      "old_state_unchanged_during_trials": true,
+      "solution_W_C_C_C": [
+        0.0,
+        22.457531569452794,
+        22.33037682902385,
+        22.15874924834636
+      ],
+      "node_residual_W": [
+        7.389644451905042e-13,
+        -8.810729923425242e-13,
+        8.526512829121202e-12
+      ],
+      "pass": true
+    },
+    {
+      "case": "steady_off",
+      "expected_mode": "off",
+      "selected_mode": "off",
+      "old_state_unchanged_during_trials": true,
+      "solution_W_C_C_C": [
+        0.0,
+        20.0,
+        20.0,
+        19.999999999999996
+      ],
+      "node_residual_W": [
+        0.0,
+        -3.552713678800501e-12,
+        2.4178190314058965e-11
+      ],
+      "pass": true
+    },
+    {
+      "case": "continuing_heating",
+      "expected_mode": "heating on",
+      "selected_mode": "heating on",
+      "old_state_unchanged_during_trials": true,
+      "solution_W_C_C_C": [
+        1552.0119760479035,
+        20.0,
+        17.527968063872255,
+        17.272354491017964
+      ],
+      "node_residual_W": [
+        -6.821210263296962e-13,
+        9.947598300641403e-13,
+        -4.547473508864641e-13
+      ],
+      "pass": true
+    },
+    {
+      "case": "off_to_cooling",
+      "expected_mode": "cooling on",
+      "selected_mode": "cooling on",
+      "old_state_unchanged_during_trials": true,
+      "solution_W_C_C_C": [
+        -1897.0359281437118,
+        26.0,
+        29.047651363938787,
+        30.043736526946105
+      ],
+      "node_residual_W": [
+        -5.684341886080802e-14,
+        1.0231815394945443e-12,
+        1.3841372492606752e-11
+      ],
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "adapter_sha256": "e549b4e5645ad8ae159fddf644d225d28622e1495f6fd64768c5242389b82c16"
+}

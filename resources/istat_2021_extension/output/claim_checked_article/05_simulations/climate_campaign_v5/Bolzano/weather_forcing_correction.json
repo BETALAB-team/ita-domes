@@ -1,0 +1,17 @@
+{
+  "site": "Bolzano",
+  "old_invalid_cloud_derived_mean_delta_K": -95.81494082890566,
+  "corrected_IR_mean_delta_K": 17.620782214282908,
+  "sigma_W_m2_K4": 5.6697e-08,
+  "interval_hours": 1,
+  "source": "valid raw horizontal IR; no cloud filling",
+  "formulation": "native annual-mean air-minus-effective-sky scalar retained",
+  "active_path_guarded_invalid_keys": [
+    "wind_speed",
+    "opaque_sky_coverage"
+  ],
+  "active_forcing_gate_pass": true,
+  "whole_weather_file_universally_valid": false,
+  "raw_epw_sha256": "ff2561b3a202e1ae67201bd46086e56e50c66d328bd118bfe8e7d0c3270d472b",
+  "pre_run_audit_sha256": "90084cb3d7e1b3a37f2523e4e05c1510f1eb276d1ccc71a634de6ce3a16d079f"
+}

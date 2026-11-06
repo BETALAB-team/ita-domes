@@ -1,0 +1,7 @@
+{
+  "istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\MICRODATI\\ISTAT_MFR_ECH_Microdati_2021_DELIMITED.txt": true,
+  "istat\\ECH_2013_IT\\MICRODATI\\ECH_Microdati_Anno_2013.txt": true,
+  "clusters.csv": true,
+  "output\\temporal_extension_2013_2021_20261104\\00_baseline\\archive_transfer_parameters.json": true,
+  "output\\temporal_extension_2013_2021_20261104\\02_analysis\\analysis_spec.md": true
+}

@@ -1,0 +1,36 @@
+{
+  "paths": {
+    "raw_istat": "istat_microdata_2013.csv",
+    "energy_results": "results_grins.csv",
+    "baseline_output_dir": "baseline_outputs",
+    "pfe_output_dir": "pfe_outputs",
+    "energy_output_dir": "energy_outputs",
+    "workflow_output_dir": "workflow_outputs",
+    "report_output_file": "workflow_outputs/istat_archetype_energy_report.docx",
+    "report_figure_dir": "workflow_outputs/report_figures",
+    "report_validation_file": "workflow_outputs/report_validation.json"
+  },
+  "seeds": {
+    "age": 42,
+    "cluster": 1,
+    "dwelling": 42
+  },
+  "column_mappings": {
+    "raw_istat": {},
+    "energy_results": {}
+  },
+  "parameters": {
+    "pfe_minimum_support": 5,
+    "allow_unsupported_pfe_windows": false,
+    "anova_alpha": 0.05
+  },
+  "validation": {
+    "require_paper_archetype_tolerances": true,
+    "paper_heating_groups": 7,
+    "accepted_paper_electricity_group_counts": [5, 6]
+  },
+  "report": {
+    "title": "Italian Household Archetypes and Energy Analysis",
+    "subtitle": "Automated methods and results report"
+  }
+}

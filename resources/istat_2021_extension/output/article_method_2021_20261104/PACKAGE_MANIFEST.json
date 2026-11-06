@@ -1,0 +1,549 @@
+{
+  "date": "2026-11-04",
+  "files": {
+    "01_inputs/INPUT_README.md": {
+      "bytes": 3389,
+      "sha256": "5d67090d06865cc274aef31f3b0983114d8fa25a9aafe6c6ce104ef3a9e9a7ab"
+    },
+    "01_inputs/build_inputs.py": {
+      "bytes": 7062,
+      "sha256": "5683db03cc2188c26328bc56c4e334ba5a9b168011e63893b03d2fc5b9532924"
+    },
+    "01_inputs/input_provenance.json": {
+      "bytes": 3574,
+      "sha256": "4d19f66f8e6f085f47dfb5265d1bdf43998dcb38e997308e92dcdbabb970d5dd"
+    },
+    "01_inputs/input_spec.json": {
+      "bytes": 1762,
+      "sha256": "9ca8ee7c34951416e73a462259ae2d9125c465537c99d551092ed10d2a2ba500"
+    },
+    "02_probabilities/analysis_spec.md": {
+      "bytes": 2198,
+      "sha256": "927893b61f278d018c73212c17b8d803b5c9423def2ae7750df157ff563a41df"
+    },
+    "02_probabilities/archetype_feature_distributions_2021.png": {
+      "bytes": 78971,
+      "sha256": "a571c92071e21f4d437b8c6150080554c1f99dc253c62f9bcb022445b04e3f09"
+    },
+    "02_probabilities/archetype_feature_distributions_2021.svg": {
+      "bytes": 39783,
+      "sha256": "cfcc4d5e38966a0f3704c0dd9a62f174db18e8b9d200583748c9e4e3bfbbbb26"
+    },
+    "02_probabilities/archetype_fit_parameters.json": {
+      "bytes": 2191,
+      "sha256": "e90497f07d624880985000e93f9ef654761c083556306bd3831fc2fef93cc61b"
+    },
+    "02_probabilities/archetype_sensitivities.csv": {
+      "bytes": 1307,
+      "sha256": "95caac0811907f13dc99eac8a51e71e395faaf8dac4bfb437478c031243910f8"
+    },
+    "02_probabilities/archetype_shares_2021.png": {
+      "bytes": 38371,
+      "sha256": "0b03293b2c2f98636575d07c57443b2fa5f9cda1a83e6ae8e9e0ba553650acbb"
+    },
+    "02_probabilities/archetype_shares_2021.svg": {
+      "bytes": 10424,
+      "sha256": "ebd588b15acf1e2fb2b9b5d662daceb471ed870523ae9388a800ec4dea94bf42"
+    },
+    "02_probabilities/archetype_summary_2021.csv": {
+      "bytes": 1025,
+      "sha256": "9b7d8c867c8971de26d1a35d80f740c269075bd122fb412fdaec70d3dab89034"
+    },
+    "02_probabilities/artifact_hashes.json": {
+      "bytes": 4540,
+      "sha256": "1a7de86a8d10c8eab3b8673d5f4ab2af5d0dee86ca2f425744eaf7bebbe633ff"
+    },
+    "02_probabilities/cohort_preparation.log": {
+      "bytes": 261,
+      "sha256": "0adb64f9e7207a008e6942cb0412a4dcc0673c8f972cc7e84b380dfa359e9ef3"
+    },
+    "02_probabilities/dwelling_samples_2021.csv": {
+      "bytes": 918420,
+      "sha256": "d3a279166f3b67b008d764da97e09137af9e1a2de1af73efc107232082dc521c"
+    },
+    "02_probabilities/eligible_household_features_2021.csv": {
+      "bytes": 10711615,
+      "sha256": "1b700f16c4234039069759b3550062cb19fac082ebe71960ca17ff41af79912b"
+    },
+    "02_probabilities/empirical_vs_fitted_training.csv": {
+      "bytes": 4573,
+      "sha256": "5b9a8ac9bf89dfe9ee1ab11032bc53899a055203d168eeb721ee0e273388ae44"
+    },
+    "02_probabilities/equation.log": {
+      "bytes": 1009,
+      "sha256": "12171be9ca4029dbd3608e69ff23c3fdf3a9987e10f7a78514d4eebc83badcc3"
+    },
+    "02_probabilities/execution.log": {
+      "bytes": 2609,
+      "sha256": "0bb165dc7c2101e111ea03a6515d5e048daea77c4b0e3177dda9c0e292207e22"
+    },
+    "02_probabilities/export_equation.py": {
+      "bytes": 1311,
+      "sha256": "c3571531b5174f26f744e39721a2523b2fcdcc90ae23ecc1c256b268a0d669fc"
+    },
+    "02_probabilities/freeze_artifacts.py": {
+      "bytes": 337,
+      "sha256": "c2c29086c1568c873648341ee917932e36b21200a1463e9a54c90f3c7b456101"
+    },
+    "02_probabilities/household_archetypes_2021.csv": {
+      "bytes": 10182702,
+      "sha256": "e9d7d2f72e6cceb5e5d9beafe817dfbba2da3d32f692414257cbd5c62771167d"
+    },
+    "02_probabilities/household_holdout_probability_scores.csv": {
+      "bytes": 723,
+      "sha256": "3a1fc563e987147a46b90ec909475d4d4a38809a7cfb7a50bfeb627bf2e08bc0"
+    },
+    "02_probabilities/matrix_equation_2021.md": {
+      "bytes": 1007,
+      "sha256": "5a8f5b319a26a3c8a4b4ca7fb0b725dd740fd1bacf635b9443a8e9175f260b36"
+    },
+    "02_probabilities/methods_results.md": {
+      "bytes": 7949,
+      "sha256": "df83daf20373350bf20acefed067265b128915c3d76d0879edf90f073f44ae21"
+    },
+    "02_probabilities/pca_explained_variance_2021.png": {
+      "bytes": 38113,
+      "sha256": "f194af383c9e7c96d9718c33fcaa610e78cc504e4aae870f257091afbddae9b1"
+    },
+    "02_probabilities/pca_explained_variance_2021.svg": {
+      "bytes": 9526,
+      "sha256": "1eddace321120e9d5406035ddae3060cab756211d4c632deee680c7e2fc732bf"
+    },
+    "02_probabilities/pfe_eligibility_all_ids.csv": {
+      "bytes": 1696345,
+      "sha256": "6954453c33815931579c51e22075c6983f26ea8fe5cd2377c3af321db77a2703"
+    },
+    "02_probabilities/plot_probabilities.py": {
+      "bytes": 3613,
+      "sha256": "9ba05db67477ede14a6e0c8daba9d3333647e6a191232162c20e57b585717c65"
+    },
+    "02_probabilities/plots.log": {
+      "bytes": 46,
+      "sha256": "e8d2744322d1ac26bc572bbca88f419f52127d337e4f88d195e111cbd1edd349"
+    },
+    "02_probabilities/polynomial_coefficient_matrix.csv": {
+      "bytes": 377,
+      "sha256": "4606d9d32726209bcae11805a4615acc9bcbeaeeb00e3b22f59bd07418d9fb9b"
+    },
+    "02_probabilities/polynomial_fit_diagnostics.json": {
+      "bytes": 2427,
+      "sha256": "215dafb09e4243625f4a1250402b35af5e55fe883b31243613529adb2677f202"
+    },
+    "02_probabilities/polynomial_full_grid_predictions_flags.csv": {
+      "bytes": 7810,
+      "sha256": "4bfb009378881717eb4447509f5ab6cc2e1d27ebf44ca598f090d1a41934a367"
+    },
+    "02_probabilities/polynomial_matrix_surveyweighted_sensitivity.csv": {
+      "bytes": 362,
+      "sha256": "15cd9240f2960ed583f06c806b58c52b4fa0c8e97fff967035583362c44c39a6"
+    },
+    "02_probabilities/prefit_cohort_all_ids.csv": {
+      "bytes": 3717694,
+      "sha256": "e11da350b825f244d334105832ecb51d6528354d199a35072bd00a51eb2e3e43"
+    },
+    "02_probabilities/prepare_cohort.py": {
+      "bytes": 319,
+      "sha256": "5040ce470e8d90230f04c32ffc094ef740fca0b20d85cd384e3e9b5ebe31a6bf"
+    },
+    "02_probabilities/probability_empirical_fitted_heatmaps_2021.png": {
+      "bytes": 123120,
+      "sha256": "467b599b077b743ffcdab1c6d5b137b7dfe317234fb810e178c1c6c67e0d9f5f"
+    },
+    "02_probabilities/probability_empirical_fitted_heatmaps_2021.svg": {
+      "bytes": 60596,
+      "sha256": "cb264692eae2c9b9ab333360b99df5f6680022e8fc809aedd518d82278cf42a4"
+    },
+    "02_probabilities/probability_empirical_vs_fitted_2021.png": {
+      "bytes": 115604,
+      "sha256": "71d8d88e2f95ce7035b181e3772afb7ad8a9d5c9351c259425bb47944f42af49"
+    },
+    "02_probabilities/probability_empirical_vs_fitted_2021.svg": {
+      "bytes": 88592,
+      "sha256": "51e72092b0f6ea7d727e16f79911cad7d5ee1d31a73d160a4fa016d6c15a4c28"
+    },
+    "02_probabilities/probability_grid_empirical.csv": {
+      "bytes": 7166,
+      "sha256": "0a386ba9bf91624341c9cf96665a6568cab545672bf5d0a8032525a0627f663b"
+    },
+    "02_probabilities/probability_grid_empty_windows.csv": {
+      "bytes": 107,
+      "sha256": "889036aadb3bdc349786a2a2b5ceb258e738e8b600d01f033b2d01edd69caa8f"
+    },
+    "02_probabilities/probability_grid_surveyweighted_sensitivity.csv": {
+      "bytes": 10035,
+      "sha256": "1a2e0f958d0a3de9662da9ca4a54b0ed241c4da5059ae22822c080354aabc103"
+    },
+    "02_probabilities/results.json": {
+      "bytes": 2730,
+      "sha256": "e3e36029687eeabb890d435be9f63ef0b40c305fd69da127c31fcaa02f8507d9"
+    },
+    "02_probabilities/run_probabilities.py": {
+      "bytes": 13879,
+      "sha256": "65109fab67c5a6ed46cb615b56a3b9b219ad4a34c8a0bd311eb0f0f55cf0ab3a"
+    },
+    "02_probabilities/surveyweighted_polynomial_diagnostics.json": {
+      "bytes": 2369,
+      "sha256": "5c3351f2093094cfbc0051e616a6b98be29ad6497d93f9198deb06bd3d68c03e"
+    },
+    "02_probabilities/verification.json": {
+      "bytes": 972,
+      "sha256": "1364f20efaab3e2ac94169cea675fc091919ed37232370e323a7bf51fac2a3d7"
+    },
+    "02_probabilities/verification.log": {
+      "bytes": 974,
+      "sha256": "12206703c8c4c616a8bb5c0e4f11c5b262b80050f3e607ec27613ef5b5e764a5"
+    },
+    "02_probabilities/verify_outputs.py": {
+      "bytes": 2410,
+      "sha256": "580c1a638f74633d6f0818f3b48839364d484a4b37ff5842e6a878589e5d95e9"
+    },
+    "03_energy/E_final_pairwise_tests_2021.csv": {
+      "bytes": 2902,
+      "sha256": "55a43e2cb69bc6563f81faa5f4e95f2b1c6c73ef03a9d7a3670a690c7da9dfff"
+    },
+    "03_energy/E_group_lookup_2021.csv": {
+      "bytes": 6825,
+      "sha256": "e78f07d1b6ca578aa56f74e9dcd468e9d86c3d9605e2015caea2201385c41b44"
+    },
+    "03_energy/E_group_summary_2021.csv": {
+      "bytes": 1261,
+      "sha256": "01ce1798ce867a593e854eea77655faad7e48638030cfc614412cc75e80096c5"
+    },
+    "03_energy/E_merge_history_2021.csv": {
+      "bytes": 9760,
+      "sha256": "329a15ea935b746305a195c784851977985def13aae6272f8647f2acb932bd97"
+    },
+    "03_energy/E_surveyweighted_summaries_2021.csv": {
+      "bytes": 891,
+      "sha256": "15d7c629c2a8e1d434bf525d092f9dbd88d11cf993d238aabff81fd4cc976be2"
+    },
+    "03_energy/H_final_pairwise_tests_2021.csv": {
+      "bytes": 1926,
+      "sha256": "518f13ab998f899b0320850be808c180442796296f506d90c3d73fc3cb4a4135"
+    },
+    "03_energy/H_group_lookup_2021.csv": {
+      "bytes": 6813,
+      "sha256": "449dedc4374ce7c13e6e4402e1e877994467b5a8fdd633f3e8207506db2219a9"
+    },
+    "03_energy/H_group_summary_2021.csv": {
+      "bytes": 869,
+      "sha256": "7b43fccbbe63c4f3e9840fa22b657b338fdd40d7dba5a3984ee374a105b2626a"
+    },
+    "03_energy/H_merge_history_2021.csv": {
+      "bytes": 9892,
+      "sha256": "85993205951e2b55e27192c225054c091a5dd6bd4a8125c1286fc947fc358b68"
+    },
+    "03_energy/H_surveyweighted_summaries_2021.csv": {
+      "bytes": 623,
+      "sha256": "6ca757a4f33c484061ccb22923486031a737ee2341634a2019cdf316d5019d2f"
+    },
+    "03_energy/anova_models_2021.json": {
+      "bytes": 894,
+      "sha256": "aaf568ecd9ef3edace2af3a5eb527acae60698ca60eef0a6f681f39a77bdc231"
+    },
+    "03_energy/anova_results_2021.csv": {
+      "bytes": 2515,
+      "sha256": "e0cf7ad1c130449ef22c4401a3f5572c2dabce1ebb86ba932f522db7ff0be735"
+    },
+    "03_energy/appendix_A_assignment_2021.csv": {
+      "bytes": 7036,
+      "sha256": "6875db14bb96a3cb4879376f27aff95898c0f701809e37121ed1ab3decf53fea"
+    },
+    "03_energy/appendix_A_assignment_2021_wide.csv": {
+      "bytes": 1500,
+      "sha256": "fdd1a3360870df175fd9c9900b39c7ea9eb24c983800502191a1d30cfd7af26d"
+    },
+    "03_energy/electricity_plot_counts_2021.csv": {
+      "bytes": 697,
+      "sha256": "e3f1b1a016c69c0be158c43b9533b90dd2396b67a45224fe804673d05f87c9ae"
+    },
+    "03_energy/execution.log": {
+      "bytes": 3494,
+      "sha256": "77cb8cc7d853d652ca5e076db1cb00f62bfaed31796b8930767fe7386132fc56"
+    },
+    "03_energy/household_group_assignments_2021_compact.csv": {
+      "bytes": 7754805,
+      "sha256": "2db96953abb5da46f63207ddefb125be6572ef9ccf769b5b4762a00ff4bc8d5c"
+    },
+    "03_energy/render.log": {
+      "bytes": 2929,
+      "sha256": "9429527a27cbbdb4b2bf396cb06dd2d18c101788acc7bf387c990438c4c1afbc"
+    },
+    "03_energy/render_energy_figures.py": {
+      "bytes": 1272,
+      "sha256": "baf3201a5761ca09308f62eebfd092267e3aa01a58f60fd2a1f7f5c5927a579e"
+    },
+    "03_energy/results.json": {
+      "bytes": 2927,
+      "sha256": "db716a05789694fa4b31b91c2b9d31c386f823e504cf90d50e4039d646b03eae"
+    },
+    "03_energy/run_energy_2021.py": {
+      "bytes": 13222,
+      "sha256": "896459468fcbcb32838fedd450345b68ded2f4611c47692c9fe18f772b46509e"
+    },
+    "04_figures/appendix_A_group_assignment_matrix_2021.pdf": {
+      "bytes": 28489,
+      "sha256": "a25002a7418bcf0c2b51c111ab7466d3a729e4a60ee27cd6b63a06a2f382f689"
+    },
+    "04_figures/appendix_A_group_assignment_matrix_2021.png": {
+      "bytes": 345688,
+      "sha256": "ee8c0de88895b72aebd8aa5235d3c0e727d6d4e403d5c933db000ee3633f19e2"
+    },
+    "04_figures/appendix_A_group_assignment_matrix_2021.svg": {
+      "bytes": 96073,
+      "sha256": "5a05067b74760195d16cee73e0942eaaecaeb72818e17bf114ec53e8a1acc5c2"
+    },
+    "04_figures/archetype_population_shares_2021.pdf": {
+      "bytes": 16385,
+      "sha256": "25c380a4fcb9bc743bbb85164920bbec84a7c35bbba82c109a90c512728c48a6"
+    },
+    "04_figures/archetype_population_shares_2021.png": {
+      "bytes": 86038,
+      "sha256": "4d7aebf3bfa0226826119eaea411667fad78d64a981968cd7f5c2cb2300e3b8f"
+    },
+    "04_figures/archetype_population_shares_2021.svg": {
+      "bytes": 17867,
+      "sha256": "827fbd4ee58abd1ae00df76b0e82660b24aca502e8cbaa0413e6a9247ffaff6f"
+    },
+    "04_figures/article_plot_specification.json": {
+      "bytes": 703,
+      "sha256": "1dc758b75fdaebfb76f0c8747c873efe961c5e67d84863b459fe9c8333d4b3c4"
+    },
+    "04_figures/build_article_figures.py": {
+      "bytes": 6244,
+      "sha256": "a8d48148b69f9dbfa0e8fed7de457b7fc331e244a2a67e3dd3970e9d7df36f5c"
+    },
+    "04_figures/clustering_elbow_2021.pdf": {
+      "bytes": 16773,
+      "sha256": "94f6f8db844e34c8136825fe78bb0c350c0ed60822020cd8f275f1ec6d9620c3"
+    },
+    "04_figures/clustering_elbow_2021.png": {
+      "bytes": 69525,
+      "sha256": "5db66985ac2c090b030773f2f983e339b9f013fba37bf8e12224d31021abc4d9"
+    },
+    "04_figures/clustering_elbow_2021.svg": {
+      "bytes": 13312,
+      "sha256": "dd4e9c6c8346da4589602abff0c2b27162db93edcd9c26437d8eb474a6f849cf"
+    },
+    "04_figures/dwelling_probability_profiles_2021.pdf": {
+      "bytes": 21935,
+      "sha256": "15d596dee853a9449d1c7d451e86eff436635f0d788e9fccd44fa61b13f543ab"
+    },
+    "04_figures/dwelling_probability_profiles_2021.png": {
+      "bytes": 214012,
+      "sha256": "66944148a0b5ce76ae80dd2c760176180c3771ec4c153332cf722fdd8c47fd7f"
+    },
+    "04_figures/dwelling_probability_profiles_2021.svg": {
+      "bytes": 61923,
+      "sha256": "1f07eda6ed96299b65ae8b1c21dd7b177dd677085b11198c8867209015127d9a"
+    },
+    "04_figures/energy_group_boxplots_2021.pdf": {
+      "bytes": 28236,
+      "sha256": "4ebc08df37d884000416e69e4db309b8b3791e0a0b439d8e34389e1e1174a74e"
+    },
+    "04_figures/energy_group_boxplots_2021.png": {
+      "bytes": 135424,
+      "sha256": "42d0402b73f88ec6344a865017b675bd564568ece372683087bb20e0fb1b7ca9"
+    },
+    "04_figures/energy_group_boxplots_2021.svg": {
+      "bytes": 69792,
+      "sha256": "e6d95ac6c046a828f3fd79067aaa9feed5002bc37a0fd00bdde283be609d38b6"
+    },
+    "04_figures/execution.log": {
+      "bytes": 47,
+      "sha256": "b07eebb2e777e3bb7ee6d64eb04157b78a34a3b7ef3e45f1c254f0e524ff5eaa"
+    },
+    "04_figures/matrix_equation_2021.pdf": {
+      "bytes": 16191,
+      "sha256": "698a593fa7109c4a6ad2b561709e12624cc53f4f993f416201dfba692cd07240"
+    },
+    "04_figures/matrix_equation_2021.png": {
+      "bytes": 59794,
+      "sha256": "0ca5b2d482a884036888f79c1877da35a1484aadc08909e92d9b7a2e13ea7514"
+    },
+    "04_figures/matrix_equation_2021.svg": {
+      "bytes": 14276,
+      "sha256": "40eda4fe7165af118d5576bfe1a885cf736a1b19a2788ac7d98cd958f4b0d478"
+    },
+    "04_figures/probability_model_validation_2021.pdf": {
+      "bytes": 17706,
+      "sha256": "c14109a5213ef0420d43564561c92c1aba685be6b24d41256b76c1b83f5138b9"
+    },
+    "04_figures/probability_model_validation_2021.png": {
+      "bytes": 93695,
+      "sha256": "e528181e6c25c805699b663bf0b0bd6a79f4b366e0d7bf09cdcfe39c9ab2d510"
+    },
+    "04_figures/probability_model_validation_2021.svg": {
+      "bytes": 25006,
+      "sha256": "811a4153ee59a5cb798616a01357e87577ed11e7cb5b6241206a3180bee2b0cc"
+    },
+    "04_figures/within_cluster_sum_squares_2021.csv": {
+      "bytes": 225,
+      "sha256": "9c5fbea746de12c5af669a5737817c9571ad540741eeaec4fd000c8197c11f11"
+    },
+    "05_review/appendix_checks.json": {
+      "bytes": 307,
+      "sha256": "1a34a67ee3063db77ced51c7a5780111459e60c33bd4a0ee76f0f17f36e4ddaf"
+    },
+    "05_review/check_appendix.py": {
+      "bytes": 3349,
+      "sha256": "7ca3d2a78c8ee6dd9b9f8f933e71d3f90e6e86cd42612bca424bd586df7484d4"
+    },
+    "05_review/check_energy.py": {
+      "bytes": 4161,
+      "sha256": "f8c03da52233760e74d3df16f988896a719ed9d3f57449ed08ceaf4cba921b66"
+    },
+    "05_review/check_reconstruction.py": {
+      "bytes": 7851,
+      "sha256": "673bdc7fe87a595730844f1d92724abb21e0f446a2f480911888b918e2b03835"
+    },
+    "05_review/energy_checks.json": {
+      "bytes": 471,
+      "sha256": "68020c585b312e4c4294ecf9643e9109f0716bbe12936d6cfad60f0e67df0363"
+    },
+    "05_review/final_report_check.md": {
+      "bytes": 3941,
+      "sha256": "c8da283741466a529cfa039c106103e7b9a449d5020e46ac0461855a60705691"
+    },
+    "05_review/reconstruction_checks.json": {
+      "bytes": 1036,
+      "sha256": "f7a8dae3e728ace2f08b06731c39a61625bd7f3ce52313939e12ae9e7577db73"
+    },
+    "05_review/scientific_review.md": {
+      "bytes": 9731,
+      "sha256": "ca6800562db29ed1d1d111beea456c57b8f2067512d72ee181bef3360337fffc"
+    },
+    "06_report/Italian_user_archetypes_2021_reconstruction.docx": {
+      "bytes": 576951,
+      "sha256": "cdc105aff0cb73069bd74f44263527fa8fcacb7e1fa3b3a19883cc540c627cd2"
+    },
+    "06_report/Italian_user_archetypes_2021_reconstruction.pdf": {
+      "bytes": 871168,
+      "sha256": "d8fa8ff9fb29681c06a4041b598a2534e73a0983c204b0b972ac04b7e5894a82"
+    },
+    "06_report/build_report.py": {
+      "bytes": 25546,
+      "sha256": "cef2760bd65952da765b599bb4b0c43649a50222ad40f1ab8bdcae57e8dc85cc"
+    },
+    "06_report/delivery_checks.json": {
+      "bytes": 985,
+      "sha256": "955ef3f7b5d3b8086bb8735d5c24a3ca7015b56ae91501a769528d42878bb8f0"
+    },
+    "06_report/document_helpers.py": {
+      "bytes": 7274,
+      "sha256": "bda1c29c6a5c1fc48d5b13f8f195eea6afad7822966500ab1cffa8a855a928c9"
+    },
+    "06_report/export_word_pdf.ps1": {
+      "bytes": 1204,
+      "sha256": "54b6c19dffd7a7159f3fecf69bfc05a563dd18eaff3732802eba7f19cf00e6ce"
+    },
+    "06_report/regression_coefficients_and_pvalues_2021.csv": {
+      "bytes": 708,
+      "sha256": "1a8fbef5a9bde559d2f053f193f236c8b987f0d08cafca29d20eb1325938f63f"
+    },
+    "06_report/render_and_verify.py": {
+      "bytes": 4491,
+      "sha256": "0ba3039c97ff259f07266e6bad7abcea4fb2aa35e2263cb0b03b4ea3ced9223d"
+    },
+    "06_report/report_content.json": {
+      "bytes": 34054,
+      "sha256": "5415a9414cd801edd5024f1efa75d69d823dd176be1bb15b9f37bb1d0890f58b"
+    },
+    "06_report/word_export.json": {
+      "bytes": 235,
+      "sha256": "6491352e4c0b360512b1e3a0acd9191de75d2b39061009c1beaf9ecf9415d78e"
+    },
+    "07_source_reference/01_PCA_Exploratory.py": {
+      "bytes": 4605,
+      "sha256": "557450d3ff5d52adeee4b38f071058b9169f20631d03804209381d86d4b95939"
+    },
+    "07_source_reference/02_Families_Analysis.py": {
+      "bytes": 4137,
+      "sha256": "5067d46f95eb4f84f772f829beecbc7a09236298c2aa3e155a540a36a5a1cb0b"
+    },
+    "07_source_reference/03_PCA_Clustering.py": {
+      "bytes": 2884,
+      "sha256": "c2fe140e16a339cb0a27f95a90bb7609e6138a85ce03fbf2afcafd93614a62d0"
+    },
+    "07_source_reference/05_00_PFE_Exploratory.py": {
+      "bytes": 4076,
+      "sha256": "f876131e1dddb2e0dde4638aac576349a4f6c316b78410685deb8ea8ed4fd6b6"
+    },
+    "07_source_reference/05_01_PFE_Variable_Analysis.py": {
+      "bytes": 15421,
+      "sha256": "ff8fdc541cafb76b450e1fadd707d341c8aceb40e13d9e2b66d5aab0463b8588"
+    },
+    "07_source_reference/05_02_PFE_Probablity.py": {
+      "bytes": 2364,
+      "sha256": "ab30a94b1cbfc341ff67b19e79189fc8d8ca13d4630ab8bb46eb81f9dd3b9df7"
+    },
+    "07_source_reference/05_03_PFE_Analysis.py": {
+      "bytes": 26448,
+      "sha256": "640fb33caf9f7db3201ce09f462998b757895dfcd240c7833f53eb94cc7d73b5"
+    },
+    "07_source_reference/07_ANOVA_analysis.py": {
+      "bytes": 37796,
+      "sha256": "4145f687a8737d76191fa5531924a1c9998ac672dff1097318a8ca5e467826dd"
+    },
+    "07_source_reference/archive_transfer_parameters.json": {
+      "bytes": 1248,
+      "sha256": "7509194457691fea8e2daaa2dcbf1f310637ce236f6a10f13d3879fb1ffaefc6"
+    },
+    "07_source_reference/baseline_freeze.json": {
+      "bytes": 7217,
+      "sha256": "8570c43892748456b7bb78d2f50cf8bf534929918655ad6c3769d3ecfa4f0c02"
+    },
+    "07_source_reference/electricity_model_report.json": {
+      "bytes": 1402,
+      "sha256": "05e939f0b300d368d5c7a98907615a434023317153400440a0136c5e837909d6"
+    },
+    "07_source_reference/energy_analysis.py": {
+      "bytes": 30550,
+      "sha256": "e3d040da180f1f0f5bb08f75eef44e12a2b2a14d3c2027b1ba05e0fceca612e2"
+    },
+    "07_source_reference/model_electricity_2021.py": {
+      "bytes": 7870,
+      "sha256": "5e45a969f128a9b60f1e7622869451e3e619ceb406a14220559add6c9ab11b0a"
+    },
+    "07_source_reference/pfe_pipeline.py": {
+      "bytes": 16660,
+      "sha256": "4e88bad171086912a40a0661cb62c698999b2b2a3b274c70a5f6c40b564d4503"
+    },
+    "07_source_reference/published_benchmarks.csv": {
+      "bytes": 14437,
+      "sha256": "b7e5a9b07def8b3a17021967ebf6a4331fbd939ba45fef2cefb93d4190c258a2"
+    },
+    "07_source_reference/published_benchmarks.json": {
+      "bytes": 30868,
+      "sha256": "f2f1b5934fe8204a49f0e2f38d98f9e8f85bdde48c7f909b493cd04ce079d9d6"
+    },
+    "07_source_reference/source_copy_manifest.json": {
+      "bytes": 2738,
+      "sha256": "dfa4bee322d0bbccd597601a981912cb70fb801f8ff1cd80ece6c6bc46520c49"
+    },
+    "README.txt": {
+      "bytes": 4482,
+      "sha256": "6cdc49ee1adf4173f6a36388d1dec21516cad72e4da4705ff1e7e8b9d3b2df0b"
+    },
+    "delivery_manifest.json": {
+      "bytes": 5274,
+      "sha256": "759aab0b8e14e5269709535ef9d80edaa0e581c0717417d6c72348687b426a99"
+    },
+    "package_delivery.py": {
+      "bytes": 6362,
+      "sha256": "bdfc8b08face75c342b57b183765c5d77285661aa8ae6bb6148355c2a4994df8"
+    },
+    "predict_probabilities_2021.py": {
+      "bytes": 1301,
+      "sha256": "d50629f2cdf7357762d278dbd1cbe826c80dd783ad2736b7e2aab2c3c8717004"
+    },
+    "requirements-2021.txt": {
+      "bytes": 116,
+      "sha256": "bb9c7561fdb183bf45707d93cd2d6611e6db189aa16c07e1a7da3b83cd8de896"
+    },
+    "run_analysis_2021.py": {
+      "bytes": 916,
+      "sha256": "4ec918281f42df5014fc9a76269a3ed4ff59840e014825a6a7ef0f60df7d84c9"
+    }
+  }
+}

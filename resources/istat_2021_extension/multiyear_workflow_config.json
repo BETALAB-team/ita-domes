@@ -1,0 +1,28 @@
+{
+  "paths": {
+    "output_root": "multiyear_outputs",
+    "energy_results": "results_grins.csv",
+    "legend": "istat/legenda_istat.xlsx",
+    "crosswalk": "istat/legenda_istat-old.xlsx"
+  },
+  "years": {
+    "2013": {
+      "raw_input": "istat/ECH_2013_IT/MICRODATI/ECH_Microdati_Anno_2013.txt",
+      "run_energy": true
+    },
+    "2021": {
+      "raw_glob": "istat/Microdati21/**/MICRODATI/*2021*DELIMITED.txt",
+      "run_energy": false
+    }
+  },
+  "seeds": {
+    "age": 42,
+    "cluster": 1,
+    "dwelling": 42
+  },
+  "parameters": {
+    "pfe_minimum_support": 5,
+    "allow_unsupported_pfe_windows": false,
+    "anova_alpha": 0.05
+  }
+}

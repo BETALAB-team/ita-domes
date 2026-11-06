@@ -1,0 +1,623 @@
+{
+  "draft_sha256": "5e35bc02e77d6345a9c82be51a8a405d5d4ba3e8490f6c24d037b8488a04bab1",
+  "cases": {
+    "Padova/seeded": {
+      "rows": 8760,
+      "annual_kWh": 5947.725172656399,
+      "peak_kW": 8.869599357134677,
+      "residual_max_W_air_surface_mass": [
+        2.148681232938543e-11,
+        7.867129170335829e-11,
+        1.887201506178826e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 9.094947017729282e-13,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 671,
+      "setback_energy_kWh": 893.2178321799465,
+      "maximum_air_C": 42.814768269629624
+    },
+    "Padova/early": {
+      "rows": 8760,
+      "annual_kWh": 6078.713796238734,
+      "peak_kW": 9.018531364349917,
+      "residual_max_W_air_surface_mass": [
+        2.148681232938543e-11,
+        7.867129170335829e-11,
+        1.887201506178826e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 547,
+      "setback_energy_kWh": 600.8414601241678,
+      "maximum_air_C": 42.814768269629624,
+      "annual_percent": 2.2023314759823,
+      "peak_percent": 1.6791289123498032,
+      "same_forcing_and_parameters": true
+    },
+    "Padova/late": {
+      "rows": 8760,
+      "annual_kWh": 5988.123201222301,
+      "peak_kW": 8.656040846577536,
+      "residual_max_W_air_surface_mass": [
+        2.148681232938543e-11,
+        7.867129170335829e-11,
+        1.887201506178826e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": -9.094947017729282e-13,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 669,
+      "setback_energy_kWh": 789.1389399843335,
+      "maximum_air_C": 42.814768269629624,
+      "annual_percent": 0.6792181446382939,
+      "peak_percent": -2.4077582533122532,
+      "same_forcing_and_parameters": true
+    },
+    "Padova/repeat_seeded": {
+      "rows": 8760,
+      "annual_kWh": 5947.725172656399,
+      "peak_kW": 8.869599357134677,
+      "residual_max_W_air_surface_mass": [
+        2.148681232938543e-11,
+        7.867129170335829e-11,
+        1.887201506178826e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 9.094947017729282e-13,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 671,
+      "setback_energy_kWh": 893.2178321799465,
+      "maximum_air_C": 42.814768269629624,
+      "exact_repeat": true
+    },
+    "Padova/warmup_seeded": {
+      "rows": 8760,
+      "annual_kWh": 5947.725172639805,
+      "peak_kW": 8.869599357134677,
+      "residual_max_W_air_surface_mass": [
+        2.148681232938543e-11,
+        7.867129170335829e-11,
+        1.887201506178826e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": -9.094947017729282e-13,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 671,
+      "setback_energy_kWh": 893.2178321659989,
+      "maximum_air_C": 42.814768269629624
+    },
+    "Bolzano/seeded": {
+      "rows": 8760,
+      "annual_kWh": 10613.61357325859,
+      "peak_kW": 10.779184394384117,
+      "residual_max_W_air_surface_mass": [
+        1.8275159163749777e-11,
+        7.054268280626275e-11,
+        1.418811734765768e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 1426,
+      "setback_energy_kWh": 2553.3264494718396,
+      "maximum_air_C": 34.16948308287975
+    },
+    "Bolzano/early": {
+      "rows": 8760,
+      "annual_kWh": 10657.376389123503,
+      "peak_kW": 10.628887228957135,
+      "residual_max_W_air_surface_mass": [
+        1.8275159163749777e-11,
+        7.73070496506989e-11,
+        1.418811734765768e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 1324,
+      "setback_energy_kWh": 2040.6516107221676,
+      "maximum_air_C": 34.16948308287975,
+      "annual_percent": 0.4123272018794255,
+      "peak_percent": -1.3943278074479037,
+      "same_forcing_and_parameters": true
+    },
+    "Bolzano/late": {
+      "rows": 8760,
+      "annual_kWh": 10632.361144027995,
+      "peak_kW": 11.025653198726209,
+      "residual_max_W_air_surface_mass": [
+        1.8275159163749777e-11,
+        7.366907084360719e-11,
+        1.418811734765768e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": -1.8189894035458565e-12,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 1398,
+      "setback_energy_kWh": 2374.6673010572254,
+      "maximum_air_C": 34.16948308287975,
+      "annual_percent": 0.17663702037014062,
+      "peak_percent": 2.2865255414918018,
+      "same_forcing_and_parameters": true
+    },
+    "Bolzano/repeat_seeded": {
+      "rows": 8760,
+      "annual_kWh": 10613.61357325859,
+      "peak_kW": 10.779184394384117,
+      "residual_max_W_air_surface_mass": [
+        1.8275159163749777e-11,
+        7.054268280626275e-11,
+        1.418811734765768e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 1426,
+      "setback_energy_kWh": 2553.3264494718396,
+      "maximum_air_C": 34.16948308287975,
+      "exact_repeat": true
+    },
+    "Bolzano/warmup_seeded": {
+      "rows": 8760,
+      "annual_kWh": 10613.61357322735,
+      "peak_kW": 10.779184394384117,
+      "residual_max_W_air_surface_mass": [
+        1.8275159163749777e-11,
+        7.054268280626275e-11,
+        1.418811734765768e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 1426,
+      "setback_energy_kWh": 2553.326449445134,
+      "maximum_air_C": 34.16948308287975
+    },
+    "Roma/seeded": {
+      "rows": 8760,
+      "annual_kWh": 3325.654149884864,
+      "peak_kW": 7.704409464531209,
+      "residual_max_W_air_surface_mass": [
+        2.114575181622058e-11,
+        7.810285751475021e-11,
+        2.0236257114447653e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": -4.547473508864641e-13,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 266,
+      "setback_energy_kWh": 243.78497313521208,
+      "maximum_air_C": 41.989824512032726
+    },
+    "Roma/early": {
+      "rows": 8760,
+      "annual_kWh": 3521.934191865771,
+      "peak_kW": 8.333649163624449,
+      "residual_max_W_air_surface_mass": [
+        2.114575181622058e-11,
+        7.821654435247183e-11,
+        2.0236257114447653e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 135,
+      "setback_energy_kWh": 118.35520462202487,
+      "maximum_air_C": 41.989824512032726,
+      "annual_percent": 5.901998017072896,
+      "peak_percent": 8.167267095422037,
+      "same_forcing_and_parameters": true
+    },
+    "Roma/late": {
+      "rows": 8760,
+      "annual_kWh": 3373.4960992619544,
+      "peak_kW": 7.9126664663527215,
+      "residual_max_W_air_surface_mass": [
+        2.114575181622058e-11,
+        7.810285751475021e-11,
+        2.0236257114447653e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": -4.547473508864641e-13,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 229,
+      "setback_energy_kWh": 184.9571152070984,
+      "maximum_air_C": 41.989824512032726,
+      "annual_percent": 1.4385726001829413,
+      "peak_percent": 2.7030884427971413,
+      "same_forcing_and_parameters": true
+    },
+    "Roma/repeat_seeded": {
+      "rows": 8760,
+      "annual_kWh": 3325.654149884864,
+      "peak_kW": 7.704409464531209,
+      "residual_max_W_air_surface_mass": [
+        2.114575181622058e-11,
+        7.810285751475021e-11,
+        2.0236257114447653e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": -4.547473508864641e-13,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 266,
+      "setback_energy_kWh": 243.78497313521208,
+      "maximum_air_C": 41.989824512032726,
+      "exact_repeat": true
+    },
+    "Roma/warmup_seeded": {
+      "rows": 8760,
+      "annual_kWh": 3325.6541393253938,
+      "peak_kW": 7.704409464531209,
+      "residual_max_W_air_surface_mass": [
+        2.114575181622058e-11,
+        7.810285751475021e-11,
+        2.0236257114447653e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 266,
+      "setback_energy_kWh": 243.78497265719386,
+      "maximum_air_C": 41.989824512032726
+    },
+    "Palermo/seeded": {
+      "rows": 8760,
+      "annual_kWh": 2321.090971637145,
+      "peak_kW": 7.078467294216047,
+      "residual_max_W_air_surface_mass": [
+        2.1714186004828662e-11,
+        7.44648787076585e-11,
+        1.7507773009128869e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 89,
+      "setback_energy_kWh": 63.42139143955765,
+      "maximum_air_C": 39.89535418785149
+    },
+    "Palermo/early": {
+      "rows": 8760,
+      "annual_kWh": 2475.230565733084,
+      "peak_kW": 7.510986609389605,
+      "residual_max_W_air_surface_mass": [
+        2.1714186004828662e-11,
+        7.679545888095163e-11,
+        1.7507773009128869e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 57,
+      "setback_energy_kWh": 42.859130768358774,
+      "maximum_air_C": 39.89535418785149,
+      "annual_percent": 6.640825197265721,
+      "peak_percent": 6.110352668111907,
+      "same_forcing_and_parameters": true
+    },
+    "Palermo/late": {
+      "rows": 8760,
+      "annual_kWh": 2363.0743858676024,
+      "peak_kW": 7.102335756049921,
+      "residual_max_W_air_surface_mass": [
+        2.1714186004828662e-11,
+        7.696598913753405e-11,
+        1.7507773009128869e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 74,
+      "setback_energy_kWh": 49.70692709296471,
+      "maximum_air_C": 39.89535418785149,
+      "annual_percent": 1.8087793517565176,
+      "peak_percent": 0.3371981651081102,
+      "same_forcing_and_parameters": true
+    },
+    "Palermo/repeat_seeded": {
+      "rows": 8760,
+      "annual_kWh": 2321.090971637145,
+      "peak_kW": 7.078467294216047,
+      "residual_max_W_air_surface_mass": [
+        2.1714186004828662e-11,
+        7.44648787076585e-11,
+        1.7507773009128869e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 89,
+      "setback_energy_kWh": 63.42139143955765,
+      "maximum_air_C": 39.89535418785149,
+      "exact_repeat": true
+    },
+    "Palermo/warmup_seeded": {
+      "rows": 8760,
+      "annual_kWh": 2320.9016816327567,
+      "peak_kW": 7.078467294216047,
+      "residual_max_W_air_surface_mass": [
+        2.1714186004828662e-11,
+        7.44648787076585e-11,
+        1.7507773009128869e-10
+      ],
+      "residual_failures": 0,
+      "continuity_max_K": 0.0,
+      "thermostat_max_error_K": 0.0,
+      "summary_energy_error": 0.0,
+      "summary_peak_error": 0.0,
+      "setback_hours": 2730,
+      "setback_positive_hours": 89,
+      "setback_energy_kWh": 63.42139143955566,
+      "maximum_air_C": 39.89535418785149
+    }
+  },
+  "weather": {
+    "Padova": {
+      "opaque_sky_unique": [
+        99.0
+      ],
+      "invalid_opaque_sky_count": 8760,
+      "source_model_sky_emissivity_range": [
+        1.6585407314920002,
+        3.709003526120893
+      ],
+      "source_model_mean_air_minus_sky_K": -81.50551904018077,
+      "IR_derived_mean_air_minus_sky_K_diagnostic_only": 12.783836421925425,
+      "IR_Wh_m2_range": [
+        211.7,
+        441.05
+      ],
+      "HDD18": 1983.1683333333333,
+      "CDD26": 94.52541666666667,
+      "GHI_kWh_m2": 1507.689,
+      "RH_mean_percent": 76.10406621004566,
+      "metadata": {
+        "location": {
+          "latitude": 45.408,
+          "longitude": 11.873,
+          "elevation": 25.0,
+          "irradiance_time_offset": 0.1765
+        },
+        "meteo_data": {
+          "radiation_db": "PVGIS-SARAH3",
+          "meteo_db": "ERA5",
+          "year_min": 2005,
+          "year_max": 2023,
+          "use_horizon": true,
+          "horizon_db": "DEM-calculated"
+        }
+      },
+      "first_hour": {
+        "phi_air_W": 190.08,
+        "phi_surface_W": 32.84680393197159,
+        "phi_mass_W": 1030.3357690273042,
+        "outdoor_temperature_C": 3.55
+      }
+    },
+    "Bolzano": {
+      "opaque_sky_unique": [
+        99.0
+      ],
+      "invalid_opaque_sky_count": 8760,
+      "source_model_sky_emissivity_range": [
+        2.371072854504108,
+        4.128090900228
+      ],
+      "source_model_mean_air_minus_sky_K": -95.81494082890566,
+      "IR_derived_mean_air_minus_sky_K_diagnostic_only": 17.628634037167213,
+      "IR_Wh_m2_range": [
+        142.59,
+        380.3
+      ],
+      "HDD18": 3521.4191666666666,
+      "CDD26": 0.0,
+      "GHI_kWh_m2": 1455.099,
+      "RH_mean_percent": 67.38567351598174,
+      "metadata": {
+        "location": {
+          "latitude": 46.5,
+          "longitude": 11.35,
+          "elevation": 272.0,
+          "irradiance_time_offset": 0.1777
+        },
+        "meteo_data": {
+          "radiation_db": "PVGIS-SARAH3",
+          "meteo_db": "ERA5",
+          "year_min": 2005,
+          "year_max": 2023,
+          "use_horizon": true,
+          "horizon_db": "DEM-calculated"
+        }
+      },
+      "first_hour": {
+        "phi_air_W": 190.08,
+        "phi_surface_W": 38.35783493362211,
+        "phi_mass_W": 1203.20532361103,
+        "outdoor_temperature_C": -1.29
+      }
+    },
+    "Roma": {
+      "opaque_sky_unique": [
+        99.0
+      ],
+      "invalid_opaque_sky_count": 8760,
+      "source_model_sky_emissivity_range": [
+        1.7694088779076949,
+        3.7201523303080006
+      ],
+      "source_model_mean_air_minus_sky_K": -81.01330893950578,
+      "IR_derived_mean_air_minus_sky_K_diagnostic_only": 13.55990143445753,
+      "IR_Wh_m2_range": [
+        209.95,
+        441.65
+      ],
+      "HDD18": 1459.4504166666668,
+      "CDD26": 55.5125,
+      "GHI_kWh_m2": 1642.606,
+      "RH_mean_percent": 75.26427283105023,
+      "metadata": {
+        "location": {
+          "latitude": 41.9,
+          "longitude": 12.5,
+          "elevation": 72.0,
+          "irradiance_time_offset": 0.1723
+        },
+        "meteo_data": {
+          "radiation_db": "PVGIS-SARAH3",
+          "meteo_db": "ERA5",
+          "year_min": 2005,
+          "year_max": 2023,
+          "use_horizon": true,
+          "horizon_db": "DEM-calculated"
+        }
+      },
+      "first_hour": {
+        "phi_air_W": 190.08,
+        "phi_surface_W": 32.65723756344909,
+        "phi_mass_W": 1024.3894672045192,
+        "outdoor_temperature_C": 8.02
+      }
+    },
+    "Palermo": {
+      "opaque_sky_unique": [
+        99.0
+      ],
+      "invalid_opaque_sky_count": 8760,
+      "source_model_sky_emissivity_range": [
+        1.982797580707695,
+        3.522690951568154
+      ],
+      "source_model_mean_air_minus_sky_K": -79.75721753062591,
+      "IR_derived_mean_air_minus_sky_K_diagnostic_only": 14.081937052552016,
+      "IR_Wh_m2_range": [
+        237.25,
+        418.2
+      ],
+      "HDD18": 1140.9295833333333,
+      "CDD26": 22.982500000000005,
+      "GHI_kWh_m2": 1727.514,
+      "RH_mean_percent": 74.66885958904109,
+      "metadata": {
+        "location": {
+          "latitude": 38.12,
+          "longitude": 13.36,
+          "elevation": 29.0,
+          "irradiance_time_offset": 0.1672
+        },
+        "meteo_data": {
+          "radiation_db": "PVGIS-SARAH3",
+          "meteo_db": "ERA5",
+          "year_min": 2005,
+          "year_max": 2023,
+          "use_horizon": true,
+          "horizon_db": "DEM-calculated"
+        }
+      },
+      "first_hour": {
+        "phi_air_W": 190.08,
+        "phi_surface_W": 32.17347527050317,
+        "phi_mass_W": 1009.2148524943284,
+        "outdoor_temperature_C": 11.23
+      }
+    }
+  },
+  "hash_failures": [],
+  "survey": {
+    "raw": {
+      "sha256": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+      "records": 20000,
+      "values": {
+        "reg": "5 ",
+        "q_3_11A": "4",
+        "q_3_11B": "4",
+        "q_3_11C": "1",
+        "q_3_13_2": "1",
+        "q_2_32C": " ",
+        "q_2_32D": " "
+      }
+    },
+    "compact": {
+      "sha256": "a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f",
+      "records": 20000,
+      "values": {
+        "reg": "5",
+        "q_3_11A": "4",
+        "q_3_11B": "4",
+        "q_3_11C": "1",
+        "q_3_13_2": "1",
+        "q_2_32C": "0",
+        "q_2_32D": "0"
+      }
+    },
+    "eligible_count": 372,
+    "minimum_id": 3523
+  },
+  "ledger": {
+    "count": 35,
+    "hash_matches": true,
+    "all_claim_text_in_draft": true
+  },
+  "conference_gas_percent": [
+    0.09406296685663396,
+    12.962840736585047
+  ]
+}

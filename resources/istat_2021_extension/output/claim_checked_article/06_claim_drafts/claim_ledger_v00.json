@@ -1,0 +1,804 @@
+{
+  "schema_version": "1.0",
+  "version": "v00",
+  "draft_filename": "article_claims_v00.md",
+  "draft_sha256": "f2df38afd47db701eba7edf7304a7bd7e9da158d65e7bebd3acace32ecfc0089",
+  "prior_input_sha256": null,
+  "date": "2026-10-20",
+  "claim_count": 31,
+  "claims": [
+    {
+      "id": "LIT-001",
+      "label": "Conference foundation",
+      "exact_claim": "Vivian et al. published ita-domes as a survey-informed Italian residential-stock model with regional resolution in 2026 CLIMA 2025 proceedings.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CONF-001",
+        "SRC-CLIMA2026"
+      ],
+      "locators": [
+        "CONF-001 | printed p1302; PDF p2; title/authors/abstract; DOI 10.1007/978-3-032-10546-2_123",
+        "SRC-CLIMA2026 | Springer chapter landing page, Cite this paper, First Online 1 April 2026"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Italian residential stock; publication 2026; CLIMA 2025 event; no numerical comparator.",
+      "assumptions_and_uncertainty": "This is the chapter's scope and bibliographic record, not new work.",
+      "counterevidence_alternative_explanation": "The chapter discusses predecessors MOIRAE and MODENA.",
+      "falsification_or_weakening": "A discrepant publisher record or chapter text would require correction.",
+      "dependencies_next_action_owner": "None; author verified target pages through conference evidence inventory.",
+      "permitted_manuscript_wording": "The 2026 CLIMA chapter presents ita-domes for survey-informed Italian residential-stock modelling at regional resolution.",
+      "related_claims_figures": "LIT-002; RES-001"
+    },
+    {
+      "id": "LIT-002",
+      "label": "Prior ISTAT schedule uncertainty",
+      "exact_claim": "Prataviera et al. (2022) already reconstruct heating operation from the three ISTAT time bands, use randomized profiles, propagate operational input uncertainty with EUReCA, and compare selected Verona hourly heating with district-heat measurements.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-UA2022"
+      ],
+      "locators": [
+        "SRC-UA2022 | full primary article Section 3.1.1 p6/Fig.2; Section 3.3.1 p11; Section 4.1.2 p12; DOI 10.1016/j.apenergy.2022.118691"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Italian ISTAT-informed UBEM; Verona mixed building sample and selected 2019/20 winter periods; no result transferred numerically.",
+      "assumptions_and_uncertainty": "Measurement boundary excludes upstream generation/distribution; their schedule procedure differs in aggregation and subsequent parameter sampling.",
+      "counterevidence_alternative_explanation": "The paper's abstract/body disagree on attribution of one 18%→10% example, so it is excluded.",
+      "falsification_or_weakening": "Direct reinspection of cited primary pages or a corrected article could narrow this summary.",
+      "dependencies_next_action_owner": "None; maintain this precedent in novelty wording.",
+      "permitted_manuscript_wording": "Three-band random reconstruction and EUReCA operational uncertainty analysis were already reported in 2022.",
+      "related_claims_figures": "NOV-001; GAP-001"
+    },
+    {
+      "id": "LIT-003",
+      "label": "Earlier stock scenarios",
+      "exact_claim": "MODENA used ISTAT 2013 and EUReCA and examined weather, envelope, and heating-technology scenarios with aggregate comparisons before the selected extension.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-MODENA2024"
+      ],
+      "locators": [
+        "SRC-MODENA2024 | full primary BSA 2024 chapter Sections 2.2–3.2 pp158–163"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Italian residential-stock modelling; scenario and aggregate scales; no current-pilot numerical comparator.",
+      "assumptions_and_uncertainty": "Code lineage and simulation configuration are not assumed identical to current GRINS or the conference chapter.",
+      "counterevidence_alternative_explanation": "Aggregate comparisons do not establish individual or hourly accuracy.",
+      "falsification_or_weakening": "Contrary original-method text or repository provenance could revise the lineage description.",
+      "dependencies_next_action_owner": "None; prevent climate/stock scenario novelty overclaim.",
+      "permitted_manuscript_wording": "Earlier MODENA work had already examined national residential-stock scenarios using ISTAT and EUReCA.",
+      "related_claims_figures": "NOV-001; LIM-004"
+    },
+    {
+      "id": "LIT-004",
+      "label": "Existing Italian archetypes",
+      "exact_claim": "Khajedehi et al. (2025) identified Italian demographic user archetypes and probabilistic dwelling links from survey evidence; archetype discovery is not a new contribution of this study.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "partially supported",
+      "source_ids": [
+        "SRC-ARCH2025"
+      ],
+      "locators": [
+        "SRC-ARCH2025 | publisher indexed full-text Sections 2, 3.1, 4.2–4.4, 6; DOI 10.1016/j.enbuild.2025.115924"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Italian national survey; demographic archetypes; no numerical archetype result imported.",
+      "assumptions_and_uncertainty": "Direct full PDF fetch was unavailable; search-indexed publisher sections were inspected.",
+      "counterevidence_alternative_explanation": "Archetype heating hours are survey responses and electricity is reconstructed, not measured thermal demand.",
+      "falsification_or_weakening": "Full primary PDF could reveal qualifications omitted in indexed sections.",
+      "dependencies_next_action_owner": "Literature owner: obtain complete primary text before submission; current manuscript may use bounded statement.",
+      "permitted_manuscript_wording": "Italian survey-derived user archetypes had already been identified.",
+      "related_claims_figures": "NOV-001"
+    },
+    {
+      "id": "GAP-001",
+      "label": "Coarse hours leave placement unresolved",
+      "exact_claim": "The selected respondent's reported mean winter-day heating hours in three eight-hour bands do not identify a unique hourly on/off sequence; contiguous placement alone admits multiple starts for each 4/4/1 band.",
+      "kind": "gap",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "CONF-M04",
+        "CODE-GRINS-ENDUSE",
+        "DATA-INPUT-AUDIT",
+        "ISTAT-Q2013",
+        "RAW-VERIFY"
+      ],
+      "locators": [
+        "CONF-M04 | printed p1304; PDF p4; final paragraph on morning/afternoon/evening hours",
+        "CODE-GRINS-ENDUSE | C:/Works/GRINS/GRINS-Tool/classes/EndUse.py lines 643–656, create_random_prof/create_prof",
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json selected_survey_response q_3_11A/B/C=4/4/1",
+        "ISTAT-Q2013 | istat/ECH_2013_IT/METADATI/ECH_Questionario_Anno 2013.pdf pp41–42, questions 3.11_A/B/C, mean winter-day hours and band endpoints",
+        "RAW-VERIFY | 00_context/survey_schedule_verification.json records.raw nprog3523 and bands"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "One 2013 Veneto response; three daily 8 h blocks; count of admissible contiguous positions per block is 8−n+1.",
+      "assumptions_and_uncertainty": "Released integer answers coarsen reported mean hours; daily repetition and contiguous placement are simulation choices, not observed duty cycles.",
+      "counterevidence_alternative_explanation": "The survey may encode rounded mean on-hours rather than a literal schedule repeated daily; this strengthens the need to distinguish model construction from response.",
+      "falsification_or_weakening": "Official questionnaire fields specifying exact within-band switching times would weaken the stated information gap; inspected questions 3.11_A/B/C do not.",
+      "dependencies_next_action_owner": "None for this identifiability statement; preserve raw/compact response provenance and avoid claims of observed timing.",
+      "permitted_manuscript_wording": "Reported mean on-hours leave within-band timing unidentified for the selected response.",
+      "related_claims_figures": "MET-001; MET-002; RES-003"
+    },
+    {
+      "id": "GAP-002",
+      "label": "No established pilot-scale accuracy",
+      "exact_claim": "The CLIMA national annual final-energy comparison does not establish hourly or Padova household heating accuracy for this illustrative sensitivity pilot.",
+      "kind": "gap",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CONF-V01",
+        "CONF-W01",
+        "VAL-PROTOCOL"
+      ],
+      "locators": [
+        "CONF-V01 | printed pp1306–1307; PDF pp6–7; Section 4.1/Table 3",
+        "CONF-W01 | printed p1306; PDF p6; Section 3.3 partial historic weather coverage",
+        "VAL-PROTOCOL | 03_methods/validation_protocol.md Sections 3–4"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Published national carrier totals for 2013/14 versus proposed one-dwelling hourly sensible heating output; unlike scale and energy boundary.",
+      "assumptions_and_uncertainty": "Potential compensating errors in a national aggregate; pilot uses TMY rather than matched measured year.",
+      "counterevidence_alternative_explanation": "National aggregates may hide compensating building/end-use errors, while the current pilot has a different year/weather and energy boundary.",
+      "falsification_or_weakening": "Independent Padova heating observations matched in building, weather, interval and end-use boundary could support a separate accuracy claim; the chapter national totals alone cannot.",
+      "dependencies_next_action_owner": "Validation owner: identify compatible independent meter series; otherwise retain missing-validation marker.",
+      "permitted_manuscript_wording": "The published aggregate check cannot validate the present dwelling-scale hourly output.",
+      "related_claims_figures": "RES-001; LIM-002"
+    },
+    {
+      "id": "NOV-001",
+      "label": "Bounded candidate contribution",
+      "exact_claim": "The proposed contribution is to quantify sensitivity to three specified duration-preserving contiguous placements within a fixed illustrative EUReCA case; novelty of the exact comparison remains provisional.",
+      "kind": "novelty",
+      "evidence_class": "hypothesis",
+      "status": "unverified",
+      "source_ids": [
+        "SRC-UA2022",
+        "RQ-FREEZE",
+        "LIT-SEARCH"
+      ],
+      "locators": [
+        "SRC-UA2022 | Section 3.1.1 p6, prior three-band random reconstruction",
+        "RQ-FREEZE | 01_plan/research_questions.md primary RQ and contribution map",
+        "LIT-SEARCH | 02_evidence/literature_search_log.md batches 11–12 and search limits"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "One illustrative Veneto 2013 response and fixed dwelling; Padova TMY first, further climates gated; kWh and kW endpoints.",
+      "assumptions_and_uncertainty": "Targeted narrative search is neither exhaustive nor proof that no exact prior comparison exists.",
+      "counterevidence_alternative_explanation": "Prior work already combines ISTAT time bands and randomization; generic method novelty is false.",
+      "falsification_or_weakening": "A primary study of this exact contrast or a failed technical pilot would narrow or negate contribution.",
+      "dependencies_next_action_owner": "Literature owner: targeted exact-comparison search before submission; methods owner: run paired experiment.",
+      "permitted_manuscript_wording": "We test the consequences of specified within-block placement choices under controlled assumptions.",
+      "related_claims_figures": "LIT-002; RQ-001; RQ-002"
+    },
+    {
+      "id": "RQ-001",
+      "label": "Primary sensitivity question",
+      "exact_claim": "For one illustrative dwelling, one selected Veneto survey response and Padova-coordinate TMY weather, compare annual sensible heating demand and maximum hourly sensible heating load under seeded source, earliest, and latest contiguous block placements.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "RQ-FREEZE",
+        "SIM-PROTOCOL"
+      ],
+      "locators": [
+        "RQ-FREEZE | 01_plan/research_questions.md Primary RQ and Secondary RQ2",
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md Question and estimands"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "One illustrative case; 8760 hourly steps; Padova-coordinate TMY; baseline seeded versus early/late; kWh and kW.",
+      "assumptions_and_uncertainty": "Fixed physical inputs and reported durations; no measured timing or population estimand.",
+      "counterevidence_alternative_explanation": "A null difference is possible; neither direction is presupposed.",
+      "falsification_or_weakening": "Run failure or violation of paired invariants makes comparison uninterpretable.",
+      "dependencies_next_action_owner": "Pilot run and author arithmetic check completed; Astra reviewer to inspect implementation and result boundary.",
+      "permitted_manuscript_wording": "We compare three duration-preserving placements for one illustrative case under Padova-coordinate weather.",
+      "related_claims_figures": "MET-002; RES-004; FIG-02"
+    },
+    {
+      "id": "RQ-002",
+      "label": "Conditional weather question",
+      "exact_claim": "After the Padova technical gate, repeat the same fixed dwelling/response/placement contrasts under consistently sourced contrasting weather files to test whether modeled sensitivity differs by weather.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "planned",
+      "source_ids": [
+        "RQ-FREEZE",
+        "CLIMATE-PLAN"
+      ],
+      "locators": [
+        "RQ-FREEZE | 01_plan/research_questions.md Secondary RQ1",
+        "CLIMATE-PLAN | 03_methods/climate_selection.md selection gate"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "One unchanged case across candidate sites; 2–4 further files only if selected; paired kWh/kW effects.",
+      "assumptions_and_uncertainty": "Keep season, physics and occupancy assumptions fixed; weather source metadata must be homogeneous.",
+      "counterevidence_alternative_explanation": "Weather can change annual load without changing relative placement sensitivity; no trend assumed.",
+      "falsification_or_weakening": "If comparable weather files cannot be sourced or Padova checks fail, this question remains unanswered.",
+      "dependencies_next_action_owner": "Padova technical gate passed; methods/simulation owners still need same-provider weather provenance, frozen site selection and matched runs.",
+      "permitted_manuscript_wording": "[PLANNED TEST: fixed-input climate contrasts, contingent on input provenance and pilot checks.]",
+      "related_claims_figures": "RES-005; FIG-03"
+    },
+    {
+      "id": "DAT-001",
+      "label": "Illustrative survey response",
+      "exact_claim": "Raw Istat 2013 response nprog 3523 and compact row id 3523 agree on Veneto code 5 and mean winter-day morning/afternoon/night reported heating hours 4/4/1; the compact row is the lowest eligible id under the declared pilot filter.",
+      "kind": "result",
+      "evidence_class": "survey response",
+      "status": "supported",
+      "source_ids": [
+        "DATA-INPUT-AUDIT",
+        "DATA-AUDIT-SCRIPT",
+        "RAW-VERIFY",
+        "ISTAT-Q2013",
+        "ISTAT-REG2013"
+      ],
+      "locators": [
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json selected_survey_response, eligible_veneto_count=372, selection, survey SHA256 a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f",
+        "DATA-AUDIT-SCRIPT | 04_analysis/audit_inputs.py survey filter/selection",
+        "RAW-VERIFY | 00_context/survey_schedule_verification.json records.raw/compact, field_match_checks, bands; raw SHA256 500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+        "ISTAT-Q2013 | istat/ECH_2013_IT/METADATI/ECH_Questionario_Anno 2013.pdf pp40–43, questions 3.10–3.13",
+        "ISTAT-REG2013 | istat/ECH_2013_IT/METADATI/Classificazioni/ECH_Classificazione_Anno 2013_var89.html, code 5 Veneto"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "One raw/compact matched 2013 release response; reported mean winter-day on-hours, not a named winter or measured daily schedule; unweighted selection.",
+      "assumptions_and_uncertainty": "Raw q_2_32C/D are blank while compact fields are zero; this is preprocessing, although neither representation triggers the source fireplace branch. q_3_13_2=1 denotes timer, not thermostat or valves; source-model temperatures are assumptions.",
+      "counterevidence_alternative_explanation": "There are 372 eligible Veneto rows under filter; row choice can influence output and is not a regional estimate.",
+      "falsification_or_weakening": "Mismatch on script rerun, record hash, or codebook wording would require correction.",
+      "dependencies_next_action_owner": "Simulation owner: document raw-blank to compact-zero preprocessing and verify it does not affect this run; author: retain reported-mean wording.",
+      "permitted_manuscript_wording": "An illustrative Veneto survey response reports 4/4/1 mean winter-day on-hours in the three bands; the hourly repetition is modeled.",
+      "related_claims_figures": "GAP-001; MET-002; LIM-001"
+    },
+    {
+      "id": "DAT-002",
+      "label": "Padova-coordinate weather input",
+      "exact_claim": "The initial local EPW has coordinates 45.408°N, 11.873°E, 8760 hourly records and an ECMWF/ERA-labelled header; its filename-suggested 2005–2023 provenance is unverified.",
+      "kind": "result",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "DATA-INPUT-AUDIT",
+        "EPW-LOCAL"
+      ],
+      "locators": [
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json weather and SHA256 390ead08c3e32d34a874c564b57c28ef1b7275682c7a749477208f5b6846adca",
+        "EPW-LOCAL | C:/Works/EUReCA/Fork-Macovei/EUReCA-maco/eureca_ubem/Input/tmy_45.408_11.873_2005_2023.epw header lines 1–8"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Padova-coordinate typical-year candidate, 8760 h; not a historical 2013/14 meter-matched weather series.",
+      "assumptions_and_uncertainty": "Retrieval, generator, selected-month and underlying-period documentation absent; header label is not full provenance.",
+      "counterevidence_alternative_explanation": "Weather mismatch may affect results; TMY is unsuitable for historical empirical validation.",
+      "falsification_or_weakening": "A corrupt EPW, duplicate/missing timestamps or contrary origin metadata would invalidate or relabel this input.",
+      "dependencies_next_action_owner": "Simulation owner: run integrity checks and preserve checksum; methods owner: seek complete provenance.",
+      "permitted_manuscript_wording": "An 8760-hour Padova-coordinate EPW supplies the initial controlled weather exposure; source-period metadata remain incomplete.",
+      "related_claims_figures": "MET-003; LIM-002"
+    },
+    {
+      "id": "DAT-003",
+      "label": "Declared illustrative physical case",
+      "exact_claim": "The planned dwelling is an assumed 80 m², 240 m³ rectangular zone with predeclared envelope, glazing, infiltration and internal gains, not a sampled or measured Padova dwelling.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "SIM-PROTOCOL"
+      ],
+      "locators": [
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md Physical model and departures; 10×8×3 m, U-values, gains and ACH"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Single idealized dwelling; Padova-coordinate exposure; floor area m² and volume m³.",
+      "assumptions_and_uncertainty": "Assumed geometry and thermal parameters; no uncertainty distribution assigned in the minimum pilot.",
+      "counterevidence_alternative_explanation": "Different envelope, gains or infiltration could change schedule sensitivity.",
+      "falsification_or_weakening": "Run configuration differing from protocol would require amendment and new claim wording.",
+      "dependencies_next_action_owner": "Simulation owner froze design.json and completion manifest; reviewer to compare adapter implementation with declared assumptions.",
+      "permitted_manuscript_wording": "An illustrative single-zone dwelling is used to isolate schedule placement under fixed physical assumptions.",
+      "related_claims_figures": "MET-003; LIM-001"
+    },
+    {
+      "id": "DAT-004",
+      "label": "Measurement inventory boundary",
+      "exact_claim": "The inspected Padova GIS and related local files have not yielded a compatible independently documented building meter time series for this pilot.",
+      "kind": "limitation",
+      "evidence_class": "observed measurement",
+      "status": "partially supported",
+      "source_ids": [
+        "DATA-INPUT-AUDIT",
+        "VAL-PROTOCOL"
+      ],
+      "locators": [
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json GIS_inventory property keys for LivingLab and PaduaDigital files",
+        "VAL-PROTOCOL | 03_methods/validation_protocol.md Section 3 empirical validation"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Inspected local directories only; no inference that all Padova measurements are nonexistent.",
+      "assumptions_and_uncertainty": "GIS energy-looking fields may be modeled; their measurement provenance and boundary are unverified.",
+      "counterevidence_alternative_explanation": "An external owner may have compatible monitored data outside inventory.",
+      "falsification_or_weakening": "Receipt of a documented independent time series with matching building/period/end use would overturn the current availability statement.",
+      "dependencies_next_action_owner": "Validation owner: seek meter provenance/access if empirical validation becomes feasible.",
+      "permitted_manuscript_wording": "No compatible independent meter series was identified in the inspected local assets.",
+      "related_claims_figures": "GAP-002; LIM-002"
+    },
+    {
+      "id": "MET-001",
+      "label": "Source reconstruction",
+      "exact_claim": "Current GRINS EndUse.py builds each reported block as one contiguous on segment at a seeded start and concatenates night, morning and afternoon blocks with night wrapping.",
+      "kind": "method",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "CODE-GRINS-ENDUSE",
+        "CODE-GRINS-ENDUSE",
+        "ISTAT-Q2013"
+      ],
+      "locators": [
+        "CODE-GRINS-ENDUSE | C:/Works/GRINS/GRINS-Tool/classes/EndUse.py lines 643–656; SHA256 cf7442f0b2ddb39b338c2047a1b95016d3a4d246604da15cd49c9a823cc436d5",
+        "CODE-GRINS-ENDUSE | same file lines 593–625; thermostat and season mapping",
+        "ISTAT-Q2013 | istat/ECH_2013_IT/METADATI/ECH_Questionario_Anno 2013.pdf p43, question 3.13: option _2 is timer"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Source implementation; daily 8-hour bands 05–13, 13–21, 21–05; integer hours 0–8.",
+      "assumptions_and_uncertainty": "random.seed(int(id)) is reinvoked for each band. For selected q_3_13_2=1 (timer), source code assigns modeled 22/19°C on/off setpoints; the respondent did not provide these values. Raw q_2_32C/D blanks were compacted to zeros; both fail the source's equality-to-one fireplace test.",
+      "counterevidence_alternative_explanation": "This local implementation is not proven bit-identical to the 2026 published pipeline.",
+      "falsification_or_weakening": "Different repository revision or source behavior on execution would require method revision.",
+      "dependencies_next_action_owner": "Simulation owner: test extracted routine and record exact resulting 24 h profiles.",
+      "permitted_manuscript_wording": "The inspected GRINS routine uses seeded contiguous placement within each reported eight-hour block.",
+      "related_claims_figures": "GAP-001; MET-002; LIM-004"
+    },
+    {
+      "id": "MET-002",
+      "label": "Duration-preserving paired alternatives",
+      "exact_claim": "The planned alternatives place the same contiguous 4/4/1 on-hours at the earliest or latest admissible start in each respective eight-hour band while preserving all three survey block totals.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "SIM-PROTOCOL",
+        "CODE-GRINS-ENDUSE"
+      ],
+      "locators": [
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md Question and estimands; baseline and alternatives",
+        "CODE-GRINS-ENDUSE | C:/Works/GRINS/GRINS-Tool/classes/EndUse.py lines 643–656"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "One response, same 24 h daily block durations; source seeded versus earliest/latest; hours.",
+      "assumptions_and_uncertainty": "Block totals and thermal/physical parameters fixed; schedules are constructed possibilities, not observed patterns.",
+      "counterevidence_alternative_explanation": "Other admissible schedules exist; early/late are not global extrema of energy response.",
+      "falsification_or_weakening": "A block-total mismatch, date-rotation bug or hidden physical-input difference invalidates pairing.",
+      "dependencies_next_action_owner": "Three profile outputs and block checks saved; reviewer to inspect night rotation and source equivalence.",
+      "permitted_manuscript_wording": "We compare three admissible contiguous placements with equal reported block durations.",
+      "related_claims_figures": "RQ-001; RES-003; LIM-003"
+    },
+    {
+      "id": "MET-003",
+      "label": "Explicit EUReCA 1C adapter",
+      "exact_claim": "The proposed dynamic 1C EUReCA pilot is a new explicit adapter; current GRINS simulate_hvac uses 2C with quasi-steady simulation, so the pilot is not a reproduction of the local full pipeline or published national run.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "SIM-PROTOCOL",
+        "CODE-GRINS-MAIN",
+        "CONF-M02"
+      ],
+      "locators": [
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md Physical model and departures; EUReCA revision 009d2af866f143d37aecf2a934adbee3b0f304aa",
+        "CODE-GRINS-MAIN | C:/Works/GRINS/GRINS-Tool/funcs/main_functions.py lines 792–806; SHA256 4b90297a4f22ae35a406d3a01be7db98cef3767c4a212ae49ac67362cc92a3bf",
+        "CONF-M02 | printed p1304; PDF p4; Section 3.1 conference 1C description"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "One assumed zone, 8760 h, ideal sensible load; no stock aggregation.",
+      "assumptions_and_uncertainty": "Chapter describes 1C, but complete conference software/config hash is unavailable; executable equivalence unresolved.",
+      "counterevidence_alternative_explanation": "The current local GRINS function differs explicitly; a 1C dynamic adapter has its own boundary.",
+      "falsification_or_weakening": "If adapter imports unexpected checkout, model or config, methodological link fails.",
+      "dependencies_next_action_owner": "Simulation owner: record exact imports, hashes, config, command and run manifest.",
+      "permitted_manuscript_wording": "We execute a documented 1C EUReCA sensitivity adapter related to the chapter's formulation, without claiming conference reproduction.",
+      "related_claims_figures": "LIM-004; RES-004"
+    },
+    {
+      "id": "MET-004",
+      "label": "Output accounting",
+      "exact_claim": "Annual useful sensible heating is defined as Σ_t max(P_t,0)Δt/1000 kWh at Δt=1 h and peak as max_t max(P_t,0)/1000 kW, with P_t in W.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "SIM-PROTOCOL",
+        "VAL-MATRIX"
+      ],
+      "locators": [
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md Accounting and uncertainty; primary outputs",
+        "VAL-MATRIX | 03_methods/validation_matrix.md Annual sensible heating integration row"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "One simulated zone, hourly 8760-step year; W→kWh and W→kW conversion.",
+      "assumptions_and_uncertainty": "Ideal unlimited heating, constant gains; demand excludes system efficiency, fuel, DHW and appliance electricity.",
+      "counterevidence_alternative_explanation": "Peak depends on temporal resolution; annual useful demand cannot be compared directly to final-energy BEN totals.",
+      "falsification_or_weakening": "Recalculation from saved hourly W differing from summary invalidates result.",
+      "dependencies_next_action_owner": "Hourly CSV saved and independently integrated in author_result_check_v00.json; reviewer to check solver output semantics.",
+      "permitted_manuscript_wording": "Useful sensible heating demand and maximum hourly load are the only primary energy/load endpoints.",
+      "related_claims_figures": "RES-004; LIM-002"
+    },
+    {
+      "id": "MET-005",
+      "label": "Technical pilot checks",
+      "exact_claim": "The completed five-run Padova pilot passed the declared internal checks for profile totals, 8760 finite records, zero cooling, temperature/load screens, active setpoint adherence, exact repeat and 168/336 h warm-up comparison.",
+      "kind": "method",
+      "evidence_class": "simulation output",
+      "status": "supported",
+      "source_ids": [
+        "RUN-PADOVA-V1",
+        "RUN-PADOVA-V1",
+        "AUTHOR-CHECK-V00"
+      ],
+      "locators": [
+        "RUN-PADOVA-V1 | 05_simulations/padova_pilot_v1/checks.json full checks; completion_manifest.json status complete/checks_pass",
+        "RUN-PADOVA-V1 | 05_simulations/padova_pilot_v1/summary.json five cases and hourly hashes",
+        "AUTHOR-CHECK-V00 | 06_claim_drafts/author_result_check_v00.json independent CSV integration/profile-count checks"
+      ],
+      "outputs": [
+        "05_simulations/padova_pilot_v1/checks.json",
+        "05_simulations/padova_pilot_v1/completion_manifest.json",
+        "06_claim_drafts/author_result_check_v00.json"
+      ],
+      "population_geography_period_comparator_units": "Five planned annual runs; 168 h baseline/early/late/repeat and 336 h baseline; prescribed numerical tolerances.",
+      "assumptions_and_uncertainty": "Numerical gates passed within predeclared tolerance; 42.81°C maximum air temperature occurs under no-cooling assumption and is not comfort validation. Full benchmark and observed validation remain absent.",
+      "counterevidence_alternative_explanation": "Identical repeat and algebraic consistency cannot detect all physical-model or boundary errors.",
+      "falsification_or_weakening": "Any failed numerical check blocks admitting associated result until diagnosed.",
+      "dependencies_next_action_owner": "Reviewer to inspect run script and hashes; validation owner to retain absent benchmark/empirical layers.",
+      "permitted_manuscript_wording": "All declared Padova pilot technical screens passed; these are implementation checks, not measured accuracy.",
+      "related_claims_figures": "RES-003; RES-004; LIM-002"
+    },
+    {
+      "id": "MET-006",
+      "label": "Climate expansion gate",
+      "exact_claim": "Additional climate runs now depend on acquisition of comparable provider/database weather files whose HDD18, CDD26, GHI and RH are computed consistently; the Padova pilot technical gate has passed.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "planned",
+      "source_ids": [
+        "CLIMATE-PLAN",
+        "SIM-PROTOCOL"
+      ],
+      "locators": [
+        "CLIMATE-PLAN | 03_methods/climate_selection.md selection gate and controlled test",
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md Expansion gate"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Candidate Bolzano/Roma/Palermo coordinates are provisional; 2–4 sites maximum initial plan; Kd, kWh/m² and % indicators.",
+      "assumptions_and_uncertainty": "Keep dwelling, response, schedule alternatives, season and physical inputs fixed; no geographic household representativeness.",
+      "counterevidence_alternative_explanation": "Heterogeneous TMY source/vintage could confound weather contrast.",
+      "falsification_or_weakening": "If same-source metadata unavailable or descriptors fail to provide contrast, no climate expansion claim.",
+      "dependencies_next_action_owner": "Methods/simulation owners: source, hash, characterize and select comparable weather files, then execute matched runs.",
+      "permitted_manuscript_wording": "[CLIMATE EXPANSION PENDING: comparable weather files and matched runs.]",
+      "related_claims_figures": "RQ-002; RES-005"
+    },
+    {
+      "id": "MET-007",
+      "label": "Validation separation",
+      "exact_claim": "Implementation checks, model benchmarks, empirical meter comparison, aggregate external checks and robustness must be reported as distinct evidentiary layers; no new empirical validation is part of the current pilot.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "VAL-PROTOCOL",
+        "VAL-MATRIX"
+      ],
+      "locators": [
+        "VAL-PROTOCOL | 03_methods/validation_protocol.md Sections 1–5",
+        "VAL-MATRIX | 03_methods/validation_matrix.md full claim/output rows"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Current illustrative hourly useful-demand pilot; no independent observed Padova heating reference identified.",
+      "assumptions_and_uncertainty": "If observations arise, calibration and untouched validation sets must be separated and weather/end-use boundaries matched.",
+      "counterevidence_alternative_explanation": "Published national BEN table and internal checks are different evidence classes.",
+      "falsification_or_weakening": "A claimed observed-accuracy metric without independent aligned observations violates this method.",
+      "dependencies_next_action_owner": "Validation owner: preserve missing layers and data-request specification.",
+      "permitted_manuscript_wording": "The analysis reports verification separately from empirical validation; the latter remains unavailable for this case.",
+      "related_claims_figures": "GAP-002; LIM-002"
+    },
+    {
+      "id": "RES-001",
+      "label": "Published national comparison",
+      "exact_claim": "The CLIMA paper's Table 3 reports 2013/2014 national final-energy comparisons for six carriers; for example natural gas is 18,090 versus 18,073 ktoe in 2013 and 17,115 versus 15,151 ktoe in 2014 (model versus BEN).",
+      "kind": "result",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CONF-V01",
+        "CONF-NUM-CHECK"
+      ],
+      "locators": [
+        "CONF-V01 | printed p1307; PDF p7; Table 3 national final-energy totals",
+        "CONF-NUM-CHECK | 00_context/conference_evidence.md Table 3; recalculated deviations +0.0941% and +12.9628%"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Italian national annual final energy by carrier; model versus BEN; 2013 and 2014; ktoe.",
+      "assumptions_and_uncertainty": "Published numbers are transcribed and arithmetic-checked, not newly reproduced; paper's matching of carrier boundaries requires more detail.",
+      "counterevidence_alternative_explanation": "2014 gas discrepancy is substantial; aggregate agreement in some carriers can conceal offsetting component errors.",
+      "falsification_or_weakening": "A table transcription or original-pdf discrepancy would alter the example, not establish new validation.",
+      "dependencies_next_action_owner": "None for citation; no inheritance of these values as pilot results.",
+      "permitted_manuscript_wording": "The chapter reports national carrier comparisons, including a larger modeled natural-gas total than BEN in 2014.",
+      "related_claims_figures": "GAP-002; LIM-002; TAB-01"
+    },
+    {
+      "id": "RES-002",
+      "label": "Published regional maps",
+      "exact_claim": "The CLIMA paper presents modeled regional annual end-use and carrier totals as GWh maps, without regional measured comparator or uncertainty intervals in the figures.",
+      "kind": "result",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CONF-R01",
+        "CONF-R02"
+      ],
+      "locators": [
+        "CONF-R01 | printed p1308; PDF p8; Fig.1 four end-use panels and captions",
+        "CONF-R02 | printed p1309; PDF p9; Fig.2 four carrier panels and captions"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Italian regions, annual modeled GWh totals; panel colour scales differ.",
+      "assumptions_and_uncertainty": "Maps show totals rather than per-household intensity or measured consumption.",
+      "counterevidence_alternative_explanation": "Regional distribution may reflect household population as well as climate/stock; map pattern does not isolate cause.",
+      "falsification_or_weakening": "A supplementary original numerical table/validation source could expand support; none in inspected chapter.",
+      "dependencies_next_action_owner": "None; keep as conference context only.",
+      "permitted_manuscript_wording": "The chapter maps modeled regional GWh totals by end use and carrier.",
+      "related_claims_figures": "LIT-001; LIM-001"
+    },
+    {
+      "id": "RES-003",
+      "label": "Checked profile invariants",
+      "exact_claim": "Saved seeded, early and late daily binary profiles each contain 4/4/1 encoded on-hours in the 05–13, 13–21 and 21–05 bands, respectively, and each run has 8760 finite hourly output rows.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "supported",
+      "source_ids": [
+        "RUN-PADOVA-V1",
+        "RUN-PADOVA-V1",
+        "AUTHOR-CHECK-V00"
+      ],
+      "locators": [
+        "RUN-PADOVA-V1 | 05_simulations/padova_pilot_v1/summary.json daily_on_profile and rows per case",
+        "RUN-PADOVA-V1 | 05_simulations/padova_pilot_v1/checks.json block_totals_exact/all8760_finite",
+        "AUTHOR-CHECK-V00 | 06_claim_drafts/author_result_check_v00.json cases block_counts_h and CSV arithmetic"
+      ],
+      "outputs": [
+        "05_simulations/padova_pilot_v1/seeded_hourly.csv",
+        "05_simulations/padova_pilot_v1/early_hourly.csv",
+        "05_simulations/padova_pilot_v1/late_hourly.csv",
+        "06_claim_drafts/author_result_check_v00.json"
+      ],
+      "population_geography_period_comparator_units": "One illustrative response; three 8 h blocks; hours; 8760 h annual sequence.",
+      "assumptions_and_uncertainty": "These are encoded integer-hour repetitions of coarsened mean winter-day survey answers; they do not recover observed switching.",
+      "counterevidence_alternative_explanation": "Different contiguous placements and noncontiguous real schedules remain admissible.",
+      "falsification_or_weakening": "A disagreement in raw response, profile counts, CSV row count, or frozen run hashes would invalidate this result.",
+      "dependencies_next_action_owner": "Reviewer to verify source-to-run mapping; author to preserve encoded-versus-observed distinction.",
+      "permitted_manuscript_wording": "The three constructed profiles preserve the reported 4/4/1 band totals in the checked pilot outputs.",
+      "related_claims_figures": "MET-002; FIG-01"
+    },
+    {
+      "id": "RES-004",
+      "label": "Padova paired output",
+      "exact_claim": "For the single assumed dwelling under the Padova-coordinate TMY, seeded, earliest and latest placements produced annual useful sensible heating of 6521.19, 6376.55 and 6412.56 kWh and maximum hourly loads of 9.005, 9.151 and 8.881 kW, respectively; relative to seeded, earliest changed annual demand by −2.22% and peak by +1.62%, while latest changed them by −1.67% and −1.39%.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "supported",
+      "source_ids": [
+        "RUN-PADOVA-V1",
+        "RUN-PADOVA-V1",
+        "AUTHOR-CHECK-V00"
+      ],
+      "locators": [
+        "RUN-PADOVA-V1 | 05_simulations/padova_pilot_v1/summary.json seeded/early/late annual_sensible_heating_kWh and peak_sensible_heating_kW",
+        "RUN-PADOVA-V1 | 05_simulations/padova_pilot_v1/completion_manifest.json script/config/design/protocol/input hashes and checks_pass",
+        "AUTHOR-CHECK-V00 | 06_claim_drafts/author_result_check_v00.json cases/deltas, independently summed positive hourly W and recomputed percentages"
+      ],
+      "outputs": [
+        "05_simulations/padova_pilot_v1/seeded_hourly.csv",
+        "05_simulations/padova_pilot_v1/early_hourly.csv",
+        "05_simulations/padova_pilot_v1/late_hourly.csv",
+        "05_simulations/padova_pilot_v1/summary.json",
+        "06_claim_drafts/author_result_check_v00.json"
+      ],
+      "population_geography_period_comparator_units": "One dwelling/response/Padova-coordinate TMY; seeded baseline versus early/late; kWh and kW.",
+      "assumptions_and_uncertainty": "Deterministic contrast only; no sampling interval, population uncertainty or measured error metric. Denominator for percentages is seeded output; ideal sensible load excludes final-energy conversion.",
+      "counterevidence_alternative_explanation": "Results depend on assumed zone, setpoint mapping, weather, fixed season, model and only three placements; the selected duration is a coarsened mean response.",
+      "falsification_or_weakening": "Failed independent CSV integration, schedule invariant, or full-run technical check would withdraw these values.",
+      "dependencies_next_action_owner": "Astra reviewer to inspect script/solver boundary and independent checks; future climate and empirical validation remain separate.",
+      "permitted_manuscript_wording": "In this one illustrative TMY case, early and late encoded placements reduced modeled annual useful heating by 2.22% and 1.67% relative to the seeded source placement; the early peak rose 1.62% and late peak fell 1.39%.",
+      "related_claims_figures": "RQ-001; MET-004; FIG-02"
+    },
+    {
+      "id": "RES-005",
+      "label": "Weather interaction pending",
+      "exact_claim": "No verified comparable-climate run currently establishes how the schedule-placement sensitivity changes across weather exposures.",
+      "kind": "result",
+      "evidence_class": "planned test",
+      "status": "planned",
+      "source_ids": [
+        "CLIMATE-PLAN",
+        "RQ-FREEZE"
+      ],
+      "locators": [
+        "CLIMATE-PLAN | 03_methods/climate_selection.md source/selection gate",
+        "RQ-FREEZE | 01_plan/research_questions.md Secondary RQ1"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Potentially 2–4 consistently sourced weather files beyond Padova; same case; paired kWh/kW differences.",
+      "assumptions_and_uncertainty": "Named candidate locations are not selected sites; no climatic class or transfer claim is inferred from names.",
+      "counterevidence_alternative_explanation": "Site differences may also reflect TMY provenance if inputs are heterogeneous.",
+      "falsification_or_weakening": "Without comparable files and checked matched runs, the interaction question remains unanswered.",
+      "dependencies_next_action_owner": "Methods/simulation owners: pass gate, freeze selection, execute matched runs and checks.",
+      "permitted_manuscript_wording": "[RESULT PENDING: conditional weather-by-placement contrasts.]",
+      "related_claims_figures": "RQ-002; MET-006; FIG-03"
+    },
+    {
+      "id": "INT-001",
+      "label": "Permitted sensitivity interpretation",
+      "exact_claim": "The checked pilot shows different model outputs for three equal-duration placements in this assumed Padova-weather case, with annual and peak changes of differing sign for the early placement; it does not identify a correct real schedule or predictive improvement.",
+      "kind": "interpretation",
+      "evidence_class": "simulation output",
+      "status": "supported",
+      "source_ids": [
+        "RUN-PADOVA-V1",
+        "AUTHOR-CHECK-V00",
+        "ISTAT-Q2013"
+      ],
+      "locators": [
+        "RUN-PADOVA-V1 | 05_simulations/padova_pilot_v1/summary.json seeded/early/late",
+        "AUTHOR-CHECK-V00 | 06_claim_drafts/author_result_check_v00.json deltas",
+        "ISTAT-Q2013 | questionnaire pp41–42 mean winter-day duration questions without within-band timing"
+      ],
+      "outputs": [
+        "06_claim_drafts/author_result_check_v00.json"
+      ],
+      "population_geography_period_comparator_units": "Single illustrative case, specific placements, Padova TMY, useful heating and hourly peak.",
+      "assumptions_and_uncertainty": "Case-conditional deterministic inference. This does not quantify uncertainty over all admissible profiles, responses, buildings or weather years.",
+      "counterevidence_alternative_explanation": "Different admissible starts, envelope settings or weather could change sign/magnitude.",
+      "falsification_or_weakening": "A source-to-input or solver defect would weaken this interpretation; observed accuracy would need separate data.",
+      "dependencies_next_action_owner": "Reviewer to assess scientific inference and code boundary; author retain case qualifier.",
+      "permitted_manuscript_wording": "Equal reported band totals yielded different modeled annual and peak heating responses for this illustrative case.",
+      "related_claims_figures": "RES-004; LIM-003"
+    },
+    {
+      "id": "LIM-001",
+      "label": "Spatial and survey inference",
+      "exact_claim": "One unweighted 2013 Veneto response combined with Padova-coordinate weather does not represent Padova households, Veneto population outcomes, or the national residential stock.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "DATA-INPUT-AUDIT",
+        "RQ-FREEZE",
+        "SIM-PROTOCOL"
+      ],
+      "locators": [
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json selection and selected_survey_response",
+        "RQ-FREEZE | 01_plan/research_questions.md spatial inference boundary",
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md survey response and physical model"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "One selected row, one assumed zone; no population weighting or sampled Padova dwelling.",
+      "assumptions_and_uncertainty": "Weather location is a boundary condition, not a city household sampling frame.",
+      "counterevidence_alternative_explanation": "A representative weighted local sample would require distinct design and evidence.",
+      "falsification_or_weakening": "Population inference claimed from this one case would falsify manuscript scope.",
+      "dependencies_next_action_owner": "None; ensure abstract/conclusions state case boundary.",
+      "permitted_manuscript_wording": "Findings, when available, are conditional on one illustrative case and do not estimate a population mean.",
+      "related_claims_figures": "DAT-001; DAT-003; RES-004"
+    },
+    {
+      "id": "LIM-002",
+      "label": "No empirical validation",
+      "exact_claim": "The proposed TMY pilot lacks an independently documented matching meter series, so technical pass or a modeled effect cannot establish measured heating accuracy.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "DAT-INPUT-AUDIT",
+        "VAL-PROTOCOL",
+        "CONF-V01"
+      ],
+      "locators": [
+        "DAT-INPUT-AUDIT | 04_analysis/input_audit.json GIS_inventory",
+        "VAL-PROTOCOL | 03_methods/validation_protocol.md empirical and aggregate layers",
+        "CONF-V01 | printed p1307; PDF p7; Table 3 national aggregate benchmark"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Illustrative zone and TMY; no matched historical meter/end-use boundary.",
+      "assumptions_and_uncertainty": "Inventory is limited; compatible observations might exist elsewhere.",
+      "counterevidence_alternative_explanation": "A full independent meter series with matching building/weather/boundary could support later evaluation.",
+      "falsification_or_weakening": "Claim would need revision only after provenance-qualified empirical data and untouched evaluation.",
+      "dependencies_next_action_owner": "Validation owner: keep minimum dataset specification; author retain missing-validation language.",
+      "permitted_manuscript_wording": "Empirical heating accuracy has not been established for this pilot.",
+      "related_claims_figures": "GAP-002; MET-007; RES-004"
+    },
+    {
+      "id": "LIM-003",
+      "label": "Placement alternatives are not bounds",
+      "exact_claim": "Earliest and latest contiguous placements are constructed alternatives, neither observed schedule estimates nor proven upper/lower bounds on heating demand or peak across all admissible profiles.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "SIM-PROTOCOL",
+        "CODE-GRINS-ENDUSE"
+      ],
+      "locators": [
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md Accounting and uncertainty",
+        "CODE-GRINS-ENDUSE | C:/Works/GRINS/GRINS-Tool/classes/EndUse.py lines 643–656"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Three placements within fixed 8 h blocks; single physical case and weather.",
+      "assumptions_and_uncertainty": "Thermal inertia and weather timing can make energy response nonmonotonic in start time.",
+      "counterevidence_alternative_explanation": "Other admissible starts and non-contiguous schedules remain untested.",
+      "falsification_or_weakening": "An exhaustive search with proved monotonic response could establish extrema, but is absent.",
+      "dependencies_next_action_owner": "Author: avoid min/max uncertainty or confidence-bound language.",
+      "permitted_manuscript_wording": "Early and late placements sample two alternatives; they are not uncertainty bounds.",
+      "related_claims_figures": "MET-002; INT-001"
+    },
+    {
+      "id": "LIM-004",
+      "label": "Code lineage unresolved",
+      "exact_claim": "The current GRINS and EUReCA checkouts have recorded revisions, but neither has been shown to be the exact conference executable/configuration; the pilot must be labelled a documented extension.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "CONF-A01",
+        "SIM-PROTOCOL",
+        "DATA-INPUT-AUDIT",
+        "CODE-GRINS-MAIN"
+      ],
+      "locators": [
+        "CONF-A01 | printed p1310; PDF p10; chapter repository availability statement",
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md Physical model and departures",
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json revisions and source hashes",
+        "CODE-GRINS-MAIN | C:/Works/GRINS/GRINS-Tool/funcs/main_functions.py lines 792–806"
+      ],
+      "outputs": [],
+      "population_geography_period_comparator_units": "Current local GRINS HEAD a129009e; EUReCA HEAD 009d2af8; conference run revision/config unspecified.",
+      "assumptions_and_uncertainty": "Current GRINS quasi-steady 2C differs from conference-described 1C; exact published code lineage unavailable.",
+      "counterevidence_alternative_explanation": "Published outputs may have used another version or configuration.",
+      "falsification_or_weakening": "A verified release tag plus config and run provenance could resolve equivalence; absent now.",
+      "dependencies_next_action_owner": "Simulation owner: freeze new adapter identity; author avoid reproduction wording.",
+      "permitted_manuscript_wording": "The new pilot extends the conference question under documented code and assumptions; it is not a reproduced conference run.",
+      "related_claims_figures": "MET-003; RES-001"
+    },
+    {
+      "id": "LIM-005",
+      "label": "Unconditioned summer temperature",
+      "exact_claim": "The pilot's no-cooling configuration allowed a maximum modeled zone air temperature of 42.81°C, so the case cannot support comfort or whole-year conditioned-building conclusions.",
+      "kind": "limitation",
+      "evidence_class": "simulation output",
+      "status": "supported",
+      "source_ids": [
+        "RUN-PADOVA-V1",
+        "RUN-PADOVA-V1",
+        "SIM-PROTOCOL"
+      ],
+      "locators": [
+        "RUN-PADOVA-V1 | 05_simulations/padova_pilot_v1/summary.json maximum_air_C in all five cases",
+        "RUN-PADOVA-V1 | 05_simulations/padova_pilot_v1/design.json cooling_upper_C=50 and energy_boundary",
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md cooling isolation and technical screen"
+      ],
+      "outputs": [
+        "05_simulations/padova_pilot_v1/summary.json"
+      ],
+      "population_geography_period_comparator_units": "Single assumed zone, Padova-coordinate TMY, no active cooling; modeled air temperature °C.",
+      "assumptions_and_uncertainty": "Maximum is a solver output under intentionally disabled cooling; it is not observed indoor temperature.",
+      "counterevidence_alternative_explanation": "An active cooling/ventilation or shading design could lower temperature but would be a distinct experiment.",
+      "falsification_or_weakening": "Any claim of realistic annual comfort or cooling behavior is unsupported by this design.",
+      "dependencies_next_action_owner": "Simulation owner: retain no-cooling boundary; author: avoid comfort inference.",
+      "permitted_manuscript_wording": "Cooling was disabled and modeled summer air temperature reached 42.81°C; the reported results concern useful heating only.",
+      "related_claims_figures": "DAT-003; RES-004"
+    }
+  ]
+}

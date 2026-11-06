@@ -1,0 +1,1167 @@
+[
+  {
+    "kind": "paragraph",
+    "text": "2021 reconstruction of Italian user archetypes and energy groups"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Dwelling probabilities coefficient matrix heating and electricity groups and assignment tables"
+  },
+  {
+    "kind": "paragraph",
+    "text": "4 November 2026"
+  },
+  {
+    "kind": "paragraph",
+    "text": "We applied the article’s analysis sequence to the 2021 survey: household archetypes, dwelling-conditioned probabilities, polynomial regression, energy-group reduction and an Appendix A assignment matrix. Every 2021 statistical figure in this report is generated from that new run. The published 2013 results remain the historical reference."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 1  The published 2013 results and the 2021 reconstruction."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Output",
+      "2013 published result",
+      "2021 fitted result"
+    ],
+    "rows": [
+      [
+        "Household archetype shares A1-A4",
+        "40.1 / 26.9 / 22.9 / 10.1%",
+        "24.20 / 32.87 / 21.76 / 21.16%"
+      ],
+      [
+        "Heating groups",
+        "H1-H7",
+        "H1-H9"
+      ],
+      [
+        "Electricity groups listed in Table 6",
+        "E1-E5",
+        "E1-E13"
+      ],
+      [
+        "Heating-group mean range",
+        "4.67-9.67 h/day",
+        "6.17-11.11 h/day"
+      ],
+      [
+        "Appliance electricity group mean range",
+        "1801-2895 kWh/year",
+        "1621-2843 kWh/year"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "In 2013, A1 was the largest published household type. In the 2021 fit, A2 is largest at 32.87%, while A4 accounts for 21.16%. The new grouping procedure produces nine heating groups and thirteen electricity groups. Group names are ordered by each year’s fitted means; the same suffix denotes a rank within that year."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 2  Households contributing to the 2021 reconstruction."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Stage",
+      "Households"
+    ],
+    "rows": [
+      [
+        "Raw 2021 release",
+        "54,069"
+      ],
+      [
+        "Demographic fit",
+        "52,617"
+      ],
+      [
+        "Dwelling probability stage",
+        "46,712"
+      ],
+      [
+        "Heating-group stage",
+        "48,690"
+      ],
+      [
+        "Electricity-group stage",
+        "52,617"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "The appendix covers all four locations, five 2021 dwelling categories and four user archetypes: 80 combinations and 160 H/E assignments. For example, a North West single-family dwelling occupied by user type A2 maps to H9 and E13 in the new table. Their group means are 11.11 h/day and 2843 kWh/year, respectively."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Households contribute equally to the primary clustering and empirical cell ratios; the polynomial gives equal weight to each of the 21 fitting windows. Separate PESO-weighted shares, group means and probability regressions are supplied. The 2021 apartment categories describe floor position; the 2013 apartment categories describe building size. Appliance electricity is an ownership/use model with fixed reference coefficients."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Definition of user archetypes"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The 2021 four-cluster fit uses the article’s loneliness and generation coordinates and an age-adjusted schooling index. Its labels are aligned with the historical interpretations. In A1, mean maximum age is 81.2 years, compared with the paper’s 78.3. In A2, mean household size is 3.2 members, compared with 3.7 in 2013. Table 3 gives the corresponding profile summaries."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 3  User archetypes derived from k-means clustering."
+  },
+  {
+    "kind": "paragraph",
+    "text": "2013 published values. Average (standard deviation)."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "cluster",
+      "age min",
+      "age max",
+      "n members",
+      "education"
+    ],
+    "rows": [
+      [
+        "1",
+        "70.2 (11.2)",
+        "78.3 (5.0)",
+        "1.8 (0.7)",
+        "0.5 (0.1)"
+      ],
+      [
+        "2",
+        "21.2 (7.6)",
+        "57.2 (8.6)",
+        "3.7 (0.9)",
+        "0.7 (0.1)"
+      ],
+      [
+        "3",
+        "46.0 (12.8)",
+        "63.0 (8.0)",
+        "2.3 (0.8)",
+        "0.5 (0.1)"
+      ],
+      [
+        "4",
+        "55.6 (17.1)",
+        "72.2 (9.0)",
+        "2.1 (0.8)",
+        "0.8 (0.1)"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "2021 fitted values. Average (standard deviation)."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "cluster",
+      "age min",
+      "age max",
+      "n members",
+      "education"
+    ],
+    "rows": [
+      [
+        "1",
+        "71.6 (15.3)",
+        "81.2 (10.7)",
+        "1.7 (0.7)",
+        "0.3 (0.1)"
+      ],
+      [
+        "2",
+        "17.3 (12.3)",
+        "49.1 (10.3)",
+        "3.2 (1.1)",
+        "0.8 (0.1)"
+      ],
+      [
+        "3",
+        "31.0 (17.0)",
+        "50.8 (10.7)",
+        "2.3 (1.1)",
+        "0.5 (0.1)"
+      ],
+      [
+        "4",
+        "56.2 (17.1)",
+        "71.5 (9.4)",
+        "2.0 (0.9)",
+        "0.6 (0.1)"
+      ]
+    ]
+  },
+  {
+    "kind": "image",
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\04_figures\\archetype_population_shares_2021.png"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Fig. 5.  Proportion of each cluster among households and people."
+  },
+  {
+    "kind": "paragraph",
+    "text": "The 2013 panel retains the printed shares. The 2021 panel uses the new 52,617-household fit. Its survey-weighted household shares are 28.31%, 27.70%, 27.65% and 16.35%. The schooling and age assumptions are stated on page 10; all 2021 outputs use these same primary labels."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Associating user archetypes to building types"
+  },
+  {
+    "kind": "paragraph",
+    "text": "We reconstructed windowed empirical probabilities using the article’s 20-year building-age grid, 40 m² area grid and centred half-windows of 6 years and 8 m². The eligible dwelling cohort has 46,712 records; 12,334 fall inside at least one of the 63 grid windows. Fifty-seven windows have at least five observations. The primary polynomial uses the 21 supported windows centred at ages 20-140 years and areas 40, 80 and 120 m²."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Let a be building age in years and s dwelling area in m². The fitted 2021 matrix, rounded to five decimal places, is"
+  },
+  {
+    "kind": "equation",
+    "coefficients": [
+      [
+        "0.06496",
+        "0.54972",
+        "0.00000",
+        "0.00000",
+        "-0.26970",
+        "0.00000"
+      ],
+      [
+        "0.39519",
+        "-0.55058",
+        "0.10305",
+        "0.00000",
+        "0.30849",
+        "0.00000"
+      ],
+      [
+        "0.45712",
+        "-0.08898",
+        "-0.21347",
+        "0.00000",
+        "0.00000",
+        "0.00000"
+      ],
+      [
+        "0.15278",
+        "0.00000",
+        "0.00000",
+        "0.00000",
+        "0.00000",
+        "0.07919"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "The matrix product is the fitted part; ε denotes the four residuals. The full-precision coefficient CSV is authoritative. Basis order is 1, a/100, s/100, a s/10000, a²/10000, s²/10000. The six-term starting basis follows the article’s matrix; backward elimination retains terms at p≤0.05, with the intercept retained."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 4  Regression results."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Variable",
+      "Prob 1\ncoefficient",
+      "p-value",
+      "Prob 2\ncoefficient",
+      "p-value",
+      "Prob 3\ncoefficient",
+      "p-value",
+      "Prob 4\ncoefficient",
+      "p-value"
+    ],
+    "rows": [
+      [
+        "intercept",
+        "0.06496",
+        "0.184",
+        "0.39519",
+        "<0.001",
+        "0.45712",
+        "<0.001",
+        "0.15278",
+        "<0.001"
+      ],
+      [
+        "age/100",
+        "0.54972",
+        "<0.001",
+        "-0.55058",
+        "<0.001",
+        "-0.08898",
+        "0.006",
+        "0",
+        "-"
+      ],
+      [
+        "area/100",
+        "0",
+        "-",
+        "0.10305",
+        "0.008",
+        "-0.21347",
+        "<0.001",
+        "0",
+        "-"
+      ],
+      [
+        "age × area/10000",
+        "0",
+        "-",
+        "0",
+        "-",
+        "0",
+        "-",
+        "0",
+        "-"
+      ],
+      [
+        "age²/10000",
+        "-0.26970",
+        "0.004",
+        "0.30849",
+        "0.001",
+        "0",
+        "-",
+        "0",
+        "-"
+      ],
+      [
+        "area²/10000",
+        "0",
+        "-",
+        "0",
+        "-",
+        "0",
+        "-",
+        "0.07919",
+        "0.002"
+      ],
+      [
+        "F-statistic",
+        "13.98",
+        "",
+        "9.34",
+        "",
+        "23.72",
+        "",
+        "13.54",
+        ""
+      ],
+      [
+        "Adjusted R²",
+        "0.565",
+        "",
+        "0.556",
+        "",
+        "0.694",
+        "",
+        "0.385",
+        ""
+      ],
+      [
+        "RMSE",
+        "0.0484",
+        "",
+        "0.0459",
+        "",
+        "0.0482",
+        "",
+        "0.0495",
+        ""
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "The selected 2021 equation relates A1 mainly to building age, A2 to age and area, A3 to a linear combination of age and area, and A4 to squared area. This changes the fitted shapes from the 2013 equation while preserving the same six-column representation."
+  },
+  {
+    "kind": "paragraph",
+    "text": "At the 21 fitting centres, individual estimates lie within 0-1 and their four-value sums range from 0.98044 to 1.03517. On the full 63-point grid, 35 points have an individual estimate outside 0-1, all beyond the primary area domain. The saved grid preserves those raw range and sum flags. The following probability figures use the primary fit domain."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Dwelling probability profiles"
+  },
+  {
+    "kind": "paragraph",
+    "text": "In the 2021 equation, A2 probability rises with dwelling area and A3 probability falls with area at a fixed building age. A1 changes with building age. After variable selection, the A4 curve depends on area. Figure 6 places the empirical proportions and fitted curves on the article’s four-panel axes."
+  },
+  {
+    "kind": "image",
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\04_figures\\dwelling_probability_profiles_2021.png"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Fig. 6.  Probability of each cluster of users as the dwelling’s age changes. Points are calculated proportions. Lines are predictions of the regression model."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Crosses are the 21 empirical fitting windows. Gray lines correspond to building ages 20, 60, 100 and 140 years over areas 40-140 m². In Cluster 4 the selected equation gives coincident age curves. The horizontal axis is dwelling area, matching the original figure’s layout."
+  },
+  {
+    "kind": "paragraph",
+    "text": "The full empirical grid and its household counts are exported for inspection. The survey-weighted grid and a separately fitted weighted coefficient matrix are also available, so the weighting choice can be examined without changing the paper-style primary fit."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Alignment between fitted and empirical probabilities"
+  },
+  {
+    "kind": "image",
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\04_figures\\probability_model_validation_2021.png"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Fig. 7.  Alignment Between Predicted and Actual Values Across Clusters."
+  },
+  {
+    "kind": "paragraph",
+    "text": "The plot uses the 21 fitting windows. Crosses retain the paper’s four cluster colours; the dashed line is y=x. These are apparent fitted values. The household holdout scores below provide a separate diagnostic conditional on the demographic fit."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 4a  Published and new probability regression fit summaries."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Type",
+      "2013\nAdjusted R²",
+      "2021\nAdjusted R²",
+      "2013\nRMSE",
+      "2021\nRMSE",
+      "2021 holdout\nRMSE"
+    ],
+    "rows": [
+      [
+        "A1",
+        "0.94",
+        "0.565",
+        "0.020",
+        "0.0484",
+        "0.0719"
+      ],
+      [
+        "A2",
+        "0.93",
+        "0.556",
+        "0.016",
+        "0.0459",
+        "0.0893"
+      ],
+      [
+        "A3",
+        "0.87",
+        "0.694",
+        "0.008",
+        "0.0482",
+        "0.0983"
+      ],
+      [
+        "A4",
+        "0.84",
+        "0.385",
+        "0.011",
+        "0.0495",
+        "0.0511"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "The 2013 paper reports adjusted R² values of 0.94, 0.93, 0.87 and 0.84. In the new 2021 window regressions, they are 0.565, 0.556, 0.694 and 0.385. The new residuals are larger, and the household-held-out RMSEs range from 0.0511 to 0.0983. Thus the 2021 reconstruction shows a less tight relationship between the two dwelling predictors and the fitted user types on its supported windows."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Deriving energy patterns for specific occupant groups"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The energy stage starts from location × dwelling type × user archetype cells. Each response has 80 observed starting cells. We successively merge the pair with the largest Tukey-Kramer adjusted p-value, then order the resulting groups by their response mean. The 2021 reduction makes 71 heating merges and 67 electricity merges, producing H1-H9 and E1-E13."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 5  ANOVA results (single variables and interactions)."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Term",
+      "Heating\nF-statistic",
+      "p-value",
+      "Electricity\nF-statistic",
+      "p-value"
+    ],
+    "rows": [
+      [
+        "Usercluster",
+        "43.27",
+        "<0.001",
+        "2090.12",
+        "<0.001"
+      ],
+      [
+        "Dwellingtype",
+        "103.18",
+        "<0.001",
+        "82.95",
+        "<0.001"
+      ],
+      [
+        "Location",
+        "1225.45",
+        "<0.001",
+        "83.57",
+        "<0.001"
+      ],
+      [
+        "Age dwel",
+        "45.02",
+        "<0.001",
+        "88.92",
+        "<0.001"
+      ],
+      [
+        "Area dwel",
+        "194.41",
+        "<0.001",
+        "4853.78",
+        "<0.001"
+      ],
+      [
+        "CoolingSystemUse",
+        "0.68",
+        "0.410",
+        "680.82",
+        "<0.001"
+      ],
+      [
+        "Usercluster × Dwellingtype",
+        "5.01",
+        "<0.001",
+        "5.62",
+        "<0.001"
+      ],
+      [
+        "Usercluster × Location",
+        "8.72",
+        "<0.001",
+        "4.03",
+        "<0.001"
+      ],
+      [
+        "Dwellingtype × Location",
+        "11.01",
+        "<0.001",
+        "7.11",
+        "<0.001"
+      ],
+      [
+        "Age dwel × Area dwel",
+        "13.86",
+        "<0.001",
+        "1.31",
+        "0.253"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "Type-II OLS ANOVAs use 43,569 heating records and 46,712 electricity records with known construction age and area. The original subjective insulation question is absent in 2021, so insulation terms are omitted. The corresponding heating model has R²=0.111; the electricity model has R²=0.266. Regional and dwelling factors retain their 2021 definitions."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Location has the largest heating F-statistic among the main categorical factors. The user-archetype effect is pronounced in the appliance electricity model. Interactions among user type, dwelling type and location also contribute to the fitted response patterns. The group procedure below uses those three cell identifiers for both responses, following the final saved group structure and the published Appendix A layout."
+  },
+  {
+    "kind": "paragraph",
+    "text": "The final partition contains nine heating groups with means from 6.17 to 11.11 h/day, compared with seven published groups from 4.67 to 9.67 h/day in 2013. It contains thirteen modelled appliance-electricity groups with means from 1621 to 2843 kWh/year, compared with the five groups listed in the paper from 1801 to 2895 kWh/year."
+  },
+  {
+    "kind": "paragraph",
+    "text": "The iterative procedure reuses the same observations as groups are merged. Its terminal pairwise tests describe the selected partition. The implementation uses full-precision p-values with a deterministic tie rule. Group labels are ranks within 2021 and are linked to their actual cell memberships in Appendix A."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Heating and electricity group summaries"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The following means and standard deviations come from the new 2021 household assignments. Each example is an observed location, dwelling and user-type cell belonging to that group. The complete assignments appear in Appendix A."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 6a  Significant groups for heating system usage."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Group",
+      "Example",
+      "Average (SD)\nh/day",
+      "n"
+    ],
+    "rows": [
+      [
+        "H1",
+        "A2, intermediate-floor flat, South/Islands",
+        "6.17 (3.83)",
+        "7,581"
+      ],
+      [
+        "H2",
+        "A2, intermediate-floor flat, Central",
+        "6.84 (4.02)",
+        "6,128"
+      ],
+      [
+        "H3",
+        "A2, multi-family house, South/Islands",
+        "7.75 (4.47)",
+        "7,681"
+      ],
+      [
+        "H4",
+        "A3, single-family house, South/Islands",
+        "8.36 (4.66)",
+        "2,159"
+      ],
+      [
+        "H5",
+        "A2, intermediate-floor flat, NW",
+        "8.88 (5.02)",
+        "7,773"
+      ],
+      [
+        "H6",
+        "A3, multi-family house, NW",
+        "9.61 (5.26)",
+        "2,566"
+      ],
+      [
+        "H7",
+        "A1, intermediate-floor flat, NW",
+        "10.19 (5.24)",
+        "6,032"
+      ],
+      [
+        "H8",
+        "A2, multi-family house, NE",
+        "10.56 (5.39)",
+        "4,706"
+      ],
+      [
+        "H9",
+        "A1, single-family house, NE",
+        "11.11 (5.68)",
+        "4,064"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 6b  Significant groups for annual electricity consumption"
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Group",
+      "Example",
+      "Average (SD)\nkWh/year",
+      "n"
+    ],
+    "rows": [
+      [
+        "E1",
+        "A1, intermediate-floor flat, South/Islands",
+        "1621 (518)",
+        "5,184"
+      ],
+      [
+        "E2",
+        "A3, intermediate-floor flat, NW",
+        "1728 (613)",
+        "3,443"
+      ],
+      [
+        "E3",
+        "A1, single-family house, South/Islands",
+        "1791 (641)",
+        "5,645"
+      ],
+      [
+        "E4",
+        "A3, intermediate-floor flat, South/Islands",
+        "1854 (649)",
+        "3,893"
+      ],
+      [
+        "E5",
+        "A4, intermediate-floor flat, South/Islands",
+        "1906 (651)",
+        "7,654"
+      ],
+      [
+        "E6",
+        "A1, single-family house, NE",
+        "2027 (717)",
+        "2,596"
+      ],
+      [
+        "E7",
+        "A4, single-family house, South/Islands",
+        "2136 (752)",
+        "3,304"
+      ],
+      [
+        "E8",
+        "A2, intermediate-floor flat, Central",
+        "2228 (781)",
+        "6,610"
+      ],
+      [
+        "E9",
+        "A2, intermediate-floor flat, South/Islands",
+        "2295 (794)",
+        "5,452"
+      ],
+      [
+        "E10",
+        "A2, top-floor flat, Central",
+        "2362 (831)",
+        "2,310"
+      ],
+      [
+        "E11",
+        "A2, single-family house, South/Islands",
+        "2527 (854)",
+        "1,981"
+      ],
+      [
+        "E12",
+        "A2, multi-family house, NW",
+        "2684 (842)",
+        "2,322"
+      ],
+      [
+        "E13",
+        "A2, multi-family house, NE",
+        "2843 (893)",
+        "2,223"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "NE=North East; NW=North West. Sample sizes are unweighted. PESO-weighted group means are supplied in separate CSVs. Electricity includes the audited appliance-model components and reference assumptions described on page 11."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Daily heating on time and annual appliance electricity"
+  },
+  {
+    "kind": "image",
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\04_figures\\energy_group_boxplots_2021.png"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Fig. 8.  Variation of (a) daily heating system operating hours and (b) annual electricity consumption based on significant groups of dwelling types, geographical location, and user type."
+  },
+  {
+    "kind": "paragraph",
+    "text": "All boxes use the new 2021 assignments. Declared heating hours refer to cold months of 2020. Heating shows H1-H9 without an insulation split because that subjective rating is absent in the 2021 release. Electricity shows E1-E13 split by declared cooling use. Boxes span the 25th-75th percentiles, with medians and non-outlying whiskers; outliers are hidden. The displayed outcomes and group axes follow the paper."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Appendix A"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Figure A.1.  Assignment of user groups based on building type, location and user archetype."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Location",
+      "Dwelling Type",
+      "User Cluster 1",
+      "User Cluster 2",
+      "User Cluster 3",
+      "User Cluster 4",
+      "User Cluster 1",
+      "User Cluster 2",
+      "User Cluster 3",
+      "User Cluster 4"
+    ],
+    "rows": [
+      [
+        "North East",
+        "Apartment on ground, semi-basement or raised floor",
+        "H9",
+        "H5",
+        "H5",
+        "H6",
+        "E1",
+        "E10",
+        "E5",
+        "E5"
+      ],
+      [
+        "North East",
+        "Apartment on intermediate floor",
+        "H8",
+        "H5",
+        "H5",
+        "H7",
+        "E2",
+        "E8",
+        "E3",
+        "E4"
+      ],
+      [
+        "North East",
+        "Apartment on top floor",
+        "H7",
+        "H6",
+        "H5",
+        "H8",
+        "E2",
+        "E9",
+        "E4",
+        "E5"
+      ],
+      [
+        "North East",
+        "Single Family House",
+        "H9",
+        "H9",
+        "H7",
+        "H9",
+        "E6",
+        "E13",
+        "E8",
+        "E9"
+      ],
+      [
+        "North East",
+        "Multi Family House",
+        "H8",
+        "H8",
+        "H7",
+        "H8",
+        "E5",
+        "E13",
+        "E8",
+        "E8"
+      ],
+      [
+        "North West",
+        "Apartment on ground, semi-basement or raised floor",
+        "H7",
+        "H6",
+        "H5",
+        "H7",
+        "E1",
+        "E9",
+        "E3",
+        "E3"
+      ],
+      [
+        "North West",
+        "Apartment on intermediate floor",
+        "H7",
+        "H5",
+        "H5",
+        "H8",
+        "E1",
+        "E8",
+        "E2",
+        "E5"
+      ],
+      [
+        "North West",
+        "Apartment on top floor",
+        "H7",
+        "H6",
+        "H5",
+        "H8",
+        "E1",
+        "E10",
+        "E3",
+        "E5"
+      ],
+      [
+        "North West",
+        "Single Family House",
+        "H9",
+        "H9",
+        "H7",
+        "H9",
+        "E5",
+        "E13",
+        "E7",
+        "E10"
+      ],
+      [
+        "North West",
+        "Multi Family House",
+        "H7",
+        "H7",
+        "H6",
+        "H8",
+        "E4",
+        "E12",
+        "E7",
+        "E8"
+      ],
+      [
+        "Central",
+        "Apartment on ground, semi-basement or raised floor",
+        "H2",
+        "H3",
+        "H1",
+        "H3",
+        "E1",
+        "E8",
+        "E3",
+        "E5"
+      ],
+      [
+        "Central",
+        "Apartment on intermediate floor",
+        "H2",
+        "H2",
+        "H1",
+        "H3",
+        "E2",
+        "E8",
+        "E3",
+        "E4"
+      ],
+      [
+        "Central",
+        "Apartment on top floor",
+        "H3",
+        "H2",
+        "H2",
+        "H3",
+        "E2",
+        "E10",
+        "E5",
+        "E5"
+      ],
+      [
+        "Central",
+        "Single Family House",
+        "H4",
+        "H5",
+        "H3",
+        "H4",
+        "E5",
+        "E12",
+        "E7",
+        "E9"
+      ],
+      [
+        "Central",
+        "Multi Family House",
+        "H3",
+        "H3",
+        "H3",
+        "H3",
+        "E5",
+        "E12",
+        "E7",
+        "E7"
+      ],
+      [
+        "South and Islands",
+        "Apartment on ground, semi-basement or raised floor",
+        "H2",
+        "H2",
+        "H1",
+        "H1",
+        "E1",
+        "E8",
+        "E2",
+        "E3"
+      ],
+      [
+        "South and Islands",
+        "Apartment on intermediate floor",
+        "H1",
+        "H1",
+        "H1",
+        "H1",
+        "E1",
+        "E9",
+        "E4",
+        "E5"
+      ],
+      [
+        "South and Islands",
+        "Apartment on top floor",
+        "H2",
+        "H2",
+        "H1",
+        "H2",
+        "E1",
+        "E9",
+        "E3",
+        "E5"
+      ],
+      [
+        "South and Islands",
+        "Single Family House",
+        "H5",
+        "H5",
+        "H4",
+        "H3",
+        "E3",
+        "E11",
+        "E6",
+        "E7"
+      ],
+      [
+        "South and Islands",
+        "Multi Family House",
+        "H4",
+        "H3",
+        "H3",
+        "H3",
+        "E3",
+        "E11",
+        "E6",
+        "E6"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "New 2021 fitted lookup. The three apartment rows follow the released ground/semi-basement/raised, intermediate and top-floor categories. Group means are in Table 6. H and E labels are within-year ranks. All 160 assignments are also supplied as long and wide CSV tables, and as standalone SVG and PNG graphics."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Model construction and sensitivity"
+  },
+  {
+    "kind": "image",
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\04_figures\\clustering_elbow_2021.png"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Fig. 3.  Within Cluster Sum of Squares as a function of number of clusters."
+  },
+  {
+    "kind": "paragraph",
+    "text": "The fresh 2021 fit uses K=4 to retain the article’s four-type resolution. K-means uses 20 initializations, seed 42, a 500-iteration limit and tolerance 10^-8. Seed 42 draws integer ages uniformly within released intervals, bounding ages 80+ at 100. Loneliness and generation use a new 2021 min-max transform; the bounded schooling index is used directly. An orthogonal full PCA is recorded. Semantic labels are aligned to historical reference coordinates. All original 2013 assignments remain fixed."
+  },
+  {
+    "kind": "paragraph",
+    "text": "The released 0-10 age groups have blank schooling. Their ages and member counts are retained, while these blank entries are omitted from the schooling mean. For members with supported schooling, the index uses education years divided by age-specific potential schooling, capped at one. Primary coding assigns five years to the merged no-credential/primary category and twelve years to the upper-secondary category."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 7  Archetype shares under schooling assumptions."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Coding",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "rows": [
+      [
+        "Primary",
+        "24.20%",
+        "32.87%",
+        "21.76%",
+        "21.16%"
+      ],
+      [
+        "Lowest schooling category at 0 years",
+        "15.93%",
+        "28.01%",
+        "26.39%",
+        "29.67%"
+      ],
+      [
+        "Upper-secondary category at 13 years",
+        "22.64%",
+        "35.19%",
+        "21.21%",
+        "20.97%"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "Primary demographic coverage is 52,617 households, including 7,737 with a released child aged 0-10. Questionnaire F.10 routes schooling to age 10 or older and relationship codes 1-5. The primary fit excludes 903 otherwise size-eligible profiles with unsupported schooling and 549 households with 6+ members. The lowest schooling-category assumption materially affects the fitted shares; all H/E and PFE outputs use the declared primary coding."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Sources and reproducibility"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The analysis follows the saved article code and the final published output structure. Family features trace to 02_Families_Analysis.py; the four-type fit to 01_PCA_Exploratory.py and the clustering representation; dwelling windows and polynomial regressions to the 05-series files and pfe_pipeline.py; energy-group reduction and Figure 8 to 07_ANOVA_analysis.py and the recovered iterative grouping function. The final saved electricity input and published Appendix A determine the three-factor cell structure."
+  },
+  {
+    "kind": "paragraph",
+    "text": "The legacy files contain exploratory cells with different K values, restricted regression trials and two-factor electricity trials. The new run records the selected article structure: four demographic types, the six-column polynomial basis and location × dwelling × user cells. The new Tukey implementation uses full-precision p-values and deterministic ties. It writes new group memberships and lookup tables while leaving every 2013 source and result unchanged."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Energy input assumptions"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The annual appliance outcome is rebuilt from 2021 ownership and use using the audited reference model. It includes lighting, small appliances, refrigeration, washing, drying, dishwashing, screens, computers and standby. Reference power and efficiency parameters are held fixed. Missing bulb-hour, small-appliance and refrigerator-detail fields use documented 2013-derived reference assumptions, with lower and upper model scenarios saved in the input package. The 2013 component reconstruction agrees with the stored reference totals within 1.82 × 10^-12 kWh."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Unknown construction age is kept out of the probability and age/area ANOVA stages and is retained for H/E grouping. Heating uses frequent-user responses with all three valid daily blocks. Cooling use is established from declared frequencies or explicit absence. The regional expansion weights are PESO; weighted diagnostics are separate from the equal-household fits. Statistical tests describe these selected survey/model records, with survey-mode, reference-period and imputation differences recorded in the methods files."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Primary sources"
+  },
+  {
+    "kind": "link",
+    "text": "Khajedehi, Vivian and Zarrella (2025). Identification of Italian user archetypes for building energy simulations based on a national survey. Energy and Buildings 344, 115924.",
+    "url": "https://doi.org/10.1016/j.enbuild.2025.115924"
+  },
+  {
+    "kind": "link",
+    "text": "ISTAT. Indagine sui consumi energetici delle famiglie. Native 2021 microdata, record layout, classifications and questionnaire.",
+    "url": "https://www.istat.it/microdati/indagine-sui-consumi-energetici-delle-famiglie/"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Analysis package"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The output/article_method_2021_20261104 folder contains audited inputs, primary household labels, empirical and weighted probability grids, coefficient matrices, fit and holdout diagnostics, H/E merge histories and terminal tests, household assignments, group summaries and all Appendix A cells. Figure outputs include SVG, PNG and PDF versions. The report supplies the numerical equation as editable Word mathematics and the appendix as an editable Word table."
+  },
+  {
+    "kind": "paragraph",
+    "text": "The independent review reproduces the raw-data cohort, probability calculations and regressions, all H/E merges, ANOVAs and Appendix assignments. The final manifest records protected-source integrity, package versions and output hashes. The original 2013 baseline and prior reports are retained."
+  }
+]

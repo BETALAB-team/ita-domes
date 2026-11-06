@@ -1,0 +1,81 @@
+location,location_label,dwelling_type,dwelling_label,archetype,heating_group,electricity_group
+north_east,North East,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",1,H9,E1
+north_east,North East,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",2,H5,E10
+north_east,North East,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",3,H5,E5
+north_east,North East,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",4,H6,E5
+north_east,North East,apartment_intermediate_floor,Apartment on intermediate floor,1,H8,E2
+north_east,North East,apartment_intermediate_floor,Apartment on intermediate floor,2,H5,E8
+north_east,North East,apartment_intermediate_floor,Apartment on intermediate floor,3,H5,E3
+north_east,North East,apartment_intermediate_floor,Apartment on intermediate floor,4,H7,E4
+north_east,North East,apartment_top_floor,Apartment on top floor,1,H7,E2
+north_east,North East,apartment_top_floor,Apartment on top floor,2,H6,E9
+north_east,North East,apartment_top_floor,Apartment on top floor,3,H5,E4
+north_east,North East,apartment_top_floor,Apartment on top floor,4,H8,E5
+north_east,North East,single_family_house,Single Family House,1,H9,E6
+north_east,North East,single_family_house,Single Family House,2,H9,E13
+north_east,North East,single_family_house,Single Family House,3,H7,E8
+north_east,North East,single_family_house,Single Family House,4,H9,E9
+north_east,North East,multi_family_house,Multi Family House,1,H8,E5
+north_east,North East,multi_family_house,Multi Family House,2,H8,E13
+north_east,North East,multi_family_house,Multi Family House,3,H7,E8
+north_east,North East,multi_family_house,Multi Family House,4,H8,E8
+north_west,North West,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",1,H7,E1
+north_west,North West,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",2,H6,E9
+north_west,North West,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",3,H5,E3
+north_west,North West,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",4,H7,E3
+north_west,North West,apartment_intermediate_floor,Apartment on intermediate floor,1,H7,E1
+north_west,North West,apartment_intermediate_floor,Apartment on intermediate floor,2,H5,E8
+north_west,North West,apartment_intermediate_floor,Apartment on intermediate floor,3,H5,E2
+north_west,North West,apartment_intermediate_floor,Apartment on intermediate floor,4,H8,E5
+north_west,North West,apartment_top_floor,Apartment on top floor,1,H7,E1
+north_west,North West,apartment_top_floor,Apartment on top floor,2,H6,E10
+north_west,North West,apartment_top_floor,Apartment on top floor,3,H5,E3
+north_west,North West,apartment_top_floor,Apartment on top floor,4,H8,E5
+north_west,North West,single_family_house,Single Family House,1,H9,E5
+north_west,North West,single_family_house,Single Family House,2,H9,E13
+north_west,North West,single_family_house,Single Family House,3,H7,E7
+north_west,North West,single_family_house,Single Family House,4,H9,E10
+north_west,North West,multi_family_house,Multi Family House,1,H7,E4
+north_west,North West,multi_family_house,Multi Family House,2,H7,E12
+north_west,North West,multi_family_house,Multi Family House,3,H6,E7
+north_west,North West,multi_family_house,Multi Family House,4,H8,E8
+central,Central,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",1,H2,E1
+central,Central,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",2,H3,E8
+central,Central,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",3,H1,E3
+central,Central,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",4,H3,E5
+central,Central,apartment_intermediate_floor,Apartment on intermediate floor,1,H2,E2
+central,Central,apartment_intermediate_floor,Apartment on intermediate floor,2,H2,E8
+central,Central,apartment_intermediate_floor,Apartment on intermediate floor,3,H1,E3
+central,Central,apartment_intermediate_floor,Apartment on intermediate floor,4,H3,E4
+central,Central,apartment_top_floor,Apartment on top floor,1,H3,E2
+central,Central,apartment_top_floor,Apartment on top floor,2,H2,E10
+central,Central,apartment_top_floor,Apartment on top floor,3,H2,E5
+central,Central,apartment_top_floor,Apartment on top floor,4,H3,E5
+central,Central,single_family_house,Single Family House,1,H4,E5
+central,Central,single_family_house,Single Family House,2,H5,E12
+central,Central,single_family_house,Single Family House,3,H3,E7
+central,Central,single_family_house,Single Family House,4,H4,E9
+central,Central,multi_family_house,Multi Family House,1,H3,E5
+central,Central,multi_family_house,Multi Family House,2,H3,E12
+central,Central,multi_family_house,Multi Family House,3,H3,E7
+central,Central,multi_family_house,Multi Family House,4,H3,E7
+south_and_islands,South and Islands,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",1,H2,E1
+south_and_islands,South and Islands,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",2,H2,E8
+south_and_islands,South and Islands,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",3,H1,E2
+south_and_islands,South and Islands,apartment_ground_basement_raised,"Apartment on ground, semi-basement or raised floor",4,H1,E3
+south_and_islands,South and Islands,apartment_intermediate_floor,Apartment on intermediate floor,1,H1,E1
+south_and_islands,South and Islands,apartment_intermediate_floor,Apartment on intermediate floor,2,H1,E9
+south_and_islands,South and Islands,apartment_intermediate_floor,Apartment on intermediate floor,3,H1,E4
+south_and_islands,South and Islands,apartment_intermediate_floor,Apartment on intermediate floor,4,H1,E5
+south_and_islands,South and Islands,apartment_top_floor,Apartment on top floor,1,H2,E1
+south_and_islands,South and Islands,apartment_top_floor,Apartment on top floor,2,H2,E9
+south_and_islands,South and Islands,apartment_top_floor,Apartment on top floor,3,H1,E3
+south_and_islands,South and Islands,apartment_top_floor,Apartment on top floor,4,H2,E5
+south_and_islands,South and Islands,single_family_house,Single Family House,1,H5,E3
+south_and_islands,South and Islands,single_family_house,Single Family House,2,H5,E11
+south_and_islands,South and Islands,single_family_house,Single Family House,3,H4,E6
+south_and_islands,South and Islands,single_family_house,Single Family House,4,H3,E7
+south_and_islands,South and Islands,multi_family_house,Multi Family House,1,H4,E3
+south_and_islands,South and Islands,multi_family_house,Multi Family House,2,H3,E11
+south_and_islands,South and Islands,multi_family_house,Multi Family House,3,H3,E6
+south_and_islands,South and Islands,multi_family_house,Multi Family House,4,H3,E6

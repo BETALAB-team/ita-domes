@@ -1,0 +1,115 @@
+{
+  "cases": [
+    {
+      "case": "seeded",
+      "rows": 8760,
+      "finite": true,
+      "heating_kWh": 6521.185621151082,
+      "peak_kW": 9.0052750408757,
+      "block_counts": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "positive_heat_at_19C_hours": 801,
+      "heat_at_19C_kWh": 1220.3223149339449,
+      "hash_matches": true,
+      "delta_percent": {
+        "heating_kWh": 0.0,
+        "peak_kW": 0.0
+      }
+    },
+    {
+      "case": "early",
+      "rows": 8760,
+      "finite": true,
+      "heating_kWh": 6376.549898365349,
+      "peak_kW": 9.151180652084733,
+      "block_counts": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "positive_heat_at_19C_hours": 601,
+      "heat_at_19C_kWh": 792.6633920495977,
+      "hash_matches": true,
+      "delta_percent": {
+        "heating_kWh": -2.21793598876584,
+        "peak_kW": 1.6202238193365082
+      }
+    },
+    {
+      "case": "late",
+      "rows": 8760,
+      "finite": true,
+      "heating_kWh": 6412.555599108988,
+      "peak_kW": 8.880515484135467,
+      "block_counts": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "positive_heat_at_19C_hours": 750,
+      "heat_at_19C_kWh": 1082.7637707955657,
+      "hash_matches": true,
+      "delta_percent": {
+        "heating_kWh": -1.6658017169417727,
+        "peak_kW": -1.385405289388042
+      }
+    },
+    {
+      "case": "repeat_seeded",
+      "rows": 8760,
+      "finite": true,
+      "heating_kWh": 6521.185621151082,
+      "peak_kW": 9.0052750408757,
+      "block_counts": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "positive_heat_at_19C_hours": 801,
+      "heat_at_19C_kWh": 1220.3223149339449,
+      "hash_matches": true,
+      "delta_percent": {
+        "heating_kWh": 0.0,
+        "peak_kW": 0.0
+      }
+    },
+    {
+      "case": "warmup_seeded",
+      "rows": 8760,
+      "finite": true,
+      "heating_kWh": 6521.185621150961,
+      "peak_kW": 9.0052750408757,
+      "block_counts": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "positive_heat_at_19C_hours": 801,
+      "heat_at_19C_kWh": 1220.3223149338419,
+      "hash_matches": true,
+      "delta_percent": {
+        "heating_kWh": -1.8540724511240114e-12,
+        "peak_kW": 0.0
+      }
+    }
+  ],
+  "selection": {
+    "eligible": 372,
+    "minimum_id": 3523,
+    "raw_fields": {
+      "nprog": "3523",
+      "reg": "5",
+      "q_3_11A": "4",
+      "q_3_11B": "4",
+      "q_3_11C": "1",
+      "q_3_13_2": "1"
+    }
+  },
+  "gas_deviation_percent": [
+    0.09406296685663396,
+    12.962840736585047
+  ]
+}

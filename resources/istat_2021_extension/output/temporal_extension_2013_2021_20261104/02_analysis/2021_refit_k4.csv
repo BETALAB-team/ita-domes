@@ -1,0 +1,13 @@
+seed,archetype,share_pct,ARI_vs_fixed,NMI_vs_fixed,inertia,matching,matched_refit_cluster
+0,1,31.63770053475936,0.6709911585886366,0.6615174144621746,1398.8598561702902,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),2
+0,2,25.47237076648841,0.6709911585886366,0.6615174144621746,1398.8598561702902,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),0
+0,3,26.61096256684492,0.6709911585886366,0.6615174144621746,1398.8598561702902,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),3
+0,4,16.278966131907307,0.6709911585886366,0.6615174144621746,1398.8598561702902,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),1
+42,1,31.63770053475936,0.6694351713607648,0.6608996124911869,1398.8512769071808,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),2
+42,2,25.18716577540107,0.6694351713607648,0.6608996124911869,1398.8512769071808,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),0
+42,3,26.677807486631018,0.6694351713607648,0.6608996124911869,1398.8512769071808,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),1
+42,4,16.497326203208555,0.6694351713607648,0.6608996124911869,1398.8512769071808,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),3
+2021,1,31.76247771836007,0.6660370679906695,0.6560303917058881,1398.8422057431667,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),2
+2021,2,25.18716577540107,0.6660370679906695,0.6560303917058881,1398.8422057431667,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),1
+2021,3,26.5530303030303,0.6660370679906695,0.6560303917058881,1398.8422057431667,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),0
+2021,4,16.497326203208555,0.6660370679906695,0.6560303917058881,1398.8422057431667,exhaustive 4! optimal sum squared centroid distance (Hungarian-equivalent),3

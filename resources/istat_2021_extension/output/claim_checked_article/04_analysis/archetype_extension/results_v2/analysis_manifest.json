@@ -1,0 +1,21 @@
+{
+  "status": "candidate model-reference results; independent review required",
+  "campaign": "archetype_campaign_v2",
+  "scientific_profiles_per_site": 36,
+  "scientific_executions": 144,
+  "technical_executions": 8,
+  "test_people": 32,
+  "components": 4,
+  "selection_manifest_sha256": "a34a21e694b1c0117e915567c0eab56f83bfa3aa03b586ab6443006e0b8daed4",
+  "probabilities_sha256": "f97a68f29aca5fac7e0c6fa3f8284c82e8960133afd4c5eee032df4f3dda8a43",
+  "analysis_script_sha256": "07fb6f014aa8ffe84e3cb72669b07fa1012827b6db05eeac9168bc821f7285fc",
+  "output_sha256": {
+    "independent_endpoints.csv": "60146dfad147ccfe6eac7aabac20b61207f494c787185a78c377fe11dd135aa2",
+    "individual_deviations.csv": "7aea9a8158121faaee5ec7efacb6562c3cfdabea209c104d0e8748d668794032",
+    "mixture_predictions.csv": "635d8122f5ff7ab61d9ae3a86bd4131f9b6f55f3239b7156b866ab3851393601",
+    "weighted_metrics.csv": "c2b0b514d7d3e6f2a489cec6ce1535d803ea8355fd921e28289f24e70bd143a6"
+  },
+  "independent_hourly_integration_pass": true,
+  "no_relative_error_or_zero_division": true,
+  "expected_individual_peak_not_aggregate_peak": true
+}

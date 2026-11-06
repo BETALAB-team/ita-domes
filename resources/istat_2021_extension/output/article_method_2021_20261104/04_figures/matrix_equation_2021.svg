@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="710.64pt" height="181.44pt" viewBox="0 0 710.64 181.44" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-04T13:51:06.559375</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 181.44 
+L 710.64 181.44 
+L 710.64 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 195.1848 56.4768 
+L 262.488 56.4768 
+L 262.488 27.2448 
+L 195.1848 27.2448 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="228.8364" y="44.503378" transform="rotate(-0 228.8364 44.503378)">0.06496</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 262.488 56.4768 
+L 329.7912 56.4768 
+L 329.7912 27.2448 
+L 262.488 27.2448 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="296.1396" y="44.503378" transform="rotate(-0 296.1396 44.503378)">0.54972</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 329.7912 56.4768 
+L 397.0944 56.4768 
+L 397.0944 27.2448 
+L 329.7912 27.2448 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="363.4428" y="44.503378" transform="rotate(-0 363.4428 44.503378)">0.00000</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 397.0944 56.4768 
+L 464.3976 56.4768 
+L 464.3976 27.2448 
+L 397.0944 27.2448 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="430.746" y="44.503378" transform="rotate(-0 430.746 44.503378)">0.00000</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 464.3976 56.4768 
+L 531.7008 56.4768 
+L 531.7008 27.2448 
+L 464.3976 27.2448 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="498.0492" y="44.503378" transform="rotate(-0 498.0492 44.503378)">-0.26970</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 531.7008 56.4768 
+L 599.004 56.4768 
+L 599.004 27.2448 
+L 531.7008 27.2448 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="565.3524" y="44.503378" transform="rotate(-0 565.3524 44.503378)">0.00000</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 195.1848 85.7088 
+L 262.488 85.7088 
+L 262.488 56.4768 
+L 195.1848 56.4768 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="228.8364" y="73.735378" transform="rotate(-0 228.8364 73.735378)">0.39519</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 262.488 85.7088 
+L 329.7912 85.7088 
+L 329.7912 56.4768 
+L 262.488 56.4768 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="296.1396" y="73.735378" transform="rotate(-0 296.1396 73.735378)">-0.55058</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 329.7912 85.7088 
+L 397.0944 85.7088 
+L 397.0944 56.4768 
+L 329.7912 56.4768 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="363.4428" y="73.735378" transform="rotate(-0 363.4428 73.735378)">0.10305</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 397.0944 85.7088 
+L 464.3976 85.7088 
+L 464.3976 56.4768 
+L 397.0944 56.4768 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="430.746" y="73.735378" transform="rotate(-0 430.746 73.735378)">0.00000</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 464.3976 85.7088 
+L 531.7008 85.7088 
+L 531.7008 56.4768 
+L 464.3976 56.4768 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="498.0492" y="73.735378" transform="rotate(-0 498.0492 73.735378)">0.30849</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 531.7008 85.7088 
+L 599.004 85.7088 
+L 599.004 56.4768 
+L 531.7008 56.4768 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="565.3524" y="73.735378" transform="rotate(-0 565.3524 73.735378)">0.00000</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 195.1848 114.9408 
+L 262.488 114.9408 
+L 262.488 85.7088 
+L 195.1848 85.7088 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="228.8364" y="102.967378" transform="rotate(-0 228.8364 102.967378)">0.45712</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 262.488 114.9408 
+L 329.7912 114.9408 
+L 329.7912 85.7088 
+L 262.488 85.7088 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="296.1396" y="102.967378" transform="rotate(-0 296.1396 102.967378)">-0.08898</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 329.7912 114.9408 
+L 397.0944 114.9408 
+L 397.0944 85.7088 
+L 329.7912 85.7088 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="363.4428" y="102.967378" transform="rotate(-0 363.4428 102.967378)">-0.21347</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 397.0944 114.9408 
+L 464.3976 114.9408 
+L 464.3976 85.7088 
+L 397.0944 85.7088 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="430.746" y="102.967378" transform="rotate(-0 430.746 102.967378)">0.00000</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 464.3976 114.9408 
+L 531.7008 114.9408 
+L 531.7008 85.7088 
+L 464.3976 85.7088 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="498.0492" y="102.967378" transform="rotate(-0 498.0492 102.967378)">0.00000</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 531.7008 114.9408 
+L 599.004 114.9408 
+L 599.004 85.7088 
+L 531.7008 85.7088 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="565.3524" y="102.967378" transform="rotate(-0 565.3524 102.967378)">0.00000</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 195.1848 144.1728 
+L 262.488 144.1728 
+L 262.488 114.9408 
+L 195.1848 114.9408 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="228.8364" y="132.199378" transform="rotate(-0 228.8364 132.199378)">0.15278</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 262.488 144.1728 
+L 329.7912 144.1728 
+L 329.7912 114.9408 
+L 262.488 114.9408 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="296.1396" y="132.199378" transform="rotate(-0 296.1396 132.199378)">0.00000</text>
+    </g>
+    <g id="patch_22">
+     <path d="M 329.7912 144.1728 
+L 397.0944 144.1728 
+L 397.0944 114.9408 
+L 329.7912 114.9408 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="363.4428" y="132.199378" transform="rotate(-0 363.4428 132.199378)">0.00000</text>
+    </g>
+    <g id="patch_23">
+     <path d="M 397.0944 144.1728 
+L 464.3976 144.1728 
+L 464.3976 114.9408 
+L 397.0944 114.9408 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="430.746" y="132.199378" transform="rotate(-0 430.746 132.199378)">0.00000</text>
+    </g>
+    <g id="patch_24">
+     <path d="M 464.3976 144.1728 
+L 531.7008 144.1728 
+L 531.7008 114.9408 
+L 464.3976 114.9408 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="498.0492" y="132.199378" transform="rotate(-0 498.0492 132.199378)">0.00000</text>
+    </g>
+    <g id="patch_25">
+     <path d="M 531.7008 144.1728 
+L 599.004 144.1728 
+L 599.004 114.9408 
+L 531.7008 114.9408 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 11px; font-family: 'Times New Roman'; text-anchor: middle" x="565.3524" y="132.199378" transform="rotate(-0 565.3524 132.199378)">0.07919</text>
+    </g>
+   </g>
+   <g id="line2d_1">
+    <path d="M 191.7036 147.5136 
+L 191.7036 23.904 
+" clip-path="url(#p961ddadcf3)" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 602.4852 147.5136 
+L 602.4852 23.904 
+" clip-path="url(#p961ddadcf3)" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_25">
+    <!-- $\left[p_1, p_2, p_3, p_4\right]^T =$ -->
+    <g transform="translate(14.1624 86.802219)">
+     <text>
+      <tspan x="0" y="-0.384375" style="font-size: 13px; font-family: 'DejaVu Sans'">[</tspan>
+      <tspan x="19.468896" y="-0.384375" style="font-size: 13px; font-family: 'DejaVu Sans'">,</tspan>
+      <tspan x="40.531055" y="-0.384375" style="font-size: 13px; font-family: 'DejaVu Sans'">,</tspan>
+      <tspan x="61.593213" y="-0.384375" style="font-size: 13px; font-family: 'DejaVu Sans'">,</tspan>
+      <tspan x="82.655371" y="-0.384375" style="font-size: 13px; font-family: 'DejaVu Sans'">]</tspan>
+      <tspan x="96.298389" y="-0.384375" style="font-size: 13px; font-family: 'DejaVu Sans'">=</tspan>
+      <tspan x="5.071777" y="-0.384375" style="font-style: oblique; font-size: 13px; font-family: 'DejaVu Sans'">p</tspan>
+      <tspan x="26.133936" y="-0.384375" style="font-style: oblique; font-size: 13px; font-family: 'DejaVu Sans'">p</tspan>
+      <tspan x="47.196094" y="-0.384375" style="font-style: oblique; font-size: 13px; font-family: 'DejaVu Sans'">p</tspan>
+      <tspan x="68.258252" y="-0.384375" style="font-style: oblique; font-size: 13px; font-family: 'DejaVu Sans'">p</tspan>
+      <tspan x="13.32373" y="1.748437" style="font-size: 9.1px; font-family: 'DejaVu Sans'">1</tspan>
+      <tspan x="34.385889" y="1.748437" style="font-size: 9.1px; font-family: 'DejaVu Sans'">2</tspan>
+      <tspan x="55.448047" y="1.748437" style="font-size: 9.1px; font-family: 'DejaVu Sans'">3</tspan>
+      <tspan x="76.510205" y="1.748437" style="font-size: 9.1px; font-family: 'DejaVu Sans'">4</tspan>
+      <tspan x="87.851562" y="-5.360938" style="font-style: oblique; font-size: 9.1px; font-family: 'DejaVu Sans'">T</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 15px; font-family: 'Times New Roman'; text-anchor: middle" x="619.8912" y="89.312316" transform="rotate(-0 619.8912 89.312316)">×</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10px; font-family: 'Times New Roman'" transform="translate(647.7408 61.932237)">1</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman'" transform="translate(647.7408 72.4038)">a / 100</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman'" transform="translate(647.7408 82.875362)">s / 100</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman'" transform="translate(647.7408 93.346925)">a s / 10000</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman'" transform="translate(647.7408 103.818488)">a² / 10000</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman'" transform="translate(647.7408 114.29005)">s² / 10000</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p961ddadcf3">
+   <rect x="7.2" y="7.2" width="696.24" height="167.04"/>
+  </clipPath>
+ </defs>
+</svg>

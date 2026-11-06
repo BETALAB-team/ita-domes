@@ -1,0 +1,16 @@
+# Report fidelity check
+
+**Scope.** I read the complete eight-section report content before layout review and compared the claims against the frozen source and independent numerical audit. The population and measurement limits from the earlier review are preserved. This check concerns scientific fidelity. Page breaks, graphics and pagination are the report author's render checks.
+
+**One clarification requested for the archived classifier.** In the “Sensitivity to the crosswalk” section, readers see the alternate schooling map, three age-draw seeds and post-review alignment but do not see the primary age imputation or why 12 years is used for the lowest merged schooling category. State that the primary calculation uses interval midpoints and represents 80+ by 90 under an assumed 80–100 interval. Explain that 12 years approximates the historical sequential recoding collision in a merged no-credential/primary category, not observed schooling. This clarifies the science behind the primary estimates and does not change any result. The parent author has been notified.
+
+**Checks passed**
+
+- Historical demographic shares, means and Table 6 heating/electricity group means match the published reference. The paper's unweighted household and person distributions retain their original denominators. The recovered archive classifier and exploratory 2021 refit have distinct labels and scopes.
+- The report states the F.10 instrument rule, including age ≥10 and relationship codes 1–5. The blanket exclusion is assigned to the released bands rather than the questionnaire. Domain sizes, selection counts, weighted mass, household-size retention and post-review age sensitivity match the audit.
+- The clustering section matches the seed-42 fit, shares, ARI, NMI, arithmetic alignment agreement and fixed-A4 retention. Its K-grid statement is properly limited to the selected data and geometry. The one-sided exact-thirds perturbation is absent from the substantive evidence.
+- Every displayed regional row matches the audited table, including both wave counts and all 80 signed weighted differences after rounding to two decimals. Codes 41 and 42 are correctly pooled in this table. The standardization recalculates the 2021 weighted estimates at the archive domain's 2013 weighted regional mix. Maximum movement of 0.087 percentage points is correctly distinguished from temporal differences and geographic variation within the waves.
+- The full-domain household indicators, weighted hours and frequent-user denominators match the audit. The report distinguishes 2013 typical-day wording from 2020 seasonal recall in the 2021 instrument. Cooling inventories use affirmative responses without forcing routed blanks to observed negatives. The official all-household cooling series and source access boundaries are accurately stated. Local archetype estimates stop at 2021. No physical-energy, panel-transition, causal or significance claims are presented.
+- The linked sources establish the numerical comparisons. The report makes no comparison between heating-system availability and main-system heating shares. It keeps conditional operating hours separate from the historical H/E benchmark means.
+
+No change to numbers or conclusions is required. Delivery-time original file verification and visual fidelity remain with the parent author.

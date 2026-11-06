@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-20",
+  "decision_owner": "/root orchestrator following independent final closure",
+  "decision": "Open the separate prose and visualization workflow for a truthful incomplete scientific first manuscript.",
+  "prior_full_cycles": 4,
+  "extension_full_cycles": 2,
+  "total_full_cycles": 6,
+  "claim_count": 106,
+  "claim_version": "v07",
+  "closure_read_and_assessed_by_root": true,
+  "scope": "Four archived demographic groups condition mixtures of four real heating-control profiles; bounded within-model held-out comparison in one assumed dwelling and four TMYs.",
+  "remaining_scientific_gaps": [
+    "Matched independent whole-building benchmark",
+    "Compatible independently documented meter validation",
+    "Broader physical-input/assignment/split uncertainty",
+    "Quantified sky/solar-time/season sensitivity",
+    "Exact remote published assignment identity",
+    "Population and city representativeness"
+  ],
+  "hashes": {
+    "06_claim_drafts/article_claims_final.md": "9aa90444db044ab1480872fbf496db171f359e39e10cf1207f76a4c586757df9",
+    "06_claim_drafts/final_acceptance.md": "38133e6ce92570459124a791f586385d3a7f2e3fef7a64efd06b2619031922f6",
+    "06_claim_drafts/claim_ledger_v07.json": "a768e5d022bb117c5a185c8a40500bbac52387910167ad65d439d759d27dd468",
+    "06_claim_drafts/claim_evidence_ledger.json": "f458f7b2b811d7be924533a22bc892eb53550c84f3ebc900e2f56442c482999a",
+    "07_reviews/archetype_extension/review_06.md": "67015c5f00462ee246098d637821a789fd6ce6ce7eba4014a43d44780883bdef",
+    "07_reviews/archetype_extension/response_06.md": "72a2b245f5f020d9b904000263ee7c92719f8e2c04e42bafae35143868b2e27d",
+    "07_reviews/archetype_extension/issue_register_06.json": "382c03eacb1a93cdecc7ca2d5f8336e59021709901e4749eb0210d5699e4bbff",
+    "07_reviews/archetype_extension/final_closure.md": "d8730da7ffb3dfd922764f12e10746317985a4ca606158c00d199c4f1a0d27e8",
+    "07_reviews/archetype_extension/issue_register_final.json": "9ea84c7faa7c8f9e44728853b4e72facb6a0835e62373d9e1581ce9b4ce334a2",
+    "02_evidence/archetype_extension/local_sources.json": "e2a411d0c4aec3493efb19ae2f6d29ce4fedddcc5c416c613ab96f39bf653a41",
+    "02_evidence/archetype_extension/registry_audit_v07.json": "a93aa0d0908c2c5042494e9a98f44b204044313ac34b934164cf8528961447e1",
+    "01_plan/archetype_extension/prose_and_figure_handoff.md": "fdfecdf7be5bca91c909c19371e9dee65d85c14c879908e9759b642be77d9d0a"
+  },
+  "prohibited": [
+    "Unsupported new scientific claims",
+    "Generative images",
+    "Publication",
+    "Submission",
+    "External contact"
+  ]
+}

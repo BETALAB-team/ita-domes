@@ -1,0 +1,285 @@
+Identification of Italian user archetypes for building energy simulations
+
+Corrected reanalysis of the 2013 national survey
+
+Research manuscript prepared for review. Adapted from Khajedehi, Vivian and Zarrella, <i>Energy &amp; Buildings</i> 344 (2025), 115924 [1]. New calculations replace the source article's numerical results. This document does not represent an approved correction, a published article, or endorsement by the original co-authors.
+
+Abstract
+
+Occupant-related inputs in building energy simulations require a transparent link between household characteristics, dwelling information and energy-related observations. This study reanalyzes the 2013 Italian household energy survey using a corrected and reproducible version of an archetype-based framework. Of 20,000 released households, 19,445 satisfy the common restriction to one to five members and complete education information for members aged at least 15. Age-class midpoints are treated as proxies rather than observed ages. Survey-weighted principal component analysis and four-cluster k-means are fitted only to the 2013 training subset; the same transformations and centroids are used throughout the paired analyses. A multinomial model links dwelling-age and floor-area proxies to four probabilities that are jointly constrained to sum to one. On 2,820 held-out households with known dwelling categories, its multiclass Brier score is 0.6859, compared with 0.7215 for the training-marginal baseline. Training-derived energy groups are selected on a separate tuning subset and evaluated without further merging on the test subset. The heating model retains 7 groups and yields a test root mean squared error of 3.77 hours, compared with 4.03 hours for a constant predictor. Annual appliance electricity is analyzed as an existing model-derived response, not as measured consumption. The findings support a bounded, testable representation of household heterogeneity, but do not demonstrate causal behavioral effects or improved building-simulation accuracy. Sensitivity to coarse age and education inputs remains a central limitation.
+
+<b>Keywords:</b> household archetypes; occupant-related inputs; ISTAT; probabilistic modeling; survey weights; reproducibility; heating schedules.
+
+1. Introduction
+
+The operation of residential buildings depends on more than envelope properties and technical-system efficiency. Occupancy, appliance use, temperature preferences and the timing of heating interact with the physical characteristics of the dwelling. Consequently, a simulation supplied with one generic household profile can differ from a simulation supplied with information about the actual residents. The broader literature on the energy performance gap and occupant behavior provides the motivation for studying these inputs [2,3]. It does not, by itself, establish that any particular demographic clustering improves prediction.
+
+National household surveys offer a practical source of demographic and equipment information at a scale that is rarely available in monitored-building studies. Their strengths are coverage, common questionnaires and documented coding. Their limitations include coarse categories, self-reporting, survey routing and incomplete information about the building and its operation. An archetype method must preserve those distinctions: a demographic label is not an observation of a behavioral mechanism, and a reported operating duration is not a measurement of delivered heat.
+
+1.1. International standards
+
+Schedule-based standards provide reference inputs for energy calculations. ISO 18523-2:2018 specifies formats and categories for residential schedules and conditions, including occupancy, technical-system operation, appliance usage and internal gains [8]. Its publicly available scope identifies the included values as informative. EN 16798-1:2019 is the source of a second set of examples discussed by the original article [1,9]. These sources have different purposes from a fitted household prediction model. A difference between a reference schedule and a survey mean is therefore not sufficient evidence that the standard is erroneous.
+
+The corrected comparison retains the source article's interest in diversity, but removes unsupported claims about the motives or composition of standardization committees. It also separates appliance electricity from heat released within occupied space. Electrical energy may be converted into sensible heat, latent heat, heat removed by water, or energy dissipated elsewhere. A model of appliance kWh cannot be inserted unchanged as an internal-gain schedule without assumptions about that allocation and its timing.
+
+1.2. Literature review
+
+Reviews describe a wide range of occupant-modeling approaches, from fixed schedules to stochastic representations and explicit interactions with building systems [3]. Monitored occupant-behavior databases provide information about presence and interactions with equipment that is more direct than demographic variables [4]. Nevertheless, such observations are not routinely available for every dwelling in a building-stock model. Survey-derived archetypes may therefore be useful as uncertain inputs when detailed information is absent.
+
+Studies of alternative occupancy-profile assumptions show that schedule selection can materially change simulated demand [5]. This motivates sensitivity analysis rather than a presumption that more archetypes necessarily produce a more accurate model. A useful archetype framework should provide a reproducible feature definition, a clearly identified training population, probabilities for unknown occupants, and an evaluation against simple alternatives. The present analysis addresses those requirements while retaining the source article's sequence of demographic clustering, dwelling association and energy-pattern analysis [1].
+
+1.3. Research gap and objectives
+
+Three questions guide this reanalysis. First, can a fixed four-archetype representation summarize the available household information under explicit preprocessing assumptions? Second, does dwelling information improve out-of-sample probability prediction beyond the overall archetype distribution? Third, do combinations of archetype, location and dwelling type improve prediction of the available energy-related response? The questions are associative and predictive. They do not ask whether archetype membership causes energy use, nor whether a resulting schedule has already reduced a building simulation's performance gap.
+
+The 2013 manuscript establishes the corrected reference model and documents the changes from the published analysis. The manuscript retains corresponding figure types, coefficient tables, group summaries and discussion sections. Where the available evidence cannot support the original statistic or comparison, the replacement is stated explicitly rather than generating a visually similar but scientifically different result without explanation.
+
+2. Dataset
+
+The 2013 release contains 20,000 household records from the ISTAT survey of household energy consumption. Its telephone-based collection and landline sampling frame are described in the supplied methodological documentation [6]. The released record identifier is used only within its own survey. No attempt is made to link individual households between years. The paired analyses are repeated cross-sections, not a panel.
+
+To define the same accessible household-size domain in both years, households with fewer than one or more than five members are excluded. The 2021 release supplies demographic fields for at most five members and top-codes its larger-household category. Each included member must have a valid age category; all members in categories beginning at age 15 or above must also have a known education category. Children are not assigned missing adult education values of zero. These rules retain 19,445 households and exclude 555. Exclusion reasons are exported by record identifier. This complete-case domain is not the entire national household population.
+
+The official household expansion weights are retained. They define weighted means, distributions, PCA, clustering and probability-model losses. People-weighted archetype shares multiply each household weight by its recorded number of members. Reported household counts remain actual sample counts, not rounded expansion totals. Because the analysis does not reconstruct the survey's complete variance-estimation design, its standard errors and tests are explicitly model-based; using expansion weights is not a substitute for strata, primary sampling units or replicate weights.
+
+Unknown construction period accounts for 4.09% of the eligible household weight. Such records remain in the demographic analysis but are omitted when a dwelling-age predictor is required. The dwelling model therefore describes a conditional sample whose composition may differ from that of households with an unknown construction year. The existing appliance-electricity file is joined one-to-one by the 2013 household identifier. It contains modeled annual appliance electricity; the external model chain that produced it is not rerun here. Its uncertainty and possible overlap with the survey predictors limit the interpretation of electricity associations.
+
+Building classifications also require semantic harmonization. Both releases distinguish single-family and multi-family dwellings, but their apartment subcategories do not describe the same attribute. The common classification therefore uses single-family, multi-family and apartment. Geographic divisions are consolidated into north-west, north-east, centre, and south/islands. The 2013 subjective insulation rating is retained only for 2013; an investment-in-insulation question in 2021 is not substituted for an insulation-performance rating.
+
+3. Methods
+
+Figure 1 summarizes the corrected workflow. All record-level decisions precede model fitting. Eligible households in each release are assigned to training (70%), tuning (15%) and test (15%) subsets using a saved seed and sorted identifiers. The 2013 training subset is the only input to the demographic PCA, normalization and reference clustering. Tuning selects probability regularization and energy-group complexity. Test households are not used for those choices or for subsequent group merging.
+
+Figure 1. Corrected analysis sequence. The split is made before fitting. For 2021, demographic transformations and archetype centers are imported unchanged from the 2013 training analysis. Unavailable responses are not imputed.
+
+3.1. PCA and clustering
+
+<b>Table 1.</b> Household variables and corrected operational definitions.
+
+The midpoint convention avoids a single undocumented random realization, but does not turn interval data into exact ages. The releases use non-nested age bands: for example, a 2013 band beginning at 25 cannot be exactly reconstructed from the 2021 bands beginning at 20 and 30. Their midpoints are therefore transparent approximations, with seeded within-interval draws used in sensitivity analysis. The oldest categories are bounded at 100 years in the reference calculation. Neither the cap nor the uniform-draw scenarios is asserted to describe the true within-band distribution.
+
+Education is harmonized to four shared categories: no qualification/primary, lower secondary, upper secondary, and tertiary. Assigned schooling values are 2.5, 8, 12 and 18 years. The first category combines two qualifications in 2021; its midpoint of the possible 0-5-year range is a working proxy, not an estimated mean. Values of 0 and 5 are tested separately. The fixed denominator removes the erroneous dependence on age-class codes and avoids claiming that the bespoke ratio reproduces the UNDP method. Students can have lower completed attainment because they have not finished education; the variable is not interpreted as ability or opportunity.
+
+E<sub>h</sub> = (1 / m<sub>h</sub>) Σ<sub>i in M(h)</sub> (s<sub>i</sub> / 18), &nbsp; 0 ≤ E<sub>h</sub> ≤ 1
+
+Here M(h) contains members in categories beginning at age 15 or above, m(h) is their count, and s is the assigned schooling value. A weighted correlation-matrix PCA is fitted after centering and scaling each demographic variable with its training-weighted mean and standard deviation. A four-variable exploratory PCA is also reported, but education is kept as a separate clustering coordinate. The fitted first two demographic components are:
+
+In Equations (1)-(2), z denotes the centered and standardized minimum-age, maximum-age and household-size proxy, respectively. The training means are 44.061392, 61.121933 and 2.279326; the corresponding scales are 28.796189, 17.284357 and 1.234751. Full-precision loadings are exported with the model. Component signs are fixed by requiring the largest absolute loading to be positive. Unlike the source article's rounded engineering expressions, these components are generated by an orthonormal eigenvector decomposition of the stated covariance matrix.
+
+The two component scores and E are min-max normalized using the 2013 training limits only. A weighted k-means objective minimizes the sum of weighted squared distances to the four centroids. Twelve deterministic k-means++ starts are attempted and the minimum-inertia fit is retained. Four clusters are chosen to preserve the study's intended level of resolution, not because an elbow plot proves that four is uniquely optimal. Labels are fixed from the reference training summaries: A2 has the greatest mean household size; among the remainder A4 has the highest schooling proxy, A1 the highest minimum age, and A3 is the remaining cluster. These labels do not guarantee correspondence to the original paper's clusters.
+
+J = Σ<sub>h</sub> w<sub>h</sub> ||u<sub>h</sub> - c<sub>g(h)</sub>||² / Σ<sub>h</sub> w<sub>h</sub>
+
+Regional refits are aligned to the fixed reference by minimum centroid distance and shown descriptively. The inferential regional comparison uses individual test households as its unit, with PC1, PC2 and E as outcomes and region as the factor. Classical Wilks and Roy statistics are provided as unweighted diagnostics, not survey-design-adjusted national tests. Failure to reject a regional test is not evidence of equivalence, and resemblance among four centroid locations does not imply equal archetype prevalence.
+
+3.2. Probabilistic feature extraction
+
+Dwelling-age and area information is available in categories. The corrected empirical extraction uses 24 non-overlapping combinations of four construction-period groups and six common area groups. This avoids reusing the same household in many overlapping windows and calling those windows independent observations. For each cell, the workflow exports the actual count, sum of weights, effective sample size and four observed weighted proportions. Support is flagged when either the actual count or effective sample size is below 30; the threshold is a display and caution rule, not a significance test.
+
+p̂<sub>jk</sub> = Σ<sub>h in j</sub> w<sub>h</sub> 1[g(h)=k] / Σ<sub>h in j</sub> w<sub>h</sub>; &nbsp; n<sub>eff,j</sub> = (Σ w<sub>h</sub>)² / Σ w<sub>h</sub>²
+
+The area proxies are 20, 49.5, 74.5, 104.5, 134.5 and 200 m². The first and last values require explicit bounds of 0-39 and 150-250 m². Construction proxies use 1924.5, 1959.5 and 1979.5 for the three older periods; the 1990+ group uses the midpoint between 1990 and the survey year. Thus the oldest group is represented by an assumed 1900-1949 interval. These values support a compact plotting and regression coordinate system, not a recovery of the unknown continuous values. Extrapolation outside the represented support is not recommended.
+
+A multinomial logistic model replaces four independently fitted polynomial probability regressions. A quadratic feature vector retains the source article's age, area, squares and interaction terms, but a softmax link guarantees a valid joint distribution. Archetype A4 is the reference, with its coefficient column fixed to zero. The coefficient matrix is fitted by weighted household-level cross-entropy, aggregated over identical predictor vectors only to accelerate computation:
+
+φ(x) = [1, a/100, A/100, a²/10⁴, A²/10⁴, aA/10⁴]<sup>T</sup>
+
+p<sub>k</sub>(x) = exp[β<sub>k</sub><sup>T</sup>φ(x)] / Σ<sub>l=1</sub><sup>4</sup> exp[β<sub>l</sub><sup>T</sup>φ(x)], &nbsp; β<sub>4</sub> = 0 &nbsp;&nbsp; (3)
+
+A small ridge penalty is applied to slopes, not intercepts. Its value is selected from four prespecified candidates using tuning-set log loss. Coefficient p-values, Gaussian F-statistics and adjusted R² are not reported for this penalized multinomial model; they are not valid substitutes for probabilistic prediction scores. A secondary model adds the common location and dwelling-type indicators. It is evaluated as an alternative, not used in an iterative p-value removal chain. The original claim that all omitted variables have no predictive value is therefore not carried forward.
+
+<b>Algorithm 1.</b> Corrected empirical extraction and probability fitting.
+
+BS = Σ<sub>h in test</sub> w<sub>h</sub> Σ<sub>k=1</sub><sup>4</sup> (p<sub>hk</sub> - 1[g(h)=k])² / Σ<sub>h in test</sub> w<sub>h</sub>
+
+The Brier score is the sum over four classes, not the class-averaged convention. Lower Brier score and lower log loss are better. The calibration plot compares predictions with weighted proportions among test households in each cell. Its points are not independent estimates of a continuous probability surface, and sparse cells should not be interpreted as precise failures or successes. The entire test evaluation is conditional on the stated demographic measurement model.
+
+3.3. Regression analysis and energy groups
+
+The heating response is the sum of reported operation in three eight-hour daily bands. To respect the differing question routes, both years are restricted to use-frequency categories 1 or 2, with all three hours observed and each value between 0 and 8. Missing hours are not zeros. The resulting mean describes a typical reported winter day among frequent users; it is neither an annual heating duration nor the mean over all households. The electricity response is the existing annual appliance-kWh estimate associated with the 2013 record.
+
+For correspondence with the original ANOVA table, a prespecified weighted linear model includes archetype, common dwelling type, location, available insulation rating, age proxy, area proxy, cooling-system presence and the listed interactions. HC3 heteroscedasticity-robust covariance is used for joint coefficient-block Wald F tests on test households [10]. Main-effect block tests in a model containing interactions are conditional on its reference coding. They should not be read as total causal effects. Holm correction is applied across the available blocks within each response. The use of final survey weights does not make these full design-based survey tests.
+
+Cooling presence is reconstructed from the equipment inventory, not from positive cooling hours. Complete skipped inventory blocks with no use-frequency response are treated as routed absence according to the questionnaire; partial unexplained missingness is retained as unknown and omitted from that regression. This rule is separately recorded because a structural skip is different from a generic missing value. In 2021, an insulation-investment indicator cannot stand in for the unavailable 2013 rating.
+
+Energy-group construction is changed more substantially. Repeatedly merging the least significant Tukey pair on the same observations does not preserve the guarantee associated with one fixed family of comparisons. The corrected procedure starts from training cells defined by location, common dwelling type and archetype. Cells with fewer than 30 training observations are unsupported. Adjacent cells ordered by their training-weighted means are merged by minimum increase in weighted squared error. Candidate partitions contain one to eight groups; tuning-set RMSE selects the number. The selected map is frozen before test evaluation.
+
+<b>Algorithm 2.</b> Split-sample grouping and verification, replacing adaptive Tukey merging.
+
+Tukey-Kramer results are supplied as a classical sample-level diagnostic conditional on the learned partition, with their equal-variance and independence assumptions [11]. The weighted robust contrasts provide a different, explicitly model-based check. Neither establishes equality merely because a contrast is not significant. Group labels are ordered by training means, so their test means need not remain strictly ordered. Weighted boxplots show the median, quartiles and non-outlying whiskers of the test distributions; suppressing plotted outliers does not remove observations from fitting or evaluation.
+
+4. Results and discussion
+
+4.1. Principal components and clusters
+
+The first three components of the four-variable training PCA explain 98.33% of weighted standardized variance. The first two demographic components explain 97.75% (Figure 2). Every cumulative curve reaches 100% when all its components are included. These are estimates from the 2013 training subset, not values selected to reproduce the percentages in the published figure.
+
+Figure 2. Cumulative explained variance for the 2013 training-weighted correlation-matrix PCA: (a) all four household variables; (b) the three demographic variables. These fitted bases are reused unchanged in 2021.
+
+Figure 3 reports within-cluster weighted mean squared distance for one to ten clusters. The curve is a resolution diagnostic: increasing the number of centers generally reduces this objective even when no unique natural partition exists. A universal Calinski-Harabasz threshold is not invoked, and choosing four clusters is presented as a modeling convention consistent with the research question. The four-center reference is fitted once to the training data and used for all subsequent subsets.
+
+Figure 3. Weighted within-cluster dispersion for the 2013 training subset. The vertical line marks the prespecified four-archetype resolution, not a statistically established optimum.
+
+There are 0 eligible households outside at least one 2013 training min-max limit. Their coordinates are retained rather than clipped. Figure 4 compares regional descriptive refits with the national training reference. Regional symbols are scaled by sample count rather than by an unsupported interpretation of a clustering-validity index. The connecting segments identify four aligned centers; they do not represent trajectories or individual household transitions.
+
+Figure 4. Regional four-center refits for the 2013 eligible sample (grey) and the frozen 2013 training centers (colored). The source-style two-dimensional projection shows normalized schooling and PC1; PC2 is omitted from the display, not from clustering. Regional fits share the reference coordinates and are aligned by minimum distance. Grey marker area increases with regional sample count.
+
+<b>Table 2.</b> Regional MANOVA on individual held-out households; unweighted diagnostic, not centroid-level or survey-design inference.
+
+The unit of analysis in Table 2 is a household, not one of four fitted centroids per region. The table tests equality of multivariate conditional means under the classical model assumptions. It cannot establish regional equivalence of full demographic distributions or of archetype shares. Moreover, large samples can identify small departures from mean equality; the p-values should be considered alongside centroid geometry and the substantive size of regional differences, rather than turned into a binary assertion that geography does or does not matter.
+
+4.2. Definition of user archetypes
+
+<b>Table 3.</b> Weighted demographic summaries by fixed-reference archetype. Entries are mean (population-weighted standard deviation); ages are category proxies.
+
+<b>Archetype A1.</b> The weighted mean minimum and maximum age proxies are 73.9 and 79.3 years, with 1.39 members and a schooling proxy of 0.209. This group accounts for 24.81% of eligible household weight and 15.11% of people weight within those households. These summaries describe the fitted group; they do not identify employment, retirement, parenthood or a particular domestic relationship unless those characteristics are separately observed.
+
+<b>Archetype A2.</b> The weighted mean minimum and maximum age proxies are 13.8 and 48.5 years, with 3.62 members and a schooling proxy of 0.611. This group accounts for 36.14% of eligible household weight and 57.45% of people weight within those households. These summaries describe the fitted group; they do not identify employment, retirement, parenthood or a particular domestic relationship unless those characteristics are separately observed.
+
+<b>Archetype A3.</b> The weighted mean minimum and maximum age proxies are 57.6 and 64.1 years, with 1.47 members and a schooling proxy of 0.576. This group accounts for 27.28% of eligible household weight and 17.63% of people weight within those households. These summaries describe the fitted group; they do not identify employment, retirement, parenthood or a particular domestic relationship unless those characteristics are separately observed.
+
+<b>Archetype A4.</b> The weighted mean minimum and maximum age proxies are 42.9 and 55.3 years, with 1.90 members and a schooling proxy of 0.961. This group accounts for 11.78% of eligible household weight and 9.82% of people weight within those households. These summaries describe the fitted group; they do not identify employment, retirement, parenthood or a particular domestic relationship unless those characteristics are separately observed.
+
+Figure 5 distinguishes households from people. A cluster with a larger average household size can represent a greater share of people than of households. All shares use the official weights and the same eligible domain. They should not be directly compared with the original article's unweighted full-sample figures, because feature definitions, exclusions, weighting and fitted centers have changed. Similarly, a fixed cluster label describes proximity in the modeled feature space rather than a diagnostic category of occupant behavior.
+
+Figure 5. Weighted shares of the four fixed-reference archetypes in the 2013 eligible sample. Stacked bars distinguish households from people within those households, matching the source figure type. Both bars are conditional on one to five members and complete required demographic information.
+
+4.3. Associating user archetypes with building types
+
+The dwelling-probability analysis includes 18,817 households: 13,190 for fitting, 2,807 for tuning and 2,820 for final evaluation. The selected ridge penalty is 0.0001. Table 4 reports the actual coefficient matrix used in Equation (3), followed by household-level test scores. Its A4 reference column is zero by construction; A4 nevertheless has a nonzero probability through the softmax denominator.
+
+<b>Table 4.</b> Multinomial quadratic coefficient matrix. Values are log-odds coefficients relative to A4, not direct probability effects. All computations use unrounded coefficients.
+
+<b>Table 4 (continued).</b> Held-out household predictive performance. Lower is better; ridge settings were chosen without using the test subset.
+
+The quadratic model changes the Brier score by +4.94% relative to the marginal baseline, where a positive value denotes improvement. The secondary location/type model has a test Brier score of 0.6825. This comparison is more directly relevant to assigning an unknown household than a high in-sample R² on smoothed proportions. It also prevents interpreting probabilistic regression as an exception to classification: a multinomial classifier itself produces probabilities, and a poor hard-label confusion matrix does not establish that probabilistic classification is unsuitable.
+
+Figure 6 shows smooth model profiles against the floor-area proxy, with one line for each represented building-age proxy. The dots are empirical proportions from test households, not values from the fitting subset. The curves interpolate between categorical proxy coordinates and must not be read as evidence of an observed within-category area response. In particular, their oldest and largest categories depend on chosen finite bounds. Crosses identify cells with low actual or effective support.
+
+Figure 6. Archetype probability versus dwelling floor-area proxy. Grey line styles distinguish building-age proxies in the jointly constrained quadratic multinomial model. Archetype-colored points are weighted held-out cell proportions; crosses have fewer than 30 actual or effective observations. The axes match the caption.
+
+In Figure 7, the diagonal is the calibration reference. Departure from it reflects differences between the model and a finite test-cell proportion, including sampling variability and model misspecification. Large and small cells are not equally informative, so marker sizes reflect effective sample size. No claim of near-perfect individual prediction is inferred from visual alignment. The predicted probability vector is checked for positivity and unit sum on every eligible household without clipping individual components.
+
+Figure 7. Predicted probabilities (vertical axis) against held-out weighted cell proportions (horizontal axis), with four archetype colors in one source-style plot. The diagonal denotes calibration; marker area increases with effective sample size and crosses identify weakly supported cells. This replaces in-sample fitted-proportion validation.
+
+4.4. Deriving energy-use patterns for occupant groups
+
+The matched frequent-heating sample contains 18,105 households, including 2,698 test observations. Its weighted mean reported operating duration is 7.88 hours per winter day. The energy-group procedure retains 7 heating groups. Predictions fall back to the training-wide mean for 6 test households whose categorical cell lacks the minimum training support. These observations remain in the predictive score rather than being discarded to improve apparent performance.
+
+The complete-covariate heating regression in Table 5 uses 2,617 test households. The corresponding electricity regression uses 2,792. These counts are smaller than the group-evaluation samples because the regression additionally requires known age/area proxies and the available equipment and insulation covariates. The fitted design matrices are checked for full column rank.
+
+<b>Table 5.</b> Prespecified energy-model coefficient-block tests on held-out households. HC3 Wald F statistics and Holm-adjusted p-values; unavailable variables/responses are not substituted.
+
+For heating, the blocks passing the within-response Holm threshold of 0.05 are Location. The table and this statement are generated from the same result objects. Significance does not quantify practical predictive gain, establish causal effects or validate all interactions. A group can have a distinct distribution without every pairwise difference being statistically established, and different grouping criteria can produce a different number of groups.
+
+<b>Table 6.</b> (a) Training-defined heating groups, summarized on test households. Examples are the highest-count training cell assigned to each group, not duplicated illustrative scenarios.
+
+<b>Table 6 (continued).</b> (b) Training-defined electricity groups, summarized on test households. Examples are the highest-count training cell assigned to each group, not duplicated illustrative scenarios.
+
+The heating-group test RMSE is 3.772 hours, compared with 4.025 hours for the training-wide mean. The electricity model selects 5 groups and has a test RMSE of 1818.6 kWh/year, compared with 1861.0 kWh/year for its constant baseline. Its target is model-derived, so this is a test of prediction of that modeled response, not validation against household meters. Full group maps and fixed-family pairwise tests are exported. The groups are called training-defined groups rather than significant groups, because the procedure does not enforce significance by repeated merging on the test response.
+
+Figure 8. Weighted held-out distributions of (a) heating operating hours and (b) modeled annual appliance electricity. Boxes show quartiles, the median and 1.5-IQR whiskers; plotted outliers are suppressed but retained in calculations. Heating is stratified by reported insulation, electricity by cooling-system presence.
+
+Differences between the displayed subgroups are descriptive associations. For example, conditioning on reported insulation does not isolate an insulation intervention: dwelling condition, climate, resources and operation may all differ. Cooling presence is an equipment characteristic and should not be described as a measured cooling-energy effect. The original narrative's claims about building transmission losses, occupant thermal comfort and appliances causing the group differences are not retained without corresponding measurements or an identification strategy.
+
+5. Implications for building simulations
+
+The corrected outputs provide a way to represent uncertainty about the occupants of a dwelling. A simulator can draw an archetype from the four modeled probabilities and then use a compatible distribution of operating parameters. Repeated draws represent occupant-assignment uncertainty more faithfully than treating the most probable archetype as known. However, this study does not validate the resulting building-energy predictions. Any claimed reduction in simulation error requires a separate test using buildings with measured energy and comparable weather, systems and operation.
+
+For a regional or national stock model, the conditional sampling domain and weights matter. The present results do not cover households of six or more members, households with required missing education, or unknown dwelling categories in the probability stage. An operational implementation must state how it handles those cases and should not silently reuse the last available category. It should also preserve probability uncertainty instead of making deterministic assignments appear more certain than the evidence allows.
+
+5.1. Assumptions on internal heat gains
+
+The source article compares a constant ISO-based example with an area-dependent EN-based example. Its constants, 1717 kWh/year and 1879 kWh/year at 120 m², are reproduced here as calculations reported by that article [1], not newly verified universal requirements of the standards. The public ISO scope supports the interpretation of schedules as informative examples [8]. The original derivations and appliance boundaries would have to be independently checked against the complete standards before treating either as a like-for-like benchmark.
+
+Figure 9 preserves horizontal electricity-group boxplots, but their equally spaced vertical positions now denote ordered groups, not floor area. The right-hand labels report each group's weighted mean area proxy; they do not define a continuous area axis. The EN illustration is evaluated at those means, and its connecting segments are a visual guide across groups, not a fitted area-response curve. A group mean is not the response of a dwelling with exactly that area. The 150+ category is especially broad, and its assigned proxy of 200 m² is not an observed mean.
+
+Figure 9. Horizontal weighted held-out appliance-electricity distributions by training-defined group. The vertical ISO example is 1717 kWh/year; EN markers scale 1879 kWh/year at 120 m² to each group's mean area proxy (right labels). The vertical axis denotes groups, not area. Source-paper benchmarks are attributed illustrations, not current legal requirements or demonstrated prediction errors.
+
+<b>Table 7.</b> Illustrative benchmark comparison by archetype on held-out households with known area. Percentage differences use the modeled group mean as denominator; they are not validation errors. In 2021 only reference values are available.
+
+Relative difference (%) = 100 × (reference value - group mean) / group mean
+
+The denominator is stated because changing it changes the percentage. This definition also corrects the arithmetic inconsistency in the source article's E5 example: comparing 1717 with 2895 gives -40.69%, not -60%. The new table recalculates every entry from the new response summaries. More importantly, a numerical difference is not an energy-performance gap unless the same outcome, boundary, weather and operating conditions have been evaluated. No percentage in Table 7 is presented as a measured improvement of the proposed method over a standard.
+
+5.2. Assumptions on heating-system schedules
+
+The original discussion compares reported heating hours with maximum daily durations associated with climatic zones. A maximum duration is not an estimate of typical use. The corrected Table 8 therefore treats the values 6, 8, 10, 12 and 14 hours as explicit schedule scenarios quoted from the source paper, not as current legal advice or household-level compliance classifications. The available survey geography does not identify each household's municipal climatic zone, so no region is assigned a single zone and no household is classified as exceeding a legal limit.
+
+<b>Table 8.</b> Scenario duration relative to held-out heating-group mean: 100 x (scenario - mean) / mean. All entries are hypothetical comparisons, not geographically matched errors or compliance assessments.
+
+Figure 10 retains the geographic-map figure type but displays the statistic that can actually be estimated from the released geography: weighted regional heating hours among the eligible frequent users. The supplied 2024 regional boundaries are used only for cartography. The map is not a municipal climate-zone map, and it does not imply that a region is climatically uniform. Regional means can reflect the composition of households, buildings and systems as well as weather.
+
+Figure 10. Weighted mean reported daily heating hours by region, 2013 eligible frequent-use sample. Regional polygons come from the supplied ISTAT 2024 boundary file. This map replaces the unreconstructable municipal climate-zone layer; it is not a map of legal limits.
+
+Operating duration alone is insufficient to calculate heat demand: setpoints, heated floor area, intermittency, envelope heat transfer, weather and system efficiency are also needed. The appropriate next simulation experiment would propagate both archetype-assignment and schedule uncertainty, compare resulting predictions with independent measured energy, and report whether the gain exceeds the uncertainty caused by those other inputs. The present analysis supplies candidate inputs for that experiment, not its outcome.
+
+6. Conclusions
+
+This corrected 2013 analysis retains a four-archetype framework while replacing the source implementation's recursive education recoding, undocumented age distortions and hard-coded component expressions. The reference model is based on a documented eligible sample and a fitted weighted PCA. The resulting 2013 archetypes provide a reproducible baseline for later releases.
+
+The dwelling model yields a valid four-category probability distribution by construction. Its test Brier score of 0.6859, compared with 0.7215 for the marginal baseline, provides a direct assessment of predictive value under the proxy assumptions. Neither high in-sample R² nor visual calibration alone is used to claim household-level accuracy. The secondary location/type model and sparse-cell diagnostics remain available for comparison, without a claim that all omitted variables are irrelevant.
+
+The training-and-tuning process selects 7 heating groups. Their test prediction error is 3.77 hours, while the constant training predictor has error 4.03 hours. Group memberships are not repeatedly modified to obtain significant test differences. The modeled appliance-electricity analysis is reported with the explicit limitation that its response is generated by an external model rather than measured by meters.
+
+Three limitations remain unresolved by code corrections alone. First, non-nested age bands and combined education categories prevent exact measurement equivalence between releases; the scenario appendix shows the resulting sensitivity. Second, the uncertainty calculations do not reconstruct the full survey design. Third, no independent building-simulation validation has been performed. The manuscripts therefore support a reproducible, explicitly conditional reanalysis, not a claim that all original conclusions have been confirmed or that the revised framework is ready for adoption as a standard.
+
+Appendix A. Assignment of energy groups
+
+Figure A.1 gives the complete mapping from the three common dwelling types, four geographic divisions and four archetypes to the selected training-defined energy groups. Each row is an input combination, not an observed household trajectory. A dash denotes insufficient training support and invokes the training-wide mean in predictive evaluation. The mapping must be used with the same fixed archetype definition and category crosswalk; replacing a category label without preserving its meaning invalidates the assignment.
+
+Figure A.1. Energy-group assignment by location, common dwelling type and fixed-reference archetype. Group labels are selected on training/tuning data only. Dashes denote unsupported training cells; the 2021 electricity map is unavailable.
+
+<b>Table A.1.</b> Core crosswalk and availability checks.
+
+Appendix B. Sensitivity and reproducibility
+
+Eight scenarios are evaluated: the midpoint reference; no/primary schooling values of zero and five years; an upper age cap of 90 years; a tertiary-schooling value of 16 years; and three seeded uniform draws within each released age interval. Every alternative demographic model is fitted only to the 2013 training subset and then applied unchanged to both years. Alternative labels are aligned to the reference by maximum weighted household agreement. The ranges describe choices about uncertain measurement, not confidence intervals and not a posterior distribution.
+
+<b>Table B.1.</b> Scenario sensitivity of 2013 weighted household shares (%).
+
+Figure B.1. Input-assumption sensitivity: (a) 2013 household shares; (b) changes between 2021 and 2013 under each common scenario. Dots mark the midpoint reference. Vertical spans are scenario ranges, not confidence intervals.
+
+A complete uncertainty assessment would additionally vary the construction and floor-area bounds, the probability functional form, the household-size restriction and the missing-data model, and would repeat the entire analysis with valid survey-design resampling. Those analyses are not claimed to have been completed. The present scenarios identify a material limitation without implying that their envelope exhausts uncertainty. In particular, a small observed share change that is sensitive to age or education coding should not be described as an established temporal shift.
+
+The executable workflow regenerates the scientific tables, vector SVG/PDF plots and both manuscripts from the raw releases and the existing 2013 appliance-energy input. It writes into a separate output directory and does not overwrite the legacy pipeline. The JSON configuration records paths, seeds, split proportions, proxy assumptions, support thresholds and penalty candidates. Input and output hashes, fitted transforms, full-precision coefficients, household splits and exclusion logs are retained. Figures use the same result files as the narrative and tables.
+
+<b>Reproduction command:</b> <font name="Courier">.\.venv\Scripts\python.exe run_revised_papers.py</font>
+
+Appendix C. Corrections relative to the source article
+
+<b>Table C.1.</b> Correction register. Methodological changes are explicit; unavailable evidence is not described as repaired data.
+
+Data and code availability
+
+The analyses use the locally supplied ISTAT research microdata and their accompanying questionnaires, classification files and methodological notes [6,7]. Public information about access is available from ISTAT; the workflow does not redistribute household-level records or imply that research-access files can be published without checking their conditions. The source article's public code [12] and local history informed the correction register. The revised scripts and aggregate outputs are stored with this manuscript; all household-level outputs remain local.
+
+Authorship, declarations and acknowledgements
+
+This working manuscript was prepared as a computational and methodological revision of the cited article at the requester's direction. It requires review and approval by the responsible authors before submission or dissemination as a scientific paper. The source article's authorship contributions, competing-interest declaration, funding statement and institutional endorsements are not automatically carried over to this new analysis. No new author approvals, conflicts declarations or funding claims are asserted here.
+
+References
+
+[1] Khajedehi, M.H., Vivian, J., and Zarrella, A. (2025). Identification of Italian user archetypes for building energy simulations based on a national survey. Energy &amp; Buildings 344, 115924. <link href="https://doi.org/10.1016/j.enbuild.2025.115924" color="#355d7d">doi:10.1016/j.enbuild.2025.115924</link>. Source article, distributed under CC BY; this manuscript is an adaptation with changed analyses and conclusions.
+
+[2] De Wilde, P. (2014). The gap between predicted and measured energy performance of buildings: a framework for investigation. Automation in Construction 41, 40-49. doi:10.1016/j.autcon.2014.02.009. Background reference identified in the source article.
+
+[3] Yan, D., O'Brien, W., Hong, T., Feng, X., Gunay, H.B., Tahmasebi, F., et al. (2015). Occupant behavior modeling for building performance simulation: current state and future challenges. Energy &amp; Buildings 107, 264-278. doi:10.1016/j.enbuild.2015.08.032. Background reference identified in the source article.
+
+[4] Dong, B., Liu, Y., Mu, W., Jiang, Z., Pandey, P., Hong, T., et al. (2022). A global building occupant behavior database. Scientific Data 9, 369. doi:10.1038/s41597-022-01475-3. Background reference identified in the source article.
+
+[5] Rugani, R., Picco, M., Salvadori, G., Fantozzi, F., and Marengo, M. (2024). A numerical analysis of occupancy profile databases impact on dynamic energy simulation of buildings. Energy &amp; Buildings 310, 114114. doi:10.1016/j.enbuild.2024.114114. Background reference identified in the source article; its numerical effects are not imported as results here.
+
+[6] ISTAT. Indagine sui consumi energetici delle famiglie, 2013 research release. Locally supplied microdata, questionnaire, classifications, record layout and methodological note. <link href="https://www.istat.it/microdati/indagine-sui-consumi-energetici-delle-famiglie/" color="#355d7d">Official research-file information</link>. Access information checked September 2026.
+
+[7] ISTAT. Indagine sui consumi energetici delle famiglie, 2021 research release. Locally supplied microdata, questionnaire, classifications, record layout and methodological notes. <link href="https://www.istat.it/comunicato-stampa/consumi-energetici-famiglie-anni-2020-2021/" color="#355d7d">Consumi energetici delle famiglie - Anni 2020-2021</link> (21 December 2022).
+
+[8] International Organization for Standardization (2018). ISO 18523-2:2018. Energy performance of buildings - Schedule and condition of building, zone and space usage for energy calculation - Part 2: Residential buildings. <link href="https://www.iso.org/standard/69633.html" color="#355d7d">Official scope and publication information</link>. The public scope was checked; full normative tables were not independently rederived.
+
+[9] European Committee for Standardization (2019). EN 16798-1:2019. Energy performance of buildings - Ventilation for buildings - Part 1: Indoor environmental input parameters. Bibliographic and illustrative benchmark information reproduced from the source article [1]; no assertion about the current edition or universal appliance-energy requirements.
+
+[10] statsmodels documentation. Linear-model inference and heteroscedasticity-robust covariance; <link href="https://www.statsmodels.org/dev/generated/statsmodels.stats.anova.anova_lm.html" color="#355d7d">ANOVA documentation</link>. The implementation uses prespecified WLS coefficient-block Wald tests with HC3 covariance, not an unqualified survey-design ANOVA.
+
+[11] statsmodels documentation. <link href="https://www.statsmodels.org/stable/generated/statsmodels.stats.multicomp.pairwise_tukeyhsd.html" color="#355d7d">pairwise_tukeyhsd</link>. Used for a single classical test family on fixed held-out groups; weighted robust contrasts are exported separately.
+
+[12] BETALAB-team. ita-domes, UserArchetypes source code, inspected at commit 1b5972b1e052f00a2fdd9fa30d46bb442205c83d. <link href="https://github.com/BETALAB-team/ita-domes/tree/1b5972b1e052f00a2fdd9fa30d46bb442205c83d/resources/istat_data/UserClusters/istat_data" color="#355d7d">Archived code cited by the source article</link>. This is evidence about available implementation files, not proof of the exact unpublished execution used for every published result.

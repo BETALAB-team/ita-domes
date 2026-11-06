@@ -1,0 +1,20 @@
+[
+  {
+    "response": "heating_daily_hours",
+    "formula": "heating_daily_hours ~ C(archetype) + C(dwelling_type) + C(location) + building_age_years + dwelling_area_m2 + C(cooling_system_use) + C(archetype):C(dwelling_type) + C(archetype):C(location) + C(dwelling_type):C(location) + building_age_years:dwelling_area_m2",
+    "n": 43569,
+    "R2": 0.1108210772090289,
+    "rank": 48,
+    "design_columns": 48,
+    "warnings": []
+  },
+  {
+    "response": "electricity_annual_kwh",
+    "formula": "electricity_annual_kwh ~ C(archetype) + C(dwelling_type) + C(location) + building_age_years + dwelling_area_m2 + C(cooling_system_use) + C(archetype):C(dwelling_type) + C(archetype):C(location) + C(dwelling_type):C(location) + building_age_years:dwelling_area_m2",
+    "n": 46712,
+    "R2": 0.26642868086415306,
+    "rank": 48,
+    "design_columns": 48,
+    "warnings": []
+  }
+]

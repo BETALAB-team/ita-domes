@@ -1,0 +1,177 @@
+{
+  "survey_year": 2013,
+  "source_crosswalk": {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\legenda_istat-old.xlsx",
+    "sha256": "12161efd914e87913d6dd1221e165dfec38a1dda6e856bace9462cca85eac1a2"
+  },
+  "outputs": {
+    "baseline\\archetype_model.json": {
+      "sha256": "b533505473b13e27f25a10ab669baa7450fed2261aeb759cf026093f6876ae90",
+      "bytes": 1879
+    },
+    "baseline\\archetype_summary.csv": {
+      "sha256": "548b22002bf6b7384bdeb6d5e78ce67468909435f01ccdff8ef52953d5781889",
+      "bytes": 2004
+    },
+    "baseline\\household_archetypes.csv": {
+      "sha256": "1d4dea8d57a21927e6066d03e036d16da6530ec4e1e76196c9fc06807f2fff72",
+      "bytes": 1596532
+    },
+    "baseline\\preprocessing_exclusions.csv": {
+      "sha256": "1e4138fc49c349ee2d6f05a1400bfd6de6d997776a62773e82344096a99d637c",
+      "bytes": 68407
+    },
+    "baseline\\validation_report.json": {
+      "sha256": "8acdf55d83fb052bc22d7263a44b167456bbf81e5bc4118f1a4cb64a8c52214d",
+      "bytes": 13937
+    },
+    "energy\\anova_results.csv": {
+      "sha256": "ef7fbe5dd42141263f7147e30dc388a8b944d085828386867b94e410138130ae",
+      "bytes": 4031
+    },
+    "energy\\electricity_tukey_groups.csv": {
+      "sha256": "a235392c83006a2048ee44d817f9d2ab135034ede82c3dc77376de4642ac1daf",
+      "bytes": 1571
+    },
+    "energy\\energy_analysis_dataset.csv": {
+      "sha256": "da2feb7ed3e3695b9411aaf8b28b224e3bfbf84b778c0c4d05730b6c3487e6b6",
+      "bytes": 2185419
+    },
+    "energy\\energy_exclusions.csv": {
+      "sha256": "2e5fe40dfe85900bdd4117bde064c7be9315deb426b4fe6d1b6f09e6064396d2",
+      "bytes": 10237
+    },
+    "energy\\energy_factor_summary.csv": {
+      "sha256": "39bcc9b813fa9b479f12d453a3a14db382836143ecf3b80c0f94a549f7ba2724",
+      "bytes": 698
+    },
+    "energy\\energy_group_summary.csv": {
+      "sha256": "37d5f05bcaa7b72e184b467083be0ce5888ca29413cfdb98e3244c445272271e",
+      "bytes": 1498
+    },
+    "energy\\energy_model.json": {
+      "sha256": "fa826ef0682b3dd87b75ab3df2892e6246b362de4bc1fc63d9111b9c90d4c9e4",
+      "bytes": 1381
+    },
+    "energy\\heating_tukey_groups.csv": {
+      "sha256": "1539d3973228e79cc53f8913693b22fc90e3f92bd391eef407b047bd1641f722",
+      "bytes": 6621
+    },
+    "energy\\tukey_merge_history.csv": {
+      "sha256": "dedc1d5c84e58ed364149a4a1988a52cf012806d082a704e46feca591ffffa96",
+      "bytes": 11092
+    },
+    "energy\\validation_report.json": {
+      "sha256": "6b676fbe9c6cbfa7be814a808fe85046dd90cf2a7ec642537f34defda010e6e7",
+      "bytes": 3688
+    },
+    "figures\\archetype_population_shares.png": {
+      "sha256": "5d27d302581f01352143ecb190e9d4721ecc173285fea070dec63bfdd7c6c9aa",
+      "bytes": 50781
+    },
+    "figures\\archetype_population_shares.svg": {
+      "sha256": "4b9d03c16267da39a11eb31a2b01d752a113ebe75f533f380200be852f729d49",
+      "bytes": 12553
+    },
+    "figures\\clustering_elbow.png": {
+      "sha256": "2a17ac4cbbf732484e8cb9ab92868c729a47572baa906ae7e18722d37a676e09",
+      "bytes": 52933
+    },
+    "figures\\clustering_elbow.svg": {
+      "sha256": "eff801a34d00d32b58f0bbdccd5562cd6a4a9a0c0725a0b0b673c69617f092b9",
+      "bytes": 14131
+    },
+    "figures\\dwelling_probability_profiles.png": {
+      "sha256": "5703405cd842ae85c979e3b29603956b95b8f55a18595df1be7b87359d9369d1",
+      "bytes": 226363
+    },
+    "figures\\dwelling_probability_profiles.svg": {
+      "sha256": "eb5364151003f339254261c5db7edf28dfcd0771dbe3ad25e06e94a667c4b675",
+      "bytes": 99133
+    },
+    "figures\\electricity_standard_comparison.png": {
+      "sha256": "142ac26d33da0525edb9eac46a5277419a0856afab6a2d7c38ea5c464bb386b1",
+      "bytes": 123778
+    },
+    "figures\\electricity_standard_comparison.svg": {
+      "sha256": "7b7a9745d854235707ab6f4765d51a114db1c1fbec92c0054d7d2a3a3a66f9d6",
+      "bytes": 25055
+    },
+    "figures\\energy_group_boxplots.png": {
+      "sha256": "6bc2a6786ac563b7357afa0d3cee302642ad10e7ef263d632f2ac23b2ecc0009",
+      "bytes": 123314
+    },
+    "figures\\energy_group_boxplots.svg": {
+      "sha256": "0cf4ad10d9d9f49432aedfa675dbbb9661549cc66e35bc963b120e24a3eb8f9b",
+      "bytes": 52606
+    },
+    "figures\\group_assignment_matrix.png": {
+      "sha256": "fbe8e422ad3b04fe3d01fec11eb378c32f2d3efd7ec104392e1c3e05396d30f9",
+      "bytes": 300616
+    },
+    "figures\\group_assignment_matrix.svg": {
+      "sha256": "e08cb156b23ffcda080ea587c65960e4311caee8c9cdcbe407f7893c7a80ce19",
+      "bytes": 104394
+    },
+    "figures\\pca_explained_variance.png": {
+      "sha256": "9f7a6faa71b0c563ac05323c9cb0c5497f4b5a6a3204aa0364d25497e4d07e6e",
+      "bytes": 62975
+    },
+    "figures\\pca_explained_variance.svg": {
+      "sha256": "110ec7909f964c60fc9233f5968876285ecd5327dcdd6c1667a10ddf34019f3c",
+      "bytes": 21265
+    },
+    "figures\\probability_model_validation.png": {
+      "sha256": "998a1bde03076f604b3d9c0c834b08b46a9ab872ef43e69069017c9d3e58e1e7",
+      "bytes": 100660
+    },
+    "figures\\probability_model_validation.svg": {
+      "sha256": "1114ae5ac784b1f87cccc07a508819f6142f2d07f2d00bfb55d1038d3c511b40",
+      "bytes": 57334
+    },
+    "figures\\regional_cluster_centroids.png": {
+      "sha256": "9044e47137a8e36ea49e902d7fd876e2e949f42e924b256da078e713e9e85e58",
+      "bytes": 161244
+    },
+    "figures\\regional_cluster_centroids.svg": {
+      "sha256": "8b240c4d1d39448361f6d1e8b485ffe00055943cb09b52d7c45c0bd217c18a78",
+      "bytes": 72552
+    },
+    "figures\\study_process_flow.png": {
+      "sha256": "bd447129d0f74c2b67272cc88f789f88930ab108ca99591740a59b85080f41ba",
+      "bytes": 93390
+    },
+    "figures\\study_process_flow.svg": {
+      "sha256": "211c1515d3c385c9f2a8b00fa06d986bfa7de20e5bd0bd58d17eb537e1802161",
+      "bytes": 11738
+    },
+    "harmonization_report.json": {
+      "sha256": "47eef3eca8f3d029f9fcebb775accaa3138c8941c1ac6be27f09d12956dff9a4",
+      "bytes": 1934
+    },
+    "harmonized_istat.csv": {
+      "sha256": "9fd03a42b7707db03a0ad4eabac18dddf25504fd394122c5d9c66f10023fb115",
+      "bytes": 1766526
+    },
+    "pfe\\dwelling_archetype_probabilities.csv": {
+      "sha256": "f24a8059dda4df2b7339c73aff69cb4d1be533912e07379b741979d05707bb27",
+      "bytes": 6184
+    },
+    "pfe\\pfe_model.json": {
+      "sha256": "0cc4d0e1bf5382b618ae0648054600d9ef452361a7e340cf99c66a50587e1b3f",
+      "bytes": 1317
+    },
+    "pfe\\unsupported_windows.csv": {
+      "sha256": "889036aadb3bdc349786a2a2b5ceb258e738e8b600d01f033b2d01edd69caa8f",
+      "bytes": 107
+    },
+    "pfe\\validation_report.json": {
+      "sha256": "60c49a1aaa028d647757be8aec914f96d35262fa6d0094fd94929977c1cae53b",
+      "bytes": 2390
+    },
+    "validation_report.json": {
+      "sha256": "a084cbd19a8e4b31dbb49c19518617d50c5a6dfbe03ebf4a7c2d12670a1b6fa4",
+      "bytes": 25645
+    }
+  }
+}

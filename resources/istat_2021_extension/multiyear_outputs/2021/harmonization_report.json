@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "survey_year": 2021,
+  "source": {
+    "microdata": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\MICRODATI\\ISTAT_MFR_ECH_Microdati_2021_DELIMITED.txt",
+    "microdata_sha256": "dd7afa7fcf581014e4a95c27035422b08fa9fb2f211c7551deeb4568fe174eb4",
+    "legend": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\legenda_istat.xlsx",
+    "legend_sha256": "3becc761ef680abc8a5160f806b782a8e55d981916f4e3bc4cd69a6418ce60d9"
+  },
+  "mapping": {
+    "ID_RECORD": "id",
+    "ncomp_mfr": "q_1_1_sq1",
+    "REGIO": "reg",
+    "RIP": "rip",
+    "v1_2_new": "q_2_4_ric",
+    "v1_7_mfr": "q_2_7_class",
+    "eta_mfr1": "cletad_1",
+    "eta_mfr2": "cletad_2",
+    "eta_mfr3": "cletad_3",
+    "eta_mfr4": "cletad_4",
+    "eta_mfr5": "cletad_5",
+    "istr_mfr1": "titstu_1",
+    "istr_mfr2": "titstu_2",
+    "istr_mfr3": "titstu_3",
+    "istr_mfr4": "titstu_4",
+    "istr_mfr5": "titstu_5"
+  },
+  "available_member_columns": 5,
+  "row_counts": {
+    "source_households": 54069,
+    "households_with_zero_members": 0,
+    "households_exceeding_available_member_columns": 549
+  },
+  "validation": {
+    "passed": true,
+    "checks": {
+      "schema_is_exact": true,
+      "ids_are_nonmissing": true,
+      "ids_are_unique": true,
+      "household_counts_are_nonnegative": true,
+      "regions_are_canonical": true
+    }
+  },
+  "output": {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\multiyear_outputs\\2021\\harmonized_istat.csv",
+    "sha256": "905a87d84ce859e36bcd0d4c0b7fefc47e7875adab8f62f85316f644b331ec40",
+    "columns": [
+      "id",
+      "survey_year",
+      "q_1_1_sq1",
+      "cletad_1",
+      "cletad_2",
+      "cletad_3",
+      "cletad_4",
+      "cletad_5",
+      "cletad_6",
+      "cletad_7",
+      "cletad_8",
+      "cletad_9",
+      "cletad_10",
+      "cletad_11",
+      "cletad_12",
+      "titstu_1",
+      "titstu_2",
+      "titstu_3",
+      "titstu_4",
+      "titstu_5",
+      "titstu_6",
+      "titstu_7",
+      "titstu_8",
+      "titstu_9",
+      "titstu_10",
+      "titstu_11",
+      "titstu_12",
+      "reg",
+      "rip",
+      "q_2_4_ric",
+      "q_2_7_class"
+    ]
+  }
+}

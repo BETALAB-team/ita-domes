@@ -1,0 +1,14 @@
+{
+  "body_words_including_tables_and_captions": 12916,
+  "pages": 30,
+  "figures": 5,
+  "tables": 8,
+  "references": 40,
+  "pdf_sha256": "7fa586e74e5e4f1939e7395f74a3c1e4e6c8533bb32002af7201a939a9bcbd5a",
+  "pending_sections": [
+    "[DECOMPOSITION RESULTS PENDING: report the common-domain 2013 and 2021 mean for each harmonized outcome, the total difference, the composition component, the conditional-outcome component and their uncertainty. Verify that the components sum to the reported total.]",
+    "[SIMULATION RESULTS PENDING: report updated-minus-inherited energy estimates under common weather and physical stock, followed by savings for the same envelope and heating-system interventions. Include regional totals, per-eligible-dwelling quantities and uncertainty in option rankings.]",
+    "[CONCLUSION PENDING: insert the direction, magnitude and uncertainty of the temporal transfer, decomposition and regional retrofit results. Do not claim that updating improves prediction or changes priorities until these experiments are complete.]"
+  ],
+  "docx_status": "Not delivered because required renderer is unavailable"
+}

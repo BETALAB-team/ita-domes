@@ -1,0 +1,21 @@
+Location,Dwelling Type,H User Cluster 1,H User Cluster 2,H User Cluster 3,H User Cluster 4,E User Cluster 1,E User Cluster 2,E User Cluster 3,E User Cluster 4
+North East,"Apartment on ground, semi-basement or raised floor",H4,H3,H3,H3,E1,E4,E2,E2
+North East,Apartment on intermediate floor,H4,H3,H3,H4,E1,E4,E2,E2
+North East,Apartment on top floor,H4,H4,H3,H4,E1,E4,E2,E2
+North East,Single Family House,H4,H4,H4,H4,E3,E5,E4,E4
+North East,Multi Family House,H4,H4,H4,H4,E2,E5,E4,E4
+North West,"Apartment on ground, semi-basement or raised floor",H4,H3,H3,H4,E1,E4,E2,E2
+North West,Apartment on intermediate floor,H4,H3,H3,H4,E1,E4,E1,E2
+North West,Apartment on top floor,H4,H3,H3,H4,E1,E4,E2,E2
+North West,Single Family House,H4,H4,H4,H4,E2,E5,E3,E4
+North West,Multi Family House,H4,H4,H3,H4,E2,E5,E3,E4
+Central,"Apartment on ground, semi-basement or raised floor",H2,H2,H1,H2,E1,E4,E2,E2
+Central,Apartment on intermediate floor,H1,H1,H1,H2,E1,E4,E2,E2
+Central,Apartment on top floor,H2,H2,H1,H2,E1,E4,E2,E2
+Central,Single Family House,H3,H3,H2,H2,E2,E5,E3,E4
+Central,Multi Family House,H2,H2,H2,H2,E2,E5,E3,E3
+South and Islands,"Apartment on ground, semi-basement or raised floor",H1,H1,H1,H1,E1,E4,E1,E2
+South and Islands,Apartment on intermediate floor,H1,H1,H1,H1,E1,E4,E2,E2
+South and Islands,Apartment on top floor,H1,H1,H1,H1,E1,E4,E2,E2
+South and Islands,Single Family House,H3,H3,H3,H2,E2,E5,E3,E3
+South and Islands,Multi Family House,H2,H2,H2,H2,E2,E5,E3,E3

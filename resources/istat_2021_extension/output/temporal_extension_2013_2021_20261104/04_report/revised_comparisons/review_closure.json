@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-04",
+  "review": "../../03_review/revised_report_fidelity_check.md",
+  "outcome": "Revised values and graphics passed independent factual review",
+  "caption_fix": "Figure 4 now explicitly describes boxes spanning the 25th to 75th percentiles and the median line",
+  "additional_direct_comparison": "Unweighted frequent-user medians: heating 8 hours in both waves; cooling 4 hours in 2013 and 5 hours in 2021",
+  "narrative": "Direct temporal comparison with named domains and short local notes",
+  "baseline": "Printed 2013 results unchanged",
+  "layout": "All nine final rendered pages inspected by the primary agent"
+}

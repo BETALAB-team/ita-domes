@@ -1,0 +1,456 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep 10 14:22:24 2024
+
+@author: khajmoh18975
+"""
+
+
+import networkx as nx
+import matplotlib.pyplot as plt
+import os
+import pandas as pd
+import ast
+import numpy as np
+import random
+import seaborn as sns
+from sklearn.model_selection import cross_val_score, KFold, train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score, root_mean_squared_error
+from sklearn.preprocessing import OneHotEncoder,StandardScaler
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+
+import statsmodels.api as sm
+#%%
+def fit_quadratic_model(df, response_column):
+    # Prepare the quadratic terms for the predictors 'age' and 'area'
+    df['age_sq'] = df['age'] ** 2
+    df['area_sq'] = df['area'] ** 2
+    df['age_area'] = df['age'] * df['area']
+    
+    # Define the design matrix (X) and response (y)
+    X = df[['age', 'area', 'age_sq', 'area_sq', 'age_area']]
+    X = sm.add_constant(X)  # Adds the intercept (a0)
+    y = df[response_column]
+    
+    # Fit the model
+    model = sm.OLS(y, X).fit()
+    
+    # Extract the coefficients
+    return model.params
+def fit_linear_model(df, response_column):
+    # Define the design matrix (X) and response (y)
+    X = df[['age', 'area']]
+    X = sm.add_constant(X)  # Adds the intercept (a0)
+    y = df[response_column]
+    
+    # Fit the model
+    model = sm.OLS(y, X).fit()
+    
+    # Extract the coefficients
+    return model.params
+
+def random_age_from_range(age_range):
+    if isinstance(age_range, list) and len(age_range) == 2:
+        return random.randint(age_range[0], age_range[1])
+    return None
+
+def convert_and_max(array):
+    # Convert each element in the array to a float
+    array=ast.literal_eval(array)
+    numeric_array = np.array(array)
+    return np.max(numeric_array)
+def convert_and_count(array):
+    # Convert each element in the array to a float
+    array=ast.literal_eval(array)
+    numeric_array = np.array(array)
+    return np.count(numeric_array)
+def convert_and_min(array):
+    # Convert each element in the array to a float
+    array=ast.literal_eval(array)
+    numeric_array = np.array(array)
+    return np.min(numeric_array)
+
+#%% load
+clusters = pd.read_csv('clusters.csv')
+istat_path = os.path.join(".","istat_microdata_2013.csv") #os.getcwd()
+data = pd.read_csv(istat_path, delimiter=";")
+
+#%% merge
+merged_df = pd.merge(data, clusters[["segment","normal_l","normal_g","normal_s","identi"]], left_on='id', right_on='identi', how='inner')
+merged_df.drop(columns=['identi'], inplace=True)
+merged_df.reset_index()
+
+#%% clean
+data_to_analyze=merged_df[["segment","normal_l","normal_g","normal_s",
+                           "q_2_1","q_3_17",
+                           "q_2_4_ric","q_2_7_class",
+                           "reg_new","rip"]]
+data_to_analyze["abitazione"]=merged_df["q_2_1"].map(
+    {1:"casa unifamiliare",
+     2:"casa plurifamiliare",
+     3:"appartamento in edificio piccolo",
+     4:"appartamento in edificio medio",
+     5:"appartamento in edificio grande"})
+data_to_analyze["isolamento"]=merged_df["q_3_17"].map(
+    {1:"Ben isolata",
+     2:"Abbastanza isolata",
+     3:"Poco isolata",
+     4:"Non isolata"})
+data_to_analyze["age"]=merged_df["q_2_4_ric"]
+data_to_analyze["age"]=data_to_analyze["age"].map(
+    {1:[0,13],2:[14,23],3:[24,33],4:[34,43],5:[44,53],6:[54,63],7:[64,113],8:[113,150],9:[0,70]})
+data_to_analyze['age'] = data_to_analyze['age'].apply(random_age_from_range)
+data_to_analyze["area"]=merged_df["q_2_7_class"]
+data_to_analyze["area"]=data_to_analyze["area"].map(
+    {1:[10,19],2:[20,39],3:[40,59],4:[60,89],5:[90,119],6:[120,149],7:[150,400]})
+data_to_analyze['area'] = data_to_analyze['area'].apply(random_age_from_range)
+data_to_analyze["regione"]=merged_df["reg_new"].map(
+    {10:"Piemonte", 20:"Valle d'Aosta",30:"Lombardia",41:"Bolzano",
+     42:"Trento",50:"Veneto",60:"Friuli Venezia Giulia",70:"Liguria",
+     80:"Emilia Romagna",90:"Toscana",100:"Umbria",110:"Marche",120:"Lazio",
+     130:"Abruzzo",140:"Molise",150:"Campania",160:"Puglia",170:"Basilicata",
+     180:"Calabria", 190:"Sicilia",200:"Sardegna"})
+data_to_analyze["longitude"]=merged_df["reg_new"].map(
+    {10:7.77, 20:7.31,30:8.95,41:11.35,
+     42:11.12,50:12.33,60:12.65,70:8.93,
+     80:11.35,90:11.26,100:12.38,110:13.51,120:12.48,
+     130:13.39,140:14.66,150:14.29,160:16.86,170:15.80,
+     180:16.58, 190:13.36,200:9.10})
+data_to_analyze["latitude"]=merged_df["reg_new"].map(
+    {10:45.45, 20:45.80,30:45.35,41:46.49,
+     42:46.07,50:45.43,60:45.96,70:44.40,
+     80:44.49,90:43.77,100:43.11,110:43.61,120:41.89,
+     130:42.35,140:41.56,150:40.83,160:41.12,170:40.63,
+     180:38.90, 190:38.11,200:39.21})
+data_to_analyze["ripartizione"]=merged_df["rip"].map(
+    {1:"Nord_Ovest",
+     2:"Nord_Est",
+     3:"Centrale",
+     4:"Sud e Isole"})
+
+
+
+#%%
+
+
+regions=data_to_analyze["ripartizione"].unique()
+types=data_to_analyze["abitazione"].unique()
+isolations=data_to_analyze["isolamento"].unique()
+age_range = np.arange(15, 136,5)  # From 15 to 135
+area_range = np.arange(40, 361,24) # From 40 to 360
+age_mesh, area_mesh = np.meshgrid(age_range, area_range)
+response_cols = ['prob0', 'prob1', 'prob2', 'prob3']
+results = []
+result_df = pd.DataFrame({
+    'age': age_mesh.ravel(),
+    'area': area_mesh.ravel()
+    })
+dati=data_to_analyze.copy()
+result_df['total_number'] = 0
+result_df['segment0_number'] = 0
+result_df['segment1_number'] = 0
+result_df['segment2_number'] = 0
+result_df['segment3_number'] = 0
+# Define the window size for age and area
+age_window = 15
+area_window = 40
+
+# Loop through each age and area combination and calculate the counts
+for idx, row in result_df.iterrows():
+    A = row['age']
+    B = row['area']
+    
+    # Define the age and area window boundaries
+    age_min = A - age_window
+    age_max = A + age_window
+    area_min = B - area_window
+    area_max = B + area_window
+    
+    # Filter the main DataFrame within the defined age and area window
+    window_data = dati[
+        (dati['age'] >= age_min) & (dati['age'] <= age_max) &
+        (dati['area'] >= area_min) & (dati['area'] <= area_max)
+        ]
+    
+    # Total number of points in the window
+    result_df.at[idx, 'total_number'] = len(window_data)
+    result_df[result_df['total_number']==0]=1
+    
+    # Number of points in each segment
+    result_df.at[idx, 'segment0_number'] = len(window_data[window_data['segment'] == 0])
+    result_df.at[idx, 'segment1_number'] = len(window_data[window_data['segment'] == 1])
+    result_df.at[idx, 'segment2_number'] = len(window_data[window_data['segment'] == 2])
+    result_df.at[idx, 'segment3_number'] = len(window_data[window_data['segment'] == 3])
+    result_df.at[idx, 'age'] = A
+    result_df.at[idx, 'area'] = B
+    # Output the final DataFrame
+    result_df.head()
+    
+result_df['region'] = "ALL"
+result_df['type'] = "ALL"
+result_df['isolation']="ALL"
+result_df["prob0"]=result_df["segment0_number"]/result_df["total_number"]
+result_df["prob1"]=result_df["segment1_number"]/result_df["total_number"]
+result_df["prob2"]=result_df["segment2_number"]/result_df["total_number"]
+result_df["prob3"]=result_df["segment3_number"]/result_df["total_number"]
+
+for x in regions:
+
+    dati=data_to_analyze[data_to_analyze["regione"]==x]
+    region_df = pd.DataFrame({
+    'region':x,
+    'age': age_mesh.ravel(),
+    'area': area_mesh.ravel()
+    })
+    region_df['total_number'] = 0
+
+    region_df['segment0_number'] = 0
+    region_df['segment1_number'] = 0
+    region_df['segment2_number'] = 0
+    region_df['segment3_number'] = 0
+    
+    
+    # Define the window size for age and area
+    age_window = 15
+    area_window = 40
+    
+    # Loop through each age and area combination and calculate the counts
+    for idx, row in region_df.iterrows():
+        A = row['age']
+        B = row['area']
+        
+        # Define the age and area window boundaries
+        age_min = A - age_window
+        age_max = A + age_window
+        area_min = B - area_window
+        area_max = B + area_window
+        
+        # Filter the main DataFrame within the defined age and area window
+        window_data = dati[
+            (dati['age'] >= age_min) & (dati['age'] <= age_max) &
+            (dati['area'] >= area_min) & (dati['area'] <= area_max)
+            ]
+        
+        # Total number of points in the window
+        region_df.at[idx, 'total_number'] = len(window_data)
+        region_df[region_df['total_number']==0]=1
+        
+        # Number of points in each segment
+        region_df.at[idx, 'segment0_number'] = len(window_data[window_data['segment'] == 0])
+        region_df.at[idx, 'segment1_number'] = len(window_data[window_data['segment'] == 1])
+        region_df.at[idx, 'segment2_number'] = len(window_data[window_data['segment'] == 2])
+        region_df.at[idx, 'segment3_number'] = len(window_data[window_data['segment'] == 3])
+        region_df.at[idx, 'age'] = A
+        region_df.at[idx, 'area'] = B
+        # Output the final DataFrame
+        result_df.head()
+        
+    region_df['region'] = x
+    region_df['type'] = "ALL"
+    region_df['isolation']="ALL"
+    region_df["prob0"]=region_df["segment0_number"]/region_df["total_number"]
+    region_df["prob1"]=region_df["segment1_number"]/region_df["total_number"]
+    region_df["prob2"]=region_df["segment2_number"]/region_df["total_number"]
+    region_df["prob3"]=region_df["segment3_number"]/region_df["total_number"]
+    for y in types:
+
+        dati=data_to_analyze[data_to_analyze["abitazione"]==y]
+        type_df = pd.DataFrame({
+        'type':y,
+        'age': age_mesh.ravel(),
+        'area': area_mesh.ravel()
+        })
+        type_df['total_number'] = 0
+
+        type_df['segment0_number'] = 0
+        type_df['segment1_number'] = 0
+        type_df['segment2_number'] = 0
+        type_df['segment3_number'] = 0
+        
+        
+        # Define the window size for age and area
+        age_window = 15
+        area_window = 40
+        
+        # Loop through each age and area combination and calculate the counts
+        for idx, row in type_df.iterrows():
+            A = row['age']
+            B = row['area']
+            
+            # Define the age and area window boundaries
+            age_min = A - age_window
+            age_max = A + age_window
+            area_min = B - area_window
+            area_max = B + area_window
+            
+            # Filter the main DataFrame within the defined age and area window
+            window_data = dati[
+                (dati['age'] >= age_min) & (dati['age'] <= age_max) &
+                (dati['area'] >= area_min) & (dati['area'] <= area_max)
+                ]
+            
+            # Total number of points in the window
+            type_df.at[idx, 'total_number'] = len(window_data)
+            type_df[type_df['total_number']==0]=1
+            
+            # Number of points in each segment
+            type_df.at[idx, 'segment0_number'] = len(window_data[window_data['segment'] == 0])
+            type_df.at[idx, 'segment1_number'] = len(window_data[window_data['segment'] == 1])
+            type_df.at[idx, 'segment2_number'] = len(window_data[window_data['segment'] == 2])
+            type_df.at[idx, 'segment3_number'] = len(window_data[window_data['segment'] == 3])
+            type_df.at[idx, 'age'] = A
+            type_df.at[idx, 'area'] = B
+            # Output the final DataFrame
+            
+        type_df['type'] = y
+        type_df['region']=x
+        type_df['isolation']="ALL"
+        type_df["prob0"]=type_df["segment0_number"]/type_df["total_number"]
+        type_df["prob1"]=type_df["segment1_number"]/type_df["total_number"]
+        type_df["prob2"]=type_df["segment2_number"]/type_df["total_number"]
+        type_df["prob3"]=type_df["segment3_number"]/type_df["total_number"]
+        for z in isolations:
+
+            dati=data_to_analyze[data_to_analyze["isolamento"]==z]
+            isol_df = pd.DataFrame({
+            'isolation':y,
+            'type':y,
+            'age': age_mesh.ravel(),
+            'area': area_mesh.ravel()
+            })
+            isol_df['total_number'] = 0
+
+            isol_df['segment0_number'] = 0
+            isol_df['segment1_number'] = 0
+            isol_df['segment2_number'] = 0
+            isol_df['segment3_number'] = 0
+            
+            
+            # Define the window size for age and area
+            age_window = 15
+            area_window = 40
+            
+            # Loop through each age and area combination and calculate the counts
+            for idx, row in isol_df.iterrows():
+                A = row['age']
+                B = row['area']
+                
+                # Define the age and area window boundaries
+                age_min = A - age_window
+                age_max = A + age_window
+                area_min = B - area_window
+                area_max = B + area_window
+                
+                # Filter the main DataFrame within the defined age and area window
+                window_data = dati[
+                    (dati['age'] >= age_min) & (dati['age'] <= age_max) &
+                    (dati['area'] >= area_min) & (dati['area'] <= area_max)
+                    ]
+                
+                # Total number of points in the window
+                isol_df.at[idx, 'total_number'] = len(window_data)
+                isol_df[isol_df['total_number']==0]=1
+                
+                # Number of points in each segment
+                isol_df.at[idx, 'segment0_number'] = len(window_data[window_data['segment'] == 0])
+                isol_df.at[idx, 'segment1_number'] = len(window_data[window_data['segment'] == 1])
+                isol_df.at[idx, 'segment2_number'] = len(window_data[window_data['segment'] == 2])
+                isol_df.at[idx, 'segment3_number'] = len(window_data[window_data['segment'] == 3])
+                isol_df.at[idx, 'age'] = A
+                isol_df.at[idx, 'area'] = B
+                # Output the final DataFrame
+                
+            isol_df['type'] = y
+            isol_df['isolation']=z
+            isol_df['region']=x
+            isol_df["prob0"]=isol_df["segment0_number"]/isol_df["total_number"]
+            isol_df["prob1"]=isol_df["segment1_number"]/isol_df["total_number"]
+            isol_df["prob2"]=isol_df["segment2_number"]/isol_df["total_number"]
+            isol_df["prob3"]=isol_df["segment3_number"]/isol_df["total_number"]
+            type_df=pd.concat([type_df,isol_df])
+        region_df=pd.concat([region_df,type_df])
+    result_df=pd.concat([result_df,region_df])
+#     for response in response_cols:
+#         # Fit the quadratic model
+#         coeffs = fit_linear_model(result_df, response)
+        
+#         # Store the result: [DataFrame name, Response column, a0, a1, a2, a3, a4, a5]
+#         result_row = [x, response] + list(coeffs)
+#         results.append(result_row)
+#     import matplotlib.pyplot as plt
+#     from mpl_toolkits.mplot3d import Axes3D
+#     plt.figure()
+#     # Assuming result_df contains:
+#         # 'age', 'year' (you can replace year with a meaningful variable if it exists in your data)
+#         # 'segment0_number', 'segment1_number', 'segment2_number', 'segment3_number'
+        
+#         # Create the 3D plot
+#     fig = plt.figure(figsize=(10, 8))
+#     ax = fig.add_subplot(111, projection='3d')
+    
+#     # Define segment-specific colors
+#     colors = ['red', 'blue', 'green', 'purple']  # Colors for segment 0, 1, 2, 3 respectively
+        
+#     # Plot for Segment 0
+#     ax.scatter(
+#         result_df['age'], 
+#         result_df['area'], 
+#         result_df['prob0'], 
+#         color=colors[0], 
+#         label='Segment 0', 
+#         s=5  # Small dot size
+#         )
+    
+#     # Plot for Segment 1
+#     ax.scatter(
+#         result_df['age'], 
+#         result_df['area'], 
+#         result_df['prob1'], 
+#         color=colors[1], 
+#         label='Segment 1', 
+#         s=5  # Small dot size
+#         )
+    
+#     # Plot for Segment 2
+#     ax.scatter(
+#         result_df['age'], 
+#         result_df['area'], 
+#         result_df['prob2'], 
+#         color=colors[2], 
+#         label='Segment 2', 
+#         s=5  # Small dot size
+#         )
+    
+#     # Plot for Segment 3
+#     ax.scatter(
+#         result_df['age'], 
+#         result_df['area'], 
+#         result_df['prob3'], 
+#         color=colors[3], 
+#         label='Segment 3', 
+#         s=5  # Small dot size
+#         )
+    
+#     # Set labels for each axis
+#     ax.set_xlabel('Age')
+#     ax.set_ylabel('Area')
+#     ax.set_zlabel('Distribution')
+    
+#     # Add a title
+#     ax.set_title(f'{x}')
+    
+#     # Add a legend to differentiate between segments
+#     ax.legend()
+    
+#     # Show the plot
+#     plt.show()
+        
+        
+# # Convert the results to a DataFrame
+# columns = ['DataFrame', 'Response', 'a0', 'a1', 'a2', 'a3', 'a4', 'a5']
+# final_df = pd.DataFrame(results, columns=columns)
+
+
+

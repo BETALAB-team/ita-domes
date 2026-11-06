@@ -1,0 +1,319 @@
+{
+  "through_round": 3,
+  "review_sha256": "dda6e7288e34af7368f458cc40390297efa7b3da0ab097cabb1cb606e9e77e34",
+  "response_sha256": "8e80265a850143a617c4b3c2ae944089680a06d19a34aef18413092854557f17",
+  "revision_filename": "article_claims_v03.md",
+  "revision_sha256": "c96e3307de9b9587cc554c076f5d3527cc3ce8a6c29b12342777c07bc93c5eb2",
+  "review_02_closure_sha256": "eeb576f3a445bc1eb08979493a4cac78defcfcc2488e5c041d116823a7b0bb69",
+  "v5_verification_supplement_sha256": "c5e5c4910479fe34310cce7e2be0611ba9156fb5a445e9e2cb822cab3f5d7133",
+  "entries": [
+    {
+      "source_round": 1,
+      "issue_id": "R1-01",
+      "severity": "critical",
+      "claim_ids": [
+        "MET-003",
+        "MET-005",
+        "MET-008",
+        "RES-004",
+        "RES-005",
+        "RES-007",
+        "INT-001",
+        "RQ-002",
+        "MET-006",
+        "LIM-005",
+        "LIM-006"
+      ],
+      "disposition": "Conditionally closed for the specific ideal-sensible 1C single-commit state repair after fresh independent transition and 175,200-hour balance checks. This does not admit physical annual results; separate R2-01 remains open for invalid sky forcing and new runs.",
+      "revision_locations": [
+        "article_claims_v02.md#met-003",
+        "article_claims_v02.md#met-005",
+        "article_claims_v02.md#met-008",
+        "article_claims_v02.md#lim-006",
+        "article_claims_v02.md#lim-007"
+      ],
+      "evidence_paths": [
+        "07_reviews/reviewer_02/independent_audit.json",
+        "07_reviews/reviewer_02/runtime_checks.json",
+        "07_reviews/closure_01_after_review02.md"
+      ],
+      "still_open": false,
+      "closure_condition": "Narrow dispatcher correction independently verified within the declared sensible 1C scope; physical-result admission is tracked in R2-01."
+    },
+    {
+      "source_round": 1,
+      "issue_id": "R1-02",
+      "severity": "major",
+      "claim_ids": [
+        "GAP-001",
+        "RQ-001",
+        "MET-001",
+        "MET-002",
+        "RES-003",
+        "RES-004",
+        "RES-005",
+        "RES-006",
+        "RES-007",
+        "INT-001"
+      ],
+      "disposition": "Closed for wording and estimand: survey-reported mean operating hours, encoded high-setpoint hours and actual positive heating are separate. Independent source-profile checks confirm mapping; old v3 partition quantity is withheld under R2-01.",
+      "revision_locations": [
+        "article_claims_v02.md#gap-001",
+        "article_claims_v02.md#met-001",
+        "article_claims_v02.md#met-002",
+        "article_claims_v02.md#res-003",
+        "article_claims_v02.md#res-006"
+      ],
+      "evidence_paths": [
+        "C:/Works/GRINS/GRINS-Tool/classes/EndUse.py",
+        "07_reviews/reviewer_02/runtime_checks.json",
+        "07_reviews/closure_01_after_review02.md"
+      ],
+      "still_open": false,
+      "closure_condition": "Continue the distinction in later prose/figures; future corrected-run partitions require separate result review under R2-01."
+    },
+    {
+      "source_round": 1,
+      "issue_id": "R1-03",
+      "severity": "minor",
+      "claim_ids": [
+        "DAT-004"
+      ],
+      "disposition": "Closed: DAT-004 remains a bounded derived-estimate inventory claim in readable and machine ledgers; no observed measurement is asserted.",
+      "revision_locations": [
+        "article_claims_v02.md#dat-004",
+        "claim_ledger_v02.json DAT-004.evidence_class"
+      ],
+      "evidence_paths": [
+        "06_claim_drafts/claim_ledger_v02.json",
+        "07_reviews/closure_01_after_review02.md"
+      ],
+      "still_open": false,
+      "closure_condition": "Preserve derived-estimate class and bounded inventory scope."
+    },
+    {
+      "source_round": 2,
+      "issue_id": "R2-01",
+      "severity": "critical",
+      "claim_ids": [
+        "DAT-002",
+        "MET-003",
+        "MET-005",
+        "MET-006",
+        "MET-008",
+        "MET-009",
+        "RES-004",
+        "RES-005",
+        "RES-006",
+        "RES-007",
+        "INT-001",
+        "LIM-005",
+        "LIM-007"
+      ],
+      "disposition": "Conditionally closed for the bounded sky-to-envelope implementation after valid-IR scalar, guarded active fields and independently checked v5 per-surface actual forcing. V3/v4 physical effects remain quarantined. Fresh review04 of v03 central conditional results is tracked by R3-01 and is not empirical validation.",
+      "revision_locations": [
+        "article_claims_v03.md#met-009",
+        "article_claims_v03.md#met-011",
+        "article_claims_v03.md#lim-007",
+        "article_claims_v03.md#lim-008"
+      ],
+      "evidence_paths": [
+        "03_methods/weather_correction_protocol_v4.md",
+        "03_methods/surface_correction_protocol_v5.md",
+        "07_reviews/reviewer_03/v5_forcing_checks.json",
+        "07_reviews/closure_02_after_review03.md",
+        "07_reviews/v5_verification_supplement.md"
+      ],
+      "still_open": false,
+      "closure_condition": "Bounded missing-cloud-to-sky and per-surface implementation verified in v5; final fixed-case effect interpretation remains under R3-01/review04 and retains annual-mean/timing limits."
+    },
+    {
+      "source_round": 2,
+      "issue_id": "R2-02",
+      "severity": "minor",
+      "claim_ids": [
+        "MET-003",
+        "MET-005",
+        "MET-006",
+        "MET-010",
+        "RES-004",
+        "RES-005",
+        "RES-007"
+      ],
+      "disposition": "Closed. Historical v3 SITE omission is explicitly annotated without rewriting manifests; current runner records complete executable/cwd/argv and refuses existing destinations. Separate Padova seeded replay is byte-identical and not an extra scientific sample.",
+      "revision_locations": [
+        "article_claims_v03.md#met-010",
+        "response_03.md#prior-issue-closure-after-review-03"
+      ],
+      "evidence_paths": [
+        "05_simulations/recorded_command_addendum.md",
+        "05_simulations/v4_replay_interface_checks.json",
+        "05_simulations/v5_replay_interface_checks.json",
+        "05_simulations/climate_campaign_v5_replay/Padova/completion_manifest.json",
+        "07_reviews/closure_02_after_review03.md"
+      ],
+      "still_open": false,
+      "closure_condition": "Preserve complete command/working-directory/source-hash and isolated replay discipline for later versions."
+    },
+    {
+      "source_round": 3,
+      "issue_id": "R3-01",
+      "severity": "critical",
+      "claim_ids": [
+        "MET-003",
+        "MET-005",
+        "MET-008",
+        "MET-009",
+        "MET-011",
+        "RES-004",
+        "RES-005",
+        "RES-006",
+        "RES-007",
+        "RES-008",
+        "INT-001",
+        "LIM-007"
+      ],
+      "disposition": "Accepted. V4 roof shortwave/longwave and order-dependent forcing invalidated all v4 physical values; all 66 pre-v5 annual executions are quarantined. A new study-local per-surface v5 correction, Padova-first then four-site campaign, 20 annual outputs and one separate replay passed analytic, actual-solver forcing, order, state, repeat and arithmetic checks. Independent reviewer03 supplement conditionally verifies exact bounded remedy. V03 effects remain candidate pending fresh review04.",
+      "revision_locations": [
+        "article_claims_v03.md#met-009",
+        "article_claims_v03.md#met-011",
+        "article_claims_v03.md#met-005",
+        "article_claims_v03.md#res-004",
+        "article_claims_v03.md#res-005",
+        "article_claims_v03.md#res-006",
+        "article_claims_v03.md#res-007",
+        "article_claims_v03.md#res-008",
+        "article_claims_v03.md#int-001",
+        "article_claims_v03.md#lim-007"
+      ],
+      "evidence_paths": [
+        "07_reviews/reviewer_03/runtime_forcing_checks.json",
+        "03_methods/surface_correction_protocol_v5.md",
+        "04_analysis/surface_forcing_1c.py",
+        "07_reviews/reviewer_03/v5_forcing_checks.json",
+        "07_reviews/reviewer_03/independent_audit_v5.json",
+        "06_claim_drafts/author_v5_check_for_v03.json",
+        "06_claim_drafts/author_v5_posthoc_peak_check_v03.json",
+        "07_reviews/v5_verification_supplement.md"
+      ],
+      "still_open": true,
+      "closure_condition": "Fresh independent review04 of v03 independently accepts source-to-profile mapping, exact v5 per-surface and IR forcing, all-run state/arithmetical provenance, conditional annual/peak/post-hoc effects and limits. No empirical accuracy or general package validation is implied."
+    },
+    {
+      "source_round": 3,
+      "issue_id": "R3-02",
+      "severity": "minor",
+      "claim_ids": [
+        "MET-009",
+        "RQ-001",
+        "RQ-002",
+        "RES-004",
+        "RES-005",
+        "RES-007",
+        "INT-001",
+        "LIM-008"
+      ],
+      "disposition": "Accepted. New LIM-008 and revised central method/result/interpretation claims state annual-mean sky exchange and native fixed-UTC+1 solar position without application of recorded irradiation offset; no timing/longwave sensitivity or robust hourly-peak ranking is claimed.",
+      "revision_locations": [
+        "article_claims_v03.md#met-009",
+        "article_claims_v03.md#rq-002",
+        "article_claims_v03.md#res-007",
+        "article_claims_v03.md#lim-008"
+      ],
+      "evidence_paths": [
+        "03_methods/weather_correction_protocol_v4.md",
+        "04_analysis/ir_sky_forcing.py",
+        "C:/Works/EUReCA/EUReCA/eureca_building/weather.py",
+        "06_claim_drafts/claim_ledger_v03.json"
+      ],
+      "still_open": true,
+      "closure_condition": "Fresh review04 confirms the limitation remains attached to small annual effects and hourly maxima, and no unsupported exact-solar-phase or robust peak-ranking claim appears."
+    },
+    {
+      "source_round": 3,
+      "issue_id": "R3-03",
+      "severity": "minor",
+      "claim_ids": [
+        "LIT-002",
+        "GAP-001",
+        "NOV-001"
+      ],
+      "disposition": "Accepted. LIT-002 now explicitly identifies Prataviera 2022 Section3.1.1 ±2 h startup perturbation alongside three-band random profiles. GAP-001 and provisional NOV-001 distinguish the present fixed-respondent within-band placement contrast without a first-method assertion.",
+      "revision_locations": [
+        "article_claims_v03.md#lit-002",
+        "article_claims_v03.md#gap-001",
+        "article_claims_v03.md#nov-001"
+      ],
+      "evidence_paths": [
+        "02_evidence/source_ledger.md SRC-UA2022",
+        "06_claim_drafts/claim_ledger_v03.json"
+      ],
+      "still_open": true,
+      "closure_condition": "Fresh review04 confirms exact prior-work correspondence and bounded novelty language; no exhaustive gap claim is inferred from the targeted search."
+    },
+    {
+      "source_round": 3,
+      "issue_id": "R3-04",
+      "severity": "minor",
+      "claim_ids": [
+        "MET-007",
+        "MET-010",
+        "LIM-006",
+        "LIM-007"
+      ],
+      "disposition": "Accepted and corrected. Canonical simulation/validation protocol and matrix now lead with one current v5 candidate status, retain historical chronology and quarantine, and point to exact v5 outputs. Frozen run snapshots remain untouched. Claim-status enum audit also corrected five v02 non-enum `withheld` values in v03.",
+      "revision_locations": [
+        "article_claims_v03.md#met-007",
+        "article_claims_v03.md#met-010",
+        "article_claims_v03.md#lim-007",
+        "claim_ledger_v03.json status fields"
+      ],
+      "evidence_paths": [
+        "03_methods/simulation_protocol.md",
+        "03_methods/validation_protocol.md",
+        "03_methods/validation_matrix.md",
+        "06_claim_drafts/claim_ledger_v03.json"
+      ],
+      "still_open": false,
+      "closure_condition": "Canonical current-status pointer and allowed status enum persist in future versions; frozen historical records retain their chronology."
+    }
+  ],
+  "standing_limitations": [
+    {
+      "claim_id": "LIM-001",
+      "description": "One unweighted respondent and assumed dwelling do not support city/population inference."
+    },
+    {
+      "claim_id": "LIM-002",
+      "description": "No compatible independent empirical meter validation has been established."
+    },
+    {
+      "claim_id": "LIM-003",
+      "description": "Early/late placements are neither observed schedules nor extrema over all alternatives."
+    },
+    {
+      "claim_id": "LIM-004",
+      "description": "Current code/config is not established as the conference executable."
+    },
+    {
+      "claim_id": "LIM-005",
+      "description": "No-cooling case does not establish comfort behavior."
+    },
+    {
+      "claim_id": "LIM-006",
+      "description": "Original dispatcher-based v1/v2 outputs remain quarantined."
+    },
+    {
+      "claim_id": "LIM-007",
+      "description": "V3 weather-forcing annual outputs are quarantined despite correct narrow state-equation closure."
+    },
+    {
+      "claim_id": "LIM-008",
+      "description": "Annual-mean sky exchange and unapplied native solar irradiance timing offset limit hourly-peak interpretation."
+    },
+    {
+      "claim_id": "RES-008",
+      "description": "Bolzano zero annual-peak differences arise at a common modeled season-onset recovery in v5; this is a post-hoc context, not an equipment-sizing inference."
+    }
+  ]
+}

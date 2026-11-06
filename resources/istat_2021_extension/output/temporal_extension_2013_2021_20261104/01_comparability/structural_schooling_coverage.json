@@ -1,0 +1,10 @@
+{
+  "year": 2021,
+  "under11_member_records": 11101,
+  "all_under11_schooling_blank": true,
+  "households_under11_all_release": 8081,
+  "households_under11_size1to5": 7803,
+  "size1to5_total": 53520,
+  "under11_household_weight_share_size1to5": 0.16021598235877368,
+  "implication": "Strict all-member schooling completeness necessarily excludes every household containing an under11 member. Regional weighting cannot recover structural zero inclusion."
+}

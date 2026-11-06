@@ -1,0 +1,7 @@
+evaluation,training_households,test_households,model,brier_score,log_loss
+2013_household_holdout,15232,3808,area_and_construction_period,0.692730148848874,1.281878054887416
+2013_household_holdout,15232,3808,training_marginal_only,0.729281777229684,1.3458628930111278
+2013_to_2021_external_wave,15232,47475,area_and_construction_period,0.721031109147746,1.3323284031208127
+2013_to_2021_external_wave,15232,47475,training_marginal_only,0.727735192374051,1.34148100038251
+2021_household_holdout,37980,9495,area_and_construction_period,0.707309184433783,1.3042001916187655
+2021_household_holdout,37980,9495,training_marginal_only,0.7270663630012483,1.3400908036915105

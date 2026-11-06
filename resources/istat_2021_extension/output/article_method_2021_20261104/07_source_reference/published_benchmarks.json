@@ -1,0 +1,1182 @@
+[
+  {
+    "kind": "demographic",
+    "group": "A1",
+    "metric": "min_age_mean",
+    "value": 70.2,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A1",
+    "metric": "min_age_sd",
+    "value": 11.2,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A1",
+    "metric": "max_age_mean",
+    "value": 78.3,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A1",
+    "metric": "max_age_sd",
+    "value": 5.0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A1",
+    "metric": "number_mean",
+    "value": 1.8,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A1",
+    "metric": "number_sd",
+    "value": 0.7,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A1",
+    "metric": "studio_ind_mean",
+    "value": 0.5,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A1",
+    "metric": "studio_ind_sd",
+    "value": 0.1,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A1",
+    "metric": "household_share_pct",
+    "value": 40.1,
+    "sd": "",
+    "unit": "percent",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A1",
+    "metric": "people_share_pct",
+    "value": 29.9,
+    "sd": "",
+    "unit": "percent",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A2",
+    "metric": "min_age_mean",
+    "value": 21.2,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A2",
+    "metric": "min_age_sd",
+    "value": 7.6,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A2",
+    "metric": "max_age_mean",
+    "value": 57.2,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A2",
+    "metric": "max_age_sd",
+    "value": 8.6,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A2",
+    "metric": "number_mean",
+    "value": 3.7,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A2",
+    "metric": "number_sd",
+    "value": 0.9,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A2",
+    "metric": "studio_ind_mean",
+    "value": 0.7,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A2",
+    "metric": "studio_ind_sd",
+    "value": 0.1,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A2",
+    "metric": "household_share_pct",
+    "value": 26.9,
+    "sd": "",
+    "unit": "percent",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A2",
+    "metric": "people_share_pct",
+    "value": 40.2,
+    "sd": "",
+    "unit": "percent",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A3",
+    "metric": "min_age_mean",
+    "value": 46.0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A3",
+    "metric": "min_age_sd",
+    "value": 12.8,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A3",
+    "metric": "max_age_mean",
+    "value": 63.0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A3",
+    "metric": "max_age_sd",
+    "value": 8.0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A3",
+    "metric": "number_mean",
+    "value": 2.3,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A3",
+    "metric": "number_sd",
+    "value": 0.8,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A3",
+    "metric": "studio_ind_mean",
+    "value": 0.5,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A3",
+    "metric": "studio_ind_sd",
+    "value": 0.1,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A3",
+    "metric": "household_share_pct",
+    "value": 22.9,
+    "sd": "",
+    "unit": "percent",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A3",
+    "metric": "people_share_pct",
+    "value": 21.3,
+    "sd": "",
+    "unit": "percent",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A4",
+    "metric": "min_age_mean",
+    "value": 55.6,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A4",
+    "metric": "min_age_sd",
+    "value": 17.1,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A4",
+    "metric": "max_age_mean",
+    "value": 72.2,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A4",
+    "metric": "max_age_sd",
+    "value": 9.0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A4",
+    "metric": "number_mean",
+    "value": 2.1,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A4",
+    "metric": "number_sd",
+    "value": 0.8,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A4",
+    "metric": "studio_ind_mean",
+    "value": 0.8,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A4",
+    "metric": "studio_ind_sd",
+    "value": 0.1,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A4",
+    "metric": "household_share_pct",
+    "value": 10.1,
+    "sd": "",
+    "unit": "percent",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "demographic",
+    "group": "A4",
+    "metric": "people_share_pct",
+    "value": 8.6,
+    "sd": "",
+    "unit": "percent",
+    "locator": "p7 Table3 / Fig5",
+    "note": "Printed benchmark; no replacement by archive-derived value"
+  },
+  {
+    "kind": "heating",
+    "group": "H1",
+    "metric": "mean",
+    "value": 4.67,
+    "sd": 3.54,
+    "unit": "h/day",
+    "locator": "p10 Table6",
+    "note": "Declared on-hours"
+  },
+  {
+    "kind": "heating",
+    "group": "H2",
+    "metric": "mean",
+    "value": 5.25,
+    "sd": 3.77,
+    "unit": "h/day",
+    "locator": "p10 Table6",
+    "note": "Declared on-hours"
+  },
+  {
+    "kind": "heating",
+    "group": "H3",
+    "metric": "mean",
+    "value": 6.91,
+    "sd": 4.43,
+    "unit": "h/day",
+    "locator": "p10 Table6",
+    "note": "Declared on-hours"
+  },
+  {
+    "kind": "heating",
+    "group": "H4",
+    "metric": "mean",
+    "value": 7.53,
+    "sd": 4.41,
+    "unit": "h/day",
+    "locator": "p10 Table6",
+    "note": "Declared on-hours"
+  },
+  {
+    "kind": "heating",
+    "group": "H5",
+    "metric": "mean",
+    "value": 8.53,
+    "sd": 4,
+    "unit": "h/day",
+    "locator": "p10 Table6",
+    "note": "Declared on-hours"
+  },
+  {
+    "kind": "heating",
+    "group": "H6",
+    "metric": "mean",
+    "value": 9.14,
+    "sd": 4.17,
+    "unit": "h/day",
+    "locator": "p10 Table6",
+    "note": "Declared on-hours"
+  },
+  {
+    "kind": "heating",
+    "group": "H7",
+    "metric": "mean",
+    "value": 9.67,
+    "sd": 4.28,
+    "unit": "h/day",
+    "locator": "p10 Table6",
+    "note": "Declared on-hours"
+  },
+  {
+    "kind": "electricity",
+    "group": "E1",
+    "metric": "mean",
+    "value": 1801,
+    "sd": 1502,
+    "unit": "kWh/year",
+    "locator": "p10 Table6",
+    "note": "Survey-based appliance model, not metered electricity"
+  },
+  {
+    "kind": "electricity",
+    "group": "E2",
+    "metric": "mean",
+    "value": 2023,
+    "sd": 1631,
+    "unit": "kWh/year",
+    "locator": "p10 Table6",
+    "note": "Survey-based appliance model, not metered electricity"
+  },
+  {
+    "kind": "electricity",
+    "group": "E3",
+    "metric": "mean",
+    "value": 2320,
+    "sd": 1502,
+    "unit": "kWh/year",
+    "locator": "p10 Table6",
+    "note": "Survey-based appliance model, not metered electricity"
+  },
+  {
+    "kind": "electricity",
+    "group": "E4",
+    "metric": "mean",
+    "value": 2646,
+    "sd": 1844,
+    "unit": "kWh/year",
+    "locator": "p10 Table6",
+    "note": "Survey-based appliance model, not metered electricity"
+  },
+  {
+    "kind": "electricity",
+    "group": "E5",
+    "metric": "mean",
+    "value": 2895,
+    "sd": 1853,
+    "unit": "kWh/year",
+    "locator": "p10 Table6",
+    "note": "Survey-based appliance model, not metered electricity"
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A1",
+    "metric": "intercept",
+    "value": 0.289,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A1",
+    "metric": "age/100",
+    "value": 0.692,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A1",
+    "metric": "area/100",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A1",
+    "metric": "age*area/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A1",
+    "metric": "age^2/10000",
+    "value": -0.372,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A1",
+    "metric": "area^2/10000",
+    "value": -0.084,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A2",
+    "metric": "intercept",
+    "value": 0.323,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A2",
+    "metric": "age/100",
+    "value": -0.523,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A2",
+    "metric": "area/100",
+    "value": 0.104,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A2",
+    "metric": "age*area/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A2",
+    "metric": "age^2/10000",
+    "value": 0.269,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A2",
+    "metric": "area^2/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A3",
+    "metric": "intercept",
+    "value": 0.335,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A3",
+    "metric": "age/100",
+    "value": -0.23,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A3",
+    "metric": "area/100",
+    "value": -0.028,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A3",
+    "metric": "age*area/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A3",
+    "metric": "age^2/10000",
+    "value": 0.127,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A3",
+    "metric": "area^2/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A4",
+    "metric": "intercept",
+    "value": 0.033,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A4",
+    "metric": "age/100",
+    "value": 0.039,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A4",
+    "metric": "area/100",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A4",
+    "metric": "age*area/10000",
+    "value": 0.014,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A4",
+    "metric": "age^2/10000",
+    "value": 0.152,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Eq3",
+    "group": "A4",
+    "metric": "area^2/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p7 Eq3",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A1",
+    "metric": "intercept",
+    "value": 0.29,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A1",
+    "metric": "age/100",
+    "value": 0.69,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A1",
+    "metric": "area/100",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A1",
+    "metric": "age*area/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A1",
+    "metric": "age^2/10000",
+    "value": -0.37,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A1",
+    "metric": "area^2/10000",
+    "value": -0.08,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A2",
+    "metric": "intercept",
+    "value": 0.32,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A2",
+    "metric": "age/100",
+    "value": -0.52,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A2",
+    "metric": "area/100",
+    "value": 0.1,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A2",
+    "metric": "age*area/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A2",
+    "metric": "age^2/10000",
+    "value": 0.27,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A2",
+    "metric": "area^2/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A3",
+    "metric": "intercept",
+    "value": 0.34,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A3",
+    "metric": "age/100",
+    "value": -0.23,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A3",
+    "metric": "area/100",
+    "value": -0.03,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A3",
+    "metric": "age*area/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A3",
+    "metric": "age^2/10000",
+    "value": 0.13,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A3",
+    "metric": "area^2/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A4",
+    "metric": "intercept",
+    "value": 0.03,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A4",
+    "metric": "age/100",
+    "value": 0.04,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A4",
+    "metric": "area/100",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A4",
+    "metric": "age*area/10000",
+    "value": 0.01,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A4",
+    "metric": "age^2/10000",
+    "value": 0.02,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_Table4",
+    "group": "A4",
+    "metric": "area^2/10000",
+    "value": 0,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately."
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A1",
+    "metric": "F_statistic",
+    "value": 648.9,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A1",
+    "metric": "adjusted_R2",
+    "value": 0.94,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A1",
+    "metric": "RMSE",
+    "value": 0.02,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A2",
+    "metric": "F_statistic",
+    "value": 571,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A2",
+    "metric": "adjusted_R2",
+    "value": 0.93,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A2",
+    "metric": "RMSE",
+    "value": 0.016,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A3",
+    "metric": "F_statistic",
+    "value": 282.8,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A3",
+    "metric": "adjusted_R2",
+    "value": 0.87,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A3",
+    "metric": "RMSE",
+    "value": 0.008,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A4",
+    "metric": "F_statistic",
+    "value": 219.7,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A4",
+    "metric": "adjusted_R2",
+    "value": 0.84,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "polynomial_fit",
+    "group": "A4",
+    "metric": "RMSE",
+    "value": 0.011,
+    "sd": "",
+    "unit": "",
+    "locator": "p8 Table4",
+    "note": "Original model fit; no new validation"
+  },
+  {
+    "kind": "regional_MANOVA",
+    "group": "Wilks_lambda",
+    "metric": "value",
+    "value": 0.8105,
+    "sd": "",
+    "unit": "",
+    "locator": "p6 Table2",
+    "note": "Printed inference concerns regional centroid effects, not equality of energy or shares"
+  },
+  {
+    "kind": "regional_MANOVA",
+    "group": "Wilks_lambda",
+    "metric": "F_value",
+    "value": 0.2226,
+    "sd": "",
+    "unit": "",
+    "locator": "p6 Table2",
+    "note": "Printed inference concerns regional centroid effects, not equality of energy or shares"
+  },
+  {
+    "kind": "regional_MANOVA",
+    "group": "Wilks_lambda",
+    "metric": "p_value",
+    "value": 1,
+    "sd": "",
+    "unit": "",
+    "locator": "p6 Table2",
+    "note": "Printed inference concerns regional centroid effects, not equality of energy or shares"
+  },
+  {
+    "kind": "regional_MANOVA",
+    "group": "Roy_greatest_root",
+    "metric": "value",
+    "value": 0.1687,
+    "sd": "",
+    "unit": "",
+    "locator": "p6 Table2",
+    "note": "Printed inference concerns regional centroid effects, not equality of energy or shares"
+  },
+  {
+    "kind": "regional_MANOVA",
+    "group": "Roy_greatest_root",
+    "metric": "F_value",
+    "value": 0.5329,
+    "sd": "",
+    "unit": "",
+    "locator": "p6 Table2",
+    "note": "Printed inference concerns regional centroid effects, not equality of energy or shares"
+  },
+  {
+    "kind": "regional_MANOVA",
+    "group": "Roy_greatest_root",
+    "metric": "p_value",
+    "value": 0.9357,
+    "sd": "",
+    "unit": "",
+    "locator": "p6 Table2",
+    "note": "Printed inference concerns regional centroid effects, not equality of energy or shares"
+  }
+]

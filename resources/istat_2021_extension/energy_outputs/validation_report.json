@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "source": {
+    "title": "Identification of Italian user archetypes for building energy simulations based on a national survey",
+    "doi": "10.1016/j.enbuild.2025.115924",
+    "raw_input": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat_microdata_2013.csv",
+    "raw_input_sha256": "a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f",
+    "archetypes_input": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\baseline_outputs\\household_archetypes.csv",
+    "archetypes_input_sha256": "1d4dea8d57a21927e6066d03e036d16da6530ec4e1e76196c9fc06807f2fff72",
+    "energy_input": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\results_grins.csv",
+    "energy_input_sha256": "c9232f7e21897e77ae38daba767f854708f259bf4292358a7bca5c2ab2b30de1"
+  },
+  "configuration": {
+    "dwelling_seed": 42,
+    "alpha": 0.05,
+    "expected_heating_groups": 7,
+    "accepted_electricity_groups": [
+      5,
+      6
+    ],
+    "raw_source_to_canonical": {},
+    "energy_source_to_canonical": {}
+  },
+  "row_counts": {
+    "raw_households": 20000,
+    "archetyped_households": 17855,
+    "analysis_households": 17605,
+    "energy_stage_exclusions": 250,
+    "raw_households_without_archetype": 2145
+  },
+  "validation": {
+    "passed": true,
+    "checks": {
+      "analysis_dataset_is_nonempty": true,
+      "analysis_household_ids_are_unique": true,
+      "all_four_archetypes_are_present": true,
+      "responses_are_finite": true,
+      "all_28_anova_rows_are_present": true,
+      "anova_statistics_are_finite": true,
+      "anova_p_values_are_bounded": true,
+      "heating_tukey_reduction_is_nonempty": true,
+      "electricity_tukey_reduction_is_nonempty": true,
+      "all_remaining_tukey_pairs_are_significant": true
+    },
+    "paper_alignment": {
+      "anova_significance_matches": 25,
+      "anova_terms_compared": 28,
+      "all_anova_significance_decisions_match": false,
+      "heating_groups": 8,
+      "paper_heating_groups": 7,
+      "heating_group_count_matches_paper": false,
+      "electricity_groups": 4,
+      "paper_text_electricity_groups": 6,
+      "paper_table_6_electricity_groups_listed": 5,
+      "electricity_group_count_matches_a_published_count": false
+    }
+  },
+  "outputs": {
+    "analysis_dataset": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\energy_analysis_dataset.csv",
+    "exclusions": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\energy_exclusions.csv",
+    "anova": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\anova_results.csv",
+    "heating_groups": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\heating_tukey_groups.csv",
+    "electricity_groups": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\electricity_tukey_groups.csv",
+    "group_summary": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\energy_group_summary.csv",
+    "factor_summary": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\energy_factor_summary.csv",
+    "merge_history": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\tukey_merge_history.csv",
+    "model": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\energy_model.json",
+    "validation": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_outputs\\validation_report.json"
+  }
+}

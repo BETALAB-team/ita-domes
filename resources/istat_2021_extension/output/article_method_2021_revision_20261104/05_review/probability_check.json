@@ -1,0 +1,37 @@
+{
+  "n": 46712,
+  "primary_windows": 125,
+  "unique_ids": 46712,
+  "nodes_total_counts_including_repeats": 691988,
+  "node_n_range": [
+    720,
+    17737
+  ],
+  "same_target_average_RMSE": {
+    "old21_backward": 0.04046547289659399,
+    "new125_backward": 0.02255972034843982,
+    "new125_full_quadratic": 0.02255598302765215
+  },
+  "same_target_change_pct": 44.25869410869851,
+  "selected_beats_old_in_each_split": true,
+  "continuous_domain_probability_ranges": [
+    [
+      0.13804966118172468,
+      0.36281776393392895
+    ],
+    [
+      0.22089802720235094,
+      0.4468101204348261
+    ],
+    [
+      0.13542230231211963,
+      0.33375121005600017
+    ],
+    [
+      0.14771169083912639,
+      0.2833323876376196
+    ]
+  ],
+  "fullgrid_extrapolation_nodes": 225,
+  "fullgrid_extrapolation_outside01": 73
+}

@@ -1,0 +1,8 @@
+response,iteration,groups_before,left_group,right_group,adjusted_p_value,left_mean,right_mean,merged_group
+electricity_annual_kwh,1,12,South/islands | Multi-family,South/islands | Single-family,0.9999999401196066,2133.8781737533695,2142.1407151478397,merge_001
+electricity_annual_kwh,2,11,Centre | Single-family,North-west | Single-family,0.9999996131012931,2297.4455374718505,2308.1245930804807,merge_002
+electricity_annual_kwh,3,10,Centre | Apartment,South/islands | Apartment,0.9995110406255241,1963.950338617606,1954.1300804035504,merge_003
+electricity_annual_kwh,4,9,Centre | Multi-family,North-west | Multi-family,0.9520624020166216,2273.395706494134,2243.0658720362526,merge_004
+electricity_annual_kwh,5,8,North-east | Multi-family,North-east | Single-family,0.918375177719395,2342.035396078944,2374.643138576071,merge_005
+electricity_annual_kwh,6,7,North-east | Apartment,merge_003,0.8529007030133561,1976.1520993035938,1957.8738493065139,merge_006
+electricity_annual_kwh,7,6,merge_002,merge_004,0.13459081501109227,2303.690292348642,2256.7885477138125,merge_007

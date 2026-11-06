@@ -1,0 +1,29 @@
+{
+  "surface_coefficients": [
+    {
+      "surface_type": "ExtWall",
+      "coefficient_W_K": 2.6020025031289116
+    },
+    {
+      "surface_type": "ExtWall",
+      "coefficient_W_K": 2.081602002503129
+    },
+    {
+      "surface_type": "ExtWall",
+      "coefficient_W_K": 2.6020025031289116
+    },
+    {
+      "surface_type": "ExtWall",
+      "coefficient_W_K": 2.081602002503129
+    },
+    {
+      "surface_type": "Roof",
+      "coefficient_W_K": 13.331730191174707
+    }
+  ],
+  "total_coefficient_W_K": 22.698939202438787,
+  "mean_delta_K": 17.620782214282908,
+  "opaque_longwave_term_W": -399.97306418142244,
+  "sign_is_loss": true,
+  "pass": true
+}

@@ -1,0 +1,13 @@
+panel,series,x,category,value,reference_line
+Sensible heating,One-run hybrid,0.0,Milano,-695.6333833662444,False
+Sensible heating,One-run hybrid,1.0,Roma,126.33582213856216,False
+Sensible heating,One-run hybrid,2.0,Palermo,188.9540220669686,False
+Sensible heating,Survey + physics,0.0,Milano,1490.260941984977,False
+Sensible heating,Survey + physics,1.0,Roma,1252.1556819357438,False
+Sensible heating,Survey + physics,2.0,Palermo,600.5582435766289,False
+Sensible cooling,One-run hybrid,0.0,Milano,-57.8648295457532,False
+Sensible cooling,One-run hybrid,1.0,Roma,112.38929088285681,False
+Sensible cooling,One-run hybrid,2.0,Palermo,93.73105491991737,False
+Sensible cooling,Survey + physics,0.0,Milano,615.1786512362119,False
+Sensible cooling,Survey + physics,1.0,Roma,1004.0230339395821,False
+Sensible cooling,Survey + physics,2.0,Palermo,1278.4944825346413,False

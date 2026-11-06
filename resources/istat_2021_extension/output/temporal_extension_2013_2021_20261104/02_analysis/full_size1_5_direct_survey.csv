@@ -1,0 +1,15 @@
+year,metric,denominator,unweighted,surveyweighted,weight_sum,scope
+2013,household_size_mean,19688,2.5685188947582285,2.280948063762684,25667050.0,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2013,has_under15_pct,19688,16.76147907354734,22.014863414377576,25667050.0,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2013,household_size1_pct,19688,17.127184071515643,36.79272062819841,25667050.0,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2013,household_size2_pct,19688,36.697480698902886,23.756551687864402,25667050.0,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2013,household_size3_pct,19688,22.704185290532305,17.683380053414787,25667050.0,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2013,household_size4_pct,19688,19.138561560341326,18.097895940515173,25667050.0,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2013,household_size5_pct,19688,4.332588378707842,3.6694516900072274,25667050.0,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2021,household_size_mean,53520,2.405680119581465,2.2759010650157565,25182551.541727014,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2021,has_under15_pct,53520,19.872944693572496,18.500971870314682,25182551.541727014,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2021,household_size1_pct,53520,25.797832585949177,32.212460716326376,25182551.541727014,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2021,household_size2_pct,53520,32.294469357249625,30.431673391092474,25182551.541727014,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2021,household_size3_pct,53520,21.18086696562033,18.751804924718847,25182551.541727014,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2021,household_size4_pct,53520,16.995515695067265,14.761420610403706,25182551.541727014,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement
+2021,household_size5_pct,53520,3.7313153961136023,3.8426403574585972,25182551.541727014,new full size1–5 raw-release descriptive diagnostic; not published archetype replacement

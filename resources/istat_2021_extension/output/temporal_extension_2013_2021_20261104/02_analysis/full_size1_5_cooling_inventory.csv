@@ -1,0 +1,7 @@
+year,status,n,denominator,unweighted_pct,surveyweighted_pct,interpretation
+2013,affirmative_inventory,5382,19688,27.33644859813084,29.43104875706402,"affirmative union comparable broad cooling availability; unknown retained, never inferred absent"
+2013,all_items_explicit_no,0,19688,0.0,0.0,"affirmative union comparable broad cooling availability; unknown retained, never inferred absent"
+2013,unknown_no_affirmative,14306,19688,72.66355140186917,70.56895124293598,"affirmative union comparable broad cooling availability; unknown retained, never inferred absent"
+2021,affirmative_inventory,24498,53520,45.77354260089686,48.84780715370417,"affirmative union comparable broad cooling availability; unknown retained, never inferred absent"
+2021,all_items_explicit_no,29022,53520,54.22645739910313,51.15219284629583,"affirmative union comparable broad cooling availability; unknown retained, never inferred absent"
+2021,unknown_no_affirmative,0,53520,0.0,0.0,"affirmative union comparable broad cooling availability; unknown retained, never inferred absent"

@@ -1,0 +1,28 @@
+{
+  "site": "Padova",
+  "checked_utc": "2026-10-20T10:59:22Z",
+  "checker": "independent CSV arithmetic; no engine import",
+  "cases": [
+    {
+      "case": "seeded",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.0236257114447653e-11,
+        7.564437964902027e-11,
+        1.6143530956469476e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "02545e6feffb6e95c0951aec6a584a199dcf890a52d188feefa8023a823a5b76",
+      "pass": true
+    }
+  ],
+  "prior_numerical_checks_pass": true,
+  "transition_gate_pass": true,
+  "forcing_gate_pass": true,
+  "longwave_sign_checks_pass": true,
+  "invalid_weather_fields_blocked": true,
+  "pass": true
+}

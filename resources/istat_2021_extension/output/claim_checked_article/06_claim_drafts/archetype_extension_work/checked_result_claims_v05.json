@@ -1,0 +1,185 @@
+{
+  "campaign": "archetype_campaign_v2",
+  "claims": [
+    {
+      "id": "MET-016",
+      "label": "Completed and checked archetype campaign",
+      "exact_claim": "The v2 archetype campaign completed 144 scientific annual executions (36 distinct input profiles × four coordinate TMYs) and eight repeat/warm-up checks, exporting 1,331,520 hourly rows; all four site gates and independent author hourly-integration, source-hash and mixture-arithmetic checks pass for this bounded sensible-only model path.",
+      "kind": "method",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-CAMPAIGN",
+        "AE-SITE-GATES",
+        "AUTHOR-AE-RESULT"
+      ],
+      "locators": [
+        "AE-CAMPAIGN | 05_simulations/archetype_campaign_v2/campaign_completion_manifest.json, all-site scientific/technical counts and immutable run identities",
+        "AE-SITE-GATES | 05_simulations/archetype_campaign_v2/{Padova,Bolzano,Roma,Palermo}/site_gate.json, completion_manifest.json, full_step_balance_checks.json, independent_surface_forcing_checks.json and profile_preservation_checks.json",
+        "AUTHOR-AE-RESULT | 06_claim_drafts/author_archetype_result_check_v2.json, independent integration of 152 hourly CSVs and recomputation of all eight overall/site plus 32 subgroup RMSE rows"
+      ],
+      "outputs": [
+        "05_simulations/archetype_campaign_v2/campaign_completion_manifest.json",
+        "06_claim_drafts/author_archetype_result_check_v2.json"
+      ],
+      "population_geography_period_comparator_units": "32 held-out respondents and four shared real training branch components; one fixed dwelling; Padova, Bolzano, Roma and Palermo coordinate TMYs; hourly sensible-only runs.",
+      "assumptions_and_uncertainty": "The 152 executions are not independent households; 144 scientific profiles include the same 36 inputs at four exposures. Technical checks cannot establish empirical model accuracy.",
+      "counterevidence_alternative_explanation": "Earlier 66 defective original executions remain quarantined and are not used for new effects; v1 archetype medoid design had no annual execution.",
+      "falsification_or_weakening": "Any failed source/profile hash, all-hour balance, per-surface forcing, repeat/warm-up gate, or independent CSV integration would withdraw affected outcomes.",
+      "dependencies_next_action_owner": "Fresh independent review05: inspect campaign source/input lineage, all four gates and author result arithmetic before claiming conditional effects.",
+      "permitted_manuscript_wording": "All 144 v2 scientific runs and eight technical checks passed their declared bounded implementation gates.",
+      "related_claims_figures": "MET-012; MET-013; MET-014; MET-015; RES-009; RES-010"
+    },
+    {
+      "id": "RES-009",
+      "label": "Overall annual-heating compression fidelity",
+      "exact_claim": "In v2, eligible-stratum-weighted held-out annual useful-heating RMSE against detailed-input outputs from the same model (pooled→group-conditional) is Padova 1828.20→1787.94 kWh, Bolzano 2633.86→2565.53 kWh, Roma 1437.68→1411.16 kWh, Palermo 1215.81→1196.74 kWh; paired weighted MSE differences (conditional minus pooled) are Padova -145596.59 kWh², Bolzano -355285.79 kWh², Roma -75546.73 kWh², Palermo -46011.95 kWh². These conditional model-reference deviations await fresh independent review and are not measured prediction errors.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-RUNS",
+        "AE-METRICS",
+        "AUTHOR-AE-RESULT",
+        "AE-V2-PROTOCOL"
+      ],
+      "locators": [
+        "AE-RUNS | 05_simulations/archetype_campaign_v2/{Padova,Bolzano,Roma,Palermo}/summary.json and 36 role-linked primary *_hourly.csv per site; per-file hashes in summaries/manifests",
+        "AE-METRICS | 04_analysis/archetype_extension/results_v2/weighted_metrics.csv and individual_deviations.csv, predeclared weighted MSE/RMSE and group/site records",
+        "AUTHOR-AE-RESULT | 06_claim_drafts/author_archetype_result_check_v2.json, independent integration of 152 hourly CSVs and recomputation of all eight overall/site plus 32 subgroup RMSE rows",
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, shared-component mixture endpoint and evaluation definitions"
+      ],
+      "outputs": [
+        "04_analysis/archetype_extension/results_v2/weighted_metrics.csv",
+        "06_claim_drafts/author_archetype_result_check_v2.json"
+      ],
+      "population_geography_period_comparator_units": "Unweighted 13,624-record eligible archived cohort reexpressed by 32 stratified test responses; four weather files; annual ideal useful sensible heating kWh and MSE kWh².",
+      "assumptions_and_uncertainty": "Both methods use the same four simulated training branch components; conditional mixture has 12 branch-probability parameters versus pooled three. Detailed-input outputs are model references, not metered truth.",
+      "counterevidence_alternative_explanation": "Within-branch variation and the small holdout may dominate errors; observed group-response association cannot establish demographic causation or population-wide superiority.",
+      "falsification_or_weakening": "Any raw hourly integration, role/probability/weight recomputation, or fresh physical-model review failure would withdraw the values.",
+      "dependencies_next_action_owner": "Reviewer05: independently check source-to-role mapping, all four weather gates, group/pooled predictions and weighted losses; author: retain endpoint and capacity qualifiers.",
+      "permitted_manuscript_wording": "In this fixed dwelling and eligible held-out cohort, group-conditional branch weights give lower overall within-model annual-heating RMSE than pooled branch weights at each of four TMY exposures.",
+      "related_claims_figures": "RQ-003; MET-014; MET-016; LIM-010; RES-011"
+    },
+    {
+      "id": "RES-010",
+      "label": "Overall individual-peak compression fidelity",
+      "exact_claim": "In v2, eligible-stratum-weighted held-out expected-individual-annual-maximum sensible-load RMSE against detailed-input outputs from the same model (pooled→group-conditional) is Padova 4.7155→4.6015 kW, Bolzano 2.3658→2.3571 kW, Roma 3.5514→3.4742 kW, Palermo 3.2389→3.1945 kW; paired weighted MSE differences (conditional minus pooled) are Padova -1.0627 kW², Bolzano -0.0413 kW², Roma -0.5421 kW², Palermo -0.2855 kW². The prediction is a weighted expectation of individual annual maxima, not a coincident or diversified system peak.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-RUNS",
+        "AE-METRICS",
+        "AUTHOR-AE-RESULT",
+        "AE-V2-PROTOCOL"
+      ],
+      "locators": [
+        "AE-RUNS | 05_simulations/archetype_campaign_v2/{Padova,Bolzano,Roma,Palermo}/summary.json and 36 role-linked primary *_hourly.csv per site; per-file hashes in summaries/manifests",
+        "AE-METRICS | 04_analysis/archetype_extension/results_v2/weighted_metrics.csv and individual_deviations.csv, predeclared weighted MSE/RMSE and group/site records",
+        "AUTHOR-AE-RESULT | 06_claim_drafts/author_archetype_result_check_v2.json, independent integration of 152 hourly CSVs and recomputation of all eight overall/site plus 32 subgroup RMSE rows",
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, shared-component mixture endpoint and evaluation definitions"
+      ],
+      "outputs": [
+        "04_analysis/archetype_extension/results_v2/weighted_metrics.csv",
+        "06_claim_drafts/author_archetype_result_check_v2.json"
+      ],
+      "population_geography_period_comparator_units": "Same 32 held-out respondents and four weather exposures; each individual annual maximum hourly ideal sensible load kW, MSE kW².",
+      "assumptions_and_uncertainty": "Maxima can occur at common imposed season onset; expected individual maxima do not equal the maximum of an averaged hourly curve or equipment sizing need.",
+      "counterevidence_alternative_explanation": "Some group-specific peak RMSE values worsen despite a lower overall cohort RMSE; see RES-011.",
+      "falsification_or_weakening": "Any peak extraction, role/probability/weight, seasonal-calendar or fresh review error would weaken the reported comparison.",
+      "dependencies_next_action_owner": "Reviewer05: check per-person maxima and weighted expectation, not a coincident system peak; author: include subgroup counterexamples.",
+      "permitted_manuscript_wording": "The conditional mixture has lower overall within-model RMSE for expected individual annual maxima at all four exposures, with subgroup exceptions.",
+      "related_claims_figures": "RES-008; RES-009; RES-011; LIM-008; LIM-010"
+    },
+    {
+      "id": "RES-011",
+      "label": "Bolzano subgroup counterexamples",
+      "exact_claim": "Despite the lower overall Bolzano expected-individual-annual-maximum RMSE, group 2 has pooled→conditional group-weighted RMSE 1.965770→2.008767 kW and group 4 2.929172→2.941238 kW; conditional weighting is worse for these two held-out subgroups.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-METRICS",
+        "AUTHOR-AE-RESULT",
+        "AE-RUNS"
+      ],
+      "locators": [
+        "AE-METRICS | 04_analysis/archetype_extension/results_v2/weighted_metrics.csv and individual_deviations.csv, predeclared weighted MSE/RMSE and group/site records",
+        "AUTHOR-AE-RESULT | 06_claim_drafts/author_archetype_result_check_v2.json, independent integration of 152 hourly CSVs and recomputation of all eight overall/site plus 32 subgroup RMSE rows",
+        "AE-RUNS | 05_simulations/archetype_campaign_v2/{Padova,Bolzano,Roma,Palermo}/summary.json and 36 role-linked primary *_hourly.csv per site; per-file hashes in summaries/manifests"
+      ],
+      "outputs": [
+        "04_analysis/archetype_extension/results_v2/weighted_metrics.csv",
+        "06_claim_drafts/author_archetype_result_check_v2.json"
+      ],
+      "population_geography_period_comparator_units": "Bolzano-coordinate TMY; eight held-out responses per group; within-group eligible-branch weights; expected individual annual maximum kW.",
+      "assumptions_and_uncertainty": "Small group-specific holdouts and one case; the differences are descriptive, not inferential or measured.",
+      "counterevidence_alternative_explanation": "Group-conditional weighting improves some other site/endpoint/group comparisons; a universal improvement claim is false in these saved outputs.",
+      "falsification_or_weakening": "Group row mismatch with independently reintegrated hourly peaks or corrected source inputs would require amendment.",
+      "dependencies_next_action_owner": "Reviewer05: inspect subgroup predictions/weights and peak timestamps; author: place these exceptions next to any all-site aggregate statement.",
+      "permitted_manuscript_wording": "For Bolzano individual annual maxima, group-conditional weights worsen held-out RMSE for archetypes 2 and 4 despite the lower overall cohort RMSE.",
+      "related_claims_figures": "RES-010; LIM-010"
+    },
+    {
+      "id": "RES-012",
+      "label": "Within-model detailed-input spread persists",
+      "exact_claim": "For Padova-coordinate weather the 32 held-out detailed-input model annual useful-heating outputs span 5538.60–13145.26 kWh, while the four group-conditional mixture predictions span 7736.55–7953.89 kWh and the pooled prediction is 7834.86 kWh; the four branch mixtures compress substantially more respondent-input variation than they retain.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-RUNS",
+        "AE-METRICS",
+        "AUTHOR-AE-RESULT"
+      ],
+      "locators": [
+        "AE-RUNS | 05_simulations/archetype_campaign_v2/{Padova,Bolzano,Roma,Palermo}/summary.json and 36 role-linked primary *_hourly.csv per site; per-file hashes in summaries/manifests",
+        "AE-METRICS | 04_analysis/archetype_extension/results_v2/weighted_metrics.csv and individual_deviations.csv, predeclared weighted MSE/RMSE and group/site records",
+        "AUTHOR-AE-RESULT | 06_claim_drafts/author_archetype_result_check_v2.json, independent integration of 152 hourly CSVs and recomputation of all eight overall/site plus 32 subgroup RMSE rows"
+      ],
+      "outputs": [
+        "04_analysis/archetype_extension/results_v2/individual_deviations.csv",
+        "06_claim_drafts/author_archetype_result_check_v2.json"
+      ],
+      "population_geography_period_comparator_units": "One assumed dwelling; Padova-coordinate TMY; 32 fixed held-out detailed response profiles versus four group endpoint predictions, kWh.",
+      "assumptions_and_uncertainty": "Range is descriptive for this selected small holdout and model; it is not a survey-population quantile or empirical consumption range.",
+      "counterevidence_alternative_explanation": "Other weather/sites or a richer within-branch representation may alter the spreads.",
+      "falsification_or_weakening": "A raw-output re-integration or role-linkage discrepancy would invalidate these ranges.",
+      "dependencies_next_action_owner": "Reviewer05: verify detailed profile extrema and mixture predictions; author: avoid interpreting the spread as measured household variability.",
+      "permitted_manuscript_wording": "In the Padova case, the held-out detailed-input model outputs span a much wider annual-heating range than the four conditional mixture predictions.",
+      "related_claims_figures": "RES-009; LIM-010"
+    },
+    {
+      "id": "INT-003",
+      "label": "Bounded interpretation of conditional mixtures",
+      "exact_claim": "The v2 conditional branch mixtures have lower eligible-stratum-weighted overall within-model RMSE than pooled branch weights for annual useful heating and expected individual annual maxima at each of four TMY exposures, but Bolzano subgroup peak counterexamples, large detailed-input spread, extra conditional parameters and absent measurements prevent a blanket algorithm-superiority or empirical-accuracy conclusion.",
+      "kind": "interpretation",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-METRICS",
+        "AUTHOR-AE-RESULT",
+        "AE-V2-PROTOCOL",
+        "AE-CAMPAIGN"
+      ],
+      "locators": [
+        "AE-METRICS | 04_analysis/archetype_extension/results_v2/weighted_metrics.csv and individual_deviations.csv, predeclared weighted MSE/RMSE and group/site records",
+        "AUTHOR-AE-RESULT | 06_claim_drafts/author_archetype_result_check_v2.json, independent integration of 152 hourly CSVs and recomputation of all eight overall/site plus 32 subgroup RMSE rows",
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, shared-component mixture endpoint and evaluation definitions",
+        "AE-CAMPAIGN | 05_simulations/archetype_campaign_v2/campaign_completion_manifest.json, all-site scientific/technical counts and immutable run identities"
+      ],
+      "outputs": [
+        "04_analysis/archetype_extension/results_v2/weighted_metrics.csv",
+        "06_claim_drafts/author_archetype_result_check_v2.json"
+      ],
+      "population_geography_period_comparator_units": "32 held-out archived-assigned 2013 responses; one illustrative physical dwelling; four coordinate TMY exposures; useful heat kWh and individual maximum kW.",
+      "assumptions_and_uncertainty": "The conditional mixture differs only in training source-control branch weights, not shared branch components; group membership may proxy controls without causally determining them.",
+      "counterevidence_alternative_explanation": "The subgroup exceptions and within-branch information loss are direct counterevidence to uniform improvement; no independent measured comparator exists.",
+      "falsification_or_weakening": "A reproduced metric reversal, source-to-profile failure, or matched measured evaluation showing opposite predictive ranking would narrow or overturn this interpretation.",
+      "dependencies_next_action_owner": "Reviewer05: assess contrast/inference scope; author: retain counterexamples and model-reference language in every abstract/conclusion statement.",
+      "permitted_manuscript_wording": "In this bounded model-reference experiment, conditional branch frequencies modestly reduce overall loss, with subgroup exceptions and no measured-accuracy inference.",
+      "related_claims_figures": "RES-009; RES-010; RES-011; RES-012; LIM-010; GAP-005"
+    }
+  ]
+}

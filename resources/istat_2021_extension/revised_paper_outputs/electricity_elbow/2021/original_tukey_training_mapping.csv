@@ -1,0 +1,13 @@
+group,original_combination,location,dwelling_type
+E1,North-west | Apartment,North-west,Apartment
+E2,Centre | Apartment,Centre,Apartment
+E2,North-east | Apartment,North-east,Apartment
+E2,South/islands | Apartment,South/islands,Apartment
+E3,South/islands | Multi-family,South/islands,Multi-family
+E3,South/islands | Single-family,South/islands,Single-family
+E4,Centre | Multi-family,Centre,Multi-family
+E4,Centre | Single-family,Centre,Single-family
+E4,North-west | Multi-family,North-west,Multi-family
+E4,North-west | Single-family,North-west,Single-family
+E5,North-east | Multi-family,North-east,Multi-family
+E5,North-east | Single-family,North-east,Single-family

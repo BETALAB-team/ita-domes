@@ -1,0 +1,209 @@
+{
+  "claim_count": 106,
+  "same_ordered_ids": true,
+  "all_markdown_and_evidence_ledger_claim_parity": true,
+  "claim_changes": {
+    "RQ-003": {
+      "dependencies_next_action_owner": {
+        "old": "Independent review05 checked the source/input/run bridge and bounded contribution; fresh reviewer06 to inspect the revised seasonal-peak context before updated prose.",
+        "new": "Independent reviews05/06 checked the source-to-input bridge, bounded contribution and post-hoc peak context. Author: retain the one-dwelling, small-holdout, model-reference scope in prose; final review-chain closure remains procedural."
+      }
+    },
+    "MET-012": {
+      "dependencies_next_action_owner": {
+        "old": "Independent review05 reconstructed source profiles and frozen roles; fresh reviewer06 to inspect the current validation matrix and claim chain.",
+        "new": "Independent review06 reconstructed all frozen source profiles and roles. Author: keep the executed-v2 validation matrix as the current methods pointer; final closure remains procedural."
+      }
+    },
+    "MET-014": {
+      "dependencies_next_action_owner": {
+        "old": "Author corrected two-representation wording and current validation matrix; fresh reviewer06 to assess the squared-loss/RMSE and individual-maximum definition.",
+        "new": "Independent review06 reconstructed squared-loss/RMSE comparisons and the expectation-of-individual-maxima estimand. Author: preserve two-representation wording and three-versus-twelve probability-parameter limit in prose."
+      }
+    },
+    "LIM-010": {
+      "dependencies_next_action_owner": {
+        "old": "Author: keep three-versus-twelve free-probability and small-holdout limits adjacent to every reported model-reference deviation; fresh reviewer06 to inspect the corrected current matrix.",
+        "new": "Author: keep three-versus-twelve free-probability, single-split and small-holdout limits beside model-reference deviations; independent review06 found no new scientific correction."
+      }
+    },
+    "LIM-011": {
+      "dependencies_next_action_owner": {
+        "old": "Author: retain fixed physical/internal-gain and unused dwelling-allocation boundaries; fresh reviewer06 may audit run configurations.",
+        "new": "Author: retain fixed physical/internal-gain and unused dwelling-allocation boundaries; independent review06 checked the run configurations without requiring a scientific change."
+      }
+    },
+    "MET-015": {
+      "dependencies_next_action_owner": {
+        "old": "Author and independent review05 checked training weights and shared components; fresh reviewer06 to assess current validated design wording.",
+        "new": "Independent review06 reproduced training branch probabilities and shared component identities. Author: preserve the input-only fitting and same-four-component distinction."
+      }
+    },
+    "MET-016": {
+      "dependencies_next_action_owner": {
+        "old": "Independent review05 reintegrated all 152 annual files and reconstructed node/surface checks; fresh reviewer06 to assess revised peak-context interpretation. Numerical consistency still does not establish measured accuracy.",
+        "new": "Independent review06 reintegrated all 152 annual files and checked numerical state/forcing consistency. Author: preserve the sensible-only and no-measured-validation boundaries; final closure remains procedural."
+      }
+    },
+    "RES-009": {
+      "exact_claim": {
+        "old": "In v2, eligible-stratum-weighted held-out annual useful-heating RMSE against detailed-input outputs from the same model (pooled→group-conditional) is Padova 1828.20→1787.94 kWh, Bolzano 2633.86→2565.53 kWh, Roma 1437.68→1411.16 kWh, Palermo 1215.81→1196.74 kWh; paired weighted MSE differences (conditional minus pooled) are Padova -145596.59 kWh², Bolzano -355285.79 kWh², Roma -75546.73 kWh², Palermo -46011.95 kWh². These conditional model-reference deviations await fresh independent review and are not measured prediction errors.",
+        "new": "In v2, eligible-stratum-weighted held-out annual useful-heating RMSE against detailed-input outputs from the same model (pooled→group-conditional) is Padova 1828.20→1787.94 kWh, Bolzano 2633.86→2565.53 kWh, Roma 1437.68→1411.16 kWh, Palermo 1215.81→1196.74 kWh; paired weighted MSE differences (conditional minus pooled) are Padova -145596.59 kWh², Bolzano -355285.79 kWh², Roma -75546.73 kWh², Palermo -46011.95 kWh². These conditional model-reference deviations are not measured prediction errors."
+      },
+      "dependencies_next_action_owner": {
+        "old": "Independent review05 reproduced all four weather-site annual losses from raw outputs; fresh reviewer06 to inspect revised integration and scope; author to retain capacity and model-reference qualifiers.",
+        "new": "Independent review06 reproduced all-site annual endpoints and weighted losses from primary hourly files. Author: retain model-reference, capacity and subgroup qualifiers in prose; final closure remains procedural."
+      }
+    },
+    "RES-010": {
+      "dependencies_next_action_owner": {
+        "old": "Independent review05 reproduced the peak losses; author independently recomputed post-hoc raw peak-hour counts, corroborated by a separate all-site diagnostic; fresh reviewer06 to assess seasonal wording.",
+        "new": "Independent review06 reproduced the individual-maximum losses and raw post-hoc seasonal counts. Author: keep expected individual maximum distinct from coincident system peak and retain seasonal context."
+      }
+    },
+    "RES-011": {
+      "dependencies_next_action_owner": {
+        "old": "Independent review05 reproduced the subgroup losses; fresh reviewer06 to assess their adjacency to the post-hoc Bolzano seasonal context.",
+        "new": "Independent review06 reproduced both adverse Bolzano subgroup comparisons. Author: place these alongside any overall-conditional-improvement sentence and retain the post-hoc seasonal context."
+      }
+    },
+    "RES-012": {
+      "dependencies_next_action_owner": {
+        "old": "Independent review05 reproduced detailed-input and mixture spread; fresh reviewer06 to check current result interpretation; author to avoid calling it measured household variability.",
+        "new": "Independent review06 reproduced detailed-input and compressed-mixture spread. Author: do not call the modeled spread measured household variability."
+      }
+    },
+    "INT-003": {
+      "dependencies_next_action_owner": {
+        "old": "Fresh reviewer06: assess conditional contrast and post-hoc peak interpretation; author: retain counterexamples, seasonal context and model-reference language in every abstract/conclusion statement.",
+        "new": "Independent review06 assessed the conditional contrast and post-hoc peak interpretation without a new scientific correction. Author: retain counterexamples, seasonal context and same-model-reference language in abstract/conclusion prose."
+      }
+    },
+    "RES-013": {
+      "dependencies_next_action_owner": {
+        "old": "Fresh reviewer06: verify raw-role counts and that the post-hoc timing description is kept separate from the predeclared maximum and model-reference losses; author: retain beside RES-010/011.",
+        "new": "Independent review06 directly recovered the 27/32 and 2/4 restart-day counts and found no ties. Author: label the diagnostic post hoc and descriptive, beside RES-010/011; retain every original annual maximum."
+      }
+    }
+  },
+  "hashes": {
+    "06_claim_drafts/article_claims_v06.md": "0075415fec3e985bbd55a6cfc363fd94a7d73b9421ddc9699ff82a4ae79f5c7b",
+    "06_claim_drafts/claim_ledger_v06.json": "32a76ba4e2e4ed5c1114a1e2a2be4d269579782d5fe48777e12d4f951018fdc8",
+    "06_claim_drafts/claim_evidence_ledger_v06.json": "91227a4d60a5d6bbcf736ac0c7070f75b10cd7ead8e1eaf0a2ee160d70f46b66",
+    "06_claim_drafts/article_claims_v07.md": "9aa90444db044ab1480872fbf496db171f359e39e10cf1207f76a4c586757df9",
+    "06_claim_drafts/claim_ledger_v07.json": "a768e5d022bb117c5a185c8a40500bbac52387910167ad65d439d759d27dd468",
+    "06_claim_drafts/claim_evidence_ledger_v07.json": "f458f7b2b811d7be924533a22bc892eb53550c84f3ebc900e2f56442c482999a",
+    "07_reviews/archetype_extension/review_06.md": "67015c5f00462ee246098d637821a789fd6ce6ce7eba4014a43d44780883bdef",
+    "07_reviews/archetype_extension/response_06.md": "72a2b245f5f020d9b904000263ee7c92719f8e2c04e42bafae35143868b2e27d",
+    "07_reviews/archetype_extension/review_05.md": "1b62bd323c4ca0682d3ac6428891172e45d458cc8ac15b3746e0b4142eede899",
+    "07_reviews/archetype_extension/response_05.md": "87cc8c9fc92def0b3ed80b63f58e9054aa40e9c8775d10fde27f958f984268f5",
+    "07_reviews/archetype_extension/issue_register_05.json": "74388bbf2a015bf3e264f906d62c1aff774fe820b42fa80732f10c4b7edfe8e9",
+    "03_methods/archetype_extension/validation_matrix.md": "4543dfedb30866200bd9a65ed676573b4fac618f06d7de54b742f6af9be25636",
+    "03_methods/archetype_extension/posthoc_peak_context_report.md": "127be2f6fffdfc071d080a702a67ab06ff7b26d9a0f364b20b05ed9392651c6a",
+    "07_reviews/final_closure.md": "0853158f1092e462a8c753b2cf55a7e87bb3876f2c2565f9caf8a368088618e6",
+    "07_reviews/issue_register_final.json": "39b7973e54d63187ad53e8bdb65ab16f5a0450f58752caa4259239ef366765be",
+    "07_reviews/archetype_extension/issue_register_06.json": "382c03eacb1a93cdecc7ca2d5f8336e59021709901e4749eb0210d5699e4bbff"
+  },
+  "metadata_changes": {
+    "version": {
+      "old": "v06",
+      "new": "v07"
+    },
+    "review_sha256": {
+      "old": "1b62bd323c4ca0682d3ac6428891172e45d458cc8ac15b3746e0b4142eede899",
+      "new": "67015c5f00462ee246098d637821a789fd6ce6ce7eba4014a43d44780883bdef"
+    },
+    "draft_sha256": {
+      "old": "0075415fec3e985bbd55a6cfc363fd94a7d73b9421ddc9699ff82a4ae79f5c7b",
+      "new": "9aa90444db044ab1480872fbf496db171f359e39e10cf1207f76a4c586757df9"
+    },
+    "draft_filename": {
+      "old": "article_claims_v06.md",
+      "new": "article_claims_v07.md"
+    },
+    "prior_input_sha256": {
+      "old": "2e5889e3948a72dab10af6867b4fad193f7bfd40efecab8248c3fb3aad9773fa",
+      "new": "0075415fec3e985bbd55a6cfc363fd94a7d73b9421ddc9699ff82a4ae79f5c7b"
+    }
+  },
+  "six_complete_artifact_cycles": [
+    {
+      "round": 1,
+      "input": "06_claim_drafts/article_claims_v00.md",
+      "input_sha256": "f2df38afd47db701eba7edf7304a7bd7e9da158d65e7bebd3acace32ecfc0089",
+      "review": "07_reviews/review_01.md",
+      "review_sha256": "c7a8d509563fbef997f1615cb03dc0700a83800d619367b91207d944afaa6925",
+      "response": "07_reviews/response_01.md",
+      "response_sha256": "61a5c3fb372994fe8902ed2bb1e79ada8025ea9139d5be6f39697059fb567214",
+      "revision": "06_claim_drafts/article_claims_v01.md",
+      "revision_sha256": "5e35bc02e77d6345a9c82be51a8a405d5d4ba3e8490f6c24d037b8488a04bab1",
+      "register": "07_reviews/issue_register_01.json",
+      "register_sha256": "d842911844b06556f07b26f051af2e6093908e8f0b9323caf71ac3e784817314"
+    },
+    {
+      "round": 2,
+      "input": "06_claim_drafts/article_claims_v01.md",
+      "input_sha256": "5e35bc02e77d6345a9c82be51a8a405d5d4ba3e8490f6c24d037b8488a04bab1",
+      "review": "07_reviews/review_02.md",
+      "review_sha256": "3e258716d7516c05d8b78c306b358ff5651d204ed39110b831652877fa761fd4",
+      "response": "07_reviews/response_02.md",
+      "response_sha256": "1f6069e8dbfcdae9692199c759ec55293e83a98871aff1e19b28bcfaa86796d2",
+      "revision": "06_claim_drafts/article_claims_v02.md",
+      "revision_sha256": "91373b60fe5f574057f2e2fdfc597cf9e373c090ae4d2aba4757682b183c0045",
+      "register": "07_reviews/issue_register_02.json",
+      "register_sha256": "50f28e39ffb1867b063e333be8dfe991d04abd1f2b6b76b9477853affb3b14c9"
+    },
+    {
+      "round": 3,
+      "input": "06_claim_drafts/article_claims_v02.md",
+      "input_sha256": "91373b60fe5f574057f2e2fdfc597cf9e373c090ae4d2aba4757682b183c0045",
+      "review": "07_reviews/review_03.md",
+      "review_sha256": "dda6e7288e34af7368f458cc40390297efa7b3da0ab097cabb1cb606e9e77e34",
+      "response": "07_reviews/response_03.md",
+      "response_sha256": "8e80265a850143a617c4b3c2ae944089680a06d19a34aef18413092854557f17",
+      "revision": "06_claim_drafts/article_claims_v03.md",
+      "revision_sha256": "c96e3307de9b9587cc554c076f5d3527cc3ce8a6c29b12342777c07bc93c5eb2",
+      "register": "07_reviews/issue_register_03.json",
+      "register_sha256": "95db0f13acf987ca3bea0a5d67b5fcbff8ed8b6414f1c5571727f5c5489039a2"
+    },
+    {
+      "round": 4,
+      "input": "06_claim_drafts/article_claims_v03.md",
+      "input_sha256": "c96e3307de9b9587cc554c076f5d3527cc3ce8a6c29b12342777c07bc93c5eb2",
+      "review": "07_reviews/review_04.md",
+      "review_sha256": "ce16dcca6b71bd1da3e5ce0c47ba44001628d66ed8535833da3d3c4fa549b687",
+      "response": "07_reviews/response_04.md",
+      "response_sha256": "d0c27ab5d2d39eaaf1689eaabc96e85a94664b77b8dd27c74e2f2da567942e9b",
+      "revision": "06_claim_drafts/article_claims_v04.md",
+      "revision_sha256": "8a641ab68bd80fb96aad3016f3deea37ba0dbd4ab50ce9d984d8b59cfe50da7e",
+      "register": "07_reviews/issue_register_04.json",
+      "register_sha256": "77d956d016606ea0bba7501b3531f917efbb3ead93c2d0b9cffb77d81529055b"
+    },
+    {
+      "round": 5,
+      "input": "06_claim_drafts/article_claims_v05.md",
+      "input_sha256": "2e5889e3948a72dab10af6867b4fad193f7bfd40efecab8248c3fb3aad9773fa",
+      "review": "07_reviews/archetype_extension/review_05.md",
+      "review_sha256": "1b62bd323c4ca0682d3ac6428891172e45d458cc8ac15b3746e0b4142eede899",
+      "response": "07_reviews/archetype_extension/response_05.md",
+      "response_sha256": "87cc8c9fc92def0b3ed80b63f58e9054aa40e9c8775d10fde27f958f984268f5",
+      "revision": "06_claim_drafts/article_claims_v06.md",
+      "revision_sha256": "0075415fec3e985bbd55a6cfc363fd94a7d73b9421ddc9699ff82a4ae79f5c7b",
+      "register": "07_reviews/archetype_extension/issue_register_05.json",
+      "register_sha256": "74388bbf2a015bf3e264f906d62c1aff774fe820b42fa80732f10c4b7edfe8e9"
+    },
+    {
+      "round": 6,
+      "input": "06_claim_drafts/article_claims_v06.md",
+      "input_sha256": "0075415fec3e985bbd55a6cfc363fd94a7d73b9421ddc9699ff82a4ae79f5c7b",
+      "review": "07_reviews/archetype_extension/review_06.md",
+      "review_sha256": "67015c5f00462ee246098d637821a789fd6ce6ce7eba4014a43d44780883bdef",
+      "response": "07_reviews/archetype_extension/response_06.md",
+      "response_sha256": "72a2b245f5f020d9b904000263ee7c92719f8e2c04e42bafae35143868b2e27d",
+      "revision": "06_claim_drafts/article_claims_v07.md",
+      "revision_sha256": "9aa90444db044ab1480872fbf496db171f359e39e10cf1207f76a4c586757df9",
+      "register": "07_reviews/archetype_extension/issue_register_06.json",
+      "register_sha256": "382c03eacb1a93cdecc7ca2d5f8336e59021709901e4749eb0210d5699e4bbff"
+    }
+  ]
+}

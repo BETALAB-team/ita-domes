@@ -1,0 +1,13 @@
+{
+  "created_after_checks": true,
+  "purpose": "exact analysis/checker source copies; model pre-run snapshots are separate",
+  "sha256": {
+    "check_surface_forcing_v5.py": "b51c7792a786685cc1cdddf09e37f68ce63acc4a0ca34d335d2a41d4065988b1",
+    "check_full_step_balances_v4.py": "8468c0e5d60b3bf03d8bae178c1dec4d0fc5fe67a49a72cc4781fd4010633ed2",
+    "summarize_corrected_campaign_v5.py": "e53c9bf3619a8178d5e83acbbe9e334bd79914174f33b01cd20d577c66ecba5c",
+    "verify_v5_replay_interface.py": "8a61024cdd711b517f792f20bf947bc27313328b01c9e5f2bf213693bafc9d16"
+  },
+  "maximum_full_step_residual_W": 1.7689671949483454e-10,
+  "maximum_surface_component_error_W": 1.3642420526593924e-12,
+  "maximum_order_error_W": 1.8189894035458565e-12
+}

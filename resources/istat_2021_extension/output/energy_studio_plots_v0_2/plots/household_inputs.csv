@@ -1,0 +1,25 @@
+panel,series,x,category,value,reference_line
+Appliance electricity,Milano,0.0,A1,1653.4967146532517,False
+Appliance electricity,Milano,1.0,A2,2499.24813077332,False
+Appliance electricity,Milano,2.0,A3,1732.907069118117,False
+Appliance electricity,Milano,3.0,A4,2078.298781324346,False
+Appliance electricity,Roma,0.0,A1,1685.6954236916588,False
+Appliance electricity,Roma,1.0,A2,2423.1666846718103,False
+Appliance electricity,Roma,2.0,A3,1815.7189482431702,False
+Appliance electricity,Roma,3.0,A4,2039.6218778977484,False
+Appliance electricity,Palermo,0.0,A1,1661.2253420683567,False
+Appliance electricity,Palermo,1.0,A2,2330.425222342076,False
+Appliance electricity,Palermo,2.0,A3,1717.752628688839,False
+Appliance electricity,Palermo,3.0,A4,1951.5281326966078,False
+Household size,Milano,0.0,A1,1.469000084394624,False
+Household size,Milano,1.0,A2,3.451031976811857,False
+Household size,Milano,2.0,A3,1.477682289103706,False
+Household size,Milano,3.0,A4,1.9417835346630932,False
+Household size,Roma,0.0,A1,1.6376981573736302,False
+Household size,Roma,1.0,A2,3.5267519647666017,False
+Household size,Roma,2.0,A3,1.5721609785268147,False
+Household size,Roma,3.0,A4,1.9284735700750453,False
+Household size,Palermo,0.0,A1,1.7513547743625786,False
+Household size,Palermo,1.0,A2,3.6137163380419817,False
+Household size,Palermo,2.0,A3,1.6605629463410867,False
+Household size,Palermo,3.0,A4,2.060482630625246,False

@@ -1,0 +1,1499 @@
+{
+  "draft_sha256": "91373b60fe5f574057f2e2fdfc597cf9e373c090ae4d2aba4757682b183c0045",
+  "sites": {
+    "Padova": {
+      "epw_sha256": "390ead08c3e32d34a874c564b57c28ef1b7275682c7a749477208f5b6846adca",
+      "rows": 8760,
+      "opaque99_count": 8760,
+      "negative_wind_records": [],
+      "mean_air_minus_sky_K": 12.77565604632737,
+      "sky_C_range": [
+        -25.954708282586978,
+        23.83323706240907
+      ],
+      "HDD18": 1983.1683333333333,
+      "CDD26": 94.52541666666667,
+      "GHI_kWh_m2": 1507.689,
+      "RH_mean": 76.10406621004566
+    },
+    "Bolzano": {
+      "epw_sha256": "ff2561b3a202e1ae67201bd46086e56e50c66d328bd118bfe8e7d0c3270d472b",
+      "rows": 8760,
+      "opaque99_count": 8760,
+      "negative_wind_records": [],
+      "mean_air_minus_sky_K": 17.620782214282908,
+      "sky_C_range": [
+        -49.209704307680624,
+        13.031503785787834
+      ],
+      "HDD18": 3521.4191666666666,
+      "CDD26": 0,
+      "GHI_kWh_m2": 1455.099,
+      "RH_mean": 67.38567351598174
+    },
+    "Roma": {
+      "epw_sha256": "edbe4470b89164c1c80e8dd8969949addfd132ce4a10cb93278eb88c8f1247cd",
+      "rows": 8760,
+      "opaque99_count": 8760,
+      "negative_wind_records": [],
+      "mean_air_minus_sky_K": 13.551708113654964,
+      "sky_C_range": [
+        -26.467154264454535,
+        23.93418883169693
+      ],
+      "HDD18": 1459.4504166666668,
+      "CDD26": 55.5125,
+      "GHI_kWh_m2": 1642.606,
+      "RH_mean": 75.26427283105023
+    },
+    "Palermo": {
+      "epw_sha256": "1e51aa278551c25cddd96ce1c40ae0f86a8e91f05ca71157f67b17be8cf1d80f",
+      "rows": 8760,
+      "opaque99_count": 8760,
+      "negative_wind_records": [
+        {
+          "index": 3631,
+          "value": -0.1,
+          "label": [
+            "2014",
+            "6",
+            "1",
+            "8",
+            "0"
+          ]
+        }
+      ],
+      "mean_air_minus_sky_K": 14.073726997419667,
+      "sky_C_range": [
+        -18.811833989211237,
+        19.909623404984927
+      ],
+      "HDD18": 1140.9295833333333,
+      "CDD26": 22.982500000000005,
+      "GHI_kWh_m2": 1727.514,
+      "RH_mean": 74.66885958904109
+    }
+  },
+  "runs": {
+    "v5/Padova": {
+      "manifest_sha256": "9dba850692e4b0048f6ca4b8a3d92c0352f45ecd221f6484ed2560f6ef4289b5",
+      "script_sha256": "48b3175c67eb3983f2059f8de32f24480a3374090572b59e7c2e37c7f3ff8f2f",
+      "script_hash_matches_manifest": true,
+      "cases": {
+        "seeded": {
+          "sha256": "02545e6feffb6e95c0951aec6a584a199dcf890a52d188feefa8023a823a5b76",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.0236257114447653e-11,
+            7.569411764052347e-11,
+            1.6143530956469476e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 9574.018167900284,
+          "peak_kW": 10.049540394516585,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 8241,
+          "peak_datetime": "2023-12-10 09:00:00",
+          "peak_row": {
+            "hour": 8241.0,
+            "sensible_load_W": 10049.540394516585,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 0.89,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.090899651243742,
+            "surface_C": 18.67682545875636,
+            "mass_C": 17.513543714184717,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 8.884638474141394,
+            "phi_mass_W": 278.69258859227403,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 8240.0,
+            "sensible_load_W": 4534.711075702126,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": -1.39,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.147493970792464,
+            "surface_C": 17.51731741381288,
+            "mass_C": 17.090899651243742,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -3.2010558528956334,
+            "phi_mass_W": -100.41044939176848,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            15.353184348070595,
+            41.0461137293173
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 1323,
+          "setback_heating_kWh": 2375.6174880874
+        },
+        "early": {
+          "sha256": "399dff1dc09f5b457b3bacb69af6896dd2a8453e3869c9b134793edd853e1f59",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.0236257114447653e-11,
+            7.565148507637787e-11,
+            1.6143530956469476e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 9659.6327823585,
+          "peak_kW": 10.253471877549893,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 8237,
+          "peak_datetime": "2023-12-10 05:00:00",
+          "peak_row": {
+            "hour": 8237.0,
+            "sensible_load_W": 10253.471877549893,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": -3.37,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.199523356525958,
+            "surface_C": 18.641226675925967,
+            "mass_C": 17.50143057795303,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -7.431048867358591,
+            "phi_mass_W": -233.0965126861833,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 8236.0,
+            "sensible_load_W": 4396.699235652548,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": -3.39,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.324655629556762,
+            "surface_C": 17.5824339299683,
+            "mass_C": 17.199523356525958,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -7.431048867358591,
+            "phi_mass_W": -233.0965126861833,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            15.357545106818035,
+            41.0461137293173
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 1229,
+          "setback_heating_kWh": 1882.6991418768848
+        },
+        "late": {
+          "sha256": "615f5d4f68992c0391254b4a1a01e5d52d7cababfff91795e431cc15927af845",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.1827872842550278e-11,
+            7.051426109683234e-11,
+            1.6143530956469476e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 9606.296439353202,
+          "peak_kW": 9.838176213778482,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 8241,
+          "peak_datetime": "2023-12-10 09:00:00",
+          "peak_row": {
+            "hour": 8241.0,
+            "sensible_load_W": 9838.176213778483,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 0.89,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.21331536591756,
+            "surface_C": 18.75081698040381,
+            "mass_C": 17.617333274764654,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 8.884638474141394,
+            "phi_mass_W": 278.69258859227403,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 8240.0,
+            "sensible_load_W": 4285.415317083192,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": -1.39,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.291878503450352,
+            "surface_C": 17.604587510647907,
+            "mass_C": 17.21331536591756,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -3.2010558528956334,
+            "phi_mass_W": -100.41044939176848,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            15.354470275756995,
+            41.0461137293173
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 1287,
+          "setback_heating_kWh": 2207.734792752013
+        },
+        "repeat_seeded": {
+          "sha256": "02545e6feffb6e95c0951aec6a584a199dcf890a52d188feefa8023a823a5b76",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.0236257114447653e-11,
+            7.569411764052347e-11,
+            1.6143530956469476e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 9574.018167900284,
+          "peak_kW": 10.049540394516585,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 8241,
+          "peak_datetime": "2023-12-10 09:00:00",
+          "peak_row": {
+            "hour": 8241.0,
+            "sensible_load_W": 10049.540394516585,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 0.89,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.090899651243742,
+            "surface_C": 18.67682545875636,
+            "mass_C": 17.513543714184717,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 8.884638474141394,
+            "phi_mass_W": 278.69258859227403,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 8240.0,
+            "sensible_load_W": 4534.711075702126,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": -1.39,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.147493970792464,
+            "surface_C": 17.51731741381288,
+            "mass_C": 17.090899651243742,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -3.2010558528956334,
+            "phi_mass_W": -100.41044939176848,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            15.353184348070595,
+            41.0461137293173
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 1323,
+          "setback_heating_kWh": 2375.6174880874
+        },
+        "warmup_seeded": {
+          "sha256": "fb4f9a52108a2af7f45a92418c2015fe63f62a79808cf257a1067758e3647718",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.0236257114447653e-11,
+            7.569411764052347e-11,
+            1.6143530956469476e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 9574.018167900114,
+          "peak_kW": 10.049540394516585,
+          "annual_summary_abs_error_kWh": 1.8189894035458565e-12,
+          "peak_hour": 8241,
+          "peak_datetime": "2023-12-10 09:00:00",
+          "peak_row": {
+            "hour": 8241.0,
+            "sensible_load_W": 10049.540394516585,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 0.89,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.090899651243742,
+            "surface_C": 18.67682545875636,
+            "mass_C": 17.513543714184717,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 8.884638474141394,
+            "phi_mass_W": 278.69258859227403,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 8240.0,
+            "sensible_load_W": 4534.711075702126,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": -1.39,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.147493970792464,
+            "surface_C": 17.51731741381288,
+            "mass_C": 17.090899651243742,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -3.2010558528956334,
+            "phi_mass_W": -100.41044939176848,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            15.353184348070595,
+            41.0461137293173
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 1323,
+          "setback_heating_kWh": 2375.6174880872554
+        }
+      },
+      "repeat_max_difference": 0.0,
+      "pairs": {
+        "early": {
+          "annual_percent": 0.8942391058465393,
+          "peak_percent": 2.029261787380654
+        },
+        "late": {
+          "annual_percent": 0.33714445582671004,
+          "peak_percent": -2.1032223608298706
+        },
+        "warmup_seeded": {
+          "annual_percent": -1.765254609153999e-12,
+          "peak_percent": 0.0
+        }
+      },
+      "package_hash_mismatches": []
+    },
+    "v5/Bolzano": {
+      "manifest_sha256": "0dd8c29bd8dd018235ae30355cfd9ac34e9bab0751104bd602d09e552719181e",
+      "script_sha256": "48b3175c67eb3983f2059f8de32f24480a3374090572b59e7c2e37c7f3ff8f2f",
+      "script_hash_matches_manifest": true,
+      "cases": {
+        "seeded": {
+          "sha256": "d8b7038f337ced6afeec4b6d70e84bf5df9ff6c14dd1a1dd268469cfd4322410",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            1.7280399333685637e-11,
+            7.44648787076585e-11,
+            1.3007195320824394e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 15851.213775339595,
+          "peak_kW": 17.80862080867205,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 6912,
+          "peak_datetime": "2023-10-16 00:00:00",
+          "peak_row": {
+            "hour": 6912.0,
+            "sensible_load_W": 17808.62080867205,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 5.3,
+            "old_air_C": 9.641374807205992,
+            "old_mass_C": 9.626492434266531,
+            "surface_C": 13.076450748005138,
+            "mass_C": 10.806786785109097,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -10.801560881044338,
+            "phi_mass_W": -338.82244860460753,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 6911.0,
+            "sensible_load_W": 0.0,
+            "air_temperature_C": 9.641374807205992,
+            "heating_setpoint_C": 0.0,
+            "outdoor_temperature_C": 5.59,
+            "old_air_C": 9.758702652509632,
+            "old_mass_C": 9.728807858951804,
+            "surface_C": 9.605586376116113,
+            "mass_C": 9.626492434266531,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -10.801560881044338,
+            "phi_mass_W": -338.82244860460753,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.5,
+            "sigma_convective": 0.5
+          },
+          "temperature_range_C": [
+            8.136302140010718,
+            31.03155917853116
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 2073,
+          "setback_heating_kWh": 5380.284246969751
+        },
+        "early": {
+          "sha256": "920d4dbdd74cc769106d47b893215c650151567a4544265357ddf39606ffdc30",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            1.7280399333685637e-11,
+            8.090239589364501e-11,
+            1.3007195320824394e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 15835.683227440928,
+          "peak_kW": 17.80862080867205,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 6912,
+          "peak_datetime": "2023-10-16 00:00:00",
+          "peak_row": {
+            "hour": 6912.0,
+            "sensible_load_W": 17808.62080867205,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 5.3,
+            "old_air_C": 9.641374807205992,
+            "old_mass_C": 9.626492434266531,
+            "surface_C": 13.076450748005138,
+            "mass_C": 10.806786785109097,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -10.801560881044338,
+            "phi_mass_W": -338.82244860460753,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 6911.0,
+            "sensible_load_W": 0.0,
+            "air_temperature_C": 9.641374807205992,
+            "heating_setpoint_C": 0.0,
+            "outdoor_temperature_C": 5.59,
+            "old_air_C": 9.758702652509632,
+            "old_mass_C": 9.728807858951804,
+            "surface_C": 9.605586376116113,
+            "mass_C": 9.626492434266531,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -10.801560881044338,
+            "phi_mass_W": -338.82244860460753,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.5,
+            "sigma_convective": 0.5
+          },
+          "temperature_range_C": [
+            8.136302140010718,
+            31.03155917853116
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 2077,
+          "setback_heating_kWh": 4734.494848659193
+        },
+        "late": {
+          "sha256": "98d1d67b7d8f5bb5e4b3398a4180193733a63f9ad697aec568437b2f3fbceab5",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            1.7280399333685637e-11,
+            7.51851914060353e-11,
+            1.3007195320824394e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 15855.464323253667,
+          "peak_kW": 17.80862080867205,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 6912,
+          "peak_datetime": "2023-10-16 00:00:00",
+          "peak_row": {
+            "hour": 6912.0,
+            "sensible_load_W": 17808.62080867205,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 5.3,
+            "old_air_C": 9.641374807205992,
+            "old_mass_C": 9.626492434266531,
+            "surface_C": 13.076450748005138,
+            "mass_C": 10.806786785109097,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -10.801560881044338,
+            "phi_mass_W": -338.82244860460753,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 6911.0,
+            "sensible_load_W": 0.0,
+            "air_temperature_C": 9.641374807205992,
+            "heating_setpoint_C": 0.0,
+            "outdoor_temperature_C": 5.59,
+            "old_air_C": 9.758702652509632,
+            "old_mass_C": 9.728807858951804,
+            "surface_C": 9.605586376116113,
+            "mass_C": 9.626492434266531,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -10.801560881044338,
+            "phi_mass_W": -338.82244860460753,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.5,
+            "sigma_convective": 0.5
+          },
+          "temperature_range_C": [
+            8.136302140010718,
+            31.03155917853116
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 2052,
+          "setback_heating_kWh": 5162.093655582754
+        },
+        "repeat_seeded": {
+          "sha256": "d8b7038f337ced6afeec4b6d70e84bf5df9ff6c14dd1a1dd268469cfd4322410",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            1.7280399333685637e-11,
+            7.44648787076585e-11,
+            1.3007195320824394e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 15851.213775339595,
+          "peak_kW": 17.80862080867205,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 6912,
+          "peak_datetime": "2023-10-16 00:00:00",
+          "peak_row": {
+            "hour": 6912.0,
+            "sensible_load_W": 17808.62080867205,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 5.3,
+            "old_air_C": 9.641374807205992,
+            "old_mass_C": 9.626492434266531,
+            "surface_C": 13.076450748005138,
+            "mass_C": 10.806786785109097,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -10.801560881044338,
+            "phi_mass_W": -338.82244860460753,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 6911.0,
+            "sensible_load_W": 0.0,
+            "air_temperature_C": 9.641374807205992,
+            "heating_setpoint_C": 0.0,
+            "outdoor_temperature_C": 5.59,
+            "old_air_C": 9.758702652509632,
+            "old_mass_C": 9.728807858951804,
+            "surface_C": 9.605586376116113,
+            "mass_C": 9.626492434266531,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -10.801560881044338,
+            "phi_mass_W": -338.82244860460753,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.5,
+            "sigma_convective": 0.5
+          },
+          "temperature_range_C": [
+            8.136302140010718,
+            31.03155917853116
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 2073,
+          "setback_heating_kWh": 5380.284246969751
+        },
+        "warmup_seeded": {
+          "sha256": "4b98d7e5cb7b6148b63fad7219e3a575a9cd43385ae480a528b1382d877bf7fb",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            1.7280399333685637e-11,
+            7.44648787076585e-11,
+            1.3007195320824394e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 15851.213775338707,
+          "peak_kW": 17.80862080867205,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 6912,
+          "peak_datetime": "2023-10-16 00:00:00",
+          "peak_row": {
+            "hour": 6912.0,
+            "sensible_load_W": 17808.62080867205,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 5.3,
+            "old_air_C": 9.641374807205992,
+            "old_mass_C": 9.626492434266531,
+            "surface_C": 13.076450748005138,
+            "mass_C": 10.806786785109097,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -10.801560881044338,
+            "phi_mass_W": -338.82244860460753,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 6911.0,
+            "sensible_load_W": 0.0,
+            "air_temperature_C": 9.641374807205992,
+            "heating_setpoint_C": 0.0,
+            "outdoor_temperature_C": 5.59,
+            "old_air_C": 9.758702652509632,
+            "old_mass_C": 9.728807858951804,
+            "surface_C": 9.605586376116113,
+            "mass_C": 9.626492434266531,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -10.801560881044338,
+            "phi_mass_W": -338.82244860460753,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.5,
+            "sigma_convective": 0.5
+          },
+          "temperature_range_C": [
+            8.136302140010718,
+            31.03155917853116
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 2073,
+          "setback_heating_kWh": 5380.284246968994
+        }
+      },
+      "repeat_max_difference": 0.0,
+      "pairs": {
+        "early": {
+          "annual_percent": -0.09797702635762073,
+          "peak_percent": 0.0
+        },
+        "late": {
+          "annual_percent": 0.026815283512782173,
+          "peak_percent": 0.0
+        },
+        "warmup_seeded": {
+          "annual_percent": -5.595524044110789e-12,
+          "peak_percent": 0.0
+        }
+      },
+      "package_hash_mismatches": []
+    },
+    "v5/Roma": {
+      "manifest_sha256": "06a6b478127c1cc009e59639ef18a5b786b0f965a567b67894aca4000cdb46e3",
+      "script_sha256": "48b3175c67eb3983f2059f8de32f24480a3374090572b59e7c2e37c7f3ff8f2f",
+      "script_hash_matches_manifest": true,
+      "cases": {
+        "seeded": {
+          "sha256": "f9eaf71f3df6a39dc91cf2239394eaf74a8b83734d7972992da77de24890dcd8",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.0179413695586845e-11,
+            7.523226486227941e-11,
+            1.7681145436654333e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 6602.228771252248,
+          "peak_kW": 8.909926839273298,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 8241,
+          "peak_datetime": "2023-12-10 09:00:00",
+          "peak_row": {
+            "hour": 8241.0,
+            "sensible_load_W": 8909.9268392733,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 5.78,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.519713589242844,
+            "surface_C": 19.03468219587156,
+            "mass_C": 17.973594055926004,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 16.80476388324013,
+            "phi_mass_W": 527.1304128955843,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 8240.0,
+            "sensible_load_W": 3443.7286958176105,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 3.64,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.453796769138144,
+            "surface_C": 17.856973781482317,
+            "mass_C": 17.519713589242844,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 37.58517850872743,
+            "phi_mass_W": 1178.9687021915906,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            17.386859498891944,
+            39.941885285905535
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 839,
+          "setback_heating_kWh": 1166.7215500827338
+        },
+        "early": {
+          "sha256": "f283c54369f7ec358fab95eeb1562fd7ca682fd77a761bb926cc5d3bae990f0d",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.0179413695586845e-11,
+            7.80460140958894e-11,
+            1.7681145436654333e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 6736.445695874722,
+          "peak_kW": 9.651766061306555,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 8309,
+          "peak_datetime": "2023-12-13 05:00:00",
+          "peak_row": {
+            "hour": 8309.0,
+            "sensible_load_W": 9651.766061306555,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": -0.58,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.429688953402096,
+            "surface_C": 18.82842327896571,
+            "mass_C": 17.740794395288273,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -7.9709094871857635,
+            "phi_mass_W": -250.03081497170248,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 8308.0,
+            "sensible_load_W": 3823.9762652909644,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": -0.85,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.548767781549127,
+            "surface_C": 17.76158500829974,
+            "mass_C": 17.429688953402096,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -7.9709094871857635,
+            "phi_mass_W": -250.03081497170248,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            17.37157395751814,
+            39.941885285905535
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 593,
+          "setback_heating_kWh": 742.2531519546075
+        },
+        "late": {
+          "sha256": "55c09962557ad84f989ecb6265266262913834a9de07233c5b506384f4bea60d",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.0179413695586845e-11,
+            7.497646947740577e-11,
+            1.7681145436654333e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 6635.240374545854,
+          "peak_kW": 9.211202940624576,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 8308,
+          "peak_datetime": "2023-12-13 04:00:00",
+          "peak_row": {
+            "hour": 8308.0,
+            "sensible_load_W": 9211.202940624577,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": -0.85,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.69644087609583,
+            "surface_C": 18.98491810522139,
+            "mass_C": 17.962567594734832,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -7.9709094871857635,
+            "phi_mass_W": -250.03081497170248,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 8307.0,
+            "sensible_load_W": 3286.0748503030586,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": -0.98,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.865884866288376,
+            "surface_C": 17.95097848830671,
+            "mass_C": 17.69644087609583,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -7.9709094871857635,
+            "phi_mass_W": -250.03081497170248,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            17.37141845304708,
+            39.941885285905535
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 810,
+          "setback_heating_kWh": 1014.2237250461105
+        },
+        "repeat_seeded": {
+          "sha256": "f9eaf71f3df6a39dc91cf2239394eaf74a8b83734d7972992da77de24890dcd8",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.0179413695586845e-11,
+            7.523226486227941e-11,
+            1.7681145436654333e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 6602.228771252248,
+          "peak_kW": 8.909926839273298,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 8241,
+          "peak_datetime": "2023-12-10 09:00:00",
+          "peak_row": {
+            "hour": 8241.0,
+            "sensible_load_W": 8909.9268392733,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 5.78,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.519713589242844,
+            "surface_C": 19.03468219587156,
+            "mass_C": 17.973594055926004,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 16.80476388324013,
+            "phi_mass_W": 527.1304128955843,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 8240.0,
+            "sensible_load_W": 3443.7286958176105,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 3.64,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.453796769138144,
+            "surface_C": 17.856973781482317,
+            "mass_C": 17.519713589242844,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 37.58517850872743,
+            "phi_mass_W": 1178.9687021915906,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            17.386859498891944,
+            39.941885285905535
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 839,
+          "setback_heating_kWh": 1166.7215500827338
+        },
+        "warmup_seeded": {
+          "sha256": "e8ddf516caafa7b82dce4597a9bc5ce6ca1d970a3d65c68f4e83f47499a97252",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.0179413695586845e-11,
+            7.523226486227941e-11,
+            1.7681145436654333e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 6602.22877102024,
+          "peak_kW": 8.909926839273298,
+          "annual_summary_abs_error_kWh": 9.094947017729282e-13,
+          "peak_hour": 8241,
+          "peak_datetime": "2023-12-10 09:00:00",
+          "peak_row": {
+            "hour": 8241.0,
+            "sensible_load_W": 8909.9268392733,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 5.78,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.519713589242844,
+            "surface_C": 19.03468219587156,
+            "mass_C": 17.973594055926004,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 16.80476388324013,
+            "phi_mass_W": 527.1304128955843,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 8240.0,
+            "sensible_load_W": 3443.7286958176105,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 3.64,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.453796769138144,
+            "surface_C": 17.856973781482317,
+            "mass_C": 17.519713589242844,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 37.58517850872743,
+            "phi_mass_W": 1178.9687021915906,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            17.386859498891944,
+            39.941885285905535
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 839,
+          "setback_heating_kWh": 1166.7215499092265
+        }
+      },
+      "repeat_max_difference": 0.0,
+      "pairs": {
+        "early": {
+          "annual_percent": 2.0329032705877825,
+          "peak_percent": 8.325985559874272
+        },
+        "late": {
+          "annual_percent": 0.5000069588219525,
+          "peak_percent": 3.3813532567215754
+        },
+        "warmup_seeded": {
+          "annual_percent": -3.5140890197737917e-09,
+          "peak_percent": 0.0
+        }
+      },
+      "package_hash_mismatches": []
+    },
+    "v5/Palermo": {
+      "manifest_sha256": "cdbf8e3b58553f20d80a6f4e9e9cbbdaf58c1a41f7832b036eb6cd059082d926",
+      "script_sha256": "48b3175c67eb3983f2059f8de32f24480a3374090572b59e7c2e37c7f3ff8f2f",
+      "script_hash_matches_manifest": true,
+      "cases": {
+        "seeded": {
+          "sha256": "222ecb953871fcecf5b834c721f53ea205a9e5a5c37f1ae0772b077dcb12c5af",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.106048668792937e-11,
+            7.625189368809515e-11,
+            1.6370904631912708e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 5078.83719988635,
+          "peak_kW": 8.292527171918435,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 657,
+          "peak_datetime": "2023-01-28 09:00:00",
+          "peak_row": {
+            "hour": 657.0,
+            "sensible_load_W": 8292.527171918435,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 6.61,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.77937434016508,
+            "surface_C": 19.243839819394232,
+            "mass_C": 18.256854531926695,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 39.979101717912414,
+            "phi_mass_W": 1254.0610830465541,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 656.0,
+            "sensible_load_W": 2843.5172108886504,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 5.62,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.809790953985242,
+            "surface_C": 18.050452562175785,
+            "mass_C": 17.77937434016508,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 2.845215329376936,
+            "phi_mass_W": 89.24847393107991,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            18.683860435950187,
+            38.14349549263708
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 545,
+          "setback_heating_kWh": 590.6905425739818
+        },
+        "early": {
+          "sha256": "26aeb1502f7f0d660c73c16d6554b771c66bb6dcbcea23d5c1b1942f87d5b20b",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.106048668792937e-11,
+            7.693401471442485e-11,
+            1.617195266589988e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 5275.2931610934265,
+          "peak_kW": 8.787517382639285,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 701,
+          "peak_datetime": "2023-01-30 05:00:00",
+          "peak_row": {
+            "hour": 701.0,
+            "sensible_load_W": 8787.517382639286,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 3.49,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.756485831307486,
+            "surface_C": 19.096773303003825,
+            "mass_C": 18.083281958261246,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -8.33405192313231,
+            "phi_mass_W": -261.4218362041593,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 700.0,
+            "sensible_load_W": 2975.2796399763906,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 3.62,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.849385319587558,
+            "surface_C": 18.021130140735004,
+            "mass_C": 17.756485831307486,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -8.33405192313231,
+            "phi_mass_W": -261.4218362041593,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            18.686760949926796,
+            38.14349549263708
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 417,
+          "setback_heating_kWh": 422.79941664166023
+        },
+        "late": {
+          "sha256": "f7036264b9b18b7be3c37e91c4d6a1030fd509c022a808d292879d3ffb1eebe8",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.1742607714259066e-11,
+            7.904787935331115e-11,
+            1.617195266589988e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 5128.684362229468,
+          "peak_kW": 8.418924698544206,
+          "annual_summary_abs_error_kWh": 9.094947017729282e-13,
+          "peak_hour": 700,
+          "peak_datetime": "2023-01-30 04:00:00",
+          "peak_row": {
+            "hour": 700.0,
+            "sensible_load_W": 8418.924698544206,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 3.62,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.96438259990577,
+            "surface_C": 19.224713050989216,
+            "mass_C": 18.261660444530733,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -8.33405192313231,
+            "phi_mass_W": -261.4218362041593,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 699.0,
+            "sensible_load_W": 2550.6742844141268,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 3.65,
+            "old_air_C": 19.0,
+            "old_mass_C": 18.09401594219407,
+            "surface_C": 18.16951820891475,
+            "mass_C": 17.96438259990577,
+            "phi_air_W": 190.08,
+            "phi_surface_W": -8.33405192313231,
+            "phi_mass_W": -261.4218362041593,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            18.6850293198163,
+            38.14349549263708
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 525,
+          "setback_heating_kWh": 508.74513683771363
+        },
+        "repeat_seeded": {
+          "sha256": "222ecb953871fcecf5b834c721f53ea205a9e5a5c37f1ae0772b077dcb12c5af",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.106048668792937e-11,
+            7.625189368809515e-11,
+            1.6370904631912708e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 5078.83719988635,
+          "peak_kW": 8.292527171918435,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 657,
+          "peak_datetime": "2023-01-28 09:00:00",
+          "peak_row": {
+            "hour": 657.0,
+            "sensible_load_W": 8292.527171918435,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 6.61,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.77937434016508,
+            "surface_C": 19.243839819394232,
+            "mass_C": 18.256854531926695,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 39.979101717912414,
+            "phi_mass_W": 1254.0610830465541,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 656.0,
+            "sensible_load_W": 2843.5172108886504,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 5.62,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.809790953985242,
+            "surface_C": 18.050452562175785,
+            "mass_C": 17.77937434016508,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 2.845215329376936,
+            "phi_mass_W": 89.24847393107991,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            18.683860435950187,
+            38.14349549263708
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 545,
+          "setback_heating_kWh": 590.6905425739818
+        },
+        "warmup_seeded": {
+          "sha256": "a176830862a4d5299d78106e287e36e7a8808520f3a9c61e2ec377419a6566c1",
+          "hash_matches_summary": true,
+          "n": 8760,
+          "residual_abs_max_W": [
+            2.106048668792937e-11,
+            7.625189368809515e-11,
+            1.6370904631912708e-10
+          ],
+          "continuity_abs_max_K": 0.0,
+          "finite": true,
+          "hour_sequence": true,
+          "annual_kWh": 5078.837144908502,
+          "peak_kW": 8.292527171918435,
+          "annual_summary_abs_error_kWh": 0.0,
+          "peak_hour": 657,
+          "peak_datetime": "2023-01-28 09:00:00",
+          "peak_row": {
+            "hour": 657.0,
+            "sensible_load_W": 8292.527171918435,
+            "air_temperature_C": 22.0,
+            "heating_setpoint_C": 22.0,
+            "outdoor_temperature_C": 6.61,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.77937434016508,
+            "surface_C": 19.243839819394232,
+            "mass_C": 18.256854531926695,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 39.979101717912414,
+            "phi_mass_W": 1254.0610830465541,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "previous_row": {
+            "hour": 656.0,
+            "sensible_load_W": 2843.5172108886504,
+            "air_temperature_C": 19.0,
+            "heating_setpoint_C": 19.0,
+            "outdoor_temperature_C": 5.62,
+            "old_air_C": 19.0,
+            "old_mass_C": 17.809790953985242,
+            "surface_C": 18.050452562175785,
+            "mass_C": 17.77937434016508,
+            "phi_air_W": 190.08,
+            "phi_surface_W": 2.845215329376936,
+            "phi_mass_W": 89.24847393107991,
+            "infiltration_H_W_K": 23.999999999999996,
+            "sigma_radiant": 0.0,
+            "sigma_convective": 1.0
+          },
+          "temperature_range_C": [
+            18.683860435950187,
+            38.14349549263708
+          ],
+          "cooling_kWh": 0.0,
+          "heating_setpoint_max_error_K": 0.0,
+          "block_counts": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "setback_positive_hours": 545,
+          "setback_heating_kWh": 590.6905271237018
+        }
+      },
+      "repeat_max_difference": 0.0,
+      "pairs": {
+        "early": {
+          "annual_percent": 3.8681287364649597,
+          "peak_percent": 5.969111712977804
+        },
+        "late": {
+          "annual_percent": 0.981468008941766,
+          "peak_percent": 1.5242340966189483
+        },
+        "warmup_seeded": {
+          "annual_percent": -1.0824888985183634e-06,
+          "peak_percent": 0.0
+        }
+      },
+      "package_hash_mismatches": []
+    }
+  },
+  "survey": {
+    "raw_sha256": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+    "compact_sha256": "a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f",
+    "raw": {
+      "reg": "5",
+      "q_3_11A": "4",
+      "q_3_11B": "4",
+      "q_3_11C": "1",
+      "q_3_13_2": "1",
+      "q_2_32C": "",
+      "q_2_32D": ""
+    },
+    "compact": {
+      "reg": "5",
+      "q_3_11A": "4",
+      "q_3_11B": "4",
+      "q_3_11C": "1",
+      "q_3_13_2": "1",
+      "q_2_32C": "0",
+      "q_2_32D": "0"
+    },
+    "eligible_count": 372,
+    "min_id": 3523
+  },
+  "published_gas_deviation_percent": [
+    0.09406296685663396,
+    12.962840736585047
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "post-hoc partition independently checked from 12 corrected hourly CSVs; not a primary endpoint",
+  "table_sha256": "45c6ccf9bca1e912f6bf1d7f22362099b1ddb976e1b3764562ffc0bda7786979",
+  "rows_checked": 36,
+  "max_energy_discrepancy_kWh": 0.0,
+  "padova_seeded_19C": {
+    "calendar_hours_at_setpoint": "2730",
+    "positive_heating_hours_gt_1e_minus6W": "671",
+    "positive_sensible_heating_kWh": "893.2178321799465"
+  }
+}

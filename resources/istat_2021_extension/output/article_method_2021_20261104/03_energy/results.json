@@ -1,0 +1,60 @@
+{
+  "year": 2021,
+  "archetype_n": 52617,
+  "groups": {
+    "H": {
+      "response": "heating_daily_hours",
+      "n": 48690,
+      "initial_cells": 80,
+      "groups": 9,
+      "merges": 71,
+      "mean": 8.551078250154037,
+      "weighted_mean": 8.506158163623619,
+      "terminal_max_p": 0.001992807139953534,
+      "final_pairs_all_reject": true
+    },
+    "E": {
+      "response": "electricity_annual_kwh",
+      "n": 52617,
+      "initial_cells": 80,
+      "groups": 13,
+      "merges": 67,
+      "mean": 2068.663158588928,
+      "weighted_mean": 1936.4631698348862,
+      "terminal_max_p": 0.014253264375705843,
+      "final_pairs_all_reject": true
+    }
+  },
+  "group_factors": [
+    "location",
+    "dwelling_type",
+    "archetype"
+  ],
+  "primary_grouping": "unweighted original-style iterative Tukey-Kramer reduction at alpha0.05, starting from location\u00d7dwelling\u00d7archetype cells; final groups ordered by mean; counts not forced",
+  "weights": "PESO used for separately reported group means, not as physical energy multipliers",
+  "insulation": "subjective2013rating unavailable; H2021boxplots pooled across insulation; no improvement variable substituted",
+  "electricity_model": "audited2021 ownership/use model using fixed2013reference appliance coefficients; measured spending not used as kWh",
+  "cooling_plot_rule": "used if2021frequency1\u20135; notused iffrequency6 or allcoolinginventoryitems explicitlyno; unknown excluded from colour split only",
+  "cooling_plot_counts": {
+    "absent_or_unused": 29948,
+    "present_or_used": 22669
+  },
+  "construction": "unknownconstruction retained for H/E factor grouping; excluded from age/area ANOVA and PFE",
+  "appendix_rows": 80,
+  "appendix_cells": 160,
+  "code_lineage": {
+    "group_algorithm": "energy_analysis.iterative_tukey_groups, recovered from07_ANOVA_analysis.py",
+    "factor_resolution": "Final new_elet.csv carries locationAbition with archetype, and published Appendix A varies E by user archetype; both H and E use the complete3factorcellstructure"
+  },
+  "sources": {
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\01_inputs\\analysis_input_2021.csv": "a6020c39720ec3f7f1100197d45b1462e0788e2fad44b360165e33cac5ccbc8b",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\02_probabilities\\household_archetypes_2021.csv": "e9d7d2f72e6cceb5e5d9beafe817dfbba2da3d32f692414257cbd5c62771167d",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_analysis.py": "e3d040da180f1f0f5bb08f75eef44e12a2b2a14d3c2027b1ba05e0fceca612e2",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\07_ANOVA_analysis.py": "4145f687a8737d76191fa5531924a1c9998ac672dff1097318a8ca5e467826dd"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.7"
+  }
+}

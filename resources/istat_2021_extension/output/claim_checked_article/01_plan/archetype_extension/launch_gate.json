@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "owner": "/root orchestrator",
+  "launch_approved": true,
+  "authorization_basis": "Human request to implement user archetypes and run the research workflow; saved independent exact-state pre-run audit and root source/hash checks.",
+  "scope": "Padova38 annual cases first; expand to Bolzano/Roma/Palermo only after its saved numerical, full-state and surface-forcing gates pass.",
+  "planned_counts": {
+    "detailed_test_respondents": 32,
+    "shared_component_profiles": 4,
+    "scientific_annuals": 144,
+    "technical_annuals": 8,
+    "total_annuals": 152
+  },
+  "conditions": [
+    "No code/input/protocol/split/selection/threshold changes after this seal without declared amendment and appropriate recheck.",
+    "No outcome-based resampling, prototype replacement or tuning.",
+    "Preserve all raw outputs, failed checks and exact commands; stop expansion if a required gate fails.",
+    "Aggregate only with exact frozen code/manifests and independently recompute endpoints/mixtures/losses.",
+    "New results remain candidate until fresh full scientific claim review and revision/closure."
+  ],
+  "frozen_sha256": {
+    "03_methods/archetype_extension/mixture_protocol_v2.md": "0abd5e8952bd9021d4bc8c8ef6a0649b1c14ffc4c467e5b1da7c13dc018633ba",
+    "05_simulations/archetype_campaign_v2/pre_run/selection_manifest.json": "a34a21e694b1c0117e915567c0eab56f83bfa3aa03b586ab6443006e0b8daed4",
+    "05_simulations/archetype_campaign_v2/pre_run/runtime_source_manifest.json": "bf1eb3abaf62373885533464e954a79088b7fbe4b9b98bc8a1fd8f41e4d23340",
+    "04_analysis/archetype_extension/run_mixture_campaign.py": "2c435e83aa14b073078ccd27ea9585079a8e3ff1225dbf53d2f5c76db3413a08",
+    "04_analysis/archetype_extension/analyze_mixtures.py": "07fb6f014aa8ffe84e3cb72669b07fa1012827b6db05eeac9168bc821f7285fc"
+  },
+  "audit_sha256": "ec65979ff43054edeff354d3923b35c131073aa4b0e1105065c87eb1121dcb12",
+  "readiness_sha256": "9dc45e986f48d9a5dbf3524ff6d1159cd6f7255d993e5a55e073d73ded7ec2a0",
+  "v1_status": "Preserved input-only prototype collapse; no v1 annual execution."
+}

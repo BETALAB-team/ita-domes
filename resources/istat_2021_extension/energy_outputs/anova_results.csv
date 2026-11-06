@@ -1,0 +1,29 @@
+response,term,model_term,degrees_of_freedom,sum_squares,f_statistic,p_value,significant_at_alpha,paper_f_statistic,paper_p_label,paper_significant_at_0_05,paper_significance_match
+heating_daily_hours,Usercluster,C(archetype),3,677.271294294,12.7992286906,2.37521590846e-08,True,11.74,<0.01,True,True
+heating_daily_hours,Dwellingtype,C(dwelling_type),4,4171.79261069,59.1296221954,1.13471900396e-49,True,60.93,<0.01,True,True
+heating_daily_hours,Location,C(location),3,29106.774938,550.066527277,0,True,553.45,<0.01,True,True
+heating_daily_hours,Insulationlevel,C(insulation),3,544.876533517,10.2972020509,9.07414130835e-07,True,10.42,<0.01,True,True
+heating_daily_hours,Age_dwel,building_age_years,1,262.484829103,14.8814960141,0.000114890204079,True,12.61,<0.01,True,True
+heating_daily_hours,Area_dwel,dwelling_area_m2,1,621.6832154,35.2461371715,2.9604002281e-09,True,27.98,<0.01,True,True
+heating_daily_hours,CoolingSystemUse,C(cooling_system_use),1,3.90881901501,0.221609282298,0.63782231165,False,0.2,0.65,False,True
+heating_daily_hours,Usercluster x Dwellingtype,C(archetype):C(dwelling_type),12,497.962238181,2.35265122686,0.00514123882095,True,2.41,<0.01,True,True
+heating_daily_hours,Usercluster x Location,C(archetype):C(location),9,339.274697704,2.13723042323,0.023319681664,True,2.18,0.02,True,True
+heating_daily_hours,Usercluster x InsulationLevel,C(archetype):C(insulation),9,199.53773793,1.25697002156,0.254970437225,False,1.45,0.16,False,True
+heating_daily_hours,InsulationLevel x Location,C(insulation):C(location),9,169.732516567,1.06921471207,0.381925440967,False,1.09,0.36,False,True
+heating_daily_hours,Dwellingtype x Location,C(dwelling_type):C(location),12,2128.89874055,10.0581045103,5.34119201186e-20,True,10.02,<0.01,True,True
+heating_daily_hours,Dwellingtype x InsulationLevel,C(dwelling_type):C(insulation),12,165.576380391,0.782275129714,0.66952769606,False,0.77,0.67,False,True
+heating_daily_hours,Age_dwel x Area_dwel,building_age_years:dwelling_area_m2,1,3.7556470034,0.212925242584,0.644489954138,False,0.18,0.06,False,True
+electricity_annual_kwh,Usercluster,C(archetype),3,1407048906.23,158.563397497,2.07973932578e-101,True,215.36,<0.01,True,True
+electricity_annual_kwh,Dwellingtype,C(dwelling_type),4,66392540.2132,5.61143967603,0.000164341541558,True,5.44,<0.01,True,True
+electricity_annual_kwh,Location,C(location),3,54380825.0815,6.12829329917,0.000367931694974,True,5.98,<0.01,True,True
+electricity_annual_kwh,Insulationlevel,C(insulation),3,38811520.6227,4.37375456158,0.00439085537254,True,0.43,0.92,False,False
+electricity_annual_kwh,Age_dwel,building_age_years,1,165233378.674,55.8615250398,8.14202098077e-14,True,62.35,<0.01,True,True
+electricity_annual_kwh,Area_dwel,dwelling_area_m2,1,727409019.75,245.919907328,4.76663658875e-55,True,241.7,<0.01,True,True
+electricity_annual_kwh,CoolingSystemUse,C(cooling_system_use),1,53683727.2122,18.1492074783,2.05320063033e-05,True,19.06,<0.01,True,True
+electricity_annual_kwh,Usercluster x Dwellingtype,C(archetype):C(dwelling_type),12,34186678.071,0.963142752198,0.481863682713,False,4.12,<0.01,True,False
+electricity_annual_kwh,Usercluster x Location,C(archetype):C(location),9,73617602.1022,2.76537582863,0.00311181010424,True,5.11,<0.01,True,True
+electricity_annual_kwh,Usercluster x InsulationLevel,C(archetype):C(insulation),9,45746605.6992,1.71842812085,0.0789996223132,False,0.48,0.88,False,True
+electricity_annual_kwh,InsulationLevel x Location,C(insulation):C(location),9,11547430.267,0.433768332998,0.917600063595,False,0.95,0.49,False,True
+electricity_annual_kwh,Dwellingtype x Location,C(dwelling_type):C(location),12,51025046.6951,1.43753083593,0.140546855331,False,3.51,0.02,True,False
+electricity_annual_kwh,Dwellingtype x InsulationLevel,C(dwelling_type):C(insulation),12,34539934.2486,0.973095053689,0.471990775629,False,1.43,0.16,False,True
+electricity_annual_kwh,Age_dwel x Area_dwel,building_age_years:dwelling_area_m2,1,83827.7614484,0.0283401975603,0.866313446498,False,0.38,0.54,False,True

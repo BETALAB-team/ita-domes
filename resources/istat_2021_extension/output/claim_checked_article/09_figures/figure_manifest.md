@@ -1,0 +1,87 @@
+# Figure manifest — 20 October 2026
+
+Owner: separate visualization worker `/root/visualization`; requested model `gpt-6.1-sol`; backend confirmation unknown. Ready figures follow the frozen [briefs](figure_briefs.md), SHA-256 `3a3f9f3bd803c75e97e3369524d7e7dcee4792550c15a00cfb3d6f412c42bd4d`. No manuscript, claim, source or run file was edited. No generative-image tool was used.
+
+## Outputs and scientific trace
+
+| Figure | Status / placement | Claims | Source / plotting data | Outputs |
+|---|---|---|---|---|
+| [FIG-01 brief](figure_briefs.md#fig-01) | Ready; Results 3.1 after P15 | RES-004, RES-005, RES-007, RES-008, MET-004, RQ-001, RQ-002, INT-001, LIM-001, LIM-003, LIM-008 | [paired v5 source](../04_analysis/paired_schedule_contrasts_v5.csv); [exact eight plotting rows](FIG-01_plotting_data.csv) | [SVG](FIG-01_paired_contrasts.svg), [400 dpi PNG](FIG-01_paired_contrasts.png) |
+| [FIG-02 brief](figure_briefs.md#fig-02) | Ready; Results 3.2 after P16; post-hoc | RES-006, MET-001, MET-002, RES-003, GAP-001 | [partition v5 source](../04_analysis/posthoc_setpoint_partition_v5.csv); [exact selected row](FIG-02_plotting_data.csv) | [SVG](FIG-02_setback_diagnostic.svg), [400 dpi PNG](FIG-02_setback_diagnostic.png) |
+| [FIG-03 brief](figure_briefs.md#fig-03) | Blocked; Results 3.3 after P18 | MET-007, LIM-002, GAP-002, DAT-004 | No usable measured-data path or empirical run ID | No image, curve, plotting data or statistic produced |
+
+[Editable Python/Matplotlib source](render_figures.py) produces both ready figures and [machine-readable provenance and numerical QA](figure_provenance_qa.json). Reproduce from the artifact root with `C:/Works/EUReCA/EUReCA/.venv/Scripts/python.exe -B 09_figures/render_figures.py`. Existing environment was read only; Matplotlib cache is local under `09_figures/.mplconfig`. Runtime/package versions are recorded in the JSON. PNG physical widths are 7.2 inches; FIG-01 height 4.1 inches, FIG-02 height 3.2 inches. SVG text remains editable. SVG metadata may vary across reruns; exact delivered hashes appear below.
+
+## Transformations and numerical verification
+
+The script verifies the frozen brief, exact 12 primary site/schedule identities, 8760 raw rows per run, all annual positive-W integrations at 1 h /1000, annual hourly maxima /1000, stored differences and each same-site seeded percentage. FIG-01 plots the stored eight early/late rows twice, once per separate endpoint. Three-decimal labels preserve exact zero Bolzano maximum contrasts without horizontal jitter; early/late vertical offsets are categorical separation only. Linear scales include both signs and zero. No CI, sample-uncertainty, weighted average or pooled denominator is introduced. Raw Bolzano peak hour 6912 and the preceding 0 to 19°C transition are checked for all three placements. Its explanatory note is post-hoc context for the retained predeclared endpoint.
+
+FIG-02 uniquely selects Padova/seeded/19°C and independently verifies 2730 calendar records, 1323 loads above 1e-6 W and the stored useful heat against the raw hourly file. Time is the only numeric axis; 2375.62 kWh is a separate textual annotation. No ratio or new scientific result is introduced. The pale full bar encodes all calendar hours at this setpoint, not observed equipment-off records.
+
+These are figure-fidelity and arithmetic checks, not empirical model validation. Both figures retain the one-dwelling, one-response, common-season deterministic scope and native sky/solar-time limitations in captions. They establish no savings, accuracy, population effect, equipment size or robust ranking.
+
+## Final captions
+
+**FIG-01.** Paired early and late placement changes relative to seeded placement at each coordinate TMY exposure. Annual useful sensible heating and maximum hourly load are separate primary endpoints. One assumed dwelling and one selected response are held fixed. Points are deterministic alternatives without confidence intervals. Bolzano's zero maximum differences are retained. Annual-mean sky exchange, native solar time, the common season and fixed physical inputs constrain interpretation.
+
+**FIG-02.** Post-hoc Padova seeded diagnostic at the modeled 19°C setback: 1323 positive-load hours among 2730 calendar hours and 2375.62 kWh useful sensible heat. Positive-load classification uses the saved 10⁻⁶ W tolerance. Encoded high-setpoint durations do not constrain heater runtime. This is one modeled case, without a measured-operation comparator.
+
+**FIG-03 retained placeholder.** Reserved for an independent empirical heating comparison after compatible measurements and a matched evaluation design become available. No empirical curve or error estimate is presently shown.
+
+## Visual QA
+
+Actual PNGs were opened with `view_image`, followed by [FIG-01 900 px publication-width preview](FIG-01_paired_contrasts_QA_900px.png) and [FIG-02 900 px preview](FIG-02_setback_diagnostic_QA_900px.png). Initial inspection found a clipped long panel title and overlapping axis/annotation text; line wrapping and spacing were revised and both figures were re-rendered. Final inspection passed: titles, panels, sites, signed labels, legend, scope notes and units are legible; no clipping or overlap remains at the intended full publication width. Blue circles and orange squares distinguish placement by color and shape; zero markers remain separately visible. FIG-02 bar contrast and labels are legible, threshold superscript and kWh/h separation are correct. Neither figure should be reduced to a single narrow column without resizing typography. Ready for prose-owner fidelity integration.
+
+## FIG-03 minimum evidence still missing
+
+An independently documented meter series with access/provenance; dwelling geometry, envelope and system information; weather matched to measurement period; timestamp/time-zone/interval alignment; meter/end-use boundary and unit reconciliation; missingness and coverage; untouched evaluation design. Required future fields are timestamp, measured heating with unit and coverage flag, matched simulated heating, period/building ID, weather source and boundary metadata. Validation and claim owners must approve new evidence and an updated brief before any rendering. Existing TMY runs cannot serve as observed reference data. Independent benchmark remains a separate pending dependency.
+
+## SHA-256 identities and raw provenance
+
+All paths below link to actual read-only inputs; their exact hashes are also in the JSON. The twelve source run IDs are `climate_campaign_v5/{Padova,Bolzano,Roma,Palermo}/{seeded,early,late}`. No repeat, warm-up or replay is treated as another scientific sample.
+
+| Input | SHA-256 |
+|---|---|
+| [01_plan/prose_gate.json](../01_plan/prose_gate.json) | `2b187ed0001bdf432ae02bb3dae7f60c6a99c60e0c3d29f2375b938bd55a94dc` |
+| [04_analysis/paired_schedule_contrasts_v5.csv](../04_analysis/paired_schedule_contrasts_v5.csv) | `1175f36916d05e9ac3c9f96aea2bd40d62a6d88824b8d0c143f504313ab1d6d3` |
+| [04_analysis/posthoc_setpoint_partition_v5.csv](../04_analysis/posthoc_setpoint_partition_v5.csv) | `41a01c141b101fc111997cc97458e4ff05f35f866a76731cce45e7092025b6de` |
+| [05_simulations/climate_campaign_v5/Bolzano/completion_manifest.json](../05_simulations/climate_campaign_v5/Bolzano/completion_manifest.json) | `0dd8c29bd8dd018235ae30355cfd9ac34e9bab0751104bd602d09e552719181e` |
+| [05_simulations/climate_campaign_v5/Bolzano/design.json](../05_simulations/climate_campaign_v5/Bolzano/design.json) | `6f6547f6710b6d36882f1cbaa35d5a888bc4f726dca1c9ab53a4e40d3ddde96c` |
+| [05_simulations/climate_campaign_v5/Bolzano/early_hourly.csv](../05_simulations/climate_campaign_v5/Bolzano/early_hourly.csv) | `920d4dbdd74cc769106d47b893215c650151567a4544265357ddf39606ffdc30` |
+| [05_simulations/climate_campaign_v5/Bolzano/late_hourly.csv](../05_simulations/climate_campaign_v5/Bolzano/late_hourly.csv) | `98d1d67b7d8f5bb5e4b3398a4180193733a63f9ad697aec568437b2f3fbceab5` |
+| [05_simulations/climate_campaign_v5/Bolzano/seeded_hourly.csv](../05_simulations/climate_campaign_v5/Bolzano/seeded_hourly.csv) | `d8b7038f337ced6afeec4b6d70e84bf5df9ff6c14dd1a1dd268469cfd4322410` |
+| [05_simulations/climate_campaign_v5/Bolzano/summary.json](../05_simulations/climate_campaign_v5/Bolzano/summary.json) | `46f3d43e0d8fd9781e64c2279c08455a56e60f32eb289555e79e43c40239d01c` |
+| [05_simulations/climate_campaign_v5/Padova/completion_manifest.json](../05_simulations/climate_campaign_v5/Padova/completion_manifest.json) | `9dba850692e4b0048f6ca4b8a3d92c0352f45ecd221f6484ed2560f6ef4289b5` |
+| [05_simulations/climate_campaign_v5/Padova/design.json](../05_simulations/climate_campaign_v5/Padova/design.json) | `d9862bb12cded4d680ed5ae28e2ed0d80bdd19c56071bffae9d93371544d6059` |
+| [05_simulations/climate_campaign_v5/Padova/early_hourly.csv](../05_simulations/climate_campaign_v5/Padova/early_hourly.csv) | `399dff1dc09f5b457b3bacb69af6896dd2a8453e3869c9b134793edd853e1f59` |
+| [05_simulations/climate_campaign_v5/Padova/late_hourly.csv](../05_simulations/climate_campaign_v5/Padova/late_hourly.csv) | `615f5d4f68992c0391254b4a1a01e5d52d7cababfff91795e431cc15927af845` |
+| [05_simulations/climate_campaign_v5/Padova/seeded_hourly.csv](../05_simulations/climate_campaign_v5/Padova/seeded_hourly.csv) | `02545e6feffb6e95c0951aec6a584a199dcf890a52d188feefa8023a823a5b76` |
+| [05_simulations/climate_campaign_v5/Padova/summary.json](../05_simulations/climate_campaign_v5/Padova/summary.json) | `b04931e4e8db27e92751ad3e52655a10fb283bb9893310f621711bd57ffc14b7` |
+| [05_simulations/climate_campaign_v5/Palermo/completion_manifest.json](../05_simulations/climate_campaign_v5/Palermo/completion_manifest.json) | `cdbf8e3b58553f20d80a6f4e9e9cbbdaf58c1a41f7832b036eb6cd059082d926` |
+| [05_simulations/climate_campaign_v5/Palermo/design.json](../05_simulations/climate_campaign_v5/Palermo/design.json) | `66ef495d830b8f5270ef1b8bb4626950160d8f685b9ec57752c1b141eb1bebf5` |
+| [05_simulations/climate_campaign_v5/Palermo/early_hourly.csv](../05_simulations/climate_campaign_v5/Palermo/early_hourly.csv) | `26aeb1502f7f0d660c73c16d6554b771c66bb6dcbcea23d5c1b1942f87d5b20b` |
+| [05_simulations/climate_campaign_v5/Palermo/late_hourly.csv](../05_simulations/climate_campaign_v5/Palermo/late_hourly.csv) | `f7036264b9b18b7be3c37e91c4d6a1030fd509c022a808d292879d3ffb1eebe8` |
+| [05_simulations/climate_campaign_v5/Palermo/seeded_hourly.csv](../05_simulations/climate_campaign_v5/Palermo/seeded_hourly.csv) | `222ecb953871fcecf5b834c721f53ea205a9e5a5c37f1ae0772b077dcb12c5af` |
+| [05_simulations/climate_campaign_v5/Palermo/summary.json](../05_simulations/climate_campaign_v5/Palermo/summary.json) | `1c3a49e64e17391041fe4d52b67dcc31a0cb5b353fa52b7919bd697fcc51e454` |
+| [05_simulations/climate_campaign_v5/Roma/completion_manifest.json](../05_simulations/climate_campaign_v5/Roma/completion_manifest.json) | `06a6b478127c1cc009e59639ef18a5b786b0f965a567b67894aca4000cdb46e3` |
+| [05_simulations/climate_campaign_v5/Roma/design.json](../05_simulations/climate_campaign_v5/Roma/design.json) | `5c6b895fac26f44412115e698523be94a9532fed1051cc05189c22967c40e442` |
+| [05_simulations/climate_campaign_v5/Roma/early_hourly.csv](../05_simulations/climate_campaign_v5/Roma/early_hourly.csv) | `f283c54369f7ec358fab95eeb1562fd7ca682fd77a761bb926cc5d3bae990f0d` |
+| [05_simulations/climate_campaign_v5/Roma/late_hourly.csv](../05_simulations/climate_campaign_v5/Roma/late_hourly.csv) | `55c09962557ad84f989ecb6265266262913834a9de07233c5b506384f4bea60d` |
+| [05_simulations/climate_campaign_v5/Roma/seeded_hourly.csv](../05_simulations/climate_campaign_v5/Roma/seeded_hourly.csv) | `f9eaf71f3df6a39dc91cf2239394eaf74a8b83734d7972992da77de24890dcd8` |
+| [05_simulations/climate_campaign_v5/Roma/summary.json](../05_simulations/climate_campaign_v5/Roma/summary.json) | `06c4c7a24f65fc7d9e836e77ecff2d7335e8f77baec46ba972444121a2730bbd` |
+| [06_claim_drafts/article_claims_final.md](../06_claim_drafts/article_claims_final.md) | `8a641ab68bd80fb96aad3016f3deea37ba0dbd4ab50ce9d984d8b59cfe50da7e` |
+| [06_claim_drafts/final_acceptance.md](../06_claim_drafts/final_acceptance.md) | `fe5ab45a2babaed68a15658be9626fedf485a0abe86f34a70316b358eadb8bca` |
+| [07_reviews/final_closure.md](../07_reviews/final_closure.md) | `0853158f1092e462a8c753b2cf55a7e87bb3876f2c2565f9caf8a368088618e6` |
+| [09_figures/figure_briefs.md](../09_figures/figure_briefs.md) | `3a3f9f3bd803c75e97e3369524d7e7dcee4792550c15a00cfb3d6f412c42bd4d` |
+
+| Delivered output | SHA-256 |
+|---|---|
+| [FIG-01_paired_contrasts.png](FIG-01_paired_contrasts.png) | `06a62353d0bddd57d6994ff339478912f26131b2d415d8e147153d3fd36a8909` |
+| [FIG-01_paired_contrasts.svg](FIG-01_paired_contrasts.svg) | `8aa66f03a3e0e3f6e054ebdc153ac75d4773d3412870ba2a7e26c370e7538166` |
+| [FIG-01_plotting_data.csv](FIG-01_plotting_data.csv) | `6556c062fad08eea38a55ac16b3f17b9c93908902d6eb296ea909f0f7ffa553b` |
+| [FIG-02_plotting_data.csv](FIG-02_plotting_data.csv) | `dd7ce258d1b7b79ada0f8ac75548b0f0285685d41b6006bb7147d558c6269e45` |
+| [FIG-02_setback_diagnostic.png](FIG-02_setback_diagnostic.png) | `502f2c63f9039a81a92432b5431d5ed20175c1392d2852d79f997994c7193128` |
+| [FIG-02_setback_diagnostic.svg](FIG-02_setback_diagnostic.svg) | `a51d20232cb106d3e54a876869f118fcf163e4a9ef886b023219383897c85cac` |
+| [render_figures.py](render_figures.py) | `6933852793b860d49861b9068b26f26d5d5c75b119bb27d4f6fcf83eb9f64bfa` |
+
+Final annotation fidelity refinement: FIG-01 now states “Bolzano: all three profile maxima occur at the shared imposed season restart.” This explicitly includes seeded, early and late as in RES-008. Scientific data, frozen brief and captions remain unchanged. Re-rendered FIG-01 and refreshed its 900 px preview for visual inspection. FIG-02 content and PNG are unchanged; its SVG metadata timestamp was refreshed by the common reproduction script.

@@ -1,0 +1,228 @@
+PDF PAGE 40
+ 40 
+ 
+ 
+ 
+ 
+3.8 – Potrebbe indicarmi almeno se ha: 
+ 
+Per il programma: per gli intervistati che hanno un sistema centralizzato o un impianto autonomo come impianto unico 
+o prevalente (3.0=1,2), visualizzare le seguenti indicazioni per l’intervistatore:  
+ 
+Per l’intervistatore: Se necessario, leggere “ La prego di indicare l’età del sistema di riscaldamento 
+nel Suo complesso, senza considerare eventuali cambiamenti di singoli pezzi, termosifoni o altri 
+terminali. Nel caso in cui invece sia stata cambiata la caldaia indichi l’età della nuova caldaia.” 
+ 
+Per l’intervistatore: Se necessario, leggere “Tenga conto che il passaggio da un tipo di 
+combustibile ad un altro (ad esempio da carbone a gas) di solito comporta la sostituzione della 
+caldaia”  
+ 
+Per il programma: per gli intervistati che hanno gli apparecchi singoli fissi o portatili come sistema unico o prevalente 
+(3.0=3,4) di riscaldamento visualizzare la seguente indicazione per l’intervistatore:  
+ 
+Per l’intervistatore: Se necessario, leggere “ Se ne possiede più di uno/una, La prego di indicare 
+l’età di quello/a che utilizza prevalentemente o che considera principale.” 
+ 
+- Meno di 1 anno (dal <testo mobile> ad oggi)…………………………………………….1  
+- Da 1 anno a meno di 2 (dal <testo mobile> al <testo mobile>)………………….…  ...2 
+- Da 2 anni a meno di 3 (dal <testo mobile> al <testo mobile>)………………….…  ...3 
+- Da 3 anni a meno di 6 (dal <testo mobile> al <testo mobile>)………………….…  ...4 
+- Da 6 anni a meno di 10 (dal <testo mobile> al <testo mobile>)………………….…  5 
+- Da 10 anni a meno di 20 (dal <testo mobile> al <testo mobile>)………………….…6 
+- 20 anni o più (prima del <testo mobile>)…………………………………………………7 
+- Non sa………………………………………………………………………………………….9 
+ 
+3.9 - Che tipo di manutenzione è prevista per (testo mobile)?  
+ 
+- Programmata (ogni 1-2 anni)…………………………………………………….1  
+- Occasionale (una volta ogni tanto, quando c’è bisogno)…………………….2  
+- Oppure nessuna manutenzione?……………………………………………3 
+- Non sa……………………………..………………………………………………...9 
+ 
+3.10 - Durante i mesi invernali, con quale frequenza utilizza (testo mobile)? 
+ 
+- Tutti i giorni o quasi ………….…………………………….1 
+- Qualche giorno a settimana ………….……………………..2 
+- Circa una volta a settimana……………………....................3 Passare a 3.12/3.14/3.17 
+- Meno di 4 volte al mese…………………………………….4  Passare a 3.12/3.14/3.17 
+- Solo occasionalmente, quando  
+serve (qualche volta all’anno)……………………………...5  Passare a 3.12/3.14/3.17 
+ 
+ 
+ 
+ 
+ 
+
+PDF PAGE 41
+ 41 
+ 
+ 
+ 
+ 
+3.11_A – In una giornata invernale, in media, per quante ore è acceso (testo mobile)  durante la  
+mattina? Per favore consideri il periodo che va dalle 5.00 alle 13.00. 
+ 
+Per il programma: per gli intervistati che hanno il sistema centralizzato come sistema unico o prevalente di 
+riscaldamento (3.0=1) visualizzare la seguente indicazione per l’intervistatore:  
+ 
+Per l’intervistatore: Se necessario, leggere: “Per favore indichi un numero di ore, anche se stabilito 
+dal regolamento condominiale.” 
+ 
+Per il programma: per gli intervistati che hanno un sistema autonomo o gli apparecchi singoli fissi o portatili come 
+sistema unico o prevalente di riscaldamento (3.0=2, 3, 4) visualizzare la seguente indicazione per 
+l’intervistatore:  
+ 
+Per l’intervistatore: Se necessario, leggere: “Per favore consideri sia le giornate in cui qualcuno è a 
+casa sia quelle in cui nessuno è a casa e faccia una media”. 
+ 
+ 
+Per il programma: : per gli intervistati che hanno gli apparecchi singoli fissi o portatili come sistema unico o 
+prevalente (3.0=3,4) di riscaldamento visualizzare la seguente indicazione per l’intervistatore:  
+ 
+Per l’intervistatore: Se necessario, leggere “ Se ne possiede pi ù di uno/una, La prego di indicare il  
+numero di ore di accensione di quello/a che utilizza prevalentemente o che considera principale.” 
+ 
+Per l’intervistatore: Digitare il numero di ore indicato dall’intervistato. Digitare “1” in caso di 
+frazioni di ora e “0” se in questa fascia oraria il riscaldamento non viene mai acceso.  
+ 
+|_| 
+ 
+CONTROLLI DI RANGE: 
+ RNG_H_3.11A_1: non sono ammessi valori superiori a 8 (HARD) 
+ RNG_S_3.11A_2: valori ammessi da 0 a 5  (SOFT) 
+ 
+ 
+3.11_B – E durante il pomeriggio, nel periodo dalle 13.00 alle 21.00? 
+ 
+Per il programma: per gli intervistati che hanno il sistema centralizzato come sistema unico  o prevalente di 
+riscaldamento (3.0=1) visualizzare la seguente indicazione per l’intervistatore:  
+ 
+Per l’intervistatore: Se necessario, leggere: “Per favore indichi un numero di ore, anche se stabilito 
+dal regolamento condominiale.” 
+ 
+Per il programma: per gli intervistati che hanno un sistema autonomo o gli apparecchi singoli fissi o portatili come 
+sistema unico o prevalente di riscaldamento (3.0 =2, 3, 4) visualizzare la seguente indicazione per 
+l’intervistatore:  
+ 
+Per l’intervistatore: Se necessario, leggere: “Per favore consideri sia le giornate in cui qualcuno è a 
+casa sia quelle in cui nessuno è a casa e faccia una media”. 
+ 
+ 
+Per il programma: per gli intervistati che hanno gli apparecchi singoli fissi o portatili come sistema unico o prevalente 
+(3.0=3,4) di riscaldamento visualizzare la seguente indicazione per l’intervistatore:   
+ 
+
+PDF PAGE 42
+ 42 
+Per l’intervistatore: Se necessario, leggere “ Se ne possiede più di uno/una, La prego di indicare il 
+numero di ore di accensione di quello/a che utilizza prevalentemente o che considera principale.” 
+ 
+ 
+Per l’intervistatore: Digitare il numero di ore indicato dall’intervistato. Digitare “1” in caso di 
+frazioni di ora e “0” se in questa fascia oraria il riscaldamento non viene mai acceso.  
+ 
+|_| 
+ 
+CONTROLLI DI RANGE: 
+ RNG_H_3.11B_1: non sono ammessi valori superiori a 8 (HARD) 
+ RNG_S_3.11B_2: valori ammessi da 0 a 7  (SOFT) 
+ 
+3.11_C – E durante la notte, dalle 21.00 alle 05.00 del mattino? 
+ 
+Per il programma: per gli intervistati che hanno il sistema centralizzato come sistema unico o prevalente di 
+riscaldamento (3.0=1) visualizzare la seguente indicazione per l’intervistatore:  
+ 
+Per l’intervistatore: Se necessario, leggere: “Per favore indichi un numero di ore, anche se stabilito 
+dal regolamento condominiale.” 
+ 
+Per il programma: per gli intervistati che hanno un sistema autonomo o gli apparecchi singoli fissi o portatili come 
+sistema unico o prevalente di riscaldamento (3.0=2, 3,  4) visualizzare la seguente indicazione per 
+l’intervistatore:  
+ 
+Per l’intervistatore: Se necessario, leggere: “Per favore consideri sia le giornate in cui qualcuno è a 
+casa sia quelle in cui nessuno è a casa e faccia una media”. 
+ 
+Per il programma: per gli intervistati che hanno gli apparecchi singoli fissi o portatili come sistema unico o prevalente 
+(3.0=3,4) di riscaldamento visualizzare la seguente indicazione per l’intervistatore:  
+ 
+Per l’intervistatore: Se necessario, leggere “ Se ne possiede più di uno /una, La prego di indicare il 
+numero di ore di accensione di quello/a che utilizza prevalentemente o che considera principale.” 
+ 
+Per l’intervistatore: Digitare il numero di ore indicato dall’intervistato. Digitare “1” in caso di 
+frazioni di ora e “0” se in questa fascia oraria il riscaldamento non viene mai acceso.  
+ 
+|_| 
+ 
+CONTROLLI DI RANGE: 
+ RNG_H_3.11C_1: non sono ammessi valori superiori a 8 (HARD) 
+ RNG_S_3.11C_2: valori ammessi da 0 a 2  (SOFT) 
+ 
+ 
+INCOMPATIBILITA HARD: 
+ INC_H_3.11C_3: 3.10=1,2 e 3.11_A + 3.11_B + 3.11_C  = 0 (dichiara di utilizzare il riscaldamento  tutti i 
+giorni o qualche giorno a settimana e di accenderlo zero ore al giorno ).  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PDF PAGE 43
+ 43 
+ 
+ 
+ 
+ 
+ 
+3.12-3.13 SOLO PER AUTONOMO E CENTRALIZZATO COME SISTEMA UNICO O 
+PREVALENTE  
+ 
+ 
+ 
+Per il programma: S ottoporre i quesiti 3.12-3.13 esclusivamente a chi ha dichiarato di possedere un sistema 
+centralizzato o un impianto autonomo come impianto unico o prevalente (3.0=1,2). Gli altri 
+intervistati vanno a 3.14/3.17  
+ 
+ 
+3.12 - Il Suo sistema di riscaldamento pre vede la possibilità di regolare la temperatura degli 
+ambienti automaticamente, attraverso termostati o altri strumenti di contabilizzazione del calore 
+(termovalvole, ecc.)?  
+ 
+Per l’intervistatore: Se necessario, leggere:  “Non consideri la regolazione manua le, tramite 
+semplici tasti o telecomandi per l’accensione e lo spegnimento” 
+ 
+- Si…………..1 
+- No…………2  ......................................... Passare a 3.14/3.17 
+ 
+ 
+3.13 - Come regola la temperatura di riscaldamento della Sua casa?  
+ 
+ 
+Per il programma: Sono possibili più risposte.  
+ 
+Per l’intervistatore: Sono possibili più risposte. 
+ 
+Per l’intervistatore: Se necessario, leggere:  “Un termostato giorno/notte prevede la possibilità di 
+impostare una diversa temperatura per il giorno e per la notte” 
+ 
+- Con uno o più termostati …….………………………….…………………1   
+- Con un timer (regolazione dell’orario)………………….. ………………..2  
+- Tramite valvole termostatiche……………………………………………...3  
+ 
+ 
+Per il programma: Sottoporre i quesiti 3.14-3.16 agli intervistati che hanno indicato una risposta multipla al quesito 
+2.31. Gli intervistati che  posseggono un unico sistema di riscaldamento (risposta singola al quesito 
+2.31), vanno a 3.17 
+ 
+Per il programma: Modificare il testo mobile inserendo la/le risposta/e indicata/e al quesito 2.31 e NON indicata/e al 
+quesito 2.34 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

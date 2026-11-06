@@ -1,0 +1,28 @@
+{
+  "access_date": "2026-10-20",
+  "status": "frozen author claim binding",
+  "counts": {
+    "claim_count": 106,
+    "alias_count": 116,
+    "registered_alias_count": 121,
+    "file_count": 1404,
+    "producer_target_hash_check_count": 1963,
+    "array_and_git_identity_check_count": 37,
+    "hash_mismatch_count": 0,
+    "missing_file_count": 0,
+    "unresolved_alias_count": 0
+  },
+  "registry_sha256": "e2a411d0c4aec3493efb19ae2f6d29ce4fedddcc5c416c613ab96f39bf653a41",
+  "ledger_sha256": "84b8353e402ce6969afbce62a6cd2deab2ea725986a0832435c4fc5faf668d58",
+  "script_sha256": "3759e1c220f5fb7f9f994fe793e977825bbdf25b8d278b1ed5cdd5b593d71b30",
+  "claim_ledger": {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\06_claim_drafts\\claim_ledger_v07.json",
+    "sha256": "a768e5d022bb117c5a185c8a40500bbac52387910167ad65d439d759d27dd468",
+    "claim_count": 106,
+    "draft_path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\06_claim_drafts\\article_claims_v07.md",
+    "draft_sha256": "9aa90444db044ab1480872fbf496db171f359e39e10cf1207f76a4c586757df9"
+  },
+  "unresolved_aliases": [],
+  "missing_files": [],
+  "hash_mismatches": []
+}

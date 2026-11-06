@@ -1,0 +1,69 @@
+{
+  "sites": {
+    "Padova": {
+      "no_annual_thermal_run": true,
+      "comparison": "native preprocessed node forcing with corrected scalar minus native zero-sky reference",
+      "opaque_longwave_term_W": -289.99383986685444,
+      "node_distribution_weights": [
+        0.0,
+        0.030646806564531157,
+        0.961326437582626
+      ],
+      "maximum_air_surface_mass_difference_error_W": [
+        0.0,
+        3.9670579646154387,
+        124.43833887806164
+      ],
+      "pass": false
+    },
+    "Bolzano": {
+      "no_annual_thermal_run": true,
+      "comparison": "native preprocessed node forcing with corrected scalar minus native zero-sky reference",
+      "opaque_longwave_term_W": -399.97306418142244,
+      "node_distribution_weights": [
+        0.0,
+        0.030646806564531157,
+        0.961326437582626
+      ],
+      "maximum_air_surface_mass_difference_error_W": [
+        0.0,
+        5.471551846139416,
+        171.63117577103156
+      ],
+      "pass": false
+    },
+    "Roma": {
+      "no_annual_thermal_run": true,
+      "comparison": "native preprocessed node forcing with corrected scalar minus native zero-sky reference",
+      "opaque_longwave_term_W": -307.6093985610505,
+      "node_distribution_weights": [
+        0.0,
+        0.030646806564531157,
+        0.961326437582626
+      ],
+      "maximum_air_surface_mass_difference_error_W": [
+        0.0,
+        4.2080352986548295,
+        131.9972955211452
+      ],
+      "pass": false
+    },
+    "Palermo": {
+      "no_annual_thermal_run": true,
+      "comparison": "native preprocessed node forcing with corrected scalar minus native zero-sky reference",
+      "opaque_longwave_term_W": -319.45867346615034,
+      "node_distribution_weights": [
+        0.0,
+        0.030646806564531157,
+        0.961326437582626
+      ],
+      "maximum_air_surface_mass_difference_error_W": [
+        0.0,
+        4.3701310190631375,
+        137.08190037612042
+      ],
+      "pass": false
+    }
+  },
+  "pass": false
+}

@@ -1,0 +1,43 @@
+{
+  "purpose": "pre-run independent per-surface shortwave/longwave/window fixtures and ordering; no annual thermal simulation",
+  "expected_components_W": {
+    "wall": {
+      "opaque_shortwave_W": 57.60000000000001,
+      "opaque_longwave_W": -17.28,
+      "window_shortwave_W": 233.28
+    },
+    "roof_no_window": {
+      "opaque_shortwave_W": 460.80000000000007,
+      "opaque_longwave_W": -138.24,
+      "window_shortwave_W": 0.0
+    }
+  },
+  "maximum_component_error_W": {
+    "wall": {
+      "opaque_shortwave_W": 0.0,
+      "opaque_longwave_W": 0.0,
+      "window_shortwave_W": 2.842170943040401e-14
+    },
+    "roof_no_window": {
+      "opaque_shortwave_W": 0.0,
+      "opaque_longwave_W": 0.0,
+      "window_shortwave_W": 0.0
+    }
+  },
+  "standalone_component_error_W": {
+    "wall": 0.0,
+    "roof_no_window": 0.0
+  },
+  "reverse_rotate_max_node_forcing_error_W": [
+    0.0,
+    0.0
+  ],
+  "independent_node_distribution_error_W": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "roof_has_no_window_attribute": true,
+  "source_sha256": "24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+  "pass": true
+}

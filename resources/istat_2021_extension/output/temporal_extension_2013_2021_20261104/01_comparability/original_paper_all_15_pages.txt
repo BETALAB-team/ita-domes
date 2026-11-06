@@ -1,0 +1,1566 @@
+PAGE 1
+Identification of Italian user archetypes for building energy simulations 
+based on a national survey
+Mohamad Hasan Khajedehi , Jacopo Vivian
+*
+, Angelo Zarrella
+University of Padua, Dept. of Industrial Engineering (DII), via Venezia 1, 35131 Padova, Italy
+ARTICLE INFO
+Keywords:
+User behavior
+Standards
+Clustering
+Unsupervised learning
+Occupant-centric operation
+ABSTRACT
+Traditional building energy simulations often rely on generalized assumptions about user-related variables, 
+leading to discrepancies between predicted and actual energy consumption. This study addresses this challenge 
+by proposing a data-driven approach to identify and incorporate user archetypes into building energy simula -
+tions based on responses to a national survey. Focusing on the Italian residential sector, the study analyzes a 
+comprehensive dataset to uncover distinct patterns in occupant demographics, building characteristics, and 
+energy use patterns. Applying unsupervised clustering techniques, four distinct user archetypes emerged, 
+characterized by demographic features like age, household size, and education level. The analysis shows a 
+correlation between building characteristics and the probability of specific user archetypes inhabiting those 
+buildings. Notably, building age and size emerged as strong predictors of archetype occupancy. Further analysis 
+revealed that user archetype, in conjunction with specific dwelling characteristics, significantly influences energy 
+consumption patterns. Daily heating system usage and annual electricity consumption varied considerably across 
+user archetypes and building types. Integrating these findings into Standards or technical literature would 
+enhance the accuracy of simulation results where there is a lack of information about residents, enabling targeted 
+energy efficiency strategies and contributing to a more sustainable built environment.
+1. Introduction
+Energy efficiency in buildings is increasingly recognized as a 
+cornerstone of sustainable development [ 1 ]. Global energy demand 
+rises, and reducing energy consumption has become a critical focus for 
+policymakers. Buildings, with their huge part in this demand [ 2 ], have 
+become a key target for achieving climate goals [ 3 , 4 ]. However, the 
+simulations attempting to inspect the energy performance of the build -
+ings are often far from what happens inside the buildings. Understand -
+ing and accurately predicting energy consumption in buildings requires 
+a multifaceted approach that considers not only physical and technical 
+characteristics but also human behavior [ 5 , 6 ]. Occupants play a central 
+role in determining actual energy use through their daily activities, 
+preferences, and interactions with building systems [ 7 – 9 ]. Studies show 
+that discrepancies between predicted and actual energy performance 
+can often be attributed to variations in user behavior in heating, cooling, 
+and appliance usage patterns [ 10 ].
+1.1. International standards
+European Standard EN 16798 [ 11 ] sets out environmental, lighting 
+and acoustic comfort parameters for design conditions and energy 
+assessment. The informative Appendix C of the standard lists the pa -
+rameters and setpoints with the relevant use profiles. The environments 
+considered are: school, nursery, department store, meeting room, office, 
+single office, restaurant, residential flat and single-family residential 
+house.
+For each type of environment, the time of use, internal loads and 
+setpoints are defined. For internal loads, occupancy density, thermal 
+loads due to occupants, thermal loads due to equipment and lighting, 
+and steam and carbon dioxide production are specified. For set-points, 
+values are defined for operating temperature, ventilation rate, relative 
+humidity and carbon dioxide concentration. The profiles are defined in 
+hourly steps, distinguishing weekdays from weekends.
+Concerning the residential sector, EN 16798 covers two categories: 
+the flat and the single-family house. For the flat, the standard also dis -
+tinguishes according to the end user: a flat inhabited by elderly people 
+* Corresponding author.
+E-mail address: jacopo.vivian@unipd.it (J. Vivian). 
+Contents lists available at ScienceDirect
+Energy & Buildings
+journal homepag e: www.else vier.com/loc ate/enb
+https://doi.org/10.1016/j.enbuild.2025.115924
+Received 12 February 2025; Received in revised form 9 May 2025; Accepted 24 May 2025  
+Energy & Buildings 344 (2025) 115924 
+Available online 27 May 2025 
+0378-7788/© 2025 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). 
+PAGE 2
+and non-elderly people. It means that the standard acknowledges that 
+habits change depending on the age of the end user.. The standard also 
+specifies the annual hot water demand according to the size of the 
+building. The standard gives both ratings and hourly profiles for occu -
+pancy, electrical equipment and lighting. The profiles are provided for 
+weekdays and weekends. In the case of a flat inhabited by elderly peo -
+ple, no difference is given between weekdays and weekends in terms of 
+time profiles. In the case of non-elderly persons, on the other hand, the 
+standard gives two different occupancy profiles for weekdays and 
+weekends; no differences are reported for the profiles of electrical 
+equipment and lighting. Concerning time profiles for a single-family 
+home, again, there is a difference between weekday and weekend 
+occupancy.
+ISO 18,523 provides detailed use profiles for simulations for calcu -
+lating the energy needs of buildings. The standard defines parameters 
+related to internal loads and the operation of a specific thermal zone 
+(space), distinguishing buildings into non-residential (part 1) [ 12 ] and 
+residential (part 2) [ 13 ]. For residential buildings, Part 2 of ISO 18523 
+provides some useful information for defining daily profiles concerning 
+the occupancy and use of zones/spaces, the operation of the plant and 
+systems serving the building, the use of equipment, internal loads, and 
+the operation of moving parts (windows, doors, etc.). The information in 
+the standard is given as an example for a typical four-person household. 
+Part 2 of ISO 18523 provides less detailed information than Part 1 for 
+non-residential buildings, as the definition of ratings and time profiles 
+for residential use is certainly more difficult to define due to the high 
+variability that can occur. However, the information present makes it 
+possible to define reference profiles that can be used for energy 
+simulations.
+Rugani et al [ 14 ] performed a sensitivity analysis to investigate the 
+impact of different assumptions for occupancy profiles coming from 
+different sources. Depending on the climate considered, differences in 
+the resulting heating demand go from 8 % to 16 % for detached houses 
+and between 20 % and 40 % for apartments. The impact of occupancy 
+assumptions is even higher for cooling demands, the error being 15 % to 
+40 % for detached houses and 42 % to 142 % for apartments. This issue 
+shows the possibility of a catastrophic deviation from reality in case the 
+occupants assigned to the buildings are unknown; a situation that arises 
+when the residents are not defined in the project, or in large-scale 
+simulations where such information is not available.
+1.2. Literature review
+There is often a significant discrepancy between design and real 
+energy use in buildings. While the design use derives from calculations 
+based on assumptions, the latter is influenced by six factors: climate, 
+building envelope, building services and energy systems, building 
+operation and maintenance, occupants’ activities and behavior, and 
+indoor environmental quality [ 3 ]. Numerous studies have shown that 
+buildings even when designed to high-efficiency standards may 
+consume differently than what is anticipated. The user-related factors 
+often determine whether a building achieves its intended performance 
+[ 15 ]. Occupant behavior, in particular, is a central driver of actual en -
+ergy consumption, and is typically defined as a set of observable actions 
+or reactions taken in response to external or internal environmental 
+stimuli – for instance, switching on lights when daylight becomes 
+insufficient [ 16 ]. Because detalied behavioral data is often unavailable, 
+researchers frequently assess behavior through indirect indicators [ 17 ] 
+such as total electricity consumption or average daily heating demand. 
+This study also keeps this approach to propose a method that can be used 
+in large-scale building simulations.
+The lack of understanding about the user attributes in energy anal -
+ysis of new buildings or retrofit scenarios leads to an energy gap [ 18 ]. A 
+gap between simulation and reality, which can be linked either to the 
+rebound effect, i.e. to the tendency of occupants to increase their energy 
+demand for comfort when household energy efficiency is enhanced [ 19 ] 
+or to the use of the building by a type of user unknown to the engineers 
+doing the simulations [ 20 ].
+The diversity of occupants’ behavior emerged in the study by Vivian 
+et al. [ 21 ], in which the analysis of indoor air monitored before and after 
+the renovation of a building suggests that the energy performance gap is 
+determined by increased thermal comfort and improved air quality and 
+that users tend to favour one or the other aspect.
+In both cases, people’s views, habits, practices and resources deter -
+mine how energy is consumed. social factors interweave with technical 
+factors in buildings’ operation, such that the two often co-determine 
+each other [ 22 ]. This diversity highlights the necessity to develop and 
+study the user’s behavior and measures to assign them when investi -
+gating building energy performance. Currently, studies are being carried 
+out to dynamically introduce user preferences to the systems [ 23 ].
+A growing body of literature is underlining that building energy 
+simulations are often based on generalized assumptions [ 24 ]. The sim -
+ulations usually overlook the diversity of building users and typically do 
+not reflect the variation across households [ 25 ]. On this note, studies 
+show that incorrect, misplaced or oversimplified profiles can cause es -
+timates that are substantially deviated from reality [ 16 ]. Different 
+studies measured this deviation based on occupant type assumption and 
+occupant behavior modelling to be significantly high for both residential 
+and non-residential cases [ 24 , 26 ].
+Occupants’ behavior not only affects the energy efficiency of build -
+ings but can also enhance or undermine their energy flexibility [ 27 , 28 ], 
+which is an important asset to decarbonize the building sector in 
+renewable-dominated energy systems, where the energy demand must 
+adapt to the availability of renewable energy production.
+The need for structured approaches to the collection, storage, 
+sharing, and analysis of monitored data relevant to building occupants 
+became a key focus in the discussions of Annex 66 and Annex 79 of the 
+IEA TCP on Energy Buildings and Communities [ 29 ]. These research 
+collaboration programs highlighted the challenges of comparing 
+different studies due to the variety of methods and data ontologies used 
+[ 29 ]. The issue’s significance is raised when a whole group of buildings 
+are being dealt with. As an example, in the case of consumers, it is 
+important to know the electricity usage of the users connected to the 
+grid to analyze and control the system [ 30 ]. To investigate the perfor -
+mance of a built environment at a city level, it is imperative to have an 
+archetypical set of data to apply in the model. Such diverse profiles have 
+been assessed in the field of design [ 31 ] using questionnaires and self- 
+assessments.
+Dong et al [ 32 ] introduced a database of 34 field-measured building 
+occupant behavior datasets collected from 15 countries and 39 in -
+stitutions across 10 climatic zones covering various building types in 
+both commercial and residential sectors. The database includes occu -
+pancy patterns (i.e., presence and people count) and occupant behaviors 
+(i.e., interactions with devices, equipment, and technical systems in 
+buildings).
+This study takes an extensive statistical approach for processing and 
+classifying the data derived from a national energy survey (discussed in 
+Section 2 ). This database is chosen to be the only information input for 
+this study as it only covers the residential sector. This article focuses on 
+the residential sector, as including other types of buildings might 
+confound the data and the study on other types of buildings needs its 
+own time and space. A previous study [ 33 ] used this dataset to generate 
+energy consumption profiles based on the building types. While this 
+study uses a conventional energy approach to derive profiles in a higher 
+temporal resolution, it does not cover demographic aspects of the 
+dataset. This dataset was previously used to develop a bottom-up na -
+tional building stock model called MOIRAE [ 34 ]. The simulation tool 
+was later improved and released with the name MODENA [ 35 ], which 
+allowed to perform a sensitivity analysis to study the effect of climate 
+change on future energy consumption [ 36 ].
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+2 
+PAGE 3
+1.3. Research gap and objectives
+A persistent and widely recognized challenge in building energy 
+modelling is the performance gap—the often substantial difference be -
+tween predicted energy consumption in simulations and the actual 
+measured use [ 16 ]. One of the main contributors to this gap is the use of 
+oversimplified assumptions about building occupants, such as fixed 
+schedules or average constant values for setpoints, occupancy, ventila -
+tion rates, internal gains etc. Therefore, building simulations often rely 
+on generalized assumptions coming from Standards that, in the best 
+case, represent average national statistics and fail to catch the diversity 
+among users, and in the worst case, are based on an unspecified “com -
+mon sense”. As such, simulations become case-study dependent and 
+prevents the reproducibility of the simulation results. This lack of a 
+standardized methodology is one of the root causes of the observed 
+discrepancies between predicted and actual energy consumption in 
+buildings [ 37 ].
+This study addresses this challenge by proposing a data-driven 
+approach to identify and incorporate user archetypes into building en -
+ergy simulations based on responses to an Italian national survey. The 
+latter are available on an open dataset. The novelty of this work is the 
+methodology to derive statistically representative users that can be used 
+for building simulations based on the mentioned dataset. The method 
+aims at answering to three research questions: (i) can a limited number 
+of user archetypes be determined based on demographic features of the 
+population?, (ii) is there any relation between user archetypes and the 
+dwellings they inhabit?, (iii) is it possible to find energy use patterns 
+depending on the user archetype and building type?. A thorough 
+description of the techniques used to answer these research questions, 
+and the results achieved for each of them, can be found in Sections 3 and 
+4 , respectively. Section 5 discusses the relevance of the findings by 
+showing the difference between values recommended from laws or In -
+ternational Standards and those emerging from this analysis. Finally, 
+Section 6 summarizes the main conclusions.
+2. Dataset
+This work relies on a dataset gathering detailed statistics on Italian 
+households’ energy consumption [ 38 ]. This initiative was part of a 
+broader effort to meet European Commission standards, as mandated by 
+EU Regulation No. 1099/2008, to enhance energy-related statistics. 
+Such data was necessary to guide both national and EU policy on energy 
+efficiency and renewable energy. The target population comprised 
+households with a landline subscription, selected randomly from Italy’s 
+8,000 municipalities and stratified by demographics and geography (e. 
+g., metropolitan centers, mountain towns, and coastal areas). The sam -
+pling was one-stage, including a base sample of 20,000 households with 
+a reserve sample of 100,000 additional households to ensure sufficient 
+participation. Surveys were conducted between March and July 2013 
+using CATI (Computer-Assisted Telephone Interviewing), and in -
+terviews were monitored for data quality. Households and respondents 
+were selected carefully, targeting an adult in each household knowl -
+edgeable about energy topics. Although the data was collected in 2013, 
+the key demographic factors used in this study, such as household size, 
+age, and education, have not changed drastically over time. While some 
+technological trends, such as the adoption of newer heating systems, 
+more efficient appliances, or changes in telecommunication habits, may 
+have evolved, the dataset remains a detailed and structured source 
+available for analyzing household characteristics in Italy, making it well- 
+suited for this analysis.
+The survey includes more than 380 questions divided into nine 
+sections: general information on households, household characteristics, 
+heating system, domestic hot water, cooling system, biomass, lighting, 
+household appliances, and energy expenditure. These questions concern 
+the presence, type, characteristics, number and type of use of different 
+technologies related to the energy consumption of the households 
+surveyed. Using the answers to these questions, it was therefore possible 
+to characterize the energy consumption of households by cross- 
+referencing the answers with external databases or models that define 
+consumption.
+Data from the survey were cleaned and validated through deter -
+ministic and probabilistic correction methods. Errors were identified 
+using ISTAT’s CONCORD software, which helped ensure coherence 
+across responses. Weights were calculated to adjust for representative -
+ness, aligning survey estimates with demographic statistics on factors 
+like household income, employment status, and regional distribution 
+[ 39 ]. These weights enabled extrapolation to the broader population, 
+enhancing the data’s policy relevance. Having these factors, it is possible 
+to extend the results of this study to the national scale.
+3. Methods
+In this study, statistical data analysis is conducted on the dataset to 
+investigate the possibility of relating family members’ information, 
+building information, and household energy patterns. The systematic 
+procedure employed in this study can be consulted in Fig. 1 . The analysis 
+applies Principal Component Analysis (PCA) to the dataset to reduce its 
+dimensionality and highlight the significant variables. This step was 
+taken to uncover patterns in the data and simplify the clustering process 
+[ 40 ]. By transforming the original data into orthogonal components, 
+PCA leads to isolating the primary factors that distinguish different 
+family types. Then, clustering algorithms [ 41 ] were used on the PCA- 
+transformed data to group families based on shared characteristics.
+Once ethe clusters are created based on the demographic data, it is 
+necessary to find a way to link the user types to the buildings, or maybe 
+to say there is no link. The first attempt in this study was to use classi -
+fication techniques to predict the user archetype residing in a building 
+based on construction properties. This approach proved ineffective 
+using traditional classification models (specify) as there seems to be no 
+explicit and certain connection between the type of families and the 
+dwellings in which they reside. Instead, probabilistic feature extraction 
+(PFE) methods [ 42 ] enabled estimation of the likelihood for each family 
+type residing in specific building types.
+After assigning family clusters and their probabilistic connection 
+with their residential dwellings, an Analysis of Variance (ANOVA) was 
+conducted [ 43 ] to determine whether the combination of family clusters 
+and dwelling characteristics can result in distinct groups to predict the 
+energy consumption behavior of each unit.
+3.1. PCA and clustering
+Given the extensive number of variables available in the dataset, a 
+preliminary selection was necessary to focus the analysis on household 
+demographic characteristics rather than building features or equipment 
+details. The primary objective of the study was to define household user 
+archetypes based on their demographic composition. Therefore, vari -
+ables describing physical aspects of the dwelling (such as heating sys -
+tems, window materials, or appliance ownership) were excluded, as they 
+were not directly informative about household structure. Instead, four 
+variables were selected to capture the essential dimensions of household 
+composition. These variables are summarized in Table 1 .
+After calculating the selected household indicators, Principal 
+Component Analysis (PCA) was applied to reduce the dimensionality of 
+the dataset while explaining most of its variance. The aim of PCA was to 
+identify a smaller set of uncorrelated components that summarize the 
+main patterns within the household demographic data.
+After defining the principal components and isolating the education 
+variable, a clustering analysis was conducted to identify groups of 
+similar households. The clustering approach chosen was the k-means 
+algorithm, widely used for its simplicity and effectiveness in partitioning 
+observations based on similarity. Before clustering, all variables (two 
+principal components PC1, PC2, and education) were linearly normal -
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+3 
+PAGE 4
+ized to a common scale between 0 and 1, using min – max normalization, 
+to ensure that no single variable disproportionately influenced the 
+clustering outcome.
+The k-means algorithm operates by assigning each observation to the 
+nearest cluster centroid based on a distance metric. In this study, the 
+standard Euclidean distance was used to measure the proximity between 
+data points and centroids. The optimization objective was to minimize 
+the Within-Cluster Sum of Squares ( WCSS ), which quantifies the 
+compactness of the clusters. The elbow point method is a technique used 
+to determine the optimal number of clusters in clustering algorithms, by 
+plotting the performance indicator, here WCSS against the number of 
+clusters. The “ elbow ” in the plot, where the rate of improvement sharply 
+decreases, indicates the ideal number of clusters to use.
+To determine the optimal number of clusters, the Calinski-Harabasz 
+Index ( CHI ) was used as a validation metric [ 45 ]. The CHI evaluates the 
+clustering quality by comparing the dispersion within clusters to the 
+dispersion between clusters. A higher Calinski-Harabasz index indicates 
+better-defined clusters, with typical values above 100 suggesting a 
+strong clustering structure, while values below 10 often indicate poorly 
+defined clusters or inadequate grouping. Although the specific thresh -
+olds can vary depending on the dataset and context, the index is handy 
+for comparing clustering solutions and identifying the optimal number 
+of clusters.
+To assess whether regional differences had a significant influence on 
+the identified household clusters, a multivariate analysis of variance 
+(MANOVA) was conducted [ 46 ]. Unlike separate univariate ANOVA 
+tests, MANOVA simultaneously examines multiple dependent variables, 
+accounting for potential correlations among them and providing a more 
+robust assessment of group differences.
+In this analysis, the dependent variables were the two principal 
+components ( PC 1 and PC 2) and the education variable, while the inde -
+pendent variable was the household ’ s region of residence. Two test 
+statistics were used to evaluate the significance of regional effects: 
+Wilks ’ Lambda, which measures the proportion of total variance not 
+explained by the grouping factor, and Roy ’ s Greatest Root, which 
+highlights the largest eigenvalue associated with the group differences.
+If the null hypothesis was rejected based on these tests, it would 
+suggest that the region significantly impacts the variance of the de -
+mographic structure and education level across clusters, indicating the 
+necessity to consider regional factors in interpreting the clustering 
+results.
+3.2. Probabilistic feature extraction
+After grouping the families into clusters, the second objective is to 
+find a way to connect the dwelling information to the family informa -
+tion. Now that the residents can be described using a categorical vari -
+able, a classic way to tackle such a problem would be to train a 
+classification model that can use the information of the dwellings to 
+predict the type of families living inside. Such approach was tested in 
+this study. However, in the preliminary inspection, the resulting models 
+did not yield acceptable outcomes in terms of confusion matirx of the 
+classification algorithm. This issue ruled out the classification method as 
+a suitable tool for assigning family types to the dwellings.
+That is why the study investigated the possibility of predicting the 
+probability of having a specific family type in a dwelling. To this end, A 
+probabilistic feature extraction (PFE) was conducted on the dataset 
+[ 47 ].
+With changing the target variable from family type to 
+Fig. 1. Process flow of the study.
+Table 1 
+Variables used in the demographic clustering of users.
+Variable Description Purpose
+age
+min
+Minimum age among household 
+members, extracted from individual 
+age fields
+Identifies the presence of 
+very young individuals
+age
+max
+Maximum age among household 
+members
+Identifies the presence of 
+elderly individuals
+n
+members
+Number of household members, 
+obtained by counting individuals living 
+in each household
+Captures household size
+education Average education index, calculated by 
+averaging the individual study indices 
+across household members, where the 
+study index is the ratio of years studied 
+to potential maximum years based on 
+age (following the United Nations 
+method [ 44 ]). 
+It is an index from 0 to 1, where 
+0 means none of the members of the 
+household have had any formal 
+education. Whereas 1 means that all 
+the residents of the dwelling have 
+completed all the possible formal 
+education they could pursue based on 
+their age.
+Reflects average education 
+level and socio-economic 
+status
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+4 
+PAGE 5
+P
+ 
+type
+family
+= x
+⃒
+⃒
+DwellingInformation ) , the study changed its path to a 
+regression. Such probability was calculated by regrouping the dataset 
+based on the information regarding the dwellings and their corre -
+sponding inhabitants. In this analysis, the information used from the 
+houses is the following parameters: 
+– Year
+cons
+: The year in which the building was constructed
+– area
+cla
+: The area of the dwelling
+– insulation : the level of thermal insulation (with self-declared levels of 
+no insulation, slight insulation, sufficiently insulated, well-insulated)
+– type
+dwel
+: The type of dwelling (e.g., Single-family house, apartments 
+in small buildings)
+– zone : The location of the building (north-east, north-west, central, 
+south, islands)
+The first two variables are given in classes. Still, they can be treated 
+the same way as the age of family members in the last section and 
+changed into a continuous variable using randomization. Considering 
+that the data was acquired in 2013, it is possible to convert the year of 
+construction into the age of the building.
+A full quadratic model was applied to this dataset with a best-fit 
+approach. However, the difference with a simple best-fit model is that 
+if any of the variables and their dependencies were completely removed 
+from the model due to the high p-value of their coefficients, then the 
+whole process of windowing the data and calculating the probabilities 
+was done again without considering that variable. This method is 
+summarized in Algorithm 1.
+Algorithm 1 Probabilistic feature extraction
+Input: A dataset including a set of categorical variables X
+CAT 
+and a set of numerical 
+variables X
+NUM 
+and a categorical response variable Y
+Output: a regression model to calculate the probability of Y = y
+i 
+for every y
+i 
+among 
+the levels of Y
+1. Define the significance threshold for p-values.
+2. For each numerical variable X
+NUM
+j
+, define window width w
+j
+3. For each unique numerical value x
+NUM
+j , k 
+in X
+NUM
+j 
+define a window of width 
+w
+j 
+around it.
+4. For each set of unique categorical values and numerical values ( x ), extract 
+all the data points d
+x 
+that match the categorical value and are inside the respective 
+window of the numerical value. Calculate n
+x 
+as the number of points within d
+x
+.
+5. For each value y
+i 
+count n
+xi 
+as the number of points in d
+x 
+for which Y = y
+i
+. 
+Calculate P
+xi
+=
+n
+xi
+n
+x
+.
+6. Fit a regression model and check for statistical significance.
+7. Remove the variable with the highest p-value from the set of variables.
+8. Repeat steps 2 – 7 until all the variables are statistically significant.
+The results are not supposed to predict a certain family type for a 
+dwelling; but rather a probabilistic prediction that considers some 
+family types more likely to live inside the considered residence than 
+others.
+3.3. Regression model analysis and analysis of variance
+A regression model was applied to the dataset to explore the effect of 
+building information and user archetype on two selected variables 
+related to occupants behavior, namely the declared number of hours per 
+day in which the heating system is on, and the annual electrical con -
+sumption from the appliances, calculated with the model [ 35 ] based on 
+the answers to the survey. Considering the high number of multi-class 
+categorical variables, a multi-step ANOVA was used to investigate 
+their influence on energy behavior.
+ANOVA (Analysis of Variance) was used to find the significance of 
+user and building type in energy consumption behaviors. The analysis of 
+the effect of user archetypes and building type on the mentioned 
+behavioral variables started with an exploratory analysis. The study 
+employs an iterative approach to grouping categories based on statisti -
+cal similarity using Tukey ’ s Honest Significant Difference (HSD) test 
+[ 48 ]. Algorithm 2 shows the data preparation, statistical testing, and 
+group merging process used to identify the significance of categorical 
+variables in the response variable. Tukey HSD test is a post-hoc analysis 
+to perform pairwise comparisons between group means while control -
+ling the Family-wise Error Rate (FWER). The test uses the studentized 
+range distribution to compare the differences between group means 
+against a critical threshold. This helps identify which groups differ 
+significantly, controlling the probability of Type I error across all com -
+parisons. However, considering the large number of categorical levels in 
+different datasets, an iterative approach can be used in multiple steps to 
+identify a significant set of categories.
+This process systematically reduces the number of groups, noting 
+that the steps 2 – 5 will decrease the number of groups by exactly one in 
+each iteration, while preserving statistically meaningful distinctions in 
+the response variable across categorical combinations.
+Algorithm 2 multi-step pairwise grouping
+Input: A dataset including a set of categorical variables X and a numerical response 
+variable Y
+Output: a subset of all possible combinations of X that make most significant effect on 
+Y
+1. Perform ANOVA on the dataset, using interaction terms among all categorical 
+factors
+2. Conduct the Tukey HSD test on all pairwise group combinations to obtain 
+the p-values
+3. Identify the pairs of groups with the highest p-values (least significance 
+differences)
+4. If p-values exceed a threshold, merge the corresponding groups into a new 
+group
+5. Update the dataset by replacing the old group labels with the new merged 
+group labels
+6. Repeat step 2 – 5 until all remaining groups show statistically significant 
+differences.
+7. Record the final groups for the analysis
+4. Results and discussion
+This study aimed to discover the energy consumption patterns of 
+Italian families, i.e. user archetypes for the residential sector. Section 4.1
+describes the results from the process of curing the data and PCA. In this 
+section, the path to find the optimal number of clusters and the clus -
+tering algorithm results are shown. Section 4.1 demonstrates the simi -
+larity between different users and their respective possible archetypes. 
+Section 4.2 shows the relationship between users ’ archetypes and 
+dwelling characteristics. Section 4.4 shows the results regarding the 
+potential of predicting energy consumption patterns using these 
+archetypes.
+4.1. Principal components and clusters
+An initial PCA was performed on the full set of four variables ( ag e
+min
+, 
+ag e
+max
+, n
+members
+, education ). The results (shown in Fig. 2 (a)) demonstrate 
+that the first three principal components accounted for approximately 
+95 % of the total variance, indicating a high level of information 
+retention. However, the inclusion of the education variable complicated 
+the interpretation of the resulting principal components, making it 
+difficult to distinguish purely demographic patterns from socio- 
+economic characteristics.
+To address this, a second PCA was conducted, excluding the 
+education variable. In this case, two principal components were suffi -
+cient to explain approximately 94 % of the variance (see Fig. 2 (b)), with 
+minimal information loss compared to the full-variable model.
+Based on these results, the study adopted an approach where n
+members
+, 
+ag e
+min
+, and ag e
+max 
+were summarized using two principal components 
+derived from the second PCA, while the education variable was retained 
+separately as an independent explanatory variable. This strategy 
+allowed for clearer interpretation of the principal components related to 
+household structure, while preserving education as an important, but 
+distinct, dimension of analysis.
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+5 
+PAGE 6
+The equations (1) and (2) show the principal components that are 
+derived from this analysis. 
+PC
+1
+=  
+1
+4
+age
+min
+ 
+3
+4
+age
+max
++ 10 n
+members
+(1) 
+PC
+2
+=
+1
+3
+age
+min
++
+2
+3
+age
+max
++ 10 n
+members
+(2) 
+It is important to understand that the components derived from PCA are 
+usually abstract combinations without an explicit, tangible sense. 
+However, in this study, PC
+1 
+can be interpreted as the youth of the 
+household, as it increases with a higher number of members and 
+younger members and decreases with older people in the household. PC
+2 
+is maximized in a large family with elderly members, while it is mini -
+mized in young families with few members.
+This study used an elbow-point method to find the minimal number 
+of clusters that can explain the variances within the dataset. Fig. 3 shows 
+the change in the performance of clustering as the number of clusters 
+increases. The elbow point can be seen falling on number 3, hence, one 
+number higher K = 4 is chosen as the number of clusters in this study.
+The second step is to find out whether the information on the region 
+of the respondent would affect the resulting clusters. To this end, the 
+clustering (with same K = 4) was first conducted on different regions in 
+Italy. The result can be seen in Fig. 4 . Each gray point represents the 
+centroids in the clusters found for a single region. The gray lines are 
+simply lines that connect the clusters within one region. The red spec -
+trum dots and lines are the cluster centroid and the connections between 
+them in the entire database.
+The gray lines are drawn together with some offset parallel lines, the 
+number of parallel lines is proportional to the sample size of the corre -
+sponding region. It can be seen that while the cluster centroids for the 
+regions are not exactly aligned on one point, the bigger is the sample 
+size, the more similar is the entire dataset and the clustering algorithm in 
+the regions. In addition, the CHI score of individual regions is not as high 
+as it is using the whole database.
+As explained in Section 3.1 , MANOVA was used to check the effect of 
+regions on cluster centroids. Table 2 shows the statistical metrics that 
+can be used to evaluate the effect that the location might have on the 
+archetype definition. The high p-values for both statistics used in the test 
+imply the impossibility of rejecting the null hypothesis. This means there 
+is no significant effect from the regions imposed on the cluster centroids.
+4.2. Definition of user archetypes
+The results of the clustering analysis demonstrate that the structures 
+of users in Italy can be divided into certain groups, regardless of their 
+region of residence. The consistency throughout the country means that 
+the resulting clusters can be seen as socio-demographic user archetypes 
+Fig. 2. Explained Variance of principal components considering (a) all variables, (b) excluding education.
+Fig. 3. Within Cluster Sum of Squares as a function of number of clusters.
+Fig. 4. The cluster centroids for different regions and for the entire database. 
+The radius of each dot is proportional to the corresponding CHI score.
+Table 2 
+MANOVA results.
+Region Value F Value p-value
+Wilks ’ lambda 0 . 8105 0 . 2226 1
+Roy ’ s greatest root 0 . 1687 0 . 5329 0 . 9357
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+6 
+PAGE 7
+in the Italian context. These groups can be studied to investigate their 
+effect on energy behavior in the whole country. The dataset is then 
+regrouped based on the assigned clusters. The average and standard 
+deviation of the four variables used to determine user archetypes are 
+shown in Table 3 .
+From this table, the information regarding each cluster can be 
+interpreted as follows: 
+– Households belonging to Cluster 1 comprise a small number of old 
+members with mid-level education, for instance, retired couples or 
+single elderly people.
+– Households of Cluster 2 are made of several members, usually at least 
+one member in the mid-age range and a younger member, for 
+instance, parents with one or more young children.
+– Households from Cluster 3 are composed of a few members with a 
+medium age and medium level of education, for instance, a working 
+couple or a single parent with a son/daughter of working age.
+– Households from Cluster 4 are composed of a few members of me -
+dium age and a higher level of education, e.g., families like those of 
+Cluster 3 but with a higher level of education and closer to 
+retirement.
+Each respondent of the ISTAT survey was assigned to a cluster based 
+on the closest cluster centroid. For this reason, there can be situations 
+that do not belong to the mentioned examples but that can still belong to 
+one of the mentioned clusters. For example, young working people or 
+students living together are likely to be classified under Cluster 2.
+The distribution of these clusters among the whole dataset can be 
+seen in Fig. 5 . It can be observed that most of the households (40.1 %) 
+belong to Cluster 1. However, as these types of users do not include a 
+high number of people, they only represent 29.9 % of the population. 
+The opposite is valid for the second cluster, as it accounts for 40.2 % of 
+the population and 26.9 % of the households. The last two clusters are 
+relatively small, with clusters 3 and 4 covering approximately 23 % and 
+10 % of the population, respectively. This analysis is conducted without 
+considering the weighting factor given by the national institute, there -
+fore, the outcome might differ slightly from the national demography. 
+The results are therefore calculated supposing equal representation for 
+each surveyed family.
+4.3. Associating user archetypes to building types
+After determining the archetypes for the users, the next phase in -
+vestigates the connections between the dwelling properties and the user 
+archetypes. As mentioned in section 3.2 , probabilistic feature extraction 
+is used to find the relation between these two seemingly unrelated 
+concepts. This user-dwelling match can come in useful in studying and 
+in the development phase of building energy simulation. The continuous 
+variables ag e
+dwel 
+and area
+dwel 
+were discretized into intervals, with age
+dwel 
+grouped into 20 year bins and area
+dwel 
+grouped into 40 m
+2 
+bins. A win -
+dowing approach was applied, where for each specific combination of 
+“ age ” and “ area, ” a window width of 6 years and 8 m
+2 
+was used. This 
+allowed the calculation of the number of data points within a window 
+centered on the specific age and area under consideration with a 
+particular combination of isolation , type
+dwel 
+and zone . The probability 
+was calculated based on the number of data points for each family type.
+Applying the procedure given in Algorithm 2, the results show a 
+significant effect of the dwelling ’ s age and area on the probability of a 
+particular user type living in it. The model result is given in Table 4 .
+Table 4 shows the F-statistic adjusted R-squared and RMSE for each 
+model, indicating the model ’ s goodness of fit for all four probabilities. 
+The probability of a dwelling of belonging to a certain cluster based on 
+its surface area and age can be summarised in Equation (7). 
+⎡
+⎢
+⎢
+⎣
+prob
+1
+prob
+2
+prob
+3
+prob
+4
+⎤
+⎥
+⎥
+⎦
+=
+⎡
+⎢
+⎢
+⎣
+0 . 289 0 . 692 0 0   0 . 372   0 . 084
+0 . 323   0 . 523 0 . 104 0 0 . 269 0
+0 . 335   0 . 230   0 . 028 0 0 . 127 0
+0 . 033 0 . 039 0 0 . 014 0 . 152 0
+⎤
+⎥
+⎥
+⎦
+×
+⎡
+⎢
+⎢
+⎢
+⎢
+⎢
+⎢
+⎣
+1
+( age / 100 )
+( area / 100 )
+( age × area / 10
+4
+)
+( age
+2
+/ 10
+4
+)
+( area
+2
+/ 10
+4
+)
+⎤
+⎥
+⎥
+⎥
+⎥
+⎥
+⎥
+⎦
+dwelling
++ ∊
+(3) 
+In the case of prob
+1
+, the best-fit model identifies age , ag e
+2
+, and area
+2 
+as 
+significant predictors, each with p-values below 0 . 001. This means that 
+these variables, in a statistically significant way, have a linear effect on 
+the probability studied. Age has a positive coefficient, while the 
+quadratic terms for age and area are negative. Turning to prob
+2
+, the 
+analysis reveals distinct patterns among the predictors. The coefficient 
+for age is negative, reflecting a linear decrease in the outcome with 
+increasing building age. However, the quadratic term for age shows a 
+positive coefficient, suggesting a reversal of this effect at higher values, 
+indicative of a parabolic curve. Similarly, the positive coefficient for 
+area highlights its direct and consistent positive contribution to the 
+outcome.
+For b
+3
+, the predictors also include age , area , and ag e
+2
+. Here, unlike 
+the case for the second cluster, the area exhibits a negative coefficient, 
+implying an inverse effect on the outcome. By contrast, the positive 
+coefficient for age squared suggests a curvilinear relationship, where the 
+negative impact of age diminishes and eventually reverses at higher 
+values. Lastly, the model for prob
+4 
+incorporates age , ag e
+2
+, and the 
+interaction between age and area . Both age and the interaction term 
+have positive coefficients, while age squared also contributes positively, 
+signifying a quadratic effect. This configuration suggests that not only 
+does age have a growing positive influence, but its interaction with area 
+further amplifies this effect. It is possible to see the influence of age of 
+the dwelling on the probablity of its users ’ archetypes in Fig. 6 .
+Table 3 
+User archetypes derived from k-means clustering.
+Studied variables
+cluster Average (standard deviation)
+age
+min
+age
+max
+n
+members
+education
+1 70 . 2 ( 11 . 2 ) 78 . 3 ( 5 . 0 ) 1 . 8 ( 0 . 7 ) 0 . 5 ( 0 . 1 )
+2 21 . 2 ( 7 . 6 ) 57 . 2 ( 8 . 6 ) 3 . 7 ( 0 . 9 ) 0 . 7 ( 0 . 1 )
+3 46 . 0 ( 12 . 8 ) 63 . 0 ( 8 . 0 ) 2 . 3 ( 0 . 8 ) 0 . 5 ( 0 . 1 )
+4 55 . 6 ( 17 . 1 ) 72 . 2 ( 9 . 0 ) 2 . 1 ( 0 . 8 ) 0 . 8 ( 0 . 1 )
+Fig. 5. Proportion of each cluster among households and people.
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+7 
+PAGE 8
+Fig. 7 visualizes the accuracy of this model. The scatter plots 
+compare the predicted probabilities against the calculated proportions 
+for each cluster. Overall, the regression models demonstrate high ac -
+curacy across all clusters, as indicated by the strong alignment of points 
+along the diagonal line in each graph. This alignment is in accordance 
+with the high R-squared values noted in Table 4 .
+In Cluster 1 and Cluster 2 the points show an almost perfect fit along 
+the diagonal, indicating an exceptionally accurate model. The model for 
+Cluster 3 (orange) also performs well, with points closely following the 
+diagonal line, though with slightly more scatter compared to the first 
+two clusters. Finally, Cluster 4 (purple) displays a similar pattern, with 
+points consistently aligning along the diagonal, further demonstrating 
+the reliability of the model for this cluster.
+4.4. Deriving energy use patterns for specific occupant groups
+The clustering algorithm and the feature extraction in the last section 
+helped obtain an approach to the possible classification of the users and 
+the interplay of such classification with the building data. Moving on, 
+one can pose questions on the effectiveness of such classifications in 
+deriving other information, such as behavioral patterns regarding en -
+ergy use inside residential buildings. This section attempts to explain 
+how the proposed classification can help find energy behavior patterns. 
+Firstly, the exploratory analysis of the dataset is initialized by applying 
+ANOVA to the dataset.
+As the data regarding the cooling system is confounded by the fact 
+that there is a non-negligible number of dwellings without a cooling 
+system, in this analysis, a categorical variable called Cooling System Use 
+Table 4 
+Regression results.
+Prob
+1
+Prob
+2
+Prob
+3
+Prob
+4
+coefficient p_value coefficient p_value coefficient p_value coefficient p_value
+intercept 0 . 29 < 0 . 001 0 . 32 < 0 . 001 0 . 34 < 0 . 001 0 . 03 < 0 . 001
+age / 100 0 . 69 < 0 . 001   0 . 52 < 0 . 001   0 . 23 < 0 . 001 0 . 04 < 0 . 001
+area / 100     0 . 10 < 0 . 001   0 . 03 < 0 . 001    
+age
+2
+/ 10
+4
+  0 . 37 < 0 . 001 0 . 27 < 0 . 001 0 . 13 < 0 . 001 0 . 02 < 0 . 001
+area
+2
+/ 10
+4
+  0 . 08 < 0 . 001            
+age × area / 10
+4
+            0 . 01 0 . 001
+F-statistics 648 . 9 571 . 0 282 . 8 219 . 7
+Adjusted 
+R   squared
+0 . 94 0 . 93 0 . 87 0 . 84
+RMSE 0 . 020 0 . 016 0 . 008 0 . 011
+Fig. 6. Probability of each cluster of users as the dwelling ’ s age changes. Points are calculated proportions. Lines are predictions of the regression model; each line 
+represents the dwellings with a different class of the surface area.
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+8 
+PAGE 9
+is generated. This variable accepts two levels; if it is 0, it means there is 
+no cooling system in the dwelling, or no use of such a system is declared. 
+Otherwise, the users can use a cooling system during the warmest 
+months of the year.
+The independent variables considered in this analysis were user 
+cluster, dwelling type, building age, floor area, location, cooling system 
+use, and insulation level. The study was conducted twice, once with the 
+heating system ’ s operating hours and then with the electricity ’ s annual 
+expenses as the response variable.
+ANOVA results shown in Table 5 provide valuable insights into the 
+factors influencing daily on-time heating and electricity annual ex -
+penses. For daily heating, all the tested variables — User Cluster, 
+Dwelling Type, Geographical Location, Insulation Level, Building Age 
+and Floor area — are statistically significant, with p-values below 0.01. It 
+means that the dataset can be viewed as a set of groups that are distinct 
+from each other based on their daily heating. These groups can be 
+distinguished using their respective significant parameters, among 
+which Location stands out as the most influential factor (F = 553.45), 
+emphasizing the impact of geographic or climatic conditions on heating 
+needs. Additionally, Dwelling Type (F = 60.93) and Area of Dwelling (F 
+= 27.98) also show considerable effects, likely reflecting the varying 
+energy demands based on building characteristics and size. For elec -
+tricity annual consumption, most variables, including User Cluster, 
+Dwelling Type, Location, Age of Dwelling, Area of Dwelling, and cooling 
+system use, are significant. However, the Insulation Level does not 
+appear to have a meaningful effect, as its p-value exceeds 0.05 (p =
+0.47). Notably, the Area of Dwelling (F = 741.55) and User Cluster (F =
+501.30) show particularly strong impacts, indicating that household size 
+and building dimensions play a critical role in overall energy con -
+sumption. This means that the dataset can be divided into separate 
+groups based on the significant variables, where each group is statisti -
+cally distinct from the other in consuming electricity.
+Interaction effects reveal further complexities. For daily heating, 
+significant interactions include User Cluster × Dwelling Type, User 
+Cluster × Location, and Dwelling Type × Location, all with p-values 
+below 0.05. These results suggest that the combined influence of these 
+factors varies depending on specific groupings. In contrast, interactions 
+for electricity consumption are less pronounced, with only Dwelling 
+Type × Location showing statistical significance. This indicates that 
+within the confines of the daily heating variables, it is worth analyzing 
+the three variables (User Cluster, Dwelling Type, and Location) together 
+while examining the effects of insulation level separately. For the elec -
+tricity use, the insulation level can be disregarded as it does not impose a 
+significant impact on the response variable.
+Up to this point, the existence of statistically distinct groups of users 
+has been shown. Each of these groups should have a distinct distribution 
+regarding energy consumption, and they shall be identified using the 
+building variables. However, the user cluster variable is worth a sepa -
+rate analysis, while dwelling type and location can be investigated for 
+their combined effects. To do so, the method explained in Algorithm 2 
+was exploited. As a result of this process, the categorical variables are 
+reduced to fewer variables with significant levels. The categorical var -
+iables with a significant effect on the daily heating system on-time: 
+– Seven significant groups depending on Location, User Cluster, and 
+Dwelling type;
+– Two thermal insulation levels (0: no insulation or slight insulation, 1: 
+sufficient or high insulation)
+On the other hand, the categorical variables with a significant effect 
+on annual electrical use are: 
+– Six significant groups depending on location and dwelling type;
+– All four User Clusters have a significant impact
+– Two levels depending on the presence of the Cooling System.
+Table 6 lists the significant groups with an example for each. The 
+names of the groups are ordered based on the average value of the 
+dependent variable (daily heating on-time, or annual electricity con -
+sumption), so, for instance, H1 uses heating system less than H2, while 
+E1 consumes less electricity than E2. Appendix A shows the assignment 
+of users to groups to a set of dwelling and user characteristics.
+Fig. 8 (a) shows the differences resulting from different significant 
+groups of Location, User Cluster, and Dwelling type, together with the 
+influence of insulation in the case of heating. In the case of annual 
+electricity consumption, the effects regarding the selected significant 
+groups and the use of cooling systems are seen in Fig. 8 (b).
+The graphs reveal significant trends in energy consumption and 
+system usage across various building types and user groups in Italy, 
+emphasizing the impact of insulation and cooling systems on energy 
+behaviors. For heating system usage, well-insulated buildings consis -
+tently demonstrate lower daily usage compared to poorly insulated ones. 
+Among the groups, H7, representing single-family homes in north -
+western Italy with poor insulation, shows the highest average daily 
+heating system usage. This indicates that such homes require longer 
+heating hours due to colder climates and higher transmission losses 
+Fig. 7. Alignment Between Predicted and Actual Values Across Clusters.
+Table 5 
+ANOVA results (single variables and interactions).
+Daily on-time 
+heating
+Electricity annual 
+consumption
+F-statistic p-value F-statistic p-value
+Usercluster 11 . 74 < 0 . 01 215 . 36 < 0 . 01
+Dwellingtype 60 . 93 < 0 . 01 5 . 44 < 0 . 01
+Location 553 . 45 < 0 . 01 5 . 98 < 0 . 01
+Insulat ionlevel 10 . 42 < 0 . 01 0 . 43 0 . 92
+Age
+Dwel
+12 . 61 < 0 . 01 62 . 35 < 0 . 01
+Area
+Dwel
+27 . 98 < 0 . 01 241 . 70 < 0 . 01
+CoolingSystemUse 0 . 20 0 . 65 19 . 06 < 0 . 01
+Interactions ​ ​ ​ ​
+Usercluster × Dwellingt ype 2 . 41 < 0 . 01 4 . 12 < 0 . 01
+Usercluster × Locat ion 2 . 18 0 . 02 5 . 11 < 0 . 01
+Usercluster × Insulat ionLevel 1 . 45 0 . 16 0 . 48 0 . 88
+Insulat ionLevel × Locat ion 1 . 09 0 . 36 0 . 95 0 . 49
+Dwellingtype × Locat ion 10 . 02 < 0 . 01 3 . 51 0 . 02
+Dwellingtype × Insulat ionLevel 0 . 77 0 . 67 1 . 43 0 . 16
+Age
+Dwel
+× Area
+Dwel
+0 . 18 0 . 06 0 . 38 0 . 54
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+9 
+PAGE 10
+through the building envelope. On the other hand, Group H1, 
+comprising apartments in smaller buildings in southern Italy, records 
+the lowest usage, because of milder weather conditions and smaller 
+spaces requiring less heating.
+Electricity consumption patterns highlight the substantial influence 
+of cooling systems. Households equipped with cooling systems report 
+significantly higher annual electricity expenses than those without, 
+reflecting the energy-intensive nature of air conditioning. Group E4, 
+representing apartments in taller buildings in southern Italy with active 
+cooling systems, incurs the highest annual electricity consumption. In 
+contrast, Group E1, comprising apartments in medium-sized buildings in 
+northeastern Italy without cooling systems, reports the lowest. These 
+patterns underline the role of cooling systems in driving up electricity 
+consumption, particularly in warmer climates and larger residential 
+setups.
+5. Implications for building simulations
+Although some trends in the results discussed above are obvious, 
+such as the dependence of heating hours on floor area, thermal insu -
+lation and climate, the role of building occupants and their interaction 
+with different buildings located in various climate zones is an open 
+research topic.
+The research gap in this area is mainly due to the complexity of 
+dealing with occupant behavior. This research topic lies at the inter -
+section of several disciplines, such as building physics, behavioral psy -
+chology, and statistics. The latter is particularly relevant because 
+analyzing user behavior must necessarily start from observed empirical 
+data. Furthermore, different users located in countries with different 
+socio-economic, climatic and cultural characteristics must necessarily be 
+considered differently.
+For all these reasons, today’s building energy simulation Standards 
+do not provide the required information to account for the diversity of 
+users. For instance, EN 16798 and ISO 18523 do not provide any 
+quantitative or methodological information to address users’ diversity. 
+These standards rely on fixed values for variables related to occupancy, 
+internal heat gains, and system schedules, assuming a homogeneous 
+distribution in user behavior. The analysis demonstrates that such ap -
+proximations lead to inaccuracies in energy consumption predictions. 
+For instance, Rugani et al. found that heating demand differences based 
+on varying occupancy profiles ranged from 20 % to 40 % for apartments 
+[ 14 ].
+The standards’ reliance on single or narrowly defined values for user 
+behavior parameters is a critical shortcoming. For instance, to reiterate 
+what was discussed in the introduction, EN 16798 recognizes only three 
+residential archetypes (single-family houses, flats resided by elderly 
+people and flats resided by non-elderly people), while ISO 18523 con -
+siders a prototypical household with a standard family consisting of a 
+couple of parents with two young children. These assumptions do not 
+have an empirical basis and may be influenced by gender bias or pre -
+vailing opinions within the standardization committees.
+To address these limitations, this study introduces a statistical 
+method to identify the distinct user archetypes based on demographic 
+information. By incorporating probabilistic models, this approach links 
+these archetypes to specific building characteristics. This connection 
+will make the process of energy simulation in buildings more reliable, as 
+with the building characteristics, it is possible to understand the prob -
+ability of different user types residing in that dwelling. Having linked the 
+building to the user type, in the next phase, different significant groups 
+have been found that show similar behaviors. The integration of user 
+archetypes into building energy simulations provides several 
+advantages: 
+– enhanced accuracy: the proposed approach significantly reduces the 
+prediction errors inherent in current standards by replacing fixed 
+values with archetype-specific probabilities and behavioral patterns.
+– improved representativeness: the clustering process ensures that 
+simulations reflect the diversity of user behavior across different 
+demographic and geographic contexts.
+– policy relevance: probabilistic predictions enable policymakers and 
+designers to target specific user groups with tailored energy effi -
+ciency measures, maximizing the impact of interventions.
+5.1. Assumptions on internal heat gains
+An example can help elaborate on the difference that having multiple 
+archetypes would make in the energy analysis of the buildings. Assume 
+an apartment in a large building in southern Italy. Considering this 
+apartment to be 120 m
+2 
+in area, the available standards provide 
+straightforward methods to calculate the electricity consumption of the 
+dwelling. ISO 18423–2, uses a more detailed approach based on the type 
+of appliances in the household, from which it is possible to compute the 
+consumption for each household. However, this method is not easy to 
+apply to a dwelling without having sufficient knowledge about the user 
+and the appliances, which makes it difficult to utilize it on a larger scale. 
+This standard, however, provides an example of a typical family with 4 
+people, and for this example, it computes the daily appliance con -
+sumption based on the type of days (weekday or holiday), from which it 
+is possible to approximate the yearly value to be 1717 kWh.
+EN 16,798 gives three tables for residential dwellings: one for 
+apartments with retired occupants, one for apartments with generic 
+(non-retired) households, and another for detached houses. For generic 
+households, it assumes 28.3 m
+2 
+per occupant, which translates to 
+approximately four occupants for this apartment. For retired occupants, 
+EN 16798 considers 42.5 m
+2 
+per occupant, that is, 2 occupants for the 
+dwelling in question. The standard, however, takes a rather indifferent 
+approach towards types of occupants when calculating the electricity 
+consumption. Providing values for daily profile change and a one-size- 
+fits-all value for the specific appliance consumption.
+Table 6 
+(a) Significant groups for heating system usage.
+Group 
+name
+Example Average (standard 
+deviation)
+Daily on-time heating (hours)
+H1 User cluster 2 in an apartment in a small 
+building in southern Italy
+4.67 (3.54)
+H2 User cluster 4 in a multi-family house in 
+central Italy
+5.25 (3.77)
+H3 User cluster 3 in a multi-family house in 
+southern Italy
+6.91 (4.43)
+H4 User cluster 4 in an apartment in a medium- 
+sized building in central Italy
+7.53 (4.41)
+H5 User cluster 1 in an apartment in a large 
+building in central Italy
+8.53 (4.00)
+H6 User cluster 2 in an apartment in a medium 
+building in north-eastern Italy
+9.14 (4.17)
+H7 User cluster 2 in an apartment in a medium 
+building in north-eastern Italy
+9.67 (4.28)
+(b) Significant groups for annual electricity consumption
+Group 
+name
+Example Average (standard 
+deviation)
+Electricity annual consumption (kWh)
+E1 User cluster 1 in an apartment in a large 
+building in north-eastern Italy
+1801 (1502)
+E2 User cluster 3 in an apartment in a medium 
+building in north-western Italy
+2023 (1631)
+E3 User cluster 4 in an apartment in a small 
+building in central Italy
+2320 (1502)
+E4 User cluster 3 in a single-family house in 
+central Italy
+2646 (1844)
+E5 User Cluster 2 in a multi-family house in 
+southern Italy
+2895 (1853)
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+10 
+PAGE 11
+Fig. 8. Variation of (a) daily heating system operating hours and (b) annual electricity consumption based on significant groups of dwelling types, geographical 
+location, and user type. *The box plots are drawn without the outliers. The values inside the boxes lie in the second and third quartiles. The line in between shows 
+the median.
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+11 
+PAGE 12
+Regarding appliance electricity use, EN 16798 assumes a constant 
+value of 3 W/m
+2 
+for both retired and non-retired occupants, resulting in 
+360 W for this apartment. The only other option is to use the 2.4 W/m^2 
+for the detached houses. Table 7 provides a comparison of user clusters, 
+yearly consumption, and deviations from the standards.
+However, considering the average value from the electricity group 
+corresponding to the combination of user cluster and dwelling type will 
+result in different values. If this apartment is inhabited by people who 
+can be associated with the first user archetype (cluster 1), it is assumed 
+to have, on average, 1.8 occupants and belongs to electricity group (1)
+(   4.7 % compared to ISO 18523 – 2 and + 4.3 % compared to EN 16798). 
+For user cluster 2, the apartment would have 3.7 occupants and belong 
+to electricity group 5 (   60 % compared to ISO 18523 – 2 and   35.1 % 
+compared to EN 16798). User cluster 3 corresponds to 2.3 occupants and 
+electricity group E2 (   16 % compared to ISO 18523 – 2 and + 55 % 
+compared to EN 16798), while user cluster 4 would involve 2.1 occu -
+pants and electricity group E3 (   26 % compared to ISO 18523 – 2 and +
+35 % compared to EN 16798). Table 7 and Fig. 9 provide a visualization 
+of yearly electricity consumption analysis across different user clusters 
+and standards.
+Our findings highlight that applying a single archetype for all 
+dwellings in a region introduces significant inaccuracies. This work 
+provides results to determine the probability of each user cluster 
+inhabiting a building, given its characteristics, enabling a more tailored 
+analysis. For instance, suppose the occupants of the example apartment 
+align more closely with Archetype 3, characterized by a few middle-aged 
+members with mid-level education. It is plausible to assume that such 
+occupants might work during the day, potentially leading to reduced 
+daytime occupancy, lower use of electrical appliances during working 
+hours, and different heating and cooling patterns compared to the 
+standard “ 4-person family ” profile. Consequently, energy consumption 
+predictions using Archetype 3 would likely diverge from those based on 
+ISO 18523 – 2.
+5.2. Assumptions on heating systems schedule
+Regarding the hours of on-time for the heating systems, in the Italian 
+context, the simulations are normally done taking the values given in 
+DPR 412 [ 49 ] as the working hours. These values are based on the cli -
+matic zones assigned to different geographical regions of the country. 
+These zones are defined based on the value of degree days related to 
+each area. Fig. 10 shows the mentioned climatic zones and their 
+respective daily limit for the heating system working hours.
+A comparison between this figure and the information in Table 6
+demonstrates the issue that arises when assuming the limiting maximum 
+hour as the reference value. Many of the dwellings do not consume as 
+much as the maximum allowable hours. An apartment in northeastern 
+Italy, for instance, in this study, is assigned to one of the significant 
+groups, H4, H5, or H6. Their corresponding average working time for 
+the heating system are 7.53, 8.53, and 9.14 h per day. On the other hand, 
+this apartment can be in climatic zones D, E, or F, which means that its 
+heating system is considered active at least 12 h a day in the effective 
+current simulations. Furthermore, the user type and its effect would be 
+neglected. In contrast, the results of this study show that, for instance, an 
+older couple might keep the heating system on longer than a younger 
+family. A statement that can be justified by the previous studies [51] on 
+the effect of age on the feeling of thermal comfort. Table 8 shows the 
+error in the heating system ’ s assumed number of operating hours based 
+on the climatic zone instead of using the survey data. As seen, the as -
+sumptions based on the standards show high differences for most cases, 
+which can reach up to 114 %.
+Fig. 9. Yearly consumption related to appliances based on standards and the statistical variance of the data for significant groups found in this study.
+Table 7 
+Comparison of user archetype-based electrical consumption assignment and the standards.
+User cluster Number of habitants Electricity Group Group Average Yearly Consumption [kWh] Yearly Consumption [kWh] (Deviation from average)
+ISO 18523 – 2 EN 16,798
+1 1.8 E1 1801 1717 (   4.7 %) 1879 ( + 4.3 %)
+2 3.7 E5 2895 1717 (   60 %) 1879 (   35.1 %)
+3 2.3 E2 2023 1717 (   16 %) 1879 (   7.2 %)
+4 2.1 E3 2320 1717 (   26 %) 1879 (   20 %)
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+12 
+PAGE 13
+6. Conclusions
+This study identified four user archetypes through unsupervised 
+clustering, highlighting the diversity of occupant behavior in the Italian 
+residential sector. The archetypes are characterized by variations in 
+household demographics, including age, family size, and education 
+level. While the dataset used in this study is relatively old at the time this 
+study is conducted, the methodology can be applied to any similar 
+dataset, making it possible to obtain user archetypes and their energy 
+consumption patterns whenever and wherever similar information is 
+available.
+By analyzing building area and age, the study successfully estab -
+lished a probabilistic relationship between dwelling characteristics and 
+the likelihood of specific user archetypes inhabiting them. The proba -
+bilistic feature extraction approach captured nuanced correlations, 
+revealing that larger and older buildings are more likely to house certain 
+users, while smaller and newer buildings correspond to others. This 
+linkage hints at the interplay between physical attributes of dwellings 
+and occupant demographics, offering a predictive tool to enhance the 
+integration of user archetypes into energy simulations.
+While dwelling-related variables such as region, insulation level, and 
+dwelling type were included in the analysis, they did not exhibit sig -
+nificant direct correlations with user archetypes. This finding highlights 
+the limited predictive power of these variables in determining occupant 
+behavior compared to demographic factors like age, and area of the 
+dwelling. However, the study acknowledges the potential of these 
+dwelling characteristics to influence energy-related behaviors when 
+considered in conjunction with user archetypes.
+The combined influence of user archetypes and specific dwelling- 
+related variables, such as dwelling type, insulation level, building 
+area, and building age, significantly affects energy-related behaviors. 
+The analysis identified seven significant groups for heating behavior, 
+shaped by the interaction of location, user archetype, and dwelling type 
+alongside the level of the building ’ s thermal insulation. Similarly, six 
+significant groups were found for electricity consumption, influenced by 
+location, dwelling type, presence of the cooling system, and user 
+archetype.
+This study highlights the importance of integrating user archetypes 
+into building energy simulations to improve prediction accuracy and 
+facilitate targeted energy efficiency strategies. By identifying four 
+distinct archetypes and associating them with both occupant de -
+mographics and dwelling characteristics, the research bridges the gap 
+between behavioral diversity and physical building features.
+In conclusion, this study provides a methodological basis for iden -
+tifying user archetypes that can be embedded into national Standards on 
+building simulations to improve the precision assigning user type and 
+user behavior parameters to buildings. To this purpose, future studies 
+will investigate the impact of user archetypes on the outcome of indi -
+vidual building energy simulations. Moreover, access to the updated 
+ISTAT surveys (that has been repeated for 2021 and 2024 but the results 
+are unavailable at the time of this study) will make it possible to study 
+the temporal evolution of the energy consumption patterns in the Italian 
+residential sector.
+CRediT authorship contribution statement
+Mohamad Hasan Khajedehi: Writing – original draft, Visualization, 
+Software, Methodology, Investigation. Jacopo Vivian: Writing – review 
+& editing, Writing – original draft, Supervision, Investigation, Concep -
+tualization. Angelo Zarrella: Writing – review & editing, Validation, 
+Resources, Project administration.
+Declaration of competing interest
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+Acknowledgements
+This study was funded by the European Union - NextGenerationEU , 
+Mission 4, Component 2, in the framework of the GRINS -Growing 
+Resilient, INclusive and Sustainable project (GRINS PE00000018 – CUP 
+C93C22005270001). The views and opinions expressed are solely those 
+of the authors and do not necessarily reflect those of the European 
+Union, nor can the European Union be held responsible for them.
+Table 8 
+Relative deviation (%) from reference value of heating system operating hours 
+for different user groups.
+Climatic 
+zone
+Number of 
+heating hours 
+(DPR 412/93)
+H1 H2 H3 H4 H5 H6 H7
+A 6 28 14   13   20   30    
+B 8 71 52 16 6   6    
+C 10 114 90 45 33 17 9 3
+D 12       59 41 31 24
+E 14       86 64 53 45
+Fig. 10. The climate zones assigned to Italian municipalities elaborated from 
+App. A of DPR 412 [ 29 ].
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+13 
+PAGE 14
+Appendix A. Assignment of user groups based on building type, location and user archetype.
+Figure A.1. Assignment of user groups based on building type, location and user archetype.
+Data availability
+This paper is based on the analysis of a public dataset available at 
+https://www.istat.it/microdati/indagine-sui-consumi-energetici-delle- 
+famiglie-anno-2013-2/ . The code used for the analysis is available at 
+https://github.com/BETALAB-team/ita-domes/tree/UserArchetypes.
+References
+[1] Groupe d ’ experts intergouvernemental sur l ’ ´evolution du climat, editor. Climate 
+change 2014: mitigation of climate change Working Group III contribution to the 
+fifth assessment report of the Intergovernmental Panel on Climate Change. New 
+York: Cambridge university press; 2014.
+[2] 2019 global status report for buildings and construction. Paris: International 
+Energy Agency : Global Alliance for Buildings and Construction; 2019.
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+14 
+PAGE 15
+[3] H. Yoshino, T. Hong, N. Nord, IEA EBC annex 53: Total energy use in 
+buildings — analysis and evaluation methods, Energ. Build. 152 (2017) 124 – 136, 
+https://doi.org/10.1016/j.enbuild.2017.07.038 .
+[4] Intergovernmental Panel On Climate Change (Ipcc), editor. Climate Change 2022 - 
+Mitigation of Climate Change: Working Group III Contribution to the Sixth 
+Assessment Report of the Intergovernmental Panel on Climate Change. 1st ed. 
+Cambridge University Press; 2023. https://doi.org/10.1017/9781009157926.
+[5] O. Ahmed, N. Sezer, M. Ouf, L. Wang (Leon), I.G. Hassan, State-of-the-art review of 
+occupant behavior modeling and implementation in building performance 
+simulation, Renew. Sustain. Energy Rev. 185 (2023) 113558, https://doi.org/ 
+10.1016/j.rser.2023.113558 .
+[6] Q. Yin, C. Han, A. Li, X. Liu, Y. Liu, A Review of research on building energy 
+consumption prediction models based on artificial neural networks, Sustainability 
+16 (2024) 7805, https://doi.org/10.3390/su16177805 .
+[7] E. Delzendeh, S. Wu, A. Lee, Y. Zhou, The impact of occupants ’ behaviours on 
+building energy analysis: a research review, Renew. Sustain. Energy Rev. 80 (2017) 
+1061 – 1071, https://doi.org/10.1016/j.rser.2017.05.264 .
+[8] D. Yan, W. O ’ Brien, T. Hong, X. Feng, H. Burak Gunay, F. Tahmasebi, et al., 
+Occupant behavior modeling for building performance simulation: current state 
+and future challenges, Energ. Build. 107 (2015) 264 – 278, https://doi.org/ 
+10.1016/j.enbuild.2015.08.032 .
+[9] S. Chen, W. Yang, H. Yoshino, M.D. Levine, K. Newhouse, A. Hinge, Definition of 
+occupant behavior in residential buildings and its application to behavior analysis 
+in case studies, Energ. Buildings 104 (2015) 1 – 13, https://doi.org/10.1016/j. 
+enbuild.2015.06.075 .
+[10] R. Galvin, M. Sunikka-Blank, Quantification of (p)rebound effects in retrofit 
+policies – why does it matter? Energy 95 (2016) 415 – 424, https://doi.org/ 
+10.1016/j.energy.2015.12.034 .
+[11] European Committee for Standardization. EN 16798-1: Energy performance of 
+buildings - Ventilation for buildings. Part 1: Indoor environmental input 
+parameters for design and assessment of energy performance of buildings 
+addressing indoor air quality, thermal environment, lighting and acoustics - 
+Module M1-6. 2019.
+[12] International Organization for Standardization. ISO 18523-1:2016 Energy 
+performance of buildings - Schedule and condition of building, zone and space 
+usage for energy calculation. Part 1: Non-residential buildings. n.d.
+[13] International Organization for Standardization. ISO 18523-2:2018 Energy 
+performance of buildings - Schedule and condition of building, zone and space 
+usage for energy calculation. Part 2: Residential buildings. 2018.
+[14] R. Rugani, M. Picco, G. Salvadori, F. Fantozzi, M. Marengo, A numerical analysis of 
+occupancy profile databases impact on dynamic energy simulation of buildings, 
+Energ. Buildings 310 (2024) 114114, https://doi.org/10.1016/j. 
+enbuild.2024.114114 .
+[15] K. Gram-Hanssen, S. Georg, Energy performance gaps: promises, people, practices, 
+Build. Res. Inf. 46 (2018) 1 – 9, https://doi.org/10.1080/09613218.2017.1356127 .
+[16] P. De Wilde, The gap between predicted and measured energy performance of 
+buildings: a framework for investigation, Autom. Constr. 41 (2014) 40 – 49, https:// 
+doi.org/10.1016/j.autcon.2014.02.009 .
+[17] H. Rau, P. Moran, R. Manton, J. Goggins, Changing energy cultures? Household 
+energy use before and after a building energy efficiency retrofit, Sustain. Cities Soc. 
+54 (2020) 101983, https://doi.org/10.1016/j.scs.2019.101983 .
+[18] E. Prataviera, J. Vivian, G. Lombardo, A. Zarrella, Evaluation of the impact of input 
+uncertainty on urban building energy simulations using uncertainty and sensitivity 
+analysis, Appl. Energy 311 (2022) 118691, https://doi.org/10.1016/j. 
+apenergy.2022.118691 .
+[19] Q. Du, X. Han, Y. Li, Z. Li, B. Xia, X. Guo, The energy rebound effect of residential 
+buildings: evidence from urban and rural areas in China, Energy Policy 153 (2021) 
+112235, https://doi.org/10.1016/j.enpol.2021.112235 .
+[20] M. Jia, R. Srinivasan, R. Ries, G. Bharathy, N. Weyer, Investigating the impact of 
+actual and modeled occupant behavior information input to building performance 
+simulation, Buildings 11 (2021) 32, https://doi.org/10.3390/buildings11010032 .
+[21] J. Vivian, L. Carnieletto, M. Cover, M. De Carli, At the roots of the energy 
+performance gap: analysis of monitored indoor air before and after building 
+retrofits, Build. Environ. 246 (2023) 110914, https://doi.org/10.1016/j. 
+buildenv.2023.110914 .
+[22] R. Galvin, M. Sunikka-Blank, Ten questions concerning sustainable domestic 
+thermal retrofit policy research, Build. Environ. 118 (2017) 377 – 388, https://doi. 
+org/10.1016/j.buildenv.2017.03.007 .
+[23] K. Chen, A. Ghahramani, ComfortGPT: a transformer-based architecture for 
+predicting preferred temperature setpoints leveraging big data, Build. Environ. 248 
+(2024) 111085, https://doi.org/10.1016/j.buildenv.2023.111085 .
+[24] C. Van Dronkelaar, M. Dowson, C. Spataru, D. Mumovic, A review of the regulatory 
+energy performance gap and its underlying causes in non-domestic buildings, 
+Front. Mech. Eng. 1 (2016), https://doi.org/10.3389/fmech.2015.00017 .
+[25] F. Tahmasebi, S. Mostofi, A. Mahdavi, Exploring the implications of different 
+occupancy modelling approaches for building performance simulation results, 
+Energy Procedia 78 (2015) 567 – 572, https://doi.org/10.1016/j. 
+egypro.2015.11.737 .
+[26] Clevenger CM, Haymaker J. The impact of the building occupant on energy 
+modeling simulations, Montreal, Canada: 2006.
+[27] J. Vivian, U. Chiodarelli, G. Emmi, A. Zarrella, A sensitivity analysis on the heating 
+and cooling energy flexibility of residential buildings, Sustain. Cities Soc. 52 
+(2020) 101815, https://doi.org/10.1016/j.scs.2019.101815 .
+[28] W. Zhang, J. Wu, J. Liu, A novel building flexibility potential assessment method 
+based on hybrid CNN-GRU-CALDA framework considering consumer psychology, 
+Sustain. Cities Soc. 104 (2024) 105298, https://doi.org/10.1016/j. 
+scs.2024.105298 .
+[29] G.M. Huebner, A. Mahdavi, A structured open data collection on occupant 
+behaviour in buildings, Sci. Data 6 (2019) 292, https://doi.org/10.1038/s41597- 
+019-0276-2 .
+[30] A. Doma, M.M. Ouf, F. Amara, N. Morovat, A.K. Athienitis, Occupancy-informed 
+predictive control strategies for enhancing the energy flexibility of grid-interactive 
+buildings, Energ. Buildings 332 (2025) 115388, https://doi.org/10.1016/j. 
+enbuild.2025.115388 .
+[31] A.S. Fathi, W. O ’ Brien, Considering diverse occupant profiles in building design 
+decisions, Build. Environ. 263 (2024) 111857, https://doi.org/10.1016/j. 
+buildenv.2024.111857 .
+[32] B. Dong, Y. Liu, W. Mu, Z. Jiang, P. Pandey, T. Hong, et al., A global building 
+occupant behavior database, Sci. Data 9 (2022) 369, https://doi.org/10.1038/ 
+s41597-022-01475-3 .
+[33] G. Puglisi, F. Zanghirella, P. Ungaro, G. Cammarata, A methodology for the 
+generation of energy consumption profiles in the residential sector, IJHT 34 (2016) 
+491 – 497, https://doi.org/10.18280/ijht.340320 .
+[34] G. Besagni, M. Borgarello, L. Premoli Vil `a, B. Najafi, F. Rinaldi, MOIRAE – bottom- 
+up MOdel to compute the energy consumption of the Italian REsidential sector: 
+model design, validation and evaluation of electrification pathways, Energy 211 
+(2020) 118674, https://doi.org/10.1016/j.energy.2020.118674 .
+[35] L. Croci, S. Viani, E. Prataviera, A. Zarrella, Applicativo per la valutazione dei 
+consumi energetici degli edifici residenziali italiani, Ricerca Sistema Energetico 
+(RSE) (2021) .
+[36] E. Prataviera, J. Vivian, F. Gaudino, A. Zarrella, Analysis of energy consumption 
+scenarios of the Italian residential building stock. Prof. of the 6th IBPSA-Italy 
+conference, Bozen-Bolzano (Italy) (2024) .
+[37] S. Ferrari, F. Zagarella, P. Caputo, M. Bonomolo, Internal heat loads profiles for 
+buildings ’ energy modelling: comparison of different standards, Sustain. Cities Soc. 
+89 (2023) 104306, https://doi.org/10.1016/j.scs.2022.104306 .
+[38] ISTAT. Indagine sui consumi energetici delle famiglie 2017.
+[39] Daniela P. GENESEES V. 3.0 Funzione Riponderazione - Manuale utente e aspetti 
+metodologici. ISTAT; 2005.
+[40] I.T. Jolliffe, Principal Component Analysis, 2nd ed., Springer, New York, New 
+York, NY, 2002 .
+[41] T. Hastie, R. Tibshirani, J.H. Friedman, The elements of statistical learning: data 
+mining, inference, and prediction, Second edition, Springer, New York, NY, 2017 .
+[42] K.P. Murphy, Machine Learning - A Probabilistic Perspective, MIT Press, 
+Cambridge, 2014 .
+[43] Breakthroughs in statistics. 2: Methodology and distribution, New York Berlin 
+Heidelberg: Springer; 1993.
+[44] United Nations Development Programme (UNDP). Technical Notes – Human 
+Development Report 2023-24. New York, USA: United Nations Development 
+Programme (UNDP); n.d.
+[45] Dasgupta S. Lambda Criterion, Wilks ’ . In: Armitage P, Colton T, editors. 
+Encyclopedia of Biostatistics. 1st ed., Wiley; 2005. https://doi.org/10.1002/ 
+0470011815.b2a13034.
+[46] B.G. Tabachnick, L.S. Fidell, J.B. Ullman, Using multivariate statistics, Seventh 
+edition, Pearson, NY, NY, 2019 .
+[47] Gorodetsky V, Samoylov V. Feature Extraction for Machine Learning: 
+Logic – Probabilistic Approach, n.d.
+[48] J.W. Tukey, Exploratory data analysis, Addison-Wesley Pub. Co, Reading, Mass, 
+1977 .
+[49] Presidenza della Repubblica Italiana. DPR 26 agosto 1993, n. 412. 1993.
+M.H. Khajedehi et al.                                                                                                                                                                                                                          Energy & Buildings 344 (2025) 115924 
+15 

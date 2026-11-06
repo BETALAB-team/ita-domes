@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-20",
+  "decision": "Open for a truthful incomplete first English prose manuscript.",
+  "decision_owner": "/root orchestrator, following saved independent Astra final closure",
+  "complete_cycles": 4,
+  "claim_count": 41,
+  "scope": "Bounded v5 deterministic model contrasts; one assumed dwelling and one respondent, three placements, four coordinate TMYs.",
+  "remaining_scientific_gaps": [
+    "Independent matched whole-building benchmark",
+    "Compatible independent meter validation",
+    "Physical-input characterization and uncertainty ensemble",
+    "Quantified sky/solar-time/season sensitivity",
+    "Established broader novelty or population inference"
+  ],
+  "administrative_dependencies": "Final registry and current canonical status refresh completed before dispatch.",
+  "hashes": {
+    "06_claim_drafts/article_claims_final.md": "8a641ab68bd80fb96aad3016f3deea37ba0dbd4ab50ce9d984d8b59cfe50da7e",
+    "06_claim_drafts/final_acceptance.md": "fe5ab45a2babaed68a15658be9626fedf485a0abe86f34a70316b358eadb8bca",
+    "06_claim_drafts/claim_ledger_v04.json": "ef15c02777b3b15b3fb5eab253e658fea9ea76c9ba664084f81ab411442e84c2",
+    "07_reviews/final_closure.md": "0853158f1092e462a8c753b2cf55a7e87bb3876f2c2565f9caf8a368088618e6",
+    "07_reviews/issue_register_final.json": "39b7973e54d63187ad53e8bdb65ab16f5a0450f58752caa4259239ef366765be",
+    "02_evidence/local_sources.json": "5aff4571db2dabd430ecfe65f3be71f1ed899ddac0c66a10190118a31fc8dd7f",
+    "02_evidence/local_registry_audit_v04.md": "27ac99d86e4192e696f07f6609a758d102d0d4e70d44252770255749200f6d21",
+    "01_plan/canonical_status_closure_update.json": "fc8c835a13b31987a709aa9e9056a686aba6b9fec4193f78b85f843689691c98"
+  },
+  "not_authorized": [
+    "Submission",
+    "Publication",
+    "External contact",
+    "New unsupported scientific claims",
+    "Generative images"
+  ]
+}

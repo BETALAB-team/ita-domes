@@ -1,0 +1,46 @@
+[
+  {
+    "Name": "bibliography.bib",
+    "SnapshotIntact": true
+  },
+  {
+    "Name": "build_evidence.py",
+    "SnapshotIntact": true
+  },
+  {
+    "Name": "claim_records.json",
+    "SnapshotIntact": true
+  },
+  {
+    "Name": "critical_synthesis_outline.md",
+    "SnapshotIntact": true
+  },
+  {
+    "Name": "literature_claim_ledger.json",
+    "SnapshotIntact": true
+  },
+  {
+    "Name": "nearest_work_matrix.md",
+    "SnapshotIntact": true
+  },
+  {
+    "Name": "new_source_records.json",
+    "SnapshotIntact": true
+  },
+  {
+    "Name": "proposed_literature_claims.md",
+    "SnapshotIntact": true
+  },
+  {
+    "Name": "search_log.md",
+    "SnapshotIntact": true
+  },
+  {
+    "Name": "source_ledger.md",
+    "SnapshotIntact": true
+  },
+  {
+    "Name": "sources.json",
+    "SnapshotIntact": true
+  }
+]

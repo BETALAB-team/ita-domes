@@ -1,0 +1,105 @@
+[
+  {
+    "archetype": 1,
+    "n_windows": 21,
+    "RMSE": 0.055165589036525714,
+    "terms": [
+      "intercept",
+      "age/100",
+      "age^2/10000"
+    ],
+    "removed": [
+      {
+        "term": "age*area/10000",
+        "p": 0.5021944100430855
+      },
+      {
+        "term": "area^2/10000",
+        "p": 0.15948849577184548
+      },
+      {
+        "term": "area/100",
+        "p": 0.07034121335762197
+      }
+    ],
+    "qualification": "OLS on official survey-weighted window ratios; separate sensitivity not original unweighted estimand"
+  },
+  {
+    "archetype": 2,
+    "n_windows": 21,
+    "RMSE": 0.047016291972855145,
+    "terms": [
+      "intercept",
+      "age/100",
+      "area/100",
+      "age^2/10000"
+    ],
+    "removed": [
+      {
+        "term": "area^2/10000",
+        "p": 0.5067291400804332
+      },
+      {
+        "term": "age*area/10000",
+        "p": 0.12186244814402705
+      }
+    ],
+    "qualification": "OLS on official survey-weighted window ratios; separate sensitivity not original unweighted estimand"
+  },
+  {
+    "archetype": 3,
+    "n_windows": 21,
+    "RMSE": 0.07205574837021313,
+    "terms": [
+      "intercept",
+      "age/100",
+      "area/100"
+    ],
+    "removed": [
+      {
+        "term": "age*area/10000",
+        "p": 0.7461170871647269
+      },
+      {
+        "term": "area^2/10000",
+        "p": 0.7093403534559304
+      },
+      {
+        "term": "age^2/10000",
+        "p": 0.17205075169725578
+      }
+    ],
+    "qualification": "OLS on official survey-weighted window ratios; separate sensitivity not original unweighted estimand"
+  },
+  {
+    "archetype": 4,
+    "n_windows": 21,
+    "RMSE": 0.08127016720850327,
+    "terms": [
+      "intercept"
+    ],
+    "removed": [
+      {
+        "term": "age*area/10000",
+        "p": 0.4055719396134664
+      },
+      {
+        "term": "area/100",
+        "p": 0.39715128363154173
+      },
+      {
+        "term": "area^2/10000",
+        "p": 0.23725336870190794
+      },
+      {
+        "term": "age^2/10000",
+        "p": 0.1361095060191752
+      },
+      {
+        "term": "age/100",
+        "p": 0.6598129045979229
+      }
+    ],
+    "qualification": "OLS on official survey-weighted window ratios; separate sensitivity not original unweighted estimand"
+  }
+]

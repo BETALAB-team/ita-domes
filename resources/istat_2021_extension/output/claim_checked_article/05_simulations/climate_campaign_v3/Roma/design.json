@@ -1,0 +1,66 @@
+{
+  "site": "Roma",
+  "protocol": "03_methods/simulation_protocol_v2_addendum.md",
+  "response": {
+    "id": 3523.0,
+    "reg": 5.0,
+    "q_3_11A": 4.0,
+    "q_3_11B": 4.0,
+    "q_3_11C": 1.0,
+    "q_3_13_2": 1.0,
+    "q_3_13_3": 0.0,
+    "q_3_19_6": 0.0,
+    "q_3_0": 2.0,
+    "q_2_32C": 0.0,
+    "q_2_32D": 0.0,
+    "Fascia_clima": "E"
+  },
+  "building": {
+    "width_m": 10,
+    "depth_m": 8,
+    "height_m": 3,
+    "floor_m2": 80,
+    "volume_m3": 240,
+    "U_wall": 1.0,
+    "U_roof": 0.8,
+    "U_floor": 0.8,
+    "U_window": 2.8,
+    "g_window": 0.65,
+    "wwr": 0.2,
+    "frame_factor": 0.15,
+    "weight_class": "Heavy",
+    "internal_mass_area_m2": [
+      400,
+      160
+    ],
+    "gain_W": 240,
+    "infiltration_ACH": 0.3
+  },
+  "cases": [
+    [
+      "seeded",
+      168
+    ],
+    [
+      "early",
+      168
+    ],
+    [
+      "late",
+      168
+    ],
+    [
+      "repeat_seeded",
+      168
+    ],
+    [
+      "warmup_seeded",
+      336
+    ]
+  ],
+  "cooling_upper_C": 50,
+  "calendar": "2023 nonleap fixed UTC+1 no DST",
+  "energy_boundary": "ideal sensible heating thermal demand, no system/final energy",
+  "correction": "single old-state solve and one physical-state commit; sensible-only local adapter",
+  "correction_protocol": "03_methods/correction_protocol_v3.md"
+}

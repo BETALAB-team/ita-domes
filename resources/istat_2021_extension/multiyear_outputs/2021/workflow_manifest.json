@@ -1,0 +1,113 @@
+{
+  "survey_year": 2021,
+  "source_crosswalk": {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\legenda_istat-old.xlsx",
+    "sha256": "12161efd914e87913d6dd1221e165dfec38a1dda6e856bace9462cca85eac1a2"
+  },
+  "outputs": {
+    "baseline\\archetype_model.json": {
+      "sha256": "8ea0adfda12bf62242eb916d5cb859a4d168ed47253dd4501a9f30dd82592cf7",
+      "bytes": 2288
+    },
+    "baseline\\archetype_summary.csv": {
+      "sha256": "e7bcd5bd3f42f6b0eb57e85471f676f42f0505d2d3bd1349ec0fc8e122e3d4cd",
+      "bytes": 1943
+    },
+    "baseline\\household_archetypes.csv": {
+      "sha256": "13123ffa363ab7c9d5637cecd77ab2395925cff135497b5eb245e3917a43bee6",
+      "bytes": 4486041
+    },
+    "baseline\\preprocessing_exclusions.csv": {
+      "sha256": "b987af8961f25d2f016c12a1c25d621082e198cff987ef361b8a9d894a7233c6",
+      "bytes": 25152
+    },
+    "baseline\\validation_report.json": {
+      "sha256": "5a59c98fffb855dbc9248319d6aad76fc2f546034645e40b7966f50d06ae2d9e",
+      "bytes": 14333
+    },
+    "figures\\archetype_population_shares.png": {
+      "sha256": "0d5d7e7019575323749bf707a0f05e94b29de7dbbf1cd280553c69a4eea25efa",
+      "bytes": 50947
+    },
+    "figures\\archetype_population_shares.svg": {
+      "sha256": "eb1d72e05604a76ed8665b444f07e1d31f072bb22911d394740133140be713f1",
+      "bytes": 12553
+    },
+    "figures\\clustering_elbow.png": {
+      "sha256": "db3c6803233ddc7b22074701d841dd96dbcf9878eea747134a91f321abca0977",
+      "bytes": 54303
+    },
+    "figures\\clustering_elbow.svg": {
+      "sha256": "d050e77a5cd8fbe81d47ba8a69e0c3884679bf656f62dcbfa359e3c34aa7e045",
+      "bytes": 15465
+    },
+    "figures\\dwelling_probability_profiles.png": {
+      "sha256": "2925227fea7f39f168542ef6e60b5ffc811df771ac8b7243c9a22d9e33264917",
+      "bytes": 219638
+    },
+    "figures\\dwelling_probability_profiles.svg": {
+      "sha256": "dccaadac3a5e7f8b42e0b256c34bf89a4ca66bd541bfd9a70d6f23c0f4dad9bc",
+      "bytes": 102993
+    },
+    "figures\\pca_explained_variance.png": {
+      "sha256": "aa035321bcca61a467a53a7a4c11d69ab17eadfc857e1326ea2d2e62df0b5367",
+      "bytes": 65594
+    },
+    "figures\\pca_explained_variance.svg": {
+      "sha256": "05505780d02b29c58a4ff1bdab74da1409c5eca46832aa508eefd11938b85b9c",
+      "bytes": 21267
+    },
+    "figures\\probability_model_validation.png": {
+      "sha256": "7136afaeb93e82e1695a80b29dd665469bf57db8cb5f16355b56c4accf2a21ca",
+      "bytes": 103811
+    },
+    "figures\\probability_model_validation.svg": {
+      "sha256": "88bd9bc0dcab4c9612dfb0c306f5bd5cb4ab30293a8e5b42d2e0223b8d408c3b",
+      "bytes": 57343
+    },
+    "figures\\regional_cluster_centroids.png": {
+      "sha256": "c81cedfdd318b8a8396a6a7b5420d544293a6fc4625bd181d6e1c8ee0a758d89",
+      "bytes": 216263
+    },
+    "figures\\regional_cluster_centroids.svg": {
+      "sha256": "463f4cc48bd09aebd71bed87f0e2c3087f1d798d5d88e13fc31c093c398ac034",
+      "bytes": 72485
+    },
+    "figures\\study_process_flow.png": {
+      "sha256": "323e7f76ce1425d45d44eee6382918e916c7a104b093b7b25c4619e3c7002f58",
+      "bytes": 80486
+    },
+    "figures\\study_process_flow.svg": {
+      "sha256": "59867b900a4438c68837973186f348495f4ba58e3fe92257eb9adf6f28991b36",
+      "bytes": 10135
+    },
+    "harmonization_report.json": {
+      "sha256": "d17eb795e1a0ef05be95ddaa058af3303fd0d2bd857af6952b7f6f23b081aa76",
+      "bytes": 2276
+    },
+    "harmonized_istat.csv": {
+      "sha256": "905a87d84ce859e36bcd0d4c0b7fefc47e7875adab8f62f85316f644b331ec40",
+      "bytes": 3839583
+    },
+    "pfe\\dwelling_archetype_probabilities.csv": {
+      "sha256": "54856af780606775be20c04d1c7c6e8f2cc1965ba359c37a59781d078df27d97",
+      "bytes": 6684
+    },
+    "pfe\\pfe_model.json": {
+      "sha256": "7168df762d49e87af697dff1e770755b7a4fb10ed63e3fb581885eb292fa371b",
+      "bytes": 1704
+    },
+    "pfe\\unsupported_windows.csv": {
+      "sha256": "889036aadb3bdc349786a2a2b5ceb258e738e8b600d01f033b2d01edd69caa8f",
+      "bytes": 107
+    },
+    "pfe\\validation_report.json": {
+      "sha256": "ce783e06d1306613aab1ec04d56456b6712e83d07b7c6261b2fa4ade318a51ac",
+      "bytes": 2391
+    },
+    "validation_report.json": {
+      "sha256": "d3fad9618865592f9d2cb7a437e08410a451aa30eeb8f4bd4ade514b188ce9c7",
+      "bytes": 22723
+    }
+  }
+}

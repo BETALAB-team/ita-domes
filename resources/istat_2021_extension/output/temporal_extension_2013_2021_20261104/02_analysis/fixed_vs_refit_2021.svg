@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="44" font-family="Arial" font-size="24">2021 fixed transfer versus exploratory aligned refit</text>
+<path d="M70 510 H1050" stroke="#ddd"/>
+<text x="30" y="515" font-family="Arial" font-size="15">0</text>
+<path d="M70 450 H1050" stroke="#ddd"/>
+<text x="30" y="455" font-family="Arial" font-size="15">10</text>
+<path d="M70 390 H1050" stroke="#ddd"/>
+<text x="30" y="395" font-family="Arial" font-size="15">20</text>
+<path d="M70 330 H1050" stroke="#ddd"/>
+<text x="30" y="335" font-family="Arial" font-size="15">30</text>
+<path d="M70 270 H1050" stroke="#ddd"/>
+<text x="30" y="275" font-family="Arial" font-size="15">40</text>
+<path d="M70 210 H1050" stroke="#ddd"/>
+<text x="30" y="215" font-family="Arial" font-size="15">50</text>
+<path d="M70 150 H1050" stroke="#ddd"/>
+<text x="30" y="155" font-family="Arial" font-size="15">60</text>
+<text x="80" y="81" font-family="Arial" font-size="16">Frozen transfer proxy</text>
+<rect x="120" y="344.3315508021391" width="48" height="165.66844919786092" fill="#3c6382"/>
+<text x="120" y="336.3315508021391" font-family="Arial" font-size="15">27.6</text>
+<rect x="355" y="306.47058823529414" width="48" height="203.52941176470586" fill="#3c6382"/>
+<text x="355" y="298.47058823529414" font-family="Arial" font-size="15">33.9</text>
+<rect x="590" y="345.4812834224599" width="48" height="164.5187165775401" fill="#3c6382"/>
+<text x="590" y="337.4812834224599" font-family="Arial" font-size="15">27.4</text>
+<rect x="825" y="443.716577540107" width="48" height="66.28342245989302" fill="#3c6382"/>
+<text x="825" y="435.716577540107" font-family="Arial" font-size="15">11.0</text>
+<text x="410" y="81" font-family="Arial" font-size="16">2021 K4 aligned refit</text>
+<rect x="175" y="320.1737967914438" width="48" height="189.8262032085562" fill="#e58e26"/>
+<text x="175" y="312.1737967914438" font-family="Arial" font-size="15">31.6</text>
+<rect x="410" y="358.8770053475936" width="48" height="151.12299465240642" fill="#e58e26"/>
+<text x="410" y="350.8770053475936" font-family="Arial" font-size="15">25.2</text>
+<rect x="645" y="349.9331550802139" width="48" height="160.0668449197861" fill="#e58e26"/>
+<text x="645" y="341.9331550802139" font-family="Arial" font-size="15">26.7</text>
+<rect x="880" y="411.01604278074865" width="48" height="98.98395721925135" fill="#e58e26"/>
+<text x="880" y="403.01604278074865" font-family="Arial" font-size="15">16.5</text>
+<text x="130" y="550" font-family="Arial" font-size="20">A1</text>
+<text x="365" y="550" font-family="Arial" font-size="20">A2</text>
+<text x="600" y="550" font-family="Arial" font-size="20">A3</text>
+<text x="835" y="550" font-family="Arial" font-size="20">A4</text>
+<text x="70" y="597" font-family="Arial" font-size="17">Household share (%) - proxy labels; cross-sectional samples</text>
+</svg>

@@ -1,0 +1,46 @@
+[
+  {
+    "Path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\bibliography.bib",
+    "Hash": "F0BD4A97B289BED1A54792BFA7EEE4E32F214F3DE0DF139A728E8075F643EAA2"
+  },
+  {
+    "Path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\build_evidence.py",
+    "Hash": "E4935CCEE709F18FB82BE0078371CEA55AE6096CAF001FE7CF3478D1F8775D2D"
+  },
+  {
+    "Path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\claim_records.json",
+    "Hash": "06030BF5DA1BE6E6FCF4A291A9A2D37C2D1BC40303E5F1F61DA2A43158234691"
+  },
+  {
+    "Path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\critical_synthesis_outline.md",
+    "Hash": "E96A7045F21E360CF652AFFDDE2FB9BF79C035E541ACC54E90446DBCA7B95722"
+  },
+  {
+    "Path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\literature_claim_ledger.json",
+    "Hash": "8519F7DAD94A03253C52EC24C91477067927FA4033B290733D435788409456FF"
+  },
+  {
+    "Path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\nearest_work_matrix.md",
+    "Hash": "0DDD035A0D70A61F665C29320686DE078921D743AB7366E2C85E15AD80052375"
+  },
+  {
+    "Path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\new_source_records.json",
+    "Hash": "94F95741D7F053EF4C7A3A86F4F9699B4D359CB09872E9235C6F902BE7BA14EF"
+  },
+  {
+    "Path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\proposed_literature_claims.md",
+    "Hash": "A6E18F8A32C2E689933B6D8002D73110CAC11A6A61A7562848030E152626B1DA"
+  },
+  {
+    "Path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\search_log.md",
+    "Hash": "BCB4A94D5FAF3F0B292A6EE2F72751277B4336C8773F8A6E58ED56D4FC36070F"
+  },
+  {
+    "Path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\source_ledger.md",
+    "Hash": "16F983AB6D8FEF04EA733DBDBAC1DF844E4B71D50DB4462267161EDEB785D70C"
+  },
+  {
+    "Path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\02_evidence\\archetype_extension\\sources.json",
+    "Hash": "C1AC07631084F6C008304A77A2D6C987CA442ADC5AEB1ADA631CBFD375B3DB2F"
+  }
+]

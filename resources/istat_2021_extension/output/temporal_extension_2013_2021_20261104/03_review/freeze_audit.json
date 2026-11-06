@@ -1,0 +1,20 @@
+{
+  "verified_analysis_files": 40,
+  "analysis_manifest_sha256": "9c07801451d6c6d5d29bc238a2a2ef82348e58ee51fbbeb9a6cdb8712470f185",
+  "cooling_inventory_year_affirmative_explicit_negative_unknown_weighted_affirmative": [
+    [
+      2013,
+      5382,
+      0,
+      14306,
+      29.431048757064016
+    ],
+    [
+      2021,
+      24498,
+      29022,
+      0,
+      48.847807153704174
+    ]
+  ]
+}

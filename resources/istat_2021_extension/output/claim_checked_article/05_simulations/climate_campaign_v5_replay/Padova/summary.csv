@@ -1,0 +1,2 @@
+case,warmup_h,annual_sensible_heating_kWh,peak_sensible_heating_kW,annual_sensible_cooling_kWh,minimum_air_C,maximum_air_C,active_heating_max_setpoint_error_K,runtime_seconds,rows,finite,hourly_sha256
+seeded,168,9574.018167900284,10.049540394516585,-0.0,15.353184348070595,41.0461137293173,0.0,2.2669548999983817,8760,True,02545e6feffb6e95c0951aec6a584a199dcf890a52d188feefa8023a823a5b76

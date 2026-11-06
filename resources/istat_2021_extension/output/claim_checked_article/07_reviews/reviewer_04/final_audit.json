@@ -1,0 +1,156 @@
+{
+  "hashes": {
+    "06_claim_drafts/article_claims_v04.md": "8a641ab68bd80fb96aad3016f3deea37ba0dbd4ab50ce9d984d8b59cfe50da7e",
+    "06_claim_drafts/claim_ledger_v04.json": "ef15c02777b3b15b3fb5eab253e658fea9ea76c9ba664084f81ab411442e84c2",
+    "06_claim_drafts/claim_evidence_ledger.json": "185e2754310882afeb3d845847306aa2fe0ae152850c9ec1ed01883437cb3760",
+    "07_reviews/response_04.md": "d0c27ab5d2d39eaaf1689eaabc96e85a94664b77b8dd27c74e2f2da567942e9b",
+    "07_reviews/issue_register_04.json": "77d956d016606ea0bba7501b3531f917efbb3ead93c2d0b9cffb77d81529055b",
+    "07_reviews/review_04.md": "ce16dcca6b71bd1da3e5ce0c47ba44001628d66ed8535833da3d3c4fa549b687",
+    "07_reviews/prior_issue_closure_after_review04.md": "520db4c06282f26fc550de43d7896c4e47456d8b27a32b5aa65a07a55d0cdc43"
+  },
+  "count": 41,
+  "same_ids": true,
+  "exact_claims_match_markdown": true,
+  "enums": {
+    "kind": [
+      "gap",
+      "interpretation",
+      "limitation",
+      "literature",
+      "method",
+      "novelty",
+      "result"
+    ],
+    "evidence_class": [
+      "derived estimate",
+      "hypothesis",
+      "planned test",
+      "published finding",
+      "simulation output",
+      "survey response"
+    ],
+    "status": [
+      "partially supported",
+      "supported",
+      "unverified"
+    ]
+  },
+  "unresolved_aliases": [],
+  "changed_fields": {
+    "DAT-002": [
+      "counterevidence_alternative_explanation",
+      "dependencies_next_action_owner"
+    ],
+    "MET-002": [
+      "source_ids",
+      "locators",
+      "outputs",
+      "dependencies_next_action_owner",
+      "permitted_manuscript_wording"
+    ],
+    "MET-003": [
+      "source_ids",
+      "locators",
+      "outputs",
+      "assumptions_and_uncertainty",
+      "counterevidence_alternative_explanation",
+      "dependencies_next_action_owner",
+      "permitted_manuscript_wording"
+    ],
+    "MET-004": [
+      "source_ids",
+      "locators",
+      "outputs",
+      "assumptions_and_uncertainty",
+      "dependencies_next_action_owner",
+      "permitted_manuscript_wording"
+    ],
+    "MET-005": [
+      "exact_claim",
+      "source_ids",
+      "locators",
+      "assumptions_and_uncertainty",
+      "permitted_manuscript_wording"
+    ],
+    "RES-004": [
+      "dependencies_next_action_owner",
+      "permitted_manuscript_wording"
+    ],
+    "RES-005": [
+      "dependencies_next_action_owner",
+      "permitted_manuscript_wording"
+    ],
+    "INT-001": [
+      "population_geography_period_comparator_units",
+      "falsification_or_weakening",
+      "dependencies_next_action_owner",
+      "permitted_manuscript_wording"
+    ],
+    "RES-006": [
+      "dependencies_next_action_owner",
+      "permitted_manuscript_wording"
+    ],
+    "RES-007": [
+      "dependencies_next_action_owner",
+      "permitted_manuscript_wording"
+    ],
+    "MET-009": [
+      "locators",
+      "dependencies_next_action_owner"
+    ],
+    "MET-010": [
+      "population_geography_period_comparator_units"
+    ],
+    "RES-008": [
+      "dependencies_next_action_owner",
+      "permitted_manuscript_wording"
+    ]
+  },
+  "changed_exact_claims": {
+    "MET-005": {
+      "before": "The v5 20-case campaign passed direct transition, source-profile, repeat/warm-up and complete air/surface/mass state checks: all 175,200 exported hours have exact old-state continuity and no residual above 1e-6 W; independent maximum absolute node residual is 1.768×10⁻¹⁰ W. These tests verify this bounded numerical implementation, not measured accuracy.",
+      "after": "The v5 20-case campaign passed direct transition, source-profile, repeat/warm-up and complete air/surface/mass state checks: all 175,200 exported hours have exact old-state continuity and no residual above 1e-6 W; separate independent summation orders find maxima below 3×10⁻¹⁰ W. These tests verify this bounded numerical implementation, not measured accuracy."
+    }
+  },
+  "current_index_correct": true,
+  "result_numbers_same": {
+    "RES-001": true,
+    "RES-002": true,
+    "RES-003": true,
+    "RES-004": true,
+    "RES-005": true,
+    "RES-006": true,
+    "RES-007": true,
+    "RES-008": true
+  },
+  "cycles": [
+    {
+      "round": 1,
+      "all_files_exist": true,
+      "draft_before": "f2df38afd47db701eba7edf7304a7bd7e9da158d65e7bebd3acace32ecfc0089",
+      "draft_after": "5e35bc02e77d6345a9c82be51a8a405d5d4ba3e8490f6c24d037b8488a04bab1",
+      "different_revision": true
+    },
+    {
+      "round": 2,
+      "all_files_exist": true,
+      "draft_before": "5e35bc02e77d6345a9c82be51a8a405d5d4ba3e8490f6c24d037b8488a04bab1",
+      "draft_after": "91373b60fe5f574057f2e2fdfc597cf9e373c090ae4d2aba4757682b183c0045",
+      "different_revision": true
+    },
+    {
+      "round": 3,
+      "all_files_exist": true,
+      "draft_before": "91373b60fe5f574057f2e2fdfc597cf9e373c090ae4d2aba4757682b183c0045",
+      "draft_after": "c96e3307de9b9587cc554c076f5d3527cc3ce8a6c29b12342777c07bc93c5eb2",
+      "different_revision": true
+    },
+    {
+      "round": 4,
+      "all_files_exist": true,
+      "draft_before": "c96e3307de9b9587cc554c076f5d3527cc3ce8a6c29b12342777c07bc93c5eb2",
+      "draft_after": "8a641ab68bd80fb96aad3016f3deea37ba0dbd4ab50ce9d984d8b59cfe50da7e",
+      "different_revision": true
+    }
+  ]
+}

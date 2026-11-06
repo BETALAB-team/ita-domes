@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "report": {
+    "powerpoint": true,
+    "node": "C:\\Users\\khajmoh18975\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+    "node_modules": "C:\\Users\\khajmoh18975\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules",
+    "python": "C:\\Users\\khajmoh18975\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "skill_dir": "C:\\Users\\khajmoh18975\\.codex\\plugins\\cache\\openai-primary-runtime\\presentations\\26.904.11930\\skills\\presentations"
+  },
+  "paths": {
+    "households": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\2021\\households.csv",
+    "output_root": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio_runs",
+    "energyplus": "C:/EnergyPlusV25-1-0/energyplus.exe"
+  },
+  "analysis": {
+    "archetype_mode": "existing",
+    "n_archetypes": 4,
+    "features": [
+      "agemin",
+      "agemax",
+      "nmembers",
+      "education"
+    ],
+    "pca_components": 0,
+    "kmeans_starts": 4,
+    "seed": 42,
+    "group_factors": [
+      "location",
+      "dwelling_type",
+      "archetype"
+    ],
+    "electricity_include_cooling": true,
+    "heating_groups": 4,
+    "electricity_groups": 5,
+    "group_selection": "fixed",
+    "elbow_max_k": 12,
+    "minimum_train_cell": 30
+  },
+  "simulation": {
+    "enabled": true,
+    "run_full_benchmark": true,
+    "workers": 2,
+    "timeout_seconds": 180,
+    "timestep": 4,
+    "area_m2": 100.0,
+    "aspect_ratio": 1.0,
+    "height_m": 2.7,
+    "north_axis_deg": 0.0,
+    "window_wall_ratio": 0.2,
+    "wall_u": 0.6,
+    "roof_u": 0.4,
+    "floor_u": 0.5,
+    "window_u": 2.4,
+    "window_shgc": 0.6,
+    "infiltration_ach": 0.4,
+    "ground_temperature_c": 18.0,
+    "heat_setpoint_c": 20.0,
+    "heat_setback_c": 16.0,
+    "cool_setpoint_c": 26.0,
+    "cool_setback_c": 30.0,
+    "cooling_enabled": true,
+    "default_cooling_hours": 6.0,
+    "people_sensible_w": 75.0,
+    "appliance_heat_fraction": 1.0,
+    "rc_capacity_kj_m2k": 165.0,
+    "data_thermal_mode": "survey_physics",
+    "anchor_climate": "Roma",
+    "anchor_context": "Apartment",
+    "anchor_archetype": 1,
+    "occupancy_profile": [
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.85,
+      0.7,
+      0.4,
+      0.35,
+      0.35,
+      0.45,
+      0.55,
+      0.5,
+      0.4,
+      0.4,
+      0.55,
+      0.75,
+      0.9,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95
+    ],
+    "appliance_profile": [
+      0.3,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.35,
+      0.7,
+      1.0,
+      0.6,
+      0.5,
+      0.5,
+      0.8,
+      1.0,
+      0.7,
+      0.6,
+      0.6,
+      0.8,
+      1.2,
+      1.5,
+      1.6,
+      1.5,
+      1.2,
+      0.8,
+      0.5
+    ],
+    "archetype_overrides": {}
+  },
+  "contexts": [
+    {
+      "name": "Apartment",
+      "enabled": true,
+      "exposed_walls": [
+        "South",
+        "North"
+      ],
+      "roof": "Adiabatic",
+      "floor": "Adiabatic"
+    },
+    {
+      "name": "Multi-family",
+      "enabled": true,
+      "exposed_walls": [
+        "South",
+        "North",
+        "West"
+      ],
+      "roof": "Outdoors",
+      "floor": "Ground"
+    },
+    {
+      "name": "Single-family",
+      "enabled": true,
+      "exposed_walls": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "roof": "Outdoors",
+      "floor": "Ground"
+    }
+  ],
+  "climates": [
+    {
+      "name": "Milano",
+      "location": "North-west",
+      "enabled": true,
+      "epw": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio\\weather\\Milano.epw",
+      "source": "https://energyplus-weather.s3.amazonaws.com/europe_wmo_region_6/ITA/ITA_Milano-Linate.160800_IGDG/ITA_Milano-Linate.160800_IGDG.epw"
+    },
+    {
+      "name": "Roma",
+      "location": "Centre",
+      "enabled": true,
+      "epw": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio\\weather\\Roma.epw",
+      "source": "https://energyplus-weather.s3.amazonaws.com/europe_wmo_region_6/ITA/ITA_Roma-Ciampino.162390_IGDG/ITA_Roma-Ciampino.162390_IGDG.epw"
+    },
+    {
+      "name": "Palermo",
+      "location": "South/islands",
+      "enabled": true,
+      "epw": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio\\weather\\Palermo.epw",
+      "source": "https://energyplus-weather.s3.amazonaws.com/europe_wmo_region_6/ITA/ITA_Palermo-Boccadifalco.164000_IGDG/ITA_Palermo-Boccadifalco.164000_IGDG.epw"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "script_sha256": "fee50ad8dcfae40356b83d17ea5ec16e09212ffc69d9ea59f688ca3ef6a67803",
+  "config_sha256": "d2822437aa5967009f9b6c1ff8acd4462a64978c8dcc236e07ca5103a05066b4",
+  "design_sha256": "adc3b188ab002aa9c278a8c39b9f2e891e15f52cbfc8f787a91d98ef2a87f3fd",
+  "protocol_sha256": "a157f5fdf3ba37ba593e2e35037f5ba48f422c2eca3642524ce6deb71ea40b9e",
+  "inputs": {
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat_microdata_2013.csv": "a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f",
+    "C:\\Works\\EUReCA\\Fork-Macovei\\EUReCA-maco\\eureca_ubem\\Input\\tmy_45.408_11.873_2005_2023.epw": "390ead08c3e32d34a874c564b57c28ef1b7275682c7a749477208f5b6846adca",
+    "C:\\Works\\GRINS\\GRINS-Tool\\classes\\EndUse.py": "cf7442f0b2ddb39b338c2047a1b95016d3a4d246604da15cd49c9a823cc436d5",
+    "C:\\Works\\GRINS\\GRINS-Tool\\funcs\\main_functions.py": "4b90297a4f22ae35a406d3a01be7db98cef3767c4a212ae49ac67362cc92a3bf",
+    "C:\\Works\\EUReCA\\EUReCA\\eureca_building\\thermal_zone.py": "ea041c53f13b499de33185ab212ce63bc306f50261cb52ee3ee3e99bc44d2fff",
+    "C:\\Works\\EUReCA\\EUReCA\\eureca_building\\weather.py": "da2199f8da7d01ea26e0b202f9e6850eba688c163310b5a4196152f21ec1df9f",
+    "C:\\Works\\EUReCA\\EUReCA\\eureca_building\\config.py": "8cd15b3d538828638ecfdcbe804d67429118cc955cee0bfd10b70c517180a00f"
+  },
+  "command": "C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe -B C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\run_padova_pilot.py",
+  "python": "3.14.6 (main, Jul 18 2026, 17:08:46) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe",
+  "status": "complete",
+  "imported_zone_module": "C:\\Works\\EUReCA\\EUReCA\\eureca_building\\thermal_zone.py",
+  "checks_pass": true,
+  "summary_sha256": "bc3bf312021fdb570be71d4e2f5f34d97adbf2ad3d7cbbf455d01286cd504dd6",
+  "elapsed_run_seconds": 5.119195599982049
+}

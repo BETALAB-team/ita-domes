@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "annual_execution": false,
+  "command": [
+    "C:\\Works\\EUReCA\\EUReCA\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\04_analysis\\archetype_extension\\run_mixture_campaign.py",
+    "Padova",
+    "--campaign",
+    "archetype_campaign_v2",
+    "--preflight"
+  ],
+  "preflight_stdout": "{\"pass\": true, \"profile_n\": 36, \"role_n\": 36, \"technical_reference_profile\": \"profile_fa8d5f91549f24b8\", \"annual_execution\": false}",
+  "protocol_sha256": "0abd5e8952bd9021d4bc8c8ef6a0649b1c14ffc4c467e5b1da7c13dc018633ba",
+  "selection_manifest_sha256": "a34a21e694b1c0117e915567c0eab56f83bfa3aa03b586ab6443006e0b8daed4",
+  "runner_sha256": "2c435e83aa14b073078ccd27ea9585079a8e3ff1225dbf53d2f5c76db3413a08",
+  "runtime_manifest_sha256": "bf1eb3abaf62373885533464e954a79088b7fbe4b9b98bc8a1fd8f41e4d23340",
+  "fit_script_sha256": "c2336e14b49a817280fd6a1d50b6ae2b086c2b7a311d8729aa51a3945f1b90fb",
+  "role_manifest_sha256": "6e7ff06e55f078b617271d286499d6fa98a6d04bf7e060bb2170e15556ffcb1f",
+  "analyzer_sha256": "07fb6f014aa8ffe84e3cb72669b07fa1012827b6db05eeac9168bc821f7285fc",
+  "analytical_loss_fixture_pass": true,
+  "probability_manifest_sha256": "f97a68f29aca5fac7e0c6fa3f8284c82e8960133afd4c5eee032df4f3dda8a43",
+  "checks": [
+    "all frozen selection outputs and runtime sources",
+    "v1 holdout unchanged",
+    "training-only branch medoids and ties",
+    "independent training probabilities",
+    "36 full source-rule profiles independently reconstructed",
+    "unchanged physical-zone AST",
+    "actual runner preflight"
+  ]
+}

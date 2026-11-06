@@ -1,0 +1,44 @@
+{
+  "raw_1_to_5": {
+    "2013": {
+      "n": 19688,
+      "age_incomplete_profiles": 0,
+      "weight_sum": 25667050,
+      "under15_pct_w": 22.014863414377576,
+      "mean_size_w": 2.280948063762684
+    },
+    "2021": {
+      "n": 53520,
+      "age_incomplete_profiles": 0,
+      "weight_sum": 25182551.541727014,
+      "under15_pct_w": 18.500971870314682,
+      "mean_size_w": 2.2759010650157565
+    }
+  },
+  "full_domain_hours": {
+    "2013_heating": {
+      "denominator": 18332,
+      "zero_sums": 0,
+      "unweighted": 8.197632555094916,
+      "weighted": 7.899082576621045
+    },
+    "2013_cooling": {
+      "denominator": 2916,
+      "zero_sums": 0,
+      "unweighted": 4.87037037037037,
+      "weighted": 4.804860090363936
+    },
+    "2021_heating": {
+      "denominator": 49545,
+      "zero_sums": 0,
+      "unweighted": 8.564840044404077,
+      "weighted": 8.5450211563843
+    },
+    "2021_cooling": {
+      "denominator": 15654,
+      "zero_sums": 0,
+      "unweighted": 6.124057748818194,
+      "weighted": 6.262527421127171
+    }
+  }
+}

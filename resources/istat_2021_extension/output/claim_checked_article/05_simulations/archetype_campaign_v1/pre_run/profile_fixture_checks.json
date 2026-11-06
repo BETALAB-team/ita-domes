@@ -1,0 +1,208 @@
+{
+  "scope": "preparatory profile fixtures only; no new annual energy simulation or group selection",
+  "source_sha256": "cf7442f0b2ddb39b338c2047a1b95016d3a4d246604da15cd49c9a823cc436d5",
+  "bridge_sha256": "c45789cde6c4a7ce401d939498b974bad5dd1f88ef7613ace844331abc59547a",
+  "tests": [
+    {
+      "timer_key": null,
+      "fireplace_key": null,
+      "on_C": 22.0,
+      "off_C": 11.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "timer_key": null,
+      "fireplace_key": "q_2_32C",
+      "on_C": 24.0,
+      "off_C": 13.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "timer_key": null,
+      "fireplace_key": "q_2_32D",
+      "on_C": 24.0,
+      "off_C": 13.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "timer_key": "q_3_13_2",
+      "fireplace_key": null,
+      "on_C": 22.0,
+      "off_C": 19.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "timer_key": "q_3_13_2",
+      "fireplace_key": "q_2_32C",
+      "on_C": 24.0,
+      "off_C": 21.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "timer_key": "q_3_13_2",
+      "fireplace_key": "q_2_32D",
+      "on_C": 24.0,
+      "off_C": 21.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "timer_key": "q_3_13_3",
+      "fireplace_key": null,
+      "on_C": 22.0,
+      "off_C": 19.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "timer_key": "q_3_13_3",
+      "fireplace_key": "q_2_32C",
+      "on_C": 24.0,
+      "off_C": 21.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "timer_key": "q_3_13_3",
+      "fireplace_key": "q_2_32D",
+      "on_C": 24.0,
+      "off_C": 21.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "timer_key": "q_3_19_6",
+      "fireplace_key": null,
+      "on_C": 22.0,
+      "off_C": 19.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "timer_key": "q_3_19_6",
+      "fireplace_key": "q_2_32C",
+      "on_C": 24.0,
+      "off_C": 21.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "timer_key": "q_3_19_6",
+      "fireplace_key": "q_2_32D",
+      "on_C": 24.0,
+      "off_C": 21.0,
+      "reported_blocks": [
+        4,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "boundary_blocks": [
+        0,
+        8,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "boundary_blocks": [
+        8,
+        0,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "boundary_blocks": [
+        1,
+        1,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "invalid_input_rejected": {
+        "q_3_0": 3
+      },
+      "passed": true
+    },
+    {
+      "invalid_input_rejected": {
+        "q_3_11A": 8.5
+      },
+      "passed": true
+    },
+    {
+      "invalid_input_rejected": {
+        "q_3_11A": 9
+      },
+      "passed": true
+    },
+    {
+      "invalid_input_rejected": {
+        "q_3_13_2": 2
+      },
+      "passed": true
+    },
+    {
+      "invalid_input_rejected": {
+        "q_3_11A": 0,
+        "q_3_11B": 0,
+        "q_3_11C": 0
+      },
+      "passed": true
+    }
+  ],
+  "pass": true
+}

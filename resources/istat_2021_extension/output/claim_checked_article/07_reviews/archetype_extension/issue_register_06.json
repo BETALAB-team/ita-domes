@@ -1,0 +1,66 @@
+{
+  "through_round": 6,
+  "review_sha256": "67015c5f00462ee246098d637821a789fd6ce6ce7eba4014a43d44780883bdef",
+  "response_sha256": "72a2b245f5f020d9b904000263ee7c92719f8e2c04e42bafae35143868b2e27d",
+  "revision_filename": "article_claims_v07.md",
+  "revision_sha256": "9aa90444db044ab1480872fbf496db171f359e39e10cf1207f76a4c586757df9",
+  "new_issues_this_round": [],
+  "entries": [
+    {
+      "issue_id": "R5-01",
+      "severity": "minor",
+      "claim_ids": [
+        "MET-013",
+        "MET-014",
+        "MET-015",
+        "MET-016",
+        "LIM-010"
+      ],
+      "disposition": "Accepted and corrected in the current executed-v2 validation matrix and v06 claim wording. The retained v1 matrix is labelled historical, superseded and unexecuted; the two representations share four components but have three versus twelve free probabilities. Independent closure awaits review06. Fresh review06 reported no new scientific correction and independently checked the current v2 documentation, raw peak timing, losses and limits; a separately requested formal prior-issue closure is still pending.",
+      "revision_locations": [
+        "06_claim_drafts/article_claims_v06.md#met-013",
+        "06_claim_drafts/article_claims_v06.md#met-014",
+        "06_claim_drafts/article_claims_v06.md#lim-010",
+        "06_claim_drafts/article_claims_v07.md"
+      ],
+      "evidence_paths": [
+        "03_methods/archetype_extension/validation_matrix.md",
+        "03_methods/archetype_extension/validation_matrix_pre_review05.md",
+        "03_methods/archetype_extension/mixture_protocol_v2.md",
+        "07_reviews/archetype_extension/review_05.md",
+        "07_reviews/archetype_extension/review_06.md"
+      ],
+      "still_open": true,
+      "closure_condition": "Fresh reviewer confirms that authoritative validation documentation specifies the executed v2 four-shared-component, two-representation, squared-loss design and identifies v1 as superseded."
+    },
+    {
+      "issue_id": "R5-02",
+      "severity": "minor",
+      "claim_ids": [
+        "RES-010",
+        "RES-011",
+        "RES-013",
+        "INT-003",
+        "LIM-008"
+      ],
+      "disposition": "Accepted with new explicitly post-hoc v2 Bolzano peak-timing claim. Direct independent author and methods raw-hourly checks yield 27/32 held-out and 2/4 component restart-day maxima, with 18/32 and 2/4 at restart hour. All primary maxima and losses are unchanged. Independent closure awaits review06. Fresh review06 reported no new scientific correction and independently checked the current v2 documentation, raw peak timing, losses and limits; a separately requested formal prior-issue closure is still pending.",
+      "revision_locations": [
+        "06_claim_drafts/article_claims_v06.md#res-010",
+        "06_claim_drafts/article_claims_v06.md#res-013",
+        "06_claim_drafts/article_claims_v06.md#int-003",
+        "06_claim_drafts/article_claims_v07.md"
+      ],
+      "evidence_paths": [
+        "05_simulations/archetype_campaign_v2/Bolzano/summary.json",
+        "04_analysis/archetype_extension/posthoc_peak_context_v1/diagnostic_manifest.json",
+        "04_analysis/archetype_extension/posthoc_peak_context_v1/cohort_counts.csv",
+        "03_methods/archetype_extension/posthoc_peak_context_report.md",
+        "06_claim_drafts/author_peak_context_check_v2.json",
+        "07_reviews/archetype_extension/review_05.md",
+        "07_reviews/archetype_extension/review_06.md"
+      ],
+      "still_open": true,
+      "closure_condition": "Fresh reviewer verifies raw role-linked maximum hours and exact denominators, retained primary endpoint/losses, and descriptive rather than causal or equipment-sizing wording."
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+C:\Works\GRINS\GRINS-Tool\resources\istat_data\output\claim_checked_article\05_simulations\climate_campaign_v4\Padova\eureca_config.json
+{
+  "Padova": {
+    "old_invalid_mean_delta_K": -81.50551904018077,
+    "new_mean_delta_K": 12.77565604632737,
+    "saved_node_forcing_max_abs_error_W": 9.094947017729282e-13,
+    "longwave_coefficient_W_K": 22.698939202438787,
+    "longwave_term_W": -289.99383986685444,
+    "actual_preprocessing_delta_max_error_W": 129.44441556291514,
+    "zero_solar_recovered_forcing_max_error_W": 129.44441556291358,
+    "runtime_guards": {
+      "wind_speed": true,
+      "opaque_sky_coverage": true
+    },
+    "surfaces": [
+      {
+        "name": "wall0.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 24.0,
+        "has_window": true
+      },
+      {
+        "name": "wall90.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 19.2,
+        "has_window": true
+      },
+      {
+        "name": "wall180.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 24.0,
+        "has_window": true
+      },
+      {
+        "name": "wall-90.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 19.2,
+        "has_window": true
+      },
+      {
+        "name": "Roof",
+        "type": "Roof",
+        "opaque_area_m2": 80.00000000000001,
+        "has_window": false
+      },
+      {
+        "name": "GroundFloor",
+        "type": "GroundFloor",
+        "opaque_area_m2": 80.00000000000001,
+        "has_window": false
+      },
+      {
+        "name": "internal_walls",
+        "type": "IntWall",
+        "opaque_area_m2": 400.0,
+        "has_window": false
+      },
+      {
+        "name": "internal_ceiling",
+        "type": "IntCeiling",
+        "opaque_area_m2": 160.0,
+        "has_window": false
+      }
+    ],
+    "same_surface_set_reordered_zero_solar_max_difference_W": 10.219295965493188,
+    "same_surface_set_reordered_full_solar_max_difference_W": 596.2543327058702,
+    "roof_first_error": "UnboundLocalError: cannot access local variable 'TRV' where it is not associated with a value",
+    "actual_native_longwave_term_W": -160.5494243039409,
+    "direct_transition_trials": [
+      {
+        "old_C": 10,
+        "lower": 19,
+        "upper": 50,
+        "mode": "heating on",
+        "q_W": 16365.903327652357,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 25,
+        "lower": 19,
+        "upper": 50,
+        "mode": "off",
+        "q_W": 0.0,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 20,
+        "lower": 19,
+        "upper": 50,
+        "mode": "off",
+        "q_W": 0.0,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 20,
+        "lower": 22,
+        "upper": 50,
+        "mode": "heating on",
+        "q_W": 3942.005162651192,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 60,
+        "lower": 19,
+        "upper": 50,
+        "mode": "cooling on",
+        "q_W": -15661.851511457475,
+        "old_state_unchanged": true
+      }
+    ],
+    "native_index_first": "2023-01-01 00:00:00+01:00"
+  },
+  "Bolzano": {
+    "old_invalid_mean_delta_K": -95.81494082890566,
+    "new_mean_delta_K": 17.620782214282908,
+    "saved_node_forcing_max_abs_error_W": 9.094947017729282e-13,
+    "longwave_coefficient_W_K": 22.698939202438787,
+    "longwave_term_W": -399.97306418142244,
+    "actual_preprocessing_delta_max_error_W": 178.53579082108655,
+    "zero_solar_recovered_forcing_max_error_W": 178.53579082108504,
+    "runtime_guards": {
+      "wind_speed": true,
+      "opaque_sky_coverage": true
+    },
+    "surfaces": [
+      {
+        "name": "wall0.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 24.0,
+        "has_window": true
+      },
+      {
+        "name": "wall90.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 19.2,
+        "has_window": true
+      },
+      {
+        "name": "wall180.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 24.0,
+        "has_window": true
+      },
+      {
+        "name": "wall-90.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 19.2,
+        "has_window": true
+      },
+      {
+        "name": "Roof",
+        "type": "Roof",
+        "opaque_area_m2": 80.00000000000001,
+        "has_window": false
+      },
+      {
+        "name": "GroundFloor",
+        "type": "GroundFloor",
+        "opaque_area_m2": 80.00000000000001,
+        "has_window": false
+      },
+      {
+        "name": "internal_walls",
+        "type": "IntWall",
+        "opaque_area_m2": 400.0,
+        "has_window": false
+      },
+      {
+        "name": "internal_ceiling",
+        "type": "IntCeiling",
+        "opaque_area_m2": 160.0,
+        "has_window": false
+      }
+    ],
+    "same_surface_set_reordered_zero_solar_max_difference_W": 14.094930854296223,
+    "same_surface_set_reordered_full_solar_max_difference_W": 676.1377237572451,
+    "roof_first_error": "UnboundLocalError: cannot access local variable 'TRV' where it is not associated with a value",
+    "actual_native_longwave_term_W": -221.43727336033746,
+    "direct_transition_trials": [
+      {
+        "old_C": 10,
+        "lower": 19,
+        "upper": 50,
+        "mode": "heating on",
+        "q_W": 16365.903327652357,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 25,
+        "lower": 19,
+        "upper": 50,
+        "mode": "off",
+        "q_W": 0.0,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 20,
+        "lower": 19,
+        "upper": 50,
+        "mode": "off",
+        "q_W": 0.0,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 20,
+        "lower": 22,
+        "upper": 50,
+        "mode": "heating on",
+        "q_W": 3942.005162651192,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 60,
+        "lower": 19,
+        "upper": 50,
+        "mode": "cooling on",
+        "q_W": -15661.851511457475,
+        "old_state_unchanged": true
+      }
+    ],
+    "native_index_first": "2023-01-01 00:00:00+01:00"
+  },
+  "Roma": {
+    "old_invalid_mean_delta_K": -81.01330893950579,
+    "new_mean_delta_K": 13.551708113654966,
+    "saved_node_forcing_max_abs_error_W": 9.094947017729282e-13,
+    "longwave_coefficient_W_K": 22.698939202438787,
+    "longwave_term_W": -307.6093985610505,
+    "actual_preprocessing_delta_max_error_W": 137.30746431261014,
+    "zero_solar_recovered_forcing_max_error_W": 137.30746431260891,
+    "runtime_guards": {
+      "wind_speed": true,
+      "opaque_sky_coverage": true
+    },
+    "surfaces": [
+      {
+        "name": "wall0.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 24.0,
+        "has_window": true
+      },
+      {
+        "name": "wall90.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 19.2,
+        "has_window": true
+      },
+      {
+        "name": "wall180.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 24.0,
+        "has_window": true
+      },
+      {
+        "name": "wall-90.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 19.2,
+        "has_window": true
+      },
+      {
+        "name": "Roof",
+        "type": "Roof",
+        "opaque_area_m2": 80.00000000000001,
+        "has_window": false
+      },
+      {
+        "name": "GroundFloor",
+        "type": "GroundFloor",
+        "opaque_area_m2": 80.00000000000001,
+        "has_window": false
+      },
+      {
+        "name": "internal_walls",
+        "type": "IntWall",
+        "opaque_area_m2": 400.0,
+        "has_window": false
+      },
+      {
+        "name": "internal_ceiling",
+        "type": "IntCeiling",
+        "opaque_area_m2": 160.0,
+        "has_window": false
+      }
+    ],
+    "same_surface_set_reordered_zero_solar_max_difference_W": 10.84006297204806,
+    "same_surface_set_reordered_full_solar_max_difference_W": 613.5243904124263,
+    "roof_first_error": "UnboundLocalError: cannot access local variable 'TRV' where it is not associated with a value",
+    "actual_native_longwave_term_W": -170.30193424844165,
+    "direct_transition_trials": [
+      {
+        "old_C": 10,
+        "lower": 19,
+        "upper": 50,
+        "mode": "heating on",
+        "q_W": 16365.903327652357,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 25,
+        "lower": 19,
+        "upper": 50,
+        "mode": "off",
+        "q_W": 0.0,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 20,
+        "lower": 19,
+        "upper": 50,
+        "mode": "off",
+        "q_W": 0.0,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 20,
+        "lower": 22,
+        "upper": 50,
+        "mode": "heating on",
+        "q_W": 3942.005162651192,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 60,
+        "lower": 19,
+        "upper": 50,
+        "mode": "cooling on",
+        "q_W": -15661.851511457475,
+        "old_state_unchanged": true
+      }
+    ],
+    "native_index_first": "2023-01-01 00:00:00+01:00"
+  },
+  "Palermo": {
+    "old_invalid_mean_delta_K": -79.75721753062591,
+    "new_mean_delta_K": 14.073726997419666,
+    "saved_node_forcing_max_abs_error_W": 9.094947017729282e-13,
+    "longwave_coefficient_W_K": 22.698939202438787,
+    "longwave_term_W": -319.45867346615034,
+    "actual_preprocessing_delta_max_error_W": 142.59661964652753,
+    "zero_solar_recovered_forcing_max_error_W": 142.59661964652625,
+    "runtime_guards": {
+      "wind_speed": true,
+      "opaque_sky_coverage": true
+    },
+    "surfaces": [
+      {
+        "name": "wall0.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 24.0,
+        "has_window": true
+      },
+      {
+        "name": "wall90.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 19.2,
+        "has_window": true
+      },
+      {
+        "name": "wall180.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 24.0,
+        "has_window": true
+      },
+      {
+        "name": "wall-90.0",
+        "type": "ExtWall",
+        "opaque_area_m2": 19.2,
+        "has_window": true
+      },
+      {
+        "name": "Roof",
+        "type": "Roof",
+        "opaque_area_m2": 80.00000000000001,
+        "has_window": false
+      },
+      {
+        "name": "GroundFloor",
+        "type": "GroundFloor",
+        "opaque_area_m2": 80.00000000000001,
+        "has_window": false
+      },
+      {
+        "name": "internal_walls",
+        "type": "IntWall",
+        "opaque_area_m2": 400.0,
+        "has_window": false
+      },
+      {
+        "name": "internal_ceiling",
+        "type": "IntCeiling",
+        "opaque_area_m2": 160.0,
+        "has_window": false
+      }
+    ],
+    "same_surface_set_reordered_zero_solar_max_difference_W": 11.257627866831058,
+    "same_surface_set_reordered_full_solar_max_difference_W": 640.032862439658,
+    "roof_first_error": "UnboundLocalError: cannot access local variable 'TRV' where it is not associated with a value",
+    "actual_native_longwave_term_W": -176.86205381962415,
+    "direct_transition_trials": [
+      {
+        "old_C": 10,
+        "lower": 19,
+        "upper": 50,
+        "mode": "heating on",
+        "q_W": 16365.903327652357,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 25,
+        "lower": 19,
+        "upper": 50,
+        "mode": "off",
+        "q_W": 0.0,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 20,
+        "lower": 19,
+        "upper": 50,
+        "mode": "off",
+        "q_W": 0.0,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 20,
+        "lower": 22,
+        "upper": 50,
+        "mode": "heating on",
+        "q_W": 3942.005162651192,
+        "old_state_unchanged": true
+      },
+      {
+        "old_C": 60,
+        "lower": 19,
+        "upper": 50,
+        "mode": "cooling on",
+        "q_W": -15661.851511457475,
+        "old_state_unchanged": true
+      }
+    ],
+    "native_index_first": "2023-01-01 00:00:00+01:00"
+  }
+}

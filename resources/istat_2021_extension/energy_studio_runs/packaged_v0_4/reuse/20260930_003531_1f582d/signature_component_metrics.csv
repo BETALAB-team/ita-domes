@@ -1,0 +1,9 @@
+end_use,stage,n_excluding_anchor,cvrmse_percent
+heating_kwh,Weather only,0,
+heating_kwh,Weather + exposure,0,
+heating_kwh,+ ISTAT hours,0,
+heating_kwh,+ ISTAT gains,0,
+cooling_kwh,Weather only,0,
+cooling_kwh,Weather + exposure,0,
+cooling_kwh,+ ISTAT hours,0,
+cooling_kwh,+ ISTAT gains,0,

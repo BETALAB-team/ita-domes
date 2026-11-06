@@ -1,0 +1,20 @@
+{
+  "frozen_utc": "2026-10-20T10:55:12Z",
+  "status": "pre-annual readiness; no v5 annual run yet",
+  "files": {
+    "04_analysis/run_climate_campaign_v5.py": "48b3175c67eb3983f2059f8de32f24480a3374090572b59e7c2e37c7f3ff8f2f",
+    "04_analysis/surface_forcing_1c.py": "24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+    "04_analysis/single_commit_1c.py": "e549b4e5645ad8ae159fddf644d225d28622e1495f6fd64768c5242389b82c16",
+    "04_analysis/ir_sky_forcing.py": "d2e09d070e8e2635adc171022c0df7f3e545a5e107811d41ea39ea3db775eb8d",
+    "03_methods/surface_correction_protocol_v5.md": "2860820cd4a3f1600dd517bc38a38dd11e6098f61435ff54a72304ec9b767c7c",
+    "05_simulations/surface_forcing_v5_fixture_checks.json": "2bbf231dc70a4589bbe240f36f9fefc1bf9f9b3712f3e4ff157ec95e6135c031"
+  },
+  "weather_epw_hashes": {
+    "Padova": "390ead08c3e32d34a874c564b57c28ef1b7275682c7a749477208f5b6846adca",
+    "Bolzano": "ff2561b3a202e1ae67201bd46086e56e50c66d328bd118bfe8e7d0c3270d472b",
+    "Roma": "edbe4470b89164c1c80e8dd8969949addfd132ce4a10cb93278eb88c8f1247cd",
+    "Palermo": "1e51aa278551c25cddd96ce1c40ae0f86a8e91f05ca71157f67b17be8cf1d80f"
+  },
+  "fixture_pass": true,
+  "retained_scope": "same scenarios/endpoints and physical/network parameters; local independent surface preprocessing only"
+}

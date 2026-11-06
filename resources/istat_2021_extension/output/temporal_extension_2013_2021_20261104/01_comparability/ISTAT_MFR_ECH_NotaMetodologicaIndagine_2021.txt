@@ -1,0 +1,517 @@
+
+PAGE 1
+1 
+ 
+ 
+ 
+ 
+Consumi energetici delle famiglie 
+Periodo di riferimento del file Anni 2020-2021 
+ 
+Aspetti metodologici dell’indagine 
+ 
+Anno 2024 
+ 
+ 
+ 
+ 
+File di microdati  
+per la ricerca  
+
+
+PAGE 2
+2 
+ 
+INDICE 
+ 
+ 
+ 
+1. Finalità conoscitive dell’indagine ................................................................................................. 3 
+2. La popolazione di riferimento ...................................................................................................... 4 
+3. Il disegno campionario ................................................................................................................. 4 
+4. La rilevazione e il trattamento dei dati ......................................................................................... 5 
+5. La metodologia di calcolo dei pesi campionari ............................................................................ 5 
+6. La diffusione dei risultati dell’indagine ........................................................................................ 9 
+7. Glossario ..................................................................................................................................... 10 
+8. Contatti ....................................................................................................................................... 13 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+PAGE 3
+3 
+ 
+1. Finalità conoscitive dell’indagine1 
+ 
+L'indagine campionaria Consumi energetici delle famiglie  ha lo scopo di acquisire 
+informazioni e di produrre dati statistici sulle dotazioni energetiche e sui consumi di energia 
+delle famiglie, cioè sugli impianti e apparecchiature che consumano energia nelle abitazioni 
+e sulle modalità con cui vengono utilizzate nella vita quotidiana.  
+L’indagine è prevista dal Regolamento europeo n. 1099/2008 che richiede di fornire alla 
+Comunità Europea i dati sui consumi energetici del settore residenziale ed è inserita nel 
+Programma Statistico Nazionale in vigore (Codice IST-02514). 
+I risultati dell’indagine sono necessari per delineare il quadro dei consumi energetici del 
+settore residenziale (cioè l’ambito domes tico) e contribuiscono a monitorare le politiche di 
+transizione energetica e la situazione energetica nazionale; l’indagine è utile alla collettività 
+e alle istituzioni per predisporre interventi volti a tutelare la sicurezza energetica e la qualità 
+dell’ambiente e a rispettare gli obiettivi nazionali ed europei di mitigazione dei cambiamenti 
+climatici. 
+L’indagine sui Consumi energetici delle famiglie offre un contributo al completamento del 
+quadro nazionale delle statistiche sull’energia relativamente al s ettore residenziale, con 
+informazioni dettagliate sulle dotazioni energetiche delle famiglie e le loro modalità di 
+impiego. 
+L’indagine ha raccolto informazioni dettagliate sulle dotazioni energetiche delle famiglie e 
+sulle modalità di impiego di tali appar ecchiature, ricostruendo il quadro complessivo dei 
+consumi energetici e delle relative spese nell’anno passato.  
+I principali temi indagati sono: le caratteristiche delle abitazioni; le dotazioni per il 
+riscaldamento della casa, la produzione di acqua calda sanitaria e il condizionamento; il loro 
+numero, fonte di alimentazione, caratteristiche tecniche e modalità di utilizzo da parte delle 
+famiglie; i sistemi per l’illuminazione e gli elettrodomestici; le spese sostenute nell’anno di 
+riferimento (2020) per i consumi energetici quali l’energia elettrica, metano, GPL, gasolio; i 
+consumi e le spese per le biomasse (legna e pellet). 
+  
+                                                 
+1 Il presente documento è stato curato da: Giovanna Tagliacozzo (paragrafi 1 e 2), Claudia De Vitiis (3 e 5) 
+ed Emilia Arcaleni (4, 6 e 7). 
+ 
+
+PAGE 4
+4 
+ 
+2. La popolazione di riferimento 
+ 
+La popolazione di riferimento dell’indagine costituita dalle  famiglie residenti in Italia con 
+riferimento all’abitazione principale. Sono pertanto escluse le seconde case. 
+La famiglia è intesa come famiglia di fatto, ossia un insieme  di persone coabitanti e legate 
+da vincoli di matrimonio, parentela, affinità, adozione, tutela o affettivi. 
+La prima edizione d’indagine è stata svolta nel 2013; mentre dal 2021, l’indagine è prevista 
+con cadenza triennale.  Il periodo di riferimento , per i quesiti sulle dotazioni  è il momento 
+dell’intervista, mentre per i dati relativi alle spese e ai consumi  il periodo di riferimento è 
+l’anno precedente (2020, per l’edizione 2021). 
+L’indagine è rivolta a un campione di famiglie residenti in Italia, estratte in modo casuale 
+dalle Liste Anagrafiche Comunali (LAC ). L’indagine si è basata su un campione di oltre 54 
+mila famiglie, rappresentativo a livello nazionale e regionale (corrispondente a un numero 
+di famiglie nazionale di 25.515.561). Sono state rilevate solo le abitazioni in cui le famiglie 
+risiedono abitualmente, con l’esclusione quindi le seconde case. 
+ 
+3. Il disegno campionario 
+ 
+Disegno di campionamento 
+La popolazione di interesse è costituita dalle famiglie residenti in Italia. I domini di studio, 
+ossia gli ambiti rispetto ai quali sono riferiti i parametri di popolazione oggetto di stima, sono: 
+• le regioni geografiche (21 modalità); 
+• la ripartizione geografica (Nord-ovest, Nord-est, Centro, Sud, Isole); 
+• la tipologia comunale (7 modalità), che tiene conto di caratteristiche socio -
+demografiche e della zona altimetrica. 
+Il disegno campionario è a uno stadio stratificato. Gli strati sono definiti dall’incrocio di 
+regione e tipologia comunale.  
+Il disegno di indagine prevede due campioni indipendenti per le due parti della rilevazione, 
+la parte concorrente e quella sequenziale. 
+La numerosità campionaria complessiva, ottenuta mediante procedura di allocazione ottima 
+multivariata sulla base delle stime di medie e varianze di 8 variabili di interesse ottenute 
+dall'indagine 2013 a livello di ripartizione geografica e tipologia comunale, è stata suddivisa 
+tra le due indagini in modo conseguente al disegno di indagine. Per ciascun campione è 
+stata applicata proporzionalmente l’allocazione definita tra gli strati. 
+ 
+
+PAGE 5
+5 
+ 
+4. La rilevazione e il trattamento dei dati 
+ 
+Il disegno di indagine prevede la compilazione del questionario utilizzando tecnica mista 
+CAWI ( Computer-Assisted Web Interviewing ) e CATI ( Computer-Assisted Telephone 
+Interviewing), con due tipi di rilevazione, una a tecnica mista concorrente, una sequenziale. 
+Nel campione con tecnica CAWI/CATI concorrente, la tecnica è assegnata sulla base della 
+disponibilità di un recapito telefoni co per la famiglia, mentre nella parte  con tecnica 
+CAWI/CATI sequenziale alle famiglie del campione viene proposta dapprima l’intervista via 
+web e successivamente, solo alle famiglie non rispondenti, viene sottoposta l’intervista con 
+tecnica CATI. I dati raccolti sono stati sottoposti a trattamento di controllo della qualità, per 
+garantire la coerenza e completezza delle informazioni: a questo scopo s ono state usate 
+tecniche deterministiche e probabilistiche, secondo i migliori standard statistici stabiliti a 
+livello europeo. 
+ 
+5. La metodologia di calcolo dei pesi campionari 
+ 
+Procedimento per il calcolo delle stime 
+Il metodo di stima si basa sull’idea che  le unità appartenenti al campione rappresentino 
+anche le unità della popolazione che non sono incluse nel campione. Dunque, ad ogni unità 
+campionaria viene assegnato un peso che denota il numero di unità della popolazione che 
+questa rappresenta. 
+La procedura di costruzione dei pesi assegnati alle unità campionarie è stata articolata in 
+tre fasi: 
+1. calcolo del peso diretto come inverso della probabilità di inclusione delle unità 
+selezionate nel campione, calcolate tenendo conto del disegno di campionamento; 
+2. calcolo del fattore di correzione della mancata risposta per fare in modo che i 
+rispondenti all’indagine rappresentino anche le unità statistiche che non hanno risposto. A 
+tale scopo sono stati definiti due modelli per la mancata risposta totale delle  famiglie, uno 
+per la componente CAWI/CATI concorrente ed uno per la componente CAWI/CATI 
+sequenziale2. 
+3. calcolo del fattore correttivo da applicare al peso base (peso diretto moltiplicato per 
+il fattore correttivo per mancata risposta totale), detto fattore di “calibrazione”, che consente 
+                                                 
+2 In entrambi i modelli le variabili ausiliarie utilizzate, provenienti dal Registro degli Individui, sono relative alla composizione 
+delle famiglie: sesso, classe d'età, stato civile, numero di componenti, titolo di studio più elevato in famiglie , tipo di 
+occupazione, fonti di reddito, reddito totale, presenza di stranieri in famiglia oltre ad alcune variabili territoriali come regione 
+di residenza e tipologia comunale. La correzione è stata effettuata separatamente per ogni componente del campione 
+poiché ciascuna era rappresentativa dell'intera popolazione. 
+
+PAGE 6
+6 
+ 
+di soddisfare la condizione di uguaglianza tra i totali noti della popolazione e le 
+corrispondenti stime campionarie3. 
+ 
+Valutazione del livello di precisione delle stime 
+Ad ogni stima campionaria corrisponde un errore campionario che consente di valutarne la 
+precisione. Per un loro utilizzo corretto è necessario affiancare ad ogni stima  (𝑇̂𝑌𝑑) il 
+corrisponde errore campionario relativo  dato da: 𝜀̂(𝑡̂𝑌𝑑) = 𝜎(𝑇̂𝑌𝑑)/𝑇̂𝑌𝑑. Tuttavia, poiché le 
+tavole di pubblicazione risulterebbero appesantite e di non facile consultazione per l’utente 
+finale, questo non è possibile. Per ovviare a questo problema, si è stata studiata una 
+rappresentazione sintetica degli errori relativi basata sul metodo dei modelli regressivi 
+(Wolter, 2007 4) fondata sulla determinazione di una funzione matematica che mette in 
+relazione ciascuna stima con il proprio errore di campionamento. 
+Il modello utilizzato per le stime di frequenze assolute, con riferimento al generico dominio 
+𝑑, è del tipo seguente:     
+log (𝜀2(𝑡̂𝑌𝑑)) = 𝑎 + 𝑏 log(𝑡̂𝑌𝑑) 
+dove i parametri 𝑎 e 𝑏 vengono stimati, utilizzando il metodo dei minimi quadrati, su un 
+insieme di stime ottenute dall’indagine (con i rispettivi errori relativi) che coprono 
+approssimativamente l’intervallo di variazione delle stime di frequenze che vengono 
+pubblicate. 
+Nel Prospetto 1, sono riportati i valori di 𝑎 e 𝑏 per ciascun domino di stima e l’indice 𝑟2 che 
+fornisce una misura del grado di rappresentatività degli errori campionari di una frequenza 
+assoluta stimati in base al modello descritto sopra. 
+Sulla base delle i nformazioni contenute nel Prospetto 1, è possibile calcolare la stima 
+dell'errore di campionamento relativo di una determinata stima mediante la formula: 
+𝜀̂(𝑡̂𝑌𝑑) = √exp[𝑎 + 𝑏 log(𝑡̂𝑌𝑑)] 
+Allo scopo di facilitare il calcolo degli errori campionari, sempre nel Pro spetto 1, sono 
+riportati, per i diversi domini territoriali di riferimento delle stime, i valori interpolati degli errori 
+campionari relativi percentuali di alcuni valori tipici assunti dalle stime di frequenze assolute. 
+Inoltre, nel Prospetto 2, sono illustrate le modalità di calcolo per la costruzione dell’intervallo 
+                                                 
+3 Per questa fase si è fatto ricorso allo stimatore calibrato (cfr. Deville, Särndal, 1992; Särndal, 2007; Tillé, 2019) applicato 
+all’unione dei due campioni.  In questo modo il campione riproduce esattamente le distribuzioni della popolazione regionale 
+per 14 classi d’età (0-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75+) e sesso, 
+cittadinanza (italiano, straniero) e sesso, Titolo di studio (nessun titolo, medie, superiori, laurea e più). 
+4 Wolter, K. (2007). Introduction to variance estimation. Springer Science & Business Media. 
+
+PAGE 7
+7 
+ 
+di confidenza al 95% delle stime puntuali riferite al numero di famiglie che possiedono il 
+riscaldamento autonomo, in Italia ed in Toscana. 
+Prospetto 1. Parametri dei modelli sintetici e valori interpolati degli errori campionari relativi percentuali per alcuni 
+valori tipici assunti dalle stime di frequenze assolute per diversi domini di stima. 
+dominio 𝒂  𝒃    𝒓𝟐  10.000 20.000 50.000 70.000 100.000 500.000 1.000.000 5.000.000 10.000.000 
+Italia 12,024 -1,372 0,927 73,508 45,686 24,363 19,341 15,142 5,019 3,119 1,034 0,643 
+Nord 12,834 -1,444 0,875 79,161 47,988 24,761 19,42 15,011 4,695 2,846 0,89 0,54 
+Nord-ovest 12,687 -1,432 0,868 77,673 47,281 24,53 19,277 14,932 4,716 2,87 0,907 0,552 
+Nord-est 11,128 -1,384 0,891 44,597 27,609 14,648 11,606 9,068 2,978 1,844 0,606 - 
+Centro 11,505 -1,421 0,885 45,371 27,728 14,462 11,387 8,838 2,817 1,722 0,549 - 
+Mezzogiorno 10,297 -1,286 0,909 46,211 29,597 16,423 13,229 10,518 3,738 2,394 0,851 0,545 
+Sud 9,672 -1,249 0,901 40,064 25,989 14,667 11,887 9,514 3,483 2,259 0,827 0,537 
+Isole 9,936 -1,285 0,878 38,617 24,735 13,726 11,057 8,792 3,125 2,002 0,711 - 
+Piemonte 10,764 -1,383 0,903 37,295 23,094 12,256 9,712 7,589 2,494 - - - 
+Valle d'Aosta//Vallée 
+d’Aoste 5,519 -1,213 0,922 5,931 3,896 2,235 1,823 1,468 - - - - 
+Lombardia 12,029 -1,372 0,894 73,638 45,764 24,403 19,372 15,166 5,026 3,123 1,035 - 
+Trentino-Alto 
+Adige//Südtirol 8,589 -1,331 0,892 15,983 10,078 5,478 4,379 3,454 1,184 0,746 - - 
+Bolzano 7,566 -1,248 0,921 14,007 9,088 5,13 4,158 3,328 1,219 - - - 
+Trento 8,143 -1,313 0,861 13,843 8,781 4,811 3,857 3,051 1,06 - - - 
+Veneto 10,183 -1,318 0,927 37,552 23,78 12,999 10,414 8,232 2,85 1,804 - - 
+Friuli-Venezia Giulia 9,394 -1,345 0,926 22,361 14,029 7,575 6,041 4,752 1,61 1,01 - - 
+Liguria 9,589 -1,306 0,9 29,53 18,78 10,324 8,287 6,566 2,295 1,46 - - 
+Emilia-Romagna 10,965 -1,393 0,886 39,291 24,243 12,804 10,129 7,9 2,574 1,588 - - 
+Toscana 10,454 -1,393 0,891 30,539 18,847 9,957 7,878 6,145 2,004 1,237 - - 
+Umbria 8,838 -1,365 0,922 15,469 9,639 5,158 4,1 3,214 1,072 - - - 
+Marche 10,407 -1,406 0,874 28,036 17,222 9,043 7,138 5,555 1,792 1,101 - - 
+Lazio 10,181 -1,316 0,919 37,945 24,05 13,161 10,548 8,342 2,893 1,834 0,636 - 
+Abruzzo 9,419 -1,375 0,888 19,738 12,256 6,528 5,18 4,053 1,34 0,832 - - 
+Molise 6,505 -1,269 0,889 7,482 4,819 2,694 2,176 1,735 - - - - 
+Campania 8,838 -1,177 0,9 36,691 24,399 14,228 11,671 9,461 3,669 2,440 - - 
+Puglia 9,172 -1,239 0,896 32,618 21,23 12,034 9,77 7,833 2,89 1,881 - - 
+Basilicata 7,375 -1,254 0,912 12,378 8,014 4,511 3,653 2,92 - - - - 
+Calabria 8,868 -1,199 0,912 33,636 22,196 12,812 10,471 8,455 3,221 2,125 0,810 - 
+Sicilia 9,405 -1,228 0,903 38,608 25,228 14,375 11,692 9,393 3,497 2,285 0,851 - 
+Sardegna 9,241 -1,326 0,912 22,592 14,267 7,77 6,216 4,906 1,687 1,066 - - 
+ 
+Prospetto 2. Calcolo esemplificativo dell’intervallo di confidenza per una stima di frequenza assoluta 
+ NUMERO DI FAMIGLIE CON 
+RISCALDAMENTO AUTONOMO IN 
+ITALIA 
+NUMERO DI FAMIGLIE CON 
+RISCALDAMENTO AUTONOMO IN 
+TOSCANA 
+STIMA PUNTUALE: 18.432.539 1.354.708 
+ERRORE RELATIVO PERCENTUALE (CV%) 0,423 0,998 
+ Errore relativo (CV) = 0,423/100=0,00423 = 0,998/100=0,00998 
+STIMA INTERVALLARE:   
+ Semi ampiezza dell’intervallo = 1,960*0,00423*18.432.539=152.820 = 1,960*0,00998*1.354.708=26.499 
+ Limite inferiore dell’intervallo di confidenza = 18.432.539 - 152.820 = 18.279.719 = 1.354.708 - 26.499 = 1.328.209 
+ Limite superiore dell’intervallo di confidenza = 18.432.539 + 152.820 = 18.585.359 = 1.354.708 - 26.499 = 1.381.207 
+
+PAGE 8
+8 
+ 
+ 
+Il modello utilizzato per le stime di totali di variabili quantitative è il seguente: 
+σ(𝑇̂𝑌𝑑) = 𝑎 + 𝑏 𝑇̂𝑌𝑑 + c 𝑇̂𝑌𝑑
+2   
+dove σ(𝑇̂𝑌𝑑) indica l’errore standard della generica stima del totale riferito al dominio 𝑑,  𝑇̂𝑌𝑑,  
+e i parametri 𝑎, 𝑏 e 𝑐 vengono stimati, utilizzando il metodo dei minimi quadrati, su un 
+insieme di stime ottenute dall’indagine (con i rispettivi errori standard) che coprono 
+approssimativamente l’intervallo di variazione delle stime di totali che vengono pubblicate. 
+Nel Prospetto 3, sono riportati i valori di  𝑎, 𝑏 e 𝑐 per ciascun domino di stima e l’indice 𝑟2 
+degli errori campionari della stima di un totale stimati in base al modello descritto sopra. 
+Sulla base delle informazioni contenute nel Prospetto 3, è possibile calcolare la stima 
+dell’errore standard di una determinata stima di totale e poi ottenere la stima dell'errore di 
+campionamento relativo mediante la formula: 
+ε̂(𝑡̂𝑌𝑑) = σ(𝑇̂𝑌𝑑) 𝑇̂𝑌𝑑⁄  
+Il procedimento per il calcolo dell’errore campionario di una generica stima quantitativa e 
+per la costruzione dell’intervallo di confidenza è analogo a quanto descritto nel Prospetto 2. 
+I modelli presentati, com e detto, si riferiscono a stime di totali, ossia frequenze assolute o 
+totali di variabili quantitative. Per stime di frequenze relative o medie di variabili quantitative 
+ottenute come rapporto tra due stime (ad esempio il numero di famiglie con una tipologia di 
+condizionatore, 𝑡̂𝑌𝑁𝑑, sul numero totale di famiglie in possesso di un condizionatore, 𝑡̂𝑌𝐷𝑑) 
+una valutazione approssimata dell’errore campionario può essere ottenuta attraverso la 
+formula  
+ε̂ (𝑅̂𝑑 =
+𝑡̂𝑌𝑁𝑑
+𝑡̂𝑌𝐷𝑑
+) = √ε̂(𝑡̂𝑌𝑁𝑑)
+2
+− ε̂(𝑡̂𝑌𝐷𝑑)
+2
+ 
+Questa formula è valida sotto l’ipotesi di incorrelazione tra il rapporto e il denominatore e 
+vale anche per variabili di tipo quantitativo. 
+Prospetto 3. Parametri dei modelli sintetici per gli errori standard delle stime di totali di variabili quantitative per 
+diversi domini di stima. 
+dominio 𝒂  𝒃  𝒄  𝒓𝟐  
+Italia -404385,109 0,027 -0,0000000000014 0,97 
+Nord 2522784,501 0,008 -0,0000000000002 0,86 
+Nord-ovest 2044875,657 0,012 -0,0000000000006 0,87 
+Nord-est 1781300,018 0,011 -0,0000000000007 0,82 
+Centro 96125,959 0,055 -0,0000000000160 0,87 
+Mezzogiorno 111895,223 0,038 -0,0000000000087 0,96 
+Sud 388947,899 0,040 -0,0000000000109 0,94 
+Isole 26272,574 0,055 -0,0000000000409 0,98 
+
+PAGE 9
+9 
+ 
+Piemonte 1134043,228 0,017 -0,0000000000031 0,79 
+Valle d'Aosta/Vallée d’Aoste -5993,690 0,125 -0,0000000031197 0,99 
+Lombardia 1778162,148 0,017 -0,0000000000012 0,87 
+Trentino-Alto Adige/Südtirol -18611,652 0,101 -0,0000000003023 0,97 
+Bolzano -1796,030 0,158 -0,0000000013915 0,95 
+Trento -26386,619 0,127 -0,0000000005801 1,00 
+Veneto 1015678,646 0,018 -0,0000000000025 0,87 
+Friuli-Venezia Giulia -47077,753 0,116 -0,0000000002562 0,98 
+Liguria 535343,147 0,024 -0,0000000000104 0,80 
+Emilia-Romagna 790564,796 0,015 -0,0000000000021 0,89 
+Toscana -92385,093 0,104 -0,0000000000830 0,95 
+Umbria 65350,483 0,100 -0,0000000003682 0,82 
+Marche 359116,557 0,024 -0,0000000000097 0,88 
+Lazio -95848,680 0,074 -0,0000000000444 0,97 
+Abruzzo 189821,837 0,041 -0,0000000000737 0,81 
+Molise -3692,233 0,112 -0,0000000010744 0,99 
+Campania 103377,588 0,088 -0,0000000000866 0,95 
+Puglia -118112,054 0,135 -0,0000000006960 0,83 
+Basilicata 16878,749 0,104 -0,0000000006667 0,88 
+Calabria 138509,196 0,104 -0,0000000002084 0,93 
+Sicilia 167962,001 0,004 0,0000000033600 0,83 
+Sardegna -76693,753 0,120 -0,0000000005843 0,99 
+ 
+ 
+6. La diffusione dei risultati dell’indagine 
+ 
+I principali risultati dell’indagine vengono resi disponibili sul sito dell’Istat attraverso  
+statistiche report.  
+Ogni anno, inoltre, le informazioni raccolte vengono analizzate e pubblicate anche su volumi 
+a carattere generale, quali l’Annuario statistico italiano, consultabili nel Catalogo editoriale. 
+I microdati d’indagine vengono resi disponibili mediante il rilascio di file di microdati (MFR e 
+micro.stat). Ricercatori e studiosi possono, inoltre, accedere al Laboratorio di Analisi dei Dati 
+Elementari (“ADELE”) per effettuare di persona le proprie analisi statistiche sui microdati 
+dell’indagine, nel rispetto delle norme sulla riservatezza dei dati personali. 
+I dati diffusi sono privi degli elementi identificativi del soggetto al quale si riferiscono, nonché 
+di ogni altro elemento che consenta, anche indirettamente, il collegamento con le famiglie o 
+gli individui intervistati. 
+Per quanto riguarda i metadati de lla rilevazione, in particolare il contenuto informativo e le 
+attività di prevenzione, controllo e valutazione dell'errore, si può consultare il Sistema 
+informativo sulla qualità -SIQual:  
+https://siqual.istat.it/SIQual/sorgentiNormative.do?id=8888971. 
+
+PAGE 10
+10 
+ 
+ 
+2021, seconda edizione d'indagine 
+Istat, I consumi energetici delle famiglie. Anno 2021, Statistiche Report, 21 dicembre 2022 
+- www.istat.it/it/archivio/279160 
+Istat, I consumi energetici delle famiglie. Anno 2021, Statistiche Report,  21 giugno 2022 - 
+www.istat.it/it/archivio/272110 
+Istat, Infografica (2022) - www.istat.it/it/archivio/279144 
+Istat, Annuario Statistico Italiano 2024 (capitolo 2) 
+Istat, Annuario Statistico Italiano 2023 (capitolo 2) 
+Istat, Annuario Statistico Italiano 2022 (capitolo 2) 
+ 
+2013, prima edizione d'indagine 
+Istat, Consumi energetici delle famiglie. Anno 2013, Statistiche Report, 15 dicembre 2014 
+http://www.istat.it/comunicato-stampa/i-consumi-energetici-delle-famiglie-anno-2013/ 
+Istat, Annuario Statistico Italiano 2015 (capitolo 2)  
+Istat, Database I.Stat: tema Ambiente e energia, sottotema Energia. Dataset: Consumi 
+energetici delle famiglie. 
+ 
+7. Glossario 
+ 
+Apparecchi singoli : apparecchi indipendenti, non collegati tra d i loro, che servono un 
+singolo ambiente. Si differenziano dagli impianti che invece servono più ambienti e sono 
+dotati di sistemi di distribuzione e da terminali. Possono essere fissi oppure portatili. 
+L’indagine rileva tutti gli apparecchi singoli, purché siano funzionanti, anche se non utilizzati.  
+- per il riscaldamento : possono essere fissi (come i camini tradizionali e ventilati, i 
+climatizzatori caldo/freddo a pompa di calore a split singolo) oppure portatili (stufe portatili, 
+termoventilatori elettrici da bagno, climatizzatori con rotelle ecc.) ad esclusione di stufe e 
+camini innovativi o altri impianti collegati a una rete di distribuzione del calore per l’intera 
+abitazione. 
+- per l’acqua calda: si tratta di apparecchi singoli per produrre ac qua calda (scaldabagni 
+che forniscono solo la cucina o solo singoli bagni); possono essere alimentati ad energia 
+elettrica, metano/gas di rete, gasolio, GPL, pompa di calore, biomasse. 
+- per il condizionamento : sono apparecchi singoli in grado di raffresca re un unico 
+ambiente; possono essere fissi o portatili e singoli solo freddo (apparecchi singoli che hanno 
+la funzione solo di raffreddare singole stanze). Se hanno anche la funzione di riscaldare 
+
+PAGE 11
+11 
+ 
+rientrano nella categoria degli apparecchi singoli caldo/fr eddo. Sono esclusi i semplici 
+ventilatori. 
+ 
+Climatizzatori caldo/freddo: dotazioni elettriche, fisse o portatili, in grado sia di riscaldare, 
+sia di raffrescare un ambiente, che funzionano attraverso pompe di calore (apparecchi in 
+grado di produrre riscald amento e raffrescamento scambiando energia termica con 
+l’ambiente esterno all’abitazione). 
+Condizionatori “solo freddo”:  dotazioni elettriche che, al contrario dei climatizzatori 
+caldo/freddo, hanno solo la funzione di raffrescare gli ambienti.  
+Dotazioni dell’abitazione: vengono rilevati gli impianti/apparecchi per il riscaldamento, 
+l’acqua calda, il condizionamento, funzionanti anche se non utilizzati in dotazione alla 
+famiglia e non dedicati ad uso esclusivo lavorativo.  
+Elettrodomestici: sono rilevati s olo gli apparecchi effettivamente utilizzati dalla famiglia. 
+Sono inclusi gli elettrodomestici collocati nelle pertinenze esterne (cantine, garage, soffitte, 
+terrazze, giardini e altri spazi all’aperto). Sono escluse le dotazioni dedicate ad esclusivi usi 
+non domestici (lavorativi). 
+ 
+Fonti di alimentazione: 
+- Metano: gas naturale distribuito attraverso una rete di trasporto nazionale e 
+regionale.  
+- Gasolio: combustibile liquido derivato dal petrolio e utilizzabile negli impianti o 
+apparecchi singoli di riscaldamento o di produzione di acqua calda.  
+- GPL (gas di petrolio liquefatto) : prodotto derivato dal petrolio e utilizzabile negli 
+impianti di riscaldamento, soprattutto negli impianti centralizzati. Può essere contenuto in 
+bombole o in cisterne (parzialm ente interrate esternamente all'abitazione). Nei centri 
+urbani e piccoli paesi non coperti dalla rete del metano, può esistere un servizio di GPL 
+in rete canalizzata, che assicura la distribuzione di GPL per uso domestico. 
+- Energia elettrica: è ottenuta principalmente dalla trasformazione delle fonti primarie 
+nelle centrali elettriche; si stanno diffondendo anche impianti domestici di produzione di 
+energia elettrica.  
+- Biomasse: frazione biodegradabile dei prodotti, rifiuti industriali e urbani e residui di 
+origine biologica provenienti dall'agricoltura (comprendente sostanze vegetali e animali), 
+dalla silvicoltura, dalla pesca e dalle industrie connesse (tra cui i principali sono legna, 
+pellet, scarti di legna, cippato ecc.) utilizzati come combustibile per il riscaldamento degli 
+ambienti, per la produzione di acqua calda o anche per cucinare.  
+
+PAGE 12
+12 
+ 
+- Energia solare: energia termica prodotta da impianti solari, può alimentare impianti 
+centralizzati o autonomi per produrre acqua calda e per il riscaldamento dell’abitazione o 
+essere trasformata in energia elettrica. 
+ 
+Impianto: serve più ambienti della casa tramite una rete di distribuzione. È genericamente 
+composto da un corpo centrale (un generatore di calore come la caldaia o un motore come 
+per le pompe di calor e) e una rete di distribuzione (tubazioni) che collega il corpo centrale 
+ai terminali (termosifoni, split…). Può essere centralizzato se serve più abitazioni o 
+autonomo se serve una sola abitazione 
+- per il riscaldamento: i più diffusi sono gli impianti condominiali centralizzati (incluso il 
+teleriscaldamento), gli autonomi a caldaia, le pompe di calore multisplit, gli impianti solari 
+termici. Alcuni impianti autonomi invece della caldaia usano termocamini, termostufe o 
+pompe di calore, collegati con canali zzazione ai termosifoni o altri terminali (ad es. 
+bocchettoni per l'aria calda). Un impianto può distribuire contemporaneamente 
+riscaldamento, condizionamento e acqua calda.  
+- per l’acqua calda : gli impianti per la produzione di acqua calda presentano 
+caratteristiche analoghe agli impianti di riscaldamento dell’abitazione. Il teleriscaldamento 
+solitamente fornisce sia il riscaldamento dell’abitazione che la produzione di acqua calda 
+sanitaria. Gli impianti solari e le pompe di calore possono alimentare sia  un impianto 
+centralizzato che autonomo per l'acqua calda. 
+- per il condizionamento : sono impianti che raffreddano più stanze dell’abitazione e 
+comprendono anche le pompe di calore multisplit. 
+ 
+Lampadine tradizionali: non sono più commercializzate dal 2010, ma sono ancora diffuse 
+nelle case. Sono di tue tipi: le lampadine a filamento (o a incandescenza) e le alogene di 
+vecchia generazione. 
+Una lampadina a filamento è la classica lampadina a incandescenza che funziona 
+riscaldando il filamento all’interno . Le lampadine alogene di vecchia generazione si 
+distinguono da quelle di nuova generazione perché costano meno, non sono a risparmio 
+energetico e sono in commercio da diversi anni. 
+Lampadine a risparmio energetico : nuovo tipo di lampadine di durata superi ore alle 
+lampadine tradizionali (hanno una vita media da cinque a dieci volte maggiore) che 
+consentono di risparmiare energia elettrica, consumando, a parità di luminosità, fino a oltre 
+dieci volte di meno. Dal 2010 hanno sostituito integralmente sul merca to le lampadine 
+tradizionali. 
+
+PAGE 13
+13 
+ 
+Pompe di calore: apparecchi che svolgono una doppia funzione: raffreddano l'aria in estate 
+e, invertendo il ciclo di funzionamento, la riscaldano in inverno. Le pompe di calore di ultima 
+generazione sono molto efficienti. Ne e sistono di varie potenze, da quelle in grado di 
+climatizzare un solo locale a quelle che possono climatizzare un'intera abitazione, in 
+sostituzione della caldaia tradizionale. In commercio è possibile trovare anche gli 
+scaldacqua a pompa di calore. 
+Sistema unico o prevalente  (di riscaldamento, di riscaldamento dell’acqua, di 
+condizionamento): dotazione (impianto o apparecchio singolo) che la famiglia ha dichiarato 
+come unica o la più utilizzata in caso di presenza di più dotazioni. 
+Spesa media: la spesa media per consumi energetici è calcolata dividendo la spesa totale 
+delle famiglie per il numero di famiglie residenti in Italia. 
+Spesa media effettiva : è calcolata dividendo la spesa totale delle famiglie relativa a 
+ciascuna fonte energetica per il numero di famiglie che l'hanno effettivamente acquistata. 
+ 
+8. Contatti 
+ 
+Referenti tematici 
+Direzione Centrale per le Statistiche Ambientali e Territoriali  - Servizio Ambiente, territorio 
+e registro delle unità geografiche e territoriali: 
+Giovanna Tagliacozzo (email: tagliaco@istat.it) 
+Emilia Arcaleni (email: arcaleni@istat.it) 
+ 
+Referenti metodologici 
+Direzione centrale per la Metodologia e il Disegno dei Processi Statistici - Servizio 
+Disegno dei processi e supporto ai sistemi dei registri: 
+Claudia De Vitiis (email: devitiis@istat.it) 

@@ -1,0 +1,27 @@
+{
+  "year": 2021,
+  "outcome": "electricity",
+  "grouping_factors": [
+    "location",
+    "dwelling_type",
+    "archetype"
+  ],
+  "original_tukey_factors": [
+    "location",
+    "dwelling_type"
+  ],
+  "selected_k": 3,
+  "range_sensitivity": {
+    "9": 2,
+    "12": 3,
+    "16": 4,
+    "24": 4
+  },
+  "training_cells": 48,
+  "original_tukey_training_groups": 5,
+  "test_n": 7896,
+  "unsupported_test": 0,
+  "test_rmse": 674.6443664976201,
+  "selection": "Maximum normalized chord gap on training weighted cell-mean WCSS, k=1..12",
+  "caution": "Exploratory elbow candidate, not proof of a unique optimum. Cell variance explained is not household variance explained. Pairwise tests are model-based, not a full survey-design correction."
+}

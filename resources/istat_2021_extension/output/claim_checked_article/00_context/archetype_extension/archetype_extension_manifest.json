@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-20",
+  "owner": "context_evidence",
+  "scope": "E1primaryarchetypeandarchivedassignmentpacket",
+  "requested_model": "gpt-6.1-sol",
+  "confirmed_model": "unknown",
+  "files": [
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\archived_four_archetype_assignments.csv",
+      "sha256": "be8bc93ad8f5143f6393e9b270840a7e5a2edd90724edb60b2fb624680b09e2f",
+      "bytes": 1639570
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\assignment_mapping_schema.json",
+      "sha256": "393169b391d9f099681ed9c54b7e2c0e6250310b4814b75fe560677eec4bd178",
+      "bytes": 4576
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\assignment_packet_checks.json",
+      "sha256": "76b7a474212c3d7efa3e6b38d94c90899e35f2e9b3ce274f708bf6d85cb2b2fd",
+      "bytes": 706
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\E1_READY.md",
+      "sha256": "598687adea1ccb189ee1bd7dc9440c1f547457eb16e0c9fc4878f90f89e93a3f",
+      "bytes": 2791
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\local_assignment_audit.json",
+      "sha256": "bb7a79b0f5cbc880cd532a0028c127af95a0e5937c8787ca7bc1578237d9e099",
+      "bytes": 24993
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_complete_text.txt",
+      "sha256": "1c85768cf431ff61fa895117fa3ad11ad6fad8200a4a6366c68944c4b34d13fa",
+      "bytes": 86960
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_01.png",
+      "sha256": "b6495e58e3a0fa293b88c1ae5a018299f64f51e1eb9317af49027ea3c2cf0136",
+      "bytes": 253161
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_02.png",
+      "sha256": "aa8f8165f097cb00664307daa69c8cb3c9c5351bc19df776d04ba35a75728c56",
+      "bytes": 419755
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_03.png",
+      "sha256": "f0ae00eefedde3cbba18fd06a40069d7756a0f67e32bbb03ba2f446e8b37bf0b",
+      "bytes": 405677
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_04.png",
+      "sha256": "bfb126d2dbcbf70a18640e980dea354278c2d58397ca09b9f5292c26bfbae8c4",
+      "bytes": 294408
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_05.png",
+      "sha256": "64356191cc54bc97b3c98164295e6f4c852c589db12a43461d9d79fdcb025f5e",
+      "bytes": 395048
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_06.png",
+      "sha256": "8725ebc1b7b612232c61449004ac1fd62391547158214471bf9357a082f7de0a",
+      "bytes": 273850
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_07.png",
+      "sha256": "419e48df2b0a328ab415fa0da4561f4ad113adcd3691bf17902caaaf3541dac0",
+      "bytes": 362034
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_08.png",
+      "sha256": "9631a16ac0a39a8758dae5948b059d335d377f53923ab714ac73438365e8ea29",
+      "bytes": 235549
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_09.png",
+      "sha256": "ef757f29522f74aca8fceab2f2d156ead9210b5a67da550f52e5d7138bc91c8a",
+      "bytes": 389397
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_10.png",
+      "sha256": "75796587f3e596372da375f8186042e20817e794dcf91057a30da7db85cbb862",
+      "bytes": 409470
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_11.png",
+      "sha256": "8cb8af7b26567d252aa7010e490ea5dfcbdff140b2d872b25e5f8c92969a5153",
+      "bytes": 67668
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_12.png",
+      "sha256": "b10a5d6fc7d7896d66ea959088b2dbc3def55a4bb2a7f28e298c014cdae65b02",
+      "bytes": 289961
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_13.png",
+      "sha256": "3586b1588ce2bcc08455efbb9cc4b209fa1ab406d84b28898ecfe7a2edf767cc",
+      "bytes": 387910
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_14.png",
+      "sha256": "02efba09a68bb0a2d1d84c9e9e67c61349142dbcb9a354fec9c61ae389b870ea",
+      "bytes": 169393
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_page_15.png",
+      "sha256": "0205dc52c86f05b9c5783b43196c6ecbc6272251840658c20607c196b5507b0d",
+      "bytes": 387667
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_pdf_metadata.json",
+      "sha256": "b5c45fb6ece91a61e71c87353525cd03c535cb8dd65e07ef7d5b2175c363f4ed",
+      "bytes": 1182
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\primary_sources_and_local_inventory.json",
+      "sha256": "2a88bafde0a4dbf2e9189b0dea688139508edee3ee5442b4433f03d1744c965d",
+      "bytes": 9305
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\published_appendix_A_group_lookup.csv",
+      "sha256": "594bee8075a7f7ee4f21acf13a4ed086edb44c6454085c8ac75b7d0582ba2225",
+      "bytes": 8427
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\published_archetype_specification.md",
+      "sha256": "61fa5c2b31137b6459d267b4714c66801dcd35b6e305fa43ce5d79432638f207",
+      "bytes": 13235
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\survey_control_eligibility_audit.json",
+      "sha256": "134d9a0a6ba5f05b94e2b67dcf5a7b3301d566e1d5adad15125c382645d19198",
+      "bytes": 2981
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\survey_control_routing.md",
+      "sha256": "8caac66f0a81662e9fc63d0f58da3089d180cfc776c40173c92249cc2ccd8ed6",
+      "bytes": 4408
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\verify_assignment_packet.py",
+      "sha256": "68b0ed59af5a2caed31f9e13e0c4a74180f352a335e44078f89b5c844c0c7d33",
+      "bytes": 2648
+    }
+  ]
+}

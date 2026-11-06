@@ -1,0 +1,2112 @@
+{
+  "version": "v07",
+  "draft_filename": "article_claims_v07.md",
+  "draft_sha256": "9aa90444db044ab1480872fbf496db171f359e39e10cf1207f76a4c586757df9",
+  "claim_ledger_filename": "claim_ledger_v07.json",
+  "claim_ledger_sha256": "a768e5d022bb117c5a185c8a40500bbac52387910167ad65d439d759d27dd468",
+  "claims": {
+    "LIT-001": {
+      "exact_claim": "Vivian et al. published ita-domes as a survey-informed Italian residential-stock model with regional resolution in 2026 CLIMA 2025 proceedings.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CONF-001",
+        "SRC-CLIMA2026"
+      ],
+      "locators": [
+        "CONF-001 | printed p1302; PDF p2; title/authors/abstract; DOI 10.1007/978-3-032-10546-2_123",
+        "SRC-CLIMA2026 | Springer chapter landing page, Cite this paper, First Online 1 April 2026"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "None; author verified target pages through conference evidence inventory.",
+      "permitted_manuscript_wording": "The 2026 CLIMA chapter presents ita-domes for survey-informed Italian residential-stock modelling at regional resolution."
+    },
+    "LIT-002": {
+      "exact_claim": "Prataviera et al. (2022) already reconstruct heating operation from three ISTAT time bands, use randomized profiles with EUReCA, and explicitly perturb HVAC start-up by a discrete uniform ±2 h shift because survey timing is unknown; their Verona hourly comparison has a district-heat measurement boundary distinct from this fixed-case experiment.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-UA2022"
+      ],
+      "locators": [
+        "SRC-UA2022 | full primary article Section 3.1.1 p6, start-up-time bullet and Table 1 p7; Section 3.3.1 p11; Section 4.1.2 p12; DOI 10.1016/j.apenergy.2022.118691"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "None; maintain this precedent in novelty wording.",
+      "permitted_manuscript_wording": "The 2022 survey-informed EUReCA study already randomized three-band schedules and tested a ±2-hour start-up shift; this study isolates three placements for one fixed encoded-duration case."
+    },
+    "LIT-003": {
+      "exact_claim": "MODENA used ISTAT 2013 and EUReCA and examined weather, envelope, and heating-technology scenarios with aggregate comparisons before the selected extension.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-MODENA2024"
+      ],
+      "locators": [
+        "SRC-MODENA2024 | full primary BSA 2024 chapter Sections 2.2–3.2 pp158–163"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "None; prevent climate/stock scenario novelty overclaim.",
+      "permitted_manuscript_wording": "Earlier MODENA work had already examined national residential-stock scenarios using ISTAT and EUReCA."
+    },
+    "LIT-004": {
+      "exact_claim": "Khajedehi et al. (2025) identified Italian demographic user archetypes and probabilistic dwelling links from survey evidence; archetype discovery is not a new contribution of this study.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "ARCH2025-FULL",
+        "ARCH-SPEC"
+      ],
+      "locators": [
+        "ARCH2025-FULL | complete primary publisher PDF pp3–14, §§3.1–3.3, 4.1–4.4, 6, Appendix A; SHA256 8995443d5c1b92313730c75c99512f94122aac4f8e0a79b4fe00bca5b269aae2",
+        "ARCH-SPEC | 00_context/archetype_extension/published_archetype_specification.md, demographic definitions and behaviour/dwelling sections"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "None for the paper's reported four-class identification; retain the separate local-assignment qualification in DAT-006.",
+      "permitted_manuscript_wording": "The published 2025 study identified four demographic user groups and explored probabilistic dwelling linkage; the present study implements an archived article-consistent assignment rather than discovering those groups."
+    },
+    "GAP-001": {
+      "exact_claim": "The selected respondent's reported mean winter-day system operating hours in three eight-hour bands do not identify unique within-band times. In this model those durations are encoded as hours at a 22°C high setpoint, not as a constraint on actual positive heating-load hours.",
+      "kind": "gap",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "CONF-M04",
+        "CODE-GRINS-ENDUSE",
+        "DATA-INPUT-AUDIT",
+        "ISTAT-Q2013",
+        "RAW-VERIFY"
+      ],
+      "locators": [
+        "CONF-M04 | printed p1304; PDF p4; final paragraph on morning/afternoon/evening hours",
+        "CODE-GRINS-ENDUSE | C:/Works/GRINS/GRINS-Tool/classes/EndUse.py lines 643–656, create_random_prof/create_prof",
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json selected_survey_response q_3_11A/B/C=4/4/1",
+        "ISTAT-Q2013 | istat/ECH_2013_IT/METADATI/ECH_Questionario_Anno 2013.pdf pp41–42, questions 3.11_A/B/C, mean winter-day hours and band endpoints",
+        "RAW-VERIFY | 00_context/survey_schedule_verification.json records.raw nprog3523 and bands"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "None for this identifiability statement; preserve raw/compact response provenance and avoid claims of observed timing.",
+      "permitted_manuscript_wording": "Mean reported hours do not identify within-band switching; prior work already studied timing uncertainty, and this fixed case encodes selected placements as high-setpoint periods."
+    },
+    "GAP-002": {
+      "exact_claim": "The CLIMA national annual final-energy comparison does not establish hourly or Padova household heating accuracy for this illustrative sensitivity pilot.",
+      "kind": "gap",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CONF-V01",
+        "CONF-W01",
+        "VAL-PROTOCOL"
+      ],
+      "locators": [
+        "CONF-V01 | printed pp1306–1307; PDF pp6–7; Section 4.1/Table 3",
+        "CONF-W01 | printed p1306; PDF p6; Section 3.3 partial historic weather coverage",
+        "VAL-PROTOCOL | 03_methods/validation_protocol.md Sections 3–4"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Validation owner: identify compatible independent meter series; otherwise retain missing-validation marker.",
+      "permitted_manuscript_wording": "The published aggregate check cannot validate the present dwelling-scale hourly output."
+    },
+    "NOV-001": {
+      "exact_claim": "The candidate contribution is a bounded, reproducible comparison of three contiguous placements preserving each of one respondent's 4/4/1 encoded high-setpoint durations within their respective bands for one assumed dwelling and four coordinate weather exposures; novelty of this exact fixed-case contrast remains provisional in light of earlier three-band randomization and ±2 h startup perturbations.",
+      "kind": "novelty",
+      "evidence_class": "hypothesis",
+      "status": "unverified",
+      "source_ids": [
+        "SRC-UA2022",
+        "RQ-FREEZE",
+        "LIT-SEARCH"
+      ],
+      "locators": [
+        "SRC-UA2022 | Section 3.1.1 p6 startup shift and three-band reconstruction; Table 1 p7",
+        "RQ-FREEZE | 01_plan/research_questions.md fixed respondent/placement contrast",
+        "LIT-SEARCH | 02_evidence/literature_search_log.md targeted search limits"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature owner: retain targeted rather than exhaustive novelty boundary; author: describe exact experimental contrast without first-use language.",
+      "permitted_manuscript_wording": "We test a specific fixed-respondent, within-band placement contrast; prior studies already modeled survey-derived timing uncertainty."
+    },
+    "RQ-001": {
+      "exact_claim": "For one illustrative dwelling, selected Veneto response and Padova-coordinate TMY, the predeclared comparison is annual useful sensible heating and maximum hourly load under seeded, earliest and latest contiguous placements of the same 4/4/1 encoded high-setpoint hours; the v5 conditional model comparison passed the original independent scope-limited review.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "partially supported",
+      "source_ids": [
+        "RQ-FREEZE",
+        "ISTAT-Q2013",
+        "CODE-GRINS-ENDUSE",
+        "RUN-PADOVA-V5",
+        "RUN-PADOVA-V5",
+        "AUTHOR-V5",
+        "INDEPENDENT-V5",
+        "AE-RQ-INDEX"
+      ],
+      "locators": [
+        "RQ-FREEZE | 01_plan/research_questions.md primary question and fixed-case scope",
+        "ISTAT-Q2013 | istat/ECH_2013_IT/METADATI/ECH_Questionario_Anno 2013.pdf pp41–43",
+        "CODE-GRINS-ENDUSE | C:/Works/GRINS/GRINS-Tool/classes/EndUse.py lines 593–625, 643–656",
+        "RUN-PADOVA-V5 | 05_simulations/climate_campaign_v5/Padova/seeded_hourly.csv, early_hourly.csv, late_hourly.csv and summary.json; per-file SHA256 in summary/completion_manifest",
+        "RUN-PADOVA-V5 | 05_simulations/climate_campaign_v5/Padova/full_step_balance_checks.json, surface_forcing_hourly.csv, surface_forcing_parameters.json and completion_manifest.json",
+        "AUTHOR-V5 | 06_claim_drafts/author_v5_check_for_v03.json independent EPW/CSV/paired/replay arithmetic",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json direct 20-case state/accounting/peak audit",
+        "AE-RQ-INDEX | 01_plan/archetype_extension/research_questions.md, current primary RQ-003 and linked original RQ-001/002 hierarchy"
+      ],
+      "outputs": [
+        "05_simulations/climate_campaign_v5/Padova/summary.json",
+        "06_claim_drafts/author_v5_check_for_v03.json"
+      ],
+      "dependencies_next_action_owner": "Original scope-limited review04/closure completed; current prose must retain one-case conditional boundary.",
+      "permitted_manuscript_wording": "We compare three equal-duration modeled high-setpoint placements in one illustrative Padova-coordinate case; v5 numerical contrasts are conditional model outputs under review."
+    },
+    "RQ-002": {
+      "exact_claim": "The same fixed dwelling, Veneto response, 22/19°C mapping and climate-E seasonal mask are compared under four consistently sourced coordinate TMYs (Padova, Bolzano, Roma, Palermo); v5 matched runs provide independently reviewed conditional weather-exposure contrasts, not local population or climate-variable causal effects.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "partially supported",
+      "source_ids": [
+        "RQ-FREEZE",
+        "CLIMATE-INPUTS-V2",
+        "CLIMATE-DESCRIPTORS",
+        "RUN-CLIMATE-V5",
+        "RUN-CLIMATE-V5",
+        "AUTHOR-V5",
+        "INDEPENDENT-V5",
+        "AE-RQ-INDEX"
+      ],
+      "locators": [
+        "RQ-FREEZE | 01_plan/research_questions.md secondary weather question",
+        "CLIMATE-INPUTS-V2 | 05_simulations/climate_inputs_v2/acquisition_manifest.json acquired four-site weather hashes",
+        "CLIMATE-DESCRIPTORS | 04_analysis/climate_descriptors_v2.csv descriptors",
+        "RUN-CLIMATE-V5 | 04_analysis/paired_schedule_contrasts_v5.csv twelve predeclared primary cases and same-site seeded denominators",
+        "RUN-CLIMATE-V5 | 05_simulations/climate_campaign_v5/{Padova,Bolzano,Roma,Palermo}/summary.json, completion_manifest.json and hourly CSVs",
+        "AUTHOR-V5 | 06_claim_drafts/author_v5_check_for_v03.json independent integration/hash/paired table checks",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json independently reconstructed v5 rows, residuals and peak contexts",
+        "AE-RQ-INDEX | 01_plan/archetype_extension/research_questions.md, current primary RQ-003 and linked original RQ-001/002 hierarchy"
+      ],
+      "outputs": [
+        "04_analysis/climate_descriptors_v2.csv",
+        "04_analysis/paired_schedule_contrasts_v5.csv",
+        "06_claim_drafts/author_v5_check_for_v03.json"
+      ],
+      "dependencies_next_action_owner": "Original scope-limited review04/closure completed; retain fixed-input weather-exposure framing.",
+      "permitted_manuscript_wording": "The same illustrative case was exposed to four coordinate TMYs with paired schedules; differences are conditional model contrasts, not estimates for each city's housing stock."
+    },
+    "DAT-001": {
+      "exact_claim": "Raw Istat 2013 response nprog 3523 and compact row id 3523 agree on Veneto code 5 and mean winter-day morning/afternoon/night reported heating hours 4/4/1; the compact row is the lowest eligible id under the declared pilot filter.",
+      "kind": "result",
+      "evidence_class": "survey response",
+      "status": "supported",
+      "source_ids": [
+        "DATA-INPUT-AUDIT",
+        "DATA-AUDIT-SCRIPT",
+        "RAW-VERIFY",
+        "ISTAT-Q2013",
+        "ISTAT-REG2013"
+      ],
+      "locators": [
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json selected_survey_response, eligible_veneto_count=372, selection, survey SHA256 a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f",
+        "DATA-AUDIT-SCRIPT | 04_analysis/audit_inputs.py survey filter/selection",
+        "RAW-VERIFY | 00_context/survey_schedule_verification.json records.raw/compact, field_match_checks, bands; raw SHA256 500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+        "ISTAT-Q2013 | istat/ECH_2013_IT/METADATI/ECH_Questionario_Anno 2013.pdf pp40–43, questions 3.10–3.13",
+        "ISTAT-REG2013 | istat/ECH_2013_IT/METADATI/Classificazioni/ECH_Classificazione_Anno 2013_var89.html, code 5 Veneto"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Simulation owner: document raw-blank to compact-zero preprocessing and verify it does not affect this run; author: retain reported-mean wording.",
+      "permitted_manuscript_wording": "An illustrative Veneto survey response reports 4/4/1 mean winter-day on-hours in the three bands; the hourly repetition is modeled."
+    },
+    "DAT-002": {
+      "exact_claim": "The Padova-coordinate EPW used in the initial and corrected pilot is byte-identical (SHA256 390ead08…) to a newly retrieved PVGIS TMY EPW for 45.408°N, 11.873°E; provider metadata specify ERA5 meteorology, SARAH3 radiation, 2005–2023 selection window and horizon inclusion.",
+      "kind": "result",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "CLIMATE-INPUTS-V2",
+        "CLIMATE-METADATA-V2",
+        "DATA-INPUT-AUDIT"
+      ],
+      "locators": [
+        "CLIMATE-INPUTS-V2 | 05_simulations/climate_inputs_v2/acquisition_manifest.json Padova JSON/EPW API URL, retrieval timestamp and hashes",
+        "CLIMATE-METADATA-V2 | 05_simulations/climate_inputs_v2/audited_metadata.json Padova inputs.meteo_data and tmy_months_selected",
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json original local Padova EPW hash"
+      ],
+      "outputs": [
+        "05_simulations/climate_inputs_v2/Padova.epw",
+        "05_simulations/climate_inputs_v2/Padova.json"
+      ],
+      "dependencies_next_action_owner": "Preserve acquisition hashes and current v5 IR/per-surface code paths; do not describe provenance alone as validation of building-energy output.",
+      "permitted_manuscript_wording": "Padova's TMY matches the documented PVGIS acquisition; its opaque sky-cover field is missing and requires explicit handling before load simulation."
+    },
+    "DAT-003": {
+      "exact_claim": "The planned dwelling is an assumed 80 m², 240 m³ rectangular zone with predeclared envelope, glazing, infiltration and internal gains, not a sampled or measured Padova dwelling.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "SIM-PROTOCOL"
+      ],
+      "locators": [
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md Physical model and departures; 10×8×3 m, U-values, gains and ACH"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Original scope-limited final closure completed; later archetype runs must preserve and recheck the same physical configuration.",
+      "permitted_manuscript_wording": "An illustrative single-zone dwelling is used to isolate schedule placement under fixed physical assumptions."
+    },
+    "DAT-004": {
+      "exact_claim": "The inspected Padova GIS and related local files have not yielded a compatible independently documented building meter time series for this pilot.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "partially supported",
+      "source_ids": [
+        "DATA-INPUT-AUDIT",
+        "VAL-PROTOCOL"
+      ],
+      "locators": [
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json GIS_inventory property keys for LivingLab and PaduaDigital files",
+        "VAL-PROTOCOL | 03_methods/validation_protocol.md Section 3 empirical validation"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Validation owner: seek meter provenance/access if empirical validation becomes feasible.",
+      "permitted_manuscript_wording": "The inspected local files did not identify an independently documented meter series compatible with this pilot."
+    },
+    "MET-001": {
+      "exact_claim": "Current GRINS EndUse.py converts each reported band duration into one seeded contiguous binary profile segment, then maps binary 1/0 to assumed 22/19°C high/setback setpoints for this timer-selected respondent; positive heating is permitted at the setback setpoint.",
+      "kind": "method",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "CODE-GRINS-ENDUSE",
+        "ISTAT-Q2013",
+        "DISPATCH-DIAGNOSTIC"
+      ],
+      "locators": [
+        "CODE-GRINS-ENDUSE | C:/Works/GRINS/GRINS-Tool/classes/EndUse.py lines 593–625 and 643–656, SHA256 cf7442f0b2ddb39b338c2047a1b95016d3a4d246604da15cd49c9a823cc436d5",
+        "ISTAT-Q2013 | questionnaire p43, question 3.13 option _2 timer",
+        "DISPATCH-DIAGNOSTIC | 07_reviews/reviewer_01/independent_checks.json positive heat at 19°C in archived outputs; figures quarantined"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Simulation owner: test extracted routine and record exact resulting 24 h profiles.",
+      "permitted_manuscript_wording": "The inspected source places a contiguous high-setpoint segment in each reported time band and allows heating at the lower 19°C setting outside it."
+    },
+    "MET-002": {
+      "exact_claim": "The three modeled alternatives preserve the same 4/4/1 encoded daily high-setpoint hours in their respective bands, varying only contiguous placement; they do not preserve the duration of actual heating delivery at either setpoint.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "SIM-PROTOCOL",
+        "CODE-GRINS-ENDUSE",
+        "RUN-PADOVA-V5",
+        "INDEPENDENT-V5"
+      ],
+      "locators": [
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md current v5 alternatives and profile invariants",
+        "CODE-GRINS-ENDUSE | C:/Works/GRINS/GRINS-Tool/classes/EndUse.py lines 593–625 and 643–656 source-derived 22/19°C mapping",
+        "RUN-PADOVA-V5 | 05_simulations/climate_campaign_v5/Padova/summary.json daily_on_profile and primary hourly files",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_04/independent_recheck.json source/profile checks"
+      ],
+      "outputs": [
+        "05_simulations/climate_campaign_v5/Padova/summary.json",
+        "07_reviews/reviewer_04/independent_recheck.json"
+      ],
+      "dependencies_next_action_owner": "Author/prose worker: use v5 input profiles and label preserved *high-setpoint* duration, not positive heating-operation duration.",
+      "permitted_manuscript_wording": "The v5 placements preserve 4/4/1 encoded 22°C high-setpoint hours across the three bands, while actual positive heating duration may differ."
+    },
+    "MET-003": {
+      "exact_claim": "For the bounded ideal sensible 1C case, the local single-commit adapter evaluates candidates from one previous state and commits one accepted hourly state. Independent direct-transition and 175,200-hour equation checks support this narrow state correction; they do not validate the weather forcing or physical annual effects.",
+      "kind": "method",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "CORRECTION-PROTOCOL-V3",
+        "CORRECTION-CODE-V3",
+        "RUN-PADOVA-V5",
+        "INDEPENDENT-V5"
+      ],
+      "locators": [
+        "CORRECTION-PROTOCOL-V3 | 03_methods/correction_protocol_v3.md original bounded single-commit method and scope",
+        "CORRECTION-CODE-V3 | 04_analysis/single_commit_1c.py unchanged one-old-state/one-commit module, SHA256 e549b4e5645ad8ae159fddf644d225d28622e1495f6fd64768c5242389b82c16",
+        "RUN-PADOVA-V5 | 05_simulations/climate_campaign_v5/Padova/single_commit_1c.py and completion_manifest.json retained source hash",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_04/independent_recheck.json actual 20-file state/forcing check"
+      ],
+      "outputs": [
+        "05_simulations/climate_campaign_v5/Padova/single_commit_1c.py",
+        "05_simulations/climate_campaign_v5/Padova/completion_manifest.json"
+      ],
+      "dependencies_next_action_owner": "Original scope-limited final closure completed; describe only this implementation-specific state verification.",
+      "permitted_manuscript_wording": "The study-local single-commit 1C stepper and v5 per-surface forcing passed bounded independent consistency checks under the stated sky and solar-time approximations."
+    },
+    "MET-004": {
+      "exact_claim": "Annual useful sensible heating is defined as Σ_t max(P_t,0)Δt/1000 kWh at Δt=1 h and peak as max_t max(P_t,0)/1000 kW, with P_t in W.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "SIM-PROTOCOL",
+        "RUN-CLIMATE-V5",
+        "AUTHOR-V5",
+        "INDEPENDENT-V5"
+      ],
+      "locators": [
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md current v5 useful-sensible demand and 1 h maximum definitions",
+        "RUN-CLIMATE-V5 | 04_analysis/paired_schedule_contrasts_v5.csv annual_sensible_heating_kWh and peak_sensible_heating_kW",
+        "AUTHOR-V5 | 06_claim_drafts/author_v5_check_for_v03.json direct CSV integration/peak arithmetic",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_04/independent_recheck.json independently recomputed all 20 annual sums/maxima"
+      ],
+      "outputs": [
+        "04_analysis/paired_schedule_contrasts_v5.csv",
+        "06_claim_drafts/author_v5_check_for_v03.json",
+        "07_reviews/reviewer_04/independent_recheck.json"
+      ],
+      "dependencies_next_action_owner": "No pending reviewer-02 task. Prose worker: use the declared 1 h positive-load integration and same-site seeded denominators; retain the seasonal-maximum interpretation limit.",
+      "permitted_manuscript_wording": "Annual useful sensible heating sums positive hourly zone load; the reported peak is the largest positive hourly zone load in the modeled year."
+    },
+    "MET-005": {
+      "exact_claim": "The v5 20-case campaign passed direct transition, source-profile, repeat/warm-up and complete air/surface/mass state checks: all 175,200 exported hours have exact old-state continuity and no residual above 1e-6 W; separate independent summation orders find maxima below 3×10⁻¹⁰ W. These tests verify this bounded numerical implementation, not measured accuracy.",
+      "kind": "method",
+      "evidence_class": "simulation output",
+      "status": "supported",
+      "source_ids": [
+        "SURFACE-PROTOCOL-V5",
+        "SURFACE-CODE-V5",
+        "SURFACE-FIXTURE-V5",
+        "SURFACE-AUDIT-V5",
+        "RUN-CLIMATE-V5",
+        "RUN-CLIMATE-V5",
+        "AUTHOR-V5",
+        "INDEPENDENT-V5",
+        "STATE-CHECK-V5",
+        "INDEPENDENT-V5"
+      ],
+      "locators": [
+        "SURFACE-PROTOCOL-V5 | 03_methods/surface_correction_protocol_v5.md pre-run equations, unchanged parameter and test scope",
+        "SURFACE-CODE-V5 | 04_analysis/surface_forcing_1c.py study-local per-surface SW/LW/glazing calculation, SHA256 24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+        "SURFACE-FIXTURE-V5 | 05_simulations/surface_forcing_v5_fixture_checks.json analytic component and order tests",
+        "SURFACE-AUDIT-V5 | 07_reviews/reviewer_03/v5_forcing_checks.json independent per-surface, perturbation, order and actual-solver forcing audit",
+        "RUN-CLIMATE-V5 | 04_analysis/paired_schedule_contrasts_v5.csv twelve predeclared primary cases and same-site seeded denominators",
+        "RUN-CLIMATE-V5 | 05_simulations/climate_campaign_v5/{Padova,Bolzano,Roma,Palermo}/summary.json, completion_manifest.json and hourly CSVs",
+        "AUTHOR-V5 | 06_claim_drafts/author_v5_check_for_v03.json independent integration/hash/paired table checks",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json independently reconstructed v5 rows, residuals and peak contexts",
+        "STATE-CHECK-V5 | 05_simulations/climate_campaign_v5/{Padova,Bolzano,Roma,Palermo}/full_step_balance_checks.json and checks.json",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_04/independent_recheck.json independent direct-file node residuals below 3e-10 W"
+      ],
+      "outputs": [
+        "04_analysis/independent_output_checks_v5.json",
+        "07_reviews/reviewer_03/independent_audit_v5.json"
+      ],
+      "dependencies_next_action_owner": "Original scope-limited review04/closure completed; keep numerical verification distinct from benchmark or measurement evidence.",
+      "permitted_manuscript_wording": "All v5 hourly node balances closed within the declared 1e-6 W tolerance; this is numerical verification, not measured heating accuracy."
+    },
+    "MET-006": {
+      "exact_claim": "Four same-provider PVGIS coordinate TMYs were characterized consistently and used with unchanged building, response and seasonal mask in the v5 corrected-forcing campaign. The active model path guards missing cloud and invalid wind access; Palermo's one negative wind record remains an unused-field exception, not a universal weather-quality pass.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "partially supported",
+      "source_ids": [
+        "CLIMATE-INPUTS-V2",
+        "CLIMATE-METADATA-V2",
+        "CLIMATE-DESCRIPTORS",
+        "WEATHER-PROTOCOL-V4",
+        "WEATHER-AUDIT-V4",
+        "RUN-CLIMATE-V5",
+        "RUN-CLIMATE-V5",
+        "AUTHOR-V5",
+        "INDEPENDENT-V5"
+      ],
+      "locators": [
+        "CLIMATE-INPUTS-V2 | 05_simulations/climate_inputs_v2/acquisition_manifest.json and raw EPWs",
+        "CLIMATE-METADATA-V2 | 05_simulations/climate_inputs_v2/audited_metadata.json",
+        "CLIMATE-DESCRIPTORS | 04_analysis/climate_descriptors_v2.csv",
+        "WEATHER-PROTOCOL-V4 | 03_methods/weather_correction_protocol_v4.md active-field, IR and time audit",
+        "WEATHER-AUDIT-V4 | 05_simulations/weather_forcing_v4/weather_forcing_audit.json",
+        "RUN-CLIMATE-V5 | 04_analysis/paired_schedule_contrasts_v5.csv twelve predeclared primary cases and same-site seeded denominators",
+        "RUN-CLIMATE-V5 | 05_simulations/climate_campaign_v5/{Padova,Bolzano,Roma,Palermo}/summary.json, completion_manifest.json and hourly CSVs",
+        "AUTHOR-V5 | 06_claim_drafts/author_v5_check_for_v03.json independent integration/hash/paired table checks",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json independently reconstructed v5 rows, residuals and peak contexts"
+      ],
+      "outputs": [
+        "04_analysis/climate_descriptors_v2.csv",
+        "04_analysis/paired_schedule_contrasts_v5.csv"
+      ],
+      "dependencies_next_action_owner": "Original scope-limited review04/closure completed; any future wind-dependent path must resolve Palermo's unused-field exception.",
+      "permitted_manuscript_wording": "Four consistently retrieved coordinate TMYs support conditional controlled weather exposures for this guarded fixed-ACH model."
+    },
+    "MET-007": {
+      "exact_claim": "Implementation checks, model benchmarks, empirical meter comparison, aggregate external checks and robustness must be reported as distinct evidentiary layers; no new empirical validation is part of the current pilot.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "VAL-PROTOCOL",
+        "VAL-MATRIX",
+        "SIM-PROTOCOL"
+      ],
+      "locators": [
+        "VAL-PROTOCOL | 03_methods/validation_protocol.md current v5 candidate disposition and evidence layers",
+        "VAL-MATRIX | 03_methods/validation_matrix.md current v5 output/validation matrix",
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md canonical current status and frozen-version chronology"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Validation owner: maintain one current v5 candidate status pointer and the absent benchmark/meter layers; later prose must not translate numerical verification into accuracy.",
+      "permitted_manuscript_wording": "The analysis reports verification separately from empirical validation; the latter remains unavailable for this case."
+    },
+    "RES-001": {
+      "exact_claim": "The CLIMA paper's Table 3 reports 2013/2014 national final-energy comparisons for six carriers; for example natural gas is 18,090 versus 18,073 ktoe in 2013 and 17,115 versus 15,151 ktoe in 2014 (model versus BEN).",
+      "kind": "result",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CONF-V01",
+        "CONF-NUM-CHECK"
+      ],
+      "locators": [
+        "CONF-V01 | printed p1307; PDF p7; Table 3 national final-energy totals",
+        "CONF-NUM-CHECK | 00_context/conference_evidence.md Table 3; recalculated deviations +0.0941% and +12.9628%"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "None for citation; no inheritance of these values as pilot results.",
+      "permitted_manuscript_wording": "The chapter reports national carrier comparisons, including a larger modeled natural-gas total than BEN in 2014."
+    },
+    "RES-002": {
+      "exact_claim": "The CLIMA paper presents modeled regional annual end-use and carrier totals as GWh maps, without regional measured comparator or uncertainty intervals in the figures.",
+      "kind": "result",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CONF-R01",
+        "CONF-R02"
+      ],
+      "locators": [
+        "CONF-R01 | printed p1308; PDF p8; Fig.1 four end-use panels and captions",
+        "CONF-R02 | printed p1309; PDF p9; Fig.2 four carrier panels and captions"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "None; keep as conference context only.",
+      "permitted_manuscript_wording": "The chapter maps modeled regional GWh totals by end use and carrier."
+    },
+    "RES-003": {
+      "exact_claim": "The v5 seeded, earliest and latest Padova inputs each preserve 4/4/1 modeled 22°C high-setpoint hours in the 05–13, 13–21 and 21–05 bands; actual positive-load hours may occur at the 19°C setback and are not fixed by these profile counts.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "supported",
+      "source_ids": [
+        "CODE-GRINS-ENDUSE",
+        "RUN-PADOVA-V5",
+        "AUTHOR-V5"
+      ],
+      "locators": [
+        "CODE-GRINS-ENDUSE | C:/Works/GRINS/GRINS-Tool/classes/EndUse.py lines 593–625, 643–656",
+        "RUN-PADOVA-V5 | 05_simulations/climate_campaign_v5/Padova/summary.json daily_on_profile and seeded/early/late hourly setpoints",
+        "AUTHOR-V5 | 06_claim_drafts/author_v5_posthoc_peak_check_v03.json source-setpoint partition arithmetic"
+      ],
+      "outputs": [
+        "05_simulations/climate_campaign_v5/Padova/summary.json",
+        "06_claim_drafts/author_v5_posthoc_peak_check_v03.json"
+      ],
+      "dependencies_next_action_owner": "Original scope-limited final closure completed; retain encoded-versus-observed distinction.",
+      "permitted_manuscript_wording": "All v5 alternatives keep the reported 4/4/1 durations as encoded high-setpoint periods, while heating may occur at setback."
+    },
+    "RES-004": {
+      "exact_claim": "In the checked v5 fixed Padova-coordinate case, seeded/early/late annual useful sensible heating is 9574.02/9659.63/9606.30 kWh and maximum hourly heating load is 10.050/10.253/9.838 kW. Relative to seeded, early changes annual heating by +0.894% and peak by +2.029%; late changes them by +0.337% and −2.103%. These are independently reviewed conditional model outputs, not observed energy or accuracy estimates.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "RUN-PADOVA-V5",
+        "RUN-PADOVA-V5",
+        "AUTHOR-V5",
+        "INDEPENDENT-V5",
+        "SURFACE-PROTOCOL-V5",
+        "SURFACE-CODE-V5",
+        "SURFACE-FIXTURE-V5",
+        "SURFACE-AUDIT-V5"
+      ],
+      "locators": [
+        "RUN-PADOVA-V5 | 05_simulations/climate_campaign_v5/Padova/seeded_hourly.csv, early_hourly.csv, late_hourly.csv and summary.json; per-file SHA256 in summary/completion_manifest",
+        "RUN-PADOVA-V5 | 05_simulations/climate_campaign_v5/Padova/full_step_balance_checks.json, surface_forcing_hourly.csv, surface_forcing_parameters.json and completion_manifest.json",
+        "AUTHOR-V5 | 06_claim_drafts/author_v5_check_for_v03.json independent EPW/CSV/paired/replay arithmetic",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json direct 20-case state/accounting/peak audit",
+        "SURFACE-PROTOCOL-V5 | 03_methods/surface_correction_protocol_v5.md pre-run equations, unchanged parameter and test scope",
+        "SURFACE-CODE-V5 | 04_analysis/surface_forcing_1c.py study-local per-surface SW/LW/glazing calculation, SHA256 24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+        "SURFACE-FIXTURE-V5 | 05_simulations/surface_forcing_v5_fixture_checks.json analytic component and order tests",
+        "SURFACE-AUDIT-V5 | 07_reviews/reviewer_03/v5_forcing_checks.json independent per-surface, perturbation, order and actual-solver forcing audit"
+      ],
+      "outputs": [
+        "04_analysis/paired_schedule_contrasts_v5.csv",
+        "05_simulations/climate_campaign_v5/Padova/seeded_hourly.csv",
+        "05_simulations/climate_campaign_v5/Padova/early_hourly.csv",
+        "05_simulations/climate_campaign_v5/Padova/late_hourly.csv",
+        "06_claim_drafts/author_v5_check_for_v03.json"
+      ],
+      "dependencies_next_action_owner": "Original scope-limited final closure completed; report conditional v5 fixed-case model outputs without observed-accuracy claims.",
+      "permitted_manuscript_wording": "Conditional v5 result: in this fixed Padova-coordinate model case, early/late placement changed annual useful heating by +0.894/+0.337% and maximum hourly load by +2.029/−2.103% relative to seeded."
+    },
+    "RES-005": {
+      "exact_claim": "In v5 matched fixed-input runs, early/late placements change annual useful sensible heating relative to same-site seeded by +0.894/+0.337% Padova, −0.098/+0.027% Bolzano, +2.033/+0.500% Roma, and +3.868/+0.981% Palermo. These are independently reviewed deterministic conditional weather-exposure contrasts, not population effects or causal attribution to a weather variable.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "RUN-CLIMATE-V5",
+        "RUN-CLIMATE-V5",
+        "AUTHOR-V5",
+        "INDEPENDENT-V5",
+        "SURFACE-PROTOCOL-V5",
+        "SURFACE-CODE-V5",
+        "SURFACE-FIXTURE-V5",
+        "SURFACE-AUDIT-V5"
+      ],
+      "locators": [
+        "RUN-CLIMATE-V5 | 04_analysis/paired_schedule_contrasts_v5.csv twelve predeclared primary cases and same-site seeded denominators",
+        "RUN-CLIMATE-V5 | 05_simulations/climate_campaign_v5/{Padova,Bolzano,Roma,Palermo}/summary.json, completion_manifest.json and hourly CSVs",
+        "AUTHOR-V5 | 06_claim_drafts/author_v5_check_for_v03.json independent integration/hash/paired table checks",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json independently reconstructed v5 rows, residuals and peak contexts",
+        "SURFACE-PROTOCOL-V5 | 03_methods/surface_correction_protocol_v5.md pre-run equations, unchanged parameter and test scope",
+        "SURFACE-CODE-V5 | 04_analysis/surface_forcing_1c.py study-local per-surface SW/LW/glazing calculation, SHA256 24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+        "SURFACE-FIXTURE-V5 | 05_simulations/surface_forcing_v5_fixture_checks.json analytic component and order tests",
+        "SURFACE-AUDIT-V5 | 07_reviews/reviewer_03/v5_forcing_checks.json independent per-surface, perturbation, order and actual-solver forcing audit"
+      ],
+      "outputs": [
+        "04_analysis/paired_schedule_contrasts_v5.csv",
+        "06_claim_drafts/author_v5_check_for_v03.json",
+        "07_reviews/reviewer_03/independent_audit_v5.json"
+      ],
+      "dependencies_next_action_owner": "Original scope-limited final closure completed; retain coordinate-weather and no-causal-variable limits.",
+      "permitted_manuscript_wording": "Conditional v5 result: same-case annual placement effects differ across four coordinate TMY exposures; they are not city housing-stock estimates."
+    },
+    "INT-001": {
+      "exact_claim": "Under one assumed dwelling, one respondent, three encoded placements and the declared native weather-time/annual-mean-sky convention, independently reviewed v5 outputs show placement-dependent annual useful-heating and maximum-hourly-load contrasts that differ by coordinate TMY. The comparison is descriptive and model-conditional; it does not identify a causal weather variable, an observed schedule, population effect, savings or measured accuracy.",
+      "kind": "interpretation",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "RUN-CLIMATE-V5",
+        "RUN-CLIMATE-V5",
+        "AUTHOR-V5",
+        "INDEPENDENT-V5",
+        "RQ-FREEZE",
+        "PEAK-CONTEXT-V5"
+      ],
+      "locators": [
+        "RUN-CLIMATE-V5 | 04_analysis/paired_schedule_contrasts_v5.csv twelve predeclared primary cases and same-site seeded denominators",
+        "RUN-CLIMATE-V5 | 05_simulations/climate_campaign_v5/{Padova,Bolzano,Roma,Palermo}/summary.json, completion_manifest.json and hourly CSVs",
+        "AUTHOR-V5 | 06_claim_drafts/author_v5_check_for_v03.json independent integration/hash/paired table checks",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json independently reconstructed v5 rows, residuals and peak contexts",
+        "RQ-FREEZE | 01_plan/research_questions.md predeclared estimands",
+        "PEAK-CONTEXT-V5 | 06_claim_drafts/author_v5_posthoc_peak_check_v03.json seasonal-start maximum diagnostic"
+      ],
+      "outputs": [
+        "04_analysis/paired_schedule_contrasts_v5.csv",
+        "06_claim_drafts/author_v5_check_for_v03.json"
+      ],
+      "dependencies_next_action_owner": "Final independent closure and prose worker: preserve one-case/four-weather conditional scope, native sky/time limits and no measured/causal inference.",
+      "permitted_manuscript_wording": "Under the stated single-dwelling, respondent, seasonal and weather-time assumptions, v5 paired outputs show conditional schedule-placement sensitivity across four coordinate TMYs; no population or accuracy conclusion follows."
+    },
+    "LIM-001": {
+      "exact_claim": "One unweighted 2013 Veneto response combined with Padova-coordinate weather does not represent Padova households, Veneto population outcomes, or the national residential stock.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "DATA-INPUT-AUDIT",
+        "RQ-FREEZE",
+        "SIM-PROTOCOL"
+      ],
+      "locators": [
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json selection and selected_survey_response",
+        "RQ-FREEZE | 01_plan/research_questions.md spatial inference boundary",
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md survey response and physical model"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "None; ensure abstract/conclusions state case boundary.",
+      "permitted_manuscript_wording": "Findings, when available, are conditional on one illustrative case and do not estimate a population mean."
+    },
+    "LIM-002": {
+      "exact_claim": "The proposed TMY pilot lacks an independently documented matching meter series, so technical pass or a modeled effect cannot establish measured heating accuracy.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "DAT-INPUT-AUDIT",
+        "VAL-PROTOCOL",
+        "CONF-V01"
+      ],
+      "locators": [
+        "DAT-INPUT-AUDIT | 04_analysis/input_audit.json GIS_inventory",
+        "VAL-PROTOCOL | 03_methods/validation_protocol.md empirical and aggregate layers",
+        "CONF-V01 | printed p1307; PDF p7; Table 3 national aggregate benchmark"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Validation owner: keep minimum dataset specification; author retain missing-validation language.",
+      "permitted_manuscript_wording": "Empirical heating accuracy has not been established for this pilot."
+    },
+    "LIM-003": {
+      "exact_claim": "Earliest and latest contiguous placements are constructed alternatives, neither observed schedule estimates nor proven upper/lower bounds on heating demand or peak across all admissible profiles.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "SIM-PROTOCOL",
+        "CODE-GRINS-ENDUSE"
+      ],
+      "locators": [
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md Accounting and uncertainty",
+        "CODE-GRINS-ENDUSE | C:/Works/GRINS/GRINS-Tool/classes/EndUse.py lines 643–656"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Author: avoid min/max uncertainty or confidence-bound language.",
+      "permitted_manuscript_wording": "Early and late placements sample two alternatives; they are not uncertainty bounds."
+    },
+    "LIM-004": {
+      "exact_claim": "The current GRINS and EUReCA checkouts have recorded revisions, but neither has been shown to be the exact conference executable/configuration; the pilot must be labelled a documented extension.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "CONF-A01",
+        "SIM-PROTOCOL",
+        "DATA-INPUT-AUDIT",
+        "CODE-GRINS-MAIN"
+      ],
+      "locators": [
+        "CONF-A01 | printed p1310; PDF p10; chapter repository availability statement",
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md Physical model and departures",
+        "DATA-INPUT-AUDIT | 04_analysis/input_audit.json revisions and source hashes",
+        "CODE-GRINS-MAIN | C:/Works/GRINS/GRINS-Tool/funcs/main_functions.py lines 792–806"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Simulation owner: freeze new adapter identity; author avoid reproduction wording.",
+      "permitted_manuscript_wording": "The new pilot extends the conference question under documented code and assumptions; it is not a reproduced conference run."
+    },
+    "LIM-005": {
+      "exact_claim": "The v5 no-cooling case reaches a maximum modeled Padova zone air temperature of 41.05°C, so it cannot support claims of summer comfort, realistic whole-year conditioned operation, or an appropriate cooling design.",
+      "kind": "limitation",
+      "evidence_class": "simulation output",
+      "status": "supported",
+      "source_ids": [
+        "RUN-PADOVA-V5",
+        "INDEPENDENT-V5",
+        "SIM-PROTOCOL"
+      ],
+      "locators": [
+        "RUN-PADOVA-V5 | 05_simulations/climate_campaign_v5/Padova/summary.json maximum_air_C and design.json cooling_upper_C=50",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json saved temperature maxima",
+        "SIM-PROTOCOL | 03_methods/simulation_protocol.md cooling-isolation boundary"
+      ],
+      "outputs": [
+        "05_simulations/climate_campaign_v5/Padova/summary.json"
+      ],
+      "dependencies_next_action_owner": "Methods owner: recompute maximum zone air temperature after corrected forcing; author: restrict any future statement to a model state, not observed comfort.",
+      "permitted_manuscript_wording": "Cooling is disabled; the modeled summer air temperature reaches about 41°C, so the analysis addresses heating only."
+    },
+    "MET-008": {
+      "exact_claim": "The study-local 1C state stepper is independently checked for one-old-state/one-commit transitions and all-hour node balances in v5; a separate per-surface and weather-input forcing gate now also passes for this bounded geometry. Neither layer is an independent building benchmark or empirical accuracy test.",
+      "kind": "method",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "CORRECTION-CODE-V3",
+        "STATE-CHECK-V5",
+        "SURFACE-PROTOCOL-V5",
+        "SURFACE-CODE-V5",
+        "SURFACE-FIXTURE-V5",
+        "SURFACE-AUDIT-V5"
+      ],
+      "locators": [
+        "CORRECTION-CODE-V3 | 04_analysis/single_commit_1c.py unchanged candidate/commit logic",
+        "STATE-CHECK-V5 | 05_simulations/climate_campaign_v5/{Padova,Bolzano,Roma,Palermo}/full_step_balance_checks.json",
+        "SURFACE-PROTOCOL-V5 | 03_methods/surface_correction_protocol_v5.md pre-run equations, unchanged parameter and test scope",
+        "SURFACE-CODE-V5 | 04_analysis/surface_forcing_1c.py study-local per-surface SW/LW/glazing calculation, SHA256 24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+        "SURFACE-FIXTURE-V5 | 05_simulations/surface_forcing_v5_fixture_checks.json analytic component and order tests",
+        "SURFACE-AUDIT-V5 | 07_reviews/reviewer_03/v5_forcing_checks.json independent per-surface, perturbation, order and actual-solver forcing audit"
+      ],
+      "outputs": [
+        "07_reviews/reviewer_03/independent_audit_v5.json",
+        "07_reviews/reviewer_03/v5_forcing_checks.json"
+      ],
+      "dependencies_next_action_owner": "Original scope-limited review04/closure completed; avoid general EUReCA validation language.",
+      "permitted_manuscript_wording": "The bounded v5 pilot separately checks its one-commit state solution and actual per-surface forcing."
+    },
+    "LIM-006": {
+      "exact_claim": "The original Padova v1 and climate v2 annual loads are retained only as defective-run provenance because the recursive hourly dispatcher failed node balance at hundreds of mode transitions; they cannot support physical sensitivity estimates.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "REVIEW-DIAGNOSTIC",
+        "CORRECTION-PROTOCOL-V3"
+      ],
+      "locators": [
+        "REVIEW-DIAGNOSTIC | 07_reviews/reviewer_01/dispatcher_diagnostic/state_balance_diagnostic.json seeded/early/late failure counts and residuals",
+        "CORRECTION-PROTOCOL-V3 | 05_simulations/climate_campaign_v3/Padova/correction_protocol_v3.md quarantine"
+      ],
+      "outputs": [
+        "07_reviews/reviewer_01/dispatcher_diagnostic/state_balance_diagnostic.json"
+      ],
+      "dependencies_next_action_owner": "Simulation owner: preserve archived files and labels; author: never reuse their effect magnitudes as scientific results.",
+      "permitted_manuscript_wording": "Archived dispatcher-based annual effects are excluded from scientific interpretation."
+    },
+    "RES-006": {
+      "exact_claim": "In the v5 Padova seeded output, the ideal heater has positive sensible load during 1323 of 2730 modeled 19°C setback calendar hours, delivering 2375.62 kWh there. This post-hoc descriptive partition illustrates that the fixed 4/4/1 high-setpoint duration does not fix positive-heating runtime; it is neither an observed operation record nor a primary endpoint.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "POSTHOC-V5",
+        "RUN-PADOVA-V5",
+        "AUTHOR-POSTHOC-V5",
+        "INDEPENDENT-V5"
+      ],
+      "locators": [
+        "POSTHOC-V5 | 04_analysis/posthoc_setpoint_partition_v5.csv Padova seeded19°C row",
+        "RUN-PADOVA-V5 | 05_simulations/climate_campaign_v5/Padova/seeded_hourly.csv hourly setpoints and sensible loads",
+        "AUTHOR-POSTHOC-V5 | 06_claim_drafts/author_v5_posthoc_peak_check_v03.json 36 partition rows recalculated",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json independently checked post-hoc partition"
+      ],
+      "outputs": [
+        "04_analysis/posthoc_setpoint_partition_v5.csv",
+        "06_claim_drafts/author_v5_posthoc_peak_check_v03.json"
+      ],
+      "dependencies_next_action_owner": "Final independent closure: confirm the raw v5 partition and post-hoc label; prose worker: keep modeled setpoint duration separate from observed operation.",
+      "permitted_manuscript_wording": "Post-hoc v5 model diagnostic: positive useful heating also occurs at the 19°C setback, so encoded high-setpoint hours do not equal heater runtime."
+    },
+    "RES-007": {
+      "exact_claim": "In v5 matched runs, early/late placements change maximum hourly sensible heating load relative to same-site seeded by +2.029/−2.103% Padova, 0/0% Bolzano, +8.326/+3.381% Roma and +5.969/+1.524% Palermo. The Bolzano maxima coincide at the modeled season-onset hour, so their zero paired peak differences do not demonstrate no effect of intraday timing.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "RUN-CLIMATE-V5",
+        "RUN-CLIMATE-V5",
+        "AUTHOR-V5",
+        "INDEPENDENT-V5",
+        "PEAK-CONTEXT-V5",
+        "INDEPENDENT-V5"
+      ],
+      "locators": [
+        "RUN-CLIMATE-V5 | 04_analysis/paired_schedule_contrasts_v5.csv twelve predeclared primary cases and same-site seeded denominators",
+        "RUN-CLIMATE-V5 | 05_simulations/climate_campaign_v5/{Padova,Bolzano,Roma,Palermo}/summary.json, completion_manifest.json and hourly CSVs",
+        "AUTHOR-V5 | 06_claim_drafts/author_v5_check_for_v03.json independent integration/hash/paired table checks",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json independently reconstructed v5 rows, residuals and peak contexts",
+        "PEAK-CONTEXT-V5 | 06_claim_drafts/author_v5_posthoc_peak_check_v03.json annual peak hour and adjacent setpoints",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json peak rows and preceding states"
+      ],
+      "outputs": [
+        "04_analysis/paired_schedule_contrasts_v5.csv",
+        "06_claim_drafts/author_v5_posthoc_peak_check_v03.json"
+      ],
+      "dependencies_next_action_owner": "Final independent closure: confirm all-site maxima and Bolzano season-onset context; prose worker: retain the annual maximum endpoint and avoid equipment-sizing or robust-ranking claims.",
+      "permitted_manuscript_wording": "Conditional v5 result: maximum hourly loads vary with placement in three exposures; Bolzano's equal maxima occur at the common imposed heating-season restart."
+    },
+    "MET-009": {
+      "exact_claim": "For the bounded v5 path, EPW missing cloud cover is bypassed using valid hourly horizontal IR to form effective sky temperature; the native model's annual mean of air-minus-sky is then applied through an explicit per-surface longwave and shortwave calculation. Independent actual-forcing, zero-solar, perturbation and order tests pass, subject to annual-mean and solar-time approximation limits.",
+      "kind": "method",
+      "evidence_class": "derived estimate",
+      "status": "partially supported",
+      "source_ids": [
+        "EPW-SPEC",
+        "WEATHER-PROTOCOL-V4",
+        "WEATHER-CODE-V4",
+        "WEATHER-AUDIT-V4",
+        "SURFACE-PROTOCOL-V5",
+        "SURFACE-CODE-V5",
+        "SURFACE-FIXTURE-V5",
+        "SURFACE-AUDIT-V5"
+      ],
+      "locators": [
+        "EPW-SPEC | https://bigladdersoftware.com/epx/docs/24-2/auxiliary-programs/energyplus-weather-file-epw-data-dictionary.html opaque sky cover 99 and horizontal IR 9999 missing codes; inspected EnergyPlus 24.2 field dictionary mirror",
+        "WEATHER-PROTOCOL-V4 | 03_methods/weather_correction_protocol_v4.md IR conversion/annual-mean and time convention",
+        "WEATHER-CODE-V4 | 04_analysis/ir_sky_forcing.py valid-IR scalar and active-path guard",
+        "WEATHER-AUDIT-V4 | 05_simulations/weather_forcing_v4/weather_forcing_audit.json",
+        "SURFACE-PROTOCOL-V5 | 03_methods/surface_correction_protocol_v5.md pre-run equations, unchanged parameter and test scope",
+        "SURFACE-CODE-V5 | 04_analysis/surface_forcing_1c.py study-local per-surface SW/LW/glazing calculation, SHA256 24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+        "SURFACE-FIXTURE-V5 | 05_simulations/surface_forcing_v5_fixture_checks.json analytic component and order tests",
+        "SURFACE-AUDIT-V5 | 07_reviews/reviewer_03/v5_forcing_checks.json independent per-surface, perturbation, order and actual-solver forcing audit"
+      ],
+      "outputs": [
+        "05_simulations/weather_forcing_v4/weather_forcing_audit.json",
+        "07_reviews/reviewer_03/v5_forcing_checks.json"
+      ],
+      "dependencies_next_action_owner": "Original scope-limited final closure completed; retain annual-mean sky and native solar-time limits.",
+      "permitted_manuscript_wording": "The v5 pilot uses valid horizontal IR and checked per-surface forcing under the documented annual-mean sky and native solar-time conventions."
+    },
+    "MET-010": {
+      "exact_claim": "The v3 manifests' historical SITE omission is preserved and annotated. The v5 runner records executable, launch working directory, full site/campaign argument vector, source/input/output hashes and refuses an existing completed destination; a separate seeded replay is byte-identical to the primary Padova hourly output and is not an additional scientific sample.",
+      "kind": "method",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "COMMAND-ADDENDUM",
+        "RUNNER-V5",
+        "RUN-PADOVA-V5",
+        "REPLAY-V5",
+        "REPLAY-CHECK-V5"
+      ],
+      "locators": [
+        "COMMAND-ADDENDUM | 05_simulations/recorded_command_addendum.md historical omission and non-overwrite rule",
+        "RUNNER-V5 | 04_analysis/run_climate_campaign_v5.py SITE/--campaign/replay arguments and output guard",
+        "RUN-PADOVA-V5 | 05_simulations/climate_campaign_v5/Padova/completion_manifest.json recorded command_argv/cwd/executable",
+        "REPLAY-V5 | 05_simulations/climate_campaign_v5_replay/Padova/completion_manifest.json and seeded_hourly.csv",
+        "REPLAY-CHECK-V5 | 05_simulations/v5_replay_interface_checks.json overwrite refusal and byte identity"
+      ],
+      "outputs": [
+        "05_simulations/climate_campaign_v5/Padova/completion_manifest.json",
+        "05_simulations/climate_campaign_v5_replay/Padova/completion_manifest.json",
+        "05_simulations/v5_replay_interface_checks.json"
+      ],
+      "dependencies_next_action_owner": "Methods owner: preserve complete replay/immutability discipline for any later run version; author: keep replay out of the 20-case scientific sample.",
+      "permitted_manuscript_wording": "V5 commands and source hashes are recorded, and a separate Padova seeded replay reproduces its primary hourly file byte-for-byte."
+    },
+    "LIM-007": {
+      "exact_claim": "All 66 annual executions before the v5 campaign, including the separately identified v4 seeded replay, are retained as diagnostic provenance but excluded from physical energy-effect interpretation: v1/v2 use the recursive state path, v3 consumes missing cloud cover, and v4 uses stale roof area/irradiance in native envelope preprocessing.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "RUN-INVENTORY",
+        "DISPATCH-DIAGNOSTIC",
+        "WEATHER-DIAGNOSTIC-R2",
+        "SURFACE-DIAGNOSTIC-R3",
+        "SIM-RESULTS"
+      ],
+      "locators": [
+        "RUN-INVENTORY | 05_simulations/run_inventory.csv version/status inventory",
+        "DISPATCH-DIAGNOSTIC | 07_reviews/reviewer_01/dispatcher_diagnostic/state_balance_diagnostic.json",
+        "WEATHER-DIAGNOSTIC-R2 | 07_reviews/reviewer_02/independent_audit.json sentinel/sky finding",
+        "SURFACE-DIAGNOSTIC-R3 | 07_reviews/reviewer_03/runtime_forcing_checks.json actual preprocessing/order defects",
+        "SIM-RESULTS | 04_analysis/simulation_results.md current quarantine and v5 status"
+      ],
+      "outputs": [
+        "05_simulations/run_inventory.csv",
+        "07_reviews/reviewer_03/runtime_forcing_checks.json"
+      ],
+      "dependencies_next_action_owner": "Methods/author: preserve archives and explicit version labels; original review04 established v5-only numerical provenance.",
+      "permitted_manuscript_wording": "Earlier local run versions were excluded after distinct state, sky-input and surface-forcing defects; the current conditional estimates come from v5 only."
+    },
+    "MET-011": {
+      "exact_claim": "A bounded local v5 preprocessing routine computes each external wall/roof's opaque shortwave and longwave terms from its own area, orientation, irradiance, material and radiative fields, and computes glazing shortwave only where glazed area is positive. Independent per-surface, zero-solar/zero-longwave, order-invariance and actual-solver-forcing tests pass for this case without changing physical/network parameters or the external checkout.",
+      "kind": "method",
+      "evidence_class": "derived estimate",
+      "status": "partially supported",
+      "source_ids": [
+        "SURFACE-PROTOCOL-V5",
+        "SURFACE-CODE-V5",
+        "SURFACE-FIXTURE-V5",
+        "SURFACE-AUDIT-V5",
+        "SURFACE-DIAGNOSTIC-R3",
+        "PROVENANCE-V5"
+      ],
+      "locators": [
+        "SURFACE-PROTOCOL-V5 | 03_methods/surface_correction_protocol_v5.md pre-run equations, unchanged parameter and test scope",
+        "SURFACE-CODE-V5 | 04_analysis/surface_forcing_1c.py study-local per-surface SW/LW/glazing calculation, SHA256 24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+        "SURFACE-FIXTURE-V5 | 05_simulations/surface_forcing_v5_fixture_checks.json analytic component and order tests",
+        "SURFACE-AUDIT-V5 | 07_reviews/reviewer_03/v5_forcing_checks.json independent per-surface, perturbation, order and actual-solver forcing audit",
+        "SURFACE-DIAGNOSTIC-R3 | 07_reviews/reviewer_03/runtime_forcing_checks.json v4 inherited roof values and order failure",
+        "PROVENANCE-V5 | 07_reviews/reviewer_03/v5_provenance_comparison.json unchanged design/network/inputs"
+      ],
+      "outputs": [
+        "07_reviews/reviewer_03/v5_forcing_checks.json",
+        "04_analysis/independent_surface_checks_v5.json",
+        "05_simulations/climate_campaign_v5/Padova/surface_forcing_hourly.csv"
+      ],
+      "dependencies_next_action_owner": "Original scope-limited review04/closure completed; later archetype runs require their own full forcing/state checks.",
+      "permitted_manuscript_wording": "A study-local per-surface preprocessing correction passed direct forcing and order checks for the tested 1C geometry."
+    },
+    "LIM-008": {
+      "exact_claim": "V5 replaces invalid missing-cloud input with valid hourly horizontal IR but retains the native annual mean of hourly air-minus-effective-sky temperature for longwave exchange, and native solar position at fixed UTC+1 interval-start labels without applying the EPW/JRC irradiation time offset. Hourly peak phase/ranking sensitivity to these approximations is not quantified.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "WEATHER-PROTOCOL-V4",
+        "WEATHER-CODE-V4",
+        "CODE-EURECA-WEATHER",
+        "JRC-TMY"
+      ],
+      "locators": [
+        "WEATHER-PROTOCOL-V4 | 03_methods/weather_correction_protocol_v4.md annual-mean method and index/offset audit",
+        "WEATHER-CODE-V4 | 04_analysis/ir_sky_forcing.py scalar construction",
+        "CODE-EURECA-WEATHER | C:/Works/EUReCA/EUReCA/eureca_building/weather.py lines 195–206 native solar-position indexing",
+        "JRC-TMY | https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/pvgis-5-tools/pvgis-typical-meteorological-year-tmy-generator_en irradiance offsets/local-hour EPW convention"
+      ],
+      "outputs": [
+        "05_simulations/weather_forcing_v4/weather_forcing_audit.json"
+      ],
+      "dependencies_next_action_owner": "Author: retain this limit alongside original and new hourly-peak interpretations; future phase/longwave analysis requires a separate design.",
+      "permitted_manuscript_wording": "The pilot uses annual-mean sky exchange and the native solar-time convention; sensitivity of hourly peaks to those approximations remains untested."
+    },
+    "RES-008": {
+      "exact_claim": "As a post-hoc diagnostic of the v5 Bolzano hourly files, seeded, early and late annual maxima are identical at 17.8086 kW in hour 6912 (16 October 00:00), when the imposed lower setpoint changes from 0°C in the preceding hour to 19°C and old zone air is 9.641°C. The common season-start recovery can dominate this annual-maximum endpoint; zero paired peaks do not show zero intraday timing response or equipment sizing need.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "RUN-BOLZANO-V5",
+        "RUN-BOLZANO-V5",
+        "RUN-BOLZANO-V5",
+        "AUTHOR-POSTHOC-V5",
+        "INDEPENDENT-V5"
+      ],
+      "locators": [
+        "RUN-BOLZANO-V5 | 05_simulations/climate_campaign_v5/Bolzano/seeded_hourly.csv hours 6911–6912",
+        "RUN-BOLZANO-V5 | 05_simulations/climate_campaign_v5/Bolzano/early_hourly.csv hours 6911–6912",
+        "RUN-BOLZANO-V5 | 05_simulations/climate_campaign_v5/Bolzano/late_hourly.csv hours 6911–6912",
+        "AUTHOR-POSTHOC-V5 | 06_claim_drafts/author_v5_posthoc_peak_check_v03.json all 12 peak rows/prior setpoints",
+        "INDEPENDENT-V5 | 07_reviews/reviewer_03/independent_audit_v5.json Bolzano peak rows and preceding states"
+      ],
+      "outputs": [
+        "06_claim_drafts/author_v5_posthoc_peak_check_v03.json",
+        "05_simulations/climate_campaign_v5/Bolzano/summary.json"
+      ],
+      "dependencies_next_action_owner": "Final independent closure: confirm hour 6912 and adjacent setpoints; prose worker: label this a post-hoc context for the unchanged annual-maximum endpoint.",
+      "permitted_manuscript_wording": "Post-hoc v5 peak context: Bolzano's equal annual maxima arise at the shared imposed heating-season restart, without implying equal intraday peaks or equipment-sizing needs."
+    },
+    "LIT-005": {
+      "exact_claim": "Italian prototype work characterizes residential and office buildings by use, construction period and envelope/HVAC properties rather than demographic user class.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-CARNIELETTO2021"
+      ],
+      "locators": [
+        "AE-SRC-CARNIELETTO2021 | Abstract PDFp3; §3.5/3.6 PDFpp23–27; Discussion/Conclusion PDFpp28–29; access: Full34-page author manuscript available; selected complete methods/conclusion pages inspected"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Italian prototype work characterizes residential and office buildings by use, construction period and envelope/HVAC properties rather than demographic user class."
+    },
+    "LIT-006": {
+      "exact_claim": "The URBEM project formalizes harmonized Italian reference-building inputs in scorecards with source traceability and uncertainty labels.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-URBEM2025"
+      ],
+      "locators": [
+        "AE-SRC-URBEM2025 | Abstract; §2RelatedWorks; Conclusion response toRQ1–RQ4; metadata18(22)6026,18November2025; access: Publisher-indexed full-text sections; direct429; author-institution records corroborate"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "The URBEM project formalizes harmonized Italian reference-building inputs in scorecards with source traceability and uncertainty labels."
+    },
+    "LIT-007": {
+      "exact_claim": "Sokol et al. update distributions of uncertain residential archetype parameters using a training set and evaluate them on a separate larger set of homes.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-SOKOL2017"
+      ],
+      "locators": [
+        "AE-SRC-SOKOL2017 | Abstract training399/test2263; Overview; CaseStudy low-rise1–4units; Discussion; access: Primary publisher abstract, introduction and section snippets returned"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Sokol et al. update distributions of uncertain residential archetype parameters using a training set and evaluate them on a separate larger set of homes."
+    },
+    "LIT-008": {
+      "exact_claim": "Ali et al. compare physical building archetypes developed at multiple Irish spatial scales and report differences when national archetypes are used locally.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-ALI2019"
+      ],
+      "locators": [
+        "AE-SRC-ALI2019 | Abstract; §3/Fig1 five-step workflow and §3.1DataCollection; access: Author-institution abstract and selected indexed manuscript methods; directfetchfailed"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Ali et al. compare physical building archetypes developed at multiple Irish spatial scales and report differences when national archetypes are used locally."
+    },
+    "LIT-009": {
+      "exact_claim": "Richardson et al. combine active occupancy with daily activities to generate minute-resolution appliance electricity and compare simulated statistics with recorded dwelling electricity.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-RICHARDSON2010"
+      ],
+      "locators": [
+        "AE-SRC-RICHARDSON2010 | Abstract; volume42(10),pp1878–1887; access: Primary author-institution abstract and bibliographic record"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Richardson et al. combine active occupancy with daily activities to generate minute-resolution appliance electricity and compare simulated statistics with recorded dwelling electricity."
+    },
+    "LIT-010": {
+      "exact_claim": "Widén and Wäckelgård generate stochastic activities and household electricity from time-use-trained Markov processes.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-WIDEN2010"
+      ],
+      "locators": [
+        "AE-SRC-WIDEN2010 | Abstract; Introduction final paragraphs; §3data/§4evaluation identified but not fully inspected; access: Primary publisher abstract, introduction and section outline"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Widén and Wäckelgård generate stochastic activities and household electricity from time-use-trained Markov processes."
+    },
+    "LIT-011": {
+      "exact_claim": "Buttitta et al. embed clustered time-use occupancy profiles within physical dwelling archetypes and explicitly map occupancy to assumed heating-control and internal-gain inputs.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-BUTTITTA2019"
+      ],
+      "locators": [
+        "AE-SRC-BUTTITTA2019 | §3.1.1–3.1.2 PDFpp16–19; §4.1 PDFpp20–23; Conclusion PDFp28; access: Full32-page primary author manuscript; selected complete methods/results inspected"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Buttitta et al. embed clustered time-use occupancy profiles within physical dwelling archetypes and explicitly map occupancy to assumed heating-control and internal-gain inputs."
+    },
+    "LIT-012": {
+      "exact_claim": "Buttitta and Finn provide stochastic multi-day occupancy-category profiles for occupancy-integrated archetype heating simulations.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-BUTTITTA2020"
+      ],
+      "locators": [
+        "AE-SRC-BUTTITTA2020 | Abstract; MendeleyData modelV1 description DOI10.17632/f43xks8vyg.1,10November2019; access: Primary publisher abstract plus author-released model description"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Buttitta and Finn provide stochastic multi-day occupancy-category profiles for occupancy-integrated archetype heating simulations."
+    },
+    "LIT-013": {
+      "exact_claim": "Chen et al. integrate stochastic occupant/end-use event schedules with ResStock and report checks against time-use data and measured end-use electricity.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-CHEN2022"
+      ],
+      "locators": [
+        "AE-SRC-CHEN2022 | Abstract; Introduction ResStockworkflow and final paragraphs; ConclusionAndFutureWork; access: Primary publisher abstract/introduction/conclusion indexed; laboratory record corroborates"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Chen et al. integrate stochastic occupant/end-use event schedules with ResStock and report checks against time-use data and measured end-use electricity."
+    },
+    "LIT-014": {
+      "exact_claim": "Mosteiro-Romero et al. compare register-based individual daily schedules with standard-based deterministic and stochastic occupancy in district simulations.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-MOSTEIRO2020"
+      ],
+      "locators": [
+        "AE-SRC-MOSTEIRO2020 | Abstract; full primaryETHmanuscript linked in searchlog; access: Primary author-institution abstract and citation; ETHPDFindexed but directfailed"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Mosteiro-Romero et al. compare register-based individual daily schedules with standard-based deterministic and stochastic occupancy in district simulations."
+    },
+    "LIT-015": {
+      "exact_claim": "De Jaeger et al. compare alternative aggregation of occupant setpoint profiles because dwellings' thermal responses differ.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-DEJAEGER2020"
+      ],
+      "locators": [
+        "AE-SRC-DEJAEGER2020 | Abstract; KU LeuvenLIRIAS2957723; authorPDFp1; access: Primary author-institution abstract and indexed authorPDF; directjournal/PDFfailed"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "De Jaeger et al. compare alternative aggregation of occupant setpoint profiles because dwellings' thermal responses differ."
+    },
+    "LIT-016": {
+      "exact_claim": "Sood et al. train a probabilistic occupancy model from time-use data and apply it to Irish residential archetypes across spatial and temporal scales.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-SOOD2025"
+      ],
+      "locators": [
+        "AE-SRC-SOOD2025 | Abstract; publisherHighlights; publication1July2025; access: Primary author-institution abstract and publisher highlights; directfullfetchfailed"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Sood et al. train a probabilistic occupancy model from time-use data and apply it to Irish residential archetypes across spatial and temporal scales."
+    },
+    "LIT-017": {
+      "exact_claim": "Jung et al.'s occupancy schedules describe inferred occupancy status rather than occupant count and their paper identifies sensor and ground-truth limitations.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-JUNG2023"
+      ],
+      "locators": [
+        "AE-SRC-JUNG2023 | §3.1PDFp6; occupancy-identification ambiguity PDFp12; §5PDFpp24–25; access: Full27-page primary manuscript; selected methods/limitations inspected"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Jung et al.'s occupancy schedules describe inferred occupancy status rather than occupant count and their paper identifies sensor and ground-truth limitations."
+    },
+    "LIT-018": {
+      "exact_claim": "Hanmer et al. distinguish programmed occupancy states and call-for-heat signals from actual presence and direct metered heating energy.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-HANMER2019"
+      ],
+      "locators": [
+        "AE-SRC-HANMER2019 | Methods:HeatingControllerDataAnalysis,40weekdaysJan–Feb2016; Limitations; publishedonline5March2018,volume2019; access: Primary fullHTML; methods and limitations inspected"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Hanmer et al. distinguish programmed occupancy states and call-for-heat signals from actual presence and direct metered heating energy."
+    },
+    "LIT-019": {
+      "exact_claim": "Widén's aggregated occupancy-model comparison explicitly leaves inclusion of heterogeneity and end-use/building interactions as future work.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-WIDEN2025"
+      ],
+      "locators": [
+        "AE-SRC-WIDEN2025 | §2Methods/Fig1; §4Discussion; §5Conclusions; volume18(4),online30December2024; access: Primary indexedfullHTMLmethods/discussion/conclusion; directfetchfailed; officialUppsalarecordcorroborates"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Widén's aggregated occupancy-model comparison explicitly leaves inclusion of heterogeneity and end-use/building interactions as future work."
+    },
+    "LIT-020": {
+      "exact_claim": "Gilani et al. find convergence of stochastic office-lighting predictions at larger simulated office aggregation scales.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-GILANI2018"
+      ],
+      "locators": [
+        "AE-SRC-GILANI2018 | Abstract; Introduction finalscopeparagraph; Highlights; access: Primary publisher abstract,introduction and scope"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Gilani et al. find convergence of stochastic office-lighting predictions at larger simulated office aggregation scales."
+    },
+    "LIT-021": {
+      "exact_claim": "Khajedehi et al.'s dwelling-based linkage estimates probabilities of user types rather than a certain user class for a particular dwelling.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-ARCH2025"
+      ],
+      "locators": [
+        "SRC-ARCH2025 | Sections 3.1-3.3 pp.3-5; equations1-2 p.6; section4.3 pp.7-8; section4.4 pp.8-10; section6 p.13; AppendixA p.14; access: Complete local 15-page primary PDF available; selected complete methods/results/conclusion pages directly read with pypdf; no new quantitative table transcription in this pack"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Khajedehi et al.'s dwelling-based linkage estimates probabilities of user types rather than a certain user class for a particular dwelling."
+    },
+    "LIT-022": {
+      "exact_claim": "Khajedehi et al. analyse declared daily heating on-hours and annual appliance electricity calculated from survey answers.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-ARCH2025"
+      ],
+      "locators": [
+        "SRC-ARCH2025 | Sections 3.1-3.3 pp.3-5; equations1-2 p.6; section4.3 pp.7-8; section4.4 pp.8-10; section6 p.13; AppendixA p.14; access: Complete local 15-page primary PDF available; selected complete methods/results/conclusion pages directly read with pypdf; no new quantitative table transcription in this pack"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Khajedehi et al. analyse declared daily heating on-hours and annual appliance electricity calculated from survey answers."
+    },
+    "LIT-023": {
+      "exact_claim": "Khajedehi et al. explicitly name individual-building simulation impacts as future work.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-ARCH2025"
+      ],
+      "locators": [
+        "SRC-ARCH2025 | Sections 3.1-3.3 pp.3-5; equations1-2 p.6; section4.3 pp.7-8; section4.4 pp.8-10; section6 p.13; AppendixA p.14; access: Complete local 15-page primary PDF available; selected complete methods/results/conclusion pages directly read with pypdf; no new quantitative table transcription in this pack"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Khajedehi et al. explicitly name individual-building simulation impacts as future work."
+    },
+    "LIT-024": {
+      "exact_claim": "Prataviera et al.'s Verona evaluation uses selected measured district-heating periods, whereas their larger Milan application lacks those measurements.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-UA2022"
+      ],
+      "locators": [
+        "SRC-UA2022 | Section3.1.1 p6/Fig2; Table1 p7; Section3.3.1 p11; Section3.3.2 p11; Section4.1.2 p12; access: Full19-page primary article; selected methods/results inspected"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Prataviera et al.'s Verona evaluation uses selected measured district-heating periods, whereas their larger Milan application lacks those measurements."
+    },
+    "LIT-025": {
+      "exact_claim": "Ferrando et al. compare smart-meter-informed randomized occupant-related schedules with a baseline at multiple temporal and spatial aggregation levels.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-FERRANDO2022"
+      ],
+      "locators": [
+        "SRC-FERRANDO2022 | Institutional manuscript Abstract and Highlights1–5; access: Author-institution manuscript abstract/highlights indexed by search; direct PDF fetch failed"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Ferrando et al. compare smart-meter-informed randomized occupant-related schedules with a baseline at multiple temporal and spatial aggregation levels."
+    },
+    "LIT-026": {
+      "exact_claim": "MOIRAE and MODENA already use Italian household-survey information for bottom-up energy modelling.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-MOIRAE2020",
+        "SRC-MODENA2024"
+      ],
+      "locators": [
+        "SRC-MOIRAE2020 | Abstract on author-uploaded publication; ORCID0000-0003-4166-2476 contributor/DOI record; access: Author-uploaded primary abstract; publisher direct fetch failed; metadata corroborated by author ORCID",
+        "SRC-MODENA2024 | Sections2.2–2.3 pp158–160; Section3.1 pp160–161; Section3.2 pp162–163; access: Full8-page primary proceedings chapter; selected methods/results inspected"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "MOIRAE and MODENA already use Italian household-survey information for bottom-up energy modelling."
+    },
+    "LIT-027": {
+      "exact_claim": "Puglisi et al. classify Italian survey dwellings into building-type classes to construct energy profiles.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-PUGLISI2016"
+      ],
+      "locators": [
+        "SRC-PUGLISI2016 | Sections1–2/Table1; publisher volume34issue3archive; access: Primary full HTML methods and metadata inspected"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Puglisi et al. classify Italian survey dwellings into building-type classes to construct energy profiles."
+    },
+    "LIT-028": {
+      "exact_claim": "Latifi et al. probabilistically link population, building, activity and weather sources and acknowledge missing individual linkage ground truth.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-LATIFI2026"
+      ],
+      "locators": [
+        "SRC-LATIFI2026 | Abstract; Section6Conclusion and limitations paragraph beginning What the current framework does provide; access: Publisher full-text sections indexed by web search; metadata corroborated by Tilburg/TUe author repositories"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Latifi et al. probabilistically link population, building, activity and weather sources and acknowledge missing individual linkage ground truth."
+    },
+    "LIT-029": {
+      "exact_claim": "Dabirian et al. compare deterministic and measured-data-derived stochastic schedules in five Montreal institutional office buildings.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-DABIRIAN2026"
+      ],
+      "locators": [
+        "SRC-DABIRIAN2026 | Methodology; Occupancy presence stochastic schedule generation procedure/Eq1; Conclusion; access: Full primary HTML methods/conclusion inspected"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Dabirian et al. compare deterministic and measured-data-derived stochastic schedules in five Montreal institutional office buildings."
+    },
+    "LIT-030": {
+      "exact_claim": "Koene and Eslami-Mossallam examine temporal thermostat-setting dispersion with an RC district heating model.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-KOENE2023"
+      ],
+      "locators": [
+        "SRC-KOENE2023 | TNO record980538 abstract, DOI and Source fields; access: Primary author-institution abstract and metadata; full files require request, not made"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Koene and Eslami-Mossallam examine temporal thermostat-setting dispersion with an RC district heating model."
+    },
+    "LIT-031": {
+      "exact_claim": "Huebner et al. infer diverse English heating patterns from indoor-temperature series and compare them with common modelling schedules.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-HUEBNER2013"
+      ],
+      "locators": [
+        "SRC-HUEBNER2013 | UCL Discovery Abstract and citation fields; access: Primary author-institution abstract and bibliographic record"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Huebner et al. infer diverse English heating patterns from indoor-temperature series and compare them with common modelling schedules."
+    },
+    "LIT-032": {
+      "exact_claim": "Rugani et al. compare occupancy-profile databases in EnergyPlus under three city climates for a standard building and multiple uses.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-RUGANI2024"
+      ],
+      "locators": [
+        "AE-SRC-RUGANI2024 | Publisher Abstract/Highlights; Brighton and Pisa author-institution records; primary paper cited as ARCH2025 reference14; access: Primary publisher abstract/highlights plus author-institution bibliographic record; institutional fullPDF fetch403"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Rugani et al. compare occupancy-profile databases in EnergyPlus under three city climates for a standard building and multiple uses."
+    },
+    "GAP-003": {
+      "exact_claim": "Existing archetype/schedule studies justify testing explicit representation choices but do not establish that the planned Italian implementation improves measured accuracy.",
+      "kind": "gap",
+      "evidence_class": "hypothesis",
+      "status": "supported",
+      "source_ids": [
+        "AE-SRC-BUTTITTA2019",
+        "AE-SRC-CHEN2022",
+        "SRC-UA2022",
+        "SRC-ARCH2025"
+      ],
+      "locators": [
+        "AE-SRC-BUTTITTA2019 | §3.1.1–3.1.2 PDFpp16–19; §4.1 PDFpp20–23; Conclusion PDFp28; access: Full32-page primary author manuscript; selected complete methods/results inspected",
+        "AE-SRC-CHEN2022 | Abstract; Introduction ResStockworkflow and final paragraphs; ConclusionAndFutureWork; access: Primary publisher abstract/introduction/conclusion indexed; laboratory record corroborates",
+        "SRC-UA2022 | Section3.1.1 p6/Fig2; Table1 p7; Section3.3.1 p11; Section3.3.2 p11; Section4.1.2 p12; access: Full19-page primary article; selected methods/results inspected",
+        "SRC-ARCH2025 | Sections 3.1-3.3 pp.3-5; equations1-2 p.6; section4.3 pp.7-8; section4.4 pp.8-10; section6 p.13; AppendixA p.14; access: Complete local 15-page primary PDF available; selected complete methods/results/conclusion pages directly read with pypdf; no new quantitative table transcription in this pack"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Literature author: keep primary locator and access depth; prose author: explain this comparison within the relevant thematic section.",
+      "permitted_manuscript_wording": "Existing archetype/schedule studies justify testing explicit representation choices but do not establish that the planned Italian implementation improves measured accuracy."
+    },
+    "LIT-033": {
+      "exact_claim": "Brøgger and Wittchen's stock-model methodology review identifies representativeness of the modeled sample as a requirement for extrapolating to a building population.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CF-SRC-BROGGER2018",
+        "CONF-BIB"
+      ],
+      "locators": [
+        "CF-SRC-BROGGER2018 | Abstract; methodological discussion of extrapolation/representativeness; Discussion/Conclusion excerpts; access: Original publisher abstract/section excerpts and author-institution metadata; not complete full-text appraisal",
+        "CONF-BIB | 00_context/conference_complete_text.txt, printed pp1310–1311 and exact reference number in 02_evidence/archetype_extension/conference_reference_crosswalk.md"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Prose author: place this conference-bibliography source in the literature lineage or methods boundary; keep actual source access and geographic/energy limits.",
+      "permitted_manuscript_wording": "Brøgger and Wittchen's stock-model methodology review identifies representativeness of the modeled sample as a requirement for extrapolating to a building population."
+    },
+    "LIT-034": {
+      "exact_claim": "The CLIMA chapter explicitly positions ita-domes after MOIRAE, the MODENA report and the BSA2024 scenario study, and describes ita-domes as almost completely rewritten.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "SRC-CLIMA2026",
+        "SRC-MOIRAE2020",
+        "CF-SRC-RSE2021",
+        "SRC-MODENA2024",
+        "CONF-BIB"
+      ],
+      "locators": [
+        "SRC-CLIMA2026 | Publisher Cite this paper; First Online 1 April 2026; chapter pages1302–1311; access: Publisher metadata and abstract; complete local chapter reviewed by conference evidence owner",
+        "SRC-MOIRAE2020 | Abstract on author-uploaded publication; ORCID0000-0003-4166-2476 contributor/DOI record; access: Author-uploaded primary abstract; publisher direct fetch failed; metadata corroborated by author ORCID",
+        "CF-SRC-RSE2021 | Rif.RSE21012539; AnnoRapporto2021; Autori; description paragraphs; access: Official report page abstract/metadata; download link returns page/access UI rather than fullreport",
+        "SRC-MODENA2024 | Sections2.2–2.3 pp158–160; Section3.1 pp160–161; Section3.2 pp162–163; access: Full8-page primary proceedings chapter; selected methods/results inspected",
+        "CONF-BIB | 00_context/conference_complete_text.txt, printed pp1310–1311 and exact reference number in 02_evidence/archetype_extension/conference_reference_crosswalk.md"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Prose author: place this conference-bibliography source in the literature lineage or methods boundary; keep actual source access and geographic/energy limits.",
+      "permitted_manuscript_wording": "The CLIMA chapter explicitly positions ita-domes after MOIRAE, the MODENA report and the BSA2024 scenario study, and describes ita-domes as almost completely rewritten."
+    },
+    "LIT-035": {
+      "exact_claim": "The official RSE2021 report description states that MODENA uses ISTAT building, sociodemographic, equipment and household-use information in hourly simplified residential modelling.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CF-SRC-RSE2021",
+        "CONF-BIB"
+      ],
+      "locators": [
+        "CF-SRC-RSE2021 | Rif.RSE21012539; AnnoRapporto2021; Autori; description paragraphs; access: Official report page abstract/metadata; download link returns page/access UI rather than fullreport",
+        "CONF-BIB | 00_context/conference_complete_text.txt, printed pp1310–1311 and exact reference number in 02_evidence/archetype_extension/conference_reference_crosswalk.md"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Prose author: place this conference-bibliography source in the literature lineage or methods boundary; keep actual source access and geographic/energy limits.",
+      "permitted_manuscript_wording": "The official RSE2021 report description states that MODENA uses ISTAT building, sociodemographic, equipment and household-use information in hourly simplified residential modelling."
+    },
+    "LIT-036": {
+      "exact_claim": "Vivian et al. compare5R1Cand7R2Cmodels with TRNSYS for a room and apartment, evaluating seasonal energy needs and dynamic/peak response separately.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CF-SRC-VIVIAN2017",
+        "CONF-BIB"
+      ],
+      "locators": [
+        "CF-SRC-VIVIAN2017 | Abstract; Methodology; ResultsAndDiscussion; Conclusions; access: Original publisher abstract/highlights/methodology/conclusion excerpts indexed; direct403; author-institution metadata corroborated",
+        "CONF-BIB | 00_context/conference_complete_text.txt, printed pp1310–1311 and exact reference number in 02_evidence/archetype_extension/conference_reference_crosswalk.md"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Prose author: place this conference-bibliography source in the literature lineage or methods boundary; keep actual source access and geographic/energy limits.",
+      "permitted_manuscript_wording": "Vivian et al. compare5R1Cand7R2Cmodels with TRNSYS for a room and apartment, evaluating seasonal energy needs and dynamic/peak response separately."
+    },
+    "LIT-037": {
+      "exact_claim": "Calama-González et al. combine socioeconomic indicators with parametric thermal-comfort simulations for southern-Spain social housing.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CF-SRC-CALAMA2024",
+        "CONF-BIB"
+      ],
+      "locators": [
+        "CF-SRC-CALAMA2024 | §2.2p4,Stages1–3; §2.3p4; originalpaper metadata; access: Primary author-institution abstract and indexed complete selected methods page; directPDF403",
+        "CONF-BIB | 00_context/conference_complete_text.txt, printed pp1310–1311 and exact reference number in 02_evidence/archetype_extension/conference_reference_crosswalk.md"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Prose author: place this conference-bibliography source in the literature lineage or methods boundary; keep actual source access and geographic/energy limits.",
+      "permitted_manuscript_wording": "Calama-González et al. combine socioeconomic indicators with parametric thermal-comfort simulations for southern-Spain social housing."
+    },
+    "LIT-038": {
+      "exact_claim": "Calama-González et al.'s described model checks compare hourly simulated indoor temperatures with monitored temperatures before parametric scaling.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CF-SRC-CALAMA2024",
+        "CONF-BIB"
+      ],
+      "locators": [
+        "CF-SRC-CALAMA2024 | §2.2p4,Stages1–3; §2.3p4; originalpaper metadata; access: Primary author-institution abstract and indexed complete selected methods page; directPDF403",
+        "CONF-BIB | 00_context/conference_complete_text.txt, printed pp1310–1311 and exact reference number in 02_evidence/archetype_extension/conference_reference_crosswalk.md"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Prose author: place this conference-bibliography source in the literature lineage or methods boundary; keep actual source access and geographic/energy limits.",
+      "permitted_manuscript_wording": "Calama-González et al.'s described model checks compare hourly simulated indoor temperatures with monitored temperatures before parametric scaling."
+    },
+    "LIT-039": {
+      "exact_claim": "CLIMA reference9 and the2025 archetype paper cite the Istat2013 public-use survey release, published30August2017.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CF-SRC-ISTAT2013PUF",
+        "SRC-CLIMA2026",
+        "SRC-ARCH2025",
+        "CONF-BIB"
+      ],
+      "locators": [
+        "CF-SRC-ISTAT2013PUF | Referenceperiod2013; publication30August2017; pageID22523; publicuse tag; access: Official exact landing page referenced by CLIMA; metadata/description inspected",
+        "SRC-CLIMA2026 | Publisher Cite this paper; First Online 1 April 2026; chapter pages1302–1311; access: Publisher metadata and abstract; complete local chapter reviewed by conference evidence owner",
+        "SRC-ARCH2025 | Sections 3.1-3.3 pp.3-5; equations1-2 p.6; section4.3 pp.7-8; section4.4 pp.8-10; section6 p.13; AppendixA p.14; access: Complete local 15-page primary PDF available; selected complete methods/results/conclusion pages directly read with pypdf; no new quantitative table transcription in this pack",
+        "CONF-BIB | 00_context/conference_complete_text.txt, printed pp1310–1311 and exact reference number in 02_evidence/archetype_extension/conference_reference_crosswalk.md"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Prose author: place this conference-bibliography source in the literature lineage or methods boundary; keep actual source access and geographic/energy limits.",
+      "permitted_manuscript_wording": "CLIMA reference9 and the2025 archetype paper cite the Istat2013 public-use survey release, published30August2017."
+    },
+    "LIT-040": {
+      "exact_claim": "The official ISO15927-4:2005 abstract specifies reference-year construction for average annual heating/cooling energy and excludes extreme or semi-extreme-year construction.",
+      "kind": "literature",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "CF-SRC-ISO159272005",
+        "CONF-BIB"
+      ],
+      "locators": [
+        "CF-SRC-ISO159272005 | Abstract; edition1,July2005; CLIMA§3.3p1306; access: Official ISO catalog abstract/edition information; full standard not accessed",
+        "CONF-BIB | 00_context/conference_complete_text.txt, printed pp1310–1311 and exact reference number in 02_evidence/archetype_extension/conference_reference_crosswalk.md"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Prose author: place this conference-bibliography source in the literature lineage or methods boundary; keep actual source access and geographic/energy limits.",
+      "permitted_manuscript_wording": "The official ISO15927-4:2005 abstract specifies reference-year construction for average annual heating/cooling energy and excludes extreme or semi-extreme-year construction."
+    },
+    "INT-002": {
+      "exact_claim": "The conference cites Staffell2012 for heat-pump efficiency and UNI/TS11300-2:2019 for DHW/system energy calculations, whereas the present ideal useful-heating contrast omits those conversions.",
+      "kind": "interpretation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "SRC-CLIMA2026",
+        "CF-SRC-STAFFELL2012",
+        "CF-SRC-UNI113002019",
+        "CONF-BIB",
+        "AE-V2-PROTOCOL"
+      ],
+      "locators": [
+        "SRC-CLIMA2026 | Publisher Cite this paper; First Online 1 April 2026; chapter pages1302–1311; access: Publisher metadata and abstract; complete local chapter reviewed by conference evidence owner",
+        "CF-SRC-STAFFELL2012 | Abstract/ArticleInformation;5(11)9291–9306; CLIMA§3.1p1305; access: Original publisher abstract/metadata; no detailed correlation rederivation",
+        "CF-SRC-UNI113002019 | Catalog Sommario; entry7February2019; CLIMA§3.2p1306; access: Official UNI catalog title/summary/edition date; standard body not accessed",
+        "CONF-BIB | 00_context/conference_complete_text.txt, printed pp1310–1311 and exact reference number in 02_evidence/archetype_extension/conference_reference_crosswalk.md",
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, shared physics/provenance: useful sensible heat only, no final-energy/DHW conversion"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Prose author: place this conference-bibliography source in the literature lineage or methods boundary; keep actual source access and geographic/energy limits.",
+      "permitted_manuscript_wording": "The conference cites Staffell2012 for heat-pump efficiency and UNI/TS11300-2:2019 for DHW/system energy calculations, whereas the present ideal useful-heating contrast omits those conversions."
+    },
+    "DAT-005": {
+      "exact_claim": "The 2025 paper defines four unweighted Italian household demographic groups from derived minimum/maximum age, member count and education; Table 3 and Figure 5 report class summaries and household/person shares, not threshold rules or observed operating schedules.",
+      "kind": "result",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "ARCH2025-FULL",
+        "ARCH-SPEC"
+      ],
+      "locators": [
+        "ARCH2025-FULL | complete 15-page primary PDF pp3–14, Tables 1, 3, 6, Fig. 5, §§3.1–3.3, 4.1–4.4, 6, Appendix A",
+        "ARCH-SPEC | 00_context/archetype_extension/published_archetype_specification.md, demographic definitions/assignment and direct archive audit"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Prose author: report means as means, not demographic ranges; use archived assignment caveat in DAT-006.",
+      "permitted_manuscript_wording": "The published four demographic groups describe unweighted survey households; their names do not prescribe hourly presence or heat schedules."
+    },
+    "DAT-006": {
+      "exact_claim": "The lowercase archived clusters.csv has 17,855 unique IDs in four labels, all joined one-to-one to the official 20,000-row release and compact input; its rounded group/share/demographic summaries match 39 of 40 published cells, with archetype-4 maximum-age mean 72.1 locally versus 72.2 printed, but exact published-branch per-household identity remains unproved.",
+      "kind": "result",
+      "evidence_class": "derived estimate",
+      "status": "partially supported",
+      "source_ids": [
+        "ARCH-ASSIGN",
+        "ARCH-AUDIT",
+        "ARCH-SPEC"
+      ],
+      "locators": [
+        "ARCH-ASSIGN | 00_context/archetype_extension/assignment_mapping_schema.json and archived_four_archetype_assignments.csv, SHA256 be8bc93ad8f5143f6393e9b270840a7e5a2edd90724edb60b2fb624680b09e2f",
+        "ARCH-AUDIT | 00_context/archetype_extension/local_assignment_audit.json, join counts and 40 rounded-cell comparisons",
+        "ARCH-SPEC | 00_context/archetype_extension/published_archetype_specification.md, demographic definitions/assignment and direct archive audit"
+      ],
+      "outputs": [
+        "00_context/archetype_extension/archived_four_archetype_assignments.csv",
+        "00_context/archetype_extension/local_assignment_audit.json"
+      ],
+      "dependencies_next_action_owner": "Context/evidence owner: preserve hashes and the one discrepancy; methods owner: use only the archived assignment source by exact ID join.",
+      "permitted_manuscript_wording": "We use an archived four-group assignment whose summaries largely match the published groups; exact paper-branch household identity has not been verified."
+    },
+    "DAT-007": {
+      "exact_claim": "Of 17,855 archived-assigned survey records, 13,624 have central/individual main heating, all three valid observed 0–8 h winter-day heating-band responses and a positive total, with group counts 5,430/3,693/2,991/1,510; all four assumed source-control branches have nonzero support in each group.",
+      "kind": "result",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "ARCH-CONTROL-AUDIT",
+        "AE-DOMAIN-AUDIT"
+      ],
+      "locators": [
+        "ARCH-CONTROL-AUDIT | 00_context/archetype_extension/survey_control_eligibility_audit.json, raw/compact routing and 16 source-control strata",
+        "AE-DOMAIN-AUDIT | 04_analysis/archetype_extension/archived_operating_domain_audit.json, eligible groups/source branches"
+      ],
+      "outputs": [
+        "00_context/archetype_extension/survey_control_eligibility_audit.json"
+      ],
+      "dependencies_next_action_owner": "Methods owner: freeze selected manifest and verify exact 16 stratum counts before annual runs.",
+      "permitted_manuscript_wording": "The eligible archived operating-input cohort contains 13,624 unweighted records across all four groups and four supported modeled control branches."
+    },
+    "DAT-008": {
+      "exact_claim": "In the frozen first input-only selection, the four group medoid roles and the pooled medoid role selected different or repeated real respondent IDs but all five mapped to the same complete 8,760-hour temperature profile SHA256 1739675e45f73ab112e029291491ec18505002878a653a0c5d10ec3f237a0eab; this design could not yield distinct executable group-versus-pooled inputs and produced no annual extension result.",
+      "kind": "result",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "AE-V1-PROTOTYPES",
+        "AE-V1-PROFILES",
+        "AE-PROTOCOL"
+      ],
+      "locators": [
+        "AE-V1-PROTOTYPES | 05_simulations/archetype_campaign_v1/pre_run/prototype_manifest.csv, five roles/source IDs/profile hash",
+        "AE-V1-PROFILES | 05_simulations/archetype_campaign_v1/pre_run/profile_manifest.json, five equivalent roles and exact full-profile SHA256",
+        "AE-PROTOCOL | 03_methods/archetype_extension/simulation_protocol.md, frozen question/estimands, split, prototypes, weights and technical gates"
+      ],
+      "outputs": [
+        "05_simulations/archetype_campaign_v1/pre_run/prototype_manifest.csv",
+        "05_simulations/archetype_campaign_v1/pre_run/profile_manifest.json"
+      ],
+      "dependencies_next_action_owner": "Author: retain v1 as pre-output diagnostic and link the prospective amended design without presenting a v1 group effect.",
+      "permitted_manuscript_wording": "The first medoid design collapsed to one identical executable profile across four groups and the pooled comparator before annual simulation."
+    },
+    "DAT-009": {
+      "exact_claim": "Published archetype 1 is described as few older members with mid-level education; Table 3 reports mean minimum age/maximum age/member count/education index 70.2/78.3/1.8/0.5, and Figure 5 reports unweighted household/person shares 40.1/29.9%, respectively; these are summaries, not membership thresholds or hourly schedules.",
+      "kind": "result",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "ARCH2025-FULL",
+        "ARCH-SPEC"
+      ],
+      "locators": [
+        "ARCH2025-FULL | complete primary PDF p7 Table 3 and Fig. 5, archetype interpretation and printed one-decimal values",
+        "ARCH-SPEC | 00_context/archetype_extension/published_archetype_specification.md, demographic definitions/assignment and direct archive audit"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Author: carry printed value with source and distinguish local archive audit; no label-derived thermal schedules.",
+      "permitted_manuscript_wording": "Published archetype 1 has printed demographic means and unweighted survey shares as shown in Table 3 and Figure 5."
+    },
+    "DAT-010": {
+      "exact_claim": "Published archetype 2 is described as more members, commonly younger and middle-aged members; Table 3 reports mean minimum age/maximum age/member count/education index 21.2/57.2/3.7/0.7, and Figure 5 reports unweighted household/person shares 26.9/40.2%, respectively; these are summaries, not membership thresholds or hourly schedules.",
+      "kind": "result",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "ARCH2025-FULL",
+        "ARCH-SPEC"
+      ],
+      "locators": [
+        "ARCH2025-FULL | complete primary PDF p7 Table 3 and Fig. 5, archetype interpretation and printed one-decimal values",
+        "ARCH-SPEC | 00_context/archetype_extension/published_archetype_specification.md, demographic definitions/assignment and direct archive audit"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Author: carry printed value with source and distinguish local archive audit; no label-derived thermal schedules.",
+      "permitted_manuscript_wording": "Published archetype 2 has printed demographic means and unweighted survey shares as shown in Table 3 and Figure 5."
+    },
+    "DAT-011": {
+      "exact_claim": "Published archetype 3 is described as few middle-aged members with medium education; Table 3 reports mean minimum age/maximum age/member count/education index 46.0/63.0/2.3/0.5, and Figure 5 reports unweighted household/person shares 22.9/21.3%, respectively; these are summaries, not membership thresholds or hourly schedules.",
+      "kind": "result",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "ARCH2025-FULL",
+        "ARCH-SPEC"
+      ],
+      "locators": [
+        "ARCH2025-FULL | complete primary PDF p7 Table 3 and Fig. 5, archetype interpretation and printed one-decimal values",
+        "ARCH-SPEC | 00_context/archetype_extension/published_archetype_specification.md, demographic definitions/assignment and direct archive audit"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Author: carry printed value with source and distinguish local archive audit; no label-derived thermal schedules.",
+      "permitted_manuscript_wording": "Published archetype 3 has printed demographic means and unweighted survey shares as shown in Table 3 and Figure 5."
+    },
+    "DAT-012": {
+      "exact_claim": "Published archetype 4 is described as few middle-/older-aged members with higher education; Table 3 reports mean minimum age/maximum age/member count/education index 55.6/72.2/2.1/0.8, and Figure 5 reports unweighted household/person shares 10.1/8.6%, respectively; these are summaries, not membership thresholds or hourly schedules.",
+      "kind": "result",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "ARCH2025-FULL",
+        "ARCH-SPEC"
+      ],
+      "locators": [
+        "ARCH2025-FULL | complete primary PDF p7 Table 3 and Fig. 5, archetype interpretation and printed one-decimal values",
+        "ARCH-SPEC | 00_context/archetype_extension/published_archetype_specification.md, demographic definitions/assignment and direct archive audit"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Author: carry printed value with source and distinguish local archive audit; no label-derived thermal schedules.",
+      "permitted_manuscript_wording": "Published archetype 4 has printed demographic means and unweighted survey shares as shown in Table 3 and Figure 5."
+    },
+    "DAT-013": {
+      "exact_claim": "In the frozen 13,592-record training set, source-control branch 22/11 has group-conditional proportions 63.04%, 51.51%, 57.46% and 55.73% for groups 1–4, while branch 24/21 has 4.81%, 8.93%, 7.11% and 7.19%; these eligible-cohort frequencies create distinct conditional mixture weights without being population-weighted or observed temperatures.",
+      "kind": "result",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "AE-V2-MIXTURE"
+      ],
+      "locators": [
+        "AE-V2-MIXTURE | 05_simulations/archetype_campaign_v2/pre_run/mixture_probabilities.json, group_branch_training_counts and training_P_branch_given_group"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Author/reviewer: verify rounded percentages from frozen counts; prose author: avoid causal wording.",
+      "permitted_manuscript_wording": "The eligible training groups have different frequencies of modeled control branches, providing distinct pre-output mixture weights."
+    },
+    "GAP-004": {
+      "exact_claim": "The 2025 archetype paper provides demographic classes, survey/model-derived annual or daily energy-use group summaries and a dwelling-linkage method, but no complete class-specific measured 8,760-hour presence, gain, ventilation or temperature schedule; translating classes to thermal inputs therefore requires explicit additional assumptions.",
+      "kind": "gap",
+      "evidence_class": "published finding",
+      "status": "supported",
+      "source_ids": [
+        "ARCH2025-FULL",
+        "ARCH-SPEC"
+      ],
+      "locators": [
+        "ARCH2025-FULL | complete 15-page primary PDF pp3–14, Tables 1, 3, 6, Fig. 5, §§3.1–3.3, 4.1–4.4, 6, Appendix A",
+        "ARCH-SPEC | 00_context/archetype_extension/published_archetype_specification.md, demographic definitions/assignment and direct archive audit"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Methods owner: describe direct response-linked operational mapping; prose author: avoid invented label-based curves.",
+      "permitted_manuscript_wording": "The published demographic labels require a separate, documented bridge to hourly heating inputs."
+    },
+    "NOV-002": {
+      "exact_claim": "The candidate new contribution is an auditable bridge from archived article-consistent Italian demographic household assignments and their real survey heating/control responses to a documented current GRINS/EUReCA configuration related to ita-domes, followed by a held-out within-model comparison of four shared real operational components mixed with training P(branch|archetype) versus P(branch); generic stochastic scheduling or first occupant-aware simulation is not claimed.",
+      "kind": "novelty",
+      "evidence_class": "hypothesis",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-DESIGN",
+        "AE-V2-PROTOCOL",
+        "ARCH-SPEC",
+        "AE-LIT-PRIOR",
+        "AE-CAMPAIGN"
+      ],
+      "locators": [
+        "AE-DESIGN | 01_plan/archetype_extension/design_decision.md, selected input-compression design",
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, frozen post-input/pre-output shared-component mixture amendment",
+        "ARCH-SPEC | 00_context/archetype_extension/published_archetype_specification.md, demographic definitions/assignment and direct archive audit",
+        "AE-LIT-PRIOR | 02_evidence/archetype_extension/nearest_work_matrix.md, closest physical/user/schedule/stock precedents",
+        "AE-CAMPAIGN | 05_simulations/archetype_campaign_v2/campaign_completion_manifest.json, 144 scientific plus eight technical annual executions and four site gates"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Methods/claim authors: inspect frozen profiles, executions and output arithmetic; independent reviewer: assess bounded contribution before prose.",
+      "permitted_manuscript_wording": "We implement and evaluate a documented Italian demographic-assignment-to-operational-input mixture bridge in this specified model case."
+    },
+    "RQ-003": {
+      "exact_claim": "The primary revised-article question compares, for 32 frozen held-out real survey respondents, same-model detailed-input annual useful heating and individual annual maximum hourly load with predictions from four shared training-only real source-control branch components weighted by either P_train(branch|archived archetype) or pooled P_train(branch), under matched dwelling and site weather.",
+      "kind": "method",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-V2-PROTOCOL",
+        "AE-DESIGN",
+        "AE-RQ-INDEX",
+        "AE-CAMPAIGN"
+      ],
+      "locators": [
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, frozen post-input/pre-output shared-component mixture amendment",
+        "AE-DESIGN | 01_plan/archetype_extension/design_decision.md, selected input-compression design",
+        "AE-RQ-INDEX | 01_plan/archetype_extension/research_questions.md, current primary RQ-003 and linked original RQ-001/002 hierarchy",
+        "AE-CAMPAIGN | 05_simulations/archetype_campaign_v2/campaign_completion_manifest.json, 144 scientific plus eight technical annual executions and four site gates"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Independent reviews05/06 checked the source-to-input bridge, bounded contribution and post-hoc peak context. Author: retain the one-dwelling, small-holdout, model-reference scope in prose; final review-chain closure remains procedural.",
+      "permitted_manuscript_wording": "We compare held-out within-model fidelity of shared operational components mixed by group-conditional versus pooled training branch frequencies."
+    },
+    "MET-012": {
+      "exact_claim": "The archetype extension joins archived four-group IDs to actual 2013 heating-band and control responses and converts each selected respondent's inputs through the documented source-ID-seeded contiguous schedule and assumed 22/11, 22/19, 24/13 or 24/21°C high/setback branches; physical dwelling, internal gains and season remain fixed.",
+      "kind": "method",
+      "evidence_class": "derived estimate",
+      "status": "partially supported",
+      "source_ids": [
+        "ARCH-ASSIGN",
+        "ARCH-CONTROL-AUDIT",
+        "AE-PROTOCOL",
+        "AE-BRIDGE",
+        "AE-CAMPAIGN"
+      ],
+      "locators": [
+        "ARCH-ASSIGN | 00_context/archetype_extension/assignment_mapping_schema.json and archived_four_archetype_assignments.csv, SHA256 be8bc93ad8f5143f6393e9b270840a7e5a2edd90724edb60b2fb624680b09e2f",
+        "ARCH-CONTROL-AUDIT | 00_context/archetype_extension/survey_control_eligibility_audit.json, raw/compact routing and 16 source-control strata",
+        "AE-PROTOCOL | 03_methods/archetype_extension/simulation_protocol.md, frozen question/estimands, split, prototypes, weights and technical gates",
+        "AE-BRIDGE | 04_analysis/archetype_extension/profile_bridge.py, source-control and source-ID profile construction",
+        "AE-CAMPAIGN | 05_simulations/archetype_campaign_v2/campaign_completion_manifest.json, 144 scientific plus eight technical annual executions and four site gates"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Independent review06 reconstructed all frozen source profiles and roles. Author: keep the executed-v2 validation matrix as the current methods pointer; final closure remains procedural.",
+      "permitted_manuscript_wording": "Archived demographic groups are linked by household ID to real reported heating/control inputs; the thermal profiles then follow explicit model assumptions."
+    },
+    "MET-013": {
+      "exact_claim": "The unchanged PCG64(20261020) split holds out two IDs per group×source-control branch (32 total), excluding them from fitting; the amended pre-output design selects one real training respondent per each of four source-control branches by nearest 24-hour temperature-input centroid with smallest-ID ties, then uses those four components for both conditional and pooled predictions.",
+      "kind": "method",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "AE-V2-PROTOCOL",
+        "AE-V1-SELECT",
+        "AE-V2-COMPONENTS",
+        "AE-V2-VALIDATION"
+      ],
+      "locators": [
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, frozen post-input/pre-output shared-component mixture amendment",
+        "AE-V1-SELECT | 05_simulations/archetype_campaign_v1/pre_run/selection_manifest.json, unchanged seed/holdout",
+        "AE-V2-COMPONENTS | 05_simulations/archetype_campaign_v2/pre_run/component_manifest.csv and component_fit_details.json, real branch choices",
+        "AE-V2-VALIDATION | 03_methods/archetype_extension/validation_matrix.md, authoritative executed-v2 table and explicitly superseded unexecuted v1 table"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Methods owner: freeze new branch-component manifests and probabilities; author: independently verify IDs/profiles/counts; reviewer: assess input-only amendment.",
+      "permitted_manuscript_wording": "The amended comparison retains the preselected held-out IDs and uses the same four real training branch inputs in both representations."
+    },
+    "MET-014": {
+      "exact_claim": "For each site and each primary endpoint, predict with the weighted sum of the same four separately simulated real branch-component endpoints, using either P_train(branch|group) or pooled P_train(branch); compare both with every held-out detailed-input model endpoint by eligible-stratum-weighted squared deviation and RMSE, including their paired squared-deviation difference.",
+      "kind": "method",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-V2-PROTOCOL",
+        "AE-METRICS",
+        "AE-V2-VALIDATION"
+      ],
+      "locators": [
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, frozen post-input/pre-output shared-component mixture amendment",
+        "AE-METRICS | 04_analysis/archetype_extension/results_v2/weighted_metrics.csv and individual_deviations.csv, all site/group loss metrics",
+        "AE-V2-VALIDATION | 03_methods/archetype_extension/validation_matrix.md, authoritative executed-v2 table and explicitly superseded unexecuted v1 table"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Independent review06 reconstructed squared-loss/RMSE comparisons and the expectation-of-individual-maxima estimand. Author: preserve two-representation wording and three-versus-twelve probability-parameter limit in prose.",
+      "permitted_manuscript_wording": "We report held-out within-model squared deviations and RMSE for conditional and pooled mixtures of shared real operating components."
+    },
+    "LIM-009": {
+      "exact_claim": "The local archived labels are article-consistent but not shown identical to the publisher's inaccessible UserArchetypes branch per household; published prose means and examples cannot assign excluded or new households, and 2,145 release IDs lack archived labels.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "ARCH-SPEC",
+        "ARCH-ASSIGN",
+        "ARCH-AUDIT"
+      ],
+      "locators": [
+        "ARCH-SPEC | 00_context/archetype_extension/published_archetype_specification.md, demographic definitions/assignment and direct archive audit",
+        "ARCH-ASSIGN | 00_context/archetype_extension/assignment_mapping_schema.json and archived_four_archetype_assignments.csv, SHA256 be8bc93ad8f5143f6393e9b270840a7e5a2edd90724edb60b2fb624680b09e2f",
+        "ARCH-AUDIT | 00_context/archetype_extension/local_assignment_audit.json, join counts and 40 rounded-cell comparisons"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Author: use 'archived article-consistent' wording throughout; no exact published executable reproduction.",
+      "permitted_manuscript_wording": "The recovered four-group assignment reproduces most printed summaries but exact paper-branch membership has not been established."
+    },
+    "LIM-010": {
+      "exact_claim": "The 32-test-respondent group-conditional-versus-pooled mixture comparison is a small within-model fidelity experiment using the same four simulated branch inputs, but conditional weights have more free parameters and omit within-branch group differences; eligible-cohort descriptive weighting is not national population inference or an isolated general demographic-group advantage.",
+      "kind": "limitation",
+      "evidence_class": "derived estimate",
+      "status": "supported",
+      "source_ids": [
+        "AE-V2-PROTOCOL",
+        "ARCH-CONTROL-AUDIT",
+        "AE-DESIGN",
+        "AE-V2-VALIDATION"
+      ],
+      "locators": [
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, frozen post-input/pre-output shared-component mixture amendment",
+        "ARCH-CONTROL-AUDIT | 00_context/archetype_extension/survey_control_eligibility_audit.json, raw/compact routing and 16 source-control strata",
+        "AE-DESIGN | 01_plan/archetype_extension/design_decision.md, selected input-compression design",
+        "AE-V2-VALIDATION | 03_methods/archetype_extension/validation_matrix.md, authoritative executed-v2 table and explicitly superseded unexecuted v1 table"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Author: keep three-versus-twelve free-probability, single-split and small-holdout limits beside model-reference deviations; independent review06 found no new scientific correction.",
+      "permitted_manuscript_wording": "The mixtures share branch inputs, while group conditioning adds probability parameters; any deviation difference is limited to this small within-model test."
+    },
+    "LIM-011": {
+      "exact_claim": "Only response-linked heating-hour/control inputs vary in the new archetype comparison; occupancy, internal gains, ventilation, envelope, season and ideal heating physics are fixed, so the experiment does not implement the paper's probabilistic dwelling assignment or quantify joint demographic/physical uncertainty.",
+      "kind": "limitation",
+      "evidence_class": "simulation output",
+      "status": "supported",
+      "source_ids": [
+        "AE-PROTOCOL",
+        "ARCH-SPEC",
+        "AE-BRIDGE",
+        "AE-CAMPAIGN"
+      ],
+      "locators": [
+        "AE-PROTOCOL | 03_methods/archetype_extension/simulation_protocol.md, frozen question/estimands, split, prototypes, weights and technical gates",
+        "ARCH-SPEC | 00_context/archetype_extension/published_archetype_specification.md, demographic definitions/assignment and direct archive audit",
+        "AE-BRIDGE | 04_analysis/archetype_extension/profile_bridge.py, fixed-channel construction",
+        "AE-CAMPAIGN | 05_simulations/archetype_campaign_v2/campaign_completion_manifest.json, 144 scientific plus eight technical annual executions and four site gates"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Author: retain fixed physical/internal-gain and unused dwelling-allocation boundaries; independent review06 checked the run configurations without requiring a scientific change.",
+      "permitted_manuscript_wording": "We vary response-linked operational inputs while keeping physical and internal-gain assumptions common."
+    },
+    "GAP-005": {
+      "exact_claim": "A held-out comparison against detailed-input outputs from the same model evaluates operational-mixture fidelity, not empirical prediction accuracy; no matched independent meter or building benchmark establishes which representation better predicts real heating for this case.",
+      "kind": "gap",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "AE-V2-PROTOCOL",
+        "VAL-PROTOCOL"
+      ],
+      "locators": [
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, frozen post-input/pre-output shared-component mixture amendment",
+        "VAL-PROTOCOL | 03_methods/validation_protocol.md, empirical benchmark and measurement criteria"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Author: retain explicit missing-evidence marker; reviewer: prevent 'validation' for same-model holdout alone.",
+      "permitted_manuscript_wording": "The held-out experiment tests fidelity to detailed-input model outputs; measured heating accuracy remains untested."
+    },
+    "MET-015": {
+      "exact_claim": "The conditional archetype representation uses P_train(branch|group)=N_train,g,b/N_train,g and the pooled representation uses P_train(branch)=N_train,b/N_train, both applied to the same four real branch-component model endpoints; no averaged input trajectory or outcome-fitted weight is used.",
+      "kind": "method",
+      "evidence_class": "planned test",
+      "status": "supported",
+      "source_ids": [
+        "AE-V2-PROTOCOL",
+        "AE-V2-MIXTURE",
+        "AE-V2-VALIDATION"
+      ],
+      "locators": [
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, frozen post-input/pre-output shared-component mixture amendment",
+        "AE-V2-MIXTURE | 05_simulations/archetype_campaign_v2/pre_run/mixture_probabilities.json, frozen training counts and probabilities",
+        "AE-V2-VALIDATION | 03_methods/archetype_extension/validation_matrix.md, authoritative executed-v2 table and explicitly superseded unexecuted v1 table"
+      ],
+      "outputs": [],
+      "dependencies_next_action_owner": "Independent review06 reproduced training branch probabilities and shared component identities. Author: preserve the input-only fitting and same-four-component distinction.",
+      "permitted_manuscript_wording": "Both methods mix the same four real branch simulations; archetypes enter through their training branch frequencies."
+    },
+    "MET-016": {
+      "exact_claim": "The v2 archetype campaign completed 144 scientific annual executions (36 distinct input profiles × four coordinate TMYs) and eight repeat/warm-up checks, exporting 1,331,520 hourly rows; all four site gates and independent author hourly-integration, source-hash and mixture-arithmetic checks pass for this bounded sensible-only model path.",
+      "kind": "method",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-CAMPAIGN",
+        "AE-SITE-GATES",
+        "AE-V2-VALIDATION"
+      ],
+      "locators": [
+        "AE-CAMPAIGN | 05_simulations/archetype_campaign_v2/campaign_completion_manifest.json, all-site scientific/technical counts and immutable run identities",
+        "AE-SITE-GATES | 05_simulations/archetype_campaign_v2/{Padova,Bolzano,Roma,Palermo}/site_gate.json, completion_manifest.json, full_step_balance_checks.json, independent_surface_forcing_checks.json and profile_preservation_checks.json",
+        "AE-V2-VALIDATION | 03_methods/archetype_extension/validation_matrix.md, authoritative executed-v2 table and explicitly superseded unexecuted v1 table"
+      ],
+      "outputs": [
+        "05_simulations/archetype_campaign_v2/campaign_completion_manifest.json"
+      ],
+      "dependencies_next_action_owner": "Independent review06 reintegrated all 152 annual files and checked numerical state/forcing consistency. Author: preserve the sensible-only and no-measured-validation boundaries; final closure remains procedural.",
+      "permitted_manuscript_wording": "All 144 v2 scientific runs and eight technical checks passed their declared bounded implementation gates."
+    },
+    "RES-009": {
+      "exact_claim": "In v2, eligible-stratum-weighted held-out annual useful-heating RMSE against detailed-input outputs from the same model (pooled→group-conditional) is Padova 1828.20→1787.94 kWh, Bolzano 2633.86→2565.53 kWh, Roma 1437.68→1411.16 kWh, Palermo 1215.81→1196.74 kWh; paired weighted MSE differences (conditional minus pooled) are Padova -145596.59 kWh², Bolzano -355285.79 kWh², Roma -75546.73 kWh², Palermo -46011.95 kWh². These conditional model-reference deviations are not measured prediction errors.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-RUNS",
+        "AE-METRICS",
+        "AE-V2-PROTOCOL"
+      ],
+      "locators": [
+        "AE-RUNS | 05_simulations/archetype_campaign_v2/{Padova,Bolzano,Roma,Palermo}/summary.json and 36 role-linked primary *_hourly.csv per site; per-file hashes in summaries/manifests",
+        "AE-METRICS | 04_analysis/archetype_extension/results_v2/weighted_metrics.csv and individual_deviations.csv, predeclared weighted MSE/RMSE and group/site records",
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, shared-component mixture endpoint and evaluation definitions"
+      ],
+      "outputs": [
+        "04_analysis/archetype_extension/results_v2/weighted_metrics.csv"
+      ],
+      "dependencies_next_action_owner": "Independent review06 reproduced all-site annual endpoints and weighted losses from primary hourly files. Author: retain model-reference, capacity and subgroup qualifiers in prose; final closure remains procedural.",
+      "permitted_manuscript_wording": "In this fixed dwelling and eligible held-out cohort, group-conditional branch weights give lower overall within-model annual-heating RMSE than pooled branch weights at each of four TMY exposures."
+    },
+    "RES-010": {
+      "exact_claim": "In v2, eligible-stratum-weighted held-out expected-individual-annual-maximum sensible-load RMSE against detailed-input outputs from the same model (pooled→group-conditional) is Padova 4.7155→4.6015 kW, Bolzano 2.3658→2.3571 kW, Roma 3.5514→3.4742 kW, Palermo 3.2389→3.1945 kW; paired weighted MSE differences (conditional minus pooled) are Padova -1.0627 kW², Bolzano -0.0413 kW², Roma -0.5421 kW², Palermo -0.2855 kW². The prediction is a weighted expectation of individual annual maxima, not a coincident or diversified system peak.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-RUNS",
+        "AE-METRICS",
+        "AE-V2-PROTOCOL",
+        "AE-POSTHOC-PEAK"
+      ],
+      "locators": [
+        "AE-RUNS | 05_simulations/archetype_campaign_v2/{Padova,Bolzano,Roma,Palermo}/summary.json and 36 role-linked primary *_hourly.csv per site; per-file hashes in summaries/manifests",
+        "AE-METRICS | 04_analysis/archetype_extension/results_v2/weighted_metrics.csv and individual_deviations.csv, predeclared weighted MSE/RMSE and group/site records",
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, shared-component mixture endpoint and evaluation definitions",
+        "AE-POSTHOC-PEAK | 04_analysis/archetype_extension/posthoc_peak_context_v1/diagnostic_manifest.json and cohort_counts.csv; 03_methods/archetype_extension/posthoc_peak_context_report.md; all 144 scientific raw-file timestamps, post-hoc descriptive count"
+      ],
+      "outputs": [
+        "04_analysis/archetype_extension/results_v2/weighted_metrics.csv"
+      ],
+      "dependencies_next_action_owner": "Independent review06 reproduced the individual-maximum losses and raw post-hoc seasonal counts. Author: keep expected individual maximum distinct from coincident system peak and retain seasonal context.",
+      "permitted_manuscript_wording": "The conditional mixture has lower overall within-model RMSE for expected individual annual maxima at all four exposures, with Bolzano subgroup exceptions; many Bolzano maxima occur on the imposed seasonal restart day (post-hoc diagnostic)."
+    },
+    "RES-011": {
+      "exact_claim": "Despite the lower overall Bolzano expected-individual-annual-maximum RMSE, group 2 has pooled→conditional group-weighted RMSE 1.965770→2.008767 kW and group 4 2.929172→2.941238 kW; conditional weighting is worse for these two held-out subgroups.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-METRICS",
+        "AE-RUNS"
+      ],
+      "locators": [
+        "AE-METRICS | 04_analysis/archetype_extension/results_v2/weighted_metrics.csv and individual_deviations.csv, predeclared weighted MSE/RMSE and group/site records",
+        "AE-RUNS | 05_simulations/archetype_campaign_v2/{Padova,Bolzano,Roma,Palermo}/summary.json and 36 role-linked primary *_hourly.csv per site; per-file hashes in summaries/manifests"
+      ],
+      "outputs": [
+        "04_analysis/archetype_extension/results_v2/weighted_metrics.csv"
+      ],
+      "dependencies_next_action_owner": "Independent review06 reproduced both adverse Bolzano subgroup comparisons. Author: place these alongside any overall-conditional-improvement sentence and retain the post-hoc seasonal context.",
+      "permitted_manuscript_wording": "For Bolzano individual annual maxima, group-conditional weights worsen held-out RMSE for archetypes 2 and 4 despite the lower overall cohort RMSE."
+    },
+    "RES-012": {
+      "exact_claim": "For Padova-coordinate weather the 32 held-out detailed-input model annual useful-heating outputs span 5538.60–13145.26 kWh, while the four group-conditional mixture predictions span 7736.55–7953.89 kWh and the pooled prediction is 7834.86 kWh; the four branch mixtures compress substantially more respondent-input variation than they retain.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-RUNS",
+        "AE-METRICS"
+      ],
+      "locators": [
+        "AE-RUNS | 05_simulations/archetype_campaign_v2/{Padova,Bolzano,Roma,Palermo}/summary.json and 36 role-linked primary *_hourly.csv per site; per-file hashes in summaries/manifests",
+        "AE-METRICS | 04_analysis/archetype_extension/results_v2/weighted_metrics.csv and individual_deviations.csv, predeclared weighted MSE/RMSE and group/site records"
+      ],
+      "outputs": [
+        "04_analysis/archetype_extension/results_v2/individual_deviations.csv"
+      ],
+      "dependencies_next_action_owner": "Independent review06 reproduced detailed-input and compressed-mixture spread. Author: do not call the modeled spread measured household variability.",
+      "permitted_manuscript_wording": "In the Padova case, the held-out detailed-input model outputs span a much wider annual-heating range than the four conditional mixture predictions."
+    },
+    "INT-003": {
+      "exact_claim": "The v2 conditional branch mixtures have lower eligible-stratum-weighted overall within-model RMSE than pooled branch weights for annual useful heating and expected individual annual maxima at each of four TMY exposures, but Bolzano subgroup peak counterexamples, a post-hoc predominance of restart-day individual maxima there, large detailed-input spread, extra conditional parameters and absent measurements prevent a blanket algorithm-superiority or empirical-accuracy conclusion.",
+      "kind": "interpretation",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-METRICS",
+        "AE-V2-PROTOCOL",
+        "AE-CAMPAIGN",
+        "AE-POSTHOC-PEAK"
+      ],
+      "locators": [
+        "AE-METRICS | 04_analysis/archetype_extension/results_v2/weighted_metrics.csv and individual_deviations.csv, predeclared weighted MSE/RMSE and group/site records",
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, shared-component mixture endpoint and evaluation definitions",
+        "AE-CAMPAIGN | 05_simulations/archetype_campaign_v2/campaign_completion_manifest.json, all-site scientific/technical counts and immutable run identities",
+        "AE-POSTHOC-PEAK | 04_analysis/archetype_extension/posthoc_peak_context_v1/diagnostic_manifest.json and cohort_counts.csv; 03_methods/archetype_extension/posthoc_peak_context_report.md; all 144 scientific raw-file timestamps, post-hoc descriptive count"
+      ],
+      "outputs": [
+        "04_analysis/archetype_extension/results_v2/weighted_metrics.csv"
+      ],
+      "dependencies_next_action_owner": "Independent review06 assessed the conditional contrast and post-hoc peak interpretation without a new scientific correction. Author: retain counterexamples, seasonal context and same-model-reference language in abstract/conclusion prose.",
+      "permitted_manuscript_wording": "In this bounded model-reference experiment, conditional branch frequencies modestly reduce overall loss, with subgroup exceptions and many Bolzano maxima on the imposed restart day; there is no measured-accuracy inference."
+    },
+    "RES-013": {
+      "exact_claim": "In a post-hoc diagnostic of the v2 Bolzano-coordinate annual files, 27 of 32 held-out respondents and two of four shared training components attain their individual annual maximum hourly sensible-heating load on the imposed season-restart day, model hours 6912–6935 (16 October); 18 of 32 respondents and those two components peak exactly at hour 6912. The remaining five respondents and two components peak in January. This is a descriptive calendar coincidence, not an alternative or excluded peak endpoint.",
+      "kind": "result",
+      "evidence_class": "simulation output",
+      "status": "partially supported",
+      "source_ids": [
+        "AE-RUNS",
+        "AE-POSTHOC-PEAK",
+        "AE-V2-PROTOCOL"
+      ],
+      "locators": [
+        "AE-RUNS | 05_simulations/archetype_campaign_v2/Bolzano/summary.json and 36 role-linked primary *_hourly.csv; role_manifest.csv identifies 32 test and four shared component inputs; raw peak hours recomputed without technical repeat/warm-up files",
+        "AE-POSTHOC-PEAK | 04_analysis/archetype_extension/posthoc_peak_context_v1/diagnostic_manifest.json and cohort_counts.csv; 03_methods/archetype_extension/posthoc_peak_context_report.md; all 144 scientific raw-file timestamps, post-hoc descriptive count",
+        "AE-V2-PROTOCOL | 03_methods/archetype_extension/mixture_protocol_v2.md, frozen individual-annual-maximum endpoint and season convention"
+      ],
+      "outputs": [
+        "04_analysis/archetype_extension/posthoc_peak_context_v1/cohort_counts.csv",
+        "04_analysis/archetype_extension/posthoc_peak_context_v1/scientific_peak_context.csv"
+      ],
+      "dependencies_next_action_owner": "Independent review06 directly recovered the 27/32 and 2/4 restart-day counts and found no ties. Author: label the diagnostic post hoc and descriptive, beside RES-010/011; retain every original annual maximum.",
+      "permitted_manuscript_wording": "Post hoc, 27/32 held-out Bolzano cases and 2/4 shared components peak on the imposed 16 October restart day (18/32 and 2/4 at its first hour); this describes the saved model outputs and does not alter the annual-maximum comparison."
+    }
+  }
+}

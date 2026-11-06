@@ -1,0 +1,72 @@
+response,iteration,groups_before,left_group,right_group,adjusted_p_value,left_mean,right_mean,merged_group
+heating_daily_hours,1,80,central | apartment_top_floor | 4,south_and_islands | multi_family_house | 4,1.0,7.7771739130434785,7.7771317829457365,merge_001
+heating_daily_hours,2,79,central | apartment_ground_basement_raised | 1,central | apartment_top_floor | 2,1.0,7.11566265060241,7.11620294599018,merge_002
+heating_daily_hours,3,78,north_west | apartment_ground_basement_raised | 1,north_west | single_family_house | 3,1.0,10.09619238476954,10.09750566893424,merge_003
+heating_daily_hours,4,77,central | single_family_house | 2,south_and_islands | single_family_house | 2,1.0,8.758099352051836,8.7601246105919,merge_004
+heating_daily_hours,5,76,north_east | apartment_top_floor | 3,north_west | apartment_intermediate_floor | 3,1.0,8.734417344173442,8.730038022813687,merge_005
+heating_daily_hours,6,75,north_west | apartment_top_floor | 1,north_west | multi_family_house | 2,1.0,10.20580474934037,10.210748155953635,merge_006
+heating_daily_hours,7,74,south_and_islands | apartment_ground_basement_raised | 3,south_and_islands | apartment_top_floor | 3,1.0,6.228174603174603,6.233480176211454,merge_007
+heating_daily_hours,8,73,north_east | apartment_ground_basement_raised | 2,north_west | apartment_top_floor | 3,1.0,8.905077262693156,8.899590163934427,merge_008
+heating_daily_hours,9,72,central | apartment_intermediate_floor | 4,central | multi_family_house | 2,1.0,7.683962264150943,7.68957345971564,merge_009
+heating_daily_hours,10,71,central | single_family_house | 3,south_and_islands | multi_family_house | 3,1.0,8.032467532467532,8.044061302681992,merge_010
+heating_daily_hours,11,70,north_east | apartment_ground_basement_raised | 1,north_east | single_family_house | 2,1.0,11.049411764705882,11.03904923599321,merge_011
+heating_daily_hours,12,69,north_east | apartment_intermediate_floor | 3,north_west | apartment_ground_basement_raised | 3,1.0,8.829365079365079,8.819168173598554,merge_012
+heating_daily_hours,13,68,merge_006,north_west | apartment_ground_basement_raised | 4,1.0,10.20933734939759,10.196666666666667,merge_013
+heating_daily_hours,14,67,merge_003,north_east | apartment_intermediate_floor | 4,1.0,10.096808510638297,10.08531746031746,merge_014
+heating_daily_hours,15,66,north_east | apartment_top_floor | 1,north_east | single_family_house | 3,1.0,10.22972972972973,10.248730964467006,merge_015
+heating_daily_hours,16,65,central | apartment_ground_basement_raised | 3,central | apartment_intermediate_floor | 3,1.0,6.442159383033419,6.426890756302521,merge_016
+heating_daily_hours,17,64,south_and_islands | apartment_ground_basement_raised | 1,south_and_islands | apartment_top_floor | 1,1.0,6.595281306715064,6.611731843575419,merge_017
+heating_daily_hours,18,63,north_east | single_family_house | 4,north_west | single_family_house | 2,1.0,11.112033195020746,11.094936708860759,merge_018
+heating_daily_hours,19,62,central | apartment_top_floor | 3,south_and_islands | apartment_ground_basement_raised | 2,1.0,6.844236760124611,6.824104234527687,merge_019
+heating_daily_hours,20,61,merge_012,north_east | apartment_intermediate_floor | 2,1.0,8.8240302743614,8.808536585365854,merge_020
+heating_daily_hours,21,60,central | apartment_top_floor | 1,merge_001,1.0,7.801369863013699,7.777149321266968,merge_021
+heating_daily_hours,22,59,north_west | single_family_house | 1,north_west | single_family_house | 4,1.0,11.270553064275038,11.25,merge_022
+heating_daily_hours,23,58,north_east | apartment_intermediate_floor | 1,north_west | multi_family_house | 4,1.0,10.515463917525773,10.492619926199263,merge_023
+heating_daily_hours,24,57,north_east | multi_family_house | 1,north_east | multi_family_house | 4,1.0,10.721985815602837,10.749510763209393,merge_024
+heating_daily_hours,25,56,merge_015,north_west | apartment_intermediate_floor | 1,1.0,10.241883116883116,10.2684703433923,merge_025
+heating_daily_hours,26,55,central | single_family_house | 1,south_and_islands | single_family_house | 3,1.0,8.47982062780269,8.445121951219512,merge_026
+heating_daily_hours,27,54,merge_019,south_and_islands | apartment_top_floor | 4,1.0,6.831016042780749,6.798185941043084,merge_027
+heating_daily_hours,28,53,merge_023,north_east | apartment_top_floor | 4,1.0,10.504448398576512,10.464406779661017,merge_028
+heating_daily_hours,29,52,central | multi_family_house | 1,merge_010,1.0,8.005524861878452,8.039759036144579,merge_029
+heating_daily_hours,30,51,merge_004,merge_005,1.0,8.759467040673211,8.731433506044905,merge_030
+heating_daily_hours,31,50,south_and_islands | apartment_ground_basement_raised | 4,south_and_islands | apartment_intermediate_floor | 4,1.0,6.319148936170213,6.269230769230769,merge_031
+heating_daily_hours,32,49,merge_017,south_and_islands | apartment_top_floor | 2,1.0,6.601760176017602,6.642619311875694,merge_032
+heating_daily_hours,33,48,north_west | apartment_ground_basement_raised | 2,north_west | apartment_top_floor | 2,1.0,9.457085828343313,9.404567699836868,merge_033
+heating_daily_hours,34,47,central | multi_family_house | 4,merge_009,1.0,7.731123388581952,7.6867612293144205,merge_034
+heating_daily_hours,35,46,merge_028,north_east | multi_family_house | 2,1.0,10.496124031007753,10.536016949152541,merge_035
+heating_daily_hours,36,45,north_east | apartment_ground_basement_raised | 4,north_west | multi_family_house | 3,1.0,9.626728110599078,9.70364500792393,merge_036
+heating_daily_hours,37,44,merge_007,merge_031,1.0,6.2306889352818375,6.280788177339901,merge_037
+heating_daily_hours,38,43,central | single_family_house | 4,south_and_islands | multi_family_house | 1,1.0,8.309859154929578,8.231378763866879,merge_038
+heating_daily_hours,39,42,merge_025,north_west | multi_family_house | 1,1.0,10.258084971464807,10.313193588162761,merge_039
+heating_daily_hours,40,41,merge_021,south_and_islands | multi_family_house | 2,1.0,7.783163265306122,7.842164599774521,merge_040
+heating_daily_hours,41,40,merge_011,merge_018,1.0,11.043392504930967,11.102333931777379,merge_041
+heating_daily_hours,42,39,central | apartment_intermediate_floor | 2,merge_027,1.0,6.881748071979435,6.820494186046512,merge_042
+heating_daily_hours,43,38,south_and_islands | apartment_intermediate_floor | 1,south_and_islands | apartment_intermediate_floor | 2,1.0,6.16934046345811,6.110708742886705,merge_043
+heating_daily_hours,44,37,central | apartment_ground_basement_raised | 4,central | multi_family_house | 3,1.0,7.5186335403726705,7.401287553648069,merge_044
+heating_daily_hours,45,36,merge_024,north_west | apartment_top_floor | 4,1.0,10.733552631578947,10.629518072289157,merge_045
+heating_daily_hours,46,35,north_east | apartment_ground_basement_raised | 3,south_and_islands | single_family_house | 1,1.0,9.214099216710183,9.10609480812641,merge_046
+heating_daily_hours,47,34,merge_014,north_east | multi_family_house | 3,1.0,10.092797783933518,10.003496503496503,merge_047
+heating_daily_hours,48,33,merge_029,south_and_islands | single_family_house | 4,1.0,8.026219956300073,7.934936350777935,merge_048
+heating_daily_hours,49,32,merge_008,merge_020,1.0,8.902231668437832,8.817261587639852,merge_049
+heating_daily_hours,50,31,merge_013,merge_039,1.0,10.207002457002456,10.276800670016751,merge_050
+heating_daily_hours,51,30,merge_035,north_west | apartment_intermediate_floor | 4,0.9999999999999999,10.512060939483707,10.41132075471698,merge_051
+heating_daily_hours,52,29,central | apartment_intermediate_floor | 1,merge_002,0.9999999999999984,6.991989319092123,7.115984405458089,merge_052
+heating_daily_hours,53,28,merge_041,north_east | single_family_house | 1,0.999999999999847,11.074248120300751,10.946251768033946,merge_053
+heating_daily_hours,54,27,merge_036,north_east | apartment_top_floor | 2,0.9999999999974839,9.683962264150944,9.852649006622517,merge_054
+heating_daily_hours,55,26,central | apartment_ground_basement_raised | 2,merge_044,0.9999999998647378,7.260194174757282,7.449238578680203,merge_055
+heating_daily_hours,56,25,merge_046,north_west | apartment_intermediate_floor | 2,0.999999999339106,9.138691883372735,8.997277676950999,merge_056
+heating_daily_hours,57,24,merge_030,merge_049,0.9999999948790157,8.746904024767803,8.845635202271115,merge_057
+heating_daily_hours,58,23,merge_034,merge_040,0.9999999870062874,7.697539149888144,7.808531265147843,merge_058
+heating_daily_hours,59,22,merge_026,merge_038,0.9999980522762711,8.459165154264973,8.263008514664143,merge_059
+heating_daily_hours,60,21,merge_016,merge_037,0.9999961815036802,6.432926829268292,6.262199845081332,merge_060
+heating_daily_hours,61,20,merge_022,merge_053,0.998829066196378,11.261187957689177,11.042328042328043,merge_061
+heating_daily_hours,62,19,merge_047,merge_050,0.9973248102644118,10.067460317460318,10.248505976095618,merge_062
+heating_daily_hours,63,18,merge_042,merge_052,0.9933716637151977,6.848604011010617,7.063661971830986,merge_063
+heating_daily_hours,64,17,merge_043,merge_060,0.987050728713535,6.1322422258592475,6.309310151430174,merge_064
+heating_daily_hours,65,16,merge_045,merge_051,0.9810219222205389,10.71124031007752,10.486700443318556,merge_065
+heating_daily_hours,66,15,merge_033,merge_054,0.9294807629702668,9.428186714542191,9.75413223140496,merge_066
+heating_daily_hours,67,14,merge_048,merge_058,0.8183923655222768,7.9951923076923075,7.750814332247557,merge_067
+heating_daily_hours,68,13,merge_056,merge_057,0.49221065576810175,9.072964993673555,8.798407997038135,merge_068
+heating_daily_hours,69,12,merge_032,merge_063,0.43756703963516297,6.622099447513812,6.937007874015748,merge_069
+heating_daily_hours,70,11,merge_064,south_and_islands | apartment_intermediate_floor | 3,0.2493450017818697,6.22760912248905,5.798958333333333,merge_070
+heating_daily_hours,71,10,merge_055,merge_067,0.05372978746119983,7.374520337682272,7.830511132016306,merge_071

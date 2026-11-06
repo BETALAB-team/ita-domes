@@ -1,0 +1,542 @@
+{
+  "configuration": {
+    "input_config": "multiyear_workflow_config.json",
+    "output_root": "revised_paper_outputs",
+    "pdf_directory": "output/pdf",
+    "seed": 20260913,
+    "train_fraction": 0.7,
+    "tune_fraction": 0.15,
+    "n_clusters": 4,
+    "kmeans_starts": 12,
+    "age_cap": 100,
+    "no_or_primary_years": 2.5,
+    "tertiary_years": 18.0,
+    "minimum_cell_count": 30,
+    "probability_penalties": [
+      1e-05,
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "group_minimum_train_count": 30,
+    "group_maximum_count": 8,
+    "notes": [
+      "This is a methodologically revised reanalysis, not an author-approved corrigendum.",
+      "Household age-class midpoints are proxies; the two releases have non-nested age bands.",
+      "2021 uses frozen 2013 demographic transformations and centroids.",
+      "2021 appliance electricity uses the verified main-branch 2013 component boundary with documented assumptions and sensitivity scenarios."
+    ]
+  },
+  "years": {
+    "2013": {
+      "raw_n": 20000,
+      "eligible_n": 19445,
+      "split_counts": {
+        "train": 13611,
+        "test": 2918,
+        "tune": 2916
+      },
+      "outside_reference_range": 0,
+      "household_weight_total": 25266108.0,
+      "effective_n": 6925.619484390377,
+      "construction_unknown_pct": 4.092830601373191,
+      "probability": {
+        "eligible": 18817,
+        "train": 13190,
+        "tune": 2807,
+        "test": 2820,
+        "scores": [
+          {
+            "model": "quadratic",
+            "n": 2820,
+            "brier": 0.6858879755051108,
+            "log_loss": 1.261901498443331
+          },
+          {
+            "model": "quadratic_plus_location_type",
+            "n": 2820,
+            "brier": 0.6824690986064376,
+            "log_loss": 1.2579552867330674
+          },
+          {
+            "model": "training_marginal",
+            "n": 2820,
+            "brier": 0.7215150155976219,
+            "log_loss": 1.3244074181310836
+          }
+        ],
+        "penalty": 0.0001,
+        "models": {
+          "quadratic": {
+            "beta": [
+              [
+                1.5177292152012896,
+                1.231791701358565,
+                2.145714929182894,
+                0.0
+              ],
+              [
+                3.281404437891351,
+                -2.947345186540921,
+                1.1295779271940478,
+                0.0
+              ],
+              [
+                -1.8812822415988604,
+                1.5377954132584222,
+                -1.8989248639305705,
+                0.0
+              ],
+              [
+                -2.7795330504689595,
+                1.5901250342173177,
+                -1.6467558931739859,
+                0.0
+              ],
+              [
+                0.07434199951303316,
+                -0.6545482959575544,
+                0.26451792508044514,
+                0.0
+              ],
+              [
+                0.540238470056564,
+                -0.10477596764232285,
+                0.5461306704214496,
+                0.0
+              ]
+            ],
+            "penalty": 0.0001,
+            "names": [
+              "Intercept",
+              "Age/100",
+              "Area/100",
+              "Age squared/10000",
+              "Area squared/10000",
+              "Age x area/10000"
+            ]
+          },
+          "quadratic_plus_location_type": {
+            "beta": [
+              [
+                1.5419178734574497,
+                1.3698841447787848,
+                2.305880643231957,
+                0.0
+              ],
+              [
+                3.3532951501901875,
+                -3.0254609323253314,
+                1.2050352932687174,
+                0.0
+              ],
+              [
+                -2.349743688497515,
+                1.1653348617098314,
+                -2.030902632456127,
+                0.0
+              ],
+              [
+                -3.290360966541409,
+                1.3300877821734478,
+                -2.0011384284756635,
+                0.0
+              ],
+              [
+                0.024114055863494882,
+                -0.6851813222625519,
+                0.1646894641623249,
+                0.0
+              ],
+              [
+                0.742705348609508,
+                0.09948608071666548,
+                0.6252250500447222,
+                0.0
+              ],
+              [
+                0.3234325643321126,
+                -0.020934141480059152,
+                -0.06480499516435302,
+                0.0
+              ],
+              [
+                -0.2021902822908169,
+                -0.34966966479312,
+                -0.4627792060287962,
+                0.0
+              ],
+              [
+                0.21031105046151924,
+                0.19782950413922598,
+                -0.18988767870141737,
+                0.0
+              ],
+              [
+                0.7525162815521602,
+                0.7686021466379297,
+                0.4822901215638073,
+                0.0
+              ],
+              [
+                1.3646388797325602,
+                0.93636097190582,
+                1.0232021972179735,
+                0.0
+              ]
+            ],
+            "penalty": 0.0001,
+            "names": [
+              "Intercept",
+              "Age/100",
+              "Area/100",
+              "Age squared/10000",
+              "Area squared/10000",
+              "Age x area/10000",
+              "location: North-east",
+              "location: Centre",
+              "location: South/islands",
+              "dwelling_type: Multi-family",
+              "dwelling_type: Single-family"
+            ]
+          },
+          "marginal": [
+            0.24663709828283245,
+            0.3641643741936572,
+            0.2693702342484524,
+            0.11982829327505788
+          ]
+        }
+      },
+      "energy": {
+        "heating": {
+          "n": 18105,
+          "train_n": 12693,
+          "tune_n": 2714,
+          "test_n": 2698,
+          "groups": 7,
+          "unsupported_test": 6,
+          "rmse": 3.7717900834211515,
+          "baseline_rmse": 4.025407977025544,
+          "mean": 7.8783907133266435,
+          "test_mean": 7.972378865537847,
+          "anova": {
+            "n": 2617,
+            "formula": "heating ~ C(archetype) + C(dwelling_type) + C(location) + C(insulation) + age100 + area100 + C(cooling) + C(archetype):C(dwelling_type) + C(archetype):C(location) + C(archetype):C(insulation) + C(insulation):C(location) + C(dwelling_type):C(location) + C(dwelling_type):C(insulation) + age100:area100",
+            "rank": 43,
+            "columns": 43,
+            "weighted_r2": 0.15579013376972328,
+            "holm_significant_terms": [
+              "Location"
+            ]
+          }
+        },
+        "electricity": {
+          "n": 19445,
+          "train_n": 13611,
+          "tune_n": 2916,
+          "test_n": 2918,
+          "groups": 5,
+          "unsupported_test": 6,
+          "rmse": 1818.6420632680545,
+          "baseline_rmse": 1861.020405752753,
+          "mean": 2175.0766955463228,
+          "test_mean": 2242.4119695781465,
+          "anova": {
+            "n": 2792,
+            "formula": "electricity ~ C(archetype) + C(dwelling_type) + C(location) + C(insulation) + age100 + area100 + C(cooling) + C(archetype):C(dwelling_type) + C(archetype):C(location) + C(archetype):C(insulation) + C(insulation):C(location) + C(dwelling_type):C(location) + C(dwelling_type):C(insulation) + age100:area100",
+            "rank": 43,
+            "columns": 43,
+            "weighted_r2": 0.12620516872905174,
+            "holm_significant_terms": []
+          }
+        }
+      }
+    },
+    "2021": {
+      "raw_n": 54069,
+      "eligible_n": 52632,
+      "split_counts": {
+        "train": 36842,
+        "test": 7896,
+        "tune": 7894
+      },
+      "outside_reference_range": 3189,
+      "household_weight_total": 23608115.214703433,
+      "effective_n": 23054.24173634781,
+      "construction_unknown_pct": 14.065529692505748,
+      "probability": {
+        "eligible": 46725,
+        "train": 32706,
+        "tune": 7065,
+        "test": 6954,
+        "scores": [
+          {
+            "model": "quadratic",
+            "n": 6954,
+            "brier": 0.707081564032776,
+            "log_loss": 1.299597854240291
+          },
+          {
+            "model": "quadratic_plus_location_type",
+            "n": 6954,
+            "brier": 0.7042804760463082,
+            "log_loss": 1.2925520810023434
+          },
+          {
+            "model": "training_marginal",
+            "n": 6954,
+            "brier": 0.7288944586532562,
+            "log_loss": 1.3415579092547054
+          }
+        ],
+        "penalty": 1e-05,
+        "models": {
+          "quadratic": {
+            "beta": [
+              [
+                -1.694083335384061,
+                -0.18459716566756643,
+                1.3695790460156243,
+                0.0
+              ],
+              [
+                6.1334650558261,
+                -1.4106312462709547,
+                1.1262343832124664,
+                0.0
+              ],
+              [
+                0.9401430228792994,
+                2.5389023976817304,
+                -1.185233073863566,
+                0.0
+              ],
+              [
+                -4.340973467176931,
+                0.9569894580680492,
+                -1.005699692538105,
+                0.0
+              ],
+              [
+                -0.4087317989315739,
+                -0.8474963233226089,
+                0.31014521580272186,
+                0.0
+              ],
+              [
+                -0.2862129614527996,
+                -0.5679722275261975,
+                0.018420906371691304,
+                0.0
+              ]
+            ],
+            "penalty": 1e-05,
+            "names": [
+              "Intercept",
+              "Age/100",
+              "Area/100",
+              "Age squared/10000",
+              "Area squared/10000",
+              "Age x area/10000"
+            ]
+          },
+          "quadratic_plus_location_type": {
+            "beta": [
+              [
+                -1.6062289496756472,
+                -0.04864449026682074,
+                1.5364390402487291,
+                0.0
+              ],
+              [
+                6.378514146793022,
+                -1.3919211774401217,
+                1.3681567509023116,
+                0.0
+              ],
+              [
+                0.2524976627249139,
+                2.005587994719503,
+                -1.416935141924278,
+                0.0
+              ],
+              [
+                -4.791054792623347,
+                0.7705853821361974,
+                -1.3718668550204531,
+                0.0
+              ],
+              [
+                -0.4147515295482299,
+                -0.812014734187746,
+                0.2499994651816936,
+                0.0
+              ],
+              [
+                -0.016191474904098255,
+                -0.3665790668823044,
+                0.1519116428935355,
+                0.0
+              ],
+              [
+                0.14676907345763904,
+                -0.014610821946464125,
+                -0.06566828492767536,
+                0.0
+              ],
+              [
+                -0.21255634468248263,
+                -0.1386035929715575,
+                -0.3648535433493466,
+                0.0
+              ],
+              [
+                0.5027517788742937,
+                0.44810976778370615,
+                -0.13042854001961937,
+                0.0
+              ],
+              [
+                0.9538568414947267,
+                0.7140001247068108,
+                0.6001367083217174,
+                0.0
+              ],
+              [
+                1.3309359450989995,
+                0.7598149274392653,
+                0.7984338559417137,
+                0.0
+              ]
+            ],
+            "penalty": 1e-05,
+            "names": [
+              "Intercept",
+              "Age/100",
+              "Area/100",
+              "Age squared/10000",
+              "Area squared/10000",
+              "Age x area/10000",
+              "location: North-east",
+              "location: Centre",
+              "location: South/islands",
+              "dwelling_type: Multi-family",
+              "dwelling_type: Single-family"
+            ]
+          },
+          "marginal": [
+            0.20729112152941587,
+            0.3199595327299518,
+            0.3240640735431768,
+            0.14868527219745542
+          ]
+        }
+      },
+      "energy": {
+        "heating": {
+          "n": 48705,
+          "train_n": 34124,
+          "tune_n": 7276,
+          "test_n": 7305,
+          "groups": 8,
+          "unsupported_test": 0,
+          "rmse": 4.759442386067287,
+          "baseline_rmse": 5.07531385119605,
+          "mean": 8.507635751624427,
+          "test_mean": 8.531683993262146,
+          "anova": {
+            "n": 6481,
+            "formula": "heating ~ C(archetype) + C(dwelling_type) + C(location) + C(insulation_improvement) + age100 + area100 + C(cooling) + C(archetype):C(dwelling_type) + C(archetype):C(location) + C(archetype):C(insulation_improvement) + C(insulation_improvement):C(location) + C(dwelling_type):C(location) + C(dwelling_type):C(insulation_improvement) + age100:area100",
+            "rank": 43,
+            "columns": 43,
+            "weighted_r2": 0.1458479326205917,
+            "holm_significant_terms": [
+              "Location",
+              "Building-age proxy",
+              "Floor-area proxy"
+            ]
+          }
+        },
+        "electricity": {
+          "n": 52632,
+          "train_n": 36842,
+          "tune_n": 7894,
+          "test_n": 7896,
+          "groups": 8,
+          "unsupported_test": 0,
+          "rmse": 663.7949648690652,
+          "baseline_rmse": 765.7580922284006,
+          "mean": 1936.752173159976,
+          "test_mean": 1943.7036203261443,
+          "anova": {
+            "n": 6911,
+            "formula": "electricity ~ C(archetype) + C(dwelling_type) + C(location) + C(insulation_improvement) + age100 + area100 + C(cooling) + C(archetype):C(dwelling_type) + C(archetype):C(location) + C(archetype):C(insulation_improvement) + C(insulation_improvement):C(location) + C(dwelling_type):C(location) + C(dwelling_type):C(insulation_improvement) + age100:area100",
+            "rank": 43,
+            "columns": 43,
+            "weighted_r2": 0.354675587682293,
+            "holm_significant_terms": [
+              "Archetype",
+              "Floor-area proxy",
+              "Cooling presence"
+            ]
+          }
+        }
+      },
+      "equipment": {
+        "eligible_n": 52632,
+        "cooling_present_n": 24073,
+        "cooling_hours_n": 17493,
+        "improvement_reported_n": 5687,
+        "improvement_unknown_n": 432,
+        "source_counts": {
+          "households": 54069,
+          "cooling_present": 24721,
+          "improvements_reported": 5847,
+          "improvements_unknown": 440,
+          "cooling_hours_observed": 17952
+        }
+      }
+    }
+  },
+  "inputs": {
+    "2013": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\MICRODATI\\ECH_Microdati_Anno_2013.txt",
+      "sha256": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+      "raw_n": 20000
+    },
+    "2021": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\MICRODATI\\ISTAT_MFR_ECH_Microdati_2021_DELIMITED.txt",
+      "sha256": "dd7afa7fcf581014e4a95c27035422b08fa9fb2f211c7551deeb4568fe174eb4",
+      "raw_n": 54069
+    },
+    "electricity_2013": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\results_grins.csv",
+      "sha256": "c9232f7e21897e77ae38daba767f854708f259bf4292358a7bca5c2ab2b30de1"
+    },
+    "ISTAT_MFR_ECH_Tracciato_2021_DELIMITED.html": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\METADATI\\ISTAT_MFR_ECH_Tracciato_2021_DELIMITED.html",
+      "sha256": "ef2ddc7123c1120c23297427767f7d307f6e70434cad26a26d38e6845653b634"
+    },
+    "ISTAT_MFR_ECH_Questionario_2021.pdf": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\METADATI\\ISTAT_MFR_ECH_Questionario_2021.pdf",
+      "sha256": "0b4a1468fa291dcf98577bad9ac801f8f5e0a9f6af460b9065f7d0193a2162e4"
+    },
+    "electricity_2021.csv": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\appliance_audit\\electricity_2021.csv",
+      "sha256": "8afbec1516244b369ada111fb649a569b31c6acb96f420b858c73cc748f34fe7"
+    },
+    "electricity_model_report.json": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\appliance_audit\\electricity_model_report.json",
+      "sha256": "05e939f0b300d368d5c7a98907615a434023317153400440a0136c5e837909d6"
+    }
+  },
+  "checks": {
+    "no_production_outputs_overwritten": true,
+    "test_split_unused_in_fitting": true,
+    "frozen_2013_pca_and_centers": true,
+    "softmax_simplex": true,
+    "no_missing_heating_filled_with_zero": true,
+    "2021_electricity_is_explicitly_modeled": true
+  }
+}

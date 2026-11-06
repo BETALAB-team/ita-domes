@@ -1,0 +1,9 @@
+site,endpoint,unit,pooled_prediction,group_1_prediction,group_2_prediction,group_3_prediction,group_4_prediction,annual_maximum_definition
+Padova,annual_sensible_heating_kWh,kWh,7834.856651434894,7736.545418472603,7953.8931233329295,7847.518639550323,7872.555316966819,mean of individual annual maxima; no coincident curve maximum
+Padova,peak_sensible_heating_kW,kW,16.93169100595899,17.234093042592225,16.563322592791017,16.911359953534927,16.784195193228985,mean of individual annual maxima; no coincident curve maximum
+Bolzano,annual_sensible_heating_kWh,kWh,12947.303378271696,12783.809172114687,13145.848560623665,12965.366634537304,13014.509700093266,mean of individual annual maxima; no coincident curve maximum
+Bolzano,peak_sensible_heating_kW,kW,22.005253135140563,22.120724488695043,21.862026520905538,22.006946408455008,21.936447116623054,mean of individual annual maxima; no coincident curve maximum
+Roma,annual_sensible_heating_kWh,kWh,5423.3908936347225,5352.589181657574,5509.03681038504,5433.806793704916,5448.165227326996,mean of individual annual maxima; no coincident curve maximum
+Roma,peak_sensible_heating_kW,kW,13.989256042565927,14.20483925170873,13.72760199581788,13.97570559105979,13.87988453733096,mean of individual annual maxima; no coincident curve maximum
+Palermo,annual_sensible_heating_kWh,kWh,4220.547129245511,4165.83848892566,4286.671449483004,4229.3246278982815,4238.375923691488,mean of individual annual maxima; no coincident curve maximum
+Palermo,peak_sensible_heating_kW,kW,12.592066296900112,12.715247543776076,12.443435653347274,12.585678332366111,12.524736402849285,mean of individual annual maxima; no coincident curve maximum

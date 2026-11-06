@@ -1,0 +1,53 @@
+{
+  "status": "corrected v3 Padova CSV arithmetic and declared checks independently inspected by author; independent reviewer still required",
+  "run_path": "05_simulations/climate_campaign_v3/Padova",
+  "completion_manifest_sha256": "6fce31d773358393cbd2deb3213b67140b425d8f384ca7a07102cae83b9f7288",
+  "transition_checks_sha256": "8022fedc52034fe79f42764489506e92d9178448c2e57056d0eba4f385709023",
+  "full_step_checks_sha256": "e6277222a55695bf58f88a0f8fa89d244e25bdb2f69839eaee8ae379ecabd27c",
+  "cases": {
+    "seeded": {
+      "annual_kWh": 5947.725172656399,
+      "peak_kW": 8.869599357134677,
+      "hourly_sha256": "fd3d0a61db11174c56af7c52af52f217d85fc3af8c678668b0006d633a0911e4",
+      "max_node_residual_W": 1.887201506178826e-10
+    },
+    "early": {
+      "annual_kWh": 6078.713796238734,
+      "peak_kW": 9.018531364349917,
+      "hourly_sha256": "bda58bca421ddd5c7d946efae1daef68b1b79e18f4e00924acc72e00c4fe52f8",
+      "max_node_residual_W": 1.887201506178826e-10
+    },
+    "late": {
+      "annual_kWh": 5988.123201222301,
+      "peak_kW": 8.656040846577536,
+      "hourly_sha256": "5e334581ed6c0c050c78023abf2859dd6f3be24797242ca747a07e0c7edcd380",
+      "max_node_residual_W": 1.887201506178826e-10
+    },
+    "repeat_seeded": {
+      "annual_kWh": 5947.725172656399,
+      "peak_kW": 8.869599357134677,
+      "hourly_sha256": "fd3d0a61db11174c56af7c52af52f217d85fc3af8c678668b0006d633a0911e4",
+      "max_node_residual_W": 1.887201506178826e-10
+    },
+    "warmup_seeded": {
+      "annual_kWh": 5947.725172639806,
+      "peak_kW": 8.869599357134677,
+      "hourly_sha256": "89f1c87445660487c015bb7b443aadc00008b9c29902d3f21c996e2fa76f987e",
+      "max_node_residual_W": 1.887201506178826e-10
+    }
+  },
+  "deltas": {
+    "early": {
+      "annual_minus_seeded_kWh": 130.9886235823351,
+      "annual_minus_seeded_percent": 2.2023314759823,
+      "peak_minus_seeded_kW": 0.14893200721524025,
+      "peak_minus_seeded_percent": 1.6791289123498032
+    },
+    "late": {
+      "annual_minus_seeded_kWh": 40.39802856590177,
+      "annual_minus_seeded_percent": 0.6792181446382939,
+      "peak_minus_seeded_kW": -0.21355851055714048,
+      "peak_minus_seeded_percent": -2.4077582533122532
+    }
+  }
+}

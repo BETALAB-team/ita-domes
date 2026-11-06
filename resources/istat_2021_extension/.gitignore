@@ -1,0 +1,17 @@
+# Local source data and generated artifacts
+__pycache__/
+*.pyc
+.venv/
+.scientific/
+.deps/
+/istat/Microdati21/
+/istat/ECH_2013_IT/
+/istat_microdata_2013.csv
+/results_grins.csv
+/clusters.csv
+/Clustered.csv
+/family_trees.csv
+/new_elet.csv
+/elet.csv
+/Significant_groups.csv
+/energy_studio_runs/

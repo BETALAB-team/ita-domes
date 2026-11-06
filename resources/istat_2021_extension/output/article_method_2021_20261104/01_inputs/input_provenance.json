@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-04",
+  "files": {
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\MICRODATI\\ISTAT_MFR_ECH_Microdati_2021_DELIMITED.txt": "dd7afa7fcf581014e4a95c27035422b08fa9fb2f211c7551deeb4568fe174eb4",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\appliance_audit\\electricity_2021.csv": "8afbec1516244b369ada111fb649a569b31c6acb96f420b858c73cc748f34fe7",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_outputs\\appliance_audit\\electricity_model_report.json": "05e939f0b300d368d5c7a98907615a434023317153400440a0136c5e837909d6",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\model_electricity_2021.py": "5e45a969f128a9b60f1e7622869451e3e619ceb406a14220559add6c9ab11b0a",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\03_PCA_Clustering.py": "c2fe140e16a339cb0a27f95a90bb7609e6138a85ce03fbf2afcafd93614a62d0",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\05_02_PFE_Probablity.py": "ab30a94b1cbfc341ff67b19e79189fc8d8ca13d4630ab8bb46eb81f9dd3b9df7",
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\07_ANOVA_analysis.py": "4145f687a8737d76191fa5531924a1c9998ac672dff1097318a8ca5e467826dd"
+  },
+  "rows": 54069,
+  "id_unique": true,
+  "positive_weights": true,
+  "member_domain_1_to_5": 53520,
+  "electricity_components_sum_max_error": 1.8189894035458565e-12,
+  "electricity_positive": true,
+  "reused_appliance_model_audit": {
+    "main_commit": "ccdbf72d40843f4a4882655103d6352de299a1bc",
+    "database_sha256": "4d9b91f5a4302fa62ea241c347f54f17f96fb908562519b6bf1e3898e706ec08",
+    "2013_max_absolute_replication_error_kwh": 1.8189894035458565e-12,
+    "2013_n": 20000,
+    "2021_n": 54069,
+    "weighted_mean_kwh": 1949.1860095094185,
+    "weighted_lower_scenario_kwh": 1527.1184153223548,
+    "weighted_upper_scenario_kwh": 2705.67106271211,
+    "assumptions": [
+      "Reference 2013 power, efficiency and operating-day parameters, not an updated 2021 efficiency database.",
+      "Lighting hours per bulb type: weighted 2013 average; alternative scenarios 3 and 7 hours/day.",
+      "Small-appliance background: weighted 2013 mean; alternatives zero and twice that mean.",
+      "Fridge capacity/multiplicity: weighted 2013 owner distribution; alternatives small/single and large/factor 1.3.",
+      "2021 age-band midpoints mapped to legacy relative-age EEI; unknown age uses EEI 65.",
+      "Infrequent laundry/dishwashing: 18 cycles/year; alternatives 0 and 24.",
+      "Primary TV type represents TV power. Primary PC type represents all computers/tablets; alternatives all portable/all desktop.",
+      "Generic standby uses released member count; top-coded six-or-more households excluded by manuscript eligibility.",
+      "Scenarios are assumptions, not confidence intervals; no measured electricity validation claimed."
+    ]
+  },
+  "counts": {
+    "dwelling_type": {
+      "apartment_intermediate_floor": 16860,
+      "multi_family_house": 11421,
+      "single_family_house": 10119,
+      "apartment_ground_basement_raised": 7851,
+      "apartment_top_floor": 7818
+    },
+    "location": {
+      "south_and_islands": 17944,
+      "north_west": 13357,
+      "central": 11732,
+      "north_east": 11036
+    },
+    "heating_hours_valid_conditional": 50063,
+    "cooling_hours_valid_conditional": 17952,
+    "construction_unknown": 6128
+  },
+  "output_sha256": "a6020c39720ec3f7f1100197d45b1462e0788e2fad44b360165e33cac5ccbc8b"
+}

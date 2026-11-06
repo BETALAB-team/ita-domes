@@ -1,0 +1,64 @@
+{
+  "year": 2021,
+  "include_insulation": false,
+  "grouping_inputs": [
+    "location",
+    "dwelling_type",
+    "archetype"
+  ],
+  "heating": {
+    "grouping": {
+      "n": 48705,
+      "train_n": 34124,
+      "tune_n": 7276,
+      "test_n": 7305,
+      "groups": 8,
+      "unsupported_test": 0,
+      "rmse": 4.759442386067287,
+      "baseline_rmse": 5.07531385119605,
+      "mean": 8.507635751624427,
+      "test_mean": 8.531683993262146
+    },
+    "anova": {
+      "n": 6481,
+      "formula": "heating ~ C(archetype) + C(dwelling_type) + C(location) + age100 + area100 + C(cooling) + C(archetype):C(dwelling_type) + C(archetype):C(location) + C(dwelling_type):C(location) + age100:area100",
+      "rank": 34,
+      "columns": 34,
+      "weighted_r2": 0.14285333229967423,
+      "holm_significant_terms": [
+        "Location",
+        "Building-age proxy",
+        "Floor-area proxy"
+      ]
+    },
+    "assignments_unchanged": true
+  },
+  "electricity": {
+    "grouping": {
+      "n": 52632,
+      "train_n": 36842,
+      "tune_n": 7894,
+      "test_n": 7896,
+      "groups": 8,
+      "unsupported_test": 0,
+      "rmse": 663.7949648690652,
+      "baseline_rmse": 765.7580922284006,
+      "mean": 1936.752173159976,
+      "test_mean": 1943.7036203261443
+    },
+    "anova": {
+      "n": 6954,
+      "formula": "electricity ~ C(archetype) + C(dwelling_type) + C(location) + age100 + area100 + C(cooling) + C(archetype):C(dwelling_type) + C(archetype):C(location) + C(dwelling_type):C(location) + age100:area100",
+      "rank": 34,
+      "columns": 34,
+      "weighted_r2": 0.3532474749350871,
+      "holm_significant_terms": [
+        "Archetype",
+        "Floor-area proxy",
+        "Cooling presence"
+      ]
+    },
+    "assignments_unchanged": true
+  },
+  "interpretation": "Groups optimize tuning prediction, not pairwise statistical separation. No groups were merged using test-set p-values. Similar H7/H8 test distributions are evidence against interpreting every label as a distinct heating regime. Fewer groups require a separate complexity-selection rule."
+}

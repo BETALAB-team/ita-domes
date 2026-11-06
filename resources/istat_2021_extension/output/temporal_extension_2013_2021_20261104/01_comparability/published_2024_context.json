@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-04",
+  "source": "https://www.istat.it/comunicato-stampa/dotazioni-energetiche-delle-famiglie-anno-2024/",
+  "publication_date": "2025-10-09",
+  "reference": "Equipment in main residence at2024 interview;biomass2023 separate",
+  "access_depth": "Official HTML opened;linked reportPDF not separately opened by this agent",
+  "rows": [
+    {
+      "indicator": "Any air conditioning system",
+      "2021_pct": 48.8,
+      "2024_pct": 56.0,
+      "denominator": "Resident households/main dwelling",
+      "locator": "HTMLline214;paragraph after hot-water overview",
+      "comparison": "Officially reported crosswave comparison;not model-estimated archetype shift"
+    },
+    {
+      "indicator": "Autonomous heating available",
+      "2021_pct": 72.2,
+      "2024_pct": 79.0,
+      "denominator": "Households/main dwelling;multiple systems possible",
+      "locator": "HTMLlines212,224",
+      "comparison": "Availability of autonomous system,not prevalence/main system. Do not compare2021main-system65.7%."
+    },
+    {
+      "indicator": "Individual fixed/portable heating available",
+      "2021_pct": 48.1,
+      "2024_pct": 44.8,
+      "denominator": "Households/main dwelling;multiple systems possible",
+      "locator": "HTMLlines212,224",
+      "comparison": "Availability;shares not mutually exclusive"
+    },
+    {
+      "indicator": "Centralized heating available",
+      "2021_pct": 18.0,
+      "2024_pct": 15.4,
+      "denominator": "Households/main dwelling;multiple systems possible",
+      "locator": "HTMLlines212,224",
+      "comparison": "Availability;not archetype or household transitions"
+    }
+  ],
+  "boundary": "2024 aggregate context only;no local2024 microdata and no2024archetype assignment. Equipment changes do not identify behavioural or efficiency causes."
+}

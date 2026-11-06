@@ -1,0 +1,119 @@
+{
+  "created_utc": "2026-10-20T10:03:55Z",
+  "provider_documentation": "https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en",
+  "purpose": "candidate homogeneous climate descriptor inventory before selection; not historical weather",
+  "requested_shared_window": [
+    2005,
+    2023
+  ],
+  "sites": [
+    {
+      "site": "Padova",
+      "lat": 45.408,
+      "lon": 11.873,
+      "files": [
+        {
+          "format": "json",
+          "url": "https://re.jrc.ec.europa.eu/api/v5_3/tmy?lat=45.408&lon=11.873&startyear=2005&endyear=2023&outputformat=json&usehorizon=1",
+          "http_status": 200,
+          "retrieved_utc": "2026-10-20T10:03:57Z",
+          "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\05_simulations\\climate_inputs_v2\\Padova.json",
+          "bytes": 1269354,
+          "sha256": "869e4e861b70e72dc41f6a824d851c884755acbcdbdc1a155b41660d7de78419",
+          "content_type": "application/json"
+        },
+        {
+          "format": "epw",
+          "url": "https://re.jrc.ec.europa.eu/api/v5_3/tmy?lat=45.408&lon=11.873&startyear=2005&endyear=2023&outputformat=epw&usehorizon=1",
+          "http_status": 200,
+          "retrieved_utc": "2026-10-20T10:03:58Z",
+          "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\05_simulations\\climate_inputs_v2\\Padova.epw",
+          "bytes": 1867113,
+          "sha256": "390ead08c3e32d34a874c564b57c28ef1b7275682c7a749477208f5b6846adca",
+          "content_type": "text/html; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "site": "Bolzano",
+      "lat": 46.5,
+      "lon": 11.35,
+      "files": [
+        {
+          "format": "json",
+          "url": "https://re.jrc.ec.europa.eu/api/v5_3/tmy?lat=46.5&lon=11.35&startyear=2005&endyear=2023&outputformat=json&usehorizon=1",
+          "http_status": 200,
+          "retrieved_utc": "2026-10-20T10:03:59Z",
+          "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\05_simulations\\climate_inputs_v2\\Bolzano.json",
+          "bytes": 1258614,
+          "sha256": "1294b6c3397eda2949ddacd08f3f964ef177466185118a52a931cc4100119308",
+          "content_type": "application/json"
+        },
+        {
+          "format": "epw",
+          "url": "https://re.jrc.ec.europa.eu/api/v5_3/tmy?lat=46.5&lon=11.35&startyear=2005&endyear=2023&outputformat=epw&usehorizon=1",
+          "http_status": 200,
+          "retrieved_utc": "2026-10-20T10:04:00Z",
+          "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\05_simulations\\climate_inputs_v2\\Bolzano.epw",
+          "bytes": 1857565,
+          "sha256": "ff2561b3a202e1ae67201bd46086e56e50c66d328bd118bfe8e7d0c3270d472b",
+          "content_type": "text/html; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "site": "Roma",
+      "lat": 41.9,
+      "lon": 12.5,
+      "files": [
+        {
+          "format": "json",
+          "url": "https://re.jrc.ec.europa.eu/api/v5_3/tmy?lat=41.9&lon=12.5&startyear=2005&endyear=2023&outputformat=json&usehorizon=1",
+          "http_status": 200,
+          "retrieved_utc": "2026-10-20T10:04:01Z",
+          "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\05_simulations\\climate_inputs_v2\\Roma.json",
+          "bytes": 1270467,
+          "sha256": "c76cb2ce8e620e1378e195f5e9bb4665386d81e88ee97636b2ff1464272b7f20",
+          "content_type": "application/json"
+        },
+        {
+          "format": "epw",
+          "url": "https://re.jrc.ec.europa.eu/api/v5_3/tmy?lat=41.9&lon=12.5&startyear=2005&endyear=2023&outputformat=epw&usehorizon=1",
+          "http_status": 200,
+          "retrieved_utc": "2026-10-20T10:04:02Z",
+          "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\05_simulations\\climate_inputs_v2\\Roma.epw",
+          "bytes": 1868552,
+          "sha256": "edbe4470b89164c1c80e8dd8969949addfd132ce4a10cb93278eb88c8f1247cd",
+          "content_type": "text/html; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "site": "Palermo",
+      "lat": 38.12,
+      "lon": 13.36,
+      "files": [
+        {
+          "format": "json",
+          "url": "https://re.jrc.ec.europa.eu/api/v5_3/tmy?lat=38.12&lon=13.36&startyear=2005&endyear=2023&outputformat=json&usehorizon=1",
+          "http_status": 200,
+          "retrieved_utc": "2026-10-20T10:04:03Z",
+          "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\05_simulations\\climate_inputs_v2\\Palermo.json",
+          "bytes": 1265512,
+          "sha256": "d963cbaae2f79d8bd81dfcc47ae1dc6b0f3e18b041ee71cf9e89b0646a7ab819",
+          "content_type": "application/json"
+        },
+        {
+          "format": "epw",
+          "url": "https://re.jrc.ec.europa.eu/api/v5_3/tmy?lat=38.12&lon=13.36&startyear=2005&endyear=2023&outputformat=epw&usehorizon=1",
+          "http_status": 200,
+          "retrieved_utc": "2026-10-20T10:04:03Z",
+          "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\05_simulations\\climate_inputs_v2\\Palermo.epw",
+          "bytes": 1863814,
+          "sha256": "1e51aa278551c25cddd96ce1c40ae0f86a8e91f05ca71157f67b17be8cf1d80f",
+          "content_type": "text/html; charset=utf-8"
+        }
+      ]
+    }
+  ]
+}

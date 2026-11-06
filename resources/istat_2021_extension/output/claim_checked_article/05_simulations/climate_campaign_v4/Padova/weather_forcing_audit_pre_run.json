@@ -1,0 +1,758 @@
+{
+  "sigma_W_m2_K4": 5.6697e-08,
+  "EPW_interval_hours": 1,
+  "method": "IR rate=(IR Wh/m2)/1hour; effective sky K=(IRrate/sigma)^.25; native annual scalar is arithmetic mean(airC-skyC)",
+  "no_cloud_imputation": true,
+  "sites": {
+    "Padova": {
+      "fields": {
+        "dry_bulb": {
+          "epw_zero_based_column": 6,
+          "unit": "degC",
+          "missing_sentinel": 99.9,
+          "sentinel_count": 0,
+          "min": -3.59,
+          "max": 36.59,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -70,
+            70
+          ]
+        },
+        "dew_point": {
+          "epw_zero_based_column": 7,
+          "unit": "degC",
+          "missing_sentinel": 99.9,
+          "sentinel_count": 0,
+          "min": -10.47,
+          "max": 25.66,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -70,
+            70
+          ]
+        },
+        "relative_humidity": {
+          "epw_zero_based_column": 8,
+          "unit": "percent",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": 22.25,
+          "max": 100.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            100
+          ]
+        },
+        "pressure": {
+          "epw_zero_based_column": 9,
+          "unit": "Pa",
+          "missing_sentinel": 999999,
+          "sentinel_count": 0,
+          "min": 98290.0,
+          "max": 103300.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            31000,
+            120000
+          ]
+        },
+        "horizontal_IR": {
+          "epw_zero_based_column": 12,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 211.7,
+          "max": 441.05,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            1000
+          ]
+        },
+        "GHI": {
+          "epw_zero_based_column": 13,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 956.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "DNI": {
+          "epw_zero_based_column": 14,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": -0.0,
+          "max": 944.71,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "DHI": {
+          "epw_zero_based_column": 15,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 457.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "wind_direction": {
+          "epw_zero_based_column": 20,
+          "unit": "degree",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 360.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            360
+          ]
+        },
+        "wind_speed": {
+          "epw_zero_based_column": 21,
+          "unit": "m/s",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 7.9,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            40
+          ]
+        },
+        "opaque_sky_cover": {
+          "epw_zero_based_column": 23,
+          "unit": "tenths",
+          "missing_sentinel": 99,
+          "sentinel_count": 8760,
+          "min": 99.0,
+          "max": 99.0,
+          "finite": true,
+          "range_failure_count": 8760,
+          "validity_range": [
+            0,
+            10
+          ]
+        }
+      },
+      "epw_json_recordwise_max_abs_difference": {
+        "dry_bulb": 0.0,
+        "RH": 0.0,
+        "pressure": 0.0,
+        "IR": 0.0,
+        "GHI": 0.0,
+        "DNI": 0.0,
+        "DHI": 0.0,
+        "wind_direction": 0.0,
+        "wind_speed": 0.050000000000000266
+      },
+      "all_date_hour_end_minus1_match_json_labels": true,
+      "EPW_timezone_hours": 1.0,
+      "EPW_comments2": "COMMENTS 2,Irradiance Time Offset (h):-0.8235",
+      "JSON_irradiance_time_offset_hours": 0.1765,
+      "effective_sky_C_range": [
+        -25.954708282586978,
+        23.83323706240907
+      ],
+      "IR_derived_mean_air_minus_sky_K": 12.77565604632737,
+      "IR_reconstruction_max_abs_error_W_m2": 1.7053025658242404e-13,
+      "dew_point_above_air_count": 0,
+      "active_forcing_QC_pass": true,
+      "sky_derivation_pass": true,
+      "loaded_unused_wind_speed_valid": true,
+      "wind_scope": "Raw wind retained, not imputed. Source reads wind only for natural ventilation, disabled and guarded in this campaign; no wind-quality or ventilation inference follows.",
+      "epw_sha256": "390ead08c3e32d34a874c564b57c28ef1b7275682c7a749477208f5b6846adca",
+      "json_sha256": "869e4e861b70e72dc41f6a824d851c884755acbcdbdc1a155b41660d7de78419",
+      "time_interpretation": "Record i EPW hour-ending H matches JSON label H-1 exactly in date, IR and other fields. Native pvlib labels it H-1 in EPW fixed UTC+1; no extra shift/interpolation. IR and air paired from same exported record. Solar offset is reported but not applied by native EUReCA; retained timing approximation, not a claim of exact solar phase."
+    },
+    "Bolzano": {
+      "fields": {
+        "dry_bulb": {
+          "epw_zero_based_column": 6,
+          "unit": "degC",
+          "missing_sentinel": 99.9,
+          "sentinel_count": 0,
+          "min": -13.37,
+          "max": 28.28,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -70,
+            70
+          ]
+        },
+        "dew_point": {
+          "epw_zero_based_column": 7,
+          "unit": "degC",
+          "missing_sentinel": 99.9,
+          "sentinel_count": 0,
+          "min": -20.98,
+          "max": 18.04,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -70,
+            70
+          ]
+        },
+        "relative_humidity": {
+          "epw_zero_based_column": 8,
+          "unit": "percent",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": 20.04,
+          "max": 100.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            100
+          ]
+        },
+        "pressure": {
+          "epw_zero_based_column": 9,
+          "unit": "Pa",
+          "missing_sentinel": 999999,
+          "sentinel_count": 0,
+          "min": 86140.0,
+          "max": 90370.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            31000,
+            120000
+          ]
+        },
+        "horizontal_IR": {
+          "epw_zero_based_column": 12,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 142.59,
+          "max": 380.3,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            1000
+          ]
+        },
+        "GHI": {
+          "epw_zero_based_column": 13,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 969.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "DNI": {
+          "epw_zero_based_column": 14,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": -0.0,
+          "max": 1010.2,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "DHI": {
+          "epw_zero_based_column": 15,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 446.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "wind_direction": {
+          "epw_zero_based_column": 20,
+          "unit": "degree",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 360.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            360
+          ]
+        },
+        "wind_speed": {
+          "epw_zero_based_column": 21,
+          "unit": "m/s",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 2.6,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            40
+          ]
+        },
+        "opaque_sky_cover": {
+          "epw_zero_based_column": 23,
+          "unit": "tenths",
+          "missing_sentinel": 99,
+          "sentinel_count": 8760,
+          "min": 99.0,
+          "max": 99.0,
+          "finite": true,
+          "range_failure_count": 8760,
+          "validity_range": [
+            0,
+            10
+          ]
+        }
+      },
+      "epw_json_recordwise_max_abs_difference": {
+        "dry_bulb": 0.0,
+        "RH": 0.0,
+        "pressure": 0.0,
+        "IR": 0.0,
+        "GHI": 0.0,
+        "DNI": 0.0,
+        "DHI": 0.0,
+        "wind_direction": 0.0,
+        "wind_speed": 0.050000000000000266
+      },
+      "all_date_hour_end_minus1_match_json_labels": true,
+      "EPW_timezone_hours": 1.0,
+      "EPW_comments2": "COMMENTS 2,Irradiance Time Offset (h):-0.8223",
+      "JSON_irradiance_time_offset_hours": 0.1777,
+      "effective_sky_C_range": [
+        -49.209704307680624,
+        13.031503785787834
+      ],
+      "IR_derived_mean_air_minus_sky_K": 17.620782214282908,
+      "IR_reconstruction_max_abs_error_W_m2": 1.7053025658242404e-13,
+      "dew_point_above_air_count": 0,
+      "active_forcing_QC_pass": true,
+      "sky_derivation_pass": true,
+      "loaded_unused_wind_speed_valid": true,
+      "wind_scope": "Raw wind retained, not imputed. Source reads wind only for natural ventilation, disabled and guarded in this campaign; no wind-quality or ventilation inference follows.",
+      "epw_sha256": "ff2561b3a202e1ae67201bd46086e56e50c66d328bd118bfe8e7d0c3270d472b",
+      "json_sha256": "1294b6c3397eda2949ddacd08f3f964ef177466185118a52a931cc4100119308",
+      "time_interpretation": "Record i EPW hour-ending H matches JSON label H-1 exactly in date, IR and other fields. Native pvlib labels it H-1 in EPW fixed UTC+1; no extra shift/interpolation. IR and air paired from same exported record. Solar offset is reported but not applied by native EUReCA; retained timing approximation, not a claim of exact solar phase."
+    },
+    "Roma": {
+      "fields": {
+        "dry_bulb": {
+          "epw_zero_based_column": 6,
+          "unit": "degC",
+          "missing_sentinel": 99.9,
+          "sentinel_count": 0,
+          "min": -2.01,
+          "max": 37.87,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -70,
+            70
+          ]
+        },
+        "dew_point": {
+          "epw_zero_based_column": 7,
+          "unit": "degC",
+          "missing_sentinel": 99.9,
+          "sentinel_count": 0,
+          "min": -9.4,
+          "max": 24.37,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -70,
+            70
+          ]
+        },
+        "relative_humidity": {
+          "epw_zero_based_column": 8,
+          "unit": "percent",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": 18.85,
+          "max": 100.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            100
+          ]
+        },
+        "pressure": {
+          "epw_zero_based_column": 9,
+          "unit": "Pa",
+          "missing_sentinel": 999999,
+          "sentinel_count": 0,
+          "min": 97520.0,
+          "max": 102340.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            31000,
+            120000
+          ]
+        },
+        "horizontal_IR": {
+          "epw_zero_based_column": 12,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 209.95,
+          "max": 441.65,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            1000
+          ]
+        },
+        "GHI": {
+          "epw_zero_based_column": 13,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 988.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "DNI": {
+          "epw_zero_based_column": 14,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": -0.0,
+          "max": 931.98,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "DHI": {
+          "epw_zero_based_column": 15,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 473.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "wind_direction": {
+          "epw_zero_based_column": 20,
+          "unit": "degree",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 360.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            360
+          ]
+        },
+        "wind_speed": {
+          "epw_zero_based_column": 21,
+          "unit": "m/s",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 8.1,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            40
+          ]
+        },
+        "opaque_sky_cover": {
+          "epw_zero_based_column": 23,
+          "unit": "tenths",
+          "missing_sentinel": 99,
+          "sentinel_count": 8760,
+          "min": 99.0,
+          "max": 99.0,
+          "finite": true,
+          "range_failure_count": 8760,
+          "validity_range": [
+            0,
+            10
+          ]
+        }
+      },
+      "epw_json_recordwise_max_abs_difference": {
+        "dry_bulb": 0.0,
+        "RH": 0.0,
+        "pressure": 0.0,
+        "IR": 0.0,
+        "GHI": 0.0,
+        "DNI": 0.0,
+        "DHI": 0.0,
+        "wind_direction": 0.0,
+        "wind_speed": 0.050000000000000266
+      },
+      "all_date_hour_end_minus1_match_json_labels": true,
+      "EPW_timezone_hours": 1.0,
+      "EPW_comments2": "COMMENTS 2,Irradiance Time Offset (h):-0.8277",
+      "JSON_irradiance_time_offset_hours": 0.1723,
+      "effective_sky_C_range": [
+        -26.467154264454535,
+        23.93418883169693
+      ],
+      "IR_derived_mean_air_minus_sky_K": 13.551708113654966,
+      "IR_reconstruction_max_abs_error_W_m2": 1.7053025658242404e-13,
+      "dew_point_above_air_count": 0,
+      "active_forcing_QC_pass": true,
+      "sky_derivation_pass": true,
+      "loaded_unused_wind_speed_valid": true,
+      "wind_scope": "Raw wind retained, not imputed. Source reads wind only for natural ventilation, disabled and guarded in this campaign; no wind-quality or ventilation inference follows.",
+      "epw_sha256": "edbe4470b89164c1c80e8dd8969949addfd132ce4a10cb93278eb88c8f1247cd",
+      "json_sha256": "c76cb2ce8e620e1378e195f5e9bb4665386d81e88ee97636b2ff1464272b7f20",
+      "time_interpretation": "Record i EPW hour-ending H matches JSON label H-1 exactly in date, IR and other fields. Native pvlib labels it H-1 in EPW fixed UTC+1; no extra shift/interpolation. IR and air paired from same exported record. Solar offset is reported but not applied by native EUReCA; retained timing approximation, not a claim of exact solar phase."
+    },
+    "Palermo": {
+      "fields": {
+        "dry_bulb": {
+          "epw_zero_based_column": 6,
+          "unit": "degC",
+          "missing_sentinel": 99.9,
+          "sentinel_count": 0,
+          "min": 2.12,
+          "max": 33.52,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -70,
+            70
+          ]
+        },
+        "dew_point": {
+          "epw_zero_based_column": 7,
+          "unit": "degC",
+          "missing_sentinel": 99.9,
+          "sentinel_count": 0,
+          "min": -4.33,
+          "max": 22.26,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -70,
+            70
+          ]
+        },
+        "relative_humidity": {
+          "epw_zero_based_column": 8,
+          "unit": "percent",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": 16.65,
+          "max": 100.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            100
+          ]
+        },
+        "pressure": {
+          "epw_zero_based_column": 9,
+          "unit": "Pa",
+          "missing_sentinel": 999999,
+          "sentinel_count": 0,
+          "min": 96290.0,
+          "max": 100610.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            31000,
+            120000
+          ]
+        },
+        "horizontal_IR": {
+          "epw_zero_based_column": 12,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 237.25,
+          "max": 418.2,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            1000
+          ]
+        },
+        "GHI": {
+          "epw_zero_based_column": 13,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 1028.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "DNI": {
+          "epw_zero_based_column": 14,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": -0.0,
+          "max": 949.87,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "DHI": {
+          "epw_zero_based_column": 15,
+          "unit": "Wh/m2 per preceding hour",
+          "missing_sentinel": 9999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 469.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            -0.01,
+            1500
+          ]
+        },
+        "wind_direction": {
+          "epw_zero_based_column": 20,
+          "unit": "degree",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": 0.0,
+          "max": 360.0,
+          "finite": true,
+          "range_failure_count": 0,
+          "validity_range": [
+            0,
+            360
+          ]
+        },
+        "wind_speed": {
+          "epw_zero_based_column": 21,
+          "unit": "m/s",
+          "missing_sentinel": 999,
+          "sentinel_count": 0,
+          "min": -0.1,
+          "max": 11.2,
+          "finite": true,
+          "range_failure_count": 1,
+          "validity_range": [
+            0,
+            40
+          ]
+        },
+        "opaque_sky_cover": {
+          "epw_zero_based_column": 23,
+          "unit": "tenths",
+          "missing_sentinel": 99,
+          "sentinel_count": 8760,
+          "min": 99.0,
+          "max": 99.0,
+          "finite": true,
+          "range_failure_count": 8760,
+          "validity_range": [
+            0,
+            10
+          ]
+        }
+      },
+      "epw_json_recordwise_max_abs_difference": {
+        "dry_bulb": 0.0,
+        "RH": 0.0,
+        "pressure": 0.0,
+        "IR": 0.0,
+        "GHI": 0.0,
+        "DNI": 0.0,
+        "DHI": 0.0,
+        "wind_direction": 0.0,
+        "wind_speed": 0.050000000000000266
+      },
+      "all_date_hour_end_minus1_match_json_labels": true,
+      "EPW_timezone_hours": 1.0,
+      "EPW_comments2": "COMMENTS 2,Irradiance Time Offset (h):-0.8328",
+      "JSON_irradiance_time_offset_hours": 0.1672,
+      "effective_sky_C_range": [
+        -18.811833989211237,
+        19.909623404984927
+      ],
+      "IR_derived_mean_air_minus_sky_K": 14.073726997419666,
+      "IR_reconstruction_max_abs_error_W_m2": 1.7053025658242404e-13,
+      "dew_point_above_air_count": 0,
+      "active_forcing_QC_pass": true,
+      "sky_derivation_pass": true,
+      "loaded_unused_wind_speed_valid": false,
+      "wind_scope": "Raw wind retained, not imputed. Source reads wind only for natural ventilation, disabled and guarded in this campaign; no wind-quality or ventilation inference follows.",
+      "epw_sha256": "1e51aa278551c25cddd96ce1c40ae0f86a8e91f05ca71157f67b17be8cf1d80f",
+      "json_sha256": "d963cbaae2f79d8bd81dfcc47ae1dc6b0f3e18b041ee71cf9e89b0646a7ab819",
+      "time_interpretation": "Record i EPW hour-ending H matches JSON label H-1 exactly in date, IR and other fields. Native pvlib labels it H-1 in EPW fixed UTC+1; no extra shift/interpolation. IR and air paired from same exported record. Solar offset is reported but not applied by native EUReCA; retained timing approximation, not a claim of exact solar phase."
+    }
+  },
+  "gate_scope": "active forcing, mapping and sky derivation; not a statement that every exported weather variable is valid",
+  "pass": true
+}

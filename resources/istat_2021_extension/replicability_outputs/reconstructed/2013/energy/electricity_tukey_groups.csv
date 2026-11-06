@@ -1,0 +1,21 @@
+group,original_combination,location,dwelling_type
+E1,north_east | apartment_large_building,north_east,apartment_large_building
+E1,north_west | apartment_small_building,north_west,apartment_small_building
+E2,central | apartment_large_building,central,apartment_large_building
+E2,central | apartment_small_building,central,apartment_small_building
+E2,north_east | apartment_medium_building,north_east,apartment_medium_building
+E2,north_east | apartment_small_building,north_east,apartment_small_building
+E2,north_west | apartment_large_building,north_west,apartment_large_building
+E2,north_west | apartment_medium_building,north_west,apartment_medium_building
+E2,south_and_islands | apartment_medium_building,south_and_islands,apartment_medium_building
+E3,central | apartment_medium_building,central,apartment_medium_building
+E3,south_and_islands | apartment_large_building,south_and_islands,apartment_large_building
+E3,south_and_islands | apartment_small_building,south_and_islands,apartment_small_building
+E3,south_and_islands | multi_family_house,south_and_islands,multi_family_house
+E3,south_and_islands | single_family_house,south_and_islands,single_family_house
+E4,central | multi_family_house,central,multi_family_house
+E4,central | single_family_house,central,single_family_house
+E4,north_east | multi_family_house,north_east,multi_family_house
+E4,north_east | single_family_house,north_east,single_family_house
+E4,north_west | multi_family_house,north_west,multi_family_house
+E4,north_west | single_family_house,north_west,single_family_house

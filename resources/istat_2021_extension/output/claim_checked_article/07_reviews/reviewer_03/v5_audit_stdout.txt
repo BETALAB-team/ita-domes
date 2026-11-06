@@ -1,0 +1,199 @@
+{
+  "draft_sha256": "91373b60fe5f574057f2e2fdfc597cf9e373c090ae4d2aba4757682b183c0045",
+  "survey": {
+    "raw_sha256": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+    "compact_sha256": "a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f",
+    "raw": {
+      "reg": "5",
+      "q_3_11A": "4",
+      "q_3_11B": "4",
+      "q_3_11C": "1",
+      "q_3_13_2": "1",
+      "q_2_32C": "",
+      "q_2_32D": ""
+    },
+    "compact": {
+      "reg": "5",
+      "q_3_11A": "4",
+      "q_3_11B": "4",
+      "q_3_11C": "1",
+      "q_3_13_2": "1",
+      "q_2_32C": "0",
+      "q_2_32D": "0"
+    },
+    "eligible_count": 372,
+    "min_id": 3523
+  },
+  "sites": {
+    "Padova": {
+      "epw_sha256": "390ead08c3e32d34a874c564b57c28ef1b7275682c7a749477208f5b6846adca",
+      "rows": 8760,
+      "opaque99_count": 8760,
+      "negative_wind_records": [],
+      "mean_air_minus_sky_K": 12.77565604632737,
+      "sky_C_range": [
+        -25.954708282586978,
+        23.83323706240907
+      ],
+      "HDD18": 1983.1683333333333,
+      "CDD26": 94.52541666666667,
+      "GHI_kWh_m2": 1507.689,
+      "RH_mean": 76.10406621004566
+    },
+    "Bolzano": {
+      "epw_sha256": "ff2561b3a202e1ae67201bd46086e56e50c66d328bd118bfe8e7d0c3270d472b",
+      "rows": 8760,
+      "opaque99_count": 8760,
+      "negative_wind_records": [],
+      "mean_air_minus_sky_K": 17.620782214282908,
+      "sky_C_range": [
+        -49.209704307680624,
+        13.031503785787834
+      ],
+      "HDD18": 3521.4191666666666,
+      "CDD26": 0,
+      "GHI_kWh_m2": 1455.099,
+      "RH_mean": 67.38567351598174
+    },
+    "Roma": {
+      "epw_sha256": "edbe4470b89164c1c80e8dd8969949addfd132ce4a10cb93278eb88c8f1247cd",
+      "rows": 8760,
+      "opaque99_count": 8760,
+      "negative_wind_records": [],
+      "mean_air_minus_sky_K": 13.551708113654964,
+      "sky_C_range": [
+        -26.467154264454535,
+        23.93418883169693
+      ],
+      "HDD18": 1459.4504166666668,
+      "CDD26": 55.5125,
+      "GHI_kWh_m2": 1642.606,
+      "RH_mean": 75.26427283105023
+    },
+    "Palermo": {
+      "epw_sha256": "1e51aa278551c25cddd96ce1c40ae0f86a8e91f05ca71157f67b17be8cf1d80f",
+      "rows": 8760,
+      "opaque99_count": 8760,
+      "negative_wind_records": [
+        {
+          "index": 3631,
+          "value": -0.1,
+          "label": [
+            "2014",
+            "6",
+            "1",
+            "8",
+            "0"
+          ]
+        }
+      ],
+      "mean_air_minus_sky_K": 14.073726997419667,
+      "sky_C_range": [
+        -18.811833989211237,
+        19.909623404984927
+      ],
+      "HDD18": 1140.9295833333333,
+      "CDD26": 22.982500000000005,
+      "GHI_kWh_m2": 1727.514,
+      "RH_mean": 74.66885958904109
+    }
+  },
+  "v5": {
+    "v5/Padova": {
+      "pairs": {
+        "early": {
+          "annual_percent": 0.8942391058465393,
+          "peak_percent": 2.029261787380654
+        },
+        "late": {
+          "annual_percent": 0.33714445582671004,
+          "peak_percent": -2.1032223608298706
+        },
+        "warmup_seeded": {
+          "annual_percent": -1.765254609153999e-12,
+          "peak_percent": 0.0
+        }
+      },
+      "max_residual_W": 1.6143530956469476e-10,
+      "peak_hours": {
+        "seeded": "2023-12-10 09:00:00",
+        "early": "2023-12-10 05:00:00",
+        "late": "2023-12-10 09:00:00",
+        "repeat_seeded": "2023-12-10 09:00:00",
+        "warmup_seeded": "2023-12-10 09:00:00"
+      }
+    },
+    "v5/Bolzano": {
+      "pairs": {
+        "early": {
+          "annual_percent": -0.09797702635762073,
+          "peak_percent": 0.0
+        },
+        "late": {
+          "annual_percent": 0.026815283512782173,
+          "peak_percent": 0.0
+        },
+        "warmup_seeded": {
+          "annual_percent": -5.595524044110789e-12,
+          "peak_percent": 0.0
+        }
+      },
+      "max_residual_W": 1.3007195320824394e-10,
+      "peak_hours": {
+        "seeded": "2023-10-16 00:00:00",
+        "early": "2023-10-16 00:00:00",
+        "late": "2023-10-16 00:00:00",
+        "repeat_seeded": "2023-10-16 00:00:00",
+        "warmup_seeded": "2023-10-16 00:00:00"
+      }
+    },
+    "v5/Roma": {
+      "pairs": {
+        "early": {
+          "annual_percent": 2.0329032705877825,
+          "peak_percent": 8.325985559874272
+        },
+        "late": {
+          "annual_percent": 0.5000069588219525,
+          "peak_percent": 3.3813532567215754
+        },
+        "warmup_seeded": {
+          "annual_percent": -3.5140890197737917e-09,
+          "peak_percent": 0.0
+        }
+      },
+      "max_residual_W": 1.7681145436654333e-10,
+      "peak_hours": {
+        "seeded": "2023-12-10 09:00:00",
+        "early": "2023-12-13 05:00:00",
+        "late": "2023-12-13 04:00:00",
+        "repeat_seeded": "2023-12-10 09:00:00",
+        "warmup_seeded": "2023-12-10 09:00:00"
+      }
+    },
+    "v5/Palermo": {
+      "pairs": {
+        "early": {
+          "annual_percent": 3.8681287364649597,
+          "peak_percent": 5.969111712977804
+        },
+        "late": {
+          "annual_percent": 0.981468008941766,
+          "peak_percent": 1.5242340966189483
+        },
+        "warmup_seeded": {
+          "annual_percent": -1.0824888985183634e-06,
+          "peak_percent": 0.0
+        }
+      },
+      "max_residual_W": 1.6370904631912708e-10,
+      "peak_hours": {
+        "seeded": "2023-01-28 09:00:00",
+        "early": "2023-01-30 05:00:00",
+        "late": "2023-01-30 04:00:00",
+        "repeat_seeded": "2023-01-28 09:00:00",
+        "warmup_seeded": "2023-01-28 09:00:00"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "started_utc": "2026-09-29T12:09:17.288887+00:00",
+  "status": "complete",
+  "python": "3.12.2",
+  "input_sha256": "f4e107325b0d8df62991a445c8be433e28d9d6ed4bf2fac47e4476ee04f64d52",
+  "config_sha256": "abf387b7d68e3b83a1ad59dbc545b561076f0e1c654cb2d25271f6ef43badced",
+  "output": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio_runs\\20260929_140917_0d8913",
+  "weather": [
+    {
+      "name": "Roma",
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio\\weather\\Roma.epw",
+      "sha256": "d6e888fa8b25983f475b60d5a3c1769237c66f172baa018dcefbac0a946b8cdd",
+      "source": "https://energyplus-weather.s3.amazonaws.com/europe_wmo_region_6/ITA/ITA_Roma-Ciampino.162390_IGDG/ITA_Roma-Ciampino.162390_IGDG.epw"
+    }
+  ],
+  "model_scope": "Annual sensible zone heating/cooling demand, not HVAC electricity or whole-building final energy.",
+  "data_boundary": "Appliance kWh are existing model-derived estimates. Heating/cooling kWh are not measured in the supplied 2021 household table.",
+  "assumptions": [
+    "100 m\u00b2 default is a controlled hypothetical dwelling, not a surveyed home.",
+    "Survey daily hours constrain assumed setpoint schedules, not measured hourly operation.",
+    "Neighbour boundaries are adiabatic; ground temperature is a configurable constant.",
+    "Fixed daily occupancy/appliance profile shapes are assumptions; annual appliance amount and household size are data-derived.",
+    "RC uses isotropic solar transposition and a lumped capacity; EnergyPlus resolves surface heat balances.",
+    "No claims of calibration to real meters or legal/standard compliance."
+  ],
+  "anchor_used_for_calibration_only": true,
+  "selected_energy_groups": {
+    "heating": 4,
+    "electricity": 5
+  },
+  "anchor_scenario": "Roma__Apartment__A1",
+  "scenario_count": 4,
+  "energyplus_version": "EnergyPlus, Version 25.1.0-68a4a7c774",
+  "hybrid_annual_anchor_multipliers": {
+    "heating_kwh": 0.6303524630533142,
+    "cooling_kwh": 0.5759481976107789
+  },
+  "energyplus_processes_run": 1,
+  "energyplus_seconds_sum": 2.7426819000393152,
+  "hybrid_anchor_simulation_seconds": 2.7426819000393152,
+  "energyplus_warning_counts": {
+    "S001": 0
+  },
+  "elapsed_seconds": 9.344256700016558,
+  "finished_utc": "2026-09-29T12:09:26.706531+00:00",
+  "report_source_run": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio_runs\\20260929_140917_0d8913",
+  "report_version": "0.2.0",
+  "report_created_utc": "2026-09-29T13:30:14.090905+00:00",
+  "report_source_annual_sha256": "60c12e0f76566f7c763058424221d7096a5f396af27ce1b9c93968845e097d62"
+}

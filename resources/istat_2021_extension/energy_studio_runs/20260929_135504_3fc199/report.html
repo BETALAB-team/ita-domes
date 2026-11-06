@@ -1,0 +1,176 @@
+<!doctype html><meta charset="utf-8"><title>Energy Studio results</title><style>body{font:16px system-ui;margin:35px auto;max-width:1200px;padding:0 25px;color:#182b3b}table{border-collapse:collapse;font-size:13px}td,th{padding:7px;border:1px solid #ccd7df}img{max-width:100%}.note{background:#edf3f6;padding:18px}h1,h2{color:#145c85}</style>
+    <h1>Reference dwelling experiment</h1><p>4 scenarios · 100 m² · anchor: Roma__Apartment__A1</p>
+    <div class="note">Research prototype. Thermal results are sensible ideal heating/cooling demand, not utility consumption.
+    Method 1: EnergyPlus for each scenario. Method 2: a 1R1C model multiplied by separate annual heating/cooling factors from one reference EnergyPlus run.
+    Method 3: the uncalibrated survey-driven 1R1C approximation (or strict data-only, which has no thermal kWh).
+    Appliance electricity is a shared model-derived input, so agreement on it is not independent validation.
+    Benchmark errors exclude the anchor. Agreement with EnergyPlus is not validation against real buildings.</div>
+    <h2>Method comparison</h2><img src="method_comparison.png"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+    <h2>Group complexity</h2><img src="group_elbows.png">
+    <h2>Assumptions and limitations</h2><ul><li>100 m² default is a controlled hypothetical dwelling, not a surveyed home.</li><li>Survey daily hours constrain assumed setpoint schedules, not measured hourly operation.</li><li>Neighbour boundaries are adiabatic; ground temperature is a configurable constant.</li><li>Fixed daily occupancy/appliance profile shapes are assumptions; annual appliance amount and household size are data-derived.</li><li>RC uses isotropic solar transposition and a lumped capacity; EnergyPlus resolves surface heat balances.</li><li>No claims of calibration to real meters or legal/standard compliance.</li></ul>
+    <p>EPW source years are historical reference weather, not weather observed during the 2021 survey. Survey macro-regions do not uniquely identify the weather station.</p>
+    <p>Hybrid calibration factors: {&#x27;heating_kwh&#x27;: 0.6298072546247696, &#x27;cooling_kwh&#x27;: 0.5762798464055126}</p>
+    <h2>Annual results</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>scenario_id</th>
+      <th>scenario</th>
+      <th>climate</th>
+      <th>dwelling</th>
+      <th>archetype</th>
+      <th>method</th>
+      <th>is_anchor</th>
+      <th>heating_kwh</th>
+      <th>heating_kwh_m2</th>
+      <th>cooling_kwh</th>
+      <th>cooling_kwh_m2</th>
+      <th>appliance_kwh</th>
+      <th>appliance_kwh_m2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>S001</td>
+      <td>Roma__Apartment__A1</td>
+      <td>Roma</td>
+      <td>Apartment</td>
+      <td>1</td>
+      <td>survey_physics</td>
+      <td>True</td>
+      <td>1,407.75</td>
+      <td>14.08</td>
+      <td>1,830.14</td>
+      <td>18.30</td>
+      <td>1,570.38</td>
+      <td>15.70</td>
+    </tr>
+    <tr>
+      <td>S001</td>
+      <td>Roma__Apartment__A1</td>
+      <td>Roma</td>
+      <td>Apartment</td>
+      <td>1</td>
+      <td>energyplus</td>
+      <td>True</td>
+      <td>886.61</td>
+      <td>8.87</td>
+      <td>1,054.67</td>
+      <td>10.55</td>
+      <td>1,570.38</td>
+      <td>15.70</td>
+    </tr>
+    <tr>
+      <td>S001</td>
+      <td>Roma__Apartment__A1</td>
+      <td>Roma</td>
+      <td>Apartment</td>
+      <td>1</td>
+      <td>hybrid</td>
+      <td>True</td>
+      <td>886.61</td>
+      <td>8.87</td>
+      <td>1,054.67</td>
+      <td>10.55</td>
+      <td>1,570.38</td>
+      <td>15.70</td>
+    </tr>
+    <tr>
+      <td>S002</td>
+      <td>Roma__Apartment__A2</td>
+      <td>Roma</td>
+      <td>Apartment</td>
+      <td>2</td>
+      <td>survey_physics</td>
+      <td>False</td>
+      <td>891.70</td>
+      <td>8.92</td>
+      <td>2,452.94</td>
+      <td>24.53</td>
+      <td>2,251.43</td>
+      <td>22.51</td>
+    </tr>
+    <tr>
+      <td>S002</td>
+      <td>Roma__Apartment__A2</td>
+      <td>Roma</td>
+      <td>Apartment</td>
+      <td>2</td>
+      <td>hybrid</td>
+      <td>False</td>
+      <td>561.60</td>
+      <td>5.62</td>
+      <td>1,413.58</td>
+      <td>14.14</td>
+      <td>2,251.43</td>
+      <td>22.51</td>
+    </tr>
+    <tr>
+      <td>S003</td>
+      <td>Roma__Apartment__A3</td>
+      <td>Roma</td>
+      <td>Apartment</td>
+      <td>3</td>
+      <td>survey_physics</td>
+      <td>False</td>
+      <td>1,425.06</td>
+      <td>14.25</td>
+      <td>1,812.30</td>
+      <td>18.12</td>
+      <td>1,570.38</td>
+      <td>15.70</td>
+    </tr>
+    <tr>
+      <td>S003</td>
+      <td>Roma__Apartment__A3</td>
+      <td>Roma</td>
+      <td>Apartment</td>
+      <td>3</td>
+      <td>hybrid</td>
+      <td>False</td>
+      <td>897.51</td>
+      <td>8.98</td>
+      <td>1,044.39</td>
+      <td>10.44</td>
+      <td>1,570.38</td>
+      <td>15.70</td>
+    </tr>
+    <tr>
+      <td>S004</td>
+      <td>Roma__Apartment__A4</td>
+      <td>Roma</td>
+      <td>Apartment</td>
+      <td>4</td>
+      <td>survey_physics</td>
+      <td>False</td>
+      <td>1,289.50</td>
+      <td>12.89</td>
+      <td>1,958.68</td>
+      <td>19.59</td>
+      <td>1,774.85</td>
+      <td>17.75</td>
+    </tr>
+    <tr>
+      <td>S004</td>
+      <td>Roma__Apartment__A4</td>
+      <td>Roma</td>
+      <td>Apartment</td>
+      <td>4</td>
+      <td>hybrid</td>
+      <td>False</td>
+      <td>812.13</td>
+      <td>8.12</td>
+      <td>1,128.75</td>
+      <td>11.29</td>
+      <td>1,774.85</td>
+      <td>17.75</td>
+    </tr>
+  </tbody>
+</table>
+    <h2>Files</h2><p><a href="config.json">Exact configuration</a> · <a href="manifest.json">Provenance</a> · <a href="annual_results.csv">Annual CSV</a> · <a href="comparison_metrics.csv">Metrics CSV</a></p>

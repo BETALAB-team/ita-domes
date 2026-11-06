@@ -1,0 +1,81 @@
+published_location,published_dwelling_type,user_archetype_id,heating_group,electricity_group,source_id,source_page,status
+North East,Apartment in Small Building,1,H6,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Apartment in Small Building,2,H5,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Apartment in Small Building,3,H5,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Apartment in Small Building,4,H6,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Apartment in Medium Building,1,H6,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Apartment in Medium Building,2,H5,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Apartment in Medium Building,3,H6,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Apartment in Medium Building,4,H6,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Apartment in Large Building,1,H5,E1,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Apartment in Large Building,2,H6,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Apartment in Large Building,3,H6,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Apartment in Large Building,4,H7,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Single Family House,1,H7,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Single Family House,2,H6,E5,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Single Family House,3,H6,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Single Family House,4,H6,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Multi Family House,1,H7,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Multi Family House,2,H6,E5,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Multi Family House,3,H6,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North East,Multi Family House,4,H6,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Small Building,1,H6,E1,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Small Building,2,H5,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Small Building,3,H5,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Small Building,4,H4,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Medium Building,1,H6,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Medium Building,2,H5,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Medium Building,3,H5,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Medium Building,4,H6,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Large Building,1,H6,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Large Building,2,H5,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Large Building,3,H6,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Apartment in Large Building,4,H6,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Single Family House,1,H7,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Single Family House,2,H6,E5,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Single Family House,3,H7,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Single Family House,4,H7,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Multi Family House,1,H7,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Multi Family House,2,H5,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Multi Family House,3,H5,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+North West,Multi Family House,4,H7,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Small Building,1,H3,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Small Building,2,H3,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Small Building,3,H3,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Small Building,4,H4,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Medium Building,1,H3,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Medium Building,2,H3,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Medium Building,3,H3,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Medium Building,4,H4,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Large Building,1,H5,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Large Building,2,H2,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Large Building,3,H3,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Apartment in Large Building,4,H3,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Single Family House,1,H4,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Single Family House,2,H4,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Single Family House,3,H3,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Single Family House,4,H3,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Multi Family House,1,H4,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Multi Family House,2,H3,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Multi Family House,3,H3,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+Central,Multi Family House,4,H4,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Small Building,1,H2,E1,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Small Building,2,H2,E5,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Small Building,3,H1,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Small Building,4,H2,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Medium Building,1,H2,E1,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Medium Building,2,H1,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Medium Building,3,H1,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Medium Building,4,H2,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Large Building,1,H2,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Large Building,2,H1,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Large Building,3,H2,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Apartment in Large Building,4,H2,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Single Family House,1,H3,E1,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Single Family House,2,H4,E5,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Single Family House,3,H3,E3,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Single Family House,4,H3,E4,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Multi Family House,1,H3,E1,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Multi Family House,2,H3,E5,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Multi Family House,3,H3,E2,ARCH2025-FULL,14,visual_transcription_not_newly_validated
+South and Islands,Multi Family House,4,H3,E5,ARCH2025-FULL,14,visual_transcription_not_newly_validated

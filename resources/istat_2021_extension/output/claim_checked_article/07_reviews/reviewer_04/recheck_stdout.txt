@@ -1,0 +1,697 @@
+{
+  "draft_sha256": "c96e3307de9b9587cc554c076f5d3527cc3ce8a6c29b12342777c07bc93c5eb2",
+  "sites": {
+    "Padova": {
+      "surface_error_W": 1.3642420526593924e-12,
+      "sky_delta_K": 12.77565604632737,
+      "HDD18": 1983.1683333333335,
+      "cases": {
+        "seeded": {
+          "energy_kWh": 9574.018167900284,
+          "peak_kW": 10.049540394516583,
+          "peak_hour": 8241,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.837623469531536e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 1.8189894035458565e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 1323,
+          "setback_kWh": 2375.6174880874,
+          "maximum_air_C": 41.0461137293173,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "02545e6feffb6e95c0951aec6a584a199dcf890a52d188feefa8023a823a5b76"
+        },
+        "early": {
+          "energy_kWh": 9659.6327823585,
+          "peak_kW": 10.253471877549892,
+          "peak_hour": 8237,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.837623469531536e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 1.8189894035458565e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 1229,
+          "setback_kWh": 1882.6991418768848,
+          "maximum_air_C": 41.0461137293173,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "399dff1dc09f5b457b3bacb69af6896dd2a8453e3869c9b134793edd853e1f59",
+          "energy_change_pct": 0.8942391058465393,
+          "peak_change_pct": 2.029261787380654
+        },
+        "late": {
+          "energy_kWh": 9606.296439353202,
+          "peak_kW": 9.838176213778484,
+          "peak_hour": 8241,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.837623469531536e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 1.8189894035458565e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 1287,
+          "setback_kWh": 2207.734792752013,
+          "maximum_air_C": 41.0461137293173,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "615f5d4f68992c0391254b4a1a01e5d52d7cababfff91795e431cc15927af845",
+          "energy_change_pct": 0.33714445582671004,
+          "peak_change_pct": -2.1032223608298373
+        },
+        "repeat_seeded": {
+          "energy_kWh": 9574.018167900284,
+          "peak_kW": 10.049540394516583,
+          "peak_hour": 8241,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.837623469531536e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 1.8189894035458565e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 1323,
+          "setback_kWh": 2375.6174880874,
+          "maximum_air_C": 41.0461137293173,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "02545e6feffb6e95c0951aec6a584a199dcf890a52d188feefa8023a823a5b76",
+          "energy_change_pct": 0.0,
+          "peak_change_pct": 0.0
+        },
+        "warmup_seeded": {
+          "energy_kWh": 9574.018167900113,
+          "peak_kW": 10.049540394516583,
+          "peak_hour": 8241,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.837623469531536e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 1.8189894035458565e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 1323,
+          "setback_kWh": 2375.617488087256,
+          "maximum_air_C": 41.0461137293173,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "fb4f9a52108a2af7f45a92418c2015fe63f62a79808cf257a1067758e3647718",
+          "energy_change_pct": -1.787459069646502e-12,
+          "peak_change_pct": 0.0
+        }
+      }
+    },
+    "Bolzano": {
+      "surface_error_W": 1.3642420526593924e-12,
+      "sky_delta_K": 17.620782214282908,
+      "HDD18": 3521.4191666666666,
+      "cases": {
+        "seeded": {
+          "energy_kWh": 15851.213775339595,
+          "peak_kW": 17.80862080867205,
+          "peak_hour": 6912,
+          "peak_setpoint": 19.0,
+          "peak_previous_setpoint": 0.0,
+          "peak_old_air": 9.641374807205992,
+          "max_node_residual_W": 2.02817318495363e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 2073,
+          "setback_kWh": 5380.284246969752,
+          "maximum_air_C": 31.03155917853116,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "d8b7038f337ced6afeec4b6d70e84bf5df9ff6c14dd1a1dd268469cfd4322410"
+        },
+        "early": {
+          "energy_kWh": 15835.683227440928,
+          "peak_kW": 17.80862080867205,
+          "peak_hour": 6912,
+          "peak_setpoint": 19.0,
+          "peak_previous_setpoint": 0.0,
+          "peak_old_air": 9.641374807205992,
+          "max_node_residual_W": 2.0463630789890885e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 2077,
+          "setback_kWh": 4734.494848659193,
+          "maximum_air_C": 31.03155917853116,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "920d4dbdd74cc769106d47b893215c650151567a4544265357ddf39606ffdc30",
+          "energy_change_pct": -0.09797702635762073,
+          "peak_change_pct": 0.0
+        },
+        "late": {
+          "energy_kWh": 15855.464323253667,
+          "peak_kW": 17.80862080867205,
+          "peak_hour": 6912,
+          "peak_setpoint": 19.0,
+          "peak_previous_setpoint": 0.0,
+          "peak_old_air": 9.641374807205992,
+          "max_node_residual_W": 2.1168489183764905e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 2052,
+          "setback_kWh": 5162.093655582754,
+          "maximum_air_C": 31.03155917853116,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "98d1d67b7d8f5bb5e4b3398a4180193733a63f9ad697aec568437b2f3fbceab5",
+          "energy_change_pct": 0.026815283512782173,
+          "peak_change_pct": 0.0
+        },
+        "repeat_seeded": {
+          "energy_kWh": 15851.213775339595,
+          "peak_kW": 17.80862080867205,
+          "peak_hour": 6912,
+          "peak_setpoint": 19.0,
+          "peak_previous_setpoint": 0.0,
+          "peak_old_air": 9.641374807205992,
+          "max_node_residual_W": 2.02817318495363e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 2073,
+          "setback_kWh": 5380.284246969752,
+          "maximum_air_C": 31.03155917853116,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "d8b7038f337ced6afeec4b6d70e84bf5df9ff6c14dd1a1dd268469cfd4322410",
+          "energy_change_pct": 0.0,
+          "peak_change_pct": 0.0
+        },
+        "warmup_seeded": {
+          "energy_kWh": 15851.213775338707,
+          "peak_kW": 17.80862080867205,
+          "peak_hour": 6912,
+          "peak_setpoint": 19.0,
+          "peak_previous_setpoint": 0.0,
+          "peak_old_air": 9.641374807205992,
+          "max_node_residual_W": 2.02817318495363e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 2073,
+          "setback_kWh": 5380.284246968994,
+          "maximum_air_C": 31.03155917853116,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "4b98d7e5cb7b6148b63fad7219e3a575a9cd43385ae480a528b1382d877bf7fb",
+          "energy_change_pct": -5.595524044110789e-12,
+          "peak_change_pct": 0.0
+        }
+      }
+    },
+    "Roma": {
+      "surface_error_W": 1.3642420526593924e-12,
+      "sky_delta_K": 13.551708113654966,
+      "HDD18": 1459.4504166666668,
+      "cases": {
+        "seeded": {
+          "energy_kWh": 6602.228771252248,
+          "peak_kW": 8.909926839273298,
+          "peak_hour": 8241,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.773958840407431e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 839,
+          "setback_kWh": 1166.721550082734,
+          "maximum_air_C": 39.941885285905535,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "f9eaf71f3df6a39dc91cf2239394eaf74a8b83734d7972992da77de24890dcd8"
+        },
+        "early": {
+          "energy_kWh": 6736.445695874722,
+          "peak_kW": 9.651766061306557,
+          "peak_hour": 8309,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.773958840407431e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 593,
+          "setback_kWh": 742.2531519546073,
+          "maximum_air_C": 39.941885285905535,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "f283c54369f7ec358fab95eeb1562fd7ca682fd77a761bb926cc5d3bae990f0d",
+          "energy_change_pct": 2.0329032705877825,
+          "peak_change_pct": 8.325985559874294
+        },
+        "late": {
+          "energy_kWh": 6635.240374545854,
+          "peak_kW": 9.211202940624576,
+          "peak_hour": 8308,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.773958840407431e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 810,
+          "setback_kWh": 1014.2237250461105,
+          "maximum_air_C": 39.941885285905535,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "55c09962557ad84f989ecb6265266262913834a9de07233c5b506384f4bea60d",
+          "energy_change_pct": 0.5000069588219525,
+          "peak_change_pct": 3.3813532567215754
+        },
+        "repeat_seeded": {
+          "energy_kWh": 6602.228771252248,
+          "peak_kW": 8.909926839273298,
+          "peak_hour": 8241,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.773958840407431e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 839,
+          "setback_kWh": 1166.721550082734,
+          "maximum_air_C": 39.941885285905535,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "f9eaf71f3df6a39dc91cf2239394eaf74a8b83734d7972992da77de24890dcd8",
+          "energy_change_pct": 0.0,
+          "peak_change_pct": 0.0
+        },
+        "warmup_seeded": {
+          "energy_kWh": 6602.22877102024,
+          "peak_kW": 8.909926839273298,
+          "peak_hour": 8241,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.773958840407431e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 839,
+          "setback_kWh": 1166.7215499092265,
+          "maximum_air_C": 39.941885285905535,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "e8ddf516caafa7b82dce4597a9bc5ce6ca1d970a3d65c68f4e83f47499a97252",
+          "energy_change_pct": -3.5140890197737917e-09,
+          "peak_change_pct": 0.0
+        }
+      }
+    },
+    "Palermo": {
+      "surface_error_W": 1.3642420526593924e-12,
+      "sky_delta_K": 14.073726997419666,
+      "HDD18": 1140.9295833333333,
+      "cases": {
+        "seeded": {
+          "energy_kWh": 5078.83719988635,
+          "peak_kW": 8.292527171918435,
+          "peak_hour": 657,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.519300323911011e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 545,
+          "setback_kWh": 590.6905425739819,
+          "maximum_air_C": 38.14349549263708,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "222ecb953871fcecf5b834c721f53ea205a9e5a5c37f1ae0772b077dcb12c5af"
+        },
+        "early": {
+          "energy_kWh": 5275.2931610934265,
+          "peak_kW": 8.787517382639285,
+          "peak_hour": 701,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.519300323911011e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 417,
+          "setback_kWh": 422.79941664166023,
+          "maximum_air_C": 38.14349549263708,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "26aeb1502f7f0d660c73c16d6554b771c66bb6dcbcea23d5c1b1942f87d5b20b",
+          "energy_change_pct": 3.8681287364649597,
+          "peak_change_pct": 5.969111712977804
+        },
+        "late": {
+          "energy_kWh": 5128.684362229469,
+          "peak_kW": 8.418924698544206,
+          "peak_hour": 700,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.519300323911011e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 525,
+          "setback_kWh": 508.74513683771363,
+          "maximum_air_C": 38.14349549263708,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "f7036264b9b18b7be3c37e91c4d6a1030fd509c022a808d292879d3ffb1eebe8",
+          "energy_change_pct": 0.981468008941766,
+          "peak_change_pct": 1.5242340966189483
+        },
+        "repeat_seeded": {
+          "energy_kWh": 5078.83719988635,
+          "peak_kW": 8.292527171918435,
+          "peak_hour": 657,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.519300323911011e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 545,
+          "setback_kWh": 590.6905425739819,
+          "maximum_air_C": 38.14349549263708,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "222ecb953871fcecf5b834c721f53ea205a9e5a5c37f1ae0772b077dcb12c5af",
+          "energy_change_pct": 0.0,
+          "peak_change_pct": 0.0
+        },
+        "warmup_seeded": {
+          "energy_kWh": 5078.837144908502,
+          "peak_kW": 8.292527171918435,
+          "peak_hour": 657,
+          "peak_setpoint": 22.0,
+          "peak_previous_setpoint": 19.0,
+          "peak_old_air": 19.0,
+          "max_node_residual_W": 2.519300323911011e-10,
+          "continuity_max_K": 0.0,
+          "forcing_error_W": 2.7284841053187847e-12,
+          "weather_error_K": 0.0,
+          "setback_hours": 2730,
+          "setback_heating_hours": 545,
+          "setback_kWh": 590.6905271237019,
+          "maximum_air_C": 38.14349549263708,
+          "offseason_positive_heat_kWh": 0.0,
+          "sha256": "a176830862a4d5299d78106e287e36e7a8808520f3a9c61e2ec377419a6566c1",
+          "energy_change_pct": -1.0824888985183634e-06,
+          "peak_change_pct": 0.0
+        }
+      }
+    }
+  },
+  "replay_identical": true,
+  "source_schedule_max_error": 0.0,
+  "source_profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "raw_survey_selected": [
+    {
+      "nprog": " 3523",
+      "reg": "5 ",
+      "q_3_11A": "4",
+      "q_3_11B": "4",
+      "q_3_11C": "1",
+      "q_3_13_2": "1",
+      "q_2_32C": " ",
+      "q_2_32D": " "
+    }
+  ],
+  "selection": {
+    "eligible": 372,
+    "minimum_id": 3523
+  },
+  "profile_checks": {
+    "seeded": {
+      "bands": [
+        4,
+        4,
+        1
+      ],
+      "daily_high_hours": [
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19,
+        20,
+        23
+      ],
+      "inseason_daily_repetition": true
+    },
+    "early": {
+      "bands": [
+        4,
+        4,
+        1
+      ],
+      "daily_high_hours": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        21
+      ],
+      "inseason_daily_repetition": true
+    },
+    "late": {
+      "bands": [
+        4,
+        4,
+        1
+      ],
+      "daily_high_hours": [
+        4,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19,
+        20
+      ],
+      "inseason_daily_repetition": true
+    }
+  },
+  "weather_mapping": {
+    "Padova": {
+      "T2m": 0.0,
+      "RH": 0.0,
+      "IR(h)": 0.0,
+      "G(h)": 0.0,
+      "Gb(n)": 0.0,
+      "Gd(h)": 0.0
+    },
+    "Bolzano": {
+      "T2m": 0.0,
+      "RH": 0.0,
+      "IR(h)": 0.0,
+      "G(h)": 0.0,
+      "Gb(n)": 0.0,
+      "Gd(h)": 0.0
+    },
+    "Roma": {
+      "T2m": 0.0,
+      "RH": 0.0,
+      "IR(h)": 0.0,
+      "G(h)": 0.0,
+      "Gb(n)": 0.0,
+      "Gd(h)": 0.0
+    },
+    "Palermo": {
+      "T2m": 0.0,
+      "RH": 0.0,
+      "IR(h)": 0.0,
+      "G(h)": 0.0,
+      "Gb(n)": 0.0,
+      "Gd(h)": 0.0
+    }
+  },
+  "summary_comparison": {
+    "Padova": [
+      {
+        "case": "seeded",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": -1.7763568394002505e-15,
+        "hash_match": true
+      },
+      {
+        "case": "early",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": -1.7763568394002505e-15,
+        "hash_match": true
+      },
+      {
+        "case": "late",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 1.7763568394002505e-15,
+        "hash_match": true
+      },
+      {
+        "case": "repeat_seeded",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": -1.7763568394002505e-15,
+        "hash_match": true
+      },
+      {
+        "case": "warmup_seeded",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": -1.7763568394002505e-15,
+        "hash_match": true
+      }
+    ],
+    "Bolzano": [
+      {
+        "case": "seeded",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      },
+      {
+        "case": "early",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      },
+      {
+        "case": "late",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      },
+      {
+        "case": "repeat_seeded",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      },
+      {
+        "case": "warmup_seeded",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      }
+    ],
+    "Roma": [
+      {
+        "case": "seeded",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      },
+      {
+        "case": "early",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 1.7763568394002505e-15,
+        "hash_match": true
+      },
+      {
+        "case": "late",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      },
+      {
+        "case": "repeat_seeded",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      },
+      {
+        "case": "warmup_seeded",
+        "energy_error_kWh": 9.094947017729282e-13,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      }
+    ],
+    "Palermo": [
+      {
+        "case": "seeded",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      },
+      {
+        "case": "early",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      },
+      {
+        "case": "late",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      },
+      {
+        "case": "repeat_seeded",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      },
+      {
+        "case": "warmup_seeded",
+        "energy_error_kWh": 0.0,
+        "peak_error_kW": 0.0,
+        "hash_match": true
+      }
+    ]
+  },
+  "ledger": {
+    "count": 41,
+    "exact_claims_all_in_text": true,
+    "hash_match": true
+  }
+}

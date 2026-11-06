@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "annual_execution": false,
+  "selection_manifest_sha256": "a34a21e694b1c0117e915567c0eab56f83bfa3aa03b586ab6443006e0b8daed4",
+  "runtime_manifest_sha256": "bf1eb3abaf62373885533464e954a79088b7fbe4b9b98bc8a1fd8f41e4d23340",
+  "runner_sha256": "2c435e83aa14b073078ccd27ea9585079a8e3ff1225dbf53d2f5c76db3413a08",
+  "protocol_sha256": "0abd5e8952bd9021d4bc8c8ef6a0649b1c14ffc4c467e5b1da7c13dc018633ba",
+  "profile_fixture_sha256": "a7e43dfe7cc569f23376b3d584d569af2bc42c72df95806b60f51d458ab47f7d",
+  "preflight_stdout": "{\"pass\": true, \"profile_n\": 36, \"role_n\": 36, \"technical_reference_profile\": \"profile_fa8d5f91549f24b8\", \"annual_execution\": false}",
+  "role_n": 36,
+  "test_n": 32,
+  "unique_profiles_n": 36,
+  "four_site_primary_executions": 144,
+  "four_site_technical_executions": 8,
+  "total_planned": 152,
+  "source_drift_guard": true,
+  "same_physical_zone_AST_as_reviewed_v5": true,
+  "expected_wall_seconds": "approximately 230 annual-case seconds from prior 1.1 to 1.6 seconds per case, plus shared weather loading and independent checks; bounded to a few minutes"
+}

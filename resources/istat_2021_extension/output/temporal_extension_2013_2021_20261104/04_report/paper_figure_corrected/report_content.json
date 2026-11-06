@@ -1,0 +1,865 @@
+[
+  {
+    "kind": "paragraph",
+    "text": "Italian household archetypes in 2013 and 2021"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Changes in household profiles operating patterns and regional distributions"
+  },
+  {
+    "kind": "paragraph",
+    "text": "4 November 2026"
+  },
+  {
+    "kind": "paragraph",
+    "text": "In 2013, A1 was the largest published household group at 40.1%. In the eligible 2021 profiles, A2 is the largest unweighted group at 33.92%, followed by A1 at 27.61% and A3 at 27.42%. Applying ISTAT household weights makes A3 the largest newer group at 31.88%. The following pages show the 2013 and 2021 values together, using the original paper's cluster colours, table conventions and matching captions."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 1  Household characteristics and system use in 2013 and 2021."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Indicator",
+      "2013",
+      "2021",
+      "Change"
+    ],
+    "rows": [
+      [
+        "Households with air conditioning",
+        "29.4%",
+        "48.8%",
+        "+19.4 pp"
+      ],
+      [
+        "Mean household size",
+        "2.281",
+        "2.276",
+        "-0.005"
+      ],
+      [
+        "Households with a member under 15",
+        "22.01%",
+        "18.50%",
+        "-3.51 pp"
+      ],
+      [
+        "Daily heating on-time among frequent users",
+        "7.90 h",
+        "8.55 h",
+        "+0.65 h"
+      ],
+      [
+        "Daily cooling on-time among frequent users",
+        "4.80 h",
+        "6.26 h",
+        "+1.46 h"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "Air conditioning: official all-household publication estimates [2-4]. Other rows: survey-weighted calculations for households with 1 to 5 members [5]. Operating-hour means use the frequent-user response domain described on page 6. pp denotes percentage points."
+  },
+  {
+    "kind": "image",
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\04_report\\paper_figure_corrected\\figures\\cooling_availability.png"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Fig. 1.  Households with air conditioning in 2013, 2021 and 2024."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Cooling availability rose from 29.4% in 2013 to 48.8% in 2021 and reached 56.0% in the 2024 published results. Heating and cooling on-time also rose among the analysed frequent users. Survey-weighted household size remained close to 2.28 members in both microdata waves."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Archetype comparisons use the printed, unweighted 2013 results and 44,880 complete 2021 profiles. The newer profile domain covers households with 1 to 5 members and excludes all released households with a child aged 0-10 because their schooling fields are blank. Direct survey comparisons in Table 1 retain these families. All historical 2013 results are preserved."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Definition of user archetypes"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The four types retain their historical meanings. A1 describes smaller older households, A2 larger households with younger and middle-aged members, A3 smaller middle-aged households, and A4 smaller middle-aged or older households with higher education. In the newer profiles, mean household size is lower in each group, while the mean maximum age in A1 is higher."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 2  User archetypes derived from k-means clustering."
+  },
+  {
+    "kind": "paragraph",
+    "text": "2013 published values. Average (standard deviation)."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "cluster",
+      "age min",
+      "age max",
+      "n members",
+      "education"
+    ],
+    "rows": [
+      [
+        "1",
+        "70.2 (11.2)",
+        "78.3 (5.0)",
+        "1.8 (0.7)",
+        "0.5 (0.1)"
+      ],
+      [
+        "2",
+        "21.2 (7.6)",
+        "57.2 (8.6)",
+        "3.7 (0.9)",
+        "0.7 (0.1)"
+      ],
+      [
+        "3",
+        "46.0 (12.8)",
+        "63.0 (8.0)",
+        "2.3 (0.8)",
+        "0.5 (0.1)"
+      ],
+      [
+        "4",
+        "55.6 (17.1)",
+        "72.2 (9.0)",
+        "2.1 (0.8)",
+        "0.8 (0.1)"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "2021 complete profiles under the fixed archive classifier. Average (standard deviation)."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "cluster",
+      "age min",
+      "age max",
+      "n members",
+      "education"
+    ],
+    "rows": [
+      [
+        "1",
+        "74.7 (12.9)",
+        "82.6 (7.7)",
+        "1.7 (0.7)",
+        "0.5 (0.1)"
+      ],
+      [
+        "2",
+        "23.4 (8.8)",
+        "51.6 (11.2)",
+        "3.0 (1.1)",
+        "0.8 (0.1)"
+      ],
+      [
+        "3",
+        "50.3 (11.9)",
+        "58.5 (10.5)",
+        "1.7 (0.8)",
+        "0.5 (0.1)"
+      ],
+      [
+        "4",
+        "54.8 (17.6)",
+        "70.9 (11.4)",
+        "1.9 (0.8)",
+        "0.8 (0.1)"
+      ]
+    ]
+  },
+  {
+    "kind": "image",
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\04_report\\paper_figure_corrected\\figures\\cluster_proportions.png"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Fig. 2.  Proportion of each cluster among households and people."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Both panels are unweighted. The 2013 panel reproduces Figure 5 of the paper; the 2021 panel uses the 44,880 complete profiles. Age values represent released age intervals. The education index follows the archive coding convention. Table 2 and Figure 2 compare these respective domains."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Regional distribution of user archetypes"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Across the 20 harmonized regions, the weighted share assigned to A1 is lower in the newer eligible profiles and the share assigned to A3 is higher. A2 and A4 have more varied regional changes. The same blue, green, amber and red order identifies A1-A4 in both years."
+  },
+  {
+    "kind": "image",
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\04_report\\paper_figure_corrected\\figures\\regional_proportions.png"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Fig. 3.  Proportion of each cluster among households by region."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Survey-weighted proportions within each region. Domains: 17,756 archived 2013 households with 1 to 5 members and 44,880 complete 2021 profiles. The 2021 schooling and age coverage described on pages 1 and 8 applies to every regional comparison. Bolzano and Trento are pooled into Trentino-Alto Adige from record-level sums."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 3  Proportion of each cluster among households with survey weighting and regional standardization."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Type",
+      "2013 weighted\nArchive domain",
+      "2021 weighted\nComplete profiles",
+      "2021 at 2013\nRegional mix"
+    ],
+    "rows": [
+      [
+        "A1",
+        "39.17%",
+        "30.47%",
+        "30.46%"
+      ],
+      [
+        "A2",
+        "26.30%",
+        "29.15%",
+        "29.19%"
+      ],
+      [
+        "A3",
+        "25.87%",
+        "31.88%",
+        "31.79%"
+      ],
+      [
+        "A4",
+        "8.66%",
+        "8.50%",
+        "8.56%"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "Holding the 2013 regional mix fixed gives 2021 shares of 30.46%, 29.19%, 31.79% and 8.56%. Each is within 0.09 percentage points of the newer weighted estimate. The regional-composition adjustment is small for this eligible-profile comparison."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Regional values in 2013 and 2021"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 4 places each regional share beside its newer value. In Piemonte, for example, A1 changes from 39.37% to 32.57% and A3 from 28.90% to 35.25%. In Campania, A1 changes from 30.28% to 27.48%, while A3 changes from 26.70% to 27.21%. The pattern across regions is clearer in Figure 3, and the table gives the corresponding values."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 4  Regional proportions of user archetypes in 2013 and 2021."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Region",
+      "A1\n2013 / 2021",
+      "A2\n2013 / 2021",
+      "A3\n2013 / 2021",
+      "A4\n2013 / 2021"
+    ],
+    "rows": [
+      [
+        "Piemonte",
+        "39.37 / 32.57",
+        "23.94 / 25.36",
+        "28.90 / 35.25",
+        "7.79 / 6.82"
+      ],
+      [
+        "Valle d'Aosta",
+        "37.04 / 29.75",
+        "23.89 / 25.27",
+        "32.55 / 38.91",
+        "6.53 / 6.08"
+      ],
+      [
+        "Lombardia",
+        "38.69 / 29.38",
+        "22.53 / 29.23",
+        "28.91 / 34.19",
+        "9.88 / 7.20"
+      ],
+      [
+        "Trentino-Alto Adige",
+        "38.54 / 27.86",
+        "27.81 / 30.95",
+        "26.60 / 34.09",
+        "7.05 / 7.10"
+      ],
+      [
+        "Veneto",
+        "38.19 / 30.45",
+        "27.31 / 29.77",
+        "26.69 / 32.38",
+        "7.81 / 7.41"
+      ],
+      [
+        "Friuli-Venezia Giulia",
+        "42.37 / 33.20",
+        "20.47 / 23.68",
+        "30.47 / 34.99",
+        "6.69 / 8.13"
+      ],
+      [
+        "Liguria",
+        "48.68 / 35.37",
+        "20.72 / 24.17",
+        "20.32 / 31.22",
+        "10.28 / 9.24"
+      ],
+      [
+        "Emilia-Romagna",
+        "45.21 / 31.25",
+        "25.18 / 28.60",
+        "22.12 / 31.28",
+        "7.48 / 8.87"
+      ],
+      [
+        "Toscana",
+        "39.90 / 33.92",
+        "24.90 / 28.11",
+        "25.97 / 28.82",
+        "9.23 / 9.15"
+      ],
+      [
+        "Umbria",
+        "43.41 / 31.60",
+        "28.94 / 29.65",
+        "19.39 / 29.53",
+        "8.26 / 9.23"
+      ],
+      [
+        "Marche",
+        "36.97 / 30.31",
+        "33.43 / 28.85",
+        "21.06 / 30.21",
+        "8.54 / 10.63"
+      ],
+      [
+        "Lazio",
+        "38.40 / 26.17",
+        "24.50 / 31.47",
+        "26.56 / 30.30",
+        "10.54 / 12.06"
+      ],
+      [
+        "Abruzzo",
+        "47.81 / 30.80",
+        "24.01 / 26.81",
+        "21.14 / 31.92",
+        "7.04 / 10.47"
+      ],
+      [
+        "Molise",
+        "45.26 / 32.41",
+        "27.46 / 26.99",
+        "21.71 / 32.02",
+        "5.57 / 8.58"
+      ],
+      [
+        "Campania",
+        "30.28 / 27.48",
+        "34.37 / 35.76",
+        "26.70 / 27.21",
+        "8.64 / 9.55"
+      ],
+      [
+        "Puglia",
+        "39.26 / 31.80",
+        "29.39 / 30.14",
+        "24.07 / 30.98",
+        "7.29 / 7.08"
+      ],
+      [
+        "Basilicata",
+        "35.12 / 30.12",
+        "29.75 / 30.21",
+        "26.63 / 31.91",
+        "8.50 / 7.76"
+      ],
+      [
+        "Calabria",
+        "35.56 / 31.65",
+        "29.41 / 28.05",
+        "26.29 / 32.74",
+        "8.74 / 7.55"
+      ],
+      [
+        "Sicilia",
+        "37.88 / 32.24",
+        "31.75 / 29.50",
+        "21.90 / 29.68",
+        "8.47 / 8.59"
+      ],
+      [
+        "Sardegna",
+        "41.64 / 28.88",
+        "21.23 / 25.30",
+        "29.54 / 37.45",
+        "7.60 / 8.37"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "Each cell gives survey-weighted percentages as 2013 / 2021. The 2013 values use saved archive memberships within the 1 to 5 member domain. The 2021 values use complete profiles. Thus the rows describe the two stated domains, including their different age and schooling coverage. The regional source CSV retains record counts and percentage-point differences."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Regional correction factors"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The repository audit identified coef_red for 2013 and PESO for 2021 as the applicable supplied household expansion weights. We used them under the agreed fallback. Each regional proportion is the sum of household weights for a type divided by the sum for the regional analysis domain. National standardization combines the 2021 regional proportions using the 2013 archive domain's weighted regional shares."
+  },
+  {
+    "kind": "paragraph",
+    "text": "The factor inventory records the search bounds and distinguishes these household weights from model energy-calibration multipliers. The original paper's published national proportions remain the unweighted reference shown on page 2."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Heating and appliance electricity use in 2013"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The paper groups heating use into H1-H7 and annual appliance electricity into E1-E5. Heating is split by insulation level, and electricity by cooling-system use. Figure 4 reproduces the published 2013 Figure 8 directly, preserving its groups, variables, distributions, legends and axes."
+  },
+  {
+    "kind": "image",
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\04_report\\paper_figure_corrected\\figures\\published_figure8_2013.png"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Fig. 4.  Variation of (a) daily heating system operating hours and (b) annual electricity consumption based on significant groups of dwelling types, geographical location, and user type."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Published 2013 Figure 8 reproduced unchanged from page 11 of the original article [1]. Boxes show the interquartile range and median; outliers are omitted. The source figure retains its original group definitions and units."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Heating and cooling system usage in 2013 and 2021"
+  },
+  {
+    "kind": "paragraph",
+    "text": "In 2013, frequent users reported a weighted average of 7.90 heating hours per day. In the 2021 survey responses referring to 2020, the average is 8.55 hours. Cooling on-time changes from 4.80 to 6.26 hours. In the unweighted frequent-user responses, median heating on-time is 8 hours in both waves and median cooling on-time rises from 4 to 5 hours. Tables 5 and 6 give these newer comparisons on their stated response domains."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 5  Daily on-time of heating and cooling systems."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "System",
+      "2013 mean\nh/day",
+      "2021 mean\nh/day",
+      "2013\nValid n",
+      "2021\nValid n"
+    ],
+    "rows": [
+      [
+        "Heating",
+        "7.90",
+        "8.55",
+        "18,332",
+        "49,545"
+      ],
+      [
+        "Cooling",
+        "4.80",
+        "6.26",
+        "2,916",
+        "15,654"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 6  Daily on-time by user archetype in 2013 and 2021."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Type",
+      "Heating\n2013 / 2021",
+      "Cooling\n2013 / 2021"
+    ],
+    "rows": [
+      [
+        "A1",
+        "8.39 / 9.03",
+        "4.80 / 5.68"
+      ],
+      [
+        "A2",
+        "7.65 / 8.15",
+        "4.84 / 6.36"
+      ],
+      [
+        "A3",
+        "7.63 / 8.23",
+        "4.91 / 6.39"
+      ],
+      [
+        "A4",
+        "8.05 / 8.84",
+        "4.51 / 6.09"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "Tables 5-6 are survey weighted. Frequency codes 1 or 2 and three complete time blocks in the range 0-8 hours define each valid sample. The 2013 questions concern a typical winter or summer day; the 2021 questions concern cold or hot months of 2020. Table 6 uses archived 2013 and complete-profile 2021 assignments. These are cross-sectional reported hours; weather, equipment mix and survey mode also vary across waves."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Cluster structure in the newer profiles"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The 2013 study selected four clusters. In 2021, a four-cluster fit on the same archive coordinates yields aligned shares of 31.64%, 25.19%, 26.68% and 16.50%. The fixed historical classifier gives 27.61%, 33.92%, 27.42% and 11.05% on those same newer households."
+  },
+  {
+    "kind": "image",
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\04_report\\paper_figure_corrected\\figures\\within_cluster_sum_squares.png"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Fig. 5.  Within Cluster Sum of Squares as a function of number of clusters."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Left: the published 2013 Figure 3, rendered directly from the article. Right: the new 2021 exploratory fits for K=2 to 8. The panels retain their own sample sizes and vertical scales. The historical figure is unchanged."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 7  Proportion of each cluster in the fixed transfer and the 2021 fit."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Type",
+      "2013\nPublished",
+      "2021\nFixed classifier",
+      "2021\nAligned refit"
+    ],
+    "rows": [
+      [
+        "A1",
+        "40.1%",
+        "27.61%",
+        "31.64%"
+      ],
+      [
+        "A2",
+        "26.9%",
+        "33.92%",
+        "25.19%"
+      ],
+      [
+        "A3",
+        "22.9%",
+        "27.42%",
+        "26.68%"
+      ],
+      [
+        "A4",
+        "10.1%",
+        "11.05%",
+        "16.50%"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "The two 2021 partitions agree on 78.62% of household labels. Their adjusted Rand index is 0.6694 and normalized mutual information is 0.6609. Agreement is lower for fixed A4: 1,611 of its 4,958 households, or 32.5%, retain the aligned A4 label in the new fit. These comparisons describe the two classifications applied to the same newer records."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Across the 2021 candidate fits, K=2 has the highest sampled silhouette, 0.408, while K=4 gives 0.345. The historical four-group resolution provides the comparison used throughout this report. The K search describes the geometry of the complete-profile sample."
+  },
+  {
+    "kind": "paragraph",
+    "text": "K-means used 10 starts, up to 150 iterations, tolerance 10^-8 and seeds 0, 42 and 2021. The displayed refit uses seed 42. Alignment minimizes total squared centroid distance over all 24 permutations; silhouettes use a fixed 1,500-record sample."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Data coverage and sensitivity"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The 2013 raw release contains 20,000 households and the newer release contains 54,069. The broad domains with 1 to 5 members contain 19,688 and 53,520 households. Saved 2013 archive labels cover 17,855 households in total, including 17,756 in the broad size domain. The complete-profile 2021 transfer covers 44,880 households, representing 83.0% of newer records and 77.16% of the full-wave household expansion weight."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Among newer households with 1 to 5 members, 7,803 contain a released child aged 0-10 and have incomplete schooling profiles; another 837 fail other profile requirements. All released members in the 0-5 and 6-10 age bands have blank schooling. Questionnaire F.10 routes schooling to age 10 or older and relationship codes 1-5; the released bands combine age 10 with younger children. The direct household and operating comparisons use the broader size domain, retaining these families."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Age and education coding"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Primary assignments use age-band midpoints, with ages 80 and over represented by 90 under an assumed 80-100 range. The merged no-credential/primary category is represented by 12 years to approximate the archive's sequential recoding convention. The index is therefore a harmonized coding assumption. The following checks show how assignments respond to alternative mappings."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 8  Proportion of each cluster under alternative age and education mappings."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Mapping",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "rows": [
+      [
+        "Primary age midpoints",
+        "27.61%",
+        "33.92%",
+        "27.42%",
+        "11.05%"
+      ],
+      [
+        "Aligned historical age imputation",
+        "32.50%",
+        "30.03%",
+        "23.61%",
+        "13.87%"
+      ]
+    ]
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Sensitivity",
+      "Household labels changed"
+    ],
+    "rows": [
+      [
+        "Within-age-band random draws, seeds 0, 42, 2021",
+        "7.86-8.12%"
+      ],
+      [
+        "Lowest education category represented by 5 years",
+        "2.41%"
+      ],
+      [
+        "Age mapping aligned with historical imputation",
+        "10.18%"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "Under primary midpoints, A3 changes from the printed 2013 share of 22.9% to 27.42% in the eligible 2021 profiles. Under the aligned historical age imputation, its newer share is 23.61%. This additional check was introduced during independent review. The example shows the range of the age-mapping effect on the temporal comparison."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Fixed historical classification"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The extension uses the saved 2013 labels and fixed coordinate means, scaling and centroids. Replaying that classifier reproduces all 17,855 archived labels. The reconstructed archive proxy supplies the operational transfer to 2021. Of the eligible newer profiles, 2,985, or 6.65%, lie outside at least one historical coordinate range, mostly in A1. The published 2013 results and original files retain their historical values."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Implications for building simulations"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The newer survey evidence supports input scenarios with more widespread cooling and longer daily operating periods among frequent users. The 2013 study supplies the historical user and operating groups. The 2021 extension supplies updated equipment context, reported-hour distributions and a conditional comparison of demographic profiles. The 2024 published series extends the cooling-availability context to 56.0%."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 9a  Significant groups for heating system usage."
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Group name",
+      "Average (standard deviation)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "H1",
+        "4.67 (3.54)",
+        "h/day"
+      ],
+      [
+        "H2",
+        "5.25 (3.77)",
+        "h/day"
+      ],
+      [
+        "H3",
+        "6.91 (4.43)",
+        "h/day"
+      ],
+      [
+        "H4",
+        "7.53 (4.41)",
+        "h/day"
+      ],
+      [
+        "H5",
+        "8.53 (4.00)",
+        "h/day"
+      ],
+      [
+        "H6",
+        "9.14 (4.17)",
+        "h/day"
+      ],
+      [
+        "H7",
+        "9.67 (4.28)",
+        "h/day"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "Table 9b  Significant groups for annual electricity consumption"
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "Group name",
+      "Average (standard deviation)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "E1",
+        "1801 (1502)",
+        "kWh/year"
+      ],
+      [
+        "E2",
+        "2023 (1631)",
+        "kWh/year"
+      ],
+      [
+        "E3",
+        "2320 (1502)",
+        "kWh/year"
+      ],
+      [
+        "E4",
+        "2646 (1844)",
+        "kWh/year"
+      ],
+      [
+        "E5",
+        "2895 (1853)",
+        "kWh/year"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "Published 2013 Table 6 means and standard deviations, preserved exactly. H1-H7 concern declared heating on-time; E1-E5 concern modelled appliance electricity. Their definitions combine user type, dwelling and location. The 2021 daily-hour comparisons on page 6 have their own response domains."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Next extension of the model inputs"
+  },
+  {
+    "kind": "paragraph",
+    "text": "For the simulation stage, keep the historical A1-A4 definitions and evaluate newer equipment and operating scenarios alongside them. Match geography and dwelling characteristics before assigning the paper's H and E groups. Establish a compatible dwelling crosswalk for the newer survey, including apartment size and building-floor information."
+  },
+  {
+    "kind": "paragraph",
+    "text": "A further demographic extension should retain families with young children in a shared age and schooling representation. Show the resulting weighted coverage in both waves, then repeat the fixed-classifier comparison and the exploratory clustering. This would put the change in archetype proportions on a more comparable household domain."
+  },
+  {
+    "kind": "paragraph",
+    "text": "The next microdata wave can extend the household analysis to 2024 when obtained through an appropriate access channel. The current local household releases cover 2013 and 2021; the 2024 values used here are published aggregates. Regional physical energy calibration would require separate compatible energy benchmarks. The simulations themselves remain a subsequent study stage."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Sources and analytical record"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The extension combines the original published results, the local ISTAT 2013 and 2021 releases and the official 2024 equipment report. All temporal estimates are descriptive repeated-cross-section comparisons. Household identifiers are wave specific. Differences in collection mode, question reference period, age intervals and schooling availability are documented in the analysis package."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Primary references"
+  },
+  {
+    "kind": "link",
+    "text": "[1] Khajedehi, Vivian and Zarrella (2025). Identification of Italian user archetypes for building energy simulations based on a national survey. Energy and Buildings 344, 115924. Historical Table 3, Figure 5, Figure 3 and Table 6.",
+    "url": "https://doi.org/10.1016/j.enbuild.2025.115924"
+  },
+  {
+    "kind": "link",
+    "text": "[2] ISTAT (2014). I consumi energetici delle famiglie, anno 2013.",
+    "url": "https://www.istat.it/wp-content/uploads/2014/12/StatReport_Consumi_energetici.pdf"
+  },
+  {
+    "kind": "link",
+    "text": "[3] ISTAT (2022). I consumi energetici delle famiglie, anno 2021. Release and linked metadata.",
+    "url": "https://www.istat.it/comunicato-stampa/i-consumi-energetici-delle-famiglie-anno-2021/"
+  },
+  {
+    "kind": "link",
+    "text": "[4] ISTAT (2025). Dotazioni energetiche delle famiglie, anno 2024. Released 9 October 2025. Cooling section gives the 2013, 2021 and 2024 availability series.",
+    "url": "https://www.istat.it/wp-content/uploads/2025/10/Report_Dotazioni-energetiche-delle-famiglie_Anno-2024.pdf"
+  },
+  {
+    "kind": "paragraph",
+    "text": "[5] Local ISTAT releases: ECH_Microdati_Anno_2013.txt with coef_red and ISTAT_MFR_ECH_Microdati_2021_DELIMITED.txt with PESO. Definitions were checked against the released record layouts, classifications and questionnaires. New 2021 user profiles are transferred using the fixed archive classifier."
+  },
+  {
+    "kind": "link",
+    "text": "[6] ISTAT. Indagine sui consumi energetici delle famiglie. The MFR listing inspected on 4 November 2026 contains 2013 and 2021.",
+    "url": "https://www.istat.it/microdati/indagine-sui-consumi-energetici-delle-famiglie/"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Figure and table correspondence"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Report Figure 2 retains the title and four-colour stacked-bar design of original Figure 5. Report Figure 4 reproduces original Figure 8 directly from the publisher PDF, including H1-H7 with insulation and E1-E5 with cooling-system use. Report Figure 5 retains the title of original Figure 3 and reproduces its historical panel. Table 2 retains the original Table 3 title and mean-with-standard-deviation layout. Tables 9a and 9b retain the corresponding original Table 6 titles. Times New Roman substitutes for the paper's Charis SIL font in the report text."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Reproducibility and verification"
+  },
+  {
+    "kind": "paragraph",
+    "text": "The package root is output/temporal_extension_2013_2021_20261104. Folder 00_baseline contains printed benchmarks and source hashes; 01_comparability contains primary-definition evidence and the factor inventory; 02_analysis contains the fixed analysis, CSV results and scripts; 03_review contains independent scientific checks. The corrected report and Figure 8 source trace are in 04_report/paper_figure_corrected. Chart source data and figure-building scripts for the other comparisons are retained in 04_report/revised_comparisons."
+  },
+  {
+    "kind": "paragraph",
+    "text": "Independent checks reproduced the eligible assignments, all 80 regional cells, regional standardization, direct outcomes and principal clustering diagnostics. The protected original files and 40 frozen analysis artifacts are checked again at delivery. The restored Figure 8 is rendered directly from the protected publisher PDF. The newer numerical comparisons retain their independently checked domains and values. The 2013 analysis and published results remain unchanged."
+  }
+]

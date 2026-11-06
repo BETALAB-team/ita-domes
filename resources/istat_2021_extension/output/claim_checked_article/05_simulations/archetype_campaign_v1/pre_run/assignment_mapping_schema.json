@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-20",
+  "assignment_artifact": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\archived_four_archetype_assignments.csv",
+  "assignment_sha256": "be8bc93ad8f5143f6393e9b270840a7e5a2edd90724edb60b2fb624680b09e2f",
+  "input_source_id": "ARCHIVE-CLUSTERS-2013",
+  "input_path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\clusters.csv",
+  "input_sha256": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90",
+  "git_repository": "C:\\Works\\GRINS\\GRINS-Tool",
+  "git_revision": "a129009e177da391792b57c8af5055b18ce64374",
+  "git_path": "resources/istat_data/clusters.csv",
+  "git_blob_sha256": "5fe10886fc70792cb0a2212fc8249283654e4ace9f172d061f8428b036efadd0",
+  "git_text_equivalence": "Worktree and HEAD gitblob identical after CRLF\u2192LF normalization;bytehashes differ due lineendings.",
+  "published_source": "ARCH2025-FULL;DOI10.1016/j.enbuild.2025.115924;pp6-7Table3/Fig5",
+  "number_mapping": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4
+  },
+  "label_interpretations": {
+    "1": "Few older members,mid-level education;examples retired couple/single elderly",
+    "2": "Larger households with younger and middle-age members;examples parents/children oryoungcohabitants",
+    "3": "Few middle-age members,mediumeducation;examples workingcouple orparent/working-agechild",
+    "4": "Few middle/older-age members,highereducation;examples comparableto3withhighereducation/nearretirement"
+  },
+  "n_records": 17855,
+  "group_counts": {
+    "1": 7163,
+    "2": 4801,
+    "3": 4080,
+    "4": 1811
+  },
+  "primary_key": "household_id",
+  "joins": {
+    "compact_survey": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat_microdata_2013.csv",
+      "key": "id",
+      "delimiter": ";",
+      "constraint": "One-to-one;all17855assignmentIDsjoin20000compactrecords;2145outsidearchivedassignmentdomainareunassigned."
+    },
+    "official_raw_release": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\MICRODATI\\ECH_Microdati_Anno_2013.txt",
+      "key": "nprog",
+      "delimiter": "tab",
+      "constraint": "one_to_one;verifykeyidentityandrawdefinitions,retainmissingness"
+    },
+    "appliance_estimates": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\results_grins.csv",
+      "key": "id",
+      "quantity": "appliances_el_kWh",
+      "evidence_class": "modelledannualestimate,notmeteredenergy"
+    }
+  },
+  "required_survey_fields": [
+    "id/nprog",
+    "reg",
+    "rip",
+    "coef_red",
+    "q_1_1_sq1",
+    "q_3_0",
+    "q_3_10",
+    "q_3_11A",
+    "q_3_11B",
+    "q_3_11C",
+    "q_3_12",
+    "q_3_13_1",
+    "q_3_13_2",
+    "q_3_13_3",
+    "q_3_17",
+    "q_3_19_6",
+    "q_2_1",
+    "q_2_32C",
+    "q_2_32D"
+  ],
+  "field_semantics": {
+    "household_id": "Surveyrecordlinkidentifier;notactualhouseholdpersonidentity",
+    "archetype_id": "Archivalfourgroupnumericsegment+1,alignedwithpapersemanticnumbering",
+    "archived_segment_zero_based": "Originalsavednumericgroup0-3,notreestimated",
+    "source_record_1_based": "DatarowpositioninsourceCSV,excludingheader",
+    "assignment_source_id": "FixedARCHIVE-CLUSTERS-2013",
+    "mapping_status": "ExactremoteUserArchetypesbranchidentityunverified"
+  },
+  "weighting": {
+    "published_reference": "Unweighted,equalrepresentationforeachsurveyedfamily,explicitp7",
+    "released_weight_field": "coef_red;officialmethodologicalnotep7calibration/expansionweight",
+    "rule": "Keepunweightedreference;separatelabelanyweightednewstudyestimand.Nosilentweightingofpublishedgroups."
+  },
+  "limitations": [
+    "Notprovenexactpublishedper-householdmembership;sourcebranchwasnotaccessible.",
+    "Table3andFig5aggregatecorrespondencedoesnotproveidenticalmembershipsorvalidation.",
+    "Publishedclassdescriptionsarenotage-thresholdrulesorobservedoccupancycurves.",
+    "Noautomaticassignmenttoexcluded/newhouseholdswithoutnewexplicitmethod.",
+    "Public-useageandmembercountfieldsarecoarsened;agefeaturesinsavedarchivearederived,notexactages."
+  ],
+  "review_gates": [
+    "Freezeinputandmappinghashes",
+    "JoinbyIDnotrowposition",
+    "Confirmallfoursourcegroupsandresponse-routingdomain",
+    "Preservetimer/valve,setpointandhour-placementassumptions",
+    "Keepphysical/weathercasecommonforcontrolledarchetypecomparison",
+    "Do not inferoccupancycurvesfromdemographiclabels"
+  ]
+}

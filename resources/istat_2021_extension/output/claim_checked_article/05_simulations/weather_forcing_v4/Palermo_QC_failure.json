@@ -1,0 +1,16 @@
+{
+  "wind_speed": {
+    "epw_zero_based_column": 21,
+    "unit": "m/s",
+    "missing_sentinel": 999,
+    "sentinel_count": 0,
+    "min": -0.1,
+    "max": 11.2,
+    "finite": true,
+    "range_failure_count": 1,
+    "validity_range": [
+      0,
+      40
+    ]
+  }
+}

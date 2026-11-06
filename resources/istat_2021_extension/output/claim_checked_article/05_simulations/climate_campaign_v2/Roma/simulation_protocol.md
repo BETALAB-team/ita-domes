@@ -1,0 +1,39 @@
+# Frozen simulation protocol v1 — 20 October 2026
+
+Owner: simulation_methods (requested model gpt-6.1-sol). Scope agreed with orchestrator before results. This is a controlled schedule-reconstruction sensitivity experiment, not empirical validation or a reproduced national-stock result.
+
+## Question and estimands
+
+For one illustrative dwelling exposed to Padova-coordinate TMY weather, how much do annual sensible heating demand and maximum hourly sensible heating load change when identical reported heating hours are placed differently within their reported eight-hour blocks? Secondary: sensitivity to warm-up duration. No accuracy, retrofit, behavioural improvement, causal population effect, city-representativeness, or novelty claim follows.
+
+Baseline: execute the actual methods `User.create_random_prof`, `User.create_prof`, and `User.substitute_istat_heatingTSP` from the hashed GRINS `classes/EndUse.py` using AST extraction rather than importing its unrelated dependencies. This preserves its same-id re-seeding in each block. Alternatives: place the same contiguous on-hours at the earliest or latest allowable position in each block. The night block is 21:00–05:00 and is rotated into the calendar day exactly as in source. Hours are integer and must lie in [0,8]; reject invalid responses. Source on/off temperatures and its climate-E season `(105,288)` are preserved, including its index conventions; do not silently interpret comments as exact legal dates. For thermostat/valve conditions the code gives 22/19°C; otherwise 22/11°C; certain fireplace responses add 2°C. The off-season lower setpoint is 0°C. Those are model assumptions, not measured setpoints. Cooling upper setpoint is fixed 50°C to isolate heating; any cooling load must be zero.
+
+Survey response: lowest id among 2013 rows with region `reg=5` and all three `q_3_11A/B/C` strictly between zero and eight. Freeze the selected fields and source checksum in `04_analysis/input_audit.json` before simulation. The selection is for a nondegenerate technical example; no survey weights or city assignment are made.
+
+## Physical model and departures
+
+Primary: EUReCA `ThermalZone`, 1C hourly dynamic solver, explicitly imported from `C:/Works/EUReCA/EUReCA`, HEAD recorded with file hashes. Existing `.venv` is read only. Execute `-B`; run cwd and all logs/outputs under this artifact root. Do not combine source modules from the Macovei fork; its local Padova-coordinate EPW is data only.
+
+The chapter's 1C formulation is the intended methodological connection. The available GRINS `simulate_hvac` currently sets up 2C and calls `simulate_quasi_steady_state`; its dynamic `simulate` call is commented. Therefore the pilot is a new explicit 1C adapter, not reproduction of the current GRINS pipeline or the conference simulation. A 2C sensitivity remains optional and must be declared separately. Direct zone stepping avoids unrelated PV, storage, and final-energy routines; it uses the actual EUReCA zone solver.
+
+Illustrative geometry and envelope are predeclared assumptions: rectangular 10×8×3 m dwelling, 80 m² floor, 240 m³ volume, four exposed walls, exposed roof and ground floor, 20% wall glazing, opaque U-values walls1.0/roof0.8/floor0.8 W m⁻²K⁻¹, heavy construction, windows U2.8 and g0.65 with frame0.15. Internal wall/ceiling mass follows the GRINS area multipliers (floor×5 and floor×2) using U1 heavy internal construction. These values do not claim surveyed or Padova-stock envelope calibration. Hold constant 240 W internal electric gains (0.2 radiant/0.8 convective; 0.99 to zone), 0.3 air changes per hour, zero mechanical ventilation and latent gains. Ideal unlimited sensible heating; no fuel or system efficiency conversion. Independent fresh zone/schedule objects for every run avoid the shared-user alias risk in GRINS `process_users_data`.
+
+## Weather and calendar
+
+Initial input: `Fork-Macovei/EUReCA-maco/eureca_ubem/Input/tmy_45.408_11.873_2005_2023.epw`. Coordinates 45.408N11.873E identify a Padova location; header ECMWF/ERA and filename year window are recorded literally. Retrieval date, generator and underlying selection provenance are absent; the filename does not verify the window or current source. Do not call this official historical-year weather. Fixed UTC+1 local standard time, no DST; coerce annual non-leap calendar to 2023 (8760 hours) consistently in weather/config/schedules. EPW hour-ending values are consumed through pvlib's EPW convention; code prints first/last resulting timestamp. Reject non8760 files, leap days, duplicate month/day/hour, NaN or sentinel temperature/RH/radiation. Solar azimuth8/height4. No urban shading. Local data integrity is a technical check, not provenance verification.
+
+Warm-up: cycle the last168 hours of the same annual schedules/weather before hour0 (negative indexes), discard warm-up outputs; repeat baseline with336 hours and require annual heating change≤0.5% and peak change≤1%. Repeat baseline identically to check deterministic output. If warm-up fails, extend in a documented protocol revision, not tune to preferred schedule results.
+
+## Accounting and uncertainty
+
+Primary outputs: hourly sensible zone load W, air temperature °C, heating setpoint °C, outdoor temperature °C and on-profile; annual heating kWh = sum(max(load,0))×1h/1000; peak = max(max(load,0))/1000 kW. No delivered/final energy, carrier, DHW, appliance consumption, national total or emissions result is computed. Internal electric gains enter thermal balance; their electricity is outside the reported heating boundary. No heating efficiency, heating value, COP, or primary-energy factor is assumed.
+
+Compare matched annual and peak deltas and ratios to seeded baseline; earliest/latest are alternatives, not probabilistic confidence bounds nor necessarily global extrema of all allowed schedules. Model structure, envelope, gains, household selection, warm-up, weather vintage/provenance and missing observed schedules remain uncertainty sources. This minimum experiment does not quantify population uncertainty. Do not describe lower demand as better accuracy.
+
+## Run campaign and gate
+
+Initially five annual runs: seeded168h, early168h, late168h, repeated seeded168h, seeded336h. Estimate runtime from first annual run, then report actual elapsed seconds. Every run records config hash, input/source hashes, import paths, package versions, command, hourly CSV, summary, checks and stdout/stderr. All configuration and protocol files precede execution. Exceptions produce failed logs and no scientific result. No calibration or tuning.
+
+Pass gate: exact three block totals preserved; all runs8760 finite rows; deterministic repeat equal to numerical tolerance1e-9; no cooling at50°C; plausible temperatures−10…50°C and loads0…100kW; heating setpoint met to0.1K when heating active; sum hourly demand matches summary; warm-up limits above. These numerical screens are not empirical acceptance criteria and are inappropriate for predictive accuracy claims. Record unavailable full energy-balance residual/limiting-case/independent benchmark as unresolved verification tasks rather than implying full validation.
+
+Expansion only after Padova technical gate passes and orchestrator reviews the result. Select2–4 additional consistently sourced climate files using daily-mean HDD18/CDD26, annual GHI and mean RH. Hold all physical/household inputs and season fixed for a controlled climate test; changing local regulatory seasons would confound it. Do not launch unrelated Venice/Uppsala examples. Local provenance constraints may limit present work to Padova; record missing climate inputs and runnable acquisition plan.

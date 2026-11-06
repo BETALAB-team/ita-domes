@@ -1,0 +1,19 @@
+{
+  "block_totals_exact": true,
+  "all8760_finite": true,
+  "zero_cooling": true,
+  "temperature_load_screens": true,
+  "setpoint_adherence": true,
+  "repeat_max_difference": 0.0,
+  "warmup_annual_sensible_heating_kWh": {
+    "relative_difference": 3.514111224234284e-11,
+    "limit": 0.005,
+    "pass": true
+  },
+  "warmup_peak_sensible_heating_kW": {
+    "relative_difference": 0.0,
+    "limit": 0.01,
+    "pass": true
+  },
+  "pass": true
+}

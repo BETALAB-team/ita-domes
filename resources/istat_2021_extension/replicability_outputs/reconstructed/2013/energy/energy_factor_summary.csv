@@ -1,0 +1,9 @@
+response,factor,level,sample_count,mean,standard_deviation
+heating_daily_hours,insulation_level,none_or_slight,4507,7.88950521411,4.51114351361
+heating_daily_hours,insulation_level,sufficient_or_high,13098,7.7143838754,4.44398347065
+electricity_annual_kwh,archetype,1,7047,1956.48545143,1680.70085865
+electricity_annual_kwh,archetype,2,4728,2809.39898987,1760.95347423
+electricity_annual_kwh,archetype,3,4010,2249.57772531,1758.55265743
+electricity_annual_kwh,archetype,4,1820,2423.77215758,1885.81295575
+electricity_annual_kwh,cooling_system_use,absent_or_unused,15059,2261.20694728,1778.65318655
+electricity_annual_kwh,cooling_system_use,present_or_used,2546,2533.67949195,1742.27614336

@@ -1,0 +1,466 @@
+C:\Works\GRINS\GRINS-Tool\resources\istat_data\output\claim_checked_article\05_simulations\climate_campaign_v4\Padova\eureca_config.json
+{
+  "fix_sha256": "24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+  "sites": {
+    "Padova": {
+      "epw_sha256": "390ead08c3e32d34a874c564b57c28ef1b7275682c7a749477208f5b6846adca",
+      "surface_checks": {
+        "wall0.0": {
+          "errors_SW_LW_window_W": [
+            2.2737367544323206e-13,
+            0.0,
+            9.094947017729282e-13
+          ],
+          "isolated_surface_error_W": 9.094947017729282e-13,
+          "opaque_area_m2": 24.0,
+          "longwave_W": -33.24228901165783
+        },
+        "wall90.0": {
+          "errors_SW_LW_window_W": [
+            1.1368683772161603e-13,
+            0.0,
+            4.547473508864641e-13
+          ],
+          "isolated_surface_error_W": 6.821210263296962e-13,
+          "opaque_area_m2": 19.2,
+          "longwave_W": -26.59383120932626
+        },
+        "wall180.0": {
+          "errors_SW_LW_window_W": [
+            1.1368683772161603e-13,
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "isolated_surface_error_W": 3.410605131648481e-13,
+          "opaque_area_m2": 24.0,
+          "longwave_W": -33.24228901165783
+        },
+        "wall-90.0": {
+          "errors_SW_LW_window_W": [
+            2.2737367544323206e-13,
+            0.0,
+            6.821210263296962e-13
+          ],
+          "isolated_surface_error_W": 9.094947017729282e-13,
+          "opaque_area_m2": 19.2,
+          "longwave_W": -26.59383120932626
+        },
+        "Roof": {
+          "errors_SW_LW_window_W": [
+            9.094947017729282e-13,
+            0.0,
+            0.0
+          ],
+          "isolated_surface_error_W": 9.094947017729282e-13,
+          "opaque_area_m2": 80.00000000000001,
+          "longwave_W": -170.32159942488627
+        }
+      },
+      "node_errors_W": [
+        0.0,
+        5.684341886080802e-14,
+        2.7284841053187847e-12
+      ],
+      "order_errors_W": {
+        "reverse": 2.7284841053187847e-12,
+        "roof_first": 2.7284841053187847e-12,
+        "rotate": 2.7284841053187847e-12
+      },
+      "declared_longwave_W": -289.99383986685444,
+      "actual_longwave_perturbation_error_W": 2.5579538487363607e-12,
+      "zero_solar_error_W": 0.0,
+      "completed_campaign_cases_checked": {
+        "seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            3.637978807091713e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "02545e6feffb6e95c0951aec6a584a199dcf890a52d188feefa8023a823a5b76"
+        },
+        "early": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            3.637978807091713e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "399dff1dc09f5b457b3bacb69af6896dd2a8453e3869c9b134793edd853e1f59"
+        },
+        "late": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            3.637978807091713e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "615f5d4f68992c0391254b4a1a01e5d52d7cababfff91795e431cc15927af845"
+        },
+        "repeat_seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            3.637978807091713e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "02545e6feffb6e95c0951aec6a584a199dcf890a52d188feefa8023a823a5b76"
+        },
+        "warmup_seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            3.637978807091713e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "fb4f9a52108a2af7f45a92418c2015fe63f62a79808cf257a1067758e3647718"
+        }
+      }
+    },
+    "Bolzano": {
+      "epw_sha256": "ff2561b3a202e1ae67201bd46086e56e50c66d328bd118bfe8e7d0c3270d472b",
+      "surface_checks": {
+        "wall0.0": {
+          "errors_SW_LW_window_W": [
+            3.410605131648481e-13,
+            0.0,
+            9.094947017729282e-13
+          ],
+          "isolated_surface_error_W": 1.3642420526593924e-12,
+          "opaque_area_m2": 24.0,
+          "longwave_W": -45.84931942865353
+        },
+        "wall90.0": {
+          "errors_SW_LW_window_W": [
+            1.1368683772161603e-13,
+            0.0,
+            4.547473508864641e-13
+          ],
+          "isolated_surface_error_W": 4.547473508864641e-13,
+          "opaque_area_m2": 19.2,
+          "longwave_W": -36.679455542922824
+        },
+        "wall180.0": {
+          "errors_SW_LW_window_W": [
+            1.1368683772161603e-13,
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "isolated_surface_error_W": 4.547473508864641e-13,
+          "opaque_area_m2": 24.0,
+          "longwave_W": -45.84931942865353
+        },
+        "wall-90.0": {
+          "errors_SW_LW_window_W": [
+            2.2737367544323206e-13,
+            0.0,
+            6.821210263296962e-13
+          ],
+          "isolated_surface_error_W": 9.094947017729282e-13,
+          "opaque_area_m2": 19.2,
+          "longwave_W": -36.679455542922824
+        },
+        "Roof": {
+          "errors_SW_LW_window_W": [
+            9.094947017729282e-13,
+            2.842170943040401e-14,
+            0.0
+          ],
+          "isolated_surface_error_W": 9.094947017729282e-13,
+          "opaque_area_m2": 80.00000000000001,
+          "longwave_W": -234.9155142382697
+        }
+      },
+      "node_errors_W": [
+        0.0,
+        5.684341886080802e-14,
+        2.7284841053187847e-12
+      ],
+      "order_errors_W": {
+        "reverse": 2.7284841053187847e-12,
+        "roof_first": 2.7284841053187847e-12,
+        "rotate": 2.7284841053187847e-12
+      },
+      "declared_longwave_W": -399.9730641814224,
+      "actual_longwave_perturbation_error_W": 2.5011104298755527e-12,
+      "zero_solar_error_W": 5.684341886080802e-14,
+      "completed_campaign_cases_checked": {
+        "seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            2.7284841053187847e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "d8b7038f337ced6afeec4b6d70e84bf5df9ff6c14dd1a1dd268469cfd4322410"
+        },
+        "early": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            2.7284841053187847e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "920d4dbdd74cc769106d47b893215c650151567a4544265357ddf39606ffdc30"
+        },
+        "late": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            2.7284841053187847e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "98d1d67b7d8f5bb5e4b3398a4180193733a63f9ad697aec568437b2f3fbceab5"
+        },
+        "repeat_seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            2.7284841053187847e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "d8b7038f337ced6afeec4b6d70e84bf5df9ff6c14dd1a1dd268469cfd4322410"
+        },
+        "warmup_seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            2.7284841053187847e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "4b98d7e5cb7b6148b63fad7219e3a575a9cd43385ae480a528b1382d877bf7fb"
+        }
+      }
+    },
+    "Roma": {
+      "epw_sha256": "edbe4470b89164c1c80e8dd8969949addfd132ce4a10cb93278eb88c8f1247cd",
+      "surface_checks": {
+        "wall0.0": {
+          "errors_SW_LW_window_W": [
+            3.410605131648481e-13,
+            0.0,
+            9.094947017729282e-13
+          ],
+          "isolated_surface_error_W": 1.3642420526593924e-12,
+          "opaque_area_m2": 24.0,
+          "longwave_W": -35.261578433402605
+        },
+        "wall90.0": {
+          "errors_SW_LW_window_W": [
+            1.1368683772161603e-13,
+            0.0,
+            6.821210263296962e-13
+          ],
+          "isolated_surface_error_W": 9.094947017729282e-13,
+          "opaque_area_m2": 19.2,
+          "longwave_W": -28.20926274672208
+        },
+        "wall180.0": {
+          "errors_SW_LW_window_W": [
+            1.1368683772161603e-13,
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "isolated_surface_error_W": 2.2737367544323206e-13,
+          "opaque_area_m2": 24.0,
+          "longwave_W": -35.261578433402605
+        },
+        "wall-90.0": {
+          "errors_SW_LW_window_W": [
+            2.2737367544323206e-13,
+            0.0,
+            6.821210263296962e-13
+          ],
+          "isolated_surface_error_W": 9.094947017729282e-13,
+          "opaque_area_m2": 19.2,
+          "longwave_W": -28.20926274672208
+        },
+        "Roof": {
+          "errors_SW_LW_window_W": [
+            9.094947017729282e-13,
+            2.842170943040401e-14,
+            0.0
+          ],
+          "isolated_surface_error_W": 9.094947017729282e-13,
+          "opaque_area_m2": 80.00000000000001,
+          "longwave_W": -180.66771620080112
+        }
+      },
+      "node_errors_W": [
+        0.0,
+        8.526512829121202e-14,
+        2.7284841053187847e-12
+      ],
+      "order_errors_W": {
+        "reverse": 2.7284841053187847e-12,
+        "roof_first": 2.7284841053187847e-12,
+        "rotate": 2.7284841053187847e-12
+      },
+      "declared_longwave_W": -307.6093985610505,
+      "actual_longwave_perturbation_error_W": 2.7284841053187847e-12,
+      "zero_solar_error_W": 0.0,
+      "completed_campaign_cases_checked": {
+        "seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            2.7284841053187847e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "f9eaf71f3df6a39dc91cf2239394eaf74a8b83734d7972992da77de24890dcd8"
+        },
+        "early": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            2.7284841053187847e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "f283c54369f7ec358fab95eeb1562fd7ca682fd77a761bb926cc5d3bae990f0d"
+        },
+        "late": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            2.7284841053187847e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "55c09962557ad84f989ecb6265266262913834a9de07233c5b506384f4bea60d"
+        },
+        "repeat_seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            2.7284841053187847e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "f9eaf71f3df6a39dc91cf2239394eaf74a8b83734d7972992da77de24890dcd8"
+        },
+        "warmup_seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            2.7284841053187847e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "e8ddf516caafa7b82dce4597a9bc5ce6ca1d970a3d65c68f4e83f47499a97252"
+        }
+      }
+    },
+    "Palermo": {
+      "epw_sha256": "1e51aa278551c25cddd96ce1c40ae0f86a8e91f05ca71157f67b17be8cf1d80f",
+      "surface_checks": {
+        "wall0.0": {
+          "errors_SW_LW_window_W": [
+            3.410605131648481e-13,
+            0.0,
+            9.094947017729282e-13
+          ],
+          "isolated_surface_error_W": 9.094947017729282e-13,
+          "opaque_area_m2": 24.0,
+          "longwave_W": -36.61987287563891
+        },
+        "wall90.0": {
+          "errors_SW_LW_window_W": [
+            1.7053025658242404e-13,
+            0.0,
+            4.547473508864641e-13
+          ],
+          "isolated_surface_error_W": 4.547473508864641e-13,
+          "opaque_area_m2": 19.2,
+          "longwave_W": -29.295898300511126
+        },
+        "wall180.0": {
+          "errors_SW_LW_window_W": [
+            1.1368683772161603e-13,
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "isolated_surface_error_W": 2.2737367544323206e-13,
+          "opaque_area_m2": 24.0,
+          "longwave_W": -36.61987287563891
+        },
+        "wall-90.0": {
+          "errors_SW_LW_window_W": [
+            2.2737367544323206e-13,
+            0.0,
+            6.821210263296962e-13
+          ],
+          "isolated_surface_error_W": 9.094947017729282e-13,
+          "opaque_area_m2": 19.2,
+          "longwave_W": -29.295898300511126
+        },
+        "Roof": {
+          "errors_SW_LW_window_W": [
+            9.094947017729282e-13,
+            2.842170943040401e-14,
+            0.0
+          ],
+          "isolated_surface_error_W": 9.094947017729282e-13,
+          "opaque_area_m2": 80.00000000000001,
+          "longwave_W": -187.62713111385028
+        }
+      },
+      "node_errors_W": [
+        0.0,
+        8.526512829121202e-14,
+        2.7284841053187847e-12
+      ],
+      "order_errors_W": {
+        "reverse": 2.7284841053187847e-12,
+        "roof_first": 2.7284841053187847e-12,
+        "rotate": 2.7284841053187847e-12
+      },
+      "declared_longwave_W": -319.45867346615034,
+      "actual_longwave_perturbation_error_W": 2.3874235921539366e-12,
+      "zero_solar_error_W": 0.0,
+      "completed_campaign_cases_checked": {
+        "seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            3.637978807091713e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "222ecb953871fcecf5b834c721f53ea205a9e5a5c37f1ae0772b077dcb12c5af"
+        },
+        "early": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            3.637978807091713e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "26aeb1502f7f0d660c73c16d6554b771c66bb6dcbcea23d5c1b1942f87d5b20b"
+        },
+        "late": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            3.637978807091713e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "f7036264b9b18b7be3c37e91c4d6a1030fd509c022a808d292879d3ffb1eebe8"
+        },
+        "repeat_seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            3.637978807091713e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "222ecb953871fcecf5b834c721f53ea205a9e5a5c37f1ae0772b077dcb12c5af"
+        },
+        "warmup_seeded": {
+          "actual_solver_forcing_max_error_W": [
+            0.0,
+            8.526512829121202e-14,
+            3.637978807091713e-12
+          ],
+          "network_parameters_unchanged": true,
+          "hourly_sha256": "a176830862a4d5299d78106e287e36e7a8808520f3a9c61e2ec377419a6566c1"
+        }
+      }
+    }
+  }
+}

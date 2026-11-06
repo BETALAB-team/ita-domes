@@ -1,0 +1,23 @@
+{
+  "scope": "Structural and source-identity checks only; not empirical/scientific validation.",
+  "claim_version": "v07",
+  "claim_count": 106,
+  "current_index_ledger_hash_matches": true,
+  "full_cycles": 6,
+  "ledger_draft_hash_matches": true,
+  "final_snapshot_matches_latest": true,
+  "enum_errors": [],
+  "unresolved_source_aliases": [],
+  "missing_required_files": [],
+  "broken_delivery_links": [],
+  "unknown_claim_ids_in_prose_map": [],
+  "prior_delivery_preservation_errors": [],
+  "extension_final_closure_exists": true,
+  "current_scientific_annual_executions": 144,
+  "current_technical_annual_executions": 8,
+  "new_extension_annual_executions": 152,
+  "prior_article_annual_executions": 87,
+  "total_article_annual_executions": 239,
+  "prior_quarantined_annual_executions": 66,
+  "reviewer_diagnostic_annual_executions_counted": false
+}

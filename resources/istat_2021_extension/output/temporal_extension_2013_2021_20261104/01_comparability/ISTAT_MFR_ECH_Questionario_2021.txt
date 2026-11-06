@@ -1,0 +1,3070 @@
+
+PAGE 1
+Guida alla lettura  
+ 
+ 
+L’Indagine sui Consumi energetici delle famiglie è stata condotta utilizzando le seguenti tecniche:  
+ tecnica online (CAWI - Computer Assisted Web Interviewing) 
+ tecnica telefonica (CATI - Computer Assisted Telephone Interviewing).  
+Il questionario qui presentato è quindi una versione semplificata di quello informatico messo a 
+punto per la raccolta dei dati1. Per una corretta lettura di tale versione semplificata è opportuno 
+sottolineare che quella informatizzata consente di:  
+ gestire automaticamente i filtri e i percorsi dei quesiti, 
+ attivare regole di incompatibilità e incoerenza tra le risposte, 
+ visualizzare le specifiche formulazioni in base alle risposte fornite alle domande precedenti 
+(testi mobili), 
+ generare automaticamente alcune variabili di sistema necessarie per la personalizzazione del 
+questionario, 
+ offrire assistenza in linea per chiarire il significato delle domande o delle modalità di 
+risposta. 
+ 
+ 
+ 
+                                                 
+1 Il presente documento è stato curato da Emilia Arcaleni. 
+ 
+
+PAGE 2
+ 
+ 1 
+ 
+ 
+Dipartimento per la produzione statistica 
+Direzione centrale per le statistiche ambientali e territoriali 
+Servizio Ambiente, territorio e registro delle unità geografiche e territoriali 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+INDAGINE  
+SUI CONSUMI ENERGETICI DELLE FAMIGLIE 
+ 
+Questionario  
+ 
+ANNO 2021 
+ 
+ 
+ 
+
+PAGE 3
+ 
+ 2 
+ STRUTTURA SINTETICA DEL QUESTIONARIO 
+Il questionario è costituito da una sezione familiare, contenente le informazioni sulle caratteristiche dei 
+componenti la famiglia, e da otto sezioni tematiche che rilevano la condizione abitativa della famiglia, il 
+possesso di apparecchi, impianti ed elettrodomestici e le spese per i consumi energetici. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+(ha impianti a biomasse) 
+(ha aria condizionata) 
+(ha acqua calda) 
+(ha riscaldam.) 
+SEZ. 1 -  ABITAZIONE 
+ 
+Piano ed epoca 
+Metri quadri e stanze 
+Infissi  
+Esposizione 
+SEZ. 3 - RISCALDAMENTO 
+ 
+Caratteristiche impianto prevalente 
+Caratteristiche impianto ausiliario 
+Investimenti 
+ 
+SEZ. 6 - CONSUMO DI BIOMASSE 
+SEZ. 2 -  DOTAZIONI  
+ 
+Dotazioni per riscaldamento 
+Dotazioni per acqua calda 
+Dotazioni per aria condizionata 
+Biomasse 
+Altri impianti 
+SEZIONE FAMILIARE 
+ 
+Eleggibilità 
+Scheda familiare 
+ 
+SEZ. 4  - ACQUA CALDA 
+ 
+Impianto solare termico 
+Caratteristiche impianto prevalente 
+Caratteristiche impianto ausiliario 
+Investimenti 
+SEZ. 5 - ARIA CONDIZIONATA 
+ 
+Caratteristiche impianto prevalente 
+Caratteristiche impianto ausiliario 
+Investimenti 
+ 
+SEZ. 7 - ILLUMINAZIONE ED 
+ELETTRODOMESTICI 
+ 
+SEZ. 8 - SPESE PER ENERGIA 
+ 
+
+PAGE 4
+ 
+ 3 
+DESCRIZIONE DELL'INDAGINE 
+ 
+L'indagine "Consumi energetici delle famiglie" ha lo scopo di conoscere i comportamenti quotidiani legati al consumo di 
+energia delle famiglie: l'indagine rileva gli impianti e le dotazioni presenti nell'abitazione (sistemi di riscaldamento della 
+casa e dell’acqua, sistemi di condizionamento, elettrodomestici ecc.) e le loro modalità di utilizzo costruendo così un 
+quadro completo dei consumi energetici residenziali del Paese.  
+Questa indagine ottempera al Regolamento Europeo che impone l'obbligo di fornire annualmente alla Comunità Europea i 
+dati sui consumi energetici del settore residenziale nazionale (EU n.431 del 24 aprile 2014 e CE n.1099 del 22 ottobre 
+2008).  
+ 
+Le famiglie che partecipano all'indagine sono state estratte casualmente dalle liste anagrafiche comunali.  
+ 
+Le informazioni raccolte sono tutelate dalle norme sulla protezione dei dati personali e sul segreto statistico.  
+L'Istat è tenuto per legge a svolgere questa rilevazione e i cittadini sono tenuti a parteciparvi: infatti la rilevazione è 
+prevista dal Programma Statistico Nazionale (codice rilevazione IST-02514), che comprende le rilevazioni statistiche di 
+interesse pubblico e rilevanza nazionale. 
+ 
+La ringraziamo per la collaborazione e buona compilazione! 
+ 
+ 
+ 
+INFORMAZIONI SULLA FAMIGLIA 
+ 
+ 
+A1 - Verifichiamo innanzitutto la corrispondenza con la famiglia estratta nel campione. All'indirizzo scritto sulla 
+lettera dell'ISTAT, vive abitualmente <il Sig./la Sig.ra>  <Nome e Cognome>, <nato/nata> il <data di nascita>?  
+ 
+- sì  ......................................................................................... 1  vai a A4 
+- no (per trasferimento, decesso o perché seconda casa) ...... 2  
+ 
+Solo se A.1=2. 
+A2 - A questo indirizzo vive abitualmente il/la coniuge o convivente (o ex coniuge/convivente) di <Nome e 
+Cognome>?  
+ 
+- sì  ............................................................................................... 1  vai a A4 
+- no (la Sua famiglia non corrisponde a quella selezionata) ....... 2  
+ 
+Solo se A.2=2. 
+A3 - Ci dispiace, la Sua famiglia non corrisponde a quella selezionata per partecipare all'indagine (l’indirizzo 
+effettivo non corrisponde all’indirizzo nella lettera ISTAT, oppure non vi abita no più le persone selezionate, 
+oppure si tratta di una seconda casa). Per questo motivo il questionario termina qui. 
+La preghiamo di cliccare su Invia il questionario in fondo alla pagina.  
+ 
+Grazie per la collaborazione!   esce dal questionario, famiglia non eleggibile, può scaricare ricevuta. 
+ 
+Solo se A1=1 o A2=1. 
+A4 - Cominciamo con una breve descrizione della Sua famiglia.  
+ 
+Ci interessa conoscere quante persone vivono nell'abitazione, perché ognuna di esse concorre alle spese energetiche.  
+Ci interessano solo le persone che effettivamente e abitualmente vivono in famiglia, anche se non hanno la 
+residenza anagrafica.  
+Le informazioni che ci darà non saranno in alcun modo usate per aggiornare l'anagrafe del suo Comune.   
+ 
+Le chiediamo quindi di aggiornare la seguente lista, che risulta al momento all'anagrafe comunale: 
+ 
+ CANCELLI chi non abita più con la famiglia (per trasferimento, decesso...), 
+ AGGIUNGA le nuove persone che vivono abitualmente in famiglia, 
+ AGGIUNGA anche amici, colf, badanti, persone in affitto o a pensione che vivono abitualmente con la 
+famiglia, anche se non sono parenti (non è necessario scrivere il nome completo), 
+ INCLUDA anche le persone temporaneamente assenti, ma che abitualmente dimorano nell’abitazione. 
+ 
+
+PAGE 5
+ 
+ 4 
+Come si compila: 
+ 
+ per aggiungere una persona, cliccare sul pulsante "Aggiungi riga", 
+ per cancellare una persona, cliccare sulla X  in fondo alla riga; per sostituire la Persona di riferimento scegliere 
+prima un'altra Persona di riferimento, 
+ la Persona di riferimento della famiglia è il destinatario della lettera o il suo coniuge o convivente o partner in 
+unione civile (o ex coniuge/convivente/partner in unione civile, 
+ giorni di assenza: indicare il numero totale di giorni di assenza vissuti altrove con regolarità durante il 2020, per 
+studio, lavoro o motivi familiari (ad es. tutti i weekend o il periodo delle lezioni all’università). Non considerare le 
+vacanze e i viaggi di lavoro occasionali, 
+ titolo di studio, casi particolari: 
+     -  il diploma di qualifica professionale di 2-3 anni comprende anche la qualifica triennale IFP (Istruzione e 
+Formazione Professionale) e il diploma IFP del quarto anno, 
+     -  il diploma di maturità di 4-5 anni comprende anche il certificato IFTS (Istruzione e Formazione Tecnica Superiore) 
+e il diploma ITS biennale, 
+     -  il diploma di Accademia comprende: Belle Arti, Nazionale di danza, Conservatorio, Scuola superiore per mediatori 
+linguistici, Nazionale di arte drammatica, Istituto superiore Industrie artistiche, Istituto di Musica Pareggiato.  
+ 
+F.1 
+Numero 
+d'ordine 
+ 
+F.2 
+Nome e 
+Cognome  
+ 
+ 
+ 
+F.4 
+Sesso 
+ 
+ 
+ 
+F.6 
+Età 
+ 
+ 
+ 
+ 
+F.7 
+Persona di 
+riferimento 
+  
+F.8 
+Relazione di 
+parentela 
+con la 
+Persona di 
+riferimento 
+ 
+F.9 
+Giorni di 
+assenza nel 
+2020  
+ 
+ 
+F.10 
+Titolo di 
+studio 
+F.11 
+Condizione 
+occupazionale (in 
+caso di più 
+condizioni, indichi 
+quella considerata 
+prevalente) 
+1   |_|_|_| X  |_|_|_|   
+2   |_|_|_|   |_|_|_|   
+...   |_|_|_|   |_|_|_|   
+19   |_|_|_|   |_|_|_|   
+ 
+Per tutti. Assegnata in automatico.  
+F.1 - Numero d'ordine  (range 1-19).  
+ 
+Per tutti. Precaricata, modificabile. 
+F.2 - Nome e Cognome _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ 
+Per tutti. Precaricata, modificabile,  menu a tendina. 
+F.4 - Sesso 
+ 
+- Maschio .............................................................. 1 
+- Femmina  ........................................................... 2 
+ 
+Per tutti. Precaricata, modificabile.  
+F.6 - Età  ......................................................................... |_|_|_| (range 0-118). 
+ 
+Per tutti. Precaricata. Uno solo per famiglia. Assegnata inizialmente all'ISF; se ISF non appartiene più alla famiglia, 
+devono indicare il coniuge/convivente/partner in unione civile (o ex).  
+F.7 - Persona di riferimento:  ........................................  1 
+ 
+REGOLA HARD: F.7=1 e  F.6<14 (la Persona di riferimento non può avere meno di 14 anni) 
+ 
+Per tutti.  
+F.8 - Relazione di parentela con la Persona di riferimento  
+ 
+- (modalità non visualizzata) Persona di riferimento ................................................................................................... 1 
+- coniuge/convivente/in unione civile con <Nome e Cognome PR>  .......................................................................... 2 
+- genitore, suocero, nonno, zio o altro parente ascendente di <Nome e Cognome PR> 
+   (o del coniuge o convivente o partner in unione civile con <Nome e Cognome PR>) ............................................. 3 
+- figlio di <Nome e Cognome PR> (o del coniuge o convivente o partner in unione civile con  <Nome e Cognome PR>)  ... 4 
+- altro parente (fratello/sorella, nipote, cognato/a, genero/nuora ecc.) di <Nome e Cognome PR> 
+  (o del coniuge o convivente o partner in unione civile con <Nome e Cognome PR>)  ............................................. 5 
+- persona legata da amicizia  ........................................................................................................................................ 6 
+- collaboratore domestico convivente e altri addetti ai servizi della famiglia  ............................................................. 7 
+- altre persone non parenti (persone in affitto, pensionanti ecc.)  ................................................................................. 8  
+
+PAGE 6
+ 
+ 5 
+REGOLA HARD: F.8=2 e F.6<14, cioè il coniuge/convivente/in unione civile non può avere meno di 14 anni. 
+“[F8h1] Attenzione: cortesemente verifichi l'età del coniuge (o convivente o in unione civile) della persona di 
+riferimento. Corregga la Relazione di parentela o l'Età.” 
+ 
+Per tutti.  
+F.9 - Giorni di assenza nel 2020 (range 0-366) 
+ 
+Solo se F.6>=10 e F.8=1-5.  
+F.10 - Titolo di studio 
+ 
+- nessun titolo  ................................................................................................................................................ 1 
+- licenza elementare  ....................................................................................................................................... 2 
+- licenza media (scuola secondaria di I grado) o avviamento professionale ................................................... 3 
+- diploma di qualifica professionale di scuola secondaria superiore 
+di 2-3 anni (non permette l'accesso all'Università)  ..................................................................................... 4  
+- diploma di maturità (scuola secondaria di II grado di 4-5 anni che permette l'accesso all'Università)  ....... 5 
+- diploma di Accademia (Belle Arti, Nazionale di danza, Conservatorio) ..................................................... 6  
+- laurea di primo livello (triennale), diploma universitario (2-3 anni),  
+Scuola diretta a fini speciali o parauniversitarie .......................................................................................... 7 
+- laurea di secondo livello (biennale), a ciclo unico (4-6 anni) o del vecchio ordinamento, dottorato ........... 8 
+ 
+Solo se F.6>=15 e F.8=1-5.  
+F.11 - Condizione occupazionale 
+ 
+- occupato/a  ............................................................... 1  
+- in cerca di nuova occupazione (disoccupato/a) ........ 2 
+- in cerca di prima occupazione .................................. 3 
+- casalinga .................................................................. 4  
+- studente .................................................................... 5  
+- inabile al lavoro ....................................................... 6 
+- persona ritirata dal lavoro (pensione da lavoro) ....... 7  
+- in altra condizione .................................................... 8  
+ 
+Per tutti. Se A6=1 la scheda familiare non potrà più essere modificata. 
+A6 - Confermo che i dati inseriti sono corretti (la scheda non potrà essere più modificata) ...............  1 
+ 
+Non visualizzare, calcolare in automatico.  
+A7 - Numero di componenti  (range 1-19) 
+ 
+A8 - Grazie, proseguiamo con il questionario.  
+E' opportuno che a rispondere alle domande sia un componente della famiglia maggiorenne e ben informato sulle 
+caratteristiche della casa (impianto di riscaldamento, acqua calda, bollette...). 
+Può sospendere in qualsiasi momento la compilazione del questionario -cliccando su Salva e Esci (in alto 
+nella pagina) e riprenderla successivamente. 
+ 
+Prosegui ........................................................................... 1 
+ 
+ 
+ 
+SEZIONE 1 - CARATTERISTICHE DELL'ABITAZIONE 
+ 
+ 
+Per tutti.  
+1.1 - Cominciamo a descrivere le caratteristiche dell'alloggio. In quale tipo di abitazione vivete?  
+Faccia riferimento all'indirizzo indicato sulla lettera dell'ISTAT. 
+ 
+- abitazione/villa/villetta monofamiliare  ................................................................................ 1  
+- abitazione/villa/villetta plurifamiliare o a schiera ............................................................... 2  
+- appartamento (ad esempio in un condominio) a piano terra, seminterrato o rialzato  ............ 3 
+- appartamento (ad esempio in un condominio) a un piano intermedio .................................... 4 
+- appartamento (ad esempio in un condominio) all'ultimo piano .............................................. 5 
+  
+
+PAGE 7
+ 
+ 6 
+1.2 - Quando è stato costruito l’immobile?  
+ 
+- dopo il 2019 ........................................................................... 1  vai a 1.6  
+- negli anni 2010-2019 ............................................................. 2  vai a 1.6  
+- negli anni 2000-2009 ............................................................. 3  vai a 1.3  
+- negli anni Novanta (1990-1999) ............................................ 4  vai a 1.4  
+- negli anni Ottanta (1980-1989)  ............................................. 5  vai a 1.6 
+- negli anni Settanta (1970-1979)  ............................................ 6  vai a 1.5   
+- negli anni Sessanta (1960-1969) ............................................ 7  vai a 1.6 
+- negli anni Cinquanta (1950-1959) ......................................... 8  vai a 1.6 
+- prima degli anni Cinquanta .................................................... 9  vai a 1.6 
+- non so ..................................................................................... 10 vai a 1.6 
+ 
+Solo se 1.2=3.  
+1.3 - E in particolare... 
+ 
+- anni 2007-2009 .................................................. 1  vai a 1.6 
+- anni 2000-2006 .................................................. 2  vai a 1.6 
+- non so ................................................................. 3  vai a 1.6 
+ 
+Solo se 1.2=4.  
+1.4 - E in particolare... 
+ 
+- anni 1994-1999 .................................................. 1  vai a 1.6 
+- anni 1990-1993 .................................................. 2  vai a 1.6 
+- non so ................................................................. 3  vai a 1.6 
+ 
+Solo se 1.2=6. 
+1.5 - E in particolare... 
+ 
+- anni 1977-1979 .................................................. 1  vai a 1.6 
+- anni 1970-1976 .................................................. 2  vai a 1.6 
+- non so ................................................................. 3  vai a 1.6 
+ 
+Per tutti. 
+1.6 - A quale titolo la famiglia occupa l'abitazione?  
+ 
+- affitto .................................................................. 1  
+- proprietà, comproprietà o riscatto ...................... 2  
+- usufrutto ............................................................. 3  
+- altro titolo (uso gratuito ecc.) ............................. 4  
+ 
+1.7 - Qual è la superficie dell’abitazione?  
+Indichi la superficie interna calpestabile, compresi bagni, cucine, vani accessori ed esclusi terrazzi, balconi, 
+giardini e pertinenze (cantine, soffitte, box, posti auto).  
+Escluda anche eventuali spazi condivisi con altre famiglie o utilizzati esclusivamente per lavoro. 
+ 
+-metri quadrati  .................................................. |_|_|_| (range 10-700) 
+ 
+HELP: Gli spazi utilizzati esclusivamente per lavoro sono gli studi professionali, i laboratori o altri ambienti 
+dell’abitazione che non siano destinati in alcun modo a usi familiari.  
+ 
+1.8 - Quante stanze ci sono in casa?  
+Comprenda anche cucine, bagni, mansarde abitate, sale hobby, ampi corridoi e ingressi, taverne ed escluda, 
+pertinenze non abitate, quali cantine, soffitte, box, posti auto ed eventuali stanze condivise con altre famiglie o 
+utilizzate esclusivamente per lavoro. 
+ 
+- numero stanze  ................................................ |_|_| (range 1-99) 
+ 
+HELP:   
+ Gli spazi utilizzati esclusivamente per lavoro sono gli studi professionali, i laboratori o altri ambienti 
+dell’abitazione che non siano destinati in alcun modo a usi familiari.  
+ Una stanza con angolo-cottura va conteggiata come un’unica stanza. 
+ 
+  
+
+PAGE 8
+ 
+ 7 
+1.9 - L'abitazione dispone di queste pertinenze?  
+Dare una risposta per ogni riga.  
+ SÌ NO 
+A - cantina................................................................................................  1 2 
+B - soffitta.................................................................................. 1 2 
+C - box auto o posto auto coperto di pertinenza dell’abitazione.............. 1 2 
+D - balcone o terrazzo.............................................................................. 1 2 
+E - giardino privato.................................................................................. 1 2 
+ 
+INFISSI LEGNO 
+ 
+1.10 - Parliamo ora delle finestre dell'abitazione, che sono importanti per la dispersione del calore. 
+Avete finestre con infissi esterni in legno? Consideri anche le porte-finestra. 
+Consideri il materiale di cui sono fatti gli infissi esterni, indipendentemente dal materiale di cui sono fatti 
+all’interno: non consideri ad esempio le finestre che hanno infissi interni di legno, ma esternamente sono di acciaio ,  
+alluminio o PVC (plastica). 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a 1.13 
+ 
+HELP:  
+ Non consideri le vetrate fisse, cioè che non si aprono.  
+ Consideri anche le finestre, porte-finestra e lucernai apribili che affacciano su cortili interni, scale condominiali o 
+altri spazi all’interno dell’edificio.  
+ La porta-finestra è una porta munita di vetri che permette l'accesso a terrazze, balconi o giardini.  
+ 
+Solo se 1.10=1. 
+1.11 - Può indicare il numero di finestre in legno?  
+Dare una risposta per ogni riga. 
+ 
+A - finestre con un’anta apribile ........................... |_|_| (range 0-99) 
+B - finestre con due o più ante apribili ................. |_|_| (range 0-99) 
+C - porte-finestra con un’anta apribile ................. |_|_| (range 0-99) 
+D - porte-finestra con due o più ante apribili ....... |_|_| (range 0-99) 
+E (calcolato)- TOTALE .................................... |_|_|_| (range 1-999) Visualizzare il totale, non modificabile. 
+ 
+HELP: Le ante sono le vetrate apribili di una finestra, cioè ciascuno dei battenti che si aprono esternamente o 
+internamente. 
+ 
+REGOLA HARD: 1.11E =0: " [Q1.11h1] Attenzione: inserire almeno un numero maggiore di zero al quesito 1.11." 
+ 
+1.12 - Quante di queste hanno doppi/tripli vetri (vetrocamera)? 
+ 
+- numero ............................................................ |_|_|_| (range 0-999) 
+ 
+REGOLA HARD: 1.11E < 1.12 (il numero di finestre con vetri doppi/tripli è superiore al totale di finestre). 
+"[Q1.12h1] Attenzione: il numero di finestre con doppi/tripli vetri (quesito 1.12) è superiore al numero totale di 
+finestre (quesito 1.11). Cortesemente corregga una delle due informazioni.” 
+ 
+INFISSI ALLUMINIO 
+ 
+Per tutti. 
+1.13 - Avete finestre con infissi esterni in acciaio o alluminio? Consideri anche le porte-finestra. 
+Consideri solo il materiale di cui sono fatti gli infissi esterni, indipendentemente dal materiale di cui sono fatti 
+all’interno.  
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a 1.16 
+ 
+HELP:  
+ Non consideri le vetrate fisse, cioè che non si aprono.  
+ Consideri anche le finestre, porte-finestra e lucernai apribili che affacciano su cortili interni, scale condominiali o 
+altri spazi all’interno dell’edificio.  
+ La porta-finestra è una porta munita di vetri che permette l'accesso a terrazze, balconi o giardini.   
+
+PAGE 9
+ 
+ 8 
+Solo se 1.13=1 (ha finestre con infissi in acciaio/alluminio). 
+1.14 - Può indicare il numero di finestre in acciaio/alluminio?  
+Dare una risposta per ogni riga. 
+ 
+A - finestre con un’anta apribile ........................... |_|_| (range 0-99) 
+B - finestre con due o più ante apribili ................. |_|_| (range 0-99) 
+C - porte-finestra con un’anta apribile ................. |_|_| (range 0-99) 
+D - porte-finestra con due o più ante apribili ....... |_|_| (range 0-99) 
+E (calcolato)- TOTALE .................................... |_|_|_| (range 1-999) Visualizzare il totale, non modificabile. 
+ 
+HELP: Le ante sono le vetrate apribili di una finestra, cioè ciascuno dei battenti che si aprono esternamente o 
+internamente. 
+ 
+REGOLA HARD: 1.14E =0:"[Q1.14h1] Attenzione: inserire almeno un numero maggiore di zero al quesito 1.14." 
+ 
+1.15 - Quante di queste hanno doppi/tripli vetri (vetrocamera)?  
+ 
+- numero ............................................................ |_|_|_| (range 0-999) 
+ 
+REGOLA HARD: 1.14E < 1.15 (il numero di finestre con vetri doppi/tripli è superiore al totale di finestre): 
+"[Q1.15h1] Attenzione: il numero di finestre con vetri doppi/tripli (quesito 1.15) è superiore al totale di finestre 
+(quesito 1.14). Cortesemente corregga una delle due informazioni.” 
+ 
+INFISSI PLASTICA 
+ 
+Per tutti. 
+1.16 - Avete finestre con infissi esterni in plastica (PVC)? Consideri anche le porte-finestra. 
+Consideri il materiale di cui sono fatti gli infissi esterni, indipendentemente dal materiale di cui sono fatti 
+all’interno.  
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a 1.19 
+ 
+HELP:  
+ Non consideri le vetrate fisse, cioè che non si aprono.  
+ Consideri anche le finestre, porte-finestra e lucernai apribili che affacciano su cortili interni, scale condominiali o 
+altri spazi all’interno dell’edificio.  
+ La porta-finestra è una porta munita di vetri che permette l'accesso a terrazze, balconi o giardini.  
+ 
+Solo se 1.16=1. 
+1.17 - Può indicare il numero di finestre in plastica (PVC)? 
+Dare una risposta per ogni riga. 
+ 
+A - finestre con un’anta apribile ........................... |_|_| (range 0-99) 
+B - finestre con due o più ante apribili ................. |_|_| (range 0-99) 
+C - porte-finestra con un’anta apribile ................. |_|_| (range 0-99) 
+D - porte-finestra con due o più ante apribili ....... |_|_| (range 0-99) 
+E (calcolato)- TOTALE .................................... |_|_|_| (range 1-999) Visualizzare il totale, non modificabile. 
+ 
+HELP: Le ante sono le parti apribili di una finestra, cioè ciascuno dei battenti che si aprono esternamente o 
+internamente. 
+ 
+REGOLA HARD: 1.17E =0: "[Q1.17h1] Attenzione: inserire almeno un numero maggiore di zero al quesito 1.17." 
+ 
+1.18 - Quante di queste hanno doppi/tripli vetri (vetrocamera)? 
+ 
+- numero ............................................................ |_|_|_| (range 0-999) 
+ 
+REGOLA HARD: 1.17E < 1.18 (il numero di finestre con vetri doppi/tripli è superiore al totale ): “[Q1.18h1] 
+Attenzione: il numero di finestre con vetri doppi/tripli (quesito 1.18) è superiore al totale di finestre (quesito 1.17). 
+Cortesemente corregga una delle due informazioni.”  
+ 
+  
+
+PAGE 10
+ 
+ 9 
+ESPOSIZIONE 
+ 
+Per tutti.  
+1.19 - Quanti lati dell'abitazione sono esposti all'esterno?  
+ 
+- uno ..................................................................... 1  
+- due...................................................................... 2   
+- tre o più .............................................................. 3   
+ 
+HELP: Si considerano esposti all’esterno anche i lati dell’abitazione che affacciano su cortili interni.  
+ 
+Visualizzare un numero di righe pari alla risposta alla 1.19.  
+1.20 - Per ogni  lato esposto all'esterno, può indicare se è esposto prevalentemente a Nord, Est, Sud o Ovest?  
+Può far riferimento al punto 1 dell'allegato alla lettera che l'ISTAT vi ha inviato. 
+Dare una risposta per ogni riga.  
+ Nord Est Sud Ovest Non so 
+A - primo lato esposto (il lato più esteso) .......... 1 2 3 4 5 
+B - secondo lato esposto..................................... 1 2 3 4 5 
+C - terzo lato esposto ......................................... 1 2 3 4 5 
+ 
+HELP: Un lato è esposto a Nord se non è mai illuminato direttamente dalla luce del sole; è esposto a Est se è 
+illuminato dal sole nelle prime ore del mattino fino a mezzogiorno circa; è esposto a Sud se il sole è presente da 
+mezzogiorno fino alle prime ore del pomeriggio ed è esposto a Ovest se il sole arriva nel pomeriggio.  
+ 
+ 
+SEZIONE 2 - IMPIANTI E DOTAZIONI  
+ 
+ 
+RISCALDAMENTO CASA 
+ 
+Per tutti.  
+2.1 - Parliamo ora del riscaldamento della casa. Di quali sistemi di riscaldamento disponete?  
+Indichi tutti gli impianti/apparecchi funzionanti, anche se non li usate mai. 
+Dare una risposta per ogni riga. 
+ SÌ NO 
+A - impianto centralizzato a uso di più abitazioni (incluso teleriscaldamento)........................................ 1 2 
+B - impianto autonomo a uso esclusivo dell'abitazione e che scalda più stanze tramite termosifoni o 
+altra canalizzazione (impianto a caldaia, termostufe o termocamini collegate ai termosifoni,  
+pompe di calore multisplit o collegate ai termosifoni, solare termico ecc.)........ ................................. 1 2 
+C - apparecchi singoli per scaldare singole stanze, fissi o portatili (climatizzatori caldo/freddo a pompa 
+di calore monosplit, camini tradizionali, stufe, termoventilatori ecc.)……………………… …………… 1 2 
+ 
+(2.1A)  HELP: Il teleriscaldamento è un moderno sistema di riscaldamento che, tramite una rete di tubazioni, 
+trasporta il calore prodotto da una grande centrale anche a chilometri di distanza consentendo il riscaldamento di più 
+abitazioni ed edifici fino a coprire interi quartieri o città. 
+ 
+(2.1B)  HELP: L'impianto autonomo è un impianto che riscalda solo l'abitazione e distribuisce il calore in più 
+stanze della casa, ad es. impianti collegati ai termosifoni come caldaie, termostufe, termocamini, pompe di calore  
+multisplit, impianto solare termico ecc. 
+Esempi: 
+ un termocamino collegato ai termosifoni è in genere chiuso davanti da vetri termici e distribuisce il calore in 
+più ambienti tramite un circuito di acqua calda collegato ai caloriferi (camino-caldaia). Può essere collegato 
+all’impianto di riscaldamento già esistente; 
+ un camino ventilato canalizzato è un camino ventilato solitamente chiuso davanti, in cui l'aria riscaldata è 
+convogliata in più ambienti della casa tramite canalizzazioni a muro che terminano con bocchette; 
+ la termostufa è una stufa dotata di un sistema per distribuire il calore negli altri ambienti; può anche produrre 
+acqua calda e distribuirla nei termosifoni; 
+ la termocucina collegata ai termosifoni è una cucina solitamente a legna, che produce contemporaneamente 
+acqua calda per tutti gli usi dell'abitazione e per il riscaldamento della casa tramite i termosifoni;  
+ le pompe di calore caldo/freddo sono apparecchi in grado sia di riscaldare che di raffrescare la casa e possono 
+anche produrre acqua calda sanitaria (per uso domestico e per i termosifoni). In genere sono composti da un'unità 
+
+PAGE 11
+ 
+ 10 
+esterna all'abitazione (motore elettrico con ventola) e da unità interne (split), che distribuiscono l’aria calda o 
+fredda. Le pompe di calore con un solo split sono apparecchi singoli, mentre le pompe di calore che scaldano 
+più ambienti (mutlisplit o collegate ai termosifoni) devono essere considerate impianti autonomi. 
+ 
+(2.1C)  HELP: Sono apparecchi che scaldano solo la stanza in cui si trovano:  
+ Camino tradizionale: è il tradizionale caminetto aperto davanti e che scalda solo il locale in cui  si trova. 
+ Camino ventilato: è un caminetto, che può essere aperto o chiuso davanti, in cui l'aria riscaldata viene soffiata 
+attraverso delle bocchette e riscalda il locale in cui è installato.  
+ Pompe di calore caldo/freddo: sono apparecchi in grado sia di riscaldare che di raffrescare la casa e possono 
+anche produrre acqua calda sanitaria (per uso domestico e per i termosifoni). In genere sono composti da 
+un'unità esterna all'abitazione (motore elettrico con ventola) e da unità interne (split), che distribuiscono l’aria 
+calda o fredda. Le pompe di calore con un solo split sono apparecchi singoli, mentre le pompe di calore che 
+scaldano più ambienti (mutlisplit o collegate ai termosifoni) devono essere considerate come impianti 
+autonomi. 
+ 
+ 
+Se tutti NO alla 2.1 vai a 2.5 (acqua calda). 
+ 
+ 
+Solo se 2.1c=1 
+2.2 - Può indicare con precisione quali apparecchi singoli avete?  
+Non consideri gli apparecchi che non funzionano più.  
+Dare una risposta per ogni riga.  
+APPARECCHI FISSI: SÌ NO 
+Numero 
+(1-99) 
+ 
+ 
+C - climatizzatori caldo/freddo fissi a pompa di calore (esclusi multisplit).......................................... 1 2 |_|_| 
+ 
+D - altri apparecchi elettrici fissi .......................................................................................................... 1 2 |_|_|  
+E - stufe tradizionali o ventilate (a legna, pellet o altre biomasse) ....................................................... 1 2 |_|_|  
+F - camini tradizionali o ventilati che scaldano singole stanze (a legna, pellet o altre biomasse) …....  1 2 |_|_|  
+G - stufe fisse a metano .............................................................................................................. ........... 1 2 |_|_|  
+H - stufe fisse a GPL .............................................................................................................................  1 2 |_|_|  
+ 
+APPARECCHI PORTATILI:  
+    
+ 
+I - climatizzatori caldo/freddo portatili (a pompa di calore) ................................................................  1 2 |_|_|  
+L - apparecchi elettrici portatili (stufette, termoconvettori, termoventilatori ecc)................................ 1 2 |_|_|  
+M - stufe portatili a GPL (bombole)....................................................................................................... 1 2 |_|_|  
+N - stufe portatili a cherosene (petrolio) ............................................................................................... 1 2 |_|_|  
+ 
+(2.2C, 2.2I)  HELP: Le pompe di calore caldo/freddo sono apparecchi in grado sia di riscaldare che di 
+raffrescare la casa e possono anche produrre acqua calda sanitaria (per uso domestico e per i termosifoni). In 
+genere sono composte da un'unità esterna all'abitazione (motore elettrico con ventola) e da unità interne (split), 
+che distribuiscono l’aria calda o fredda. Le pompe di calore con un solo split sono apparecchi singoli, mentre le 
+pompe di calore che scaldano più ambienti (mutlisplit o collegate ai termosifoni) devono essere considerate 
+impianti autonomi. 
+ 
+(2.2E)  HELP: Le biomasse comprendono la legna da ardere, il pellet di legna, la carbonella, la sansa, i gusci di 
+mandorle/nocciole ecc. 
+ 
+(2.2F)  HELP:  
+ Il camino tradizionale è aperto davanti e scalda solo il locale in cui si trova; il camino ventilato è in genere 
+chiuso davanti e scalda solo il locale dove è installato, grazie alla presenza di una ventola o altro dispositivo.  
+ Le biomasse comprendono la legna da ardere, il pellet di legna, la carbonella, la sansa, i gusci di 
+mandorle/nocciole ecc. 
+ 
+(2.2G)  HELP: Attenzione: nel caso di residenza nella regione Sardegna, accertarsi di dispo rre effettivamente di 
+metano di rete.  
+ 
+(2.2H, 2.2M, 2.2N)  HELP: Le stufe a GPL/cherosene con accensione elettrica, devono essere considerate come 
+stufe a GPL/cherosene e non come apparecchi elettrici. 
+ 
+
+PAGE 12
+ 
+ 11 
+REGOLA HARD: 2.1c=1 e tutti No alla 2.2 (ha riscaldamento con apparecchi singoli ma non indica nessun 
+apparecchio): "[Q2.2h1] Attenzione: ha indicato di avere apparecchi singoli per riscaldare alcune stanze della casa 
+(quesito 2.1) ma non ha indicato nessun apparecchio nel quesito 2.2. Cortesemente corregga una delle due risposte ." 
+ 
+ 
+Creare la variabile V2_2CONTA che conta le risposte positive alla 2.1 e 2.2, partendo da zero e non contando la 2.1C.  
+ 
+ 
+Solo se 2.1A=1 (centralizzato). 
+2.3 - L'impianto centralizzato funziona tramite teleriscaldamento?  
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2  
+- non so ................................................................. 3  
+ 
+HELP: Il teleriscaldamento è un moderno sistema di riscaldamento che, tramite una rete di tubazioni, trasporta il 
+calore prodotto da una grande centrale anche a chilometri di distanza consentendo il riscaldamento di più abitazioni 
+ed edifici fino a coprire interi quartieri o città. 
+ 
+Solo se 2.1A=1 (centralizzato). 
+2.4a - (Se 2.3=1 (teleriscaldamento)). 
+Come è alimentato l'impianto centralizzato di teleriscaldamento? Indichi il combustibile o fonte di alimentazione 
+che viene usata per produrre il calore.  
+Consulti il punto 2 dell’allegato alla lettera dell'ISTAT. 
+Nel caso di più fonti di alimentazione, indichi quella prevalente. 
+ 
+(Solo se 2.3=2 o 3 (non teleriscaldamento)). 
+Come è alimentato l'impianto centralizzato?  
+Consulti il punto 2 dell’allegato alla lettera dell'ISTAT.  
+Nel caso di più fonti di alimentazione, indichi quella prevalente. 
+ 
+- metano di rete, gas di rete (escluso GPL) .......................................................... 1  
+- gasolio ................................................................................................................ 2  
+- GPL (bombole, cisterne o di rete) ...................................................................... 3  
+- energia elettrica (inclusa pompa di calore) ........................................................ 4 
+- legna, pellet o altre biomasse (inclusi rifiuti) ..................................................... 5  
+- energia solare…………………………………………....... ............................... 6  
+- non so ................................................................................................................. 7  
+ 
+HELP: Se ha dubbi può chiedere all'amministratore di condominio. 
+ 
+(risp.1) HELP: Attenzione: nel caso di residenza nella regione Sardegna, accertarsi di disporre effettivamente di 
+metano di rete.  
+ 
+(risp. 5)  HELP: Le biomasse comprendono la legna da ardere, il pellet di legna, la carbonella, la sansa, i gusci di 
+mandorle/nocciole ecc. 
+ 
+REGOLA SOFT: regione=200 e 2.4a=1 (presenza metano di rete in Sardegna): "[Q2.4s1] Attenzione: verificare 
+la risposta al quesito 2.4a, che si tratti effettivamente di Metano distribuito tramite rete (gasdotto) in Sardegna."  
+ 
+Snodo. 
+Se 2.1b=1 (autonomo) vai a 2.4b (fonte autonomo). Se 2.1b=2 vai a 2.5 (acqua calda). 
+ 
+ 
+Solo se 2.1b=1 (autonomo). 
+2.4b - Come è alimentato l'impianto autonomo?  
+Nel caso di più fonti di alimentazione, indichi quella prevalente. 
+ 
+- metano di rete, gas di rete (escluso GPL) .......................................................... 1  
+- gasolio ................................................................................................................ 2  
+- GPL (bombole, cisterne o di rete) ...................................................................... 3  
+- energia elettrica (inclusa pompa di calore) ........................................................ 4 
+- legna, pellet o altre biomasse (inclusi rifiuti) ..................................................... 5  
+- energia solare…………………………………………....... ............................... 6  
+- non so ................................................................................................................. 7  
+ 
+
+PAGE 13
+ 
+ 12 
+(risp.1) HELP: Attenzione: nel caso di residenza nella regione Sardegna, accertarsi di disporre effettivamente di 
+metano di rete.  
+ 
+(risp. 5)  HELP: Le biomasse comprendono la legna da ardere, il pellet di legna, la carbonella, la sansa, i gusci di 
+mandorle/nocciole ecc. 
+ 
+REGOLA SOFT: regione=200 e 2.4b=1 (presenza metano di rete in Sardegna): "[Q2.4s2] Attenzione: verificare 
+la risposta al quesito 2.4b, che si tratti effettivamente di Metano distribuito tramite rete (gasdotto) in Sardegna."  
+ 
+ACQUA CALDA 
+ 
+Per tutti. 
+2.5 - L'abitazione dispone di sistemi di riscaldamento dell’acqua? 
+Consideri anche gli scaldabagno e altri apparecchi singoli di riscaldamento dell’acqua. 
+ 
+- sì .................................................................... 1  
+- no .................................................................. 2   vai al calcolo di V2_7CONTA e poi a 2.11. 
+ 
+Solo se 2.5=1.  
+2.6 - Quali sistemi di riscaldamento dell’acqua avete?  
+Indichi tutti gli impianti/apparecchi funzionanti, anche se non li usate mai. 
+Dare una risposta per ogni riga.  
+ SÌ NO 
+A - impianto centralizzato per più abitazioni (incluso teleriscaldamento) .......................................... 1 2 
+B - impianto autonomo che fornisce acqua calda in tutta la casa (caldaia, impianto solare,  
+pompa di calore, boiler...). Esclusi apparecchi che forniscono solo la cucina o singoli bagni........ 1 2 
+C - apparecchi singoli (scaldabagni ecc.) che forniscono solo la cucina o solo singoli bagni............ 1 2 
+ 
+(2.6A)  HELP: Il teleriscaldamento è un moderno sistema di riscaldamento che, tramite una rete di tubazioni, 
+trasporta il calore prodotto da una grande centrale anche a chilometri di distanza consentendo il riscaldament o di più 
+abitazioni ed edifici fino a coprire interi quartieri o città. 
+ 
+REGOLA HARD: 2.5=1 e (2.6a=2 e 2.6b=2 e 2.6c=2) (ha l'acqua calda ma non indica nessun impianto): 
+"[Q2.6h1] Attenzione: nel quesito 2.5 ha detto di avere l'acqua calda ma non ha indicato nessun impianto al quesito 
+2.6. Cortesemente modifichi una delle due risposte." 
+ 
+Solo se 2.6c=1. 
+2.7 - Più precisamente, che tipo di scaldabagni singoli avete? 
+Dare una risposta per ogni riga. 
+ SÌ NO 
+C - a pompa di calore........................................................................................................................... 1 2 
+D - altri scaldabagni/scaldacqua elettrici............................................................................................. 1 2 
+E - a metano/gas di rete......................................................................................................... .............. 1 2 
+F - a gasolio........................................................................................................................... .............. 1 2 
+G - a GPL........................................................................................................ ..................................... 1 2 
+H - a legna, pellet o altre biomasse………………............................................................................. 1 2 
+ 
+(2.7H)  HELP: Le biomasse comprendono la legna da ardere, il pellet di legna, la carbonella, la sansa, i gusci di 
+mandorle/nocciole ecc. 
+ 
+(2.7E)  HELP: Attenzione: nel caso di residenza nella regione Sardegna, accertarsi di disporre effettivamente di 
+metano di rete.  
+ 
+REGOLA HARD: 2.6c=1 e (2.7c=2 e 2.7d=2 e 2.7e=2 e 2.7f=2 e 2.7g=2 e 2.7h=2  )(ha impianti singoli ma non li 
+indica): "[Q2.7h1] Attenzione: ha indicato di avere apparecchi singoli per l'acqua calda (quesito 2.6) ma non ne ha 
+indicato nessuno (quesito 2.7). Cortesemente corregga una delle due risposte."  
+  
+Per tutti: creare la variabile V2_7CONTA che conta le risposte positive a 2.6 e 2.7, partendo da zero e non contando 
+la 2.6C. 
+ 
+Snodo. 
+Se 2.1b=1 e 2.6b=1 (autonomo casa & autonomo acqua) vai a 2.8(coincidente).  
+Gli altri con V2_7CONTA>0 vanno a calcolo di Casa_acqua. 
+Se V2_7CONTA=0 vai a 2.11 (aria condizionata).  
+
+PAGE 14
+ 
+ 13 
+Solo se 2.1b=1 e 2.6b=1 (autonomo casa & autonomo acqua)  
+2.8 - L'impianto autonomo per il riscaldamento della casa fornisce anche l'acqua calda?  
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   
+ 
+Se  V2_7CONTA>0 calcolare Casa_acqua: 
+ Casa_acqua=1 se 2.1a=1 e 2.6a=1 (centralizzato casa & centralizzato acqua); 
+ Casa_acqua=1 se 2.1b=1 e 2.6b=1 e 2.8=1 (autonomo casa & autonomo acqua e coincidenti); 
+ Casa_acqua=2 se 2.1b=1 e 2.6b=1 e 2.8=2 (autonomo casa & autonomo acqua e NON coincidenti); 
+ Casa_acqua=2 tutti gli altri. 
+ 
+Snodo. 
+Se 2.6a=1 e Casa_acqua =2 (centralizzato acqua e il riscaldamento casa non è centralizzato, quindi non coincidono ) 
+vai a 2.9 (teleriscald. acqua). 
+Se non vale la condizione sopra ma Se 2.6b=1 e Casa_acqua=2 (autonomo acqua e non coincide con casa) vai a 2.10b 
+(alimentaz. autonono). 
+Gli altri con V2_7CONTA>0 vanno a 2.11(aria condizionata). 
+ 
+Solo se 2.6a=1 e Casa_acqua=2 (centralizzato acqua e non coincide con casa). 
+2.9 - L'impianto centralizzato per l'acqua calda funziona tramite teleriscaldamento?  
+ 
+- sì ......................................................................................................................... 1  
+- no ....................................................................................................................... 2  
+- non so ................................................................................................................. 3  
+ 
+HELP:  Il teleriscaldamento è un moderno sistema di riscaldamento che, tramite una rete di tubazioni, trasporta il 
+calore prodotto da una grande centrale anche a chilometri di distanza consentendo il riscaldamento di più abitazioni 
+ed edifici fino a coprire interi quartieri o città. 
+ 
+2.10a - Come è alimentato l'impianto centralizzato per l'acqua calda? Risponda anche se non lo utilizzate mai.  
+Nel caso di più fonti di alimentazione, indichi quella prevalente. 
+ 
+- metano di rete, gas di rete (escluso GPL) .......................................................... 1  
+- gasolio ................................................................................................................ 2  
+- GPL (bombole, cisterne o di rete) ...................................................................... 3  
+- energia elettrica (inclusa pompa di calore) ........................................................ 4  
+- legna, pellet o altre biomasse (inclusi rifiuti) ..................................................... 5  
+- energia solare………………………………………….......  .............................. 6  
+- non so ................................................................................................................. 7  
+ 
+(risp.1)  HELP: Attenzione: nel caso di residenza nella regione Sardegna, accertarsi di disporre effettivamente di 
+metano di rete.  
+ 
+(risp. 5)  HELP:  Le biomasse comprendono la legna da ardere, il pellet di legna, la carbonella, la sansa, i gusci di 
+mandorle/nocciole ecc. 
+ 
+Solo se 2.6b=1 e Casa_acqua=2 (autonomo e non coincide con riscaldamento casa). 
+2.10b - Come è alimentato l'impianto autonomo per l'acqua calda? Risponda anche se non lo utilizzate mai.  
+Nel caso di più fonti di alimentazione, indichi quella prevalente. 
+ 
+- metano di rete, gas di rete (escluso GPL) .......................................................... 1  
+- gasolio ................................................................................................................ 2  
+- GPL (bombole, cisterne o di rete) ...................................................................... 3  
+- energia elettrica (inclusa pompa di calore) ........................................................ 4  
+- legna, pellet o altre biomasse (inclusi rifiuti) ..................................................... 5  
+- energia solare………………………………………….......  .............................. 6  
+- non so ................................................................................................................. 7  
+ 
+(risp.1)  HELP: Attenzione: nel caso di residenza nella regione Sardegna, accertarsi di disporre effettivamente di 
+metano di rete.  
+ 
+(risp. 5)  HELP:  Le biomasse comprendono la legna da ardere, il pellet di legna, la carbonella, la sansa, i gusci di 
+mandorle/nocciole ecc. 
+ 
+
+PAGE 15
+ 
+ 14 
+ARIA CONDIZIONATA 
+ 
+Per tutti. 
+2.11 - (Se 2.2c=2 e 2.2i=2 (non ha climatizzatori caldo/freddo fissi né portatili)). 
+Avete impianti/apparecchi per l'aria condizionata? Non consideri i ventilatori. 
+Indichi tutti gli impianti/apparecchi funzionanti, anche se non li usate mai. 
+ 
+(Se 2.2c=1 o 2.2i=1 (ha climatizzatori caldo/freddo fissi o portatili)). Non visualizzare le corrispondenti risposte 
+2.11d (fisso) o 2.11e (portatile) e imputarle a Sì) - Oltre ai climatizzatori caldo/freddo a pompa di calore che ha 
+indicato prima, avete altri impianti/apparecchi per l'aria condizionata? Non consideri i ventilatori. 
+Indichi tutti gli impianti/apparecchi funzionanti, anche se non li usate mai. 
+ 
+Dare una risposta per ogni riga. 
+ SÌ NO 
+A - impianto che raffredda l’intera abitazione (comprese pompe di calore multisplit)…………...  1 2 
+B - condizionatori singoli (solo freddo) fissi per una singola stanza............................................... 1 2 
+C - condizionatori singoli (solo freddo) portatili ............................................................................. 1 2 
+D - climatizzatori singoli caldo/freddo fissi (a pompa di calore) per una singola stanza .............. 1 2 
+E - climatizzatori singoli caldo/freddo portatili (a pompa di calore).................... .......................... 1 2 
+   
+(2.11A, 2.11D) HELP: Le pompe di calore caldo/freddo sono apparecchi in grado sia di riscaldare che di raffrescare 
+un ambiente: in genere sono composti da un'unità esterna all'abitazione (motore elettrico con ventola) e da unità interne 
+(split). Le pompe di calore  che distribuiscono l'aria in più ambienti ( mutlisplit) sono considerate "Impianto di 
+raffreddamento per l’intera abitazione", mentre le pompe di calore con un solo split sono considerate "Climatizzatori 
+singoli caldo/freddo (a pompa di calore) fissi per una singola stanza". 
+ 
+REGOLA HARD : 2. 11d=1 e 2.1c=2 (ha climatizzatori caldo/freddo fissi, ma aveva detto di NON possederne) : 
+"[Q2.11h1] Attenzione: se conferma di avere dei climatizzatori caldo/freddo (quesito 2.11) cortesemente indichi la 
+loro presenza anche nel quesito 2.1." 
+ 
+REGOLA HARD: 2.11d=1 e  2.2c=2 (ha climatizzatori caldo/freddo fissi, ma aveva detto di NON possederne ): 
+"[Q2.11h2] Attenzione: se conferma di avere dei climatizzatori caldo/freddo (quesito 2.11) cortesemente indichi la 
+loro presenza anche nel quesito 2.2." 
+ 
+REGOLA HARD: 2.11e=1 e 2.1c=2 (ha climatizzatori caldo/freddo portatili, ma aveva detto di NON possederne ): 
+"[Q2.11h3] Attenzione: se conferma di avere dei climatizzatori caldo/freddo (quesito 2.11) cortesemente indichi la 
+loro presenza anche nel quesito 2.1." 
+ 
+REGOLA HARD: 2.11e=1 e   2.2i=2 (ha climatizzatori caldo/freddo portatili, ma aveva detto di NON possederne): 
+"[Q2.11h4] Attenzione: se conferma di avere dei climatizzatori caldo/freddo (quesito 2.11) cortesemente indichi la 
+loro presenza anche nel quesito 2.2." 
+ 
+Per tutti: creare V2_11CONTA che conta le risposte positive alla 2.11 (anche quelle imputate), partendo da zero. 
+ 
+Snodo. 
+Se (2.4a=4 o 2.4b=4) & 2.11a=1 (impianto elettrico per riscaldamento casa e impianto per condizionamento ) vai a 
+2.12(coincide). 
+Gli altri con V2_11CONTA>0 vanno a calcolo di Casa_aria. 
+Gli altri con V2_11CONTA=0 vanno a 2.13. 
+ 
+Solo se (2.4a=4 o 2.4b=4) & 2.11a=1 (impianto elettrico per riscaldamento casa e impianto per condizionamento).  
+2.12 - (Se 2.4a=4 e 2.11a=1)- Ha detto di avere un impianto centralizzato alimentato a energia elettrica per il 
+riscaldamento dell’abitazione. E' lo stesso impianto che fornisce l'aria condizionata?  
+ 
+(Se 2.4b=4 e 2.11a=1)- Ha detto di avere un impianto autonomo alimentato a energia elettrica per il 
+riscaldamento dell’abitazione. E' lo stesso impianto che fornisce l'aria condizionata?  
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   
+
+PAGE 16
+ 
+ 15 
+Se V2_11CONTA>0 calcolare Casa_aria: 
+ Casa_aria=1 se 2.12=1 (centralizzato/autonomo per casa e aria coincidenti); 
+ Casa_aria=2 se 2.12=2 (centralizzato/autonomo per casa e aria non coincidenti). 
+ Casa_aria=1 se 2.2c=1 e 2.11d=1 (climatizzatori singoli caldo/freddo fissi per casa e per l'aria); 
+ Casa_aria=1 se 2.2i=1 e 2.11e=1 (climatizzatori caldo/freddo portatili per casa e per l'aria); 
+ Casa_aria=2 tutti gli altri che hanno V2_11CONTA>0. 
+ 
+APPARECCHI A BIOMASSE 
+ 
+Imputazioni alla 2.13 senza visualizzare le corrispondenti righe: 
+-se 2.2e=1 (stufa tradizionale) imputare 2.13c=1; 
+-se 2.2f=1 (camino tradizionale) imputare 2.13a=1; 
+-se 2.7h=1 (scaldabagno a biomasse) imputare 2.13e=1; 
+ 
+Per tutti. 
+2.13 - (Se 2.2e=1 o 2.2f=1 o 2.7h=1 (ha apparecchi singoli a biomasse per scaldare casa/acqua)) - In aggiunta ai 
+caminetti, stufe o scaldabagni già indicati, avete altri apparecchi  a legna, pellet o altre biomasse per scaldare 
+la casa, per l’acqua calda o per cucinare?  
+Indichi tutti gli apparecchi funzionanti, anche se non li usate mai. 
+ 
+(Per tutti gli altri) - Avete apparecchi che funzionano a legna, pellet o altre biomasse, per riscaldare la casa, 
+l’acqua o per cucinare?  
+Indichi tutti gli apparecchi funzionanti, anche se non li usate mai. 
+ 
+Dare una risposta per ogni riga. 
+ SÌ NO 
+A - camino tradizionale o ventilato, che scalda una sola stanza....................................................... ............ 1 2 
+B - termocamino per riscaldare la casa (con termosifoni o aria canalizzata) o  
+per l'acqua calda.................................................................................................................................... .. 1 2 
+C - stufa tradizionale o ventilata, che scalda una sola stanza....................................................................... 1 2 
+D - termostufa o termocucina per riscaldare la casa (con termosifoni o aria canalizzata) o  
+per l'acqua calda……………………………………………………………………………………….. 1 2 
+E - scaldabagno/scaldacqua singolo........................................................................................................ ...... 1 2 
+F - impianto autonomo a caldaia per riscaldare la casa o per l'acqua calda (esclusi impianti  
+centralizzati condominiali o teleriscaldamento) .................................................................................... 1 2 
+G - apparecchi per cucinare (forni a legna, cucine economiche, barbecue ecc.).......................................... 1 2 
+ 
+HELP: Le biomasse comprendono la legna da ardere, il pellet di legna, la carbonella, la sansa, i gusci di 
+mandorle/nocciole ecc. 
+ 
+(2.13A)  HELP: Il camino tradizionale è aperto davanti e scalda solo il locale dove è collocato. Un camino 
+ventilato è in genere chiuso davanti e scalda solo il locale dove è installato, grazie alla presenza di una ventola o 
+altro dispositivo.  
+ 
+(2.13B)  HELP: Un termocamino è in genere chiuso davanti da vetri termici e distribuisce il calore in più ambienti 
+tramite un circuito collegato ai caloriferi. Può essere anche utilizzato per produrre acqua calda e per cucinare e può 
+essere anche collegato all’impianto di riscaldamento già esistente. Un termocamino ventilato canalizzato è un 
+camino ventilato solitamente chiuso davanti, in cui l'aria riscaldata è convogliata in più ambienti della casa tramite 
+canalizzazioni a muro che terminano con bocchette. 
+ 
+(2.13D)  HELP: La termostufa è dotata di un sistema per distribuire il calore negli altri locali; può anche produrre 
+acqua calda. La termostufa ventilata canalizzata convoglia l'aria calda in più ambienti della casa tramite 
+canalizzazioni. La termocucina è una cucina solitamente a legna, che produce contemporaneamente acqua calda per 
+tutti gli usi dell'abitazione e per i termosifoni. 
+ 
+REGOLA HARD: 2.13a=1 e 2.1c= 2(ha camini tradizionali, ma aveva detto di non averli): "[Q2.13h1] Attenzione: 
+se conferma di avere un caminetto tradizionale (quesito 2.13) cortesemente indichi la sua presenza anche nel quesito 
+2.1." 
+ 
+REGOLA HARD: 2.13a=1 e  2.2f=2 (ha camini tradizionali, ma aveva detto di non averli): "[Q2.13h2] Attenzione: 
+se conferma di avere un caminetto tradizionale (quesito 2.13) cortesemente indichi la sua presenza anche nel quesito 
+2.2." 
+ 
+
+PAGE 17
+ 
+ 16 
+REGOLA HARD: 2.13c =1 e 2.1c= 2 (ha stufe tradizionali, ma aveva detto di non averli): " [Q2.13h3] Attenzione: 
+se conferma di avere una stufa tradizionale (quesito 2.13) cortesemente indichi la sua presenza anche nel quesito 2.1." 
+ 
+REGOLA HARD: 2.13c =1 e  2.2e=2 (ha stufe tradizionali, ma aveva detto di non averli) : "[Q2.13h4] Attenzione: 
+se conferma di avere una stufa tradizionale (quesito 2.13) cortesemente indichi la sua presenza anche nel quesito 2.2." 
+ 
+REGOLA HARD: 2.13e=1 e (2.5=2 o 2.6c=2) (ha scaldabagni a biomasse, ma aveva detto di non averli): "[Q2.13h5] 
+Attenzione: se conferma di avere uno scaldabagno (quesito 2.13) cortesemente indichi la sua presenza anche nel 
+quesito 2.6." 
+ 
+REGOLA HARD : 2.13e=1 e 2.7h=2 (ha scaldabagni a biomasse , ma aveva detto di non averli):  "[Q2.13h6] 
+Attenzione: se conferma di avere uno scaldabagno (quesito  2.13) cortesemente indichi la sua presenza anche nel 
+quesito 2.7." 
+ 
+REGOLA HARD: (2.13b=1 o 2.13d=1 o 2.13f=1 ) e 2.1b=2 (ha camini, stufe o caldaie collegati ai termosifoni ma 
+aveva detto di non avere un impianto autonomo) : "[Q2.13h7] Attenzione: se conferma di avere un apparecchio 
+collegato ai termosifoni (termocamino, termostufa o caldaia) al quesito 2.13, cortesemente indichi la sua presenza 
+anche nel quesito 2.1, indicando "impianto autonomo"." 
+ 
+ALTRI IMPIANTI 
+ 
+Per tutti.  
+Imputare 2.14a=1 (metano) senza visualizzarla se: 
+ -2.2g=1 (stufe fisse a metano riscaldam casa) 
+ -2.4a=1 (centralizzato riscaldam. casa a metano) 
+ -2.4b=1 (autonomo riscaldam. casa a metano) 
+ -2.7e=1 (scaldabagni/scaldacqua a metano) 
+ -2.10a=1 (centralizzato acqua calda a metano)  
+ -2.10b=1 (autonomo acqua calda a metano). 
+Imputare 2.14a=2 se abita in Sardegna (Regione=200), senza visualizzare la riga del metano. 
+2.14 - L'abitazione dispone di:  
+Consideri anche eventuali impianti condominiali. 
+Dare una risposta per ogni riga 
+ SÌ NO 
+A - metano di rete, gas di rete (escluso GPL di rete) ........................................................................................... 1 2 
+B - GPL di rete, aria propanata di rete ................................................................................................................. 1 2 
+C - impianto solare termico (escluso impianto ibrido) ........................................................................................ 1 2 
+D - impianto fotovoltaico .................... ................................................................................................................ 1 2 
+E - impianto solare ibrido (termico-fotovoltaico) ................................................................................................ 1 2 
+F - altro impianto a energia rinnovabile per la produzione di energia elettrica (impianto eolico ecc.)  ............... 1 2 
+   
+(2.14B)  HELP:  Il GPL di rete è in genere diffuso nelle zone non ancora raggiunte dalla rete del metano. 
+ 
+(2.14C)  HELP:  L’impianto solare termico è un dispositivo per la produzione di acqua calda o calore, composto 
+da pannelli che assorbono l'energia del sole e la trasmettono a un accumulatore che la immagazzina per utilizzarla al 
+momento del bisogno.  
+ 
+(2.14D)  HELP:  L’impianto fotovoltaico è un dispositivo per trasformare l'energia solare in energia elettrica, 
+senza l'uso di alcun combustibile, composto da uno o più pannelli che contengono sostanze, che generano elettricità 
+se esposte alla radiazione luminosa. 
+ 
+(2.14E)  HELP: L'impianto solare ibrido è composto da pannelli che assorbono l'energia del sole e produce 
+contemporaneamente energia elettrica ed energia termica (che può essere usata per produrre acqua calda). 
+ 
+(2.14F)  HELP:  Gli impianti eolici generano l’energia elettrica sfruttando l’energia del vento. 
+ 
+REGOLA HARD: (2.14c=1 o 2.14e=1) e (2.1a=2 e 2.1b=2 e 2.5=1 e 2.6a=2 e 2.6b=2) (impianto solare termico o 
+ibrido e NON ha centralizzato/autonomo riscaldamento casa/ acqua). "[Q2.14h1] Attenzione: ha indicato di avere 
+un impianto solare termico o ibrido nel quesito 2.14. Se conferma, indichi la sua presenza nel quesito 2.1 
+(riscaldamento) o nel quesito 2.6 (acqua calda)." 
+REGOLA HARD: 2.14a=1 e 2.14b=1 (presenza metano di rete e GPL di rete): "[Q2.14h2] Attenzione: il metano di 
+rete non è compatibile con la presenza di GPL di rete. Cortesemente corregga la risposta al quesito 2.14." 
+ 
+  
+
+PAGE 18
+ 
+ 17 
+Solo se 2.14f=1. 
+2.15 - Specifichi il tipo di impianto a energia rinnovabile: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ (200 bytes) 
+ 
+Per tutti. 
+2.16 - Prima di proseguire, confermi i dati inseriti finora (non potranno più essere modificati) ........................  1 
+ 
+La sezione 2 è bloccata e non sarà più possibile modificarla. 
+ 
+Solo se 2.16=1. Grazie, proseguiamo con la compilazione del questionario. 
+ 
+ 
+SEZIONE 3 - RISCALDAMENTO DELL’ABITAZIONE 
+ 
+ 
+Snodo. 
+Se V2_2CONTA=0 (non ha riscaldamento della casa) vai a Sezione 4 (acqua calda).  
+Se V2_2CONTA=1 (unico) vai a calcolo della 3.0 (unico/prevalente). 
+Se V2_2CONTA>1 (multipli) vai a 3.1 (prevalente). 
+ 
+SCELTA DEL PREVALENTE 
+ 
+Solo se V2_2CONTA>1. Visualizzare solo le risposte positive della 2.1 (esclusa 2.1c) e 2.2. 
+3.1 - Parliamo in dettaglio del riscaldamento della casa. Tra i sistemi di riscaldamento che ha indicato, q uale 
+utilizzate prevalentemente?  
+Se non usate nessuno di questi sistemi, indichi quello che usereste in caso di bisogno.   
+ 
+- impianto centralizzato a uso di più abitazioni (incluso teleriscaldamento) ..................................... 1 
+- impianto autonomo a uso esclusivo dell'abitazione (impianto a caldaia, termostufe o  
+termocamini collegate a termosifoni, pompe di calore multisplit o collegate ai termosifoni,  
+solare termico ecc) ........................................................................................................................... 2 
+- climatizzatori caldo/freddo fissi a pompa di calore (esclusi multisplit) .......................................... 3 
+- altri apparecchi elettrici fissi ............................................................................................................ 4 
+- stufe tradizionali o ventilate (a legna, pellet o altre biomasse) ........................................................ 5 
+- camini tradizionali o ventilati che scaldano singole stanze (a legna, pellet o altre biomasse) ......... 6 
+- stufe fisse a metano ........................................................................................................................... 7 
+- stufe fisse a GPL ............................................................................................................................... 8 
+- climatizzatori caldo/freddo portatili (a pompa di calore)  ............................................................... 9 
+- apparecchi elettrici portatili (stufette, termoconvettori, termoventilatori ecc.) ................................ 10 
+- stufe portatili a GPL (bombole) ....................................................................................................... 11 
+- stufe portatili a cherosene (petrolio)  ............................................................................................... 12 
+ 
+Creare la variabile 3.0 (impianto unico/prevalente): 
+ 3.0=1: se (v2_2conta=1 e 2.1a=1) o (v2_2conta>1 e 3.1=1)  
+ 3.0=2: se (v2_2conta=1 e 2.1b=1) o (v2_2conta>1 e 3.1=2) 
+ 3.0=3: se (v2_2conta=1 e 2.2c=1) o (v2_2conta>1 e 3.1=3)  
+ 3.0=4: se (v2_2conta=1 e 2.2d=1) o (v2_2conta>1 e 3.1=4)   
+ 3.0=5: se (v2_2conta=1 e 2.2e=1) o (v2_2conta>1 e 3.1=5)   
+ 3.0=6: se (v2_2conta=1 e 2.2f=1) o (v2_2conta>1 e 3.1=6)  
+ 3.0=7: se (v2_2conta=1 e 2.2g=1) o (v2_2conta>1 e 3.1=7)  
+ 3.0=8: se (v2_2conta=1 e 2.2h=1) o (v2_2conta>1 e 3.1=8) 
+ 3.0=9: se (v2_2conta=1 e 2.2i=1) o (v2_2conta>1 e 3.1=9)   
+ 3.0=10: se (v2_2conta=1 e 2.2l=1) o (v2_2conta>1 e 3.1=10)  
+ 3.0=11: se (v2_2conta=1 e 2.2m=1) o (v2_2conta>1 e 3.1=11)  
+ 3.0=12: se (v2_2conta=1 e 2.2n=1) o (v2_2conta>1 e 3.1=12).  
+ 
+Snodo. 
+Se 3.0=1,2 e (2.4a=4 o 2.4b=4) (centralizzato/autonomo ad elettricità) vai a 3.2(pompa di calore) 
+Se 3.0=1,2 e (2.4a=1-3, 5-7 o 2.4b=1-3, 5-7) (centralizzato/autonomo altra fonte) vai a 3.4(diffusione) 
+Se 3.0=3-12 vai a 3.5 (anno) 
+ 
+  
+
+PAGE 19
+ 
+ 18 
+SISTEMA UNICO O PREVALENTE 
+ 
+Solo se 3.0=1,2 e (2.4a=4 o 2.4b=4)  (centralizzato/autonomo a energia elettrica).  
+3.2 -  (Se V2_2CONTA=1 e 3.0=1 e 2.4a=4) - Torniamo a parlare nel dettaglio del riscaldamento della casa. 
+L'impianto centralizzato, alimentato a energia elettrica, funziona con una pompa di calore?  
+ 
+(Se V2_2CONTA=1 3.0=2 e 2.4b=4) - Torniamo a parlare nel dettaglio del riscaldamento della casa. 
+L'impianto autonomo, alimentato a energia elettrica, funziona con una pompa di calore?  
+  
+(Se V2_2CONTA>1 e 3.0=1 e 2.4a=4) - L'impianto centralizzato, alimentato a energia elettrica, funziona 
+con una pompa di calore? 
+ 
+(Se V2_2CONTA>1 e 3.0=2 e 2.4b=4) - L'impianto autonomo, alimentato a energia elettrica, funziona con 
+una pompa di calore? 
+ 
+- sì ......................................................................... 1   
+- no ....................................................................... 2  vai a Snodo 
+- non so ................................................................. 3   vai a Snodo 
+ 
+HELP:  Le pompe di calore sono apparecchi in grado sia di riscaldare che di raffrescare la casa e possono anche 
+produrre acqua calda sanitaria (per uso domestico e per i termosifoni). In genere sono composti da un'unit à 
+esterna all'abitazione (motore elettrico con ventola) e da unità interne (split), che distribuiscono l’aria calda o 
+fredda. 
+ 
+Solo se 3.2=1.  
+3.3 - Si tratta di una pompa di calore: 
+ 
+- ad aria (incluse pompe aria/acqua)  .......................................... 1 
+- ad acqua .................................................................................... 2 
+- a terreno (geotermica) ............................................................... 3  
+- non so ........................................................................................ 4 
+ 
+HELP:  Le pompe di calore trasferiscono energia termica da una sorgente a temperatura più bassa (aria, acqua, 
+suolo) ad un ambiente a temperatura superiore (l'abitazione). Una pompa di calore ad aria estrae calore dall’aria 
+esterna all’abitazione; una pompa ad acqua estrae il calore dall’acqua da un fiume, un lago o da sotto terra; una 
+pompa di calore a terreno estrae il calore dal terreno attraverso apposite tubazioni. 
+ 
+Snodo. 
+Se 3.0=1,2 (centralizzato/autonomo) vai a 3.4(distribuzione). 
+Se 3.0=3-12 (altro impianto/apparecchio) vai a 3.5(anno). 
+ 
+Solo se 3.0=1,2 (centralizzato/autonomo).  
+3.4 - (Se V2_2CONTA=1 e 3.0=1) - Torniamo a parlare nel dettaglio del riscaldamento della casa. L'impianto 
+centralizzato come diffonde il calore nella casa? 
+ 
+(Se V2_2CONTA=1 e 3.0=2) - Torniamo a parlare nel dettaglio del riscaldamento della casa. L'impianto 
+autonomo come diffonde il calore nella casa? 
+ 
+(Se V2_2CONTA>1 e 3.0=1,2) - Questo impianto come diffonde il calore nella casa?  
+ 
+Sono possibili più risposte. 
+ 
+A - con termosifoni (radiatori ad acqua)  ...........................................................................................  1 
+B - con convettori ad aria (getti di aria calda forzati) ......................................................................... 2 
+C - con un sistema a pavimento o per pareti, battiscopa ecc. (impianti radianti, a radiazione).......... 3 
+ 
+Solo se V2_2CONTA>0 (hanno riscaldamento casa). 
+3.5 -  (Se V2_2CONTA>0 e 3.0=1,2)- A quale anno risale l'impianto?  
+(Se V2_2CONTA>1 e 3.0=3-12)- A quale anno risale questo apparecchio?  
+(Se V2_2CONTA=1 e 3.0=3)- Torniamo a parlare nel dettaglio del riscaldamento dell'abitazione. A quale anno 
+risale  il climatizzatore fisso a pompa di calore?  
+(Se V2_2CONTA=1 e 3.0=4)- Torniamo a parlare nel dettaglio del riscaldamento dell'abitazione.  A quale anno 
+risale l'apparecchio elettrico fisso?  
+(Se V2_2CONTA=1 e 3.0=5)- Torniamo a parlare nel dettaglio del riscaldamento dell'abitazione. A quale anno 
+risale la stufa a legna/biomasse?  
+
+PAGE 20
+ 
+ 19 
+(Se V2_2CONTA=1 e 3.0=6)- Torniamo a parlare nel dettaglio del riscaldamento dell'abitazione.  A quale anno 
+risale il caminetto?  
+(Se V2_2CONTA=1 e 3.0=7)- Torniamo a parlare nel dettaglio del riscaldamento dell'abitazione. A quale anno 
+risale la stufa fissa a metano?  
+(Se V2_2CONTA=1 e 3.0=8)- Torniamo a parlare nel dettaglio del riscaldamento dell'abitazione.  A quale anno 
+risale la stufa fissa a GPL?  
+(Se V2_2CONTA=1 e 3.0=9)- Torniamo a parlare nel dettaglio del riscaldamento dell'abitazione.  A quale anno 
+risale  il climatizzatore portatile a pompa di calore?  
+(Se V2_2CONTA=1 e 3.0=10)- Torniamo a parlare nel dettaglio del riscaldamento dell'abitazione. A quale 
+anno risalgono gli apparecchi elettrici portatili?  
+(Se V2_2CONTA=1 e 3.0=11)- Torniamo a parlare nel dettaglio del riscaldamento dell'abitazione. A quale 
+anno risale la stufa portatile a GPL?  
+(Se V2_2CONTA=1 e 3.0=12)- Torniamo a parlare nel dettaglio del riscaldamento dell'abitazione. A quale 
+anno risale la stufa portatile a cherosene?  
+ 
+Indichi l'anno del sistema di riscaldamento nel suo complesso, senza considerare eventuali cambiamenti di singoli 
+pezzi, singoli termosifoni o altri terminali. Se è stata cambiata la caldaia indichi l'anno della nuova caldaia. Tenga 
+conto che passare da un combustibile a un altro (ad es. da carbone a gas) di solito comporta la sostituzione della 
+caldaia. 
+ 
+A - anno ................................................................ |_|_|_|_|  vai a 3.7 (range <=2021)   
+B - non so ............................................................. 1 
+ 
+HELP: Se avete più apparecchi dello stesso tipo consideri quello che usate prevalentemente; se non ne usate 
+nessuno consideri quello che usereste in caso di bisogno. 
+ 
+Solo se 3.5b=1 (non so) 
+3.6 - Può indicare almeno quanti anni ha?  
+ 
+- 1-2 anni (dal 2019 in poi) ...................................... 1 
+- 3-4 anni (2017-2018)  ........................................... 2 
+- 5-6 anni (2015-2016)  ........................................... 3 
+- 7-10 anni (2011-2014)  ......................................... 4 
+- 11-15 anni (2006-2010)  ....................................... 5 
+- 16-19 anni (2001-2005)  ....................................... 6 
+- 20 anni o più (prima del 2001)  ............................. 7 
+- non so  ................................................................... 8 
+ 
+Solo se V2_2CONTA>0 (hanno riscaldamento casa). 
+3.7 - Durante i mesi freddi dell’anno 2020, con quale frequenza avete utilizzato questo impianto/apparecchio?  
+ 
+- tutti i giorni o quasi (6 o 7 gg a settimana) ............................... 1  
+- qualche giorno a settimana (3, 4 o 5 gg a settimana) ................ 2  
+- circa una volta a settimana (1 o 2 gg a settimana) .................... 3  
+- meno di 4 volte al mese (1, 2 o 3 gg al mese) ........................... 4  
+- solo occasionalmente (meno di 10 volte all’anno) .................... 5  
+- mai ............................................................................................ 6  
+ 
+Snodo. 
+Se 3.7=1,2,3 vai a 3.8 (orari). 
+Se 3.7=4,5,6 e 3.0=1,2 vai a 3.9 (regolazione).  
+Se 3.7=4,5,6 e 3.0=3-12 e V2_2CONTA=1 vai a 3.13(investimenti). 
+Se 3.7=4,5,6 e 3.0=3-12 e V2_2CONTA>1 vai a 3.11(impianto ausiliario). 
+ 
+Solo se 3.7=1,2,3 (uso frequente). 
+3.8 - (Se 3.7=1,2,3 e 3.0=1)- In media, quante ore al giorno è stato acceso?  
+ 
+(Se 3.7=1,2,3 e 3.0=2-12)- In media, quante ore al giorno è stato acceso questo impianto/apparecchio?  
+ 
+Dare una risposta per ogni riga.  
+Digiti 1 se utilizzato meno di un'ora; digiti 0 se non viene mai acceso in quella fascia oraria.  
+ 
+A - numero di ore durante la mattina (dalle 5 alle 13) ....................................... |_| (range 0-8) 
+B - numero di ore durante il pomeriggio (dalle 13 alle 21) ............................... |_| (range 0-8) 
+C - numero di ore durante la notte (dalle 21 alle 5) ........................................... |_| (range 0-8) 
+
+PAGE 21
+ 
+ 20 
+ 
+HELP (se 3.0=1): Se non modifica in modo autonomo gli orari dei termosifoni, faccia riferimento alle ore di 
+accensione stabilite dal regolamento condominiale.  
+ 
+REGOLA HARD: 3.8a + 3.8b+ 3.8c = 0 (usa il riscaldamento durante la settimana ma lo accende zero ore al 
+giorno): "[Q3.8h4] Attenzione: indichi un numero di ore maggiore di zero al quesito 3.8." 
+ 
+Snodo. 
+Se 3.0=1,2 vai a 3.9  (termostati)  
+Se 3.0=3-12 e V2_2CONTA>1 vai a 3.11 (impianto ausiliario). 
+Se 3.0=3-12 e V2_2CONTA=1 vai a 3.13 (investimenti). 
+ 
+Solo se 3.0=1,2.  
+3.9 - L'impianto prevede la possibilità di regolare la temperatura degli ambienti automaticamente?  
+Non consideri i timer che regolano l’orario d’accensione ma non regolano la temperatura. 
+Sono possibili più risposte.  
+ 
+A - sì, con dei termostati (inclusi termostati giorno/notte e cronotermostati).............. 1 
+B - sì, con valvole termostatiche .................................................................................. 2 
+C - no ............................................................................................................................ 3  
+ 
+HELP: Non consideri la regolazione manuale, tramite semplici tasti o telecomandi per l’accensione e lo 
+spegnimento. 
+ 
+(3.9A) HELP: Un termostato giorno/notte prevede la possibilità di impostare una diversa temperatura per il giorno e 
+per la notte. Sono comprese anche le regolazioni della temperatura tramite una manopola.  
+ 
+REGOLA HARD: La risposta No non può coesistere con le risposte Sì: "[Q3.9h1] Attenzione: verificare le 
+risposte al quesito 3.9."  
+ 
+Snodo. 
+Se V2_2CONTA>2 vai a 3.10 (ausiliario prevalente) 
+Se V2_2CONTA=2 vai a 3.11 (frequenza) 
+Se V2_2CONTA=1 vai a 3.13 (investimenti) 
+ 
+SISTEMA AUSILIARIO 
+ 
+Solo se V2_2CONTA>2. Visualizzare le risposte positive alla 2.2, esclusa la prevalente (3.1). 
+3.10 -  Ha detto di avere altri sistemi per il riscaldare la casa. Tra questi, quale usate prevalentemente?  
+Se non usate nessuno di questi sistemi, indichi quello che usereste in caso di bisogno. 
+ 
+- impianto centralizzato a uso di più abitazioni (incluso teleriscaldamento) .................................. 1 
+- impianto autonomo a uso esclusivo dell'abitazione (impianto a caldaia, termostufe o  
+termocamini collegati a termosifoni, pompe di calore multisplit o collegate ai termosifoni,  
+solare termico ecc.) ....................................................................................................................... 2 
+- climatizzatori caldo/freddo fissi a pompa di calore (esclusi multisplit) ....................................... 3 
+- altri apparecchi elettrici fissi ......................................................................................................... 4   
+- stufe tradizionali o ventilate (a legna, pellet o altre biomasse) ..................................................... 5 
+- camini tradizionali o ventilati che scaldano singole stanze (a legna, pellet o altre biomasse) ...... 6 
+- stufe fisse a metano ........................................................................................................................ 7 
+- stufe fisse a GPL ............................................................................................................................ 8 
+- climatizzatori caldo/freddo portatili (a pompa di calore)  ............................................................ 9 
+- apparecchi elettrici portatili (stufette, termoconvettori, termoventilatori ecc.) ............................. 10 
+- stufe portatili a GPL (bombole) .................................................................................................... 11 
+- stufe portatili a cherosene (petrolio)  ............................................................................................ 12 
+ 
+Solo se V2_2CONTA>1.  
+3.11 - (Se V2_2CONTA=2 e 3.0=1 e 2.1b=1)- Ha detto di avere anche un impianto autonomo per riscaldare la casa. 
+Durante i mesi freddi del 2020, con quale frequenza avete usato questo impianto?  
+ 
+(Se V2_2CONTA=2 e 3.0=2 e 2.1a=1)- Ha detto di avere anche un impianto centralizzato per riscaldare la 
+casa. Durante i mesi freddi del 2020 con quale frequenza avete usato questo impianto?  
+ 
+
+PAGE 22
+ 
+ 21 
+(Se V2_2CONTA=2 e 3.0=1,2 e 2.1c=1 e (2.2c=1 o 2.2d=1 o 2.2e=1 o 2.2f=1 o 2.2g=1 o 2.2h=1) - Ha detto di 
+avere anche apparecchi singoli fissi per riscaldare la casa. Durante i mesi freddi del 2020, con quale 
+frequenza avete usato questi apparecchi?  
+ 
+(Se V2_2CONTA=2 e 3.0=1,2 e 2.1c=1 e (2.2i=1 o 2.2l=1 o 2.2m=1 o 2.2n=1) - Ha detto di avere anche 
+apparecchi singoli portatili per riscaldare la casa. Durante i mesi freddi del 2020, con quale frequenza avete 
+usato questi apparecchi?  
+ 
+(Se V2_2CONTA=2 e 3.0 in(3-12) e 2.1c=1 e (2.2c=1 o 2.2d=1 o 2.2e=1 o 2.2f=1 o 2.2g=1 o 2.2h=1 o 2.2i=1 o 
+2.2l=1 o 2.2m=1 o 2.2n=1) - Ha detto di avere anche altri apparecchi singoli fissi o portatili per riscaldare la 
+casa. Durante i mesi freddi del 2020, con quale frequenza avete usato questi apparecchi?  
+ 
+(Se V2_2CONTA>2)- Durante i mesi freddi del 2020, con quale frequenza avete usato questo sistema di 
+riscaldamento?  
+ 
+- tutti i giorni o quasi (6 o 7 gg a settimana) ..................................................... 1 
+- qualche giorno a settimana (3, 4 o 5 gg a settimana) ...................................... 2 
+- circa una volta a settimana (1 o 2 gg a settimana) .......................................... 3  
+- meno di 4 volte al mese (1, 2 o 3 gg al mese) ................................................. 4  vai a 3.13 
+- solo occasionalmente, quando serve (meno di 10 volte all’anno) ................... 5  vai a 3.13 
+- mai .................................................................................................................. 6  vai a 3.13 
+ 
+HELP: Se avete più apparecchi dello stesso tipo consideri quello che usate prevalentemente. 
+ 
+Solo se 3.11=1-3.  
+3.12 - In media, quante ore al giorno è stato acceso?  
+(In caso di accensione regolata da termostato indicare le ore di funzionamento previste dal condominio o impostate 
+in caso di impianto autonomo)  
+ 
+Dare una risposta per ogni riga. 
+Digiti 1 se utilizzato meno di un'ora; digiti 0 se non viene mai acceso in quella fascia oraria.  
+ 
+A - numero di ore durante la mattina (dalle 5 alle 13) ....................................... |_| (range 0-8) 
+B - numero di ore durante il pomeriggio (dalle 13 e alle 21) ............................ |_| (range 0-8)  
+C - numero di ore durante la notte (dalle 21 alle 5) ........................................... |_| (range 0-8)  
+ 
+REGOLA HARD: 3.12a+3.12b+3.12c= 0 (usa riscaldamento durante la settimana ma lo accende zero ore al  
+giorno): "[Q3.12h4] Attenzione: indichi un numero di ore maggiore di zero al quesito 3.12. " 
+ 
+INVESTIMENTI 
+ 
+Solo se V2_2CONTA>0. 
+3.13 - Negli ultimi cinque anni avete fatto degli investimenti o interventi per ridurre le spese di riscaldamento?  
+Esempio: modifiche del sistema di riscaldamento, sostituzione della caldaia con una più efficiente, sostituzione di 
+porte, finestre, infissi, applicazione di termostati o valvole termostatiche, isolamento termico dell’abitazione ecc. 
+ 
+- sì  ........................................................................ 1  
+- no ....................................................................... 2  vai a 3.15 (futuro) 
+ 
+HELP: Consideri solo le spese per lavori che hanno determinato una riduzione dei costi del riscaldamento. 
+Consideri anche eventuali spese effettuate a livello condominiale. 
+Se vivete nell’abitazione da meno di 5 anni, faccia riferimento soltanto al periodo in cui avete vissuto 
+nell’abitazione. 
+ 
+Solo se 3.13=1.  
+3.14 - Quali investimenti avete fatto?  
+Sono possibili più risposte.  
+ 
+A - sostituzione della caldaia con una più efficiente (ad alto rendimento, a condensazione ecc.)… ....................... 1  
+B - sostituzione di uno o più apparecchi singoli con modelli più efficienti… ......................................................... 2  
+C - passaggio da apparecchi singoli a un impianto autonomo ................................................................................. 3 
+D - installazione di impianti a energia rinnovabile (pompe di calore, impianti a biomasse, pannelli solari ecc.) 4 
+E - rifacimento o modifiche del sistema di distribuzione del calore (termosifoni, tubi ecc.)  
+      o sostituzione di altri componenti dell’impianto di riscaldamento ...................................................................... 5  
+F - applicazione di termostati, valvole termostatiche o contabilizzatori del calore  ................................................ 6 
+
+PAGE 23
+ 
+ 22 
+G - isolamento termico pareti, soffitti, pavimenti dell'abitazione ............................................................................. 7 
+H - sostituzione di porte, finestre, infissi (serramenti in PVC, doppi vetri ecc.)  ................................................... 8 
+I - altro ...................................................................................................................................................................... 9 
+ 
+Solo se V2_2CONTA>0. 
+3.15 - (Se 3.13=1)- Avete pensato di fare ulteriori investimenti o interventi per ridurre le spese di riscaldamento 
+dell'abitazione? 
+Non consideri la semplice sostituzione di impianti deteriorati o non più  funzionanti. 
+ 
+(Se 3.13=2)- Avete mai pensato di fare degli investimenti o interventi per ridurre le spese di riscaldamento? 
+Non consideri la semplice sostituzione di impianti deteriorati o non più funzionanti. 
+ 
+- abbiamo in programma di farli appena possibile.. .......................................... 1 
+- ci abbiamo pensato ma non li abbiamo fatti perché troppo costosi ................. 2  vai a sezione 4 
+- ci abbiamo pensato ma non li abbiamo fatti per altri motivi  
+ (ad es. perché dipendono da decisioni condominiali) ................................... 3  vai a sezione 4 
+- non pensiamo che siano necessari ................................................................... 4  vai a sezione 4 
+- non ci abbiamo mai pensato/non so ................................................................ 5  vai a sezione 4 
+ 
+Solo se 3.15=1.  
+3.16 - Qual è il principale investimento che avete in programma di fare?  
+ 
+- sostituzione della caldaia con una più efficiente (ad alto rendimento, a condensazione ecc.)… ........................... 1  
+- sostituzione di uno o più apparecchi singoli con modelli più efficienti… ............................................................ 2  
+- passaggio da apparecchi singoli a un impianto autonomo ..................................................................................... 3 
+- installazione di impianti a energia rinnovabile (pompe di calore, impianti a biomasse, pannelli solari ecc.)… 4 
+- rifacimento o modifiche del sistema di distribuzione del calore (termosifoni, tubi ecc.)  
+ o sostituzione di altri componenti dell’impianto di riscaldamento ........................................................................... 5  
+- applicazione di termostati, valvole termostatiche o contabilizzatori del calore .................................................... 6 
+- isolamento termico pareti, soffitti, pavimenti dell'abitazione ................................................................................ 7 
+- sostituzione di porte, finestre, infissi (serramenti in PVC, doppi vetri ecc.)  ........................................................ 8 
+- altro ......................................................................................................................................................................... 9 
+ 
+ 
+SEZIONE 4 - ACQUA CALDA 
+ 
+ 
+Snodo. 
+ 
+Se V2_7CONTA=0 (non ha riscaldamento acqua) vai a Sezione 5 (aria condizionata).  
+ 
+Se (V2_7CONTA=1 e casa_acqua=1 (impianto unico e coincide)) ma non è solare (2.4b=1,2,3,4,5,7,blank) vai a Sezione 
+5 
+ 
+Se V2_7CONTA>0 e ha centralizzato/autonomo per la casa (2.4a=6 o 2.4b=6) ad energia solare o 
+centralizzato/autonomo per l'acqua (2.10a=6 o 2.10b=6) ad energia solare o impianto solare termico/ibrido (2.14c=1 o 
+2.14e=1) vai a 4.1.  
+ 
+Se non ha solare termico o ibrido (2.14c=2 e 2.14e=2 e 2.4a blank  o diverso da 6 e 2.4b blank  o diverso da 6 e 2.10a 
+blank o diverso da 6 e 2.10b blank o diverso da 6) e V2_7CONTA>1 vai a testo 4.a.  
+ 
+Se non ha solare termico o ibrido (2.14c=2 e 2.14e=2 e 2.4a blank  o diverso da 6 e 2.4b blank  o diverso da 6 e 2.10a 
+blank o diverso da 6 e 2.10b blank o diverso da 6) e V2_7CONTA=1  e casa_acqua=2 vai a testo 4.a.  
+ 
+ 
+  
+
+PAGE 24
+ 
+ 23 
+IMPIANTO SOLARE TERMICO (CENTRALIZZATO/AUTONOMO)  
+ 
+Solo se V2_7CONTA>0 e 2.4a=6 o 2.4b=6 o 2.10a=6 o 2.10b=6 o 2.14c=1 o 2.14e=1 (ha un impianto solare per casa o 
+acqua o indefinito) 
+4.1 - Ha detto di avere un impianto a energia solare. L'impianto fornisce esclusivamente acqua calda oppure 
+riscalda anche la casa?  
+ 
+- riscalda la casa e fornisce acqua calda ................................................................................... 1 
+- fornisce solo acqua calda ....................................................................................................... 2 
+- serve solo a riscaldare la casa ................................................................................................ 3 
+- non so ..................................................................................................................................... 4 
+ 
+4.2 - L'impianto a energia solare è formato da pannelli vetrati piatti o da tubi sottovuoto? 
+ 
+- pannelli vetrati piatti ............................................................................ 1 
+- pannelli formati da tubi sottovuoto ...................................................... 2  
+- non so ................................................................................................... 3 
+ 
+4.3 - Qual è il numero complessivo di pannelli? 
+ 
+A - numero di pannelli ............................................................................ |_|_| (range 1-99) 
+B - non so ............................................................................................... 1 
+ 
+4.4 - Quanto è grande il serbatoio di accumulo dell'impianto?  
+ 
+- meno di 50 litri  .................................................................................... 1 
+- da 50 litri a meno di 100 ...................................................................... 2 
+- da 100 litri a meno di 200  ................................................................... 3 
+- 200 litri ed oltre .................................................................................... 4 
+- non so ................................................................................................... 5 
+ 
+Snodo. 
+Se 4.1=1,2 vai a 4.5 (risparmio acqua).  
+Se 4.1=1,3 vai a 4.6 (risparmio casa).  
+Altrimenti vai a Snodo successivo. 
+ 
+Solo se 4.1=1,2 (impianto produce acqua calda). 
+4.5 - Ha riscontrato un risparmio sulle spese per il riscaldamento dell’acqua grazie all'impianto solare ? 
+ 
+- molto .................................................................................................... 1  
+- abbastanza ............................................................................................ 2  
+- poco...................................................................................................... 3  
+- per niente.............................................................................................. 4  
+- non so ................................................................................................... 5 
+ 
+Solo se 4.1=1,3 (l'impianto solare riscalda la casa). 
+4.6 - Sempre grazie all'impianto solare, ha riscontrato un risparmio sulle spese per il riscaldamento dell’abitazione ? 
+ 
+- molto .................................................................................................... 1  
+- abbastanza ............................................................................................ 2  
+- poco...................................................................................................... 3  
+- per niente.............................................................................................. 4  
+- non so ................................................................................................... 5 
+ 
+  
+
+PAGE 25
+ 
+ 24 
+RISCALDAMENTO ACQUA 
+ 
+Snodo. 
+Se V2_7CONTA=1 and casa_acqua=1 (coincide) vai a Sez.5. 
+ 
+Solo se V2_7CONTA>1 o (V2_7CONTA=1 and casa_acqua=2). 
+4.a - Parliamo ora in maggiore dettaglio del riscaldamento dell’acqua. 
+ 
+Snodo. 
+Se V2_7CONTA=1 and casa_acqua=2 (non coincide) vai al calcolo di 4.0 (unico/prevalente).  
+Se V2_7CONTA>1 vai al quesito 4.7. 
+ 
+SCELTA DEL PREVALENTE 
+ 
+Solo se V2_7CONTA>1. Visualizzare solo le risposte positive della 2.6 (esclusa 2.6c) e 2.7. 
+4.7 - Tra i sistemi di riscaldamento dell'acqua che ha indicato, quale utilizzate prevalentemente? 
+Se non usate nessuno di questi sistemi, indichi quello che usereste in caso di bisogno.   
+ 
+- sistema centralizzato per più abitazioni (incluso teleriscaldamento) ....................... 1  
+- impianto autonomo per tutta la casa (caldaia, impianto solare, pompa di calore)  .. 2 
+- scaldabagni/scaldacqua elettrici a pompa di calore .................................................. 3 
+- altri scaldabagni/scaldacqua elettrici ......................................................................... 4 
+- scaldabagni/scaldacqua a metano/gas di rete ............................................................ 5 
+- scaldabagni/scaldacqua a gasolio ............................................................................... 6 
+- scaldabagni/scaldacqua a GPL .................................................................................. 7 
+- scaldabagni/scaldacqua a legna, pellet o altre biomasse ............................................ 8 
+ 
+Creare la variabile 4.0 (impianto unico/prevalente per l'acqua calda): 
+- 4.0=1: se (v2_7conta=1 e 2.6a=1) o (v2_7conta>1 e 4.7=1)   
+- 4.0=2: se (v2_7conta=1 e 2.6b=1) o (v2_7conta>1 e 4.7=2)    
+- 4.0=3: se (v2_7conta=1 e 2.7c=1) o (v2_7conta>1  e 4.7=3)    
+- 4.0=4: se (v2_7conta=1 e 2.7d=1 ) o (v2_7conta>1 e 4.7=4)    
+- 4.0=5: se (v2_7conta=1 e 2.7e=1) o (v2_7conta>1  e 4.7=5)    
+- 4.0=6: se (v2_7conta=1 e 2.7f=1) o (v2_7conta>1  e 4.7=6)    
+- 4.0=7: se (v2_7conta=1 e 2.7g=1) o (v2_7conta>1  e 4.7=7)    
+- 4.0=8: se (v2_7conta=1 e 2.7h=1) o (v2_7conta>1  e 4.7=8). 
+ 
+Snodo. 
+Se [(4.0=1 e 2.10a=4) o (4.0=2 e 2.10b=4)] e Casa_acqua=2 (centralizzato/autonomo ad elettricità e non coincide con la 
+casa) vai a 4.8(pompa di calore). 
+ Altrimenti: 
+- se 4.0=1,2 e Casa_acqua=2 (impianto central/autonomo non elettrico non coincidente)  o 4.0= 3-8 (apparecchio 
+singolo)  
+ vai a 4.10 (anno) 
+- se 4.0=1,2 e Casa_acqua=1 (impianto central/autonomo non elettrico coincidente) vai a snodo prima di 
+4.12(ausiliario) 
+ 
+SISTEMA UNICO O PREVALENTE 
+ 
+Solo se [(4.0=1 e 2.10a=4) o (4.0=2 e 2.10b=4)] e Casa_acqua=2  (centralizzato/autonomo ad elettricità e non coincide 
+con la casa) 
+4.8 -  (Se 4.0=1 e 2.10a=4 e Casa_acqua=2) - L'impianto centralizzato, alimentato a energia elettrica, funziona con una 
+pompa di calore?  
+(Se 4.0=2 e 2.10b=4 e Casa_acqua=2) - L'impianto autonomo, alimentato a energia elettrica, funziona con una 
+pompa di calore?  
+  
+- sì ................................................................................................ 1   
+- no .............................................................................................. 2  vai a 4.10 
+- non so ........................................................................................ 3   vai a 4.10 
+ 
+HELP:  Le pompe di calore sono apparecchi in grado sia di riscaldare che di raffrescare la casa e possono anche 
+produrre acqua calda sanitaria (per uso domestico e per i termosifoni). In genere sono composti da un'unit à 
+
+PAGE 26
+ 
+ 25 
+esterna all'abitazione (motore elettrico con ventola) e da unità interne (split), che distribuiscono l’aria calda o 
+fredda. 
+ 
+Solo se 4.8=1.  
+4.9 - Si tratta di una pompa di calore: 
+ 
+- ad aria (incluse pompe aria/acqua)  .......................................... 1 
+- ad acqua .................................................................................... 2 
+- a terreno (geotermica) ............................................................... 3  
+- non so ........................................................................................ 4 
+ 
+HELP: Le pompe di calore trasferiscono energia termica da una sorgente a temperatura più bassa (aria, acqua, 
+suolo) ad un ambiente a temperatura superiore (l'abitazione). Una pompa di calore ad aria estrae calore dall’aria 
+esterna all’abitazione; una pompa ad acqua estrae il calore dall’acqua da un fiume, un lago o da sotto terra; una 
+pompa di calore a terreno estrae il calore dal terreno attraverso apposite tubazioni. 
+ 
+Snodo. 
+Se (4.0=1,2 e Casa_acqua=2) (centr/autonomo non coincidente) o (4.0= 3-8 e casa_acqua=1,2) (apparecchio singolo)  
+ vai a 4.10 (anno).  
+Se coincide vai a Snodo successivo. 
+ 
+Solo se (4.0=1,2 and casa_acqua=2) o (4.0=3-8 e casa_acqua=1,2) 
+4.10 - (Se 4.0=1 e casa_acqua=2) -A quale anno risale l'impianto centralizzato? 
+(Se 4.0=2 e casa_acqua=2) -A quale anno risale l'impianto autonomo? 
+(Se 4.0=3 e casa_acqua=1,2)-A quale anno risale lo scaldabagno a pompa di calore?  
+(Se 4.0=4 e casa_acqua=1,2)-A quale anno risale lo scaldabagno elettrico?  
+(Se 4.0=5 e casa_acqua=1,2)-A quale anno risale lo scaldabagno a metano/gas?  
+(Se 4.0=6 e casa_acqua=1,2)-A quale anno risale lo scaldabagno a gasolio?  
+(Se 4.0=7 e casa_acqua=1,2)-A quale anno risale lo scaldabagno a GPL?   
+(Se 4.0=8 e casa_acqua=1,2)-A quale anno risale lo scaldabagno a legna/pellet?  
+  
+A - anno ................................................................ |_|_|_|_|  vai a Snodo (range<=2021) 
+B - non so ............................................................. 1 
+ 
+HELP: Se avete più apparecchi dello stesso tipo consideri quello che usate prevalentemente; se non ne usate 
+nessuno consideri quello che usereste in caso di bisogno. 
+ 
+Solo se 4.10b=1(non sa). 
+4.11 - Potrebbe indicare almeno se ha: 
+ 
+- 1-2 anni (dal 2019 in poi) ...................................... 1  
+- 3-4 anni (2017-2018)  ........................................... 2 
+- 5-6 anni (2015-2016)  ........................................... 3 
+- 7-10 anni (2011-2014)  ......................................... 4 
+- 11-15 anni (2006-2010)  ....................................... 5 
+- 16-19 anni (2001-2005)  ....................................... 6 
+- 20 anni o più (prima del 2001)  ............................. 7 
+- non so  ................................................................... 8 
+ 
+Snodo. 
+Se V2_7CONTA>2 vai a 4.12 (ausiliario prevalente). 
+Se V2_7CONTA=2 vai a 4.13 (frequenza). 
+Se V2_7CONTA=1 vai a Snodo. 
+ 
+SISTEMA AUSILIARIO 
+ 
+Solo se V2_7CONTA>2. Visualizzare le risposte positive alla 2.6 e 2.7, esclusa la prevalente (4.7). 
+4.12 - Ha detto di avere altri impianti per l'acqua calda. Tra questi, quale usate prevalentemente?  
+Se non usate nessuno di questi sistemi, indichi quello che usereste in caso di bisogno. 
+ 
+- sistema centralizzato per più abitazioni (incluso teleriscaldamento) ....................... 1  
+- impianto autonomo per tutta la casa (caldaia, impianto solare, pompa di calore)  .. 2 
+- scaldabagni/scaldacqua elettrici a pompa di calore .................................................. 3 
+- altri scaldabagni/scaldacqua elettrici ......................................................................... 4 
+
+PAGE 27
+ 
+ 26 
+- scaldabagni/scaldacqua a metano/gas di rete ............................................................ 5 
+- scaldabagni/scaldacqua a gasolio ............................................................................... 6 
+- scaldabagni/scaldacqua a GPL .................................................................................. 7 
+- scaldabagni/scaldacqua a legna, pellet o altre biomasse ............................................ 8 
+ 
+Solo se V2_7CONTA>1. 
+4.13 - (Se V2_7CONTA=2 e 4.0=(2-8) e 2.6a=1) - Ha detto di avere anche un impianto centralizzato per il 
+riscaldamento dell’acqua. Durante l’anno, con quale frequenza utilizzate questo sistema?  
+(Se V2_7CONTA=2 e 4.0=(1, 3-8) e 2.6b=1) - Ha detto di avere anche un impianto autonomo per il 
+riscaldamento dell’acqua. Durante l’anno, con quale frequenza utilizzate questo sistema?  
+(Se V2_7CONTA=2 e 4.0 =(1, 2) e 2.7c=1) - Ha detto di avere anche uno scaldabagno a pompa di calore. 
+Durante l’anno, con quale frequenza utilizzate questo sistema?  
+(Se V2_7CONTA=2 e 4.0 =(1, 2) e 2.7d=1) - Ha detto di avere anche uno scaldabagno elettrico. Durante 
+l’anno, con quale frequenza utilizzate questo sistema? 
+(Se V2_7CONTA=2 e 4.0=(1, 2) e 2.7e=1) - Ha detto di avere anche uno scaldabagno a metano/gas. Durante 
+l’anno, con quale frequenza utilizzate questo sistema? 
+(Se V2_7CONTA=2 e 4.0 =(1, 2) e 2.7f=1) - Ha detto di avere anche uno scaldabagno a gasolio. Durante 
+l’anno, con quale frequenza utilizzate questo sistema? 
+(Se V2_7CONTA=2 e 4.0=(1, 2) e 2.7g=1) - Ha detto di avere anche uno scaldabagno a GPL. Durante l’anno, 
+con quale frequenza utilizzate questo sistema? 
+(Se V2_7CONTA=2 e 4.0=(1, 2) e 2.7h=1) - Ha detto di avere anche uno scaldabagno a legna/pellet. Durante 
+l’anno, con quale frequenza utilizzate questo sistema? 
+(Se V2_7CONTA>2) - Con quale frequenza usate questo sistema durante l'anno? 
+ 
+- tutti i giorni o quasi (6 o 7 gg a settimana) ............................... 1  
+- qualche giorno a settimana (3, 4 o 5 gg a settimana) ................ 2  
+- circa una volta a settimana (1 o 2 gg a settimana) .................... 3  
+- meno di 4 volte al mese (1, 2 o 3 gg al mese) ........................... 4  
+- solo occasionalmente (meno di 10 volte all’anno) .................... 5  
+- mai ............................................................................................ 6 
+ 
+ HELP: Se avete più apparecchi dello stesso tipo consideri quello che usate prevalentemente.  
+ 
+INVESTIMENTI 
+ 
+Solo se V2_7CONTA>0. 
+4.14 - Negli ultimi cinque anni avete fatto degli investimenti o interventi per ridurre le spese di riscaldamento 
+dell’acqua come, ad esempio, la sostituzione di un impianto vecchio con sistemi più moderni?  
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2  vai a 4.16 
+ 
+HELP: Consideri solo le spese per lavori che hanno determinato una riduzione dei costi del riscaldamento dell’acqua. 
+Consideri anche eventuali spese effettuate a livello condominiale. 
+Se vivete nell’abitazione da meno di 5 anni, faccia riferimento soltanto al periodo in cui avete vissu to 
+nell’abitazione. 
+ 
+Solo se 4.14=1.  
+4.15 - Quali investimenti avete fatto?  
+Sono possibili più risposte.  
+ 
+A - passaggio da un impianto centralizzato a uno autonomo .................................................. 1 
+B - passaggio da apparecchi singoli a un impianto autonomo  ............................................... 2 
+C - sostituzione della caldaia con una caldaia più efficiente ................................................... 3  
+D - sostituzione di uno scaldabagno/scaldacqua con modello  più efficiente 4  
+E - installazione di impianto a energia rinnovabile (pannelli solari,  impianto a biomasse,  
+     pompe di calore ecc.) .......................................................................................................... 5 
+F - rifacimento o modifiche del sistema di distribuzione dell’acqua calda (tubazioni) 
+     o sostituzione di altri componenti dell’impianto  ................................................................ 6  
+G - altro  ................................................................................................................................... 7 
+ 
+  
+
+PAGE 28
+ 
+ 27 
+Solo se V2_7CONTA>0. 
+4.16 - (Se ha già fatto investimenti (4.14=1)) - Avete pensato di fare ulteriori investimenti o interventi per ridurre le 
+spese di riscaldamento dell’acqua? Ad es. la sostituzione di un impianto vecchio con sistemi più moderni, 
+passare all'impianto autonomo. 
+Non consideri la semplice sostituzione di impianti deteriorati o non più funzionanti. 
+ 
+(Se non ha fatto investimenti (4.14=2) - Avete mai pensato di fare degli investimenti o interventi per ridurre le 
+spese di riscaldamento dell’acqua?  
+Ad es. sostituire un impianto vecchio con sistemi più moderni, passare all'impianto autonomo. ..  
+Non consideri la semplice sostituzione di impianti deteriorati o non più funzionanti.  
+ 
+- abbiamo in programma di farli appena possibile.. .............................................................. 1 
+- ci abbiamo pensato ma non li abbiamo fatti perché troppo costosi ..................................... 2  vai a sezione 5 
+- ci abbiamo pensato ma non li abbiamo fatti per altri motivi (ad es. perché dipendono  
+da decisioni condominiali) ................................................................................................. 3  vai a sezione 5 
+- non pensiamo che siano necessari ....................................................................................... 4  vai a sezione 5 
+- non ci abbiamo mai pensato/non so .................................................................................... 5  vai a sezione 5 
+ 
+Solo se 4.16=1.  
+4.17 - Qual è il principale investimento che avete in programma di fare? 
+ 
+- passaggio da un impianto centralizzato a uno autonomo ............................................................................ 1 
+- passaggio da apparecchi singoli a un impianto autonomo  ......................................................................... 2 
+- sostituzione della caldaia con una caldaia più efficiente ............................................................................. 3  
+- sostituzione di uno scaldabagno/scaldacqua con modello più efficiente ................................................... 4  
+- installazione di impianto a energia rinnovabile (pannelli solari,  impianto a biomasse,  
+   pompe di calore ecc.) .................................................................................................................................. 5 
+- rifacimento o modifiche del sistema di distribuzione dell’acqua calda (tubazioni)  o sostituzione  
+  di altri componenti dell’impianto  ................................................................................................................ 6  
+- altro  ............................................................................................................................................................. 7 
+ 
+ 
+SEZIONE 5 - ARIA CONDIZIONATA 
+ 
+ 
+Snodo. 
+Se V2_11CONTA=0 vai a Sezione 6. 
+Se V2_11CONTA>1 vai a 5a e poi a 5.1 
+Se V2_11CONTA=1 vai a 5a e poi a creazione 5.0. 
+ 
+Se v2_11conta>0. Frase introduttiva. 
+5a - Parliamo ora in maggiore dettaglio dell’aria condizionata. 
+ 
+SCELTA DEL PREVALENTE 
+ 
+Solo se V2_11CONTA>1. Visualizzare solo le risposte positive alla 2.11.  
+5.1 - Tra i sistemi di condizionamento dell’aria che ha indicato, quale utilizzate prevalentemente?  
+Se non usate nessuno di questi sistemi, indichi quello che usereste in caso di bisogno.   
+ 
+- impianto che raffredda l’intera abitazione (comprese pompe di calore multisplit) ............. 1 
+- condizionatori singoli (solo freddo) fissi per una singola stanza .......................................... 2 
+- condizionatori singoli (solo freddo) portatili ......................................................................... 3 
+- climatizzatori singoli caldo/freddo fissi (a pompa di calore) per una singola stanza ........... 4 
+- climatizzatori singoli caldo/freddo portatili (a pompa di calore) .......................................... 5 
+ 
+Creare la variabile 5.0 (impianto unico/prevalente per l'aria condizionata): 
+ 5.0=1: se (v2_11conta=1 e 2.11a=1) o (v2_11conta>1 e 5.1=1)  
+ 5.0=2: se (v2_11conta=1 e 2.11b=1) o (v2_11conta>1 e 5.1=2) 
+ 5.0=3: se (v2_11conta=1 e 2.11c=1) o (v2_11conta>1 e 5.1=3) 
+ 5.0=4: se (v2_11conta=1 e 2.11d=1) o (v2_11conta>1 e 5.1=4)  
+ 5.0=5: se (v2_11conta=1 e 2.11e=1) o (v2_11conta>1 e 5.1=5). 
+  
+ 
+
+PAGE 29
+ 
+ 28 
+Snodo. 
+-Se 5.0=1(centralizzato/autonomo) e coincide con riscaldamento casa vai a 5.6 (frequenza). 
+-Se 5.0=1(centralizzato/autonomo) e non coincide con riscaldamento casa (casa_aria=2) vai a 5.2 (pompa di calore). 
+-Se non è centralizzato/autonomo: 
+ se 5.0=4,5 (caldo/freddo fissi/portatili) porre 5.2=1 e 5.3=1 (imputati come pompe di calore ad aria) e vai a 5.4 (anno). 
+ se 5.0=2,3 (solo freddo) vai a 5.4 (anno). 
+ 
+SISTEMA UNICO O PREVALENTE 
+ 
+Solo se 5.0=1 (centralizzato) e non coincide con riscaldamento casa (casa_aria=2). 
+5.2 - Questo impianto di condizionamento funziona con una pompa di calore? 
+ 
+- sì ......................................................................... 1   
+- no ....................................................................... 2  vai a 5.4 
+- non so ................................................................. 3   vai a 5.4 
+ 
+HELP:  Le pompe di calore sono apparecchi in grado sia di riscaldare che di raffrescare la casa e possono anche 
+produrre acqua calda sanitaria (per uso domestico e per i termosifoni). In genere sono composti da un'unit à 
+esterna all'abitazione (motore elettrico con ventola) e da unità interne (split), che distribuiscono l’aria calda o 
+fredda. 
+ 
+Solo se 5.2=1.  
+5.3 - Si tratta di una pompa di calore: 
+ 
+- ad aria (incluse pompe aria/acqua)  .......................................... 1 
+- ad acqua .................................................................................... 2 
+- a terreno (geotermica) ............................................................... 3  
+- non so ........................................................................................ 4 
+ 
+HELP: Le pompe di calore trasferiscono energia termica da una sorgente a temperatura più bassa (aria, acqua, 
+suolo) a un ambiente a temperatura superiore (l'abitazione). Una pompa di calore ad aria estrae calore dall’aria 
+esterna all’abitazione; una pompa ad acqua estrae il calore dall’acqua da un fiume, un lago o da sotto terra; una 
+pompa di calore a terreno estrae il calore dal terreno attraverso apposite tubazioni. 
+ 
+Solo se (5.0=1 e casa_aria=2) o (5.0=2-5 e casa_aria=1,2) 
+5.4 - (Se 5.0=1 e casa_aria=2)- A quale anno risale l'impianto? 
+(Se 5.0=2 e casa_aria=1,2)- A quale anno risalgono i condizionatori fissi?  
+(Se 5.0=3 e casa_aria=1,2)- A quale anno risalgono i condizionatori portatili?  
+(Se 5.0=4 e casa_aria=1,2)- A quale anno risalgono i climatizzatori caldo/freddo fissi?  
+(Se 5.0=5 e casa_aria=1,2)- A quale anno risalgono i climatizzatori caldo/freddo portatili?  
+ 
+Indichi l’anno del sistema di condizionamento nel suo complesso, senza considerare eventuali cambiamenti di 
+singoli pezzi o terminali. Nel caso in cui invece sia stato cambiato il refrigeratore centrale indichi l’anno del nuovo 
+refrigeratore. 
+ 
+A - anno ................................................................ |_|_|_|_| (range <=2021) 
+B - non so ............................................................. 1 vai a 5.5 
+ 
+HELP: Se avete più apparecchi dello stesso tipo consideri quello che usate prevalentemente; se  non ne usate 
+nessuno consideri quello che usereste in caso di bisogno. 
+ 
+Solo se 5.4b=1 (non sa). 
+5.5 - Potrebbe indicare almeno se ha: 
+ 
+- 1-2 anni (dal 2019 in poi) ...................................... 1 
+- 3-4 anni (2017-2018)  ........................................... 2 
+- 5-6 anni (2015-2016)  ........................................... 3 
+- 7-10 anni (2011-2014)  ......................................... 4 
+- 11-15 anni (2006-2010)  ....................................... 5 
+- 16-19 anni (2001-2005)  ....................................... 6 
+- 20 anni o più (prima del 2001)  ............................. 7 
+- non so  ................................................................... 8 
+ 
+  
+
+PAGE 30
+ 
+ 29 
+Solo se 5.0=1-5 (compresi i coincidenti). 
+5.6 -  (Se 5.0=1) - Durante i mesi caldi del 2020, con quale frequenza avete utilizzato l’impianto di condizionamento? 
+(Se 5.0=2) - Durante i mesi caldi del 2020, con quale frequenza avete utilizzato i condizionatori fissi? 
+(Se 5.0=3) - Durante i mesi caldi del 2020, con quale frequenza avete utilizzato i condizionatori portatili? 
+(Se 5.0=4) - Durante i mesi caldi del 2020, con quale frequenza avete utilizzato i climatizzatori caldo/freddo 
+fissi? 
+(Se 5.0=5) - Durante i mesi caldi del 2020, con quale frequenza avete utilizzato  i climatizzatori caldo/freddo 
+portatili? 
+ 
+- tutti i giorni o quasi (6 o 7 gg a settimana) ............................... 1  
+- qualche giorno a settimana (3, 4 o 5 gg a settimana) ................ 2  
+- circa una volta a settimana (1 o 2 gg a settimana) .................... 3  
+- meno di 4 volte al mese (1, 2 o 3 gg al mese) ........................... 4   vai a Snodo 
+- solo occasionalmente (meno di 10 volte all’anno) .................... 5   vai a Snodo 
+- mai ............................................................................................ 6   vai a Snodo 
+ 
+Solo se 5.6=1,2,3 (uso frequente).  
+5.7 - In media, quante ore al giorno è stato acceso?  
+Dare una risposta per ogni riga. 
+Digiti 1 se utilizzato meno di un'ora; digiti 0 se non viene mai acceso in quella fascia oraria. 
+ 
+A - numero di ore durante la mattina (dalle 5 alle 13) ................. |_| (range 0-8) 
+B - numero di ore durante il pomeriggio (dalle 13 alle 21) ......... |_| (range 0-8) 
+C - numero di ore durante la notte (dalle 21 alle 5) ..................... |_| (range 0-8) 
+ 
+HELP: Se l'impianto è centralizzato per più abitazioni, indichi il numero di ore stabilito dal regolamento 
+condominiale. 
+ 
+REGOLA HARD: 5.7a + 5.7b + 5.7c = 0 (dichiara di utilizzare il condizionamento ma lo accende zero ore al 
+giorno): "[Q5.7h1] Attenzione: indichi un numero di ore maggiore di zero al quesito 5.7." 
+ 
+Snodo. 
+Se V2_11CONTA>2 vai a 5.8 (ausiliario prevalente). 
+Se V2_11CONTA=2 vai a 5.9 (frequenza). 
+Se V2_11CONTA=1 vai a 5.11 (investimenti). 
+ 
+SISTEMA AUSILIARIO 
+ 
+Solo se V2_11CONTA>2. Visualizzare le risposte positive alla 2.11, esclusa la 5.0. 
+5.8 - Ha detto di avere anche altri sistemi per l'aria condizionata. Tra questi, quale  usate prevalentemente?  
+Se non usate nessuno di questi sistemi, indichi quello che usereste in caso di bisogno. 
+ 
+- impianto che raffredda l’intera abitazione (comprese pompe di calore multisplit) ............. 1 
+- condizionatori singoli (solo freddo) fissi per una singola stanza .......................................... 2 
+- condizionatori singoli (solo freddo) portatili ......................................................................... 3 
+- climatizzatori singoli caldo/freddo fissi (a pompa di calore) per una singola stanza ........... 4  
+- climatizzatori singoli caldo/freddo portatili (a pompa di calore) .......................................... 5  
+ 
+Solo se V2_11CONTA>1. 
+5.9 -  (Se V2_11CONTA=2 e 5.0 in(2-5) e 2.11a=1) -Ha detto di avere anche un impianto per l'aria condizionata per 
+l'intera abitazione. Durante i mesi caldi del 2020, con quale frequenza lo avete utilizzato? 
+ 
+(Se V2_11CONTA=2 e 5.0 in(1,3,4,5) e 2.11b=1) - Ha detto di avere anche dei condizionatori singoli fissi (solo 
+freddo). Durante i mesi caldi del 2020, con quale frequenza li avete utilizzati? 
+ 
+(Se V2_11CONTA=2 e 5.0 in(1,2,4,5) e 2.11c=1) - Ha detto di avere anche dei condizionatori portatili (solo 
+freddo). Durante i mesi caldi del 2020, con quale frequenza li avete utilizzati? 
+ 
+(Se V2_11CONTA=2 e 5.0 in(1,2,3,5) e 2.11d=1) - Ha detto di avere anche dei climatizzatori caldo/freddo fissi. 
+Durante i mesi caldi del 2020, con quale frequenza li avete utilizzati? 
+ 
+(Se V2_11CONTA=2 e 5.0 in(1,2,3,4) e 2.11e=1) - Ha detto di avere anche dei climatizzatori caldo/freddo 
+portatili. Durante i mesi caldi del 2020, con quale frequenza li avete utilizzati? 
+ 
+
+PAGE 31
+ 
+ 30 
+(Se V2_11CONTA>2 -Durante i mesi caldi del 2020, con quale frequenza avete utilizzato questo sistema? 
+ 
+- tutti i giorni o quasi (6 o 7 gg a settimana) ..................................................... 1 
+- qualche giorno a settimana (3, 4 o 5 gg a settimana) ...................................... 2 
+- circa una volta a settimana (1 o 2 gg a settimana) .......................................... 3  
+- meno di 4 volte al mese (1, 2 o 3 gg al mese) ................................................. 4  vai a Snodo.  
+- solo occasionalmente, quando serve (meno di 10 volte all’anno) ................... 5  vai a Snodo.  
+- mai .................................................................................................................. 6  vai a Snodo.  
+ 
+ HELP: Se avete più apparecchi dello stesso tipo consideri quello che usate prevalentemente.  
+ 
+Solo se 5.9=1,2,3.  
+5.10 -  E in media, quante ore al giorno è stato acceso? 
+Se avete più apparecchi dello stesso tipo consideri quello che usate prevalentemente. 
+Dare una risposta per ogni riga. 
+ 
+A - numero di ore durante la mattina (dalle 5 alle 13) .................................. |_| (range 0-8) 
+B - numero di ore durante il pomeriggio (dalle 13 alle 21) .......................... |_| (range 0-8) 
+C - numero di ore durante la notte (dalle 21 alle 5) ...................................... |_| (range 0-8) 
+ 
+HELP: Digitare 1 se utilizzato meno di un'ora; digitare 0 se non viene mai acceso in quella fascia oraria.  
+ 
+REGOLA HARD: 5.10a + 5.10b + 5.10c = 0 (dichiara di utilizzare il condizionamento ma lo accende zero ore al 
+giorno): "[Q5.10h4] Attenzione: indichi un numero di ore maggiore di zero al quesito 5.10." 
+ 
+INVESTIMENTI 
+ 
+Solo se V2_11CONTA>0.  
+5.11 - Negli ultimi cinque anni avete fatto degli investimenti o interventi per ridurre le spese di condizionamento 
+come, ad esempio, modifiche del sistema di condizionamento, applicazione di tende parasole, veneziane ecc.?  
+Non consideri gli investimenti per ridurre i costi del riscaldamento che ha già descritto in precedenza.  
+ 
+- sì  ........................................................................ 1  
+- no ....................................................................... 2  vai a 5.13 
+ 
+HELP:  Consideri solo le spese per lavori che hanno determinato una riduzione dei costi del condizionamento. Se 
+vivete nell’abitazione da meno di 5 anni, faccia riferimento soltanto al periodo in cui avete vissuto nell’abitazione. 
+ 
+Solo se 5.11=1.  
+5.12 - Quali investimenti avete fatto?  
+Sono possibili più risposte. 
+ 
+A - passaggio da apparecchi singoli a un impianto autonomo per tutta la casa .................................. 1 
+B - sostituzione di un apparecchio singolo con apparecchi più efficienti .......................................... 2 
+C - sostituzione del refrigeratore centrale con uno più efficiente .................................................... 3 
+D - rifacimento/modifiche del sistema di distribuzione dell’aria condizionata  
+      (tubi, split ecc.) o sostituzione di altri componenti dell’impianto  ................................................ 4 
+E - applicazione di dispositivi per proteggersi dal sole (tende parasole, veneziane,  
+     vetri a controllo solare, frangisole ecc.) ........................................................................................ 5 
+F - altro  .............................................................................................................................................. 6 
+ 
+Solo se V2_11CONTA>0  
+5.13 - (Se 5.11=1)- Avete pensato di fare ulteriori investimenti o interventi per ridurre le spese di condizionamento? 
+Non consideri la semplice sostituzione di impianti deteriorati o non più funzionanti.  
+ 
+(Se 5.11=2)- Avete mai pensato di fare degli investimenti o interventi per ridurre le spese di condizionamento? 
+Non consideri la semplice sostituzione di impianti deteriorati o non più funzionanti. 
+ 
+- abbiamo in programma di farli appena possibile.. .......................................... 1 
+- ci abbiamo pensato ma non li abbiamo fatti perché troppo costosi ................. 2  vai a snodo sezione 6 
+- ci abbiamo pensato ma non li abbiamo fatti per altri motivi  
+   (ad es. perché dipendono da decisioni condominiali) .................................... 3  vai a snodo sezione 6 
+- non pensiamo che siano necessari ................................................................... 4  vai a snodo sezione 6 
+- non ci abbiamo mai pensato/Non so ............................................................... 5  vai a snodo sezione 6 
+ 
+
+PAGE 32
+ 
+ 31 
+Solo se 5.13=1.  
+5.14 - Qual è il principale investimento che avete in programma di fare? 
+ 
+- passaggio da apparecchi singoli a un impianto autonomo per tutta la casa ..................................... 1 
+- sostituzione di un apparecchio singolo con apparecchi più efficienti ............................................. 2  
+- sostituzione del refrigeratore centrale con uno più efficiente ........................................................ 3  
+- rifacimento/modifiche del sistema di distribuzione dell’aria condizionata  
+  (tubi, split ecc.) o sostituzione di altri componenti dell’impianto  .................................................... 4 
+- applicazione di dispositivi per proteggersi dal sole (tende parasole, veneziane,  
+   vetri a controllo solare, frangisole ecc.) .......................................................................................... 5 
+- altro  .................................................................................................................................................. 6 
+ 
+ 
+SEZIONE 6 - CONSUMO DI BIOMASSE 
+ 
+ 
+Snodo. 
+Va a 6.1 se ha almeno una di questi impianti/apparecchi a biomasse: 
+ - 2.4b=5 (autonomo riscaldamento casa a biomasse)  
+ - apparecchi singoli riscaldamento casa a biomasse: 2.2e=1 (stufe tradizionali) o 2.2f=1 (camini tradizionali)   
+ - 2.10b=5 (autonomo acqua calda a biomasse)  
+ - apparecchi singoli acqua calda a biomasse: 2.7h=1(scaldabagni) 
+ - 2.13 almeno un Sì (apparecchi a biomasse).  
+Gli altri intervistati vanno a Sezione 7. 
+ 
+Solo se ha autonomo a biomasse 2.4b=5 (alim risc a biomasse) o 2.10b=5 (acqua alim. a biomasse) o 2.2e=1(stufe 
+tradizionali) 2.2f=1 (camini tradizionali) o 2.7h=1(scaldabagni) o 2.13 almeno un Sì (appar a biomasse) 
+6.1 - Ha detto di possedere apparecchi che funzionano con legna o altre biomasse (pellet, carbonella...), come camini, 
+stufe, scaldabagni, forni, barbecue...  
+Quali biomasse usate in particolare?  
+Sono possibili più risposte.  
+ 
+A - legna da ardere .................................................................................. 1 
+B - pellet di legna (inclusi tronchetti di legna) ....................................... 2 
+C - cippato (scaglie di legna) .................................................................. 3  
+D - carbonella ......................................................................................... 4  
+E - gusci di mandorle/nocciole  .............................................................. 5  
+F - sansa (pellet di sansa di oliva, nocciolino di sansa) ......................... 6  
+G - scarti di legno (di origini varie)  ....................................................... 7  
+H - altre biomasse  .................................................................................. 8  
+I - non utilizzo quegli apparecchi a biomasse ......................................... 9  
+ 
+HELP: Consideri solo gli utilizzi della famiglia, escludendo le biomasse usate per l'impianto centralizzato di 
+riscaldamento o dell'acqua calda. 
+ 
+(6.1B) HELP Il pellet è un combustile naturale ottenuto dalla segatura compressa in piccolissimi tronchetti di forma 
+cilindrica, lunghi da 1 cm a 5 cm e con un diametro tra i 5 e i 12 mm (ne esistono in commercio anche di dimensioni 
+più grandi; in questo caso sono conosciuti come tronchetti di legna). 
+ 
+(6.1C) HELP:  Il termine cippato, invece, indica il legno sminuzzato in scaglie o in piccoli pezzi di dimensioni 
+variabili da alcuni millimetri ad un paio centimetri.  
+ 
+(6.1F) HELP:  La sansa è ottenuta dai residui della polpa e dai frammenti di nocciolino delle olive.  
+ 
+REGOLA HARD: (6.1a =1 o 6.1b=2 o 6.1c=3 o 6.1d=4 o 6.1e=5 o 6.1f=6 o 6.1g=7 o 6.1h=8) e 6.1i=9 : "[Q6.1h1] 
+Attenzione: verificare le risposte al quesito 6.1." 
+ 
+Snodo. 
+Se 6.1i=9 (non ha usato biomasse) vai a sezione 7. 
+Se 6.1a=blank e 6.1b=blank (né legna né pellet) vai a sezione 7. 
+Se 6.1a=1 (ha usato legna) vai a 6.2 (legna 2020). 
+Altrimenti vai a snodo dopo la 6.10.  
+
+PAGE 33
+ 
+ 32 
+LEGNA 
+ 
+Solo se 6.1a=1. 
+6.2 - Nel 2020 avete utilizzato legna da ardere?  
+Non consideri la legna eventualmente usata per l'impianto centralizzato condominiale. 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2  vai a snodo dopo la 6.10. 
+ 
+HELP: Se non avete vissuto in questa abitazione per tutto il 2020, faccia riferimento soltanto al periodo dell’anno 
+in cui avete effettivamente vissuto nell’abitazione. 
+ 
+Solo se 6.2=1. 
+6.3 - Quale legna avete usato prevalentemente nel 2020?  
+ 
+- quercia ............................................................................................................. 1 
+- faggio .............................................................................................................. 2 
+- frassino, betulla, castagno, pioppo, tiglio, leccio, robinia o romiglia .............. 3 
+- carpino, acacia, platano, eucalipto .................................................................. 4 
+- abete, larice, cipresso ...................................................................................... 5 
+- ulivo  ............................................................................................................... 6 
+- alberi da frutto (albicocco, pesco, melo, mandorlo ecc.) ................................ 7 
+- altro ................................................................................................................. 8 
+- non so .............................................................................................................. 9 
+ 
+6.4 - La legna è stata: 
+ 
+- tutta acquistata ................................................................................................ 1  vai a 6.6  
+- tutta autoprodotta o recuperata ........................................................................ 2  vai a 6.6  
+- in parte acquistata e in parte autoprodotta/recuperata ..................................... 3 
+ 
+HELP: Per legna autoprodotta si intente quella proveniente da terreni di proprietà della famiglia; la legna recuperata 
+è invece quella raccolta in zone boschive non della famiglia. 
+ 
+Solo se 6.4=3 (in parte autoprodotta/recuperata). 
+6.5 - Quanta parte della legna è stata autoprodotta o recuperata? 
+ 
+- meno di un quarto (fino al 25%)… ................................................................. 1  
+- da un quarto a meno della metà (da 25% a 50%) ........................................... 2  
+- da metà a meno di tre quarti (da 50% a 75%) ................................................. 3  
+- da tre quarti in su (da 75% in su) .................................................................... 4 
+ 
+Solo se 6.2=1. 
+6.6 - Complessivamente, quanti chili di legna avete consumato nel 2020?  
+Consulti il punto 3 dell’allegato alla lettera dell’ISTAT. 
+Si ricorda che 1 quintale è uguale a 100 Kg. 
+ 
+A - chili ................................................................. |_|_|_|_|_|  (range 1-99999)  vai a 6.8 
+B - non so ............................................................. 1 
+ 
+HELP:  Consideri solo la quantità consumata nel 2020, anche se acquistata in precedenza. Escluda eventuali scorte 
+inutilizzate.  
+Se non avete vissuto nell’abitazione per tutto il 2020, faccia riferimento soltanto al periodo dell’anno 2020 in cui 
+avete effettivamente vissuto nell’abitazione.  
+ 
+Solo se 6.6b=1. Menu a tendina. 
+6.7 - Può indicare almeno se la quantità di legna che avete consumato nel 2020 è: 
+ 
+- meno di 500 chili (meno di 5 quintali) ............................................................ 1 
+- da 500 chili a meno di 1.000 chili (da 5 quintali a meno di 10)  .................... 2 
+- 1.000 chili (10 quintali)  ................................................................................. 3 
+- 2.000 chili (20 quintali)  ................................................................................. 4 
+- 3.000 chili (30 quintali)  ................................................................................. 5 
+- 4.000 chili (40 quintali)  ................................................................................. 6 
+- 5.000 chili (50 quintali)  ................................................................................. 7 
+- 6.000 chili (60 quintali)  ................................................................................. 8 
+
+PAGE 34
+ 
+ 33 
+- 7.000 chili (70 quintali)  ................................................................................. 9 
+- 8.000 chili (80 quintali)  ................................................................................. 10 
+- 9.000 chili (90 quintali)  ................................................................................. 11 
+- 10.000 chili e più (100 quintali) ..................................................................... 12 
+- non so .............................................................................................................. 13 
+ 
+Solo se 6.2=1. 
+6.8 - La quantità indicata si riferisce a legna fresca o stagionata (secca)?  
+ 
+- fresca .................................................................. 1  
+- secca (stagionata) ............................................... 2  
+- in parte fresca e in parte stagionata .................... 3  
+ 
+Solo se 6.4=1,3 (tutta acquistata o in parte) 
+6.9 - Quanto avete speso per l’acquisto della legna consumata nel 2020?  
+ Può consultare il punto 3 dell’allegato alla lettera dell’ISTAT. 
+ 
+A - spesa in Euro  ................................................. |_|_|_|_|,00  (range 1-9999)  
+B - non so…………… ......................................... 1 
+ 
+HELP:  Consideri solo la quantità consumata nel 2020, anche se acquistata in precedenza. Escluda eventuali scorte 
+inutilizzate.  
+Se non avete vissuto nell’abitazione per tutto il 2020, faccia riferimento soltanto al periodo dell’anno 2020 in cui 
+avete effettivamente vissuto nell’abitazione.  
+ 
+Solo se 6.2=1. Visualizzare solo le modalità scelte nel 2.13 (apparecchi biomasse), anche quelli imputati. 
+6.10 - In che modo avete utilizzato la legna?  
+Dare una risposta per ogni riga. 
+ SÌ NO 
+A - camino tradizionale o ventilato (scalda una singola stanza)................................................  1  2 
+B - termocamino (serve l'intera abitazione) ........................ .....................................................  1  2 
+C - stufa tradizionale o ventilata (scalda una singola stanza)....................................................  1  2 
+D - termostufa o termocucina (serve l'intera abitazione) ..........................................................  1  2 
+E - scaldabagno/scaldacqua singolo...........................................................................................  1  2 
+F - impianto autonomo a caldaia  ...............................................................................................  1  2 
+G - apparecchi per cucinare (forni a legna, cucine economiche, barbecue ecc.) .......................  1  2 
+ 
+Snodo. 
+Se 6.1b=2 (utilizza pellet) vai a 6.11 (pellet 2020). Altrimenti vai a sezione 7. 
+ 
+PELLET 
+ 
+Solo se 6.1B=2 (utilizza pellet). 
+6.11 - Nel 2020 avete utilizzato pellet di legna?  
+Non consideri il pellet eventualmente usato per l'impianto centralizzato condominiale. 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2  vai a sezione 7 
+ 
+HELP: Se non avete vissuto in questa abitazione per tutto il 2020, faccia riferimento soltanto al periodo dell’anno in 
+cui ha effettivamente vissuto nell’abitazione. 
+ 
+Solo se 6.11=1 (pellet 2020). 
+6.12 - Complessivamente, quanti chili di pellet avete consumato nel 2020?  
+Può consultare il punto 3 dell’allegato alla lettera dell’ISTAT.  
+Si ricorda che 1 quintale è uguale a 100 Kg e che un bancale solitamente pesa 1.000 kg (70 sacchi da 15 kg). 
+ 
+A - chili ................................................................. |_|_|_|_|_| (range 1-99999)  vai a 6.14 
+B - non so ............................................................. 1 
+ 
+HELP:  Consideri solo la quantità consumata  nel 2020, anche se acquistata in precedenza. Escluda eventuali scorte 
+inutilizzate.  
+Se non avete vissuto nell’abitazione per tutto il 2020, faccia riferimento soltanto al periodo dell’anno 2020 in cui 
+avete effettivamente vissuto nell’abitazione.  
+
+PAGE 35
+ 
+ 34 
+Solo se 6.12b=1(non so). Menu a tendina 
+6.13 - Può indicare almeno se la quantità consumata nel 2020 è:   
+- meno di 500 chili (meno di 5 quintali) ............................................................ 1 
+- da 500 chili a meno di 1.000 chili (da 5 quintali a meno di 10)  .................... 2 
+- 1.000 chili (10 quintali)  ................................................................................. 3 
+- 2.000 chili (20 quintali)  ................................................................................. 4 
+- 3.000 chili (30 quintali)  ................................................................................. 5 
+- 4.000 chili (40 quintali)  ................................................................................. 6 
+- 5.000 chili (50 quintali)  ................................................................................. 7 
+- 6.000 chili (60 quintali)  ................................................................................. 8 
+- 7.000 chili (70 quintali)  ................................................................................. 9 
+- 8.000 chili (80 quintali)  ................................................................................. 10 
+- 9.000 chili (90 quintali)  ................................................................................. 11 
+- 10.000 chili e più (100 quintali) ..................................................................... 12 
+- non so .............................................................................................................. 13 
+ 
+Solo se 6.11=1 (pellet 2020). 
+6.14 - Quanto avete speso per acquistare il pellet consumato nel 2020?  
+ Consulti ancora il punto 3 dell’allegato alla lettera dell’ISTAT.  
+ 
+A - spesa in Euro  ................................................. |_|_|_|_|,00  (range 0-9999)  
+B - non so……………… ..................................... 1 
+ 
+HELP:  Consideri solo la quantità consumata  nel 2020, anche se acquistata in precedenza. Escluda eventuali scorte 
+inutilizzate.  
+Se non avete vissuto nell’abitazione per tutto il 2020, faccia riferimento soltanto al periodo dell’anno 2020 in cui 
+avete effettivamente vissuto nell’abitazione. 
+ 
+Visualizzare solo le modalità scelte nel 2.13 (apparecchi biomasse), anche quelle imputate. 
+6.15 - In che modo avete utilizzato il pellet di legna? 
+Dare una risposta per ogni riga. 
+ SÌ NO 
+A - camino tradizionale o ventilato (scalda una singola stanza)................................................  1  2 
+B - termocamino (serve l'intera abitazione) ........................ .....................................................  1  2 
+C - stufa tradizionale o ventilata (scalda una singola stanza)....................................................  1  2 
+D - termostufa o termocucina (serve l'intera abitazione) ..........................................................  1  2 
+E - scaldabagno/scaldacqua singolo.......................................................................... ..................  1  2 
+F - impianto autonomo a caldaia ................................................................................................  1  2 
+G - apparecchi per cucinare (forni a legna, cucine economiche, barbecue...) ............................  1  2 
+ 
+ 
+SEZIONE 7 - ILLUMINAZIONE ED ELETTRODOMESTICI 
+ 
+ 
+ILLUMINAZIONE 
+ 
+Per tutti. 
+7.1 - Parliamo ora delle lampadine presenti nell'abitazione. Quante lampadine avete a risparmio energetico e quante 
+tradizionali? Provi a contarle stanza per stanza. 
+Consideri tutte le lampadine funzionanti, compresi i faretti sopra i fornelli e negli specchi nei bagni, le lampade da 
+tavolo e piantane. Conti anche le lampadine presenti in aree esterne (cantine, garage, soffitte, terrazze, giardini).  
+ 
+Dare una risposta per ogni riga. 
+ 
+A - numero lampadine a risparmio energetico ................ |_|_| (range 0-99) 
+B - numero lampadine tradizionali (a filamento) ............ |_|_| (range 0-99) 
+ 
+HELP:  Se possiede dei lampadari, conti tutte le lampadine che li compongono. Non conti le lampadine di scorta 
+non collegate all’impianto di illuminazione. Non conti nemmeno le lampadine presenti in spazi condivisi con altre 
+famiglie o utilizzati soltanto per lavoro. 
+ 
+
+PAGE 36
+ 
+ 35 
+ (7.1A) HELP: Le lampadine a risparmio energetico sono lampadine più costose rispetto alle lampadine 
+tradizionali, ma durano di più e consentono di risparmiare sulla bolletta (si riconoscono facilmente perché sono di 
+colore bianco opaco). Sono di questi tipi:  
+- fluorescenti o neon, costituite da un tubo in vetro che può assumere diverse forme, da quella lineare dei primi 
+modelli (i neon) a quella circolare o a quella compatta dei modelli più recenti;  
+- a LED, si distinguono dalle altre in quanto emettono una luce “fredda” (la lamp adina non si riscalda). In caso di 
+strisce Led o led tubolari, li conteggi come unica lampadina. 
+- alogene di nuova generazione, in commercio solo da pochi anni, si distinguono da quelle di vecchia generazione 
+perché costano di più e consentono bassi consumi energetici;  
+- lampade alimentate a energia solare non funzionano ad energia elettrica, ma con un apposito pannello che 
+trasforma l’energia solare in energia elettrica. 
+ 
+(7.1.B) HELP: Le lampadine tradizionali sono le lampadine a filamento (a incandescenza) e alogene di vecchia 
+generazione:  
+- a filamento è la classica lampadina a incandescenza che funziona riscaldando il filamento all’interno.  
+- alogena di vecchia generazione si distinguono da quelle alogene di nuova generazione perché costano meno, non 
+sono a risparmio energetico e sono in commercio da diversi anni. Le lampadine alogene sono un particolare tipo di 
+lampadina ad incandescenza che dura molto di più rispetto alle lampadine classiche ed emette una luce più bianca. 
+Si riconosce facilmente perché non può essere toccata con le dita altrimenti si fulmina.  
+ 
+REGOLA HARD: 7.1a+7.1b=0 (non vi sono lampadine): "[Q7.1h1] Attenzione: indichi almeno un numero 
+maggiore di zero nel quesito 7.1." 
+ 
+7.2 - Negli ultimi cinque anni avete fatto degli investimenti o interventi per ridurre le spese per l’energia elettrica?  
+Sono possibili più risposte.  
+ 
+A - sostituzione di lampadine tradizionali con lampadine a risparmio energetico ....... 1  
+B - installazione di regolatori d'intensità o di interruttori crepuscolari ........................ 2  
+C - sostituzione di elettrodomestici con apparecchi più efficienti ................................ 3  
+D - installazione di impianti a energia rinnovabile per la produzione di  
+      energia elettrica (impianto fotovoltaico, minieolico ecc.) ...................................... 4  
+E - altro  ....................................................................................................................... 5  
+F - nessun investimento ............................................................................................... 6  
+ 
+HELP:  Consideri solo le spese per lavori che hanno determinato una riduzione dei costi per l’energia elettrica.  
+Consideri anche eventuali spese effettuate a livello condominiale.  
+Se vivete nell’abitazione da meno di 5 anni, faccia riferimento soltanto al periodo in cui avete vissuto 
+nell’abitazione. 
+ 
+REGOLA HARD: 7_2f=6 e (7.2a=1 o 7.2b=2  o 7.2c=3 o 7.2d=4 o 7.2e=5) (Nessun investimento non è 
+compatibile con altre risposte): "[Q7.2h1] Attenzione: verificare le risposte al quesito 7.2." 
+ 
+7.3 - (Se 7.2a=1 o 7.2b=2 o 7.2c=3 o 7.2d=4 o 7.2e=5 (almeno una risposta positiva))- Avete pensato di fare ulteriori 
+investimenti o interventi per ridurre le spese per l’energia elettrica?  
+Non consideri la semplice sostituzione di impianti deteriorati o non più funzionanti. 
+ 
+(Se 7.2f=6(nessuno))- Avete mai pensato di fare degli investimenti o interventi per ridurre le spese per 
+l’energia elettrica? Non consideri la semplice sostituzione di impianti deteriorati o non più funzionanti.  
+ 
+- abbiamo in programma di farli appena possibile.. .......................................... 1 
+- ci abbiamo pensato ma non li abbiamo fatti perché troppo costosi ................. 2  vai a 7.5 
+- ci abbiamo pensato ma non li abbiamo fatti per altri motivi  
+  (ad es. perché dipendono da decisioni condominiali) ..................................... 3  vai a 7.5 
+- non pensiamo che siano necessari ................................................................... 4  vai a 7.5 
+- non ci abbiamo mai pensato/non so ................................................................ 5  vai a 7.5 
+ 
+Solo se 7.3=1(in programma). 
+7.4 - Qual è il principale investimento che avete in programma di fare? 
+ 
+- sostituzione di lampadine tradizionali con lampadine a risparmio energetico ........... 1 
+- installazione di regolatori d'intensità o di interruttori crepuscolari ............................ 2 
+- sostituzione di elettrodomestici con apparecchi più efficienti ................................... 3 
+- installazione di impianti a energia rinnovabile per la produzione di  
+  energia elettrica (impianto fotovoltaico, minieolico ecc.) .......................................... 4 
+- altro  ........................................................................................................................... 5  
+
+PAGE 37
+ 
+ 36 
+FRIGORIFERO 
+ 
+Per tutti. 
+7.5 - Parliamo ora degli elettrodomestici presenti nell'abitazione: consideri solo quelli funzionanti e utilizzati (anche 
+se raramente).  
+Consideri anche quelli collocati in aree esterne (cantine, garage, soffitte, terrazze, giardini e altri spazi all’aperto). 
+Escluda gli apparecchi utilizzati soltanto per lavoro. 
+ 
+Avete frigoriferi?  
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a 7.8   
+ 
+Solo se 7.5=1. 
+7.6 -  Quanti anni ha il frigorifero?  
+ Se avete più frigoriferi, consideri quello che usate prevalentemente. 
+ 
+- 1-2 anni (dal 2019 in poi) ...................................... 1 
+- 3-4 anni (2017-2018)  ........................................... 2 
+- 5-6 anni (2015-2016)  ........................................... 3 
+- 7-10 anni (2011-2014)  ......................................... 4 
+- 11-15 anni (2006-2010)  ....................................... 5 
+- 16-19 anni (2001-2005)  ....................................... 6 
+- 20 anni o più (prima del 2001)  ............................. 7 
+- non so  ................................................................... 8 
+ 
+7.7 - Il frigorifero è dotato di vano congelatore (freezer)? 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2  
+ 
+CONGELATORE 
+ 
+Per tutti. 
+7.8 - (Se 7.5=1)- Avete anche un apparecchio congelatore  separato dal frigorifero?  
+Non consideri eventuali congelatori che non vengono utilizzati. 
+ 
+(Se 7.5=2)- Avete un apparecchio congelatore?  
+Non consideri eventuali congelatori che non vengono utilizzati. 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a 7.10 
+ 
+Solo se 7.8=1. 
+7.9 - Quanti anni ha il congelatore?  
+ Se avete più congelatori, consideri quello che usate prevalentemente. 
+ 
+- 1-2 anni (dal 2019 in poi) ...................................... 1 
+- 3-4 anni (2017-2018)  ........................................... 2 
+- 5-6 anni (2015-2016)  ........................................... 3 
+- 7-10 anni (2011-2014)  ......................................... 4 
+- 11-15 anni (2006-2010)  ....................................... 5 
+- 16-19 anni (2001-2005)  ....................................... 6 
+- 20 anni o più (prima del 2001)  ............................. 7 
+- non so  ................................................................... 8 
+ 
+LAVATRICE 
+ 
+Per tutti. 
+7.10 - Avete la lavatrice?  
+Non consideri eventuali lavatrici non utilizzate. 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a 7.19  
+ 
+
+PAGE 38
+ 
+ 37 
+Solo se 7.10=1. 
+7.11 - Quanti anni ha la lavatrice?  
+Se avete più lavatrici consideri quella che usate prevalentemente. 
+ 
+- 1-2 anni (dal 2019 in poi) ...................................... 1 
+- 3-4 anni (2017-2018)  ........................................... 2 
+- 5-6 anni (2015-2016)  ........................................... 3 
+- 7-10 anni (2011-2014)  ......................................... 4 
+- 11-15 anni (2006-2010)  ....................................... 5 
+- 16-19 anni (2001-2005)  ....................................... 6 
+- 20 anni o più (prima del 2001)  ............................. 7 
+- non so  ................................................................... 8 
+ 
+7.12 - In una settimana normale, quanti lavaggi effettuate?  
+Se avete più lavatrici, faccia la somma dei lavaggi effettuati da ogni lavatrice. 
+ 
+A - numero lavaggi a settimana ............................  |_|_| (range 1-99) 
+B - 1-2 lavaggi al mese o meno ............................ 1   vai a 7.15 
+ 
+Solo se 7.12a>0. 
+7.13 - Di questi lavaggi, quanti sono effettuati a temperatura:  
+Dare una risposta per ogni riga. 
+ 
+A- tra 0 e 30 gradi ................................................. |_|_| (range 0-99) 
+B- tra 31 e 60 gradi ............................................... |_|_| (range 0-99) 
+C- oltre 60 gradi ................................................... |_|_| (range 0-99) 
+ 
+REGOLA HARD: 7.12a ≠ (7.13a + 7.13b+ 7.13c) (numero di lavaggi complessivo diverso da somma per 
+temperatura): "[Q7.13h1] Attenzione: il numero di lavaggi totali (quesito 7.12) è diverso dalla somma dei lavaggi 
+per temperatura (7.13). Cortesemente modifichi le risposte." 
+ 
+7.14 - Normalmente, quando effettuate questo/i lavaggi/o? 
+Dare una risposta per ogni riga. 
+ 
+A - da lunedì a venerdì dalle 8 alle 19 .................. |_|_| (range 0-99) 
+B - il sabato dalle 8 alle 19 ................................... |_|_| (range 0-99) 
+C - dalle 19 alle 8 o nei festivi.............................. |_|_| (range 0-99) 
+ 
+REGOLA HARD: 7.12 ≠ (7.14a + 7.14B + 7.14C) (numero di lavaggi complessivo diverso da somma per 
+fascia oraria): "[Q7.14h1] Attenzione: il numero di lavaggi totali (quesito 7.12) è diverso dalla somma dei lavaggi 
+per fascia oraria (7.14). Cortesemente modifichi le risposte." 
+ 
+Solo se 7.10=1. 
+7.15 - La vostra lavatrice esegue anche l’asciugatura del bucato? 
+ 
+- sì ......................................................................... 1   
+- no ....................................................................... 2  
+ 
+ASCIUGATRICE 
+ 
+7.16 - Avete un’asciugatrice separata dalla lavatrice?  
+Non consideri eventuali asciugatrici non utilizzate. 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a 7.19  
+ 
+Solo se 7.16=1. 
+7.17 - Quanti anni ha l'asciugatrice?  
+Se avete più asciugatrici consideri quella che usate prevalentemente. 
+ 
+- 1-2 anni (dal 2019 in poi) ...................................... 1 
+- 3-4 anni (2017-2018)  ........................................... 2 
+- 5-6 anni (2015-2016)  ........................................... 3 
+- 7-10 anni (2011-2014)  ......................................... 4 
+- 11-15 anni (2006-2010)  ....................................... 5 
+- 16-19 anni (2001-2005)  ....................................... 6 
+
+PAGE 39
+ 
+ 38 
+- 20 anni o più (prima del 2001)  ............................. 7 
+- non so  ................................................................... 8 
+ 
+Se 7.15=1 oppure 7.16=1. 
+7.18 - (Se 7.12a>=1) Ha detto che i lavaggi settimanali in lavatrice sono: <testo mobile 7.12a>.  
+Quanti comprendono l’asciugatura? Consideri pure eventuali asciugature aggiuntive effettuate per persone non 
+coabitanti. 
+ 
+(Se 7.12b=1) Quanti lavaggi sono sottoposti a asciugatura? Consideri pure eventuali asciugature aggiuntive 
+effettuate per persone non coabitanti. 
+ 
+A - numero lavaggi a settimana ............................  |_|_|  (range 0-99) 
+B - 1-2 lavaggi al mese o meno ............................ 1  
+ 
+HELP: Se utilizzate l’asciugatrice solo nei mesi invernali, consideri sia i lavaggi effettuati in una tipica settimana 
+invernale sia quelli effettuati in una tipica settimana estiva e ne faccia una media”.  
+ 
+LAVASTOVIGLIE 
+ 
+Per tutti. 
+7.19 - Avete una lavastoviglie?  
+Non considerai eventuali lavastoviglie non utilizzate. 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a 7.23 
+ 
+Solo se 7.19=1. 
+7.20 - Quanti anni ha la lavastoviglie?  
+Se avete più lavastoviglie consideri quella che usate prevalentemente. 
+ 
+- 1-2 anni (dal 2019 in poi) ...................................... 1 
+- 3-4 anni (2017-2018)  ........................................... 2 
+- 5-6 anni (2015-2016)  ........................................... 3 
+- 7-10 anni (2011-2014)  ......................................... 4 
+- 11-15 anni (2006-2010)  ....................................... 5 
+- 16-19 anni (2001-2005)  ....................................... 6 
+- 20 anni o più (prima del 2001)  ............................. 7 
+- non so  ................................................................... 8 
+ 
+7.21 - Normalmente, quanti lavaggi effettuate durante la settimana?  
+Se avete più lavastoviglie, faccia la somma dei lavaggi effettuati da ogni lavastoviglie. 
+ 
+A - numero lavaggi a settimana ............................  |_|_| (range 1-99) 
+B - 1-2 lavaggi al mese o meno ............................ 1   vai a 7.23 
+ 
+Solo se 7.21a>0. 
+7.22 - (Se 7.21a>1)- Di questi lavaggi, quanti sono effettuati: 
+(Se 7.21a=1)- Normalmente, quando effettua questo lavaggio?  
+Dare una risposta per ogni riga. 
+ 
+A - da lunedì a venerdì dalle 8 alle 19 .................. |_|_| (range 0-99) 
+B - il sabato dalle 8 alle 19 ................................... |_|_| (range 0-99) 
+C - dalle 19 alle 8 o nei festivi.............................. |_|_| (range 0-99) 
+ 
+REGOLA HARD: 7.21a ≠ (7.22a + 7.22b+ 7.22c) (numero di lavaggi complessivo diverso da somma per fascia 
+oraria): "[Q7.22h1] Attenzione: il numero di lavaggi totali (quesito 7.21) è diverso dalla somma dei lavaggi per 
+fascia oraria (7.22). Cortesemente corregga." 
+ 
+PIANO COTTURA 
+ 
+Per tutti. 
+7.23 - Avete un piano cottura (fornelli, cucina economica...)?  
+Consideri solo i piani cottura che utilizzate.  
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a 7.27  
+
+PAGE 40
+ 
+ 39 
+Solo se 7.23=1. 
+7.24 - Come è alimentato?  
+Se avete più piani di cottura consideri quello che usate prevalentemente. 
+ 
+- a metano di rete, gas naturale di rete ................. 1 
+- a energia elettrica .............................................. 2 
+- a GPL (bombola o di rete)  ................................ 3 
+- a legna o altre biomasse .................................... 4  
+ 
+(risp.1)  HELP: Attenzione: nel caso di residenza nella regione Sardegna, accertarsi di disporre effettivamente di 
+metano di rete.  
+(risp.4) HELP:  Le biomasse comprendono la legna da ardere, il pellet di legna, la carbonella, la sansa, i gusci di 
+mandorle/nocciole ecc. 
+ 
+7.25 -  Quanti anni ha il piano cottura?  
+Se avete più piani di cottura consideri quello che usate prevalentemente. 
+ 
+- 1-2 anni (dal 2019 in poi) ...................................... 1 
+- 3-4 anni (2017-2018)  ........................................... 2 
+- 5-6 anni (2015-2016)  ........................................... 3 
+- 7-10 anni (2011-2014)  ......................................... 4 
+- 11-15 anni (2006-2010)  ....................................... 5 
+- 16-19 anni (2001-2005)  ....................................... 6 
+- 20 anni o più (prima del 2001)  ............................. 7 
+- non so  ................................................................... 8 
+ 
+7.26 - Con quale frequenza, in media, usate  i fornelli per cucinare pasti per Lei e la Sua famiglia?  
+Non consideri gli utilizzi ridotti come la preparazione di caffè, tè, eccetera.  
+Se avete più piani di cottura consideri quello che usate prevalentemente. 
+ 
+- più volte al giorno ............................................. 1 
+- una volta al giorno ............................................. 2 
+- più volte a settimana .......................................... 3 
+- una volta a settimana ......................................... 4 
+- meno di una volta a settimana ........................... 5 
+ 
+BARBECUE E FORNO 
+ 
+Per tutti. 
+7.27 - Avete un barbecue a gas (GPL in bombole)? 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   
+ 
+7.28 - Avete un forno per cucinare (esclusi forni a microonde)?  
+Consideri solo i forni che utilizzate. 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a 7.32 
+ 
+Solo se 7.28=1. 
+7.29 - Come è alimentato?  
+Se avete più forni consideri quello che usate prevalentemente. 
+ 
+- a metano di rete, gas naturale di rete ................. 1 
+- a energia elettrica .............................................. 2 
+- a GPL (bombola o di rete) ................................. 3 
+- a legna o altre biomasse .................................... 4 
+ 
+(risp.1) HELP: Attenzione: nel caso di residenza nella regione Sardegna, accertarsi di disporre effettivamente di 
+metano di rete.  
+ 
+(risp.4) HELP: Le biomasse comprendono la legna da ardere, il pellet di legna, la carbonella, la sansa, i gusci di 
+mandorle/nocciole ecc. 
+ 
+
+PAGE 41
+ 
+ 40 
+7.30 - Con che frequenza, in media, usate  il forno per cucinare i pasti per la Sua famiglia?  
+Se avete più forni consideri quello che usate prevalentemente. 
+ 
+- due o più volte al giorno .................................... 1 
+- una volta al giorno ............................................. 2 
+- due o più volte a settimana ................................ 3 
+- una volta a settimana ......................................... 4 
+- meno di una volta a settimana ........................... 5 
+ 
+7.31 - Quanti anni ha il forno?  
+Se avete più forni consideri quello che usate prevalentemente. 
+ 
+- 1-2 anni (dal 2019 in poi) ...................................... 1 
+- 3-4 anni (2017-2018)  ........................................... 2 
+- 5-6 anni (2015-2016)  ........................................... 3 
+- 7-10 anni (2011-2014)  ......................................... 4 
+- 11-15 anni (2006-2010)  ....................................... 5 
+- 16-19 anni (2001-2005)  ....................................... 6 
+- 20 anni o più (prima del 2001)  ............................. 7 
+- non so  ................................................................... 8 
+ 
+TELEVISORE 
+ 
+Per tutti. 
+7.32 - Avete televisori?  
+Consideri solo quelli che utilizzate. 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a 7.36   
+ 
+Solo se 7.32=1. 
+7.33 - Quanti televisori avete nell'abitazione?  
+ 
+- numero televisori ............................................... |_|_| (range 1-10) 
+ 
+7.34 - (Se 7.33=1) - Che tipo di televisore è? 
+ (Se 7.33>1) - Il televisore che usate prevalentemente di che tipo è? 
+ 
+- a LCD (a cristalli liquidi)  .................................. 1 
+- a LED  ................................................................ 2 
+- al plasma  ........................................................... 3 
+- a tubo catodico ................................................... 4 
+- non so ................................................................. 5 
+  
+HELP: Lo schermo al plasma è generalmente di grandi dimensioni, mentre quelli a cristalli liquidi (LCD) non 
+superano i 42 pollici. Gli schermi a LED sono un’evoluzione dei quelli LCD, consumano meno energia elettrica e 
+sono in commercio da pochi anni.  
+ 
+7.35 - In media, quante ore al giorno è acceso il televisore?  
+Se avete più televisori consideri quello che usate prevalentemente.  
+ 
+- meno di 2 ore ..................................................... 1  
+- 2-4 ore  ............................................................... 2 
+- 4-6 ore  ............................................................... 3 
+- 6-12 ore  ............................................................. 4 
+- 12 ore o più ........................................................ 5 
+ 
+COMPUTER 
+ 
+Per tutti. 
+7.36 - Avete computer fissi o portatili, tablet, palmari, IPad, Notebook o Netbook?  
+Non consideri le console per videogiochi, gli apparecchi che non vengono usati o quelli usati solo per lavoro.  
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2   vai a quesito 7.41   
+
+PAGE 42
+ 
+ 41 
+Solo se 7.36=1. 
+7.37 - Quanti apparecchi avete (PC fissi e portatili, tablet, palmari, IPad, Notebook o Netbook)?   
+- numero apparecchi .............. |_| (range 1-9)    
+ 
+7.38 - L'apparecchio che usate prevalentemente è fisso o è portatile? 
+ 
+- fisso da tavolo (desk top)  .................................. 1  
+- portatile  ............................................................. 2 
+- non so ................................................................. 3 
+ 
+7.39 - In media, quante ore al giorno è acceso l'apparecchio?  
+Se avete più apparecchi consideri quello che usate prevalentemente.  
+ 
+- meno di 2 ore ..................................................... 1  
+- 2-4 ore  ............................................................... 2 
+- 4-6 ore  ............................................................... 3 
+- 6-12 ore  ............................................................. 4 
+- 12 ore o più ........................................................ 5 
+ 
+7.40 - L'abitazione dispone di una connessione a Internet (ADSL o fibra ottica o altra connessione da casa)?  
+Escluda Internet key o pennette, palmari, cellulari, PC card ecc. 
+ 
+- sì ......................................................................... 1  
+- no ....................................................................... 2 
+ 
+GIARDINAGGIO 
+ 
+Per tutti.  
+7.41 - Possedete attrezzi motorizzati per il giardinaggio, come tosaerba, decespugliator i, motoseghe? 
+Consideri solo gli attrezzi funzionanti e che la famiglia utilizza per l’abitazione in cui risiede abitualmente. 
+ 
+- sì .................................................................................... 1  
+- no .................................................................................. 2 
+ 
+HELP: I principali attrezzi motorizzati per giardinaggio sono: motozappa, decespugliatore, motosega, tosaerba, 
+tosasiepi, robot rasaerba, pompa irroratrice, trinciasarmenti, biotrituratore per potature.  
+ 
+Solo se 7.41=1.  
+7.42 – Come sono alimentati questi attrezzi da giardinaggio?  
+Possibili più risposte. 
+ 
+A - a energia elettrica ...................................................... 1 
+B - a benzina o gasolio (comprati in apposite taniche) ... 2 
+C - altra fonte di alimentazione (olio combustibile ecc.) 3  
+ 
+VEICOLI ELETTRICI 
+ 
+Per tutti. (il Numero si attiva se rispondono di Sì) 
+7.43 – La sua famiglia possiede mezzi di trasporto elettrici? 
+Consideri solo i mezzi funzionanti. 
+Dare una risposta per ogni riga. 
+ SÌ NO Numero 
+(1-9) 
+A - automobile elettrica (comprende quadricicli a 2 e 4 posti)………………...……... 1 2 |_| 
+B - motoveicolo elettrico (scooter elettrico o moto elettrica)……………...……..….... 1 2 |_| 
+C - bicicletta elettrica (a pedalata assistita), monopattino elettrico, overboard ecc....... 1 2 |_| 
+ 
+Solo se 7.43a=1 o 7.43b=1. (le due variabili sono mutualmente esclusive) 
+7.44 - Con quale frequenza ricaricate le batterie dell’automobile o del motoveicolo elettric o in ambito domestico? 
+Consideri il totale delle ricariche di tutte le automobili e motoveicoli. 
+ 
+A - mai (utilizzo postazioni di ricarica non appartenenti all’abitazione) .................  1 
+B - numero medio di ricariche a settimana in ambito domestico .......................... |_|_| (range 1-99)  
+
+PAGE 43
+ 
+ 42 
+ 
+SEZIONE 8 - SPESE PER ENERGIA 
+ 
+ 
+Per tutti. Visualizzare: 
+Siamo giunti alle ultime domande del questionario. Parliamo ora delle spese sostenute dalla Sua famiglia per 
+l'energia consumata nel 2020.  
+Sarà utile prendere l'allegato alla lettera dell’ISTAT; se non avete compilato quell'allegato, avrà bisogno di 
+consultare le bollette. 
+ENERGIA ELETTRICA 
+ 
+8.1 - Quanto avete speso per l’energia elettrica consumata nel 2020?  
+ Consulti il punto 4 dell’allegato alla lettera dell’ISTAT.  
+ La spesa per il canone TV RAI deve essere esclusa. 
+ 
+Consideri solo i consumi dell'anno 2020 (la bolletta dell'ultimo periodo di fatturazione 2020 dovrebbe 
+essere arrivata nei primi mesi del 2021).  
+ 
+A - spesa in Euro .................................................. |_|_|_|_|,00 (range 0-5000)  vai a Snodo 
+B - non so  ............................................................ 1 
+ 
+HELP:  Se non avete vissuto in questa abitazione per tutto il 2020, faccia riferimento soltanto al periodo 
+dell’anno in cui avete effettivamente vissuto nell’abitazione. 
+ 
+Solo se 8.1b=1 (non so). 
+8.1c - Può indicarmi almeno una cifra approssimativa?  
+ 
+- meno di 200 Euro ............................................... 1 
+- da 200 a meno di 300 Euro  ............................... 2 
+- da 300 a meno di 400 Euro ................................ 3 
+- da 400 a meno di 500 Euro ................................ 4 
+- da 500 a meno di 600 Euro ................................ 5 
+- da 600 a meno di 700 Euro ................................ 6 
+- da 700 a meno di 800 Euro ................................ 7 
+- da 800 a meno di 1200 Euro .............................. 8 
+- 1200 Euro o più  ................................................. 9 
+- non so ................................................................. 10 
+ 
+Snodo. 
+Se riscaldamento centralizzato per l’abitazione o per l’acqua (2.1a=1 o 2.6a=1) vai a 8.2. 
+Gli altri vanno a Snodo. 
+ 
+CENTRALIZZATO CASA/ACQUA 
+ 
+Se ha riscaldamento centralizzato per l’abitazione o per l’acqua (2.1a=1 o 2.6a=1).  
+8.2 - Quanto avete speso per l'impianto centralizzato (riscaldamento e acqua calda) utilizzato nel 2020?  
+ Consulti il punto 4 dell’allegato alla lettera dell’ISTAT.  
+ 
+A - spesa in Euro .................................................. |_|_|_|_|,00 (range 0-5000)  vai a Snodo 
+B - non so  ............................................................ 1 
+ 
+HELP: Se non avete vissuto in questa abitazione per tutto il 2020, faccia riferimento soltanto al periodo dell’anno 
+in cui avete effettivamente vissuto nell’abitazione. 
+ 
+Solo se 8.2b=1 (non so). 
+8.3 - Potrebbe indicare almeno una cifra approssimativa?  
+ 
+- meno di 200 Euro ............................................... 1 
+- da 200 a meno di 300 Euro  ............................... 2 
+- da 300 a meno di 400 Euro ................................ 3 
+- da 400 a meno di 500 Euro ................................ 4 
+- da 500 a meno di 600 Euro ................................ 5 
+- da 600 a meno di 800 Euro ................................ 6 
+
+PAGE 44
+ 
+ 43 
+- da 800 a meno di 1000 Euro .............................. 7 
+- 1000 Euro o più  ................................................. 8 
+- non so ................................................................. 9 
+ 
+Snodo. 
+Vai a 8.4 solo se ha apparecchi o impianti autonomi a metano, cioè se si verifica almeno una delle condizioni:  
+- 2.4b=1 (autonomo casa a metano) 
+- 2.2g=1(stufe a metano riscaldamento casa)  
+- 2.7e=1 (scaldabagno acqua calda a metano) 
+- 2.10b=1 (autonomo acqua calda a metano) 
+- 2.14a=1 (servizi: metano di rete)  
+- 7.24=1 (piano cottura a metano). 
+- 7.29=1 (forno a metano). 
+Gli altri vanno allo Snodo successivo. 
+ 
+METANO 
+ 
+Solo se ha apparecchi o impianti autonomi a metano (2.4b=1 o 2.2g=1 o 2.7e=1 o 2.10b=1 o 2.14a=1 o 7.24=1 o 7.29=1). 
+8.4 - Quanto avete speso per il metano/gas di rete consumato nel 2020?  
+Consulti il punto 4 dell’allegato alla lettera dell’ISTAT.  
+Non consideri le spese già indicate per l'impianto centralizzato. 
+Consideri solo i consumi dell'anno 2020 (la bolletta dell'ultimo periodo di fatturazione 2020 dovrebbe essere 
+arrivata nei primi mesi del 2021). 
+ 
+A - spesa in Euro .................................................. |_|_|_|_|,00  (range 0-5000)  vai a Snodo 
+B - non so  ............................................................ 1 
+ 
+HELP:  Se non avete vissuto in questa abitazione per tutto il 2020, faccia riferimento soltanto al periodo 
+dell’anno in cui avete effettivamente vissuto nell’abitazione. 
+ 
+Solo se 8.4b=1 (non so). 
+8.4c - Può indicarmi almeno una cifra approssimativa (metano)?  
+ 
+- meno di 400 Euro ............................................... 1 
+- da 400 a meno di 600 Euro  ............................... 2 
+- da 600 a meno di 800 Euro ................................ 3 
+- da 800 a meno di 1000 Euro .............................. 4 
+- da 1000 a meno di 1200 Euro ............................ 5 
+- da 1200 a meno di 1400 Euro ............................ 6 
+- da 1400 a meno di 1600 Euro ............................ 7 
+- da 1600 a meno di 2200 Euro ............................ 8 
+- 2200 Euro o più  ................................................. 9 
+- non so ................................................................. 10 
+ 
+Snodo. 
+ Vai a 8.5 se ha apparecchi o impianti autonomi a gasolio, cioè se si verifica almeno una delle condizioni:  
+ 2.4b=2 (autonomo riscaldamento casa a gasolio) 
+ 2.7f=1 (scaldabagno singolo a gasolio per acqua calda) 
+ 2.10b=2 (autonomo acqua calda a gasolio) 
+Gli altri vanno allo Snodo successivo. 
+ 
+GASOLIO 
+ 
+Solo se ha apparecchi o impianti autonomi a gasolio (2.4b=2 o 2.7f=1 o 2.10b=2).  
+8.5 - Quanto avete speso per il gasolio consumato nel 2020?  
+Consulti il punto 4 dell’allegato alla lettera dell’ISTAT.  
+Non consideri le spese già indicate per l'impianto centralizzato. 
+ 
+A - spesa in Euro .................................................. |_|_|_|_|,00  (range 0-5000)  vai a Snodo 
+B - non so  ............................................................ 1 
+ 
+HELP:  Se non avete vissuto in questa abitazione per tutto il 2020, faccia riferimento soltanto al periodo 
+dell’anno in cui avete effettivamente vissuto nell’abitazione. 
+ 
+
+PAGE 45
+ 
+ 44 
+Solo se 8.5b=1 (non so). 
+8.5c - Può indicarmi almeno una cifra approssimativa (gasolio)?  
+ 
+- meno di 600 Euro ............................................... 1 
+- da 600 a meno di 800 Euro  ............................... 2 
+- da 800 a meno di 1000 Euro .............................. 3 
+- da 1000 a meno di 1200 Euro ............................ 4 
+- da 1200 a meno di 1400 Euro ............................ 5 
+- da 1400 a meno di 1600 Euro ............................ 6 
+- da 1600 a meno di 2000 Euro ............................ 7 
+- da 2000 a meno di 2400 Euro ............................ 8 
+- da 2400 a meno di 3000 Euro ............................ 9 
+- 3000 Euro o più  ................................................. 10 
+- non so ................................................................. 11 
+ 
+Snodo. 
+Vai a 8.6 se ha apparecchi o impianti autonomi a GPL, cioè se si verifica almeno una delle condizioni: 
+ 2.2h=1 (stufe fisse a gpl riscaldamento casa) 
+ 2.2m=1 (stufe portatili a gpl riscaldamento casa) 
+ 2.4b=3 (alimentazione autonomo riscaldamento casa a gpl) 
+ 2.7g=1 (scaldabagni a GPL per acqua calda) 
+ 2.10b=3 (alimentazione autonomo casa a gpl) 
+ 2.14b=1 (servizi: gpl di rete)  
+ 7.24=3 (piano cottura a gpl) 
+ 7.27=1 (barbecue a gpl) 
+ 7.29=3 (forno a gpl) 
+Gli altri vanno a 8.7. 
+ 
+GPL 
+ 
+Solo se ha apparecchi o impianti autonomi a GPL (2.2h=1 o 2.2m=1 o 2.4b=3 o 2.7g=1 o 2.10b=3 o 2.14b=1 o 7.24=3 o 
+7.27=1 o 7.29=3). 
+8.6 - Quanto avete speso per il GPL (bombole, cisterne o di rete) consumato nel 2020?  
+Può consultare il punto 4 dell’allegato alla lettera dell’ISTAT.  
+Non consideri le spese già indicate per l'impianto centralizzato. 
+ 
+A - spesa in Euro .................................................. |_|_|_|_|,00  (range 0-5000)  vai a 8.7 
+B - non so  ............................................................ 1 
+ 
+HELP:  Se non avete vissuto in questa abitazione per tutto il 2020, faccia riferimento soltanto al periodo 
+dell’anno in cui avete effettivamente vissuto nell’abitazione.  
+ 
+Solo se 8.6b=1 (non so). 
+8.6c - Può indicarmi almeno una cifra approssimativa (GPL)?  
+ 
+- meno di 100 Euro ............................................... 1 
+- da 100 a meno di 150 Euro  ............................... 2 
+- da 150 a meno di 200 Euro  ............................... 3 
+- da 200 a meno di 300 Euro  ............................... 4 
+- da 300 a meno di 400 Euro ................................ 5 
+- da 400 a meno di 600 Euro ................................ 6 
+- da 600 a meno di 800 Euro ................................ 7 
+- da 800 a meno di 1200 Euro .............................. 8 
+- 1200 Euro o più  ................................................. 9 
+- non so ................................................................. 10 
+ 
+  
+
+PAGE 46
+ 
+ 45 
+QUESITI LEGATI ALL’EMERGENZA COVID-19 
+ 
+Per tutti. 
+8.7 - Ritiene che le spese per consumi energetici della Sua famiglia abbiano subìto complessivamente un 
+cambiamento nel 2020 rispetto agli anni precedenti, attribuibile alla particolare condizione venutasi a creare 
+a causa dell'emergenza sanitaria Covid-19? 
+ 
+- sono molto diminuite ......................................... 1 
+- sono diminuite in modo moderato ..................... 2 
+- sono rimaste sostanzialmente invariate .............. 3 
+- sono aumentate in modo moderato .................... 4 
+- sono aumentate in modo notevole ...................... 5 
+- non so ................................................................. 6 
+ 
+HELP: Consideri anche le minori o maggiori spese energetiche dovute all'assenza o presenza forzata di alcune 
+persone nell'abitazione durante i mesi di Lockdown (il periodo con restrizioni alla libera circolazione delle persone a 
+causa del Covid-19). 
+ 
+8.8 - Con riferimento ai mesi di Lockdown per il Covid-19 nell’anno 2020, può indicare il numero di componenti 
+familiari che sono stati forzatamente assenti e delle persone che non appartengono alla famiglia ma sono state 
+forzatamente presenti nell’abitazione?  
+A - numero di familiari ASSENTI dall’abitazione durante il Lockdown ............................. |_|        (range 0-9) 
+B - numero TOTALE di giorni di assenza (di questi familiari assenti)  .............................. |_|_|_|  (range 1-999) 
+ 
+ 
+C - numero di persone non appartenenti alla famiglia PRESENTI durante il Lockdown .... |_|        (range 0-9) 
+D - numero TOTALE di giorni di presenza (di queste persone presenti)  ........................... |_|_|_|  (range 1-999) 
+ 
+INCENTIVI E RISORSE ECONOMICHE 
+ 
+Per tutti. 
+8.9 - Nel corso degli ultimi 5 anni, la sua famiglia ha usufruito di incentivi o agevolazioni per aumentare l’efficienza 
+energetica, per l'installazione di impianti da fonte rinnovabile o per l'acquisto di veicoli elettrici/ibridi?  
+Faccia riferimento ai soli incentivi o agevolazioni avviati negli ultimi 5 anni. Risponda sì anche per eventuali 
+inventivi/agevolazioni ottenuti a livello condominiale. 
+ 
+Dare una risposta per ogni riga. 
+ SÌ NO 
+A - detrazioni fiscali (Ecobonus, Bonus Casa, Superbonus 110%)………………………………... 1 2 
+B - Conto Termico per l'installazione di pompe di calore, apparecchi a biomassa, pannelli solari 
+termici o altro……………………………………………………………………………………  
+1 2 
+C - incentivi o agevolazioni per l’installazione di pannelli solari fotovoltaici……………………. 1 2 
+D - incentivi o agevolazioni per l’installazione di altri impianti per la produzione di energia 
+elettrica da fonti rinnovabili (mini-eolico, mini-idro ecc.)…………………………………….. 
+1 2 
+E - incentivi o agevolazioni per l’acquisto di veicoli elettrici o ibridi……………………………. 1 2 
+F - altri incentivi o agevolazioni (ad esempio contributi regionali)……………….………………. 1 2 
+ 
+8.10 - Tenendo presente le esigenze di tutti i componenti familiari, come sono state le risorse economiche 
+complessive della famiglia nell’anno 2020? 
+ 
+- ottime ................................................................. 1 
+- adeguate ............................................................. 2 
+- scarse .................................................................. 3 
+- assolutamente insufficienti ................................. 4 
+ 
+Visualizzare: 
+L’intervista è terminata. Può inviare il questionario cliccando sul pulsante Invia il questionario  
+La ringraziamo per la preziosa collaborazione! 
+ 

@@ -1,0 +1,225 @@
+{
+  "raw_n": 20000,
+  "eligible_n": 19445,
+  "split_counts": {
+    "train": 13611,
+    "test": 2918,
+    "tune": 2916
+  },
+  "outside_reference_range": 0,
+  "household_weight_total": 25266108.0,
+  "effective_n": 6925.619484390377,
+  "construction_unknown_pct": 4.092830601373191,
+  "probability": {
+    "eligible": 18817,
+    "train": 13190,
+    "tune": 2807,
+    "test": 2820,
+    "scores": [
+      {
+        "model": "quadratic",
+        "n": 2820,
+        "brier": 0.6858879755051108,
+        "log_loss": 1.261901498443331
+      },
+      {
+        "model": "quadratic_plus_location_type",
+        "n": 2820,
+        "brier": 0.6824690986064376,
+        "log_loss": 1.2579552867330674
+      },
+      {
+        "model": "training_marginal",
+        "n": 2820,
+        "brier": 0.7215150155976219,
+        "log_loss": 1.3244074181310836
+      }
+    ],
+    "penalty": 0.0001,
+    "models": {
+      "quadratic": {
+        "beta": [
+          [
+            1.5177292152012896,
+            1.231791701358565,
+            2.145714929182894,
+            0.0
+          ],
+          [
+            3.281404437891351,
+            -2.947345186540921,
+            1.1295779271940478,
+            0.0
+          ],
+          [
+            -1.8812822415988604,
+            1.5377954132584222,
+            -1.8989248639305705,
+            0.0
+          ],
+          [
+            -2.7795330504689595,
+            1.5901250342173177,
+            -1.6467558931739859,
+            0.0
+          ],
+          [
+            0.07434199951303316,
+            -0.6545482959575544,
+            0.26451792508044514,
+            0.0
+          ],
+          [
+            0.540238470056564,
+            -0.10477596764232285,
+            0.5461306704214496,
+            0.0
+          ]
+        ],
+        "penalty": 0.0001,
+        "names": [
+          "Intercept",
+          "Age/100",
+          "Area/100",
+          "Age squared/10000",
+          "Area squared/10000",
+          "Age x area/10000"
+        ]
+      },
+      "quadratic_plus_location_type": {
+        "beta": [
+          [
+            1.5419178734574497,
+            1.3698841447787848,
+            2.305880643231957,
+            0.0
+          ],
+          [
+            3.3532951501901875,
+            -3.0254609323253314,
+            1.2050352932687174,
+            0.0
+          ],
+          [
+            -2.349743688497515,
+            1.1653348617098314,
+            -2.030902632456127,
+            0.0
+          ],
+          [
+            -3.290360966541409,
+            1.3300877821734478,
+            -2.0011384284756635,
+            0.0
+          ],
+          [
+            0.024114055863494882,
+            -0.6851813222625519,
+            0.1646894641623249,
+            0.0
+          ],
+          [
+            0.742705348609508,
+            0.09948608071666548,
+            0.6252250500447222,
+            0.0
+          ],
+          [
+            0.3234325643321126,
+            -0.020934141480059152,
+            -0.06480499516435302,
+            0.0
+          ],
+          [
+            -0.2021902822908169,
+            -0.34966966479312,
+            -0.4627792060287962,
+            0.0
+          ],
+          [
+            0.21031105046151924,
+            0.19782950413922598,
+            -0.18988767870141737,
+            0.0
+          ],
+          [
+            0.7525162815521602,
+            0.7686021466379297,
+            0.4822901215638073,
+            0.0
+          ],
+          [
+            1.3646388797325602,
+            0.93636097190582,
+            1.0232021972179735,
+            0.0
+          ]
+        ],
+        "penalty": 0.0001,
+        "names": [
+          "Intercept",
+          "Age/100",
+          "Area/100",
+          "Age squared/10000",
+          "Area squared/10000",
+          "Age x area/10000",
+          "location: North-east",
+          "location: Centre",
+          "location: South/islands",
+          "dwelling_type: Multi-family",
+          "dwelling_type: Single-family"
+        ]
+      },
+      "marginal": [
+        0.24663709828283245,
+        0.3641643741936572,
+        0.2693702342484524,
+        0.11982829327505788
+      ]
+    }
+  },
+  "energy": {
+    "heating": {
+      "n": 18105,
+      "train_n": 12693,
+      "tune_n": 2714,
+      "test_n": 2698,
+      "groups": 7,
+      "unsupported_test": 6,
+      "rmse": 3.7717900834211515,
+      "baseline_rmse": 4.025407977025544,
+      "mean": 7.8783907133266435,
+      "test_mean": 7.972378865537847,
+      "anova": {
+        "n": 2617,
+        "formula": "heating ~ C(archetype) + C(dwelling_type) + C(location) + C(insulation) + age100 + area100 + C(cooling) + C(archetype):C(dwelling_type) + C(archetype):C(location) + C(archetype):C(insulation) + C(insulation):C(location) + C(dwelling_type):C(location) + C(dwelling_type):C(insulation) + age100:area100",
+        "rank": 43,
+        "columns": 43,
+        "weighted_r2": 0.15579013376972328,
+        "holm_significant_terms": [
+          "Location"
+        ]
+      }
+    },
+    "electricity": {
+      "n": 19445,
+      "train_n": 13611,
+      "tune_n": 2916,
+      "test_n": 2918,
+      "groups": 5,
+      "unsupported_test": 6,
+      "rmse": 1818.6420632680545,
+      "baseline_rmse": 1861.020405752753,
+      "mean": 2175.0766955463228,
+      "test_mean": 2242.4119695781465,
+      "anova": {
+        "n": 2792,
+        "formula": "electricity ~ C(archetype) + C(dwelling_type) + C(location) + C(insulation) + age100 + area100 + C(cooling) + C(archetype):C(dwelling_type) + C(archetype):C(location) + C(archetype):C(insulation) + C(insulation):C(location) + C(dwelling_type):C(location) + C(dwelling_type):C(insulation) + age100:area100",
+        "rank": 43,
+        "columns": 43,
+        "weighted_r2": 0.12620516872905174,
+        "holm_significant_terms": []
+      }
+    }
+  }
+}

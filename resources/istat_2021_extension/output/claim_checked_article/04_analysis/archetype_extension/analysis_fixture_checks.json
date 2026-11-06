@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "cases": [
+    "unequal weights, zero reference, signed/squared/absolute arithmetic",
+    "all zero without denominator replacement",
+    "expected individual maximum distinguished from coincident maximum"
+  ],
+  "thermal_runs": 0
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "id": "AE-CF-001",
+    "label": "Stock-model representativeness",
+    "exact_claim": "Brøgger and Wittchen's stock-model methodology review identifies representativeness of the modeled sample as a requirement for extrapolating to a building population.",
+    "sources": [
+      "CF-SRC-BROGGER2018"
+    ],
+    "scope": "Original review; national-stock extrapolation; no new effect estimate.",
+    "implementation_implication": "Use as the conference's methodological starting point; do not extrapolate illustrative Padova-weather cases to a city or national population.",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-CF-002",
+    "label": "Published stock-model lineage",
+    "exact_claim": "The CLIMA chapter explicitly positions ita-domes after MOIRAE, the MODENA report and the BSA2024 scenario study, and describes ita-domes as almost completely rewritten.",
+    "sources": [
+      "SRC-CLIMA2026",
+      "SRC-MOIRAE2020",
+      "CF-SRC-RSE2021",
+      "SRC-MODENA2024"
+    ],
+    "scope": "CLIMA p1303; thematic/publication lineage; exact current executable equivalence unresolved.",
+    "implementation_implication": "Carry forward the stated lineage with original citations; do not assert identical code, parameters or reproducibility across versions.",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-CF-003",
+    "label": "MODENA already includes household descriptors",
+    "exact_claim": "The official RSE2021 report description states that MODENA uses ISTAT building, sociodemographic, equipment and household-use information in hourly simplified residential modelling.",
+    "sources": [
+      "CF-SRC-RSE2021"
+    ],
+    "scope": "Official report page; report21012539; report body not obtained.",
+    "implementation_implication": "Novelty must concern the particular recovered demographic-class implementation and its evaluation, not the first inclusion of sociodemographics.",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-CF-004",
+    "label": "Lumped-capacitance evaluation precedent",
+    "exact_claim": "Vivian et al. compare5R1Cand7R2Cmodels with TRNSYS for a room and apartment, evaluating seasonal energy needs and dynamic/peak response separately.",
+    "sources": [
+      "CF-SRC-VIVIAN2017"
+    ],
+    "scope": "Four envelopes/four climates in the original study; model benchmark comparison.",
+    "implementation_implication": "Explain the conference1C lineage and limitations; this citation does not constitute a benchmark run of the present adapter.",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-CF-005",
+    "label": "Socioeconomic and thermal vulnerability precedent",
+    "exact_claim": "Calama-González et al. combine socioeconomic indicators with parametric thermal-comfort simulations for southern-Spain social housing.",
+    "sources": [
+      "CF-SRC-CALAMA2024"
+    ],
+    "scope": "Regional/neighbourhood case; §2.2 and abstract; indoor-temperature validation of individual models described.",
+    "implementation_implication": "Connect the conference's cited joint household/building/climate rationale to the extension, while excluding energy-poverty and accuracy claims without suitable inputs.",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-CF-006",
+    "label": "Validation target specificity",
+    "exact_claim": "Calama-González et al.'s described model checks compare hourly simulated indoor temperatures with monitored temperatures before parametric scaling.",
+    "sources": [
+      "CF-SRC-CALAMA2024"
+    ],
+    "scope": "§2.2 p4 Stage1; cited prior validation studies not independently audited.",
+    "implementation_implication": "Differentiate an indoor-temperature comparator from household heating energy or carrier validation; no numerical threshold imported.",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-CF-007",
+    "label": "Exact shared survey source",
+    "exact_claim": "CLIMA reference9 and the2025 archetype paper cite the Istat2013 public-use survey release, published30August2017.",
+    "sources": [
+      "CF-SRC-ISTAT2013PUF",
+      "SRC-CLIMA2026",
+      "SRC-ARCH2025"
+    ],
+    "scope": "Official pageID22523; CLIMA bibliography; ARCH data availability/reference38.",
+    "implementation_implication": "Use this exact citation for the common data foundation; distinguish it from the current research-fileMFRlanding page.",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-CF-008",
+    "label": "Reference-year weather boundary",
+    "exact_claim": "The official ISO15927-4:2005 abstract specifies reference-year construction for average annual heating/cooling energy and excludes extreme or semi-extreme-year construction.",
+    "sources": [
+      "CF-SRC-ISO159272005"
+    ],
+    "scope": "Official catalog scope only; full standard not read.",
+    "implementation_implication": "Keep typical-year simulated maximum loads separate from extreme design-year evidence; claim no file-conformity audit.",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-CF-009",
+    "label": "Conference standards and conversion boundary",
+    "exact_claim": "The conference cites Staffell2012 for heat-pump efficiency and UNI/TS11300-2:2019 for DHW/system energy calculations, whereas the present ideal useful-heating contrast omits those conversions.",
+    "sources": [
+      "SRC-CLIMA2026",
+      "CF-SRC-STAFFELL2012",
+      "CF-SRC-UNI113002019"
+    ],
+    "scope": "CLIMA§§3.1–3.2pp1305–1306; current protocol must verify exclusion.",
+    "implementation_implication": "Document the accounting departure; do not pad the central heating-input review with conversion formulas not implemented.",
+    "kind": "interpretation"
+  }
+]

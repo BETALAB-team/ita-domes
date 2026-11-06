@@ -1,0 +1,7 @@
+# Scientific quarantine and current candidate pointer
+
+All 66 pre-v5 annual executions, including both v4 campaign and its replay, are quarantined for scientific energy-effect claims. Current candidate outputs are the 20 v5 cases and one separately identified seeded replay, for 87 total annual executions. Independent technical review 03 supplement passed; fresh full-claim review 04 remains pending; empirical validation is absent.
+
+The successive defects in the inspected local working source were recursive timestep state updates, missing cloud code 99 entering sky-temperature forcing, and a windowless roof reusing the preceding wall's area/solar plane. Neither old algebraic agreement nor repeatability cured those physical errors. Original datasets, reports, sources, failed tests and manifests are preserved.
+
+V5 uses explicit local single-commit stepping, valid-IR native mean-sky correction and per-surface shortwave/longwave/window preprocessing. It passes component fixtures, standalone/order tests, all-hour surface and node forcing reconstruction, state balances, repetition/warm-up and replay/refusal checks. These establish limited implementation credibility only. Current canonical methods and numerical tables point to v5; no v1/v2/v3/v4 energy number may be promoted as an accepted scientific result. See `03_methods/methods_execution_report.md`, `surface_correction_protocol_v5.md` and `04_analysis/simulation_results.md`.

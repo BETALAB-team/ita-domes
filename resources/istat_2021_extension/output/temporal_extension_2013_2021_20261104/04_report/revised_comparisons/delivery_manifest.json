@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-04",
+  "status": "complete",
+  "revision": "Direct temporal language and paper-style graphics and tables",
+  "pages": 9,
+  "figures": 5,
+  "physical_tables": 12,
+  "source_integrity": {
+    "checked": 14,
+    "changed": [],
+    "all_unchanged": true
+  },
+  "analysis_integrity": {
+    "verified": 40,
+    "changed": []
+  },
+  "qa": "qa/verification.json",
+  "scientific_review": "../../03_review/revised_report_fidelity_check.md",
+  "review_closure": "review_closure.json",
+  "outputs": [
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\04_report\\revised_comparisons\\Household_archetypes_2013_2021_comparative_report.docx",
+      "bytes": 359675,
+      "sha256": "f56e241b722a607394de0929ba205db1547a378045a2f831d13fe7666abcb7bd"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\04_report\\revised_comparisons\\Household_archetypes_2013_2021_comparative_report.pdf",
+      "bytes": 514101,
+      "sha256": "9d70c48be643afc806571864de84acd8b16584d7ad864992c64834cbf7adcf87"
+    }
+  ],
+  "figure_sha256": {
+    "cluster_proportions.png": "57fc5c12497ae9a0fb21fd9f37759691b5479d5a0adcf6b47fa5a18f58388d46",
+    "cooling_availability.png": "9a6d6dd279a969d78b943d0adc372d6c934c2d19c6d480f52cd5cd7adab46ad0",
+    "operating_hours.png": "e3622f9679c3c26ca7a96186e65b5f78dab5878205d00f58143c1d65db359888",
+    "regional_proportions.png": "4b05fb5b886413af73a68bea6a2df132d08d98ff73660f3a499f770923fd1914",
+    "within_cluster_sum_squares.png": "daacfd7eb377e5e599ee1a2e0042e2825eb3a60fdb5703988c9cd9069e3ff1cc"
+  }
+}

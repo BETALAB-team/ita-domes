@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-20",
+  "reason": "Preserve first delivery before user-requested archetype implementation and literature expansion.",
+  "files": [
+    {
+      "path": "STATUS.md",
+      "preserved_sha256": "b55e2cab8001dd122bb2ea95a4ed5f83f1a5623a0420a000cb916c1f9161a403"
+    },
+    {
+      "path": "ARTIFACT_INDEX.md",
+      "preserved_sha256": "8135f5c28decfaf4499277823729a6291a0f0dcf3d8d0493167575d23c4716f1"
+    },
+    {
+      "path": "agent_manifest.md",
+      "preserved_sha256": "aa936574079a283ee1d835fb8f1c56426acc9154fd4df225a24687d996c3a22c"
+    },
+    {
+      "path": "01_plan/delivery_manifest.json",
+      "preserved_sha256": "5f3bbb050b166700d81f58212c931c21fc598361079c834ad93cb3c5da5c170d"
+    },
+    {
+      "path": "01_plan/prose_gate.json",
+      "preserved_sha256": "2b187ed0001bdf432ae02bb3dae7f60c6a99c60e0c3d29f2375b938bd55a94dc"
+    },
+    {
+      "path": "01_plan/research_questions.md",
+      "preserved_sha256": "7ca299ff639326df0c9336b1165feda1cab0d1349a4647b01ff3008ea5137e57"
+    },
+    {
+      "path": "01_plan/decisions.md",
+      "preserved_sha256": "5ecd11fd52a1b984ac4fb994561e61b20c0543d3eb4cb99c2e0f21808f6284dc"
+    },
+    {
+      "path": "06_claim_drafts/article_claims_final.md",
+      "preserved_sha256": "8a641ab68bd80fb96aad3016f3deea37ba0dbd4ab50ce9d984d8b59cfe50da7e"
+    },
+    {
+      "path": "06_claim_drafts/final_acceptance.md",
+      "preserved_sha256": "fe5ab45a2babaed68a15658be9626fedf485a0abe86f34a70316b358eadb8bca"
+    },
+    {
+      "path": "06_claim_drafts/claim_evidence_ledger.json",
+      "preserved_sha256": "185e2754310882afeb3d845847306aa2fe0ae152850c9ec1ed01883437cb3760"
+    },
+    {
+      "path": "07_reviews/final_closure.md",
+      "preserved_sha256": "0853158f1092e462a8c753b2cf55a7e87bb3876f2c2565f9caf8a368088618e6"
+    },
+    {
+      "path": "07_reviews/issue_register_final.json",
+      "preserved_sha256": "39b7973e54d63187ad53e8bdb65ab16f5a0450f58752caa4259239ef366765be"
+    },
+    {
+      "path": "07_reviews/issue_register.json",
+      "preserved_sha256": "39b7973e54d63187ad53e8bdb65ab16f5a0450f58752caa4259239ef366765be"
+    },
+    {
+      "path": "07_reviews/issue_register.md",
+      "preserved_sha256": "6bf7bc26e10bcc4ff32e9a4701b9deb30e777ad66b8c91caf5ab3d3a5bcd6e3b"
+    }
+  ]
+}

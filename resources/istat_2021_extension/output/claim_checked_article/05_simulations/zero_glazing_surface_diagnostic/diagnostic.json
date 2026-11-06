@@ -1,0 +1,39 @@
+{
+  "no_annual_simulation": true,
+  "original_roof_trace": [
+    {
+      "source_line": 839,
+      "surface": "Roof",
+      "has_window_attribute": false,
+      "actual_roof_opaque_area_m2": 80.00000000000001,
+      "local_A_op_used_m2": 19.2,
+      "local_TRV_equals_roof_irradiance": false
+    },
+    {
+      "source_line": 839,
+      "surface": "Roof",
+      "has_window_attribute": false,
+      "actual_roof_opaque_area_m2": 80.00000000000001,
+      "local_A_op_used_m2": 19.2,
+      "local_TRV_equals_roof_irradiance": false
+    }
+  ],
+  "local_object_workaround": "Attach the same window descriptor to zero-glazed roof/floor; glazed area remains zero. This makes the native branch initialize its own area and irradiance. No external source edit.",
+  "fixed_roof_glazed_area_m2": 0.0,
+  "unchanged_network_parameters": {
+    "Htr_is": true,
+    "Htr_w": true,
+    "Htr_ms": true,
+    "Htr_em": true,
+    "Cm": true,
+    "_air_thermal_capacity": true,
+    "Atot": true,
+    "Am": true
+  },
+  "fixed_preprocessing_longwave_difference_max_air_surface_mass_error_W": [
+    0.0,
+    6.039613253960852e-14,
+    1.8758328224066645e-12
+  ],
+  "workaround_pass": true
+}

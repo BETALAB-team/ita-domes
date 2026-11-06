@@ -1,0 +1,119 @@
+kind,group,metric,value,sd,unit,locator,note
+demographic,A1,min_age_mean,70.2,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A1,min_age_sd,11.2,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A1,max_age_mean,78.3,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A1,max_age_sd,5.0,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A1,number_mean,1.8,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A1,number_sd,0.7,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A1,studio_ind_mean,0.5,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A1,studio_ind_sd,0.1,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A1,household_share_pct,40.1,,percent,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A1,people_share_pct,29.9,,percent,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A2,min_age_mean,21.2,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A2,min_age_sd,7.6,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A2,max_age_mean,57.2,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A2,max_age_sd,8.6,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A2,number_mean,3.7,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A2,number_sd,0.9,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A2,studio_ind_mean,0.7,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A2,studio_ind_sd,0.1,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A2,household_share_pct,26.9,,percent,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A2,people_share_pct,40.2,,percent,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A3,min_age_mean,46.0,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A3,min_age_sd,12.8,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A3,max_age_mean,63.0,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A3,max_age_sd,8.0,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A3,number_mean,2.3,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A3,number_sd,0.8,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A3,studio_ind_mean,0.5,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A3,studio_ind_sd,0.1,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A3,household_share_pct,22.9,,percent,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A3,people_share_pct,21.3,,percent,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A4,min_age_mean,55.6,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A4,min_age_sd,17.1,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A4,max_age_mean,72.2,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A4,max_age_sd,9.0,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A4,number_mean,2.1,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A4,number_sd,0.8,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A4,studio_ind_mean,0.8,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A4,studio_ind_sd,0.1,,,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A4,household_share_pct,10.1,,percent,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+demographic,A4,people_share_pct,8.6,,percent,p7 Table3 / Fig5,Printed benchmark; no replacement by archive-derived value
+heating,H1,mean,4.67,3.54,h/day,p10 Table6,Declared on-hours
+heating,H2,mean,5.25,3.77,h/day,p10 Table6,Declared on-hours
+heating,H3,mean,6.91,4.43,h/day,p10 Table6,Declared on-hours
+heating,H4,mean,7.53,4.41,h/day,p10 Table6,Declared on-hours
+heating,H5,mean,8.53,4,h/day,p10 Table6,Declared on-hours
+heating,H6,mean,9.14,4.17,h/day,p10 Table6,Declared on-hours
+heating,H7,mean,9.67,4.28,h/day,p10 Table6,Declared on-hours
+electricity,E1,mean,1801,1502,kWh/year,p10 Table6,"Survey-based appliance model, not metered electricity"
+electricity,E2,mean,2023,1631,kWh/year,p10 Table6,"Survey-based appliance model, not metered electricity"
+electricity,E3,mean,2320,1502,kWh/year,p10 Table6,"Survey-based appliance model, not metered electricity"
+electricity,E4,mean,2646,1844,kWh/year,p10 Table6,"Survey-based appliance model, not metered electricity"
+electricity,E5,mean,2895,1853,kWh/year,p10 Table6,"Survey-based appliance model, not metered electricity"
+polynomial_Eq3,A1,intercept,0.289,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A1,age/100,0.692,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A1,area/100,0,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A1,age*area/10000,0,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A1,age^2/10000,-0.372,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A1,area^2/10000,-0.084,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A2,intercept,0.323,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A2,age/100,-0.523,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A2,area/100,0.104,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A2,age*area/10000,0,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A2,age^2/10000,0.269,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A2,area^2/10000,0,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A3,intercept,0.335,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A3,age/100,-0.23,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A3,area/100,-0.028,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A3,age*area/10000,0,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A3,age^2/10000,0.127,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A3,area^2/10000,0,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A4,intercept,0.033,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A4,age/100,0.039,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A4,area/100,0,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A4,age*area/10000,0.014,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A4,age^2/10000,0.152,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Eq3,A4,area^2/10000,0,,,p7 Eq3,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A1,intercept,0.29,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A1,age/100,0.69,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A1,area/100,0,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A1,age*area/10000,0,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A1,age^2/10000,-0.37,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A1,area^2/10000,-0.08,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A2,intercept,0.32,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A2,age/100,-0.52,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A2,area/100,0.1,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A2,age*area/10000,0,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A2,age^2/10000,0.27,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A2,area^2/10000,0,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A3,intercept,0.34,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A3,age/100,-0.23,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A3,area/100,-0.03,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A3,age*area/10000,0,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A3,age^2/10000,0.13,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A3,area^2/10000,0,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A4,intercept,0.03,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A4,age/100,0.04,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A4,area/100,0,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A4,age*area/10000,0.01,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A4,age^2/10000,0.02,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_Table4,A4,area^2/10000,0,,,p8 Table4,Printed absence encoded0. A4 age^2 differs materially between Eq3 and Table4; retained separately.
+polynomial_fit,A1,F_statistic,648.9,,,p8 Table4,Original model fit; no new validation
+polynomial_fit,A1,adjusted_R2,0.94,,,p8 Table4,Original model fit; no new validation
+polynomial_fit,A1,RMSE,0.02,,,p8 Table4,Original model fit; no new validation
+polynomial_fit,A2,F_statistic,571,,,p8 Table4,Original model fit; no new validation
+polynomial_fit,A2,adjusted_R2,0.93,,,p8 Table4,Original model fit; no new validation
+polynomial_fit,A2,RMSE,0.016,,,p8 Table4,Original model fit; no new validation
+polynomial_fit,A3,F_statistic,282.8,,,p8 Table4,Original model fit; no new validation
+polynomial_fit,A3,adjusted_R2,0.87,,,p8 Table4,Original model fit; no new validation
+polynomial_fit,A3,RMSE,0.008,,,p8 Table4,Original model fit; no new validation
+polynomial_fit,A4,F_statistic,219.7,,,p8 Table4,Original model fit; no new validation
+polynomial_fit,A4,adjusted_R2,0.84,,,p8 Table4,Original model fit; no new validation
+polynomial_fit,A4,RMSE,0.011,,,p8 Table4,Original model fit; no new validation
+regional_MANOVA,Wilks_lambda,value,0.8105,,,p6 Table2,"Printed inference concerns regional centroid effects, not equality of energy or shares"
+regional_MANOVA,Wilks_lambda,F_value,0.2226,,,p6 Table2,"Printed inference concerns regional centroid effects, not equality of energy or shares"
+regional_MANOVA,Wilks_lambda,p_value,1,,,p6 Table2,"Printed inference concerns regional centroid effects, not equality of energy or shares"
+regional_MANOVA,Roy_greatest_root,value,0.1687,,,p6 Table2,"Printed inference concerns regional centroid effects, not equality of energy or shares"
+regional_MANOVA,Roy_greatest_root,F_value,0.5329,,,p6 Table2,"Printed inference concerns regional centroid effects, not equality of energy or shares"
+regional_MANOVA,Roy_greatest_root,p_value,0.9357,,,p6 Table2,"Printed inference concerns regional centroid effects, not equality of energy or shares"

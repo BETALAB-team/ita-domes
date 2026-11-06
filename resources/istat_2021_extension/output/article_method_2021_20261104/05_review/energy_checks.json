@@ -1,0 +1,22 @@
+{
+  "H": {
+    "n": 48690,
+    "n_start": 80,
+    "n_groups": 9,
+    "merges": 71,
+    "mean": 8.551078250154037,
+    "weighted_mean": 8.506158163623619,
+    "terminal_max_p": 0.001992807139953534,
+    "cell_min_n": 217
+  },
+  "E": {
+    "n": 52617,
+    "n_start": 80,
+    "n_groups": 13,
+    "merges": 67,
+    "mean": 2068.663158588928,
+    "weighted_mean": 1936.4631698348862,
+    "terminal_max_p": 0.014253264375706065,
+    "cell_min_n": 228
+  }
+}

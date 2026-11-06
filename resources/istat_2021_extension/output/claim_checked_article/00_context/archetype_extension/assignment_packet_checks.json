@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-20",
+  "n": 17855,
+  "group_counts": {
+    "1": 7163,
+    "2": 4801,
+    "3": 4080,
+    "4": 1811
+  },
+  "source_to_mapping_exact": true,
+  "raw_compact_id_join_complete": true,
+  "baseline_disagreement_n": 318,
+  "baseline_disagreement_denominator": 17855,
+  "script_sha256": "68b0ed59af5a2caed31f9e13e0c4a74180f352a335e44078f89b5c844c0c7d33",
+  "mapping_sha256": "be8bc93ad8f5143f6393e9b270840a7e5a2edd90724edb60b2fb624680b09e2f",
+  "archived_source_sha256": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90",
+  "pass": true,
+  "boundary": "Archive consistency and ID provenance only; not exact published branch identity or empirical validation."
+}

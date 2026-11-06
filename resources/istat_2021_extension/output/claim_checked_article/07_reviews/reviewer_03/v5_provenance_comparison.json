@@ -1,0 +1,101 @@
+{
+  "review03_unchanged_sha256": "dda6e7288e34af7368f458cc40390297efa7b3da0ab097cabb1cb606e9e77e34",
+  "fix_source_sha256": "24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+  "protocol_sha256": "2860820cd4a3f1600dd517bc38a38dd11e6098f61435ff54a72304ec9b767c7c",
+  "sites": {
+    "Padova": {
+      "same_design_fields": {
+        "response": true,
+        "building": true,
+        "cases": true,
+        "cooling_upper_C": true,
+        "calendar": true,
+        "energy_boundary": true
+      },
+      "same_setpoint_and_weather_arrays_by_case": {
+        "seeded": true,
+        "early": true,
+        "late": true,
+        "repeat_seeded": true,
+        "warmup_seeded": true
+      },
+      "fix_snapshot_matches_frozen_manifest": true,
+      "fix_snapshot_sha256": "24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+      "single_commit_unchanged": true,
+      "IR_correction_unchanged": true,
+      "runner_sha256": "48b3175c67eb3983f2059f8de32f24480a3374090572b59e7c2e37c7f3ff8f2f"
+    },
+    "Bolzano": {
+      "same_design_fields": {
+        "response": true,
+        "building": true,
+        "cases": true,
+        "cooling_upper_C": true,
+        "calendar": true,
+        "energy_boundary": true
+      },
+      "same_setpoint_and_weather_arrays_by_case": {
+        "seeded": true,
+        "early": true,
+        "late": true,
+        "repeat_seeded": true,
+        "warmup_seeded": true
+      },
+      "fix_snapshot_matches_frozen_manifest": true,
+      "fix_snapshot_sha256": "24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+      "single_commit_unchanged": true,
+      "IR_correction_unchanged": true,
+      "runner_sha256": "48b3175c67eb3983f2059f8de32f24480a3374090572b59e7c2e37c7f3ff8f2f"
+    },
+    "Roma": {
+      "same_design_fields": {
+        "response": true,
+        "building": true,
+        "cases": true,
+        "cooling_upper_C": true,
+        "calendar": true,
+        "energy_boundary": true
+      },
+      "same_setpoint_and_weather_arrays_by_case": {
+        "seeded": true,
+        "early": true,
+        "late": true,
+        "repeat_seeded": true,
+        "warmup_seeded": true
+      },
+      "fix_snapshot_matches_frozen_manifest": true,
+      "fix_snapshot_sha256": "24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+      "single_commit_unchanged": true,
+      "IR_correction_unchanged": true,
+      "runner_sha256": "48b3175c67eb3983f2059f8de32f24480a3374090572b59e7c2e37c7f3ff8f2f"
+    },
+    "Palermo": {
+      "same_design_fields": {
+        "response": true,
+        "building": true,
+        "cases": true,
+        "cooling_upper_C": true,
+        "calendar": true,
+        "energy_boundary": true
+      },
+      "same_setpoint_and_weather_arrays_by_case": {
+        "seeded": true,
+        "early": true,
+        "late": true,
+        "repeat_seeded": true,
+        "warmup_seeded": true
+      },
+      "fix_snapshot_matches_frozen_manifest": true,
+      "fix_snapshot_sha256": "24768556f49ef341791647502f0fe5d1f8baddc3e5c2fcf5df23a124f106883a",
+      "single_commit_unchanged": true,
+      "IR_correction_unchanged": true,
+      "runner_sha256": "48b3175c67eb3983f2059f8de32f24480a3374090572b59e7c2e37c7f3ff8f2f"
+    }
+  },
+  "audit_hashes": {
+    "v5_forcing_checks.json": "cea309f33597f20f7e78d3d9a8e65b2f383ab7e7ea8133dd6a243267c104b1d6",
+    "independent_audit_v5.json": "1f20eed3570602f43ac547693549c303c288e3af20a788d680f2d650704e2c22",
+    "verify_v5_forcing.py": "016be5f34091b9ea4a937ec65e78fae549fd82910a9eaaf15cf112d8a61d1147",
+    "independent_audit_v5.py": "efefcf16d6e79278448d4d5bb9cf147b70060544639f1f62f75fd74b05be3815"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "version": "0.4.0",
+  "method_version": "reference_signature_v1",
+  "started_utc": "2026-09-29T22:35:05.724327+00:00",
+  "status": "complete",
+  "python": "3.12.2",
+  "input_sha256": "f4e107325b0d8df62991a445c8be433e28d9d6ed4bf2fac47e4476ee04f64d52",
+  "config_sha256": "9606df275c32c37b144733b7f14c17875645cbfd8aefc715421dfdfd10cca17e",
+  "output": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio_runs\\packaged_v0_4\\fresh\\20260930_003505_23a178",
+  "weather": [
+    {
+      "name": "Milano",
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio\\weather\\Milano.epw",
+      "sha256": "515d291bcb59c17510f62dc6d79a296237359dc822658c44e14d69f1a3ba641f",
+      "source": "https://energyplus-weather.s3.amazonaws.com/europe_wmo_region_6/ITA/ITA_Milano-Linate.160800_IGDG/ITA_Milano-Linate.160800_IGDG.epw"
+    },
+    {
+      "name": "Roma",
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio\\weather\\Roma.epw",
+      "sha256": "d6e888fa8b25983f475b60d5a3c1769237c66f172baa018dcefbac0a946b8cdd",
+      "source": "https://energyplus-weather.s3.amazonaws.com/europe_wmo_region_6/ITA/ITA_Roma-Ciampino.162390_IGDG/ITA_Roma-Ciampino.162390_IGDG.epw"
+    },
+    {
+      "name": "Palermo",
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio\\weather\\Palermo.epw",
+      "sha256": "edfcd99b0296fee9a251086f19b56df1dba546d173e0a11dbf7af77c87877516",
+      "source": "https://energyplus-weather.s3.amazonaws.com/europe_wmo_region_6/ITA/ITA_Palermo-Boccadifalco.164000_IGDG/ITA_Palermo-Boccadifalco.164000_IGDG.epw"
+    }
+  ],
+  "model_scope": "Annual sensible zone heating/cooling demand; appliance electricity separate.",
+  "data_boundary": "2021 heating/cooling indices are reported daily hours, not measured thermal kWh. Appliance kWh are model-derived.",
+  "hybrid_equation": "EP(reference,u) * conductance ratio * adjusted degree-sum ratio; ISTAT ratio retained as baseline",
+  "selected_hybrid": "climate_exposure_gains",
+  "assumptions": [
+    "One fixed-area hypothetical space; not a surveyed home or a metered validation case.",
+    "The baseline scales reference energy by survey hours. The extended hybrid learns its balance point and solar response from reference daily EP energy only.",
+    "Survey indices use training households, supported joint cohorts and survey weights. Missing cooling hours are excluded, not filled.",
+    "Cooling hours describe reporting cooling users; they are not an unconditional population cooling-energy index.",
+    "Target EPW weather supplies daily climate and solar indices; survey macro-regions supply household associations, not exact city observations.",
+    "Exposure and mean internal-gain adjustments are static assumptions. The hybrid has no thermal capacitance, indoor-temperature state or target thermal simulation.",
+    "Hybrid annual estimates have no inferred hourly shape, peak load or monthly distribution.",
+    "Detailed EP models use assumed daily schedules, adiabatic neighbours and constant ground temperature.",
+    "Appliance input and transfer use the same survey reconstruction; agreement is not independent validation.",
+    "Data-only reports hours and reconstructed appliance kWh; thermal kWh remain unavailable."
+  ],
+  "selected_energy_groups": {
+    "heating": 4,
+    "electricity": 5
+  },
+  "anchor_scenario": "Milano__Multi-family__A2",
+  "scenario_count": 36,
+  "energyplus_version": "EnergyPlus, Version 25.1.0-68a4a7c774",
+  "reference_simulations_used": 1,
+  "signature_ablations_sha256": "b119e94a933b5a5495f688ebd31939e0b8812d762320526be3faa0d648299776",
+  "signature_fit_sha256": "6566a72cc4ce902bf2037fbf476b7868266b0c67b3693e947779f7395f56360b",
+  "hybrid_frozen_sha256": "a8156b52d7dd2fa35ddafded4188c36f53aa19075b9b1054b374ea80f1611813",
+  "hybrid_frozen_utc": "2026-09-29T22:35:12.946400+00:00",
+  "energyplus_processes_run": 1,
+  "energyplus_seconds_sum": 2.1057362999999896,
+  "hybrid_anchor_simulation_seconds": 2.1057362999999896,
+  "energyplus_warning_counts": {
+    "S006": 0
+  },
+  "elapsed_seconds": 22.619627400068566,
+  "finished_utc": "2026-09-29T22:35:28.411303+00:00"
+}

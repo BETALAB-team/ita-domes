@@ -1,0 +1,73 @@
+{
+  "status": "arithmetic/profile check passed; no empirical validation",
+  "source_run": "05_simulations/padova_pilot_v1",
+  "summary_sha256": "20843b790ed4c0122d3318c16f50908ae6c10316910013219f4b1d1fb90583a6",
+  "completion_manifest_sha256": "07cfae5e9031c8a7fffc71936c2a4d3448921ebd7e611b90ed25f7aeeee944ee",
+  "cases": {
+    "seeded": {
+      "annual_kWh": 6521.185621151082,
+      "peak_kW": 9.0052750408757,
+      "block_counts_h": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "hourly_sha256": "6e6594407ace0b6e8758ac12d2ee7914fb3efdf6bedeb26d442d0b33fe632f25"
+    },
+    "early": {
+      "annual_kWh": 6376.549898365349,
+      "peak_kW": 9.151180652084733,
+      "block_counts_h": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "hourly_sha256": "d1a21414db787dd9238a7c9b99bf2e7215fb07d6f2cbb4ddd1a04f9883020696"
+    },
+    "late": {
+      "annual_kWh": 6412.555599108988,
+      "peak_kW": 8.880515484135467,
+      "block_counts_h": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "hourly_sha256": "494707602dced50b6b1a03554f02c2e3829c5d294184af53f98c4da24a62cdf7"
+    },
+    "repeat_seeded": {
+      "annual_kWh": 6521.185621151082,
+      "peak_kW": 9.0052750408757,
+      "block_counts_h": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "hourly_sha256": "6e6594407ace0b6e8758ac12d2ee7914fb3efdf6bedeb26d442d0b33fe632f25"
+    },
+    "warmup_seeded": {
+      "annual_kWh": 6521.185621150961,
+      "peak_kW": 9.0052750408757,
+      "block_counts_h": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "hourly_sha256": "48a04f59d7702b2b6dda61b47b411cfcf28b01939c21af3afd98c8a5516f11d2"
+    }
+  },
+  "deltas": {
+    "early": {
+      "annual_minus_seeded_kWh": -144.63572278573338,
+      "annual_minus_seeded_percent": -2.21793598876584,
+      "peak_minus_seeded_kW": 0.14590561120903267,
+      "peak_minus_seeded_percent": 1.6202238193365082
+    },
+    "late": {
+      "annual_minus_seeded_kWh": -108.63002204209442,
+      "annual_minus_seeded_percent": -1.6658017169417727,
+      "peak_minus_seeded_kW": -0.12475955674023353,
+      "peak_minus_seeded_percent": -1.385405289388042
+    }
+  },
+  "caveat": "Single assumed dwelling, survey row, code adapter and Padova-coordinate TMY; thermal demand only."
+}

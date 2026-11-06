@@ -1,0 +1,23 @@
+{
+  "input_config": "multiyear_workflow_config.json",
+  "output_root": "revised_paper_outputs",
+  "pdf_directory": "output/pdf",
+  "seed": 20260913,
+  "train_fraction": 0.7,
+  "tune_fraction": 0.15,
+  "n_clusters": 4,
+  "kmeans_starts": 12,
+  "age_cap": 100,
+  "no_or_primary_years": 2.5,
+  "tertiary_years": 18.0,
+  "minimum_cell_count": 30,
+  "probability_penalties": [0.00001, 0.0001, 0.001, 0.01],
+  "group_minimum_train_count": 30,
+  "group_maximum_count": 8,
+  "notes": [
+    "This is a methodologically revised reanalysis, not an author-approved corrigendum.",
+    "Household age-class midpoints are proxies; the two releases have non-nested age bands.",
+    "2021 uses frozen 2013 demographic transformations and centroids.",
+    "2021 appliance electricity uses the verified main-branch 2013 component boundary with documented assumptions and sensitivity scenarios."
+  ]
+}

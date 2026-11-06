@@ -1,0 +1,17 @@
+{
+  "site": "Roma",
+  "old_invalid_cloud_derived_mean_delta_K": -81.01330893950579,
+  "corrected_IR_mean_delta_K": 13.551708113654966,
+  "sigma_W_m2_K4": 5.6697e-08,
+  "interval_hours": 1,
+  "source": "valid raw horizontal IR; no cloud filling",
+  "formulation": "native annual-mean air-minus-effective-sky scalar retained",
+  "active_path_guarded_invalid_keys": [
+    "wind_speed",
+    "opaque_sky_coverage"
+  ],
+  "active_forcing_gate_pass": true,
+  "whole_weather_file_universally_valid": false,
+  "raw_epw_sha256": "edbe4470b89164c1c80e8dd8969949addfd132ce4a10cb93278eb88c8f1247cd",
+  "pre_run_audit_sha256": "90084cb3d7e1b3a37f2523e4e05c1510f1eb276d1ccc71a634de6ce3a16d079f"
+}

@@ -1,0 +1,22 @@
+{
+  "reference": "C:/Users/khajmoh18975/Downloads/1-s2.0-S0378778825006541-main.pdf",
+  "reference_sha256": "8995443d5c1b92313730c75c99512f94122aac4f8e0a79b4fe00bca5b269aae2",
+  "inspected_pages": [6, 7, 10, 11],
+  "scope": "Match the original paper's figures, table styling and captions; revise the report narrative around explicit 2013 and 2021 comparisons",
+  "cluster_colours": ["#4169E1", "#50C878", "#FFBF00", "#D50032"],
+  "figure_style": "Serif labels, thin black axes, white background, light grey grids, small black circular markers on WCSS, stacked proportions with white in-bar percentage labels and legend ordered Cluster 4 through Cluster 1",
+  "table_style": "Compact serif typography, white cells, black horizontal top/header/bottom rules, no vertical rules, caption above the table, mean followed by standard deviation in parentheses",
+  "reused_titles": [
+    "User archetypes derived from k-means clustering.",
+    "Proportion of each cluster among households and people.",
+    "Within Cluster Sum of Squares as a function of number of clusters.",
+    "Significant groups for heating system usage.",
+    "Significant groups for annual electricity consumption"
+  ],
+  "intentional_adaptations": [
+    "Times New Roman substitutes for Charis SIL, which is not installed",
+    "Single-column report pages provide space for paired 2013 and 2021 panels",
+    "New outcome graphics use titles describing the actual variables, retaining the source paper's visual grammar",
+    "The 2013 WCSS panel is rendered from the original publisher PDF without refitting"
+  ]
+}

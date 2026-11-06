@@ -1,0 +1,43 @@
+{
+  "version": "0.1.0",
+  "started_utc": "2026-09-29T11:55:04.349745+00:00",
+  "status": "complete",
+  "python": "3.12.2",
+  "input_sha256": "f4e107325b0d8df62991a445c8be433e28d9d6ed4bf2fac47e4476ee04f64d52",
+  "config_sha256": "12749148b4392a8f1a9110994166bd5721d2a3b4c79a0d529cb95c4358712481",
+  "output": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio_runs\\20260929_135504_3fc199",
+  "weather": [
+    {
+      "name": "Roma",
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_studio\\weather\\Roma.epw",
+      "sha256": "d6e888fa8b25983f475b60d5a3c1769237c66f172baa018dcefbac0a946b8cdd",
+      "source": "https://energyplus-weather.s3.amazonaws.com/europe_wmo_region_6/ITA/ITA_Roma-Ciampino.162390_IGDG/ITA_Roma-Ciampino.162390_IGDG.epw"
+    }
+  ],
+  "model_scope": "Annual sensible zone heating/cooling demand, not HVAC electricity or whole-building final energy.",
+  "data_boundary": "Appliance kWh are existing model-derived estimates. Heating/cooling kWh are not measured in the supplied 2021 household table.",
+  "assumptions": [
+    "100 m\u00b2 default is a controlled hypothetical dwelling, not a surveyed home.",
+    "Survey daily hours constrain assumed setpoint schedules, not measured hourly operation.",
+    "Neighbour boundaries are adiabatic; ground temperature is a configurable constant.",
+    "Fixed daily occupancy/appliance profile shapes are assumptions; annual appliance amount and household size are data-derived.",
+    "RC uses isotropic solar transposition and a lumped capacity; EnergyPlus resolves surface heat balances.",
+    "No claims of calibration to real meters or legal/standard compliance."
+  ],
+  "anchor_used_for_calibration_only": true,
+  "anchor_scenario": "Roma__Apartment__A1",
+  "scenario_count": 4,
+  "energyplus_version": "EnergyPlus, Version 25.1.0-68a4a7c774",
+  "hybrid_annual_anchor_multipliers": {
+    "heating_kwh": 0.6298072546247696,
+    "cooling_kwh": 0.5762798464055126
+  },
+  "energyplus_processes_run": 1,
+  "energyplus_seconds_sum": 1.975648200022988,
+  "hybrid_anchor_simulation_seconds": 1.975648200022988,
+  "energyplus_warning_counts": {
+    "S001": 0
+  },
+  "elapsed_seconds": 6.689888400025666,
+  "finished_utc": "2026-09-29T11:55:11.067993+00:00"
+}

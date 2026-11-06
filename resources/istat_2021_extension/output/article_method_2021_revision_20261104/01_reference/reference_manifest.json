@@ -1,0 +1,37 @@
+[
+  {
+    "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\02_probabilities\\household_archetypes_2021.csv",
+    "copy": "01_reference\\household_archetypes_2021.csv",
+    "sha256": "e9d7d2f72e6cceb5e5d9beafe817dfbba2da3d32f692414257cbd5c62771167d"
+  },
+  {
+    "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\02_probabilities\\dwelling_samples_2021.csv",
+    "copy": "01_reference\\dwelling_samples_2021.csv",
+    "sha256": "d3a279166f3b67b008d764da97e09137af9e1a2de1af73efc107232082dc521c"
+  },
+  {
+    "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\02_probabilities\\polynomial_coefficient_matrix.csv",
+    "copy": "01_reference\\polynomial_coefficient_matrix.csv",
+    "sha256": "4606d9d32726209bcae11805a4615acc9bcbeaeeb00e3b22f59bd07418d9fb9b"
+  },
+  {
+    "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\requirements-2021.txt",
+    "copy": "01_reference\\requirements-2021.txt",
+    "sha256": "bb9c7561fdb183bf45707d93cd2d6611e6db189aa16c07e1a7da3b83cd8de896"
+  },
+  {
+    "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\00_baseline\\published_benchmarks.json",
+    "copy": "01_reference\\published_benchmarks.json",
+    "sha256": "f2f1b5934fe8204a49f0e2f38d98f9e8f85bdde48c7f909b493cd04ce079d9d6"
+  },
+  {
+    "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\00_baseline\\baseline_freeze.json",
+    "copy": "01_reference\\baseline_freeze.json",
+    "sha256": "8570c43892748456b7bb78d2f50cf8bf534929918655ad6c3769d3ecfa4f0c02"
+  },
+  {
+    "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\probablities_only.csv",
+    "copy": "01_reference\\probablities_only.csv",
+    "sha256": "8de054f2c8ce1eed3b5af045b68849a1e24ae6b1273cb9e4dd2e1dc2a02903ec"
+  }
+]

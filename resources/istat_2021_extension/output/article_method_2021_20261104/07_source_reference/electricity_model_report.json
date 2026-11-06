@@ -1,0 +1,21 @@
+{
+  "main_commit": "ccdbf72d40843f4a4882655103d6352de299a1bc",
+  "database_sha256": "4d9b91f5a4302fa62ea241c347f54f17f96fb908562519b6bf1e3898e706ec08",
+  "2013_max_absolute_replication_error_kwh": 1.8189894035458565e-12,
+  "2013_n": 20000,
+  "2021_n": 54069,
+  "weighted_mean_kwh": 1949.1860095094185,
+  "weighted_lower_scenario_kwh": 1527.1184153223548,
+  "weighted_upper_scenario_kwh": 2705.67106271211,
+  "assumptions": [
+    "Reference 2013 power, efficiency and operating-day parameters, not an updated 2021 efficiency database.",
+    "Lighting hours per bulb type: weighted 2013 average; alternative scenarios 3 and 7 hours/day.",
+    "Small-appliance background: weighted 2013 mean; alternatives zero and twice that mean.",
+    "Fridge capacity/multiplicity: weighted 2013 owner distribution; alternatives small/single and large/factor 1.3.",
+    "2021 age-band midpoints mapped to legacy relative-age EEI; unknown age uses EEI 65.",
+    "Infrequent laundry/dishwashing: 18 cycles/year; alternatives 0 and 24.",
+    "Primary TV type represents TV power. Primary PC type represents all computers/tablets; alternatives all portable/all desktop.",
+    "Generic standby uses released member count; top-coded six-or-more households excluded by manuscript eligibility.",
+    "Scenarios are assumptions, not confidence intervals; no measured electricity validation claimed."
+  ]
+}

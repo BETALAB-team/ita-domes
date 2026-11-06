@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-04",
+  "status": "complete",
+  "analysis_year": 2021,
+  "primary_probability_matrix": "02_probability_candidates/recommended_full_quadratic_matrix.csv",
+  "probability_basis": [
+    "1",
+    "age/100",
+    "area/100",
+    "age*area/10000",
+    "age^2/10000",
+    "area^2/10000"
+  ],
+  "application_domain": {
+    "age_years": [
+      15,
+      135
+    ],
+    "area_m2": [
+      40,
+      136
+    ]
+  },
+  "probability_nodes": 125,
+  "heating_groups": 4,
+  "electricity_groups": 5,
+  "appendix_assignments": 160,
+  "report_pages": 9,
+  "python": "C:\\Users\\khajmoh18975\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "checks": {
+    "previous_package_files_unchanged": 136,
+    "protected_2013_files_unchanged": 14,
+    "new_probability_artifacts_unchanged": 52,
+    "independent_probability_check": "05_review/probability_check.json",
+    "independent_energy_check": "05_review/compact_check.json",
+    "independent_report_check": "05_review/final_report_check.md",
+    "visual_review": "All nine final pages inspected"
+  },
+  "selection": "Energy: smallest K within one-SE of best five-fold RMSE and at least95% between-cell mean variation retained; design choice, conditional on fixed demographic labels.",
+  "references": [
+    {
+      "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\02_probabilities\\household_archetypes_2021.csv",
+      "copy": "01_reference\\household_archetypes_2021.csv",
+      "sha256": "e9d7d2f72e6cceb5e5d9beafe817dfbba2da3d32f692414257cbd5c62771167d"
+    },
+    {
+      "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\02_probabilities\\dwelling_samples_2021.csv",
+      "copy": "01_reference\\dwelling_samples_2021.csv",
+      "sha256": "d3a279166f3b67b008d764da97e09137af9e1a2de1af73efc107232082dc521c"
+    },
+    {
+      "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\02_probabilities\\polynomial_coefficient_matrix.csv",
+      "copy": "01_reference\\polynomial_coefficient_matrix.csv",
+      "sha256": "4606d9d32726209bcae11805a4615acc9bcbeaeeb00e3b22f59bd07418d9fb9b"
+    },
+    {
+      "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\requirements-2021.txt",
+      "copy": "01_reference\\requirements-2021.txt",
+      "sha256": "bb9c7561fdb183bf45707d93cd2d6611e6db189aa16c07e1a7da3b83cd8de896"
+    },
+    {
+      "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\00_baseline\\published_benchmarks.json",
+      "copy": "01_reference\\published_benchmarks.json",
+      "sha256": "f2f1b5934fe8204a49f0e2f38d98f9e8f85bdde48c7f909b493cd04ce079d9d6"
+    },
+    {
+      "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\00_baseline\\baseline_freeze.json",
+      "copy": "01_reference\\baseline_freeze.json",
+      "sha256": "8570c43892748456b7bb78d2f50cf8bf534929918655ad6c3769d3ecfa4f0c02"
+    },
+    {
+      "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\probablities_only.csv",
+      "copy": "01_reference\\probablities_only.csv",
+      "sha256": "8de054f2c8ce1eed3b5af045b68849a1e24ae6b1273cb9e4dd2e1dc2a02903ec"
+    }
+  ],
+  "report_sha256": {
+    "Italian_user_archetypes_2021_reconstruction.docx": "b80d259377c2d725312bfbc373b83c40f11214e4fa105babf7fbc5a8632d76bb",
+    "Italian_user_archetypes_2021_reconstruction.pdf": "827b071cfad61678059ec83c5e77461b9b8704b7189c78bc3495026ab0599d17"
+  }
+}

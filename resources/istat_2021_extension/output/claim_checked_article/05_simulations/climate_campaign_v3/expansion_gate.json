@@ -1,0 +1,11 @@
+{
+  "chronology": "Padova five annual cases and independent full-step balance checks passed before other sites launched",
+  "passed_gate": "output\\claim_checked_article\\05_simulations\\climate_campaign_v3\\Padova\\full_step_balance_checks.json",
+  "gate_sha256": "e6277222a55695bf58f88a0f8fa89d244e25bdb2f69839eaee8ae379ecabd27c",
+  "approved_utc": "2026-10-20T10:18:01Z",
+  "remaining_sites": [
+    "Bolzano",
+    "Roma",
+    "Palermo"
+  ]
+}

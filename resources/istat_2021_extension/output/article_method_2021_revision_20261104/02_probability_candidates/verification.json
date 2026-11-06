@@ -1,0 +1,11 @@
+{
+  "original_sources_unchanged": true,
+  "primary_dense_range_valid": true,
+  "primary_dense_simplex": true,
+  "same125_test_windows": true,
+  "old_baseline_refit21": true,
+  "new_fit125": true,
+  "matched_vintage_20_points": true,
+  "coefficient_basis_consistent": true,
+  "diagnostic_plot_QA": "Both PNG pairs visually inspected; final vintage legend moved outside axes to preserve data visibility. Canonical curve/node CSV values share identical equal age-node weights."
+}

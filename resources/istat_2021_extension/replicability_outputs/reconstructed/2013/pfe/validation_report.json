@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "source": {
+    "title": "Identification of Italian user archetypes for building energy simulations based on a national survey",
+    "doi": "10.1016/j.enbuild.2025.115924",
+    "raw_input": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\harmonized_istat.csv",
+    "raw_input_sha256": "9fd03a42b7707db03a0ad4eabac18dddf25504fd394122c5d9c66f10023fb115",
+    "archetype_input": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\baseline\\household_archetypes.csv",
+    "archetype_input_sha256": "1d4dea8d57a21927e6066d03e036d16da6530ec4e1e76196c9fc06807f2fff72"
+  },
+  "configuration": {
+    "dwelling_seed": 42,
+    "survey_year": 2013,
+    "minimum_support": 5,
+    "source_to_canonical": {},
+    "building_age_grid_step_years": 20,
+    "dwelling_area_grid_step_m2": 40,
+    "building_age_half_window_years": 6,
+    "dwelling_area_half_window_m2": 8
+  },
+  "row_counts": {
+    "archetyped_households": 17855,
+    "configured_windows": 63,
+    "supported_windows": 63,
+    "unsupported_windows": 0,
+    "windows_below_minimum_support": 12,
+    "unique_households_contributing_to_windows": 4374
+  },
+  "sample_count_range": {
+    "minimum": 2,
+    "maximum": 775
+  },
+  "probability_validation": {
+    "passed": true,
+    "checks": {
+      "dataset_is_nonempty": true,
+      "all_sample_counts_are_positive": true,
+      "archetype_counts_equal_sample_counts": true,
+      "probabilities_are_finite": true,
+      "probabilities_are_bounded": true,
+      "probabilities_sum_to_one": true,
+      "probabilities_equal_count_ratios": true,
+      "grid_coordinates_are_unique": true
+    },
+    "maximum_probability_sum_error": 2.220446049250313e-16,
+    "minimum_probability": 0.0,
+    "maximum_probability": 1.0
+  },
+  "outputs": {
+    "probabilities": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\pfe\\dwelling_archetype_probabilities.csv",
+    "model": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\pfe\\pfe_model.json",
+    "validation": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\pfe\\validation_report.json",
+    "unsupported_windows": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\replicability_outputs\\reconstructed\\2013\\pfe\\unsupported_windows.csv"
+  }
+}

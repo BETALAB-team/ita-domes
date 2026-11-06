@@ -1,0 +1,32 @@
+{
+  "pages": 11,
+  "pngs": 11,
+  "content_blocks": 86,
+  "missing_docx": [],
+  "missing_pdf": [],
+  "embedded_figures_verified": 5,
+  "native_equations": 1,
+  "frozen_probability_artifacts_verified": 44,
+  "changed_probability_artifacts": [],
+  "protected_original_sources_verified": 14,
+  "changed_original_sources": [],
+  "characters_by_page": [
+    2325,
+    1459,
+    2483,
+    1118,
+    1145,
+    2494,
+    2026,
+    743,
+    1847,
+    1814,
+    3318
+  ],
+  "visual_review": "passed: all 11 final rendered pages inspected; equation, group plots and editable Appendix A verified",
+  "renderer": "Native Word PDF export and current packaged render_docx.py with bundled Poppler",
+  "report_sha256": {
+    "Italian_user_archetypes_2021_reconstruction.docx": "cdc105aff0cb73069bd74f44263527fa8fcacb7e1fa3b3a19883cc540c627cd2",
+    "Italian_user_archetypes_2021_reconstruction.pdf": "d8fa8ff9fb29681c06a4041b598a2534e73a0983c204b0b972ac04b7e5894a82"
+  }
+}

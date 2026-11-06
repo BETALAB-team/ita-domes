@@ -1,0 +1,109 @@
+panel,series,x,category,value,reference_line
+Milano,EnergyPlus,0.0,Jan,0.0,False
+Milano,EnergyPlus,1.0,Feb,0.0,False
+Milano,EnergyPlus,2.0,Mar,0.0,False
+Milano,EnergyPlus,3.0,Apr,13.65899871218501,False
+Milano,EnergyPlus,4.0,May,73.57627770626982,False
+Milano,EnergyPlus,5.0,Jun,177.75903046746123,False
+Milano,EnergyPlus,6.0,Jul,348.8013282000882,False
+Milano,EnergyPlus,7.0,Aug,253.38902530734637,False
+Milano,EnergyPlus,8.0,Sep,104.23375323376364,False
+Milano,EnergyPlus,9.0,Oct,0.575721550640984,False
+Milano,EnergyPlus,10.0,Nov,0.0,False
+Milano,EnergyPlus,11.0,Dec,0.0,False
+Milano,One-run hybrid,0.0,Jan,0.0,False
+Milano,One-run hybrid,1.0,Feb,0.0,False
+Milano,One-run hybrid,2.0,Mar,0.0,False
+Milano,One-run hybrid,3.0,Apr,10.116295321208957,False
+Milano,One-run hybrid,4.0,May,66.28834339799691,False
+Milano,One-run hybrid,5.0,Jun,181.13150217017255,False
+Milano,One-run hybrid,6.0,Jul,328.70395115528197,False
+Milano,One-run hybrid,7.0,Aug,239.6832366549105,False
+Milano,One-run hybrid,8.0,Sep,88.16788558137182,False
+Milano,One-run hybrid,9.0,Oct,0.03809135105930444,False
+Milano,One-run hybrid,10.0,Nov,0.0,False
+Milano,One-run hybrid,11.0,Dec,0.0,False
+Milano,Survey + physics,0.0,Jan,0.0,False
+Milano,Survey + physics,1.0,Feb,0.0,False
+Milano,Survey + physics,2.0,Mar,0.0,False
+Milano,Survey + physics,3.0,Apr,17.56459237683988,False
+Milano,Survey + physics,4.0,May,115.09428048040188,False
+Milano,Survey + physics,5.0,Jun,314.49269729737006,False
+Milano,Survey + physics,6.0,Jul,570.7179092127612,False
+Milano,Survey + physics,7.0,Aug,416.1541570043883,False
+Milano,Survey + physics,8.0,Sep,153.08301327640402,False
+Milano,Survey + physics,9.0,Oct,0.06613676580171585,False
+Milano,Survey + physics,10.0,Nov,0.0,False
+Milano,Survey + physics,11.0,Dec,0.0,False
+Roma,EnergyPlus,0.0,Jan,0.0,False
+Roma,EnergyPlus,1.0,Feb,0.0,False
+Roma,EnergyPlus,2.0,Mar,0.07686666028082129,False
+Roma,EnergyPlus,3.0,Apr,0.7260713586242438,False
+Roma,EnergyPlus,4.0,May,60.39367584438707,False
+Roma,EnergyPlus,5.0,Jun,188.38123998512762,False
+Roma,EnergyPlus,6.0,Jul,351.70263376484877,False
+Roma,EnergyPlus,7.0,Aug,326.2871843077413,False
+Roma,EnergyPlus,8.0,Sep,157.52390228254873,False
+Roma,EnergyPlus,9.0,Oct,9.679104678687823,False
+Roma,EnergyPlus,10.0,Nov,0.0,False
+Roma,EnergyPlus,11.0,Dec,0.0,False
+Roma,One-run hybrid,0.0,Jan,0.0,False
+Roma,One-run hybrid,1.0,Feb,0.0,False
+Roma,One-run hybrid,2.0,Mar,0.0,False
+Roma,One-run hybrid,3.0,Apr,1.0802704007214143,False
+Roma,One-run hybrid,4.0,May,78.21976592831287,False
+Roma,One-run hybrid,5.0,Jun,228.16737617291935,False
+Roma,One-run hybrid,6.0,Jul,380.0034109400567,False
+Roma,One-run hybrid,7.0,Aug,339.4341779316076,False
+Roma,One-run hybrid,8.0,Sep,164.73101625551467,False
+Roma,One-run hybrid,9.0,Oct,6.158177895732547,False
+Roma,One-run hybrid,10.0,Nov,0.0,False
+Roma,One-run hybrid,11.0,Dec,0.0,False
+Roma,Survey + physics,0.0,Jan,0.0,False
+Roma,Survey + physics,1.0,Feb,0.0,False
+Roma,Survey + physics,2.0,Mar,0.0,False
+Roma,Survey + physics,3.0,Apr,1.8756381306560705,False
+Roma,Survey + physics,4.0,May,135.81041880640305,False
+Roma,Survey + physics,5.0,Jun,396.15954545813685,False
+Roma,Survey + physics,6.0,Jul,659.7874817847072,False
+Roma,Survey + physics,7.0,Aug,589.3484506761048,False
+Roma,Survey + physics,8.0,Sep,286.0170705262604,False
+Roma,Survey + physics,9.0,Oct,10.692242672654727,False
+Roma,Survey + physics,10.0,Nov,0.0,False
+Roma,Survey + physics,11.0,Dec,0.0,False
+Palermo,EnergyPlus,0.0,Jan,0.0,False
+Palermo,EnergyPlus,1.0,Feb,1.4834215981702774,False
+Palermo,EnergyPlus,2.0,Mar,1.0188360334276607,False
+Palermo,EnergyPlus,3.0,Apr,11.836746500608028,False
+Palermo,EnergyPlus,4.0,May,124.67385007838169,False
+Palermo,EnergyPlus,5.0,Jun,213.78934903568856,False
+Palermo,EnergyPlus,6.0,Jul,385.53543941097774,False
+Palermo,EnergyPlus,7.0,Aug,435.5367516875224,False
+Palermo,EnergyPlus,8.0,Sep,262.40205346697746,False
+Palermo,EnergyPlus,9.0,Oct,62.206307253923995,False
+Palermo,EnergyPlus,10.0,Nov,16.93478196769181,False
+Palermo,EnergyPlus,11.0,Dec,0.0,False
+Palermo,One-run hybrid,0.0,Jan,0.0,False
+Palermo,One-run hybrid,1.0,Feb,5.370258070836168,False
+Palermo,One-run hybrid,2.0,Mar,1.4540024314380633,False
+Palermo,One-run hybrid,3.0,Apr,20.48103697510899,False
+Palermo,One-run hybrid,4.0,May,155.9619348418038,False
+Palermo,One-run hybrid,5.0,Jun,253.3435467869343,False
+Palermo,One-run hybrid,6.0,Jul,401.0736791323757,False
+Palermo,One-run hybrid,7.0,Aug,425.1208987765261,False
+Palermo,One-run hybrid,8.0,Sep,269.1348377473836,False
+Palermo,One-run hybrid,9.0,Oct,58.18356505000708,False
+Palermo,One-run hybrid,10.0,Nov,19.024832140873247,False
+Palermo,One-run hybrid,11.0,Dec,0.0,False
+Palermo,Survey + physics,0.0,Jan,0.0,False
+Palermo,Survey + physics,1.0,Feb,9.324203275769854,False
+Palermo,Survey + physics,2.0,Mar,2.5245368202726217,False
+Palermo,Survey + physics,3.0,Apr,35.56055398744369,False
+Palermo,Survey + physics,4.0,May,270.79160155164095,False
+Palermo,Survey + physics,5.0,Jun,439.8721062725537,False
+Palermo,Survey + physics,6.0,Jul,696.3710986442188,False
+Palermo,Survey + physics,7.0,Aug,738.1234988494908,False
+Palermo,Survey + physics,8.0,Sep,467.29000778862184,False
+Palermo,Survey + physics,9.0,Oct,101.02221917070234,False
+Palermo,Survey + physics,10.0,Nov,33.03219320729618,False
+Palermo,Survey + physics,11.0,Dec,0.0,False

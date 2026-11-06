@@ -1,0 +1,256 @@
+
+PAGE 1
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Indagine sui consumi energetici delle 
+famiglie 
+ 
+Periodo di riferimento: anno 2013 
+ 
+Descrizione del file 
+ 
+ 
+Anno 2017 
+ 
+ 
+ 
+File ad uso pubblico  
+mIcro.STAT  
+ 
+
+PAGE 2
+ 2 
+INDICE 
+  
+ 
+ 
+ 
+Introduzione ......................................................................................................................... 3 
+Le misure di protezione adottate .......................................................................................... 4 
+Riferimenti bibliografici ......................................................................................................... 7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 3
+ 3 
+Introduzione  
+I file di microda ti ad uso pubblico (mIcro.STAT) sono collezioni  di dati elementari , 
+scaricabili via web (http://www.istat.it/it/archivio/microdati+ad+uso+pubblico), per le quali, a 
+partire dal 2013, sono stati sviluppati anche i corrispondenti file per la ricerca (MFR1). Il 
+contenuto informativo di questi ultimi è superiore rispetto a quello del file ad uso pubblico2.  
+Per la predisposizione del file mIcro.STAT  relativo all’ Indagine sui consumi energetici 
+delle famiglie , periodo di riferimento 2013, è stata adottata una opportuna  metodologia, 
+allo scopo di limitare il rischio di violazione della riservatezza . Gli scenari di intrusione 
+considerati sono stati:  
+ identificazione attraverso archivi esterni, ovvero attraverso il collegamento con i dati 
+rilasciati da altre fonti pubbliche; 
+ identificazione spontanea , ovvero conseguente a conoscenze a priori  dell’utente 
+che potrebbero permettere di attribuire correttamente i dati rilasciati alle u nità della 
+popolazione rilevata.  
+Le variabili coinvolte nel processo di protezione sono quelle che possono consentire  
+l’associazione tra le informazioni e i rispondenti, ossia: 
+ gli identificativi diretti , che individuano in maniera univoca le unità statistiche di 
+rilevazione/analisi (come ad esempio indirizzo e codice fiscale);  
+ gli identificativi i ndiretti, o variabili chiave  (come ad esempio il numero di 
+componenti della famiglia ), che permettono di circoscrivere la popolazione cui 
+appartengono i rispondenti e che , da sole o in combinazione con altre , possono 
+portare alla re-identificazione di uno o più record. 
+Mentre i primi vengono cancellati dal file, i secondi vengono trattati allo scopo di limitare il 
+rischio di violazione della riservatezza.  Per il significato delle variabili e delle rispettive 
+modalità si rinvia al questionario di indagine contenuto nella cartella metadati.  
+ 
+ 
+ 
+                                                 
+1 MFR è l’acronimo per il file per la ricerca (Microdata File for Research). La documentazione metodologica 
+di tali file è consultabile sul sito Istat (http://www.istat.it/it/archivio/file+per+la+ricerca). 
+2 I ricercatori , che necessitano di informazioni maggiormente dettagliate,  possono, su richiesta motivata e 
+previa autorizzazione del Presidente dell'Istituto, richiedere il file di microdati per la ricerca. 
+
+PAGE 4
+ 4 
+Le misure di protezione adottate 
+Per la predisposizione del file ad uso pubblico  Indagine sui consumi energetici delle 
+famiglie, periodo di riferimento 2013, sono state adottate le misure di protezione appresso 
+specificate. 
+Ricodifiche di variabili categoriali o quantitative discrete: 
+1. Numero componenti del nucleo famigliare: la variabile q_1_1_sq1 è stata 
+sottoposta a top coding e la modalità 6 indica la presenza di almeno sei 
+componenti.  
+2. Età: [eta nel file originario  cletad nel file mIcro.STAT]. 
+Aggregazione delle modalità originarie nelle seguenti: 
+Modalità 
+cletad 
+Descrizione 
+0  eta<15 
+15  14<eta<25 
+25  24<eta<35 
+35  34<eta<45 
+45  44<eta<55 
+55  54<eta<65 
+65  64<eta<75 
+75  74<eta 
+ 
+3. Relazione di parentela: [q_1_19_sq nel file originario  relpar nel file mIcro.STAT]. 
+Aggregazione delle modalità originarie nelle seguenti: 
+Modalità 
+relpar 
+Descrizione 
+01 PR - Persona di Riferimento 
+02 Marito o moglie del PR - Convivente (coniugalmente) del PR 
+04 
+Figlio nato dall'ultimo matrimonio/convivenza o dal precedente 
+matrimonio/convivenza del PR o del coniuge/convivente del 
+PR  
+06 
+Ascendente o altro parente del PR o del coniuge/convivente 
+del PR   
+08 Collaboratore domestico o amico convivente   
+10 Affittuario 
+
+PAGE 5
+ 5 
+4. Condizione professionale: [q_10_16_sq nel file originario  condpro nel file 
+mIcro.STAT]. 
+Aggregazione delle modalità originarie nelle seguenti: 
+Modalità 
+condpro 
+Descrizione 
+1 Occupato/a  
+2 Disoccupato/a  o in cerca di prima occupazione  
+4 Casalinga/o 
+5 Studente   
+6 Ritirato/a dal lavoro (pensionato)   
+7 Inabile al lavoro o in altra condizione  
+ 
+5. Tipo di lavoro: [q_10_17_sq nel file originario  tipolav nel file mIcro.STAT].    
+Aggregazione delle modalità originarie nelle seguenti: 
+Modalità 
+tipolav 
+Descrizione 
+1 Un lavoro alle dipendenze 
+2 
+Un lavoro di collaborazione coordinata e continuativa (con o 
+senza progetto); lavoro di prestazione d'opera occasionale  
+4 Imprenditore 
+5 Libero professionista    
+6 Lavoratore in proprio     
+7 Coadiuvante nell'azienda di un familiare; socio di cooperativa 
+ 
+6. Livello inquadramento [q_10_18_sq nel file originario  livello nel file mIcro.STAT].    
+Aggregazione delle modalità originarie nelle seguenti: 
+Modalità 
+livello 
+Descrizione 
+1 Dirigente o quadro 
+3 Impiegato/a   
+4 Operaio/a 
+5 
+Apprendista; lavoratore/lavoratrice a domicilio per conto di 
+imprese   
+ 
+
+PAGE 6
+ 6 
+7. Titolo di studio [titstu_sq nel file originario  titstu nel file mIcro.STAT].    
+Aggregazione delle modalità originarie nelle seguenti: 
+Modalità 
+titstu 
+Descrizione 
+1 
+Nessun titolo e non sa leggere né scrivere; nessun titolo ma sa 
+leggere e scrivere  
+3 Licenza elementare  
+4 Licenza media 
+5 Diploma o qualifica di istruzione secondaria superiore < 4 anni; 
+diploma di istruzione secondaria superiore di 4-5 anni  
+7 
+Diploma terziario non universitario, diploma universitario; laurea 
+triennale di primo livello (nuovo ordinamento); Master di primo 
+livello 
+9 Diploma di laurea; Master di secondo livello 
+10 Dottorato di ricerca 
+99 Non sa, non ricorda 
+ 
+8. Dominio [dominio nel file originario  dom nel file mIcro.STAT].    
+Aggregazione delle modalità originarie nelle seguenti: 
+Modalità 
+dom 
+Descrizione 
+1 
+Comune centro dell'area metropolitana;   
+Comuni della periferia dell'area metropolitana  
+3 Comuni con più di 50.000 abitanti;  
+4 
+Comuni di montagna (montagna interna + montagna esterna + 
+collina interna) con n. abitanti fino a 10.000;    
+Comuni di montagna (montagna interna + montagna esterna + 
+collina interna) con n. abitanti tra 10mila e 50mila   
+6 
+Comuni NON di montagna (collina litoranea + pianura) con n. 
+abitanti fino a 10.000;    
+Comuni NON di montagna (collina litoranea + pianura) con n. 
+abitanti tra 10mila e 50mila  
+ 
+ 
+
+PAGE 7
+ 7 
+Soppressioni locali:  in alcuni record sono stati inseriti valori mancanti in corrispondenza di 
+una o più variabili.  
+A causa delle misure di protezione adottate si possono verificare scostamenti rispetto ai 
+dati pubblicati dall’Istat. 
+ 
+ 
+ 
+Riferimenti bibliografici 
+Hundepool, A., Domingo-Ferrer, J., Franconi, L., Giessing, S., Nordholt, E. S., Spicer, K. e 
+de Wolf, P.-P.  (2012). Statistical Disclosure Control. Wiley. 
+Willenborg, L. e de Waal, T. (1996). Statistical  Disclosure Control in Practice. Lecture 
+Notes in Statistics, 111, New York: Springer-Verlag. 
+Willenborg, L. e de Waal, T. (2000). Elements of statistical disclosure control. Lecture 
+Notes in Statistics, 115, New York: Springer-Verlag. 

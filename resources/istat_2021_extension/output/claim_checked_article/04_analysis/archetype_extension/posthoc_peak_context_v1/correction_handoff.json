@@ -1,0 +1,15 @@
+{
+  "status": "R5-01/R5-02 bounded reporting corrections ready; no new annuals",
+  "recommended_evidence_alias": "AE_POSTHOC_PEAK_CONTEXT_V1",
+  "primary_locator": "04_analysis/archetype_extension/posthoc_peak_context_v1/diagnostic_manifest.json",
+  "manifest_sha256": "0ca78c1bade2a716803a7615fa4cde27439ecbb578dc5e6caa25df79bbcd177a",
+  "cohort_counts_sha256": "ce81c5fb21338365fdb084b1c846f9829e4e20d669993ccd259c946170af45f2",
+  "scientific_peak_context_sha256": "bb54fdc70d85bb7228c8203240a137ee0d04f26a2ac9a36697bf20f5d76c45ce",
+  "report_locator": "03_methods\\archetype_extension\\posthoc_peak_context_report.md",
+  "report_sha256": "127be2f6fffdfc071d080a702a67ab06ff7b26d9a0f364b20b05ed9392651c6a",
+  "validation_matrix_locator": "03_methods\\archetype_extension\\validation_matrix.md",
+  "validation_matrix_sha256": "4543dfedb30866200bd9a65ed676573b4fac618f06d7de54b742f6af9be25636",
+  "integrity_check_sha256": "acdf2d316758b1f24ca1ec3a7058c1d56c83c0375b1e59fc15c06cd1abb7edd4",
+  "no_new_annual_simulations": true,
+  "no_frozen_code_or_primary_results_changed": true
+}

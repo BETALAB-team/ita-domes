@@ -1,0 +1,17 @@
+{
+  "H": {
+    "anova_n": 43569,
+    "anova_rank": 48,
+    "R2": 0.11082107720902878
+  },
+  "E": {
+    "anova_n": 46712,
+    "anova_rank": 48,
+    "R2": 0.26642868086415294
+  },
+  "wide_group_cells": 160,
+  "cooling_split": {
+    "absent_or_unused": 29948,
+    "present_or_used": 22669
+  }
+}

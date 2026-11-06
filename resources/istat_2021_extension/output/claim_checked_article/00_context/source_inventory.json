@@ -1,0 +1,104 @@
+[
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\MICRODATI\\ECH_Microdati_Anno_2013.txt",
+    "exists": true,
+    "bytes": 16583186,
+    "sha256": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\MICRODATI\\ISTAT_MFR_ECH_Microdati_2021_DELIMITED.txt",
+    "exists": true,
+    "bytes": 40175644,
+    "sha256": "dd7afa7fcf581014e4a95c27035422b08fa9fb2f211c7551deeb4568fe174eb4"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\legenda_istat.xlsx",
+    "exists": true,
+    "bytes": 51289,
+    "sha256": "3becc761ef680abc8a5160f806b782a8e55d981916f4e3bc4cd69a6418ce60d9"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\legenda_istat-old.xlsx",
+    "exists": true,
+    "bytes": 60600,
+    "sha256": "12161efd914e87913d6dd1221e165dfec38a1dda6e856bace9462cca85eac1a2"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\tracciato_delimited_2013.txt",
+    "exists": true,
+    "bytes": 31375,
+    "sha256": "61768826d2e763143e9319df16d0baf7ededa8e5f3ac0ca81f25ca4bf114a3e3"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\tracciato_delimited_2021.txt",
+    "exists": true,
+    "bytes": 28085,
+    "sha256": "4a66e95429a77210e7b8852b4243f28ece4c4ef3f728630fb4f7ec8a7cc91799"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\results_grins.csv",
+    "exists": true,
+    "bytes": 4853985,
+    "sha256": "c9232f7e21897e77ae38daba767f854708f259bf4292358a7bca5c2ab2b30de1"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_paper_config.json",
+    "exists": true,
+    "bytes": 882,
+    "sha256": "be22159f887d8f4b5d83eed246e1aedcaa8b50c177221f379a65b6ce31bd99a8"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\revised_analysis.py",
+    "exists": true,
+    "bytes": 36395,
+    "sha256": "722d8f32d6c9b39abc32799b8fb18a5cfa8f02b01a0129b4ff64300926dead2e"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\audit_replicability.py",
+    "exists": true,
+    "bytes": 64587,
+    "sha256": "5304dea151365d8b7e7b61dcc8267d707ebae0088a7077353a3f641125b83bca"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\audit_appliance_model.py",
+    "exists": true,
+    "bytes": 4108,
+    "sha256": "21be8ca68a3f76ed0285909b4df3ad47ee8c6d697053068a084d3f028b59fb91"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\model_electricity_2021.py",
+    "exists": true,
+    "bytes": 7870,
+    "sha256": "5e45a969f128a9b60f1e7622869451e3e619ceb406a14220559add6c9ab11b0a"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\multiyear_workflow_config.json",
+    "exists": true,
+    "bytes": 645,
+    "sha256": "9a4785fdc22873fe42cef6463be9ebb65c4d64ef4304abd1f540fb7b1760ee06"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_plan\\2013_2021_article_blueprint.md",
+    "exists": true,
+    "bytes": 37319,
+    "sha256": "bab8ea8b924ed2c336a5708e748451527eeec65ad121ac0ee5e507deed890091"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_draft\\literature_audit.md",
+    "exists": true,
+    "bytes": 7019,
+    "sha256": "7b58bdbea3b71cd2d1c7e1be4ef9415cb17876f107404d88eb85edf30cb0b8b8"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_draft\\first_draft.md",
+    "exists": true,
+    "bytes": 90120,
+    "sha256": "ae0503711c3e39efb2fcafb48746fb4b89fe0c2fdc253a69da48205b37e46178"
+  },
+  {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_draft\\literature_revised_draft.md",
+    "exists": true,
+    "bytes": 102648,
+    "sha256": "d7b75e22f57e0a0855c6582c6986171a2e5da287767cb4a1b6b3b58b8aea61ea"
+  }
+]

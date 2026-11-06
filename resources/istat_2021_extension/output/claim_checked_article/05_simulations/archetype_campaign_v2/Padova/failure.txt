@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Works\GRINS\GRINS-Tool\resources\istat_data\output\claim_checked_article\04_analysis\archetype_extension\run_mixture_campaign.py", line 209, in <module>
+    try: main()
+         ~~~~^^
+  File "C:\Works\GRINS\GRINS-Tool\resources\istat_data\output\claim_checked_article\04_analysis\archetype_extension\run_mixture_campaign.py", line 56, in main
+    selection,profiles,roles,pooled=validate_inputs()
+                                    ~~~~~~~~~~~~~~~^^
+  File "C:\Works\GRINS\GRINS-Tool\resources\istat_data\output\claim_checked_article\04_analysis\archetype_extension\run_mixture_campaign.py", line 33, in validate_inputs
+    assert sha(filename)==digest,f'Runtime/source drift since readiness freeze: {filename}'
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Runtime/source drift since readiness freeze: C:\Works\GRINS\GRINS-Tool\resources\istat_data\output\claim_checked_article\04_analysis\archetype_extension\run_mixture_campaign.py

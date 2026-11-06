@@ -1,0 +1,47 @@
+{
+  "sources": [
+    {
+      "source_id": "CONF-001",
+      "authors": [
+        "Jacopo Vivian",
+        "Enrico Prataviera",
+        "Laura Carnieletto",
+        "Wilmer Pasut",
+        "Angelo Zarrella"
+      ],
+      "title": "A model to Simulate the Energy Consumption of the Italian Residential Building Stock with Regional Resolution",
+      "publication_year": 2026,
+      "conference_label": "CLIMA 2025",
+      "series": "Lecture Notes in Civil Engineering",
+      "volume": 788,
+      "printed_pages": "1302-1311",
+      "pdf_pages_inclusive": [
+        2,
+        11
+      ],
+      "doi": "10.1007/978-3-032-10546-2_123",
+      "url": "https://doi.org/10.1007/978-3-032-10546-2_123",
+      "local_path": "C:\\Users\\khajmoh18975\\Downloads\\Proceedings of the 15th REHVA HVAC World Congress - CLIMA 2025.pdf",
+      "sha256": "51ce8fb615c15cf34087682eafbc7beb4267dab4e20a78bb49a844ccffa3450b",
+      "access_date": "2026-10-20",
+      "access_depth": "Complete chapter text and all ten rendered page images; no adjacent fragments",
+      "metadata_verification": "Chapter first-page imprint, title and authors directly inspected; external publisher record not independently checked by this worker",
+      "evidence_artifact": "00_context/conference_evidence.md",
+      "supports": [
+        "Published ita-domes methods and assumptions",
+        "Published national2013/2014 carrier comparison",
+        "Published modelled regional maps",
+        "Partial historical weather coverage",
+        "Published future work and repository statements"
+      ],
+      "does_not_support": [
+        "Household/hourly/city empirical accuracy",
+        "Completed retrofit savings or rankings",
+        "Current local checkout identity",
+        "Completed2021 update"
+      ],
+      "requested_worker_model": "gpt-6.1-sol",
+      "confirmed_worker_model": "unknown"
+    }
+  ]
+}

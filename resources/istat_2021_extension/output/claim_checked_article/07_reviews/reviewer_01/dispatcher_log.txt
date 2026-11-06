@@ -1,0 +1,434 @@
+C:\Works\GRINS\GRINS-Tool\resources\istat_data\output\claim_checked_article\05_simulations\padova_pilot_v1\eureca_config.json
+C:\Works\GRINS\GRINS-Tool\resources\istat_data\output\claim_checked_article\07_reviews\reviewer_01\dispatcher_diagnostic\eureca_config.json
+PINNED_IMPORT C:\Works\EUReCA\EUReCA\eureca_building\thermal_zone.py
+WARNING:root:WeatherFile, input relative humidity is out of range [-0.001, 1] [-]
+WEATHER_INDEX 2023-01-01 00:00:00+01:00 2023-12-31 23:00:00+01:00
+<unknown>:791: SyntaxWarning: "\c" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\c"? A raw string is also an option.
+RUN_COMPLETE {"case": "seeded", "warmup_h": 168, "annual_sensible_heating_kWh": 6521.185621151082, "peak_sensible_heating_kW": 9.0052750408757, "annual_sensible_cooling_kWh": -0.0, "minimum_air_C": 18.79593524220623, "maximum_air_C": 42.814768269629624, "active_heating_max_setpoint_error_K": 0.0, "daily_on_profile": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0], "runtime_seconds": 0.868264899996575, "rows": 8760, "finite": true, "hourly_sha256": "6e6594407ace0b6e8758ac12d2ee7914fb3efdf6bedeb26d442d0b33fe632f25"}
+RUN_COMPLETE {"case": "early", "warmup_h": 168, "annual_sensible_heating_kWh": 6376.549898365349, "peak_sensible_heating_kW": 9.151180652084733, "annual_sensible_cooling_kWh": -0.0, "minimum_air_C": 18.795932274453662, "maximum_air_C": 42.814768269629624, "active_heating_max_setpoint_error_K": 0.0, "daily_on_profile": [0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0], "runtime_seconds": 1.003115199971944, "rows": 8760, "finite": true, "hourly_sha256": "d1a21414db787dd9238a7c9b99bf2e7215fb07d6f2cbb4ddd1a04f9883020696"}
+RUN_COMPLETE {"case": "late", "warmup_h": 168, "annual_sensible_heating_kWh": 6412.555599108988, "peak_sensible_heating_kW": 8.880515484135467, "annual_sensible_cooling_kWh": -0.0, "minimum_air_C": 18.795936404703905, "maximum_air_C": 42.814768269629624, "active_heating_max_setpoint_error_K": 0.0, "daily_on_profile": [0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0], "runtime_seconds": 1.1682597999460995, "rows": 8760, "finite": true, "hourly_sha256": "494707602dced50b6b1a03554f02c2e3829c5d294184af53f98c4da24a62cdf7"}
+RUN_COMPLETE {"case": "repeat_seeded", "warmup_h": 168, "annual_sensible_heating_kWh": 6521.185621151082, "peak_sensible_heating_kW": 9.0052750408757, "annual_sensible_cooling_kWh": -0.0, "minimum_air_C": 18.79593524220623, "maximum_air_C": 42.814768269629624, "active_heating_max_setpoint_error_K": 0.0, "daily_on_profile": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0], "runtime_seconds": 0.7454269000445493, "rows": 8760, "finite": true, "hourly_sha256": "6e6594407ace0b6e8758ac12d2ee7914fb3efdf6bedeb26d442d0b33fe632f25"}
+RUN_COMPLETE {"case": "warmup_seeded", "warmup_h": 336, "annual_sensible_heating_kWh": 6521.185621150961, "peak_sensible_heating_kW": 9.0052750408757, "annual_sensible_cooling_kWh": -0.0, "minimum_air_C": 18.79593524220623, "maximum_air_C": 42.814768269629624, "active_heating_max_setpoint_error_K": 0.0, "daily_on_profile": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0], "runtime_seconds": 0.9145996000152081, "rows": 8760, "finite": true, "hourly_sha256": "48a04f59d7702b2b6dda61b47b411cfcf28b01939c21af3afd98c8a5516f11d2"}
+CHECKS {"block_totals_exact": true, "all8760_finite": true, "zero_cooling": true, "temperature_load_screens": true, "setpoint_adherence": true, "repeat_max_difference": 0.0, "warmup_annual_sensible_heating_kWh": {"relative_difference": 1.8540724511240114e-14, "limit": 0.005, "pass": true}, "warmup_peak_sensible_heating_kW": {"relative_difference": 0.0, "limit": 0.01, "pass": true}, "pass": true}
+DIAGNOSTIC [
+  {
+    "case": "seeded",
+    "n_bad_hourly_state_balances": 898,
+    "max_abs_node_residual_W": 9261.722264433121,
+    "first_bad": [
+      {
+        "hour": 13,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 19.485806419805833,
+        "ta": 19.29267589796066,
+        "tm": 19.315714784255523,
+        "load_W": 0.0,
+        "residual_W": [
+          -316.05089782313996,
+          836.0579701144795,
+          -8.549250196665525e-11
+        ]
+      },
+      {
+        "hour": 14,
+        "old_flag": "off",
+        "new_flag": "heating on",
+        "old_ta": 19.29267589796066,
+        "old_tm": 19.315714784255523,
+        "ta": 19.0,
+        "tm": 18.989571750691887,
+        "load_W": 356.42042268923257,
+        "residual_W": [
+          23.41407183684595,
+          4.990852175978944e-11,
+          2242.5607912504006
+        ]
+      },
+      {
+        "hour": 21,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 19.57309005517679,
+        "ta": 19.214716949479243,
+        "tm": 19.299897079981765,
+        "load_W": 0.0,
+        "residual_W": [
+          -231.86564091411088,
+          613.3604378824529,
+          -2.7284841053187847e-11
+        ]
+      }
+    ],
+    "largest_bad": [
+      {
+        "hour": 1789,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 21.916746561599904,
+        "ta": 22.242218814126264,
+        "tm": 21.795136833161102,
+        "load_W": 0.0,
+        "residual_W": [
+          -3501.163485902695,
+          9261.722264433121,
+          -5.9117155615240335e-12
+        ]
+      },
+      {
+        "hour": 7353,
+        "old_flag": "off",
+        "new_flag": "heating on",
+        "old_ta": 19.1765776809606,
+        "old_tm": 19.22131085490697,
+        "ta": 22.0,
+        "tm": 20.560859006011217,
+        "load_W": 3027.1070941589433,
+        "residual_W": [
+          -225.87378552315445,
+          6.730260793119669e-11,
+          -9210.738395466109
+        ]
+      }
+    ]
+  },
+  {
+    "case": "early",
+    "n_bad_hourly_state_balances": 846,
+    "max_abs_node_residual_W": 9647.82827694095,
+    "first_bad": [
+      {
+        "hour": 9,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 19.374872718227167,
+        "ta": 19.155074585390373,
+        "tm": 19.20659436448682,
+        "load_W": 0.0,
+        "residual_W": [
+          -167.45984990115505,
+          442.98606062615806,
+          -2.6830093702301383e-11
+        ]
+      },
+      {
+        "hour": 10,
+        "old_flag": "off",
+        "new_flag": "heating on",
+        "old_ta": 19.155074585390373,
+        "old_tm": 19.20659436448682,
+        "ta": 19.0,
+        "tm": 18.902079521372965,
+        "load_W": 563.6125361173033,
+        "residual_W": [
+          12.405966831235048,
+          1.6996182239381596e-11,
+          2093.8452680077035
+        ]
+      },
+      {
+        "hour": 17,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 19.718095621601687,
+        "ta": 19.408139994333578,
+        "tm": 19.447722257747493,
+        "load_W": 0.0,
+        "residual_W": [
+          -440.7367075508044,
+          1165.8927078133438,
+          -6.821210263296962e-12
+        ]
+      }
+    ],
+    "largest_bad": [
+      {
+        "hour": 2097,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 21.967472786680936,
+        "ta": 22.37738159943321,
+        "tm": 21.918592367110858,
+        "load_W": 0.0,
+        "residual_W": [
+          -3647.1212499215044,
+          9647.82827694095,
+          -5.1159076974727213e-11
+        ]
+      },
+      {
+        "hour": 2001,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 21.97886716828927,
+        "ta": 22.364560524911433,
+        "tm": 21.912716092887948,
+        "load_W": 0.0,
+        "residual_W": [
+          -3633.2762010401248,
+          9611.203595462008,
+          4.1382008930668235e-11
+        ]
+      }
+    ]
+  },
+  {
+    "case": "late",
+    "n_bad_hourly_state_balances": 766,
+    "max_abs_node_residual_W": 9381.843639645944,
+    "first_bad": [
+      {
+        "hour": 13,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 19.547910551492848,
+        "ta": 19.349690677861723,
+        "tm": 19.368369466337548,
+        "load_W": 0.0,
+        "residual_W": [
+          -377.61924869342613,
+          998.926390379842,
+          -6.639311322942376e-11
+        ]
+      },
+      {
+        "hour": 15,
+        "old_flag": "off",
+        "new_flag": "heating on",
+        "old_ta": 19.03573821122706,
+        "old_tm": 19.188715196693312,
+        "ta": 19.0,
+        "tm": 18.873183535051478,
+        "load_W": 599.1118042414234,
+        "residual_W": [
+          2.8590568981643965,
+          1.807620719773695e-11,
+          2169.596955864435
+        ]
+      },
+      {
+        "hour": 21,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 19.58363433233054,
+        "ta": 19.224397137009543,
+        "tm": 19.308836993418016,
+        "load_W": 0.0,
+        "residual_W": [
+          -242.31895115033518,
+          641.0128615815256,
+          -5.3660187404602766e-11
+        ]
+      }
+    ],
+    "largest_bad": [
+      {
+        "hour": 1741,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 21.995085222836888,
+        "ta": 22.284269285040228,
+        "tm": 21.846759110159407,
+        "load_W": 0.0,
+        "residual_W": [
+          -3546.5723807889735,
+          9381.843639645944,
+          -6.048139766789973e-11
+        ]
+      },
+      {
+        "hour": 1957,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 21.952851374709454,
+        "ta": 22.248818358813896,
+        "tm": 21.80845447047692,
+        "load_W": 0.0,
+        "residual_W": [
+          -3508.290113131939,
+          9280.574523787822,
+          -7.935341272968799e-11
+        ]
+      }
+    ]
+  },
+  {
+    "case": "repeat_seeded",
+    "n_bad_hourly_state_balances": 898,
+    "max_abs_node_residual_W": 9261.722264433121,
+    "first_bad": [
+      {
+        "hour": 13,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 19.485806419805833,
+        "ta": 19.29267589796066,
+        "tm": 19.315714784255523,
+        "load_W": 0.0,
+        "residual_W": [
+          -316.05089782313996,
+          836.0579701144795,
+          -8.549250196665525e-11
+        ]
+      },
+      {
+        "hour": 14,
+        "old_flag": "off",
+        "new_flag": "heating on",
+        "old_ta": 19.29267589796066,
+        "old_tm": 19.315714784255523,
+        "ta": 19.0,
+        "tm": 18.989571750691887,
+        "load_W": 356.42042268923257,
+        "residual_W": [
+          23.41407183684595,
+          4.990852175978944e-11,
+          2242.5607912504006
+        ]
+      },
+      {
+        "hour": 21,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 19.57309005517679,
+        "ta": 19.214716949479243,
+        "tm": 19.299897079981765,
+        "load_W": 0.0,
+        "residual_W": [
+          -231.86564091411088,
+          613.3604378824529,
+          -2.7284841053187847e-11
+        ]
+      }
+    ],
+    "largest_bad": [
+      {
+        "hour": 1789,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 21.916746561599904,
+        "ta": 22.242218814126264,
+        "tm": 21.795136833161102,
+        "load_W": 0.0,
+        "residual_W": [
+          -3501.163485902695,
+          9261.722264433121,
+          -5.9117155615240335e-12
+        ]
+      },
+      {
+        "hour": 7353,
+        "old_flag": "off",
+        "new_flag": "heating on",
+        "old_ta": 19.1765776809606,
+        "old_tm": 19.22131085490697,
+        "ta": 22.0,
+        "tm": 20.560859006011217,
+        "load_W": 3027.1070941589433,
+        "residual_W": [
+          -225.87378552315445,
+          6.730260793119669e-11,
+          -9210.738395466109
+        ]
+      }
+    ]
+  },
+  {
+    "case": "warmup_seeded",
+    "n_bad_hourly_state_balances": 898,
+    "max_abs_node_residual_W": 9261.722264433121,
+    "first_bad": [
+      {
+        "hour": 13,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 19.485806419807126,
+        "ta": 19.292675897961846,
+        "tm": 19.315714784256617,
+        "load_W": 0.0,
+        "residual_W": [
+          -316.05089782442025,
+          836.0579701178535,
+          -4.1382008930668235e-11
+        ]
+      },
+      {
+        "hour": 14,
+        "old_flag": "off",
+        "new_flag": "heating on",
+        "old_ta": 19.292675897961846,
+        "old_tm": 19.315714784256617,
+        "ta": 19.0,
+        "tm": 18.98957175069268,
+        "load_W": 356.42042268762293,
+        "residual_W": [
+          23.414071836944913,
+          4.9112713895738125e-11,
+          2242.560791252432
+        ]
+      },
+      {
+        "hour": 21,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 19.573090055177083,
+        "ta": 19.21471694947951,
+        "tm": 19.299897079982014,
+        "load_W": 0.0,
+        "residual_W": [
+          -231.86564091439232,
+          613.3604378832106,
+          -5.093170329928398e-11
+        ]
+      }
+    ],
+    "largest_bad": [
+      {
+        "hour": 1789,
+        "old_flag": "heating on",
+        "new_flag": "off",
+        "old_ta": 22.0,
+        "old_tm": 21.916746561599904,
+        "ta": 22.242218814126264,
+        "tm": 21.795136833161102,
+        "load_W": 0.0,
+        "residual_W": [
+          -3501.163485902695,
+          9261.722264433121,
+          -5.9117155615240335e-12
+        ]
+      },
+      {
+        "hour": 7353,
+        "old_flag": "off",
+        "new_flag": "heating on",
+        "old_ta": 19.1765776809606,
+        "old_tm": 19.22131085490697,
+        "ta": 22.0,
+        "tm": 20.560859006011217,
+        "load_W": 3027.1070941589433,
+        "residual_W": [
+          -225.87378552315445,
+          6.730260793119669e-11,
+          -9210.738395466109
+        ]
+      }
+    ]
+  }
+]

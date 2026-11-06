@@ -1,0 +1,25 @@
+panel,series,x,category,value,reference_line
+Sensible heating,EnergyPlus,0.0,A1,2408.210771332226,False
+Sensible heating,EnergyPlus,1.0,A2,1875.8972553810183,False
+Sensible heating,EnergyPlus,2.0,A3,2365.285244256407,False
+Sensible heating,EnergyPlus,3.0,A4,2222.979224596865,False
+Sensible heating,One-run hybrid,0.0,A1,2230.457073123027,False
+Sensible heating,One-run hybrid,1.0,A2,1818.958284667602,False
+Sensible heating,One-run hybrid,2.0,A3,2207.7614584696694,False
+Sensible heating,One-run hybrid,3.0,A4,2094.0336468543155,False
+Sensible heating,Survey + physics,0.0,A1,3538.4284251370946,False
+Sensible heating,Survey + physics,1.0,A2,2885.620968080135,False
+Sensible heating,Survey + physics,2.0,A3,3502.423783315876,False
+Sensible heating,Survey + physics,3.0,A4,3322.0043857863147,False
+Sensible cooling,EnergyPlus,0.0,A1,1029.7583680918924,False
+Sensible cooling,EnergyPlus,1.0,A2,1458.8358592282143,False
+Sensible cooling,EnergyPlus,2.0,A3,1066.7473099399394,False
+Sensible cooling,EnergyPlus,3.0,A4,1220.9015975311154,False
+Sensible cooling,One-run hybrid,0.0,A1,1130.404773195242,False
+Sensible cooling,One-run hybrid,1.0,A2,1444.4033885694032,False
+Sensible cooling,One-run hybrid,2.0,A3,1149.4104866556406,False
+Sensible cooling,One-run hybrid,3.0,A4,1237.2108090599202,False
+Sensible cooling,Survey + physics,0.0,A1,1962.6848002728887,False
+Sensible cooling,Survey + physics,1.0,A2,2507.870316395224,False
+Sensible cooling,Survey + physics,2.0,A3,1995.6837983411888,False
+Sensible cooling,Survey + physics,3.0,A4,2148.128623706567,False

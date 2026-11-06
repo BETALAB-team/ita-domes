@@ -1,0 +1,583 @@
+{
+  "site": "Bolzano",
+  "checked_utc": "2026-10-20T13:50:42Z",
+  "checker": "independent CSV arithmetic; no engine import",
+  "cases": [
+    {
+      "case": "profile_018bbe23d2c79c65",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.114575181622058e-11,
+        8.185452315956354e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "cb5cc76b9c436a284fff3a9c589b4d457bd5121d3d49fb1a1bd56ccbc551545c",
+      "pass": true
+    },
+    {
+      "case": "profile_0ba87e52dc3aab04",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.6143530956469476e-11,
+        7.639755494892597e-11,
+        1.3596945791505277e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "a69a3586d9603001c116c21d563f667d2e85ee2aa212745042307df031163dbe",
+      "pass": true
+    },
+    {
+      "case": "profile_137bfc01628cfaa3",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.9667822925839573e-11,
+        7.09405867382884e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "239ba8e4e124fd9693bef79d876f9ce4277c1ecd41ea4ab2542f4558e64546f0",
+      "pass": true
+    },
+    {
+      "case": "profile_14753a3b5ec0df3d",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.8189894035458565e-11,
+        7.571543392259628e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "46e239be3cd039e463dce332f2042645fee0ba90975df5d579c8e946630305f0",
+      "pass": true
+    },
+    {
+      "case": "profile_14ddd7bffc8c47d7",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.77351466845721e-11,
+        7.275957614183426e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "aa2cb4ae29a0bf1413d0752714d137071c35989df6427b996ede23dd83a20ca8",
+      "pass": true
+    },
+    {
+      "case": "profile_1b4ca2e74b79c90e",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.9554136088117957e-11,
+        8.458300726488233e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "60c7dbaadd6fa9a3ec8071a4c59db5d3bb1717b28a96cc87a934d2ba03ee1b23",
+      "pass": true
+    },
+    {
+      "case": "profile_1e526dff0f49dc82",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.9326762412674725e-11,
+        7.821654435247183e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "77daf84406aa321d6e723a75758bdd93fe501c2b60c68938420d48a5525a255d",
+      "pass": true
+    },
+    {
+      "case": "profile_25a45218566c3160",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.8530954548623413e-11,
+        7.389644451905042e-11,
+        1.354010237264447e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "77c764809846dd1db8e0324607c23f67e2b18ad759b2ce118ea22123847d7c3b",
+      "pass": true
+    },
+    {
+      "case": "profile_2c3bb0191d34a620",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.6996182239381596e-11,
+        7.275957614183426e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "9618fd394e9e2c3a733133c29f95ca80f29178c7a92eee19ee3b05e6bc4300ff",
+      "pass": true
+    },
+    {
+      "case": "profile_307037ddb97640c5",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.5347723092418164e-11,
+        7.639755494892597e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "a96f5e26948d7b57584826a7b93349af4079736b0b7bfeff13eb72644781f0ac",
+      "pass": true
+    },
+    {
+      "case": "profile_3fe14a6c114086b6",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.1316282072803006e-11,
+        7.821654435247183e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "36a378bbb83df638516d975c04ed671619ee8014af551fd0712eb1c2d80cc43b",
+      "pass": true
+    },
+    {
+      "case": "profile_41d4d5b784fdfa84",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.9099388737231493e-11,
+        8.185452315956354e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "8bef38ee504e508a913b393d5729c8c73cf1530e1885d9890242363e3171f77a",
+      "pass": true
+    },
+    {
+      "case": "profile_57161fdeb29de709",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.9184653865522705e-11,
+        7.821654435247183e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "cd71474cf7db9785909abcfb4952643470c9084b2be8fba02219eb5acd16e6ee",
+      "pass": true
+    },
+    {
+      "case": "profile_6108efe9e58f6cba",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.77351466845721e-11,
+        6.639311322942376e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "24207b659d37b8fefa6dfd325cd1772e42f5f97831771c4aa8bc906275c73150",
+      "pass": true
+    },
+    {
+      "case": "profile_7e5f58e423a25471",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.0406787371030077e-11,
+        8.458300726488233e-11,
+        1.4006218407303095e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "71063dadc552f7a27c54105f167f8f67f48c4891dc98a61fe82d7798e173b354",
+      "pass": true
+    },
+    {
+      "case": "profile_81682c292b2c9c7c",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.2851054382044822e-11,
+        7.639755494892597e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "cc5f8f55a20bcb6b7a0936dd7e30455701edfc30545146d96f44aba8df1cf3ba",
+      "pass": true
+    },
+    {
+      "case": "profile_8eaa3aac3d4ac6f9",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.05773176276125e-11,
+        9.00399754755199e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -3.637978807091713e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "4884ce8c76d9ed5e09fd91afc18d03591a05678d0c9c9b516604b9e9798862a1",
+      "pass": true
+    },
+    {
+      "case": "profile_93ee760003d6925b",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.5290879673557356e-11,
+        7.412381819449365e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "059786f2e77457b715df8ce0dc1c0afbea1b5ac2e7cc5cefc29175f53ed2b8ea",
+      "pass": true
+    },
+    {
+      "case": "profile_9450b1c9a71b9c19",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.262368070660159e-11,
+        7.457856554538012e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "84e363dd8016b277399fd09e476d0efc42f54b7a02c6232bfcfbb683d083499b",
+      "pass": true
+    },
+    {
+      "case": "profile_9753525a7981d467",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.745092959026806e-11,
+        8.139977580867708e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "d5729b06c18dfbe8a1f3fe96c7d52a4b3d6ccb95d540da93fc722b2eb4ebbb43",
+      "pass": true
+    },
+    {
+      "case": "profile_9b3f3b90d7dfb380",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.836042429204099e-11,
+        7.821654435247183e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "014aeabe544a5de60fa463532bf2619d220bb4553e9413011c0809a3df81be56",
+      "pass": true
+    },
+    {
+      "case": "profile_9b69518b1843a3f7",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.745092959026806e-11,
+        7.366907084360719e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "0b1101dfa4f00f20eee55134c3e794bcbe9f6597b653122b9ed8dbac9ee51c41",
+      "pass": true
+    },
+    {
+      "case": "profile_a24f277e55d33677",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.6825651982799172e-11,
+        7.548806024715304e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "b7e2c0f631f830ec32b5de9f1f29d99b4485477ab8cb41c298206a47b89565e6",
+      "pass": true
+    },
+    {
+      "case": "profile_aa5a7b151b3c3ab3",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.921307557495311e-11,
+        8.185452315956354e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "29ca088cd75e2d0f5d2795f7ccecfe8865257e01e0925993bcf0a41bb0ec2787",
+      "pass": true
+    },
+    {
+      "case": "profile_c318993d2fed990a",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.745092959026806e-11,
+        7.753442332614213e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "20e5f1d8edfceffbf63b637c7fcb782ab867d1bbf4c729d4e8edbe2961191a2b",
+      "pass": true
+    },
+    {
+      "case": "profile_ccf8c6938973195d",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.7109869077103212e-11,
+        7.776179700158536e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "3e80a89b5494f0673e8dd0289a03e77df61bd188ec39683ab30677cf316ec9d4",
+      "pass": true
+    },
+    {
+      "case": "profile_cd558223cc43db28",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.679723027336877e-11,
+        8.094502845779061e-11,
+        1.3096723705530167e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "eeacb5c7d15af0376f3252f2944bedabf2d2ed66c68bb823c77b29b572e49d04",
+      "pass": true
+    },
+    {
+      "case": "profile_d26aa1a8b37eaf97",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.8275159163749777e-11,
+        8.36735125631094e-11,
+        1.3172396506888617e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -3.637978807091713e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "24663fef828ea4ff7bd92ecb7be3f500d58f6fb8ca909d12c87e7747033f3c15",
+      "pass": true
+    },
+    {
+      "case": "profile_da15a31706143ae1",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.8985701899509877e-11,
+        7.09405867382884e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "7fe2799b6885643d020309f7e6c3bec438242efc446d3348d25ffddbfafe27cd",
+      "pass": true
+    },
+    {
+      "case": "profile_ddf59f6da52c52e5",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        2.1032064978498966e-11,
+        7.73070496506989e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "9a075de5f1a56e39434590b7676b001f85156453d9639636c811fd4a9a63bbe9",
+      "pass": true
+    },
+    {
+      "case": "profile_e1d0773f5ee6b6d7",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.63140612130519e-11,
+        9.276845958083868e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "a9bcf7886c70c6d2c6bd33713f91160bf1442077133a1ef22986a71e5273756b",
+      "pass": true
+    },
+    {
+      "case": "profile_e795df5ce5e452a1",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.602984411874786e-11,
+        7.480593922082335e-11,
+        1.3510970120478305e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "45a2537d6e853cdb99f05af8d760bfa488a104efd2074c1c549b7d44498a655e",
+      "pass": true
+    },
+    {
+      "case": "profile_e9dd2daa39499e65",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.9468870959826745e-11,
+        8.640199666842818e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -3.637978807091713e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "4c6174ef027de54e4a5469ec0bb6549ae03ef39da8063aaedd216a798b60ef0b",
+      "pass": true
+    },
+    {
+      "case": "profile_f7fcb6a8c2046d9d",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.6143530956469476e-11,
+        8.196820999728516e-11,
+        1.3324097380973399e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "888e24e58ec54c06917b9df083e92253fc2c6cae8de4d5b9f949edbf70fb0085",
+      "pass": true
+    },
+    {
+      "case": "profile_f9c307728d863a17",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.836042429204099e-11,
+        7.275957614183426e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": 0.0,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "632bc5811a2165bb25adde8d84c97a9bc2da0317ed5610698f10f42b7013fe00",
+      "pass": true
+    },
+    {
+      "case": "profile_fa8d5f91549f24b8",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.6541434888495132e-11,
+        7.685230229981244e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "1a3e77b0d44f66b014289373c1e5027cf12260690060e67f6766d05911357e93",
+      "pass": true
+    },
+    {
+      "case": "repeat_component",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.6541434888495132e-11,
+        7.685230229981244e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "1a3e77b0d44f66b014289373c1e5027cf12260690060e67f6766d05911357e93",
+      "pass": true
+    },
+    {
+      "case": "warmup_component",
+      "n": 8760,
+      "n_residual_failure_gt_1e_minus6W": 0,
+      "maximum_air_surface_mass_abs_residual_W": [
+        1.6541434888495132e-11,
+        7.685230229981244e-11,
+        1.3005774235352874e-10
+      ],
+      "maximum_old_state_continuity_error_K": 0.0,
+      "annual_integration_error_kWh": -1.8189894035458565e-12,
+      "peak_error_kW": 0.0,
+      "hourly_sha256": "20b63588c5bc9f1a9568dd0691b2b4ad95fad27a718e14c8349b002998420e97",
+      "pass": true
+    }
+  ],
+  "prior_numerical_checks_pass": true,
+  "transition_gate_pass": true,
+  "forcing_gate_pass": true,
+  "longwave_sign_checks_pass": true,
+  "invalid_weather_fields_blocked": true,
+  "pass": true
+}

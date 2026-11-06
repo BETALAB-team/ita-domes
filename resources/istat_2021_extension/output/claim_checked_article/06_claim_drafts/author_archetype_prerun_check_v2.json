@@ -1,0 +1,22 @@
+{
+  "status": "pass: independent frozen-input arithmetic and identity checks; no annual-output certification",
+  "v1_selection_manifest_sha256": "0f3811a0b1746bd55dc70a99407b7b658e6ddf54561c682a38b07f88c0ce4a6c",
+  "v2_selection_manifest_sha256": "a34a21e694b1c0117e915567c0eab56f83bfa3aa03b586ab6443006e0b8daed4",
+  "v2_mixture_probabilities_sha256": "f97a68f29aca5fac7e0c6fa3f8284c82e8960133afd4c5eee032df4f3dda8a43",
+  "v2_component_manifest_sha256": "4a6f07041552f312e292da1b24f50e36b36cd31f72df43438bb89a748ed90e00",
+  "test_n": 32,
+  "test_ids_unchanged": true,
+  "test_per_group_branch": 2,
+  "training_n": 13592,
+  "component_ids": {
+    "22/11": 2941,
+    "22/19": 981,
+    "24/13": 5303,
+    "24/21": 9574
+  },
+  "distinct_test_and_component_full_profile_sha256_n": 36,
+  "weight_sum": 0.999999999999999,
+  "branch_probabilities_recomputed": true,
+  "all_36_csv_profiles_8760_ordered_hours": true,
+  "all_36_numeric_profile_hashes_recomputed": true
+}

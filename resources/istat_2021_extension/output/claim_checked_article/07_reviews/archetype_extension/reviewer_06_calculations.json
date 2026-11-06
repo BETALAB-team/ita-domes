@@ -1,0 +1,804 @@
+{
+  "input_hashes": {
+    "article_claims_v06.md": "0075415fec3e985bbd55a6cfc363fd94a7d73b9421ddc9699ff82a4ae79f5c7b",
+    "claim_ledger_v06.json": "32a76ba4e2e4ed5c1114a1e2a2be4d269579782d5fe48777e12d4f951018fdc8",
+    "claim_evidence_ledger_v06.json": "91227a4d60a5d6bbcf736ac0c7070f75b10cd7ead8e1eaf0a2ee160d70f46b66"
+  },
+  "registry_sha256": "703de24ecf972037ec5fa492f949f9af32810cbc7b709c63b0b06d9fcb537f94",
+  "runtime_hash_count": 47,
+  "runtime_hash_mismatches": [],
+  "frozen_selection_mismatches": [],
+  "join": {
+    "assigned": 17855,
+    "unique_assigned": 17855,
+    "compact_rows": 20000,
+    "raw_rows": 20000,
+    "compact_missing": 0,
+    "raw_missing": 0
+  },
+  "eligible_counts": {
+    "(1, '22/11')": 3420,
+    "(1, '22/19')": 1021,
+    "(1, '24/13')": 726,
+    "(1, '24/21')": 263,
+    "(2, '22/11')": 1900,
+    "(2, '22/19')": 859,
+    "(2, '24/13')": 603,
+    "(2, '24/21')": 331,
+    "(3, '22/11')": 1716,
+    "(3, '22/19')": 618,
+    "(3, '24/13')": 443,
+    "(3, '24/21')": 214,
+    "(4, '22/11')": 839,
+    "(4, '22/19')": 333,
+    "(4, '24/13')": 228,
+    "(4, '24/21')": 110
+  },
+  "split_exact": true,
+  "probability_error": 0.0,
+  "weight_error": 9.71445146547012e-17,
+  "medoids": {
+    "22/11": {
+      "id": 2941,
+      "minimum_distance_K2": 246.65983527563048
+    },
+    "22/19": {
+      "id": 981,
+      "minimum_distance_K2": 19.7200369064949
+    },
+    "24/13": {
+      "id": 5303,
+      "minimum_distance_K2": 251.94217910799821
+    },
+    "24/21": {
+      "id": 9574,
+      "minimum_distance_K2": 20.604565873686752
+    }
+  },
+  "profile_errors": [],
+  "sites": {
+    "Padova": {
+      "rows": 332880,
+      "max_air_surface_mass_residual_W": [
+        5.681499715137761e-11,
+        1.4485124211205402e-10,
+        2.830233825079631e-10
+      ],
+      "state_continuity_error_K": 0,
+      "solver_forcing_error_W": 0,
+      "surface_component_error_W": 1.3642420526593924e-12,
+      "active_setpoint_error_K": 0,
+      "cooling_Wh": 0.0,
+      "hourly_hash_failures": [],
+      "metrics": [
+        {
+          "endpoint": "annual_kWh",
+          "group": 0,
+          "pooled_RMSE": 1828.203052690569,
+          "conditional_RMSE": 1787.940101715358,
+          "paired_MSE_difference": -145596.5945451907,
+          "reference_min": 5538.604340915443,
+          "reference_max": 13145.259034981662,
+          "conditional_min": 7736.545418472602,
+          "conditional_max": 7953.893123332929,
+          "pooled_prediction": 7834.856651434894
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 1,
+          "pooled_RMSE": 1907.8296668030232,
+          "conditional_RMSE": 1884.7423356413167,
+          "paired_MSE_difference": -87560.36577504873,
+          "reference_min": 5538.604340915443,
+          "reference_max": 11946.462767289444,
+          "conditional_min": 7736.545418472602,
+          "conditional_max": 7953.893123332929,
+          "pooled_prediction": 7834.856651434894
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 2,
+          "pooled_RMSE": 1728.0754080525194,
+          "conditional_RMSE": 1627.1058084032109,
+          "paired_MSE_difference": -338771.30417641485,
+          "reference_min": 8050.881892242895,
+          "reference_max": 11034.748750033936,
+          "conditional_min": 7736.545418472602,
+          "conditional_max": 7953.893123332929,
+          "pooled_prediction": 7834.856651434894
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 3,
+          "pooled_RMSE": 1859.356969533013,
+          "conditional_RMSE": 1850.2000731137111,
+          "paired_MSE_difference": -33968.029601007234,
+          "reference_min": 7796.760851073224,
+          "reference_max": 13145.259034981662,
+          "conditional_min": 7736.545418472602,
+          "conditional_max": 7953.893123332929,
+          "pooled_prediction": 7834.856651434894
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 4,
+          "pooled_RMSE": 1707.5898283916945,
+          "conditional_RMSE": 1677.1701861295955,
+          "paired_MSE_difference": -102963.18878479488,
+          "reference_min": 8448.464427286794,
+          "reference_max": 13018.83187213485,
+          "conditional_min": 7736.545418472602,
+          "conditional_max": 7953.893123332929,
+          "pooled_prediction": 7834.856651434894
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 0,
+          "pooled_RMSE": 4.715544463729982,
+          "conditional_RMSE": 4.601489372280483,
+          "paired_MSE_difference": -1.06265514620425,
+          "reference_min": 9.755253119191456,
+          "reference_max": 22.63571846250767,
+          "conditional_min": 16.563322592791014,
+          "conditional_max": 17.23409304259222,
+          "pooled_prediction": 16.931691005958985
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 1,
+          "pooled_RMSE": 5.125481181545477,
+          "conditional_RMSE": 5.036210653922903,
+          "paired_MSE_difference": -0.9071395916902638,
+          "reference_min": 9.780129219794771,
+          "reference_max": 22.63571846250767,
+          "conditional_min": 16.563322592791014,
+          "conditional_max": 17.23409304259222,
+          "pooled_prediction": 16.931691005958985
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 2,
+          "pooled_RMSE": 4.853821136422487,
+          "conditional_RMSE": 4.627075925991921,
+          "paired_MSE_difference": -2.149747999487687,
+          "reference_min": 10.104368819773144,
+          "reference_max": 22.325957341349547,
+          "conditional_min": 16.563322592791014,
+          "conditional_max": 17.23409304259222,
+          "pooled_prediction": 16.931691005958985
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 3,
+          "pooled_RMSE": 3.930895724158558,
+          "conditional_RMSE": 3.9178349621675674,
+          "paired_MSE_difference": -0.10251040342549267,
+          "reference_min": 9.9394286797492,
+          "reference_max": 19.982882905606015,
+          "conditional_min": 16.563322592791014,
+          "conditional_max": 17.23409304259222,
+          "pooled_prediction": 16.931691005958985
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 4,
+          "pooled_RMSE": 4.234574891473296,
+          "conditional_RMSE": 4.131171703497397,
+          "paired_MSE_difference": -0.8650448677184919,
+          "reference_min": 9.755253119191456,
+          "reference_max": 20.842063593951178,
+          "conditional_min": 16.563322592791014,
+          "conditional_max": 17.23409304259222,
+          "pooled_prediction": 16.931691005958985
+        }
+      ],
+      "peak_counts": {
+        "test": {
+          "n": 32,
+          "restart_day": 2,
+          "restart_hour": 2,
+          "january": 0,
+          "tied_maxima": 0
+        },
+        "component": {
+          "n": 4,
+          "restart_day": 0,
+          "restart_hour": 0,
+          "january": 0,
+          "tied_maxima": 0
+        }
+      }
+    },
+    "Bolzano": {
+      "rows": 332880,
+      "max_air_surface_mass_residual_W": [
+        3.092281986027956e-11,
+        1.439808272607479e-10,
+        2.518163455533795e-10
+      ],
+      "state_continuity_error_K": 0,
+      "solver_forcing_error_W": 0,
+      "surface_component_error_W": 1.3642420526593924e-12,
+      "active_setpoint_error_K": 0,
+      "cooling_Wh": 0.0,
+      "hourly_hash_failures": [],
+      "metrics": [
+        {
+          "endpoint": "annual_kWh",
+          "group": 0,
+          "pooled_RMSE": 2633.858963005396,
+          "conditional_RMSE": 2565.5267000361036,
+          "paired_MSE_difference": -355285.78840572294,
+          "reference_min": 9356.33414424796,
+          "reference_max": 19736.69214758366,
+          "conditional_min": 12783.809172114688,
+          "conditional_max": 13145.848560623665,
+          "pooled_prediction": 12947.303378271698
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 1,
+          "pooled_RMSE": 2893.262424104601,
+          "conditional_RMSE": 2844.244961406745,
+          "paired_MSE_difference": -281238.05424797535,
+          "reference_min": 9356.33414424796,
+          "reference_max": 18441.93449347906,
+          "conditional_min": 12783.809172114688,
+          "conditional_max": 13145.848560623665,
+          "pooled_prediction": 12947.303378271698
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 2,
+          "pooled_RMSE": 2482.1656609507695,
+          "conditional_RMSE": 2326.216888367306,
+          "paired_MSE_difference": -749861.3566778963,
+          "reference_min": 12375.865505657906,
+          "reference_max": 17442.938384295154,
+          "conditional_min": 12783.809172114688,
+          "conditional_max": 13145.848560623665,
+          "pooled_prediction": 12947.303378271698
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 3,
+          "pooled_RMSE": 2488.6076695868273,
+          "conditional_RMSE": 2476.1818557558686,
+          "paired_MSE_difference": -61691.55035180226,
+          "reference_min": 12481.096677813639,
+          "reference_max": 19736.69214758366,
+          "conditional_min": 12783.809172114688,
+          "conditional_max": 13145.848560623665,
+          "pooled_prediction": 12947.303378271698
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 4,
+          "pooled_RMSE": 2270.0698288749513,
+          "conditional_RMSE": 2217.0059433605397,
+          "paired_MSE_difference": -238101.6750723943,
+          "reference_min": 13048.617964276318,
+          "reference_max": 19510.220504165347,
+          "conditional_min": 12783.809172114688,
+          "conditional_max": 13145.848560623665,
+          "pooled_prediction": 12947.303378271698
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 0,
+          "pooled_RMSE": 2.365811430231875,
+          "conditional_RMSE": 2.3570691029681563,
+          "paired_MSE_difference": -0.04128896724868003,
+          "reference_min": 17.80862080867205,
+          "reference_max": 27.21228830426456,
+          "conditional_min": 21.862026520905538,
+          "conditional_max": 22.120724488695043,
+          "pooled_prediction": 22.005253135140563
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 1,
+          "pooled_RMSE": 2.1491440877947707,
+          "conditional_RMSE": 2.092894499766959,
+          "paired_MSE_difference": -0.23861292294842862,
+          "reference_min": 17.80862080867205,
+          "reference_max": 25.417923164406943,
+          "conditional_min": 21.862026520905538,
+          "conditional_max": 22.120724488695043,
+          "pooled_prediction": 22.005253135140563
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 2,
+          "pooled_RMSE": 1.9657697780788417,
+          "conditional_RMSE": 2.0087673984937187,
+          "paired_MSE_difference": 0.17089564084308462,
+          "reference_min": 17.80862080867205,
+          "reference_max": 25.310761431600728,
+          "conditional_min": 21.862026520905538,
+          "conditional_max": 22.120724488695043,
+          "pooled_prediction": 22.005253135140563
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 3,
+          "pooled_RMSE": 2.8295881989744722,
+          "conditional_RMSE": 2.8292971755672385,
+          "paired_MSE_difference": -0.001646868102843868,
+          "reference_min": 17.80862080867205,
+          "reference_max": 27.21228830426456,
+          "conditional_min": 21.862026520905538,
+          "conditional_max": 22.120724488695043,
+          "pooled_prediction": 22.005253135140563
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 4,
+          "pooled_RMSE": 2.929172136423097,
+          "conditional_RMSE": 2.9412379769466566,
+          "paired_MSE_difference": 0.0708314322358099,
+          "reference_min": 17.80862080867205,
+          "reference_max": 27.21228830426456,
+          "conditional_min": 21.862026520905538,
+          "conditional_max": 22.120724488695043,
+          "pooled_prediction": 22.005253135140563
+        }
+      ],
+      "peak_counts": {
+        "test": {
+          "n": 32,
+          "restart_day": 27,
+          "restart_hour": 18,
+          "january": 5,
+          "tied_maxima": 0
+        },
+        "component": {
+          "n": 4,
+          "restart_day": 2,
+          "restart_hour": 2,
+          "january": 2,
+          "tied_maxima": 0
+        }
+      }
+    },
+    "Roma": {
+      "rows": 332880,
+      "max_air_surface_mass_residual_W": [
+        5.934452929068357e-11,
+        1.616351497091273e-10,
+        2.7708324523700867e-10
+      ],
+      "state_continuity_error_K": 0,
+      "solver_forcing_error_W": 0,
+      "surface_component_error_W": 1.3642420526593924e-12,
+      "active_setpoint_error_K": 0,
+      "cooling_Wh": 0.0,
+      "hourly_hash_failures": [],
+      "metrics": [
+        {
+          "endpoint": "annual_kWh",
+          "group": 0,
+          "pooled_RMSE": 1437.6763805552966,
+          "conditional_RMSE": 1411.157909266057,
+          "paired_MSE_difference": -75546.73032242898,
+          "reference_min": 3880.899073191965,
+          "reference_max": 10011.622239492595,
+          "conditional_min": 5352.589181657574,
+          "conditional_max": 5509.03681038504,
+          "pooled_prediction": 5423.3908936347225
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 1,
+          "pooled_RMSE": 1409.7669961855713,
+          "conditional_RMSE": 1400.316064781038,
+          "paired_MSE_difference": -26557.902250236366,
+          "reference_min": 3880.899073191965,
+          "reference_max": 8890.632083394083,
+          "conditional_min": 5352.589181657574,
+          "conditional_max": 5509.03681038504,
+          "pooled_prediction": 5423.3908936347225
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 2,
+          "pooled_RMSE": 1363.0769544324562,
+          "conditional_RMSE": 1288.3314666022522,
+          "paired_MSE_difference": -198180.81586734997,
+          "reference_min": 5893.9549035238415,
+          "reference_max": 7946.748642478584,
+          "conditional_min": 5352.589181657574,
+          "conditional_max": 5509.03681038504,
+          "pooled_prediction": 5423.3908936347225
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 3,
+          "pooled_RMSE": 1567.160903653932,
+          "conditional_RMSE": 1559.7255049612963,
+          "paired_MSE_difference": -23249.64711463824,
+          "reference_min": 5521.102468038902,
+          "reference_max": 10011.622239492595,
+          "conditional_min": 5352.589181657574,
+          "conditional_max": 5509.03681038504,
+          "pooled_prediction": 5423.3908936347225
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 4,
+          "pooled_RMSE": 1446.7183281824475,
+          "conditional_RMSE": 1427.4515391000712,
+          "paired_MSE_difference": -55376.024619854055,
+          "reference_min": 5399.552122921188,
+          "reference_max": 9947.149386669744,
+          "conditional_min": 5352.589181657574,
+          "conditional_max": 5509.03681038504,
+          "pooled_prediction": 5423.3908936347225
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 0,
+          "pooled_RMSE": 3.551396708397397,
+          "conditional_RMSE": 3.4742293782014344,
+          "paired_MSE_difference": -0.5421488080579415,
+          "reference_min": 7.2322741739786975,
+          "reference_max": 20.62840605665712,
+          "conditional_min": 13.727601995817881,
+          "conditional_max": 14.20483925170873,
+          "pooled_prediction": 13.989256042565927
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 1,
+          "pooled_RMSE": 4.045922890403589,
+          "conditional_RMSE": 3.961388253149224,
+          "paired_MSE_difference": -0.676895142903069,
+          "reference_min": 9.19449834987244,
+          "reference_max": 20.62840605665712,
+          "conditional_min": 13.727601995817881,
+          "conditional_max": 14.20483925170873,
+          "pooled_prediction": 13.989256042565927
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 2,
+          "pooled_RMSE": 3.477527615077143,
+          "conditional_RMSE": 3.3659897651895285,
+          "paired_MSE_difference": -0.7633112142634619,
+          "reference_min": 9.006102171247855,
+          "reference_max": 20.07134395580073,
+          "conditional_min": 13.727601995817881,
+          "conditional_max": 14.20483925170873,
+          "pooled_prediction": 13.989256042565927
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 3,
+          "pooled_RMSE": 2.6737444435144475,
+          "conditional_RMSE": 2.66503771714551,
+          "paired_MSE_difference": -0.046483315416231186,
+          "reference_min": 7.611870697203384,
+          "reference_max": 16.21450414014419,
+          "conditional_min": 13.727601995817881,
+          "conditional_max": 14.20483925170873,
+          "pooled_prediction": 13.989256042565927
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 4,
+          "pooled_RMSE": 3.3457178080626964,
+          "conditional_RMSE": 3.2703691722022192,
+          "paired_MSE_difference": -0.49851312869722264,
+          "reference_min": 7.2322741739786975,
+          "reference_max": 16.99063710654166,
+          "conditional_min": 13.727601995817881,
+          "conditional_max": 14.20483925170873,
+          "pooled_prediction": 13.989256042565927
+        }
+      ],
+      "peak_counts": {
+        "test": {
+          "n": 32,
+          "restart_day": 0,
+          "restart_hour": 0,
+          "january": 0,
+          "tied_maxima": 0
+        },
+        "component": {
+          "n": 4,
+          "restart_day": 0,
+          "restart_hour": 0,
+          "january": 0,
+          "tied_maxima": 0
+        }
+      }
+    },
+    "Palermo": {
+      "rows": 332880,
+      "max_air_surface_mass_residual_W": [
+        4.7691628424217924e-11,
+        1.4489387467619963e-10,
+        2.7921487344428897e-10
+      ],
+      "state_continuity_error_K": 0,
+      "solver_forcing_error_W": 0,
+      "surface_component_error_W": 1.3642420526593924e-12,
+      "active_setpoint_error_K": 0,
+      "cooling_Wh": 0.0,
+      "hourly_hash_failures": [],
+      "metrics": [
+        {
+          "endpoint": "annual_kWh",
+          "group": 0,
+          "pooled_RMSE": 1215.8148050194281,
+          "conditional_RMSE": 1196.7429519381465,
+          "paired_MSE_difference": -46011.94709080132,
+          "reference_min": 3043.265877350513,
+          "reference_max": 8269.994136415058,
+          "conditional_min": 4165.83848892566,
+          "conditional_max": 4286.671449483004,
+          "pooled_prediction": 4220.547129245511
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 1,
+          "pooled_RMSE": 1148.665611743959,
+          "conditional_RMSE": 1144.6548376452051,
+          "paired_MSE_difference": -9197.9902585526,
+          "reference_min": 3043.265877350513,
+          "reference_max": 7255.836471928662,
+          "conditional_min": 4165.83848892566,
+          "conditional_max": 4286.671449483004,
+          "pooled_prediction": 4220.547129245511
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 2,
+          "pooled_RMSE": 1154.1078418698341,
+          "conditional_RMSE": 1096.9197620141367,
+          "paired_MSE_difference": -128731.94636829547,
+          "reference_min": 4421.496264737874,
+          "reference_max": 6378.246754797829,
+          "conditional_min": 4165.83848892566,
+          "conditional_max": 4286.671449483004,
+          "pooled_prediction": 4220.547129245511
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 3,
+          "pooled_RMSE": 1370.6625464763135,
+          "conditional_RMSE": 1364.5008598419395,
+          "paired_MSE_difference": -16853.219803540036,
+          "reference_min": 4355.006370011524,
+          "reference_max": 8269.994136415058,
+          "conditional_min": 4165.83848892566,
+          "conditional_max": 4286.671449483004,
+          "pooled_prediction": 4220.547129245511
+        },
+        {
+          "endpoint": "annual_kWh",
+          "group": 4,
+          "pooled_RMSE": 1270.2319560345447,
+          "conditional_RMSE": 1256.8388032293988,
+          "paired_MSE_difference": -33845.44482823857,
+          "reference_min": 3968.441687737912,
+          "reference_max": 8230.572700926738,
+          "conditional_min": 4165.83848892566,
+          "conditional_max": 4286.671449483004,
+          "pooled_prediction": 4220.547129245511
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 0,
+          "pooled_RMSE": 3.238878681081285,
+          "conditional_RMSE": 3.194494108785465,
+          "paired_MSE_difference": -0.2855424996978009,
+          "reference_min": 6.273220609839797,
+          "reference_max": 19.12949560282669,
+          "conditional_min": 12.443435653347274,
+          "conditional_max": 12.715247543776076,
+          "pooled_prediction": 12.592066296900112
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 1,
+          "pooled_RMSE": 3.678215200338745,
+          "conditional_RMSE": 3.6301262685690454,
+          "paired_MSE_difference": -0.35145033424797134,
+          "reference_min": 8.294821968999738,
+          "reference_max": 19.12949560282669,
+          "conditional_min": 12.443435653347274,
+          "conditional_max": 12.715247543776076,
+          "pooled_prediction": 12.592066296900112
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 2,
+          "pooled_RMSE": 3.280095747955028,
+          "conditional_RMSE": 3.2175905914406697,
+          "paired_MSE_difference": -0.406138901625134,
+          "reference_min": 8.408351935304394,
+          "reference_max": 18.682445224763526,
+          "conditional_min": 12.443435653347274,
+          "conditional_max": 12.715247543776076,
+          "pooled_prediction": 12.592066296900112
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 3,
+          "pooled_RMSE": 2.4234287350943666,
+          "conditional_RMSE": 2.4190804998014968,
+          "paired_MSE_difference": -0.021056369561222255,
+          "reference_min": 6.631247241855924,
+          "reference_max": 14.453055181144126,
+          "conditional_min": 12.443435653347274,
+          "conditional_max": 12.715247543776076,
+          "pooled_prediction": 12.592066296900112
+        },
+        {
+          "endpoint": "peak_kW",
+          "group": 4,
+          "pooled_RMSE": 2.8374448841985793,
+          "conditional_RMSE": 2.7881188328201203,
+          "paired_MSE_difference": -0.2774868449384602,
+          "reference_min": 6.273220609839797,
+          "reference_max": 15.178553815871629,
+          "conditional_min": 12.443435653347274,
+          "conditional_max": 12.715247543776076,
+          "pooled_prediction": 12.592066296900112
+        }
+      ],
+      "peak_counts": {
+        "test": {
+          "n": 32,
+          "restart_day": 0,
+          "restart_hour": 0,
+          "january": 32,
+          "tied_maxima": 0
+        },
+        "component": {
+          "n": 4,
+          "restart_day": 0,
+          "restart_hour": 0,
+          "january": 4,
+          "tied_maxima": 0
+        }
+      }
+    }
+  },
+  "legacy_v5": {
+    "Padova": {
+      "early_hourly.csv": {
+        "annual_kWh": 9659.6327823585,
+        "peak_kW": 10.253471877549892,
+        "peak_hour": 8237,
+        "max_air_C": 41.0461137293173
+      },
+      "late_hourly.csv": {
+        "annual_kWh": 9606.296439353202,
+        "peak_kW": 9.838176213778484,
+        "peak_hour": 8241,
+        "max_air_C": 41.0461137293173
+      },
+      "repeat_seeded_hourly.csv": {
+        "annual_kWh": 9574.018167900284,
+        "peak_kW": 10.049540394516583,
+        "peak_hour": 8241,
+        "max_air_C": 41.0461137293173
+      },
+      "seeded_hourly.csv": {
+        "annual_kWh": 9574.018167900284,
+        "peak_kW": 10.049540394516583,
+        "peak_hour": 8241,
+        "max_air_C": 41.0461137293173,
+        "setback": {
+          "calendar_hours": 2730,
+          "positive_heat_hours": 1323,
+          "heat_kWh": 2375.6174880874
+        }
+      },
+      "warmup_seeded_hourly.csv": {
+        "annual_kWh": 9574.018167900113,
+        "peak_kW": 10.049540394516583,
+        "peak_hour": 8241,
+        "max_air_C": 41.0461137293173
+      }
+    },
+    "Bolzano": {
+      "early_hourly.csv": {
+        "annual_kWh": 15835.683227440928,
+        "peak_kW": 17.80862080867205,
+        "peak_hour": 6912,
+        "max_air_C": 31.03155917853116
+      },
+      "late_hourly.csv": {
+        "annual_kWh": 15855.464323253667,
+        "peak_kW": 17.80862080867205,
+        "peak_hour": 6912,
+        "max_air_C": 31.03155917853116
+      },
+      "repeat_seeded_hourly.csv": {
+        "annual_kWh": 15851.213775339595,
+        "peak_kW": 17.80862080867205,
+        "peak_hour": 6912,
+        "max_air_C": 31.03155917853116
+      },
+      "seeded_hourly.csv": {
+        "annual_kWh": 15851.213775339595,
+        "peak_kW": 17.80862080867205,
+        "peak_hour": 6912,
+        "max_air_C": 31.03155917853116
+      },
+      "warmup_seeded_hourly.csv": {
+        "annual_kWh": 15851.213775338707,
+        "peak_kW": 17.80862080867205,
+        "peak_hour": 6912,
+        "max_air_C": 31.03155917853116
+      }
+    },
+    "Roma": {
+      "early_hourly.csv": {
+        "annual_kWh": 6736.445695874722,
+        "peak_kW": 9.651766061306557,
+        "peak_hour": 8309,
+        "max_air_C": 39.941885285905535
+      },
+      "late_hourly.csv": {
+        "annual_kWh": 6635.240374545854,
+        "peak_kW": 9.211202940624576,
+        "peak_hour": 8308,
+        "max_air_C": 39.941885285905535
+      },
+      "repeat_seeded_hourly.csv": {
+        "annual_kWh": 6602.228771252248,
+        "peak_kW": 8.909926839273298,
+        "peak_hour": 8241,
+        "max_air_C": 39.941885285905535
+      },
+      "seeded_hourly.csv": {
+        "annual_kWh": 6602.228771252248,
+        "peak_kW": 8.909926839273298,
+        "peak_hour": 8241,
+        "max_air_C": 39.941885285905535
+      },
+      "warmup_seeded_hourly.csv": {
+        "annual_kWh": 6602.22877102024,
+        "peak_kW": 8.909926839273298,
+        "peak_hour": 8241,
+        "max_air_C": 39.941885285905535
+      }
+    },
+    "Palermo": {
+      "early_hourly.csv": {
+        "annual_kWh": 5275.2931610934265,
+        "peak_kW": 8.787517382639285,
+        "peak_hour": 701,
+        "max_air_C": 38.14349549263708
+      },
+      "late_hourly.csv": {
+        "annual_kWh": 5128.684362229469,
+        "peak_kW": 8.418924698544206,
+        "peak_hour": 700,
+        "max_air_C": 38.14349549263708
+      },
+      "repeat_seeded_hourly.csv": {
+        "annual_kWh": 5078.83719988635,
+        "peak_kW": 8.292527171918435,
+        "peak_hour": 657,
+        "max_air_C": 38.14349549263708
+      },
+      "seeded_hourly.csv": {
+        "annual_kWh": 5078.83719988635,
+        "peak_kW": 8.292527171918435,
+        "peak_hour": 657,
+        "max_air_C": 38.14349549263708
+      },
+      "warmup_seeded_hourly.csv": {
+        "annual_kWh": 5078.837144908502,
+        "peak_kW": 8.292527171918435,
+        "peak_hour": 657,
+        "max_air_C": 38.14349549263708
+      }
+    }
+  }
+}

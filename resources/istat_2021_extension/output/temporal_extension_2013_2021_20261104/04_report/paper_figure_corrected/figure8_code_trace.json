@@ -1,0 +1,90 @@
+{
+  "request": "Restore the actual paper plot and trace its source code, without changing 2013 results",
+  "source_paper": {
+    "path": "C:/Users/khajmoh18975/Downloads/1-s2.0-S0378778825006541-main.pdf",
+    "figure": 8,
+    "page": 11,
+    "crop_pdf_points": [
+      115,
+      150,
+      480,
+      606
+    ],
+    "dpi": 300
+  },
+  "source_code": {
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\07_ANOVA_analysis.py",
+    "sha256": "4145f687a8737d76191fa5531924a1c9998ac672dff1097318a8ca5e467826dd",
+    "heating_plot_line": [
+      193,
+      273,
+      548,
+      601,
+      959,
+      980,
+      1095
+    ],
+    "electricity_plot_line": [
+      151,
+      383,
+      664,
+      708,
+      756,
+      830,
+      852,
+      905,
+      1019,
+      1054
+    ],
+    "electricity_outcome_label_line": [
+      1031,
+      1066
+    ],
+    "heating_outcome_label_line": [
+      1107
+    ],
+    "electricity_palette_line": [
+      1057
+    ],
+    "heating_palette_line": [
+      1098
+    ]
+  },
+  "heating_panel": {
+    "x": "new_group: Group H1 through H7",
+    "y": "riscaldament: Daily On-Time of Heating System",
+    "hue": "isolamento: Sufficiently insulated / Not sufficiently insulated",
+    "saved_input": "Significant_groups.csv"
+  },
+  "electricity_panel": {
+    "x": "new_group_e: Group E1 through E5",
+    "y": "elettricita: Annual Appliance Consumption (kWh)",
+    "hue": "Cooling System: not used / used, derived from raffrescament",
+    "saved_input": "new_elet.csv"
+  },
+  "read_only_supporting_sources": [
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\Significant_groups.csv",
+      "sha256": "ee7d676ff626814ab1cd814f338d8d05a417bb5745988cc6286ff6bd1f0ab61a"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\new_elet.csv",
+      "sha256": "b00d7eaa3d67dc7016553c671d88b5936eaa6696db8b326f680f1fc26ec90304"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\Heating.svg",
+      "sha256": "825a9fdc488032b9b23912e9c37d53698a50faf3a03058371ad2ee6c02021d5a"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\Elec.svg",
+      "sha256": "d48c9dd58f5c67d332e79a32ccd66572d2e2306557507c59dcc67e96e54615b1"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\Elec_Times_New_Roman.svg",
+      "sha256": "5bb12f077226218f30647a49f778f0dfe351bdd1604c025bcdc930ec62d69a99"
+    }
+  ],
+  "restoration": "Direct rendering of the published Figure 8 preserves the published historical distributions; no historical group fitting or new 2013 calculation is used for the replacement",
+  "removed": "Two yearly boxes for heating hours and two for cooling hours; this substituted a new design and outcome for the original grouped Figure 8",
+  "figure_png_sha256": "195da7b2564cd0dfe2b8a8b583f224a12f978fb48eec086dc159f89c2c9b803f"
+}

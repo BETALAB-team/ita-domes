@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-04",
+  "status": "complete",
+  "source_integrity": {
+    "checked": 14,
+    "changed": [],
+    "all_unchanged": true
+  },
+  "analysis_integrity": {
+    "verified": 40,
+    "changed": []
+  },
+  "outputs": [
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\04_report\\Household_archetypes_temporal_extension.docx",
+      "bytes": 70156,
+      "sha256": "6482dbb09b94880ab3acf75b5297837c58c95f3b22efd5014281c8bdcb8434fc",
+      "pages": 8
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\temporal_extension_2013_2021_20261104\\04_report\\Household_archetypes_temporal_extension.pdf",
+      "bytes": 320567,
+      "sha256": "5cdd97d511395a1f67296dea0b4219d493818d48005408f25465f0632cd28b8a",
+      "pages": 8
+    }
+  ],
+  "qa": "qa/verification.json",
+  "review_closure": "../03_review/report_closure.json"
+}

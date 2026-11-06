@@ -1,0 +1,82 @@
+[
+  {
+    "year": 2013,
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\MICRODATI\\ECH_Microdati_Anno_2013.txt",
+    "sha256": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+    "rows": 20000,
+    "unique_ids": true,
+    "positive_weights": true,
+    "weight_sum": 25872609.0,
+    "size_counts": {
+      " ": 95,
+      "1": 3372,
+      "2": 7225,
+      "3": 4470,
+      "4": 3768,
+      "5": 853,
+      "6": 217
+    },
+    "region_codes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "year": 2021,
+    "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\MICRODATI\\ISTAT_MFR_ECH_Microdati_2021_DELIMITED.txt",
+    "sha256": "dd7afa7fcf581014e4a95c27035422b08fa9fb2f211c7551deeb4568fe174eb4",
+    "rows": 54069,
+    "unique_ids": true,
+    "positive_weights": true,
+    "weight_sum": 25515560.89572683,
+    "size_counts": {
+      "1": 13807,
+      "2": 17284,
+      "3": 11336,
+      "4": 9096,
+      "5": 1997,
+      "6": 549
+    },
+    "region_codes": [
+      10,
+      20,
+      30,
+      41,
+      42,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140,
+      150,
+      160,
+      170,
+      180,
+      190,
+      200
+    ]
+  }
+]

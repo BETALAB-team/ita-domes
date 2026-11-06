@@ -1,0 +1,8 @@
+{
+  "chronology": "All five Padova v5 cases, per-surface component/order/forcing and full state balances passed before any other site launched",
+  "approved_utc": "2026-10-20T10:56:50Z",
+  "checked_files_sha256": {
+    "output\\claim_checked_article\\05_simulations\\climate_campaign_v5\\Padova\\full_step_balance_checks.json": "2b73e60d996041528d4f8ae968fd9848525ccc47fb22dbf00717e6b3b144759e",
+    "output\\claim_checked_article\\05_simulations\\climate_campaign_v5\\Padova\\independent_surface_forcing_checks.json": "62b88a171b8d11d826a2f8fc95ca688979d0db3b66aa2f1ed546196d150657f2"
+  }
+}

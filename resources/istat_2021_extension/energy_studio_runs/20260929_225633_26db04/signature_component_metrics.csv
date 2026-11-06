@@ -1,0 +1,9 @@
+end_use,stage,n_excluding_anchor,cvrmse_percent
+heating_kwh,Weather only,35,45.81334376104904
+heating_kwh,Weather + exposure,35,21.101381357843035
+heating_kwh,+ ISTAT hours,35,20.108547653551824
+heating_kwh,+ ISTAT gains,35,4.694444012158214
+cooling_kwh,Weather only,35,27.04680580807289
+cooling_kwh,Weather + exposure,35,43.432743501222006
+cooling_kwh,+ ISTAT hours,35,37.74172596022245
+cooling_kwh,+ ISTAT gains,35,18.653062428876517

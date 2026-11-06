@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "scope": "candidate mixture input assessment, not finalized v2 protocol/runner approval",
+  "assessment_sha256": "21584a2a93db61a27ae7da8cf04465890c602bfda864032ee8908999d2838776",
+  "component_ids": [
+    2941,
+    981,
+    5303,
+    9574
+  ],
+  "component_profiles_distinct": 4,
+  "training_n": 13592,
+  "checks": [
+    "same held-out IDs",
+    "independent branch-specific squared-distance medoids/ties",
+    "training-only pooled and conditional probabilities"
+  ]
+}

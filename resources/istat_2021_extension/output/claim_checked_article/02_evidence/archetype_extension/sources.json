@@ -1,0 +1,1304 @@
+{
+  "schema_version": "archetype-extension-1.0",
+  "access_date": "2026-10-20",
+  "scope": "Targeted critical narrative synthesis; original primary studies and official documentation; no systematic/exhaustive review claim.",
+  "source_count": 48,
+  "source_counts_are_not_a_citation_target": true,
+  "baseline_catalog_preserved": "../sources.json",
+  "sources": [
+    {
+      "id": "SRC-CLIMA2026",
+      "type": "incollection",
+      "authors": [
+        "Jacopo Vivian",
+        "Enrico Prataviera",
+        "Laura Carnieletto",
+        "Wilmer Pasut",
+        "Angelo Zarrella"
+      ],
+      "year": 2026,
+      "title": "A model to Simulate the Energy Consumption of the Italian Residential Building Stock with Regional Resolution",
+      "container": "Proceedings of the 15th REHVA HVAC World Congress - CLIMA 2025",
+      "volume": "788",
+      "pages": "1302--1311",
+      "doi": "10.1007/978-3-032-10546-2_123",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-10546-2_123",
+      "access_depth": "Publisher metadata and abstract; complete local chapter reviewed by conference evidence owner",
+      "locator": "Publisher Cite this paper; First Online 1 April 2026; chapter pages1302–1311",
+      "supports": "Correct conference citation and 2026 publication versus CLIMA2025 event distinction",
+      "limitations": "See conference_* evidence files for all scientific chapter claims; do not infer chapter details from publisher abstract",
+      "origin_record": "../sources.json#SRC-CLIMA2026",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "supports_claims": [
+        "AE-LIT-032",
+        "AE-CF-002",
+        "AE-CF-007",
+        "AE-CF-009"
+      ]
+    },
+    {
+      "id": "SRC-ARCH2025",
+      "type": "article",
+      "authors": [
+        "Mohamad Hasan Khajedehi",
+        "Jacopo Vivian",
+        "Angelo Zarrella"
+      ],
+      "year": 2025,
+      "title": "Identification of Italian user archetypes for building energy simulations based on a national survey",
+      "container": "Energy and Buildings",
+      "volume": "344",
+      "pages": "115924",
+      "doi": "10.1016/j.enbuild.2025.115924",
+      "url": "https://doi.org/10.1016/j.enbuild.2025.115924",
+      "access_depth": "Complete local 15-page primary PDF available; selected complete methods/results/conclusion pages directly read with pypdf; no new quantitative table transcription in this pack",
+      "locator": "Sections 3.1-3.3 pp.3-5; equations1-2 p.6; section4.3 pp.7-8; section4.4 pp.8-10; section6 p.13; AppendixA p.14",
+      "supports": "Four demographic user archetypes, probabilistic dwelling linkage and survey-derived heating-use/electricity patterns; future work explicitly includes impact on individual building simulations and temporal evolution using newer surveys",
+      "limitations": "Declared heating on-hours and modeled appliance electricity are not energy meters. Section5 accuracy expectations are not completed dynamic-simulation validation. Table/text inconsistencies and assignment definitions require the context-owned implementation audit.",
+      "origin_record": "../sources.json#SRC-ARCH2025",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "local_path": "C:\\Users\\khajmoh18975\\Downloads\\1-s2.0-S0378778825006541-main.pdf",
+      "supports_claims": [
+        "AE-LIT-017",
+        "AE-LIT-018",
+        "AE-LIT-019",
+        "AE-LIT-020",
+        "AE-LIT-032",
+        "AE-LIT-033",
+        "AE-CF-007"
+      ]
+    },
+    {
+      "id": "SRC-UA2022",
+      "type": "article",
+      "authors": [
+        "Enrico Prataviera",
+        "Jacopo Vivian",
+        "Giulia Lombardo",
+        "Angelo Zarrella"
+      ],
+      "year": 2022,
+      "title": "Evaluation of the impact of input uncertainty on urban building energy simulations using uncertainty and sensitivity analysis",
+      "container": "Applied Energy",
+      "volume": "311",
+      "pages": "118691",
+      "doi": "10.1016/j.apenergy.2022.118691",
+      "url": "https://www.research.unipd.it/bitstream/11577/3417286/9/1-s2.0-S0306261922001568-main_compressed.pdf",
+      "access_depth": "Full19-page primary article; selected methods/results inspected",
+      "locator": "Section3.1.1 p6/Fig2; Table1 p7; Section3.3.1 p11; Section3.3.2 p11; Section4.1.2 p12",
+      "supports": "EUReCA already propagates ISTAT-informed operational uncertainty, evaluates hourly heating against Verona district-heating meters, and transfers method to Milan without measurements",
+      "limitations": "Verona16 heterogeneous buildings include9 apartment blocks; selected winter periods2019/20; meter boundary excludes upstream generation/distribution. Abstract18→10% attribution differs from body non-residential1C wording; avoid this number",
+      "origin_record": "../sources.json#SRC-UA2022",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "supports_claims": [
+        "AE-LIT-021",
+        "AE-LIT-022",
+        "AE-LIT-033"
+      ]
+    },
+    {
+      "id": "SRC-MODENA2024",
+      "type": "inproceedings",
+      "authors": [
+        "Enrico Prataviera",
+        "Jacopo Vivian",
+        "Francesca Gaudino",
+        "Angelo Zarrella"
+      ],
+      "year": 2024,
+      "title": "Analysis of Energy Consumption Scenarios of the Italian Residential Building Stock",
+      "container": "Building Simulation Applications BSA 2024",
+      "pages": "157--164",
+      "doi": null,
+      "url": "https://pro.unibz.it/library/bupress/publications/fulltext/9788860462022_21.pdf",
+      "access_depth": "Full8-page primary proceedings chapter; selected methods/results inspected",
+      "locator": "Sections2.2–2.3 pp158–160; Section3.1 pp160–161; Section3.2 pp162–163",
+      "supports": "MODENA uses ISTAT2013 and EUReCA; already examines2050weather/envelope/heating-technology scenarios and national/regional aggregate comparisons",
+      "limitations": "2013versus2018GSE heating comparison uses HDD correction; forecast weather uses a different baseline source. No household/hourly measured validation established by those aggregate checks. Relationship to ita-domes requires code/conference provenance",
+      "origin_record": "../sources.json#SRC-MODENA2024",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "conference_reference_number": 8,
+      "supports_claims": [
+        "AE-LIT-024",
+        "AE-LIT-025",
+        "AE-CF-002"
+      ]
+    },
+    {
+      "id": "SRC-MOIRAE2020",
+      "type": "article",
+      "authors": [
+        "Giorgio Besagni",
+        "Marco Borgarello",
+        "Lidia Premoli Vilà",
+        "Behzad Najafi",
+        "Fabio Rinaldi"
+      ],
+      "year": 2020,
+      "title": "MOIRAE – bottom-up MOdel to compute the energy consumption of the Italian REsidential sector: Model design, validation and evaluation of electrification pathways",
+      "container": "Energy",
+      "volume": "211",
+      "pages": "118674",
+      "doi": "10.1016/j.energy.2020.118674",
+      "url": "https://www.researchgate.net/publication/344001872_MOIRAE_-_bottom-up_MOdel_to_compute_the_energy_consumption_of_the_Italian_REsidential_sector_Model_design_validation_and_evaluation_of_electrification_pathways",
+      "access_depth": "Author-uploaded primary abstract; publisher direct fetch failed; metadata corroborated by author ORCID",
+      "locator": "Abstract on author-uploaded publication; ORCID0000-0003-4166-2476 contributor/DOI record",
+      "supports": "Earlier ISTATmicrodata bottom-up thermal/electricity model and electrification analysis; abstract distinguishes national totals and household expenditure comparisons",
+      "limitations": "Abstract-only appraisal. Expenditure comparisons do not demonstrate hourly metered accuracy. No asserted software-lineage identity",
+      "origin_record": "../sources.json#SRC-MOIRAE2020",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "conference_reference_number": 6,
+      "supports_claims": [
+        "AE-LIT-024",
+        "AE-CF-002"
+      ]
+    },
+    {
+      "id": "SRC-EURECA2021",
+      "type": "article",
+      "authors": [
+        "Enrico Prataviera",
+        "Pierdonato Romano",
+        "Laura Carnieletto",
+        "Francesco Pirotti",
+        "Jacopo Vivian",
+        "Angelo Zarrella"
+      ],
+      "year": 2021,
+      "title": "EUReCA: An open-source urban building energy modelling tool for the efficient evaluation of cities energy demand",
+      "container": "Renewable Energy",
+      "volume": "173",
+      "pages": "544--560",
+      "doi": "10.1016/j.renene.2021.03.144",
+      "url": "https://github.com/BETALAB-team/EUReCA",
+      "access_depth": "Official author-maintained software README and citation; publisher indexed record; direct publisher full fetch failed",
+      "locator": "Official repository README How to cite EUReCA and Input/Output sections",
+      "supports": "Software citation and current documented inputs, schedules, systems and outputs",
+      "limitations": "Current repository documentation does not prove the conference version/configuration; no quantitative validation imported",
+      "origin_record": "../sources.json#SRC-EURECA2021",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "conference_reference_number": 10,
+      "supports_claims": []
+    },
+    {
+      "id": "SRC-FERRANDO2022",
+      "type": "article",
+      "authors": [
+        "Martina Ferrando",
+        "Sibilla Ferroni",
+        "Martina Pelle",
+        "Anita Tatti",
+        "Silvia Erba",
+        "Xing Shi",
+        "Francesco Causone"
+      ],
+      "year": 2022,
+      "title": "UBEM’s archetypes improvement via data-driven occupant-related schedules randomly distributed and their impact assessment",
+      "container": "Sustainable Cities and Society",
+      "volume": "87",
+      "pages": "104164",
+      "doi": "10.1016/j.scs.2022.104164",
+      "url": "https://re.public.polimi.it/bitstream/11311/1220975/2/Manuscript.pdf",
+      "access_depth": "Author-institution manuscript abstract/highlights indexed by search; direct PDF fetch failed",
+      "locator": "Institutional manuscript Abstract and Highlights1–5",
+      "supports": "Smart-meter-informed randomized occupancy/electricity schedules already compared with a baseline across temporal and spatial aggregation",
+      "limitations": "Abstract/highlights only; no detailed protocol or validation independence audited; no quantitative result imported",
+      "origin_record": "../sources.json#SRC-FERRANDO2022",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "supports_claims": [
+        "AE-LIT-023"
+      ]
+    },
+    {
+      "id": "SRC-PUGLISI2016",
+      "type": "article",
+      "authors": [
+        "Giovanni Puglisi",
+        "Fabio Zanghirella",
+        "Paola Ungaro",
+        "Giuliano Cammarata"
+      ],
+      "year": 2016,
+      "title": "A Methodology for the Generation of Energy Consumption Profiles in the Residential Sector",
+      "container": "International Journal of Heat and Technology",
+      "volume": "34",
+      "number": "3",
+      "pages": "491--497",
+      "doi": "10.18280/ijht.340320",
+      "url": "https://www.iieta.org/journals/ijht/paper/10.18280/ijht.340320",
+      "access_depth": "Primary full HTML methods and metadata inspected",
+      "locator": "Sections1–2/Table1; publisher volume34issue3archive",
+      "supports": "ISTAT2013building/use data used to define20dwelling-type classes and derive monthly consumption profiles; illustrative Veneto natural-gas heating results",
+      "limitations": "Existing survey-informed residential profiling; building-type classification differs from demographic archetypes. Not evidence of new study accuracy",
+      "origin_record": "../sources.json#SRC-PUGLISI2016",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "supports_claims": [
+        "AE-LIT-026"
+      ]
+    },
+    {
+      "id": "SRC-LI2025",
+      "type": "inproceedings",
+      "authors": [
+        "Chengxuan Li",
+        "Timur Dogan"
+      ],
+      "year": 2025,
+      "title": "Deriving high-fidelity residential building archetypes and typical usage patterns from national energy use surveys to enhance initial guesses for Urban Building Energy Model inputs",
+      "container": "Proceedings of Building Simulation 2025: 19th Conference of IBPSA",
+      "doi": "10.26868/25222708.2025.1336",
+      "url": "https://publications.ibpsa.org/conference/paper/?id=bs2025_1336",
+      "full_text_url": "https://publications.ibpsa.org/proceedings/bs/2025/papers/bs2025_1336.pdf",
+      "access_depth": "Primary8-page full proceedings paper and official index inspected",
+      "locator": "Data collection p3; Deploying Archetypes/Calibration p5; UBEM Performance/Fig8/Discussion p7",
+      "supports": "RECS-derived modular construction/systems/loads archetypes deployed in5R1C; compares DOEprototype, archetype initial guesses and calibrated inputs against billed energy",
+      "limitations": "SingleUScase; temporal holdout independence not established here. Official DOI1336differs from PDFfooter11336; use official index DOI and flag for submission verification. PDFuses6Aterminology with Köppen label; do not copy climate-class label without primary standard verification",
+      "origin_record": "../sources.json#SRC-LI2025",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "supports_claims": []
+    },
+    {
+      "id": "SRC-LATIFI2026",
+      "type": "article",
+      "authors": [
+        "Milad Latifi",
+        "Claudia Zucca",
+        "Martijn C. Willemsen"
+      ],
+      "year": 2026,
+      "title": "Beyond archetypes: Creating behavior-aware synthetic building populations through probabilistic multi-source data integration for multi-domain urban analysis",
+      "container": "Building and Environment",
+      "volume": "302",
+      "pages": "114872",
+      "doi": "10.1016/j.buildenv.2026.114872",
+      "url": "https://doi.org/10.1016/j.buildenv.2026.114872",
+      "access_depth": "Publisher full-text sections indexed by web search; metadata corroborated by Tilburg/TUe author repositories",
+      "locator": "Abstract; Section6Conclusion and limitations paragraph beginning What the current framework does provide",
+      "supports": "Existing probabilistic linkage of demographics, building stock, time-use and weather; source explicitly distinguishes internal checks/ablation/partial external benchmarking and future simulation coupling",
+      "limitations": "Do not treat synthetic building population or upstream modeled reference profiles as measured ground truth; publisher describes simulation coupling as future work",
+      "origin_record": "../sources.json#SRC-LATIFI2026",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "supports_claims": [
+        "AE-LIT-027"
+      ]
+    },
+    {
+      "id": "SRC-RAMOS2026",
+      "type": "article",
+      "authors": [
+        "Jesús Ramos-Martín",
+        "Shigeru Matsumoto"
+      ],
+      "year": 2026,
+      "title": "Impact of changes in the distribution of household types on residential energy consumption in Spain, 2006–2023",
+      "container": "Energy and Buildings",
+      "volume": "358",
+      "pages": "117250",
+      "doi": "10.1016/j.enbuild.2026.117250",
+      "url": "https://ddd.uab.cat/pub/artpub/2026/326584/Ramos_and_Matsumoto_2026.pdf",
+      "access_depth": "Full12-page primary article; methods/data inspected",
+      "locator": "Section3.1 pp2–3/Eqs1–2; Section3.2 pp3–4",
+      "supports": "Existing repeated-survey household-composition energy decomposition in Spain, using household budget survey and census, with explicit distribution-independence assumption",
+      "limitations": "Does not establish Italian archetype temporal transfer. Includes secondary residences and excludes missingenergy observations; unlike main-residence survey scopes. No causal mechanism or numerical result transferred",
+      "origin_record": "../sources.json#SRC-RAMOS2026",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "optional temporal/data-access background; not needed for the primary archetype-implementation argument",
+      "supports_claims": []
+    },
+    {
+      "id": "SRC-DABIRIAN2026",
+      "type": "article",
+      "authors": [
+        "Sanam Dabirian",
+        "Kartikay Sharma",
+        "Ursula Eicker"
+      ],
+      "year": 2026,
+      "title": "How can stochastic occupant-based archetypes enhance urban building energy modeling for better decision-making?",
+      "container": "Frontiers in Sustainable Cities",
+      "volume": "8",
+      "pages": "1771845",
+      "doi": "10.3389/frsc.2026.1771845",
+      "url": "https://www.frontiersin.org/journals/sustainable-cities/articles/10.3389/frsc.2026.1771845/full",
+      "access_depth": "Full primary HTML methods/conclusion inspected",
+      "locator": "Methodology; Occupancy presence stochastic schedule generation procedure/Eq1; Conclusion",
+      "supports": "Recent measured-campus-data versus external-data stochastic schedule comparison against deterministic baseline in five Montreal institutional offices",
+      "limitations": "Non-residential context; electricity is an indirect occupancy proxy; source discusses imperfect electricity/occupancy correspondence. Does not establish residential survey schedule accuracy",
+      "origin_record": "../sources.json#SRC-DABIRIAN2026",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "supports_claims": [
+        "AE-LIT-028"
+      ]
+    },
+    {
+      "id": "SRC-MONITOR2020",
+      "type": "article",
+      "authors": [
+        "Giorgio Besagni",
+        "Lidia Premoli Vilà",
+        "Marco Borgarello"
+      ],
+      "year": 2020,
+      "title": "Italian Household Load Profiles: A Monitoring Campaign",
+      "container": "Buildings",
+      "volume": "10",
+      "number": "12",
+      "pages": "217",
+      "doi": "10.3390/buildings10120217",
+      "url": "https://www.mdpi.com/2075-5309/10/12/217",
+      "access_depth": "Primary full-text sections indexed by web search; direct publisher fetch429; author-institution bibliographic record",
+      "locator": "Sections3.1–3.4 and6; Tables1–3,6",
+      "supports": "Italian monitored-household electricity precedent;67families and appliance monitoring, uneven geography, limited instrument coverage and data completeness",
+      "limitations": "No raw dataset access obtained; not a Padova sample. Suitability as independent evaluation depends on access, permissions, provenance and avoiding upstream training reuse",
+      "origin_record": "../sources.json#SRC-MONITOR2020",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "supports_claims": []
+    },
+    {
+      "id": "SRC-ISTAT-MFR",
+      "type": "misc",
+      "authors": [
+        "Istituto nazionale di statistica"
+      ],
+      "year": 2025,
+      "title": "Indagine sui consumi energetici delle famiglie: file per la ricerca",
+      "container": "Istat",
+      "doi": null,
+      "url": "https://www.istat.it/microdati/indagine-sui-consumi-energetici-delle-famiglie/",
+      "access_depth": "Official landing page",
+      "locator": "Reference-period, publication/update fields and Metadati links",
+      "supports": "Official MFRlanding page lists2013and2021reference periods; updated8January2025and describes application-based access",
+      "limitations": "Landing page proves listing, not questionnaire harmonization or identical sampling design; research-file access differs from public-use-file availability",
+      "origin_record": "../sources.json#SRC-ISTAT-MFR",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "optional temporal/data-access background; not needed for the primary archetype-implementation argument",
+      "supports_claims": []
+    },
+    {
+      "id": "SRC-ISTAT2021",
+      "type": "misc",
+      "authors": [
+        "Istituto nazionale di statistica"
+      ],
+      "year": 2022,
+      "title": "I consumi energetici delle famiglie – Anno 2021",
+      "container": "Istat",
+      "doi": null,
+      "url": "https://www.istat.it/comunicato-stampa/i-consumi-energetici-delle-famiglie-anno-2021/",
+      "access_depth": "Official statistical release landing page; linked methodological report not audited in this task",
+      "locator": "Publication21June2022; headline summary and downloadable report/tables links",
+      "supports": "Official2021release exists and reports equipment/use statistics",
+      "limitations": "Not metered energy or independent validation for model inputs derived from the same survey; no national percentage imported",
+      "origin_record": "../sources.json#SRC-ISTAT2021",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "optional temporal/data-access background; not needed for the primary archetype-implementation argument",
+      "supports_claims": []
+    },
+    {
+      "id": "SRC-KOENE2023",
+      "type": "article",
+      "authors": [
+        "F. G. H. F. Koene",
+        "B. B. Eslami-Mossallam"
+      ],
+      "year": 2023,
+      "title": "Space heating demand profiles of districts considering temporal dispersion of thermostat settings in individual buildings",
+      "container": "Building and Environment",
+      "volume": "228",
+      "pages": "109839",
+      "doi": "10.1016/j.buildenv.2022.109839",
+      "url": "https://repository.tno.nl/SingleDoc?docId=55394",
+      "access_depth": "Primary author-institution abstract and metadata; full files require request, not made",
+      "locator": "TNO record980538 abstract, DOI and Source fields",
+      "supports": "Existing RC-model analysis of temporal thermostat-setting dispersion and district heating profiles",
+      "limitations": "Meter data used to estimate settings and then compare reconstructed profiles; independent holdout not established by abstract. No performance value imported",
+      "origin_record": "../sources.json#SRC-KOENE2023",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "metadata_note": "Initials corrected in this extension from the directly inspected TNO author listing; original catalog preserved.",
+      "supports_claims": [
+        "AE-LIT-029"
+      ]
+    },
+    {
+      "id": "SRC-HUEBNER2013",
+      "type": "article",
+      "authors": [
+        "G. M. Huebner",
+        "M. McMichael",
+        "D. Shipworth",
+        "M. Shipworth",
+        "M. Durand-Daubin",
+        "A. Summerfield"
+      ],
+      "year": 2013,
+      "title": "Heating patterns in English homes: Comparing results from a national survey against common model assumptions",
+      "container": "Building and Environment",
+      "volume": "70",
+      "pages": "298--305",
+      "doi": "10.1016/j.buildenv.2013.08.028",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/1402869/",
+      "access_depth": "Primary author-institution abstract and bibliographic record",
+      "locator": "UCL Discovery Abstract and citation fields",
+      "supports": "Observed English indoor temperature series used to infer heating patterns; heterogeneity and discrepancies from common schedule assumptions",
+      "limitations": "Inferred heating operation from temperature is not direct controller or energy measurement; not an Italian reconstruction validation",
+      "origin_record": "../sources.json#SRC-HUEBNER2013",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "core or contextual; select by claim rather than cite automatically",
+      "supports_claims": [
+        "AE-LIT-030"
+      ]
+    },
+    {
+      "id": "AE-SRC-CARNIELETTO2021",
+      "authors": [
+        "Laura Carnieletto",
+        "Martina Ferrando",
+        "Lorenzo Teso",
+        "Kaiyu Sun",
+        "Wanni Zhang",
+        "Francesco Causone",
+        "Piercarlo Romagnoni",
+        "Angelo Zarrella",
+        "Tianzhen Hong"
+      ],
+      "year": 2021,
+      "title": "Italian prototype building models for urban scale building performance simulation",
+      "container": "Building and Environment",
+      "volume": "192",
+      "pages": "107590",
+      "doi": "10.1016/j.buildenv.2021.107590",
+      "url": "https://escholarship.org/content/qt8q57r16d/qt8q57r16d_noSplash_a473a55b40e402f3c45f423bc4dbdf0c.pdf",
+      "access_depth": "Full34-page author manuscript available; selected complete methods/conclusion pages inspected",
+      "locator": "Abstract PDFp3; §3.5/3.6 PDFpp23–27; Discussion/Conclusion PDFpp28–29",
+      "supports": "Physical prototypes specify envelope/HVAC by vintage and use in Italian zoneE, with normative residential internal loads and schedules.",
+      "limitations": "Does not identify demographic users or validate their assignment; prototypes are not household behaviour measurements.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "conference_reference_number": 12,
+      "supports_claims": [
+        "AE-LIT-001"
+      ]
+    },
+    {
+      "id": "AE-SRC-URBEM2025",
+      "authors": [
+        "Martina Ferrando",
+        "Francesco Causone",
+        "Alessia Banfi",
+        "Vincenzo Corrado",
+        "Ilaria Ballarini",
+        "Matteo Piro",
+        "Angelo Zarrella",
+        "Laura Carnieletto",
+        "Nicola Borgato",
+        "Gianpiero Evola",
+        "Maurizio Detommaso",
+        "Francesco Nicoletti",
+        "Andrea Vallati",
+        "Costanza Vittoria Fiorini"
+      ],
+      "year": 2025,
+      "title": "Developing an Italian Library of Reference Buildings for Urban Building Energy Modeling (UBEM): Lessons Learnt from the URBEM Project",
+      "container": "Energies",
+      "volume": "18",
+      "pages": "6026",
+      "doi": "10.3390/en18226026",
+      "url": "https://www.mdpi.com/1996-1073/18/22/6026",
+      "access_depth": "Publisher-indexed full-text sections; direct429; author-institution records corroborate",
+      "locator": "Abstract; §2RelatedWorks; Conclusion response toRQ1–RQ4; metadata18(22)6026,18November2025",
+      "supports": "Italian UBEM reference-building library formalizes harmonized inputs in traceable scorecards and uncertainty labels.",
+      "limitations": "Library construction/interoperability does not establish independent measured energy accuracy or user-archetype validity.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "number": "22",
+      "supports_claims": [
+        "AE-LIT-002"
+      ]
+    },
+    {
+      "id": "AE-SRC-SOKOL2017",
+      "authors": [
+        "Julia Sokol",
+        "Carlos Cerezo Davila",
+        "Christoph F. Reinhart"
+      ],
+      "year": 2017,
+      "title": "Validation of a Bayesian-based method for defining residential archetypes in urban building energy models",
+      "container": "Energy and Buildings",
+      "volume": "134",
+      "pages": "11--24",
+      "doi": "10.1016/j.enbuild.2016.10.050",
+      "url": "https://www.sciencedirect.com/science/article/pii/S037877881631372X",
+      "access_depth": "Primary publisher abstract, introduction and section snippets returned",
+      "locator": "Abstract training399/test2263; Overview; CaseStudy low-rise1–4units; Discussion",
+      "supports": "Uncertain archetype parameters represented by distributions are updated with monthly/annual meters; a separate larger test population is reported.",
+      "limitations": "Calibration parameters need not identify household behaviour; Cambridge low-rise data do not establish Italian or hourly transfer.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "supports_claims": [
+        "AE-LIT-003"
+      ]
+    },
+    {
+      "id": "AE-SRC-ALI2019",
+      "authors": [
+        "Usman Ali",
+        "Mohammad Haris Shamsi",
+        "Cathal Hoare",
+        "Eleni Mangina",
+        "James O'Donnell"
+      ],
+      "year": 2019,
+      "title": "A data-driven approach for multi-scale building archetypes development",
+      "container": "Energy and Buildings",
+      "volume": "202",
+      "pages": "109364",
+      "doi": "10.1016/j.enbuild.2019.109364",
+      "url": "https://researchrepository.ucd.ie/rest/bitstreams/42898/retrieve",
+      "access_depth": "Author-institution abstract and selected indexed manuscript methods; directfetchfailed",
+      "locator": "Abstract; §3/Fig1 five-step workflow and §3.1DataCollection",
+      "supports": "Irish archetypes are separately developed and compared at national, city, county and district scales.",
+      "limitations": "Scale-specific modeled differences are not proof of measured accuracy; national typologies cannot automatically be assigned city representativeness.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "supports_claims": [
+        "AE-LIT-004"
+      ]
+    },
+    {
+      "id": "AE-SRC-RICHARDSON2010",
+      "authors": [
+        "Ian Richardson",
+        "Murray Thomson",
+        "David Infield",
+        "Conor Clifford"
+      ],
+      "year": 2010,
+      "title": "Domestic electricity use: a high-resolution energy demand model",
+      "container": "Energy and Buildings",
+      "volume": "42",
+      "pages": "1878--1887",
+      "doi": "10.1016/j.enbuild.2010.05.023",
+      "url": "https://pureportal.strath.ac.uk/en/publications/domestic-electricity-use-a-high-resolution-energy-demand-model/",
+      "access_depth": "Primary author-institution abstract and bibliographic record",
+      "locator": "Abstract; volume42(10),pp1878–1887",
+      "supports": "Activity and active occupancy drive stochastic appliance-use simulation at one-minute resolution, compared with recorded electricity from22UKdwellings.",
+      "limitations": "Electricity-profile statistical evaluation does not establish heating-control timing or Italian demographic assignment accuracy.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "number": "10",
+      "supports_claims": [
+        "AE-LIT-005"
+      ]
+    },
+    {
+      "id": "AE-SRC-WIDEN2010",
+      "authors": [
+        "Joakim Widén",
+        "Ewa Wäckelgård"
+      ],
+      "year": 2010,
+      "title": "A high-resolution stochastic model of domestic activity patterns and electricity demand",
+      "container": "Applied Energy",
+      "volume": "87",
+      "pages": "1880--1892",
+      "doi": "10.1016/j.apenergy.2009.11.006",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306261909004930",
+      "access_depth": "Primary publisher abstract, introduction and section outline",
+      "locator": "Abstract; Introduction final paragraphs; §3data/§4evaluation identified but not fully inspected",
+      "supports": "Time-use-trained nonhomogeneous Markov chains generate individual activities/occupancy and appliance electricity; evaluates household and aggregate properties.",
+      "limitations": "The modeled end-use scope explicitly excludes heating/maintenance electricity; temporal detail is synthetic and not observation of a specific household.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "number": "6",
+      "supports_claims": [
+        "AE-LIT-006"
+      ]
+    },
+    {
+      "id": "AE-SRC-BUTTITTA2019",
+      "authors": [
+        "Giuseppina Buttitta",
+        "William J. N. Turner",
+        "Olivier Neu",
+        "Donal P. Finn"
+      ],
+      "year": 2019,
+      "title": "Development of occupancy-integrated archetypes: Use of data mining clustering techniques to embed occupant behaviour profiles in archetypes",
+      "container": "Energy and Buildings",
+      "volume": "198",
+      "pages": "84--99",
+      "doi": "10.1016/j.enbuild.2019.05.056",
+      "url": "https://researchrepository.ucd.ie/server/api/core/bitstreams/d1e15168-1930-4c63-ade3-d9f66969c0ca/content",
+      "access_depth": "Full32-page primary author manuscript; selected complete methods/results inspected",
+      "locator": "§3.1.1–3.1.2 PDFpp16–19; §4.1 PDFpp20–23; Conclusion PDFp28",
+      "supports": "Time-use-based occupancy profiles are integrated with physical dwelling archetypes; simulated heating control/internal gains are explicit assumptions.",
+      "limitations": "Presence is mapped to heating availability by assumption, not direct controller measurement; model differences cannot be called observed savings.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "supports_claims": [
+        "AE-LIT-007",
+        "AE-LIT-033"
+      ]
+    },
+    {
+      "id": "AE-SRC-BUTTITTA2020",
+      "authors": [
+        "Giuseppina Buttitta",
+        "Donal P. Finn"
+      ],
+      "year": 2020,
+      "title": "A high-temporal resolution residential building occupancy model to generate high-temporal resolution heating load profiles of occupancy-integrated archetypes",
+      "container": "Energy and Buildings",
+      "volume": "206",
+      "pages": "109577",
+      "doi": "10.1016/j.enbuild.2019.109577",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378778819322170",
+      "access_depth": "Primary publisher abstract plus author-released model description",
+      "locator": "Abstract; MendeleyData modelV1 description DOI10.17632/f43xks8vyg.1,10November2019",
+      "supports": "Time-use-based stochastic multi-day occupancy-category profiles are supplied for occupancy-integrated archetypes and heating-load simulation.",
+      "limitations": "Five activity/presence categories differ from the four Italian demographic archetypes; transfer requires data and definition checks, not relabeling.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "supports_claims": [
+        "AE-LIT-008"
+      ]
+    },
+    {
+      "id": "AE-SRC-CHEN2022",
+      "authors": [
+        "Jianli Chen",
+        "Rajendra Adhikari",
+        "Eric Wilson",
+        "Joseph Robertson",
+        "Anthony Fontanini",
+        "Ben Polly",
+        "Opeoluwa Olawale"
+      ],
+      "year": 2022,
+      "title": "Stochastic simulation of occupant-driven energy use in a bottom-up residential building stock model",
+      "container": "Applied Energy",
+      "volume": "325",
+      "pages": "119890",
+      "doi": "10.1016/j.apenergy.2022.119890",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306261922011540",
+      "access_depth": "Primary publisher abstract/introduction/conclusion indexed; laboratory record corroborates",
+      "locator": "Abstract; Introduction ResStockworkflow and final paragraphs; ConclusionAndFutureWork",
+      "supports": "Hybrid Markov/event-duration sampling is integrated with ResStock and checked against time-use and measured end-use electricity data.",
+      "limitations": "USdata and end-use evaluation do not validate Italian heating schedules. Directly counters generic assertion that ResStock only uses fixed occupancy schedules.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "supports_claims": [
+        "AE-LIT-009",
+        "AE-LIT-033"
+      ]
+    },
+    {
+      "id": "AE-SRC-MOSTEIRO2020",
+      "authors": [
+        "Martín Mosteiro-Romero",
+        "Illias Hischier",
+        "Jimeno A. Fonseca",
+        "Arno Schlueter"
+      ],
+      "year": 2020,
+      "title": "A novel population-based occupancy modeling approach for district-scale simulations compared to standard-based methods",
+      "container": "Building and Environment",
+      "volume": "181",
+      "pages": "107084",
+      "doi": "10.1016/j.buildenv.2020.107084",
+      "url": "https://research.tudelft.nl/en/publications/a-novel-population-based-occupancy-modeling-approach-for-district/",
+      "access_depth": "Primary author-institution abstract and citation; ETHPDFindexed but directfailed",
+      "locator": "Abstract; full primaryETHmanuscript linked in searchlog",
+      "supports": "Register-based individuals and daily schedules are compared with deterministic/stochastic standard-based occupancy for district energy simulation.",
+      "limitations": "Important education/nonresidential context; between-model energy deviations are not measured errors or Italian population evidence.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "supports_claims": [
+        "AE-LIT-010"
+      ]
+    },
+    {
+      "id": "AE-SRC-DEJAEGER2020",
+      "authors": [
+        "Ina De Jaeger",
+        "Annelies Vandermeulen",
+        "Bram van der Heijde",
+        "Lieve Helsen",
+        "Dirk Saelens"
+      ],
+      "year": 2020,
+      "title": "Aggregating set-point temperature profiles for archetype-based: simulations of the space heat demand within residential districts",
+      "container": "Journal of Building Performance Simulation",
+      "volume": "13",
+      "pages": "285--300",
+      "doi": "10.1080/19401493.2020.1727567",
+      "url": "https://www.mech.kuleuven.be/en/tme/research/thermal_systems/publications/publications/view?fromnr=21&pubsonpage=20&pubtype=journal-article&sortby=scdate",
+      "access_depth": "Primary author-institution abstract and indexed authorPDF; directjournal/PDFfailed",
+      "locator": "Abstract; KU LeuvenLIRIAS2957723; authorPDFp1",
+      "supports": "Compares three ways to aggregate occupant setpoint profiles for847single-family dwellings, considering different thermal responses.",
+      "limitations": "Comparison is full versus archetype simulation; numerical aggregation error is not independent metered accuracy. Cannot assume mean-input simulation equals mean outputs.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "number": "3",
+      "supports_claims": [
+        "AE-LIT-011"
+      ]
+    },
+    {
+      "id": "AE-SRC-SOOD2025",
+      "authors": [
+        "Divyanshu Sood",
+        "Ibrahim Alhindawi",
+        "Usman Ali",
+        "Donal Finn",
+        "James A. McGrath",
+        "Miriam A. Byrne",
+        "Anna Mavrogianni",
+        "James O'Donnell"
+      ],
+      "year": 2025,
+      "title": "Quantifying uncertainty in multi-scale energy analysis of residential archetypes: A stochastic occupancy approach",
+      "container": "Building and Environment",
+      "volume": "279",
+      "pages": "113026",
+      "doi": "10.1016/j.buildenv.2025.113026",
+      "url": "https://pure.ul.ie/en/publications/quantifying-uncertainty-in-multi-scale-energy-analysis-of-residen/",
+      "access_depth": "Primary author-institution abstract and publisher highlights; directfullfetchfailed",
+      "locator": "Abstract; publisherHighlights; publication1July2025",
+      "supports": "Probabilistic occupancy models trained on time-use data are applied to Irish residential archetype energy analysis across scales.",
+      "limitations": "Full methods/holdout independence not inspected; do not import small error percentages or broad geographical applicability from abstract rhetoric.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "supports_claims": [
+        "AE-LIT-012"
+      ]
+    },
+    {
+      "id": "AE-SRC-JUNG2023",
+      "authors": [
+        "Wooyoung Jung",
+        "Zhe Wang",
+        "Tianzhen Hong",
+        "Farrokh Jazizadeh"
+      ],
+      "year": 2023,
+      "title": "Smart thermostat data-driven U.S. residential occupancy schedules and development of a U.S. residential occupancy schedule simulator",
+      "container": "Building and Environment",
+      "volume": "243",
+      "pages": "110628",
+      "doi": "10.1016/j.buildenv.2023.110628",
+      "url": "https://escholarship.org/content/qt4wd5w010/qt4wd5w010.pdf",
+      "access_depth": "Full27-page primary manuscript; selected methods/limitations inspected",
+      "locator": "§3.1PDFp6; occupancy-identification ambiguity PDFp12; §5PDFpp24–25",
+      "supports": "Thermostat-derived occupancy status is clustered into typical schedules and used in theROSSgenerator; status is not occupant count.",
+      "limitations": "PIRline-of-sight/stationary-person limits, absence of ground truth and opt-in thermostat coverage limit proxy interpretation and transfer.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "supports_claims": [
+        "AE-LIT-013"
+      ]
+    },
+    {
+      "id": "AE-SRC-HANMER2019",
+      "authors": [
+        "Clare Hanmer",
+        "Michelle Shipworth",
+        "David Shipworth",
+        "Edwin Carter"
+      ],
+      "year": 2019,
+      "title": "How household thermal routines shape UK home heating demand patterns",
+      "container": "Energy Efficiency",
+      "volume": "12",
+      "pages": "5--17",
+      "doi": "10.1007/s12053-018-9632-x",
+      "url": "https://link.springer.com/article/10.1007/s12053-018-9632-x",
+      "access_depth": "Primary fullHTML; methods and limitations inspected",
+      "locator": "Methods:HeatingControllerDataAnalysis,40weekdaysJan–Feb2016; Limitations; publishedonline5March2018,volume2019",
+      "supports": "Controller schedules and call-for-heat signals reveal temporal household heating routines and synchronization.",
+      "limitations": "IN/OUT/ASLEEPsettings need not equal actual presence; calls for heat are not direct energy meters; selected337homes not generalizable UKstock.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "supports_claims": [
+        "AE-LIT-014"
+      ]
+    },
+    {
+      "id": "AE-SRC-WIDEN2025",
+      "authors": [
+        "Joakim Widén"
+      ],
+      "year": 2025,
+      "title": "Computationally efficient upscaling of Markovian occupancy models for urban-level building simulations",
+      "container": "Journal of Building Performance Simulation",
+      "volume": "18",
+      "pages": "424--451",
+      "doi": "10.1080/19401493.2024.2445134",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/19401493.2024.2445134",
+      "access_depth": "Primary indexedfullHTMLmethods/discussion/conclusion; directfetchfailed; officialUppsalarecordcorroborates",
+      "locator": "§2Methods/Fig1; §4Discussion; §5Conclusions; volume18(4),online30December2024",
+      "supports": "Compares originalMarkov,temporalrescaling and multinomial aggregation models by statistical fidelity and runtime at different scales.",
+      "limitations": "Model-to-model occupancy evaluation does not prove building-energy accuracy; paper explicitly leaves heterogeneity and building/end-use interactions for future work.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "number": "4",
+      "supports_claims": [
+        "AE-LIT-015"
+      ]
+    },
+    {
+      "id": "AE-SRC-GILANI2018",
+      "authors": [
+        "Sara Gilani",
+        "William O'Brien",
+        "H. Burak Gunay"
+      ],
+      "year": 2018,
+      "title": "Simulating occupants' impact on building energy performance at different spatial scales",
+      "container": "Building and Environment",
+      "volume": "132",
+      "pages": "327--337",
+      "doi": "10.1016/j.buildenv.2018.01.040",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360132318300581",
+      "access_depth": "Primary publisher abstract,introduction and scope",
+      "locator": "Abstract; Introduction finalscopeparagraph; Highlights",
+      "supports": "Simulation compares stochastic,rule-based and schedule approaches for occupancy/lighting/shades across office aggregation scales.",
+      "limitations": "Annual office-lighting convergence cannot establish household heating/peak convergence or universal scale threshold.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "supports_claims": [
+        "AE-LIT-016"
+      ]
+    },
+    {
+      "id": "AE-SRC-RUGANI2024",
+      "authors": [
+        "Roberto Rugani",
+        "Marco Picco",
+        "Giacomo Salvadori",
+        "Fabio Fantozzi",
+        "Marco Marengo"
+      ],
+      "year": 2024,
+      "title": "A numerical analysis of occupancy profile databases impact on dynamic energy simulation of buildings",
+      "container": "Energy and Buildings",
+      "volume": "310",
+      "pages": "114114",
+      "doi": "10.1016/j.enbuild.2024.114114",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378778824002305",
+      "access_depth": "Primary publisher abstract/highlights plus author-institution bibliographic record; institutional fullPDF fetch403",
+      "locator": "Publisher Abstract/Highlights; Brighton and Pisa author-institution records; primary paper cited as ARCH2025 reference14",
+      "supports": "Controlled comparison of six occupancy-profile databases in EnergyPlus across three city climates and nine building uses.",
+      "limitations": "Abstract-level methodological appraisal; database inputs are bundled. Do not import extreme percentages, claim causal mechanisms, or infer independent measured accuracy.",
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "supports_claims": [
+        "AE-LIT-031"
+      ]
+    },
+    {
+      "id": "CF-SRC-GREENDEAL2019",
+      "authors": [
+        "European Commission"
+      ],
+      "year": 2019,
+      "title": "The European Green Deal",
+      "container": "COM(2019)640 final",
+      "volume": "",
+      "pages": "",
+      "doi": null,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019DC0640",
+      "access_depth": "Official EUR-Lex text/metadata indexed; direct canonical fetch returned minimal page",
+      "locator": "Document heading/date 11December2019; Communication introduction",
+      "supports": "Historical policy motivation for the conference article.",
+      "limitations": "Context only; no current compliance, simulation accuracy or retrofit-savings claim.",
+      "conference_reference_number": 1,
+      "type": "misc",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference policy or boundary/standards provenance; cite only if relevant",
+      "supports_claims": []
+    },
+    {
+      "id": "CF-SRC-EPBD2024",
+      "authors": [
+        "European Parliament and Council of the European Union"
+      ],
+      "year": 2024,
+      "title": "Directive (EU) 2024/1275 of the European Parliament and of the Council of 24 April 2024 on the energy performance of buildings (recast)",
+      "container": "Official Journal of the European Union",
+      "volume": "",
+      "pages": "",
+      "doi": null,
+      "url": "https://eur-lex.europa.eu/eli/dir/2024/1275/oj",
+      "access_depth": "Official EUR-Lex original directive heading/recitals indexed",
+      "locator": "Official Journal L2024/1275,8May2024; title/date",
+      "supports": "Historical EPBD reference used by CLIMA.",
+      "limitations": "No implementation, compliance or interpretation of current duties assessed.",
+      "conference_reference_number": 2,
+      "type": "misc",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference policy or boundary/standards provenance; cite only if relevant",
+      "supports_claims": []
+    },
+    {
+      "id": "CF-SRC-EESC2022",
+      "authors": [
+        "European Economic and Social Committee"
+      ],
+      "year": 2022,
+      "title": "Opinion of the European Economic and Social Committee on the Communication: 'Fit for 55': delivering the EU's 2030 Climate Target on the way to climate neutrality [COM(2021) 550 final]",
+      "container": "Official Journal of the European Union",
+      "volume": "C275",
+      "pages": "101--107",
+      "doi": null,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=uriserv:OJ.C_.2022.275.01.0101.01.ENG",
+      "access_depth": "Official EUR-Lex heading/metadata and document relationship",
+      "locator": "CELEX52021AE5481; vote24February2022; OJ18July2022",
+      "supports": "The URL printed in CLIMA reference3 identifies an EESC opinion, not a Commission communication.",
+      "limitations": "Do not carry the printed author/title/year combination forward unchanged.",
+      "conference_reference_number": 3,
+      "type": "misc",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference policy or boundary/standards provenance; cite only if relevant",
+      "supports_claims": []
+    },
+    {
+      "id": "CF-SRC-FIT552021",
+      "authors": [
+        "European Commission"
+      ],
+      "year": 2021,
+      "title": "'Fit for 55': delivering the EU's 2030 Climate Target on the way to climate neutrality",
+      "container": "COM(2021)550 final",
+      "volume": "",
+      "pages": "",
+      "doi": null,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021DC0550",
+      "access_depth": "Official EUR-Lex text and document metadata indexed",
+      "locator": "CELEX52021DC0550; Commission communication14July2021",
+      "supports": "Verified replacement if the extension cites the Commission communication intended in CLIMA reference3.",
+      "limitations": "Optional policy context only; correction must not be silently attributed to the original bibliography.",
+      "conference_reference_number": 3,
+      "type": "misc",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference policy or boundary/standards provenance; cite only if relevant",
+      "supports_claims": []
+    },
+    {
+      "id": "CF-SRC-BROGGER2018",
+      "authors": [
+        "Morten Brøgger",
+        "Kim Bjarne Wittchen"
+      ],
+      "year": 2018,
+      "title": "Estimating the energy-saving potential in national building stocks – A methodology review",
+      "container": "Renewable and Sustainable Energy Reviews",
+      "volume": "82",
+      "pages": "1489--1496",
+      "doi": "10.1016/j.rser.2017.05.239",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364032117308857",
+      "access_depth": "Original publisher abstract/section excerpts and author-institution metadata; not complete full-text appraisal",
+      "locator": "Abstract; methodological discussion of extrapolation/representativeness; Discussion/Conclusion excerpts",
+      "supports": "Stock-model review distinguishes extrapolation and model approaches and stresses transparent, representative baseline descriptions.",
+      "limitations": "A methodology review, not a primary empirical effect estimate; no reviewed source's numerical performance imported.",
+      "conference_reference_number": 4,
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference scientific/method backbone",
+      "supports_claims": [
+        "AE-CF-001"
+      ]
+    },
+    {
+      "id": "CF-SRC-CALAMA2024",
+      "authors": [
+        "Carmen María Calama-González",
+        "Rocío Escandón",
+        "Rafael Suárez",
+        "Alicia Alonso",
+        "Ángel Luis León-Rodríguez"
+      ],
+      "year": 2024,
+      "title": "Household energy vulnerability evaluation in southern Spain through parametric energy simulation models and socio-economic data",
+      "container": "Sustainable Cities and Society",
+      "volume": "103",
+      "pages": "105276",
+      "doi": "10.1016/j.scs.2024.105276",
+      "url": "https://idus.us.es/server/api/core/bitstreams/d437d2eb-631e-4c9e-9d1f-5f19c3e4287b/content",
+      "access_depth": "Primary author-institution abstract and indexed complete selected methods page; directPDF403",
+      "locator": "§2.2p4,Stages1–3; §2.3p4; originalpaper metadata",
+      "supports": "Combines socioeconomic vulnerability, regional/neighbourhood housing characterization and parametric climate/comfort simulations; individual models compared with monitored indoor temperatures.",
+      "limitations": "Southern-Spain social-housing/adaptive comfort scope; inherited temperature checks do not validate Italian demand/carriers. Referenced prior validation papers not independently audited.",
+      "conference_reference_number": 5,
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference scientific/method backbone",
+      "supports_claims": [
+        "AE-CF-005",
+        "AE-CF-006"
+      ]
+    },
+    {
+      "id": "CF-SRC-RSE2021",
+      "authors": [
+        "L. Croci",
+        "S. Viani",
+        "Enrico Prataviera",
+        "Angelo Zarrella"
+      ],
+      "year": 2021,
+      "title": "Applicativo per la valutazione dei consumi energetici degli edifici residenziali italiani",
+      "container": "Ricerca sul Sistema Energetico (RSE)",
+      "volume": "",
+      "pages": "",
+      "doi": null,
+      "url": "https://www.rse-web.it/rapporti/applicativo-per-la-valutazione-dei-consumi-energetici-degli-edifici-residenziali-italiani/",
+      "access_depth": "Official report page abstract/metadata; download link returns page/access UI rather than fullreport",
+      "locator": "Rif.RSE21012539; AnnoRapporto2021; Autori; description paragraphs",
+      "supports": "Official report describes MODENA using ISTAT building/sociodemographic/equipment/use information and hourly simplified thermal modelling.",
+      "limitations": "Report body not obtained; product page year2022 is distinct from report2021. Correct authorViani; no code identity or numerical accuracy inherited.",
+      "conference_reference_number": 7,
+      "type": "techreport",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference scientific/method backbone",
+      "number": "21012539",
+      "supports_claims": [
+        "AE-CF-002",
+        "AE-CF-003"
+      ]
+    },
+    {
+      "id": "CF-SRC-ISTAT2013PUF",
+      "authors": [
+        "Istituto nazionale di statistica"
+      ],
+      "year": 2017,
+      "title": "Indagine sui consumi energetici delle famiglie: microdati ad uso pubblico, anno 2013",
+      "container": "Istat",
+      "volume": "",
+      "pages": "",
+      "doi": null,
+      "url": "https://www.istat.it/microdati/indagine-sui-consumi-energetici-delle-famiglie-anno-2013-2/",
+      "access_depth": "Official exact landing page referenced by CLIMA; metadata/description inspected",
+      "locator": "Referenceperiod2013; publication30August2017; pageID22523; publicuse tag",
+      "supports": "Exact official survey-release citation used by CLIMA and ARCH2025.",
+      "limitations": "Distinct from current research-fileMFRpage. Landing description is not questionnaire comparability, local representativeness or metered truth.",
+      "conference_reference_number": 9,
+      "type": "misc",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference scientific/method backbone",
+      "supports_claims": [
+        "AE-CF-007"
+      ]
+    },
+    {
+      "id": "CF-SRC-VIVIAN2017",
+      "authors": [
+        "Jacopo Vivian",
+        "Angelo Zarrella",
+        "Giuseppe Emmi",
+        "Michele De Carli"
+      ],
+      "year": 2017,
+      "title": "An evaluation of the suitability of lumped-capacitance models in calculating energy needs and thermal behaviour of buildings",
+      "container": "Energy and Buildings",
+      "volume": "150",
+      "pages": "447--465",
+      "doi": "10.1016/j.enbuild.2017.06.021",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378778816314244",
+      "access_depth": "Original publisher abstract/highlights/methodology/conclusion excerpts indexed; direct403; author-institution metadata corroborated",
+      "locator": "Abstract; Methodology; ResultsAndDiscussion; Conclusions",
+      "supports": "Compares5R1Cand7R2CwithTRNSYSfor a room/apartment across envelopes/climates; distinguishes seasonal energy from dynamic/peak performance.",
+      "limitations": "Inter-model comparison, not measured dwelling validation. Does not establish correctness of current adapter; no benchmark has been run by citing it.",
+      "conference_reference_number": 11,
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference scientific/method backbone",
+      "supports_claims": [
+        "AE-CF-004"
+      ]
+    },
+    {
+      "id": "CF-SRC-DPR4121993",
+      "authors": [
+        "Presidente della Repubblica Italiana"
+      ],
+      "year": 1993,
+      "title": "Decreto del Presidente della Repubblica 26 agosto 1993, n. 412",
+      "container": "Gazzetta Ufficiale,SerieGenerale242,SupplementoOrdinario96",
+      "volume": "",
+      "pages": "",
+      "doi": null,
+      "url": "https://www.gazzettaufficiale.it/eli/id/1993/10/14/093G0451/sg",
+      "access_depth": "Official original-act landing metadata; article-specific legal provisions not audited",
+      "locator": "Title/date; GU14October1993; CLIMA§3.1p1304citesforheatingseason",
+      "supports": "Verified identity of the historical regulation cited for CLIMA seasonal assumptions.",
+      "limitations": "No current compliance or legal limit interpreted. Regulatory operating windows do not measure actual household use.",
+      "conference_reference_number": 13,
+      "type": "misc",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference policy or boundary/standards provenance; cite only if relevant",
+      "supports_claims": []
+    },
+    {
+      "id": "CF-SRC-STAFFELL2012",
+      "authors": [
+        "Iain Staffell",
+        "Dan Brett",
+        "Nigel Brandon",
+        "Adam Hawkes"
+      ],
+      "year": 2012,
+      "title": "A review of domestic heat pumps",
+      "container": "Energy & Environmental Science",
+      "volume": "5",
+      "pages": "9291--9306",
+      "doi": "10.1039/C2EE22653G",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2012/ee/c2ee22653g",
+      "access_depth": "Original publisher abstract/metadata; no detailed correlation rederivation",
+      "locator": "Abstract/ArticleInformation;5(11)9291–9306; CLIMA§3.1p1305",
+      "supports": "Review is CLIMA's cited source for dynamic heat-pump efficiency modelling.",
+      "limitations": "Current useful-sensible heating experiment has no heat-pump/final-energy conversion; omit from central argument unless that boundary is added and verified.",
+      "conference_reference_number": 14,
+      "type": "article",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference policy or boundary/standards provenance; cite only if relevant",
+      "number": "11",
+      "supports_claims": [
+        "AE-CF-009"
+      ]
+    },
+    {
+      "id": "CF-SRC-UNI113002019",
+      "authors": [
+        "Ente Italiano di Normazione"
+      ],
+      "year": 2019,
+      "title": "UNI/TS 11300-2:2019. Prestazioni energetiche degli edifici - Parte 2: Determinazione del fabbisogno di energia primaria e dei rendimenti per la climatizzazione invernale, per la produzione di acqua calda sanitaria, per la ventilazione e per l'illuminazione in edifici non residenziali",
+      "container": "UNI",
+      "volume": "",
+      "pages": "",
+      "doi": null,
+      "url": "https://store.uni.com/uni-ts-11300-2-2019",
+      "access_depth": "Official UNI catalog title/summary/edition date; standard body not accessed",
+      "locator": "Catalog Sommario; entry7February2019; CLIMA§3.2p1306",
+      "supports": "Official scope includes DHW useful heat and supplied/primary energy and system efficiencies.",
+      "limitations": "Catalog scope alone does not verify a coefficient/formula or show current implementation compliance. Current ideal-load study excludes DHW.",
+      "conference_reference_number": 15,
+      "type": "misc",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference policy or boundary/standards provenance; cite only if relevant",
+      "supports_claims": [
+        "AE-CF-009"
+      ]
+    },
+    {
+      "id": "CF-SRC-UNI103492016",
+      "authors": [
+        "Ente Italiano di Normazione"
+      ],
+      "year": 2016,
+      "title": "UNI 10349-1:2016. Riscaldamento e raffrescamento degli edifici - Dati climatici - Parte 1: Medie mensili per la valutazione della prestazione termo-energetica dell'edificio e metodi per ripartire l'irradianza solare nella frazione diretta e diffusa e per calcolare l'irradianza solare su di una superficie inclinata",
+      "container": "UNI",
+      "volume": "",
+      "pages": "",
+      "doi": null,
+      "url": "https://store.uni.com/uni-10349-1-2016",
+      "access_depth": "Official UNI catalog title/summary/edition date; standard body not accessed",
+      "locator": "Catalog Sommario;31March2016; CLIMA§3.3p1306",
+      "supports": "Official scope covers Italian conventional climatic data and solar direct/diffuse/tilted-surface calculations.",
+      "limitations": "Does not establish current PVGISweather compliance or historical-year matching. Corrigendum exists but not technically audited.",
+      "conference_reference_number": 16,
+      "type": "misc",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference policy or boundary/standards provenance; cite only if relevant",
+      "supports_claims": []
+    },
+    {
+      "id": "CF-SRC-ISO159272005",
+      "authors": [
+        "International Organization for Standardization"
+      ],
+      "year": 2005,
+      "title": "ISO 15927-4:2005. Hygrothermal performance of buildings - Calculation and presentation of climatic data - Part 4: Hourly data for assessing the annual energy use for heating and cooling",
+      "container": "ISO",
+      "volume": "",
+      "pages": "",
+      "doi": null,
+      "url": "https://www.iso.org/standard/41371.html",
+      "access_depth": "Official ISO catalog abstract/edition information; full standard not accessed",
+      "locator": "Abstract; edition1,July2005; CLIMA§3.3p1306",
+      "supports": "Reference-year construction is intended for average annual heating/cooling energy; official abstract excludes extreme/semi-extreme years.",
+      "limitations": "No conformity audit of downloaded weather files; typical-year maxima are not extreme design-year evidence.",
+      "conference_reference_number": 17,
+      "type": "misc",
+      "access_date": "2026-10-20",
+      "status": "verified_for_bounded_claims",
+      "review_role": "conference policy or boundary/standards provenance; cite only if relevant",
+      "supports_claims": [
+        "AE-CF-008"
+      ]
+    }
+  ]
+}

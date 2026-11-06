@@ -1,0 +1,38 @@
+{
+  "raw2021_n": 54069,
+  "eligible2021_n": 44880,
+  "excluded2021_n": 9189,
+  "raw2013_n": 20000,
+  "archived2013_n": 17855,
+  "common_archived2013_n": 17756,
+  "out_of_support_n": 2985,
+  "weight2021_effective_n": 20689.96570263233,
+  "transfer_status": "archive-calibrated fixed-centroid proxy; not exact published estimator",
+  "published_benchmarks_unchanged": true,
+  "best_silhouette_k": 2,
+  "source_hashes": {
+    "istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\MICRODATI\\ISTAT_MFR_ECH_Microdati_2021_DELIMITED.txt": "dd7afa7fcf581014e4a95c27035422b08fa9fb2f211c7551deeb4568fe174eb4",
+    "istat\\ECH_2013_IT\\MICRODATI\\ECH_Microdati_Anno_2013.txt": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+    "clusters.csv": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90",
+    "output\\temporal_extension_2013_2021_20261104\\00_baseline\\archive_transfer_parameters.json": "7509194457691fea8e2daaa2dcbf1f310637ce236f6a10f13d3879fb1ffaefc6",
+    "output\\temporal_extension_2013_2021_20261104\\02_analysis\\analysis_spec.md": "e7e1d280c5f8f0912939a6484778574c00112050f77ead4c5401e23123da80bb"
+  },
+  "source_hashes_unchanged": true,
+  "software": {
+    "python": "bundled 3.12",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "kmeans": "bounded numpy Lloyd, 10 random starts, 150 iterations, tolerance 1e-8",
+    "matching": "optimal 4! enumeration"
+  },
+  "limitations": [
+    "2021 age11 upper limit100 is assumption for open-ended80+",
+    "Education code1 aggregates no/primary schooling; archive legacy collision cannot be recovered exactly",
+    "2013 paper whole archive and 2021 size<=5 cohort differ; descriptive benchmark contrast is not a clean temporal trend",
+    "No confidence intervals: harmonization uncertainty and incompatible survey design not represented by binomial precision",
+    "Under11 schooling is structurally not asked; all households with under11 children excluded by strict profile; weights do not restore absent families",
+    "Conditional heating/cooling new diagnostics use source-verified frequency1/2 with valid blocks, different winter2020 reference; not energy demand"
+  ],
+  "cohort_description": "2021 complete-profile size1-5 households with no children under11; additional schooling completeness exclusions",
+  "regional_diagnostic_scope": "frozen archive size1-5 versus2021 selected profile cohort; education eligibility differs; geography-adjustment only, not common demographic support"
+}

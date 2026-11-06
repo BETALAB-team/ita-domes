@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "archive": "Italian_user_archetypes_2021_results.zip",
+  "archive_sha256": "3e70268c825a1380e87eca10575fac6a0613b166205a6389056f0715847c047c",
+  "bytes": 13152240,
+  "members": 137,
+  "manifest_entries_verified": 136,
+  "zip_integrity": "passed"
+}

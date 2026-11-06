@@ -1,0 +1,121 @@
+{
+  "status": "pass",
+  "TAB-01": "four published rows; all24 displayed numeric cells exact; description meanings and distinct unweighted household/person denominators retained; printed72.2 and adjacent local72.1 disclosure retained",
+  "TAB-02": "all5domain counts and4eligible group counts exact; count/purpose separate; two per16strata; training13592/heldout32",
+  "table_text_sha256": {
+    "TAB-01": "7f7f52b03117ede88e986a806d54adf53d063740c27596cb65dec31f0f312ad1",
+    "TAB-02": "fdff56db8bf097fb13cb5d0ada031d37b97de5147bf5a359d85f1c61d7c00734"
+  },
+  "sources_sha256": {
+    "specification": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\published_archetype_specification.md",
+      "sha256": "61fa5c2b31137b6459d267b4714c66801dcd35b6e305fa43ce5d79432638f207"
+    },
+    "assignment_audit": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\00_context\\archetype_extension\\local_assignment_audit.json",
+      "sha256": "bb7a79b0f5cbc880cd532a0028c127af95a0e5937c8787ca7bc1578237d9e099"
+    },
+    "strata": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\05_simulations\\archetype_campaign_v2\\pre_run\\stratum_counts.csv",
+      "sha256": "d23a457ff25a03405fdd1d6eb6c7af6aecdb9a43f3e22d20814dfea94a8eb085"
+    },
+    "probabilities": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\05_simulations\\archetype_campaign_v2\\pre_run\\mixture_probabilities.json",
+      "sha256": "f97a68f29aca5fac7e0c6fa3f8284c82e8960133afd4c5eee032df4f3dda8a43"
+    },
+    "manuscript": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\08_manuscript\\article_first_draft.md",
+      "sha256": "f979a436b841d75bd7d78fbdd0e8e4d26aa9ed8482d006599f10014b2223d7f2"
+    }
+  },
+  "table_rows": {
+    "TAB-01": [
+      [
+        "Group",
+        "Published description",
+        "Mean min/max age (years)",
+        "Mean members",
+        "Mean education index",
+        "Household/person shares (%)"
+      ],
+      [
+        "---",
+        "---",
+        "---:",
+        "---:",
+        "---:",
+        "---:"
+      ],
+      [
+        "1",
+        "Few older members; mid-level education",
+        "70.2 / 78.3",
+        "1.8",
+        "0.5",
+        "40.1 / 29.9"
+      ],
+      [
+        "2",
+        "More members; commonly younger and middle-aged members",
+        "21.2 / 57.2",
+        "3.7",
+        "0.7",
+        "26.9 / 40.2"
+      ],
+      [
+        "3",
+        "Few middle-aged members; medium education",
+        "46.0 / 63.0",
+        "2.3",
+        "0.5",
+        "22.9 / 21.3"
+      ],
+      [
+        "4",
+        "Few middle-/older-aged members; higher education",
+        "55.6 / 72.2",
+        "2.1",
+        "0.8",
+        "10.1 / 8.6"
+      ]
+    ],
+    "TAB-02": [
+      [
+        "Domain",
+        "Records",
+        "Role or restriction"
+      ],
+      [
+        "---",
+        "---:",
+        "---"
+      ],
+      [
+        "Official survey release",
+        "20,000",
+        "Source ID domain"
+      ],
+      [
+        "Archived four-group assignment",
+        "17,855",
+        "Exact-ID join; remote published membership not proved"
+      ],
+      [
+        "Eligible operational-input cohort",
+        "13,624",
+        "Group counts 5430 / 3693 / 2991 / 1510"
+      ],
+      [
+        "Training subset",
+        "13,592",
+        "Component selection and probability estimation"
+      ],
+      [
+        "Held-out subset",
+        "32",
+        "Two respondents in each of 16 group \u00d7 control-branch strata"
+      ]
+    ]
+  },
+  "scope": "transcription verification, no empirical validation; no duplicate table images"
+}

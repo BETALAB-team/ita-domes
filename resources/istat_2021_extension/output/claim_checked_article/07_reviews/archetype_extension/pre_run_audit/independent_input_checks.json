@@ -1,0 +1,54 @@
+{
+  "pass": true,
+  "checks": [
+    "all frozen output hashes",
+    "live protocol and selection/bridge hashes",
+    "archived mapping exact",
+    "raw/compact eligible ID equality",
+    "all eligible raw hour and branch predicates",
+    "independent seeded draws",
+    "weight formulas",
+    "training-only centroid squared-distance medoids and tie counts",
+    "independent full-year profiles for every role"
+  ],
+  "eligible_n": 13624,
+  "training_n": 13592,
+  "test_n": 32,
+  "unique_profiles_n": 33,
+  "medoids": {
+    "1": {
+      "id": 15846,
+      "ties": 1,
+      "distance": 258.60672484642197
+    },
+    "2": {
+      "id": 2998,
+      "ties": 6,
+      "distance": 192.62133950943448
+    },
+    "3": {
+      "id": 2438,
+      "ties": 3,
+      "distance": 236.66139344316642
+    },
+    "4": {
+      "id": 1985,
+      "ties": 1,
+      "distance": 212.97789276969368
+    },
+    "0": {
+      "id": 1985,
+      "ties": 11,
+      "distance": 229.2915234420604
+    }
+  },
+  "distinct_prototype_profiles": 1,
+  "prototype_collapse_sha256": "1739675e45f73ab112e029291491ec18505002878a653a0c5d10ec3f237a0eab",
+  "protocol_sha256": "e8e7db548a21e85c6b26529432476dc23b243d23114816edc7ddeb1fd83add5c",
+  "code_sha256": {
+    "selection_script": "b6324009525c24a1c5b7507c009b50f3dc14acc949e2e14f3950e9be402ee93a",
+    "profile_bridge": "c45789cde6c4a7ce401d939498b974bad5dd1f88ef7613ace844331abc59547a"
+  },
+  "selection_manifest_sha256": "0f3811a0b1746bd55dc70a99407b7b658e6ddf54561c682a38b07f88c0ce4a6c",
+  "reviewer_script_sha256": "bdb151a2bdb084211d7e7ee303ebca4f1ce5e12c8b9c9b33889da4db1c7878c9"
+}

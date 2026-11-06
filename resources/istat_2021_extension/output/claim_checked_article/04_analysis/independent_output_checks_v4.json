@@ -1,0 +1,322 @@
+[
+  {
+    "site": "Padova",
+    "case": "seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.086153472191654e-11,
+      7.707967597525567e-11,
+      1.6507328837178648e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 1.8189894035458565e-12,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "2ba2e81abb095ff47eee0bbdbd4f8b969972d9558db67e6b7119eb88d33c0fcc",
+    "pass": true
+  },
+  {
+    "site": "Padova",
+    "case": "early",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.086153472191654e-11,
+      7.594280759803951e-11,
+      1.6507328837178648e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 0.0,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "412bf2c46ecdf12510ce95d0d272ccea92bc5e4217da8c632ac042e7a2c7bcf9",
+    "pass": true
+  },
+  {
+    "site": "Padova",
+    "case": "late",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.086153472191654e-11,
+      7.685230229981244e-11,
+      1.6507328837178648e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 0.0,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "b4a6b12b9d266436bfa058d532a4659962234f8d762bd55a216f265f3c6aa5e8",
+    "pass": true
+  },
+  {
+    "site": "Padova",
+    "case": "repeat_seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.086153472191654e-11,
+      7.707967597525567e-11,
+      1.6507328837178648e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 1.8189894035458565e-12,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "2ba2e81abb095ff47eee0bbdbd4f8b969972d9558db67e6b7119eb88d33c0fcc",
+    "pass": true
+  },
+  {
+    "site": "Padova",
+    "case": "warmup_seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.086153472191654e-11,
+      7.707967597525567e-11,
+      1.6507328837178648e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 0.0,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "f6bc8a8cb435b89c0d18734f9a380a672d036cfdc5fd425bafd7bb51bf4b81f8",
+    "pass": true
+  },
+  {
+    "site": "Bolzano",
+    "case": "seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      1.63140612130519e-11,
+      7.503331289626658e-11,
+      1.3574208423960954e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": -1.8189894035458565e-12,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "8d18d4718a5da9bb7548c5f80f6aee429bf7811d3627782bd87509d375437800",
+    "pass": true
+  },
+  {
+    "site": "Bolzano",
+    "case": "early",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      1.801936377887614e-11,
+      7.457856554538012e-11,
+      1.3574208423960954e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 0.0,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "77b160fd9082ed22850b7987b8f8dff804e2ef76fdb7cb6be25e87c842713b44",
+    "pass": true
+  },
+  {
+    "site": "Bolzano",
+    "case": "late",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      1.801936377887614e-11,
+      7.622702469234355e-11,
+      1.3574208423960954e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": -1.8189894035458565e-12,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "a3aa74e079f8728f32dd7f8fd2cab71dc3c4ac6b2ec0222475c0d4009174e992",
+    "pass": true
+  },
+  {
+    "site": "Bolzano",
+    "case": "repeat_seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      1.63140612130519e-11,
+      7.503331289626658e-11,
+      1.3574208423960954e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": -1.8189894035458565e-12,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "8d18d4718a5da9bb7548c5f80f6aee429bf7811d3627782bd87509d375437800",
+    "pass": true
+  },
+  {
+    "site": "Bolzano",
+    "case": "warmup_seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      1.63140612130519e-11,
+      7.503331289626658e-11,
+      1.3574208423960954e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 1.8189894035458565e-12,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "ea5fac45bd15addbc7f6b8f09d9fde229b7cfcae765d49fac7dd0a9f0e207884",
+    "pass": true
+  },
+  {
+    "site": "Roma",
+    "case": "seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.078337502098293e-11,
+      8.049028110690415e-11,
+      1.6916601452976465e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": -9.094947017729282e-13,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "2afe30fed50e558f853ce78bdf0ed0b483474ee0b387ce68084a3c84a88773c3",
+    "pass": true
+  },
+  {
+    "site": "Roma",
+    "case": "early",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.078337502098293e-11,
+      7.639755494892597e-11,
+      1.6916601452976465e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 0.0,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "90d3d450eac54c4a0d405f9c6865e6d654babea7fa80ed1bf4e4581cb99db52e",
+    "pass": true
+  },
+  {
+    "site": "Roma",
+    "case": "late",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.078337502098293e-11,
+      7.457856554538012e-11,
+      1.6916601452976465e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 0.0,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "be29c7af0598be67d0d6b16e2615c0c0dad0cdfb80cb51f5ecd85c399317b573",
+    "pass": true
+  },
+  {
+    "site": "Roma",
+    "case": "repeat_seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.078337502098293e-11,
+      8.049028110690415e-11,
+      1.6916601452976465e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": -9.094947017729282e-13,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "2afe30fed50e558f853ce78bdf0ed0b483474ee0b387ce68084a3c84a88773c3",
+    "pass": true
+  },
+  {
+    "site": "Roma",
+    "case": "warmup_seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.078337502098293e-11,
+      8.049028110690415e-11,
+      1.6916601452976465e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 0.0,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "faa83eebc8e0d540229df6de4e0ac95bda90fdf4038a85d773e760911a7aca6a",
+    "pass": true
+  },
+  {
+    "site": "Palermo",
+    "case": "seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.0094148567295633e-11,
+      7.935341272968799e-11,
+      1.7462298274040222e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 9.094947017729282e-13,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "d2c605ded98dc99227eb7ae854e0c2c7623b74b7a95848d0bc3af99546655ac2",
+    "pass": true
+  },
+  {
+    "site": "Palermo",
+    "case": "early",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.0094148567295633e-11,
+      7.412381819449365e-11,
+      1.7462298274040222e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": -1.8189894035458565e-12,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "9794b43ce3a176e88ef547d2c4eb1028bf453db7995ad159d532d4902d877e81",
+    "pass": true
+  },
+  {
+    "site": "Palermo",
+    "case": "late",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.0094148567295633e-11,
+      7.412381819449365e-11,
+      1.7462298274040222e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": -9.094947017729282e-13,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "15962c036439ce5e24763fdb0fb1097d33a79a4e6c3c81052f182f7e7c2dcfe1",
+    "pass": true
+  },
+  {
+    "site": "Palermo",
+    "case": "repeat_seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.0094148567295633e-11,
+      7.935341272968799e-11,
+      1.7462298274040222e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 9.094947017729282e-13,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "d2c605ded98dc99227eb7ae854e0c2c7623b74b7a95848d0bc3af99546655ac2",
+    "pass": true
+  },
+  {
+    "site": "Palermo",
+    "case": "warmup_seeded",
+    "n": 8760,
+    "n_residual_failure_gt_1e_minus6W": 0,
+    "maximum_air_surface_mass_abs_residual_W": [
+      2.0094148567295633e-11,
+      7.935341272968799e-11,
+      1.7462298274040222e-10
+    ],
+    "maximum_old_state_continuity_error_K": 0.0,
+    "annual_integration_error_kWh": 0.0,
+    "peak_error_kW": 0.0,
+    "hourly_sha256": "98ba258769aff0a94fee36fe332b9faa3e66212706185836919362cf5e9c2dac",
+    "pass": true
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-20",
+  "delivery": "Incomplete scientific first manuscript; requested workflow completed.",
+  "full_cycles": 4,
+  "claims": 41,
+  "current_campaign_annuals": 20,
+  "separate_replay_annuals": 1,
+  "quarantined_annuals": 66,
+  "total_article_annual_executions": 87,
+  "empirical_validation": false,
+  "independent_whole_building_benchmark": false,
+  "ready_figures": [
+    "FIG-01",
+    "FIG-02"
+  ],
+  "blocked_figures": [
+    "FIG-03"
+  ],
+  "hashes": {
+    "ARTIFACT_INDEX.md": "8135f5c28decfaf4499277823729a6291a0f0dcf3d8d0493167575d23c4716f1",
+    "STATUS.md": "b55e2cab8001dd122bb2ea95a4ed5f83f1a5623a0420a000cb916c1f9161a403",
+    "agent_manifest.md": "aa936574079a283ee1d835fb8f1c56426acc9154fd4df225a24687d996c3a22c",
+    "01_plan/final_fidelity_check.md": "9d7241a95f9b4f7ea97a6b855d788ddc8719efebeafe05d71c699e9762a2a4c7",
+    "01_plan/prose_gate.json": "2b187ed0001bdf432ae02bb3dae7f60c6a99c60e0c3d29f2375b938bd55a94dc",
+    "06_claim_drafts/article_claims_final.md": "8a641ab68bd80fb96aad3016f3deea37ba0dbd4ab50ce9d984d8b59cfe50da7e",
+    "07_reviews/final_closure.md": "0853158f1092e462a8c753b2cf55a7e87bb3876f2c2565f9caf8a368088618e6",
+    "07_reviews/issue_register_final.json": "39b7973e54d63187ad53e8bdb65ab16f5a0450f58752caa4259239ef366765be",
+    "08_manuscript/article_first_draft.md": "a0d30eef32f1bca99efcadf0e5895d30623acda221429c71cf865b09a3025dfb",
+    "08_manuscript/claim_to_prose_map.md": "ab5179786700e3a1f6b865e53fc24a1bffa32feea6683cf2b7d65ba8ba63d86e",
+    "08_manuscript/fidelity_check.md": "09ebd528184298b29faf4de2baeb934a10b553d59acbdd9d5caae08e567d7ea6",
+    "09_figures/figure_briefs.md": "3a3f9f3bd803c75e97e3369524d7e7dcee4792550c15a00cfb3d6f412c42bd4d",
+    "09_figures/figure_manifest.md": "5a6316e8ce92d8336042607fb7f9847605415d6a2580e224f5f61b8c6474c664",
+    "09_figures/render_figures.py": "6933852793b860d49861b9068b26f26d5d5c75b119bb27d4f6fcf83eb9f64bfa",
+    "09_figures/figure_provenance_qa.json": "58f6a8e1e418163e6225f334fcc67ad9acc883fdef8c7c3f6416c7ee10ea7fec",
+    "09_figures/FIG-01_paired_contrasts.png": "06a62353d0bddd57d6994ff339478912f26131b2d415d8e147153d3fd36a8909",
+    "09_figures/FIG-01_paired_contrasts.svg": "8aa66f03a3e0e3f6e054ebdc153ac75d4773d3412870ba2a7e26c370e7538166",
+    "09_figures/FIG-01_plotting_data.csv": "6556c062fad08eea38a55ac16b3f17b9c93908902d6eb296ea909f0f7ffa553b",
+    "09_figures/FIG-02_setback_diagnostic.png": "502f2c63f9039a81a92432b5431d5ed20175c1392d2852d79f997994c7193128",
+    "09_figures/FIG-02_setback_diagnostic.svg": "a51d20232cb106d3e54a876869f118fcf163e4a9ef886b023219383897c85cac",
+    "09_figures/FIG-02_plotting_data.csv": "dd7ce258d1b7b79ada0f8ac75548b0f0285685d41b6006bb7147d558c6269e45",
+    "02_evidence/local_sources.json": "5aff4571db2dabd430ecfe65f3be71f1ed899ddac0c66a10190118a31fc8dd7f",
+    "02_evidence/local_source_ledger.md": "2d82d035f5fb2e81940f5960f013db6e8b554572ecb6167dc2f14b2d279b4731"
+  }
+}

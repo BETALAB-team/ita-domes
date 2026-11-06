@@ -1,0 +1,162 @@
+{
+  "transition_checks": [
+    {
+      "test": "off_to_heat",
+      "mode": "heating on",
+      "max_reference_difference": 4.547473508864641e-13,
+      "old_states_exported_correctly": true,
+      "committed_once_to_reference": true
+    },
+    {
+      "test": "heat_to_off",
+      "mode": "off",
+      "max_reference_difference": 3.552713678800501e-15,
+      "old_states_exported_correctly": true,
+      "committed_once_to_reference": true
+    },
+    {
+      "test": "off_to_cool",
+      "mode": "cooling on",
+      "max_reference_difference": 0.0,
+      "old_states_exported_correctly": true,
+      "committed_once_to_reference": true
+    },
+    {
+      "test": "cool_to_heat",
+      "mode": "heating on",
+      "max_reference_difference": 4.547473508864641e-13,
+      "old_states_exported_correctly": true,
+      "committed_once_to_reference": true
+    },
+    {
+      "test": "equilibrium",
+      "mode": "off",
+      "max_reference_difference": 3.552713678800501e-15,
+      "old_states_exported_correctly": true,
+      "committed_once_to_reference": true
+    }
+  ],
+  "weather": {
+    "Padova": {
+      "runtime_mean_air_minus_sky_K": -81.50551904018077,
+      "opaque_values": [
+        99
+      ],
+      "first_timestamp": "2023-01-01 00:00:00+01:00",
+      "last_timestamp": "2023-12-31 23:00:00+01:00"
+    },
+    "Bolzano": {
+      "runtime_mean_air_minus_sky_K": -95.81494082890566,
+      "opaque_values": [
+        99
+      ],
+      "first_timestamp": "2023-01-01 00:00:00+01:00",
+      "last_timestamp": "2023-12-31 23:00:00+01:00"
+    },
+    "Roma": {
+      "runtime_mean_air_minus_sky_K": -81.01330893950579,
+      "opaque_values": [
+        99
+      ],
+      "first_timestamp": "2023-01-01 00:00:00+01:00",
+      "last_timestamp": "2023-12-31 23:00:00+01:00"
+    },
+    "Palermo": {
+      "runtime_mean_air_minus_sky_K": -79.75721753062591,
+      "opaque_values": [
+        99
+      ],
+      "first_timestamp": "2023-01-01 00:00:00+01:00",
+      "last_timestamp": "2023-12-31 23:00:00+01:00"
+    }
+  },
+  "profiles": {
+    "seeded": {
+      "all_8760_setpoints_equal_source": true,
+      "daily_profile": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "early": {
+      "all_8760_setpoints_equal_source": true,
+      "daily_profile": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "late": {
+      "all_8760_setpoints_equal_source": true,
+      "daily_profile": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

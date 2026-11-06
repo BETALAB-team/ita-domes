@@ -1,0 +1,28 @@
+# Evidence-based task DAG
+
+Date: 2026-10-20. Current execution checkpoint: four complete cycles, final Astra closure and sealed prose gate. Prose, figures and final fidelity delivered. Novelty remains provisional.
+
+| Task | Owner | Dependencies | Inputs | Outputs | Acceptance test | Status / purpose |
+|---|---|---|---|---|---|---|
+| A1 Conference foundation | context_evidence, gpt-6.1-sol requested | user request | Target PDF pp. 2–11 | page evidence, extracted text, visual checks | Complete chapter; adjacent papers excluded; published numbers labelled | Complete; target chapter and page images audited |
+| A2 Local provenance | context_evidence | user request | GRINS, surveys, prior drafts/manifests | inventory and prior audit | Sample quantities traced; code/version uncertainty stated | Complete; prior results not imported as new evidence |
+| A3 Closest literature | literature, gpt-6.1-sol requested | user request; A1 references as available | Primary papers and official sources | source ledger, bibliography, search log | Claim-level locators and access depth; competing contributions checked | Complete targeted search; provisional novelty |
+| A4 Simulation and measurement inventory | simulation_methods, gpt-6.1-sol requested | user request | EUReCA versions, Padova/weather/building assets | feasibility, simulation/validation protocols | Actual import/version; evidence types distinguished; no guessed observations | Complete; empirical references remain unverified |
+| A5 Scope decision | orchestrator | A1–A4 core findings | extension matrix and inventories | research_questions.md, decisions.md | One coherent primary question; null findings useful; feasible or explicitly pending | Complete; fixed-case schedule placement selected |
+| B1 Freeze experiment | simulation_methods; orchestrator reconciles | A4, A5 | verified prerequisites | protocols, configuration, output schema | Paired design; weather/energy boundaries; tests and expansion gates predeclared | Complete; pre-run protocols frozen |
+| B2 Padova pilot | simulation_methods | B1 | documented physical case and household input mapping | run records, outputs, checks | Relevant EUReCA run; hashes/logs; technical pass criteria evaluated | Complete; v5 Padova gate passed |
+| B3 Climate expansion | simulation_methods | B2 pass, input availability | consistent degree/humidity/solar indicators | selected-site rationale; matched runs | Approximately 2–4 contrasting sites if justified; no city representativeness claim | Complete; four coordinate TMY exposures, v5 only |
+| B4 Validation | simulation_methods | A4; protocol before tuning | independent references if available | validation matrix and checked metrics | Implementation/benchmark/empirical/aggregate layers explicitly distinguished | Implementation checks complete; independent benchmark and empirical validation pending |
+| C0 Claim draft v00 | separate gpt-6-sol author | A5, evidence readiness | ledgers, methods, feasible results | immutable v00; machine claim ledger | Atomic stable IDs and full requested schema; absent results visible | Complete; v00 preserved |
+| C1 Review–revision 01 | fresh gpt-6-astra, then author | C0 | v00 and primary evidence | review01, response01, v01, issue register | Full rubric; emphasis source/scope/novelty; hash/version | Complete: review01 + response01 + v01 + register01 |
+| C2 Review–revision 02 | fresh gpt-6-astra, then author | C1 complete | v01 and primary evidence | review02, response02, v02, register | Full rubric; emphasis methods/comparability/reproducibility | Complete: review02 + response02 + v02 + register02 |
+| C3 Review–revision 03 | fresh gpt-6-astra, then author | C2 complete | v02 and primary evidence | review03, response03, v03, register | Full rubric; emphasis simulation/validation/uncertainty | Complete: review03 + response03 + v03 + register03 |
+| C4 Review–revision 04 | fresh gpt-6-astra, then author | C3 complete | v03 and primary evidence | review04, response04, v04, register | Full red-team rubric; all central contribution/results | Complete: review04 + response04 + v04 + register04 |
+| C5 Final closure | Astra, then orchestrator gate | C4 complete | v04 and issue register after independent critique | closure check; final reviewed snapshot | No critical/major error presented as settled; unresolved data explicitly pending | Complete; final_closure.md and prose_gate.json |
+| D1 Prose conversion | separate gpt-6.1-sol author | C5 gate; at least four complete cycles | reviewed claims, sources, issue dispositions | prose Markdown, paragraph map, figure briefs | No new substantive claims; accurate citations; informative result placeholders | Complete; separate prose agent and final integration |
+| D2 Figures | separate gpt-6.1-sol visualization worker | D1 briefs | verified tables or conceptual definitions | scripts, SVG/PDF/PNG, figure manifest/visual QA | Reproducible, legible, honest scales; no fabricated inputs or generative images | Complete; separate visualization worker, SVG/400dpiPNG/code/data/QA; empirical figure blocked |
+| D3 Fidelity and handoff | orchestrator and prose author | D1–D2 | final artifacts | final status/index | Prose/figures agree with reviewed claims; real completion counts and blockers | Complete; final fidelity, links, statuses and identities checked |
+
+Discovery runs in parallel. All manuscript edits and review cycles are serialized. Each worker owns its listed directories; reviewers never edit claims. Fresh reviewer packets exclude private author reasoning and earlier verdicts until independent critique is saved.
+
+No calibration, empirical accuracy claim, climate expansion, or prose-stage gate is inferred from successful execution alone.

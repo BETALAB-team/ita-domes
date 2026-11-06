@@ -1,0 +1,403 @@
+[
+  {
+    "id": "AE-LIT-001",
+    "label": "Physical prototypes",
+    "exact_claim": "Italian prototype work characterizes residential and office buildings by use, construction period and envelope/HVAC properties rather than demographic user class.",
+    "sources": [
+      "AE-SRC-CARNIELETTO2021"
+    ],
+    "scope": "Published Italian zone-E prototypes; not the proposed simulation sample.",
+    "implementation_implication": "Use the prototype library to document fixed physical inputs; do not label it a demographic archetype model.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-002",
+    "label": "Traceable reference-building libraries",
+    "exact_claim": "The URBEM project formalizes harmonized Italian reference-building inputs in scorecards with source traceability and uncertainty labels.",
+    "sources": [
+      "AE-SRC-URBEM2025"
+    ],
+    "scope": "National Italian library workflow; library production, not an empirical energy prediction test.",
+    "implementation_implication": "Adopt explicit provenance tables for every physical and user input.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-003",
+    "label": "Probabilistic parameter archetypes",
+    "exact_claim": "Sokol et al. update distributions of uncertain residential archetype parameters using a training set and evaluate them on a separate larger set of homes.",
+    "sources": [
+      "AE-SRC-SOKOL2017"
+    ],
+    "scope": "Cambridge MA low-rise homes; monthly/annual electricity and gas.",
+    "implementation_implication": "Distinguish calibrated parameter distributions from demographic probabilities; copy no accuracy score.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-004",
+    "label": "Scale-specific physical representation",
+    "exact_claim": "Ali et al. compare physical building archetypes developed at multiple Irish spatial scales and report differences when national archetypes are used locally.",
+    "sources": [
+      "AE-SRC-ALI2019"
+    ],
+    "scope": "Irish national/city/county/district modeled annual energy.",
+    "implementation_implication": "An Italian national user distribution does not by itself make a Padova dwelling sample representative.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-005",
+    "label": "Activity-driven appliance electricity",
+    "exact_claim": "Richardson et al. combine active occupancy with daily activities to generate minute-resolution appliance electricity and compare simulated statistics with recorded dwelling electricity.",
+    "sources": [
+      "AE-SRC-RICHARDSON2010"
+    ],
+    "scope": "22 measured UKdwellings; electricity; one-year measurement stated in abstract.",
+    "implementation_implication": "If archetype appliance electricity becomes internal gain, document thermal fractions and avoid treating all final electricity as zone heat.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-006",
+    "label": "Synthetic time-use activity sequences",
+    "exact_claim": "Widén and Wäckelgård generate stochastic activities and household electricity from time-use-trained Markov processes.",
+    "sources": [
+      "AE-SRC-WIDEN2010"
+    ],
+    "scope": "Swedish time-use basis; household electricity excluding heating/maintenance.",
+    "implementation_implication": "Synthetic activity timing requires data beyond total heating hours; temporal resolution is not measurement resolution.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-007",
+    "label": "Occupancy-integrated physical archetypes",
+    "exact_claim": "Buttitta et al. embed clustered time-use occupancy profiles within physical dwelling archetypes and explicitly map occupancy to assumed heating-control and internal-gain inputs.",
+    "sources": [
+      "AE-SRC-BUTTITTA2019"
+    ],
+    "scope": "UKdwelling archetypes; EnergyPlus; annual heating contrasts.",
+    "implementation_implication": "Occupancy-to-heating mapping is already an implemented approach; specify why the Italian demographic representation differs.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-008",
+    "label": "Stochastic occupancy categories",
+    "exact_claim": "Buttitta and Finn provide stochastic multi-day occupancy-category profiles for occupancy-integrated archetype heating simulations.",
+    "sources": [
+      "AE-SRC-BUTTITTA2020"
+    ],
+    "scope": "UKtime-use categories; high-temporal-resolution profiles.",
+    "implementation_implication": "Presence categories are not identical to demographic household classes; do not rename one as the other.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-009",
+    "label": "Stochastic stock-scale occupant simulation",
+    "exact_claim": "Chen et al. integrate stochastic occupant/end-use event schedules with ResStock and report checks against time-use data and measured end-use electricity.",
+    "sources": [
+      "AE-SRC-CHEN2022"
+    ],
+    "scope": "USresidential stock; ATUSandend-useelectricity.",
+    "implementation_implication": "Do not claim first stochastic stock-scale household modelling, or characterize ResStock generically as fixed-schedule-only.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-010",
+    "label": "Population-based presence",
+    "exact_claim": "Mosteiro-Romero et al. compare register-based individual daily schedules with standard-based deterministic and stochastic occupancy in district simulations.",
+    "sources": [
+      "AE-SRC-MOSTEIRO2020"
+    ],
+    "scope": "Mixed district uses including important educational context.",
+    "implementation_implication": "This supports an assignment-method comparison, not transfer of its numerical differences to Italian homes.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-011",
+    "label": "Setpoint aggregation and thermal response",
+    "exact_claim": "De Jaeger et al. compare alternative aggregation of occupant setpoint profiles because dwellings' thermal responses differ.",
+    "sources": [
+      "AE-SRC-DEJAEGER2020"
+    ],
+    "scope": "847single-family dwellings; full-versus-archetype simulations.",
+    "implementation_implication": "Retain group-specific runs before aggregation; pooled mean inputs need a direct ablation rather than assumed equivalence.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-012",
+    "label": "Recent probabilistic occupancy application",
+    "exact_claim": "Sood et al. train a probabilistic occupancy model from time-use data and apply it to Irish residential archetypes across spatial and temporal scales.",
+    "sources": [
+      "AE-SRC-SOOD2025"
+    ],
+    "scope": "Irish residential case; primaryabstract-level appraisal.",
+    "implementation_implication": "No claimed small error percentages or universal geographic applicability until full evaluation design is inspected.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-013",
+    "label": "Thermostat-derived occupancy proxy",
+    "exact_claim": "Jung et al.'s occupancy schedules describe inferred occupancy status rather than occupant count and their paper identifies sensor and ground-truth limitations.",
+    "sources": [
+      "AE-SRC-JUNG2023"
+    ],
+    "scope": "USecobeeopt-indata; occupancy-status generatorROSS.",
+    "implementation_implication": "Measured thermostat records do not automatically give observed presence or household demographic membership.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-014",
+    "label": "Controller schedule versus runtime",
+    "exact_claim": "Hanmer et al. distinguish programmed occupancy states and call-for-heat signals from actual presence and direct metered heating energy.",
+    "sources": [
+      "AE-SRC-HANMER2019"
+    ],
+    "scope": "337UKhomes,40weekdaysJan–Feb2016; selectedcontrollerusers.",
+    "implementation_implication": "Keep reported on-hours, encoded high-setpoint hours, positive-load hours and metered runtime distinct.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-015",
+    "label": "Stochasticity versus heterogeneity",
+    "exact_claim": "Widén's aggregated occupancy-model comparison explicitly leaves inclusion of heterogeneity and end-use/building interactions as future work.",
+    "sources": [
+      "AE-SRC-WIDEN2025"
+    ],
+    "scope": "Time-use Markovmodelaggregation; model-to-modelfidelity/runtime.",
+    "implementation_implication": "Random schedules do not by themselves implement demographic diversity; archetype assignment and within-archetype variation are distinct factors.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-016",
+    "label": "Aggregation can reduce some behavioural variation",
+    "exact_claim": "Gilani et al. find convergence of stochastic office-lighting predictions at larger simulated office aggregation scales.",
+    "sources": [
+      "AE-SRC-GILANI2018"
+    ],
+    "scope": "Office lighting/shade/occupancy simulation; annualoutput.",
+    "implementation_implication": "This is counterevidence to richer-is-always-needed; it does not establish convergence for residential heating or peaks.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-017",
+    "label": "Italian demographic user archetypes",
+    "exact_claim": "Khajedehi et al. identify four Italian demographic user archetypes using household-age, household-size and education information.",
+    "sources": [
+      "SRC-ARCH2025"
+    ],
+    "scope": "ISTAT2013Italianhouseholds; demographicclustering.",
+    "implementation_implication": "Implement the published or recovered fitted definitions; newly clustering is a different contribution requiring justification.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-018",
+    "label": "Probabilistic household–dwelling linkage",
+    "exact_claim": "Khajedehi et al.'s dwelling-based linkage estimates probabilities of user types rather than a certain user class for a particular dwelling.",
+    "sources": [
+      "SRC-ARCH2025"
+    ],
+    "scope": "Paper§3.2pp4–5; algorithm1 and §4.3.",
+    "implementation_implication": "Normalize/check probabilities, preserve support domain and uncertainty; do not select the most likely class without declaring the loss of diversity.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-019",
+    "label": "Italian outcomes have different evidence classes",
+    "exact_claim": "Khajedehi et al. analyse declared daily heating on-hours and annual appliance electricity calculated from survey answers.",
+    "sources": [
+      "SRC-ARCH2025"
+    ],
+    "scope": "Paper§3.3p5; surveyedon-hoursversusmodeledappliancekWh.",
+    "implementation_implication": "These outcomes cannot validate modeled hourly demand or measured energy accuracy.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-020",
+    "label": "Simulation consequences remain a separate test",
+    "exact_claim": "Khajedehi et al. explicitly name individual-building simulation impacts as future work.",
+    "sources": [
+      "SRC-ARCH2025"
+    ],
+    "scope": "Paper§6p13; anticipatedapplication ratherthan completedphysicssimulationcomparison.",
+    "implementation_implication": "An implementation can assess consequences, while the paper's forward-looking accuracy rhetoric supplies no validation result.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-021",
+    "label": "Prior ISTAT schedule construction",
+    "exact_claim": "Prataviera et al. already construct random profiles from three ISTAT heating-use time bands and perturb operating duration/start-up time in EUReCA uncertainty analysis.",
+    "sources": [
+      "SRC-UA2022"
+    ],
+    "scope": "§3.1.1p6/Table1p7; Italian survey; broaderuncertaintyworkflow.",
+    "implementation_implication": "Neither three-band reconstruction nor randomness is new; isolate the added archetype dimension explicitly.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-022",
+    "label": "Measured versus unmeasured applications",
+    "exact_claim": "Prataviera et al.'s Verona evaluation uses selected measured district-heating periods, whereas their larger Milan application lacks those measurements.",
+    "sources": [
+      "SRC-UA2022"
+    ],
+    "scope": "§3.3.1–3.3.2p11; nineapartmentblockswithin16mixedbuildings.",
+    "implementation_implication": "Use site-specific validation labels and align usefulheat/meterboundaries; no inherited Padova accuracy.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-023",
+    "label": "Aggregation and schedule representation",
+    "exact_claim": "Ferrando et al. compare smart-meter-informed randomized occupant-related schedules with a baseline at multiple temporal and spatial aggregation levels.",
+    "sources": [
+      "SRC-FERRANDO2022"
+    ],
+    "scope": "Institutionalmanuscriptabstract/highlights; residentialneighbourhood.",
+    "implementation_implication": "Schedule-detail effects depend on endpoint/scale; do not equate one household result with national totals.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-024",
+    "label": "Italian survey stock-model precedents",
+    "exact_claim": "MOIRAE and MODENA already use Italian household-survey information for bottom-up energy modelling.",
+    "sources": [
+      "SRC-MOIRAE2020",
+      "SRC-MODENA2024"
+    ],
+    "scope": "MOIRAEabstract; MODENA§2.1–2.2pp158–159.",
+    "implementation_implication": "Survey use itself is established; separate code lineage from thematic similarity.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-025",
+    "label": "Italian stock scenarios already exist",
+    "exact_claim": "MODENA work already considers weather, envelope renovation and heating-technology scenario changes.",
+    "sources": [
+      "SRC-MODENA2024"
+    ],
+    "scope": "§2.3p160and§3.2pp162–163.",
+    "implementation_implication": "Multi-weather or retrofit scenarios alone do not establish novelty; design matched user-representation factors.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-026",
+    "label": "Building-type survey profiling precedent",
+    "exact_claim": "Puglisi et al. classify Italian survey dwellings into building-type classes to construct energy profiles.",
+    "sources": [
+      "SRC-PUGLISI2016"
+    ],
+    "scope": "§2/Table1; illustrativeVenetonaturalgasheating.",
+    "implementation_implication": "Building-typology segmentation differs from demographic user identification; distinguish both from the CLIMA full-stock model.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-027",
+    "label": "Synthetic linkage is not observed pairing",
+    "exact_claim": "Latifi et al. probabilistically link population, building, activity and weather sources and acknowledge missing individual linkage ground truth.",
+    "sources": [
+      "SRC-LATIFI2026"
+    ],
+    "scope": "Publisher§6limitations; USmulti-sourceintegration.",
+    "implementation_implication": "Probabilistic synthetic assignment needs internal checks, uncertainty propagation and separate external evaluation.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-028",
+    "label": "Nonresidential stochastic schedules are an adjacent comparator",
+    "exact_claim": "Dabirian et al. compare deterministic and measured-data-derived stochastic schedules in five Montreal institutional office buildings.",
+    "sources": [
+      "SRC-DABIRIAN2026"
+    ],
+    "scope": "Methodology/casestudy/conclusion; offices.",
+    "implementation_implication": "An office accuracy improvement cannot be imported into Italian demographic archetype heating.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-029",
+    "label": "Heating timing dispersion has prior RC evidence",
+    "exact_claim": "Koene and Eslami-Mossallam examine temporal thermostat-setting dispersion with an RC district heating model.",
+    "sources": [
+      "SRC-KOENE2023"
+    ],
+    "scope": "TNOabstract; Dutchgas/districtprofiles.",
+    "implementation_implication": "Settings estimated from energy and then compared with that evidence do not automatically establish independent holdout validation.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-030",
+    "label": "Observed heating-pattern heterogeneity",
+    "exact_claim": "Huebner et al. infer diverse English heating patterns from indoor-temperature series and compare them with common modelling schedules.",
+    "sources": [
+      "SRC-HUEBNER2013"
+    ],
+    "scope": "UCLprimaryabstract; Englishhomes.",
+    "implementation_implication": "Temperature-inferred operation differs from direct controller/metered data; observation geography is not Italian.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-031",
+    "label": "Controlled profile/climate sensitivity precedent",
+    "exact_claim": "Rugani et al. compare occupancy-profile databases in EnergyPlus under three city climates for a standard building and multiple uses.",
+    "sources": [
+      "AE-SRC-RUGANI2024"
+    ],
+    "scope": "Primarypublisherabstract; Reykjavik/London/Madrid.",
+    "implementation_implication": "Database choice changes multiple input assumptions; no imported extreme percentage differences or empirical accuracy inference.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-032",
+    "label": "CLIMA foundation and related archetype contribution are distinct",
+    "exact_claim": "The CLIMA chapter presents regional-resolution survey-informed stock energy modelling, while the separate 2025 archetype paper identifies demographic groups, dwelling linkage and survey-derived patterns.",
+    "sources": [
+      "SRC-CLIMA2026",
+      "SRC-ARCH2025"
+    ],
+    "scope": "Conferenceownercompletechapteraudit; ARCH§§3–6.",
+    "implementation_implication": "Use conferenceclaims only from its completepageaudit; archetypeimplementation should extend the foundation without re-claiming groupdiscovery.",
+    "status": "supported_with_access_limits",
+    "kind": "literature"
+  },
+  {
+    "id": "AE-LIT-033",
+    "label": "Broader literature does not establish the proposed result",
+    "exact_claim": "Existing archetype/schedule studies justify testing explicit representation choices but do not establish that the planned Italian implementation improves measured accuracy.",
+    "sources": [
+      "AE-SRC-BUTTITTA2019",
+      "AE-SRC-CHEN2022",
+      "SRC-UA2022",
+      "SRC-ARCH2025"
+    ],
+    "scope": "Comparative interpretation of bounded primary findings; no new calculatedquantity.",
+    "implementation_implication": "Register improvement as a hypothesis requiring independent matched evaluation; publish sensitivity/nullfinding if that is what runs establish.",
+    "status": "supported_with_access_limits",
+    "kind": "interpretation"
+  }
+]

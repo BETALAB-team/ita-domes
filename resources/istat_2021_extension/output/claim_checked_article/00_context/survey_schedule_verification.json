@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-20",
+  "owner": "context_evidence",
+  "requested_model": "gpt-6.1-sol",
+  "confirmed_model": "unknown",
+  "method": "Independent standard-library CSV extraction from raw2013release and compact input; relevant official questionnaire text and rendered pages40-43 inspected; HTML classifications checked. No external files modified.",
+  "records": {
+    "raw": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\MICRODATI\\ECH_Microdati_Anno_2013.txt",
+      "sha256": "500d80dbbcdab6b4384a9e8547167855d3c9bd0bd7909b8f8be3bc4f21212e37",
+      "record_count": 20000,
+      "key_field": "nprog",
+      "key": "3523",
+      "physical_line_if_single_line_records": 3524,
+      "selected_values": {
+        "reg": "5",
+        "reg_new": "50",
+        "rip": "2",
+        "dom": "1",
+        "coef_red": "470",
+        "q_2_30": "1",
+        "q_3_0": "2",
+        "q_3_10": "1",
+        "q_3_11A": "4",
+        "q_3_11B": "4",
+        "q_3_11C": "1",
+        "q_3_11tot": "9",
+        "q_3_12": "1",
+        "q_3_13_1": "0",
+        "q_3_13_2": "1",
+        "q_3_13_3": "0",
+        "q_3_19_6": "0",
+        "q_2_32C": "",
+        "q_2_32D": "",
+        "q_2_31C": "2"
+      }
+    },
+    "compact": {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat_microdata_2013.csv",
+      "sha256": "a7d6b19540b5b68505843494abca4c4575c00e00684d2c5a71c00e692963f40f",
+      "record_count": 20000,
+      "key_field": "id",
+      "key": "3523",
+      "physical_line_if_single_line_records": 3524,
+      "selected_values": {
+        "reg": "5",
+        "reg_new": "50",
+        "rip": "2",
+        "dom": "1",
+        "coef_red": "470",
+        "q_2_30": "1",
+        "q_3_0": "2",
+        "q_3_10": "1",
+        "q_3_11A": "4",
+        "q_3_11B": "4",
+        "q_3_11C": "1",
+        "q_3_11tot": "9",
+        "q_3_12": "1",
+        "q_3_13_1": "0",
+        "q_3_13_2": "1",
+        "q_3_13_3": "0",
+        "q_3_19_6": "0",
+        "q_2_32C": "0",
+        "q_2_32D": "0",
+        "q_2_31C": "2"
+      }
+    }
+  },
+  "all_selected_fields_match_after_whitespace_strip": false,
+  "field_match_checks": {
+    "reg": true,
+    "reg_new": true,
+    "rip": true,
+    "dom": true,
+    "coef_red": true,
+    "q_2_30": true,
+    "q_3_0": true,
+    "q_3_10": true,
+    "q_3_11A": true,
+    "q_3_11B": true,
+    "q_3_11C": true,
+    "q_3_11tot": true,
+    "q_3_12": true,
+    "q_3_13_1": true,
+    "q_3_13_2": true,
+    "q_3_13_3": true,
+    "q_3_19_6": true,
+    "q_2_32C": false,
+    "q_2_32D": false,
+    "q_2_31C": true
+  },
+  "sources": [
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\METADATI\\ECH_Questionario_Anno 2013.pdf",
+      "sha256": "37ae70ccf4e6728e03c9f151820a1449255c416aa73e0d1536de39d254b49b40"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\METADATI\\ECH_Tracciato_Anno 2013.html",
+      "sha256": "0f5d47077da0f2294bde2cead97086634b8214edcf2576ff352705299df884c9"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\METADATI\\ECH_DescrizioneFile_Anno 2013.pdf",
+      "sha256": "94c5430cfa7f20ee87389e5ffdbf6d3b22cb9ac1a9d9630088e088ecaee50343"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\METADATI\\ECH_NotaMetodologicaIndagine_Anno 2013.pdf",
+      "sha256": "af38958043756aa003943c770b3e2d7e419e9821a245f7071d1914d9997caecf"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\METADATI\\Classificazioni\\ECH_Classificazione_Anno 2013_var89.html",
+      "sha256": "239ef786bfa06d1fc32a9c6e113915df23d90c2f3f524e08fb12500ea6c6c7f3"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\METADATI\\Classificazioni\\ECH_Classificazione_Anno 2013_var175.html",
+      "sha256": "ea5a16fc7c850d84004d6a8828b81d44d88834456fe7d9f90d7154ab6709c66f"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\METADATI\\Classificazioni\\ECH_Classificazione_Anno 2013_var179.html",
+      "sha256": "bea6e41948b904022f7a48f64d4b469237e23ef410014e2e5b00fc0c8eca32c7"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\METADATI\\Classificazioni\\ECH_Classificazione_Anno 2013_var180.html",
+      "sha256": "7d91f450efdb400818c161d4d359b6d807d522049b13b1397ae52986ef373a3f"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\METADATI\\Classificazioni\\ECH_Classificazione_Anno 2013_var181.html",
+      "sha256": "f7ef69f0f7020757b8ec8b50f870060325a1f265de39017434751270fc1d9113"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\istat\\ECH_2013_IT\\METADATI\\Classificazioni\\ECH_Classificazione_Anno 2013_var182.html",
+      "sha256": "e65449b0f687d9d66277de061b14fa009bfc7ee9ef6141fa50718069ffa2a88d"
+    }
+  ],
+  "bands": [
+    {
+      "field": "q_3_11A",
+      "start_hour": 5,
+      "end_hour": 13,
+      "reported_hours": 4,
+      "questionnaire_pages": [
+        41
+      ]
+    },
+    {
+      "field": "q_3_11B",
+      "start_hour": 13,
+      "end_hour": 21,
+      "reported_hours": 4,
+      "questionnaire_pages": [
+        41,
+        42
+      ]
+    },
+    {
+      "field": "q_3_11C",
+      "start_hour": 21,
+      "end_hour": 5,
+      "wraps_midnight": true,
+      "reported_hours": 1,
+      "questionnaire_pages": [
+        42
+      ]
+    }
+  ],
+  "control_interpretation": {
+    "q_3_12": {
+      "value": 1,
+      "meaning": "Automatic room-temperature regulation possible, as respondent reports"
+    },
+    "q_3_13_1": {
+      "value": 0,
+      "meaning": "Thermostat not selected"
+    },
+    "q_3_13_2": {
+      "value": 1,
+      "meaning": "Timer (operating-time regulation) selected"
+    },
+    "q_3_13_3": {
+      "value": 0,
+      "meaning": "Thermostatic valves not selected"
+    }
+  },
+  "reference_period": {
+    "file_release_label": "Reference year2013;description published2017",
+    "field_specific": "Average winter day;question itself does not specify one named calendar winter",
+    "interview_collection": "March-July2013 per methodological note p5"
+  },
+  "geography": {
+    "reg": 5,
+    "verified_label": "Veneto",
+    "city_identification": false,
+    "released_geographic_fields_scanned": [
+      "rip",
+      "reg",
+      "reg_new",
+      "dom"
+    ],
+    "limits": "Municipality-type domain is not a named municipality;record does not identify Padova."
+  },
+  "unknowns": [
+    "Actual within-block on/off sequence",
+    "Actual thermostat setpoints or indoor temperatures",
+    "Named respondent municipality or province",
+    "One explicitly named calendar winter for the3.11answer",
+    "Metered energy or independently monitored operation",
+    "Accuracy of turning encoded mean reported hours into repeated exact daily duty schedules"
+  ],
+  "core_schedule_and_control_fields_match": true,
+  "blank_to_zero_conversion": {
+    "fields": [
+      "q_2_32C",
+      "q_2_32D"
+    ],
+    "raw": "",
+    "compact": "0",
+    "parent_field": "q_2_31C",
+    "parent_value": "2",
+    "questionnaire_locator": "p24;Q2.32 asked only ifQ2.31_C=1",
+    "interpretation": "These are routed non-applicable blanks for selected record,not explicit no answers(code2). Compact0is a preprocessing sentinel;source preservation must retain the distinction."
+  },
+  "distribution_scope": "Local audit and simulation input provenance only;no public redistribution of record-level data assumed."
+}

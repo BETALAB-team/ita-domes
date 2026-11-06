@@ -1,0 +1,11 @@
+{
+  "scope": "Structural checks only; no claim of empirical or scientific validation.",
+  "claim_version": "v04",
+  "claim_count": 41,
+  "ledger_draft_hash_matches": true,
+  "final_snapshot_matches_latest": true,
+  "enum_errors": [],
+  "unresolved_source_aliases": [],
+  "missing_required_files": [],
+  "broken_delivery_links": []
+}

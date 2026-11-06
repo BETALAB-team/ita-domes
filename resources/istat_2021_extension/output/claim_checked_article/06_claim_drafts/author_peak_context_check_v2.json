@@ -1,0 +1,382 @@
+{
+  "analysis_type": "post_hoc_descriptive_peak_timing",
+  "site": "Bolzano",
+  "model_restart_day_hours": [
+    6912,
+    6935
+  ],
+  "counts": {
+    "test": {
+      "denominator": 32,
+      "restart_day_first_maxima": 27,
+      "restart_hour_first_maxima": 18
+    },
+    "component": {
+      "denominator": 4,
+      "restart_day_first_maxima": 2,
+      "restart_hour_first_maxima": 2
+    }
+  },
+  "records": [
+    {
+      "role": "test",
+      "household_id": 15542,
+      "profile_id": "profile_137bfc01628cfaa3",
+      "peak_kW": 23.316726359312085,
+      "first_peak_hour": 327,
+      "on_restart_day": false,
+      "at_restart_hour": false,
+      "hourly_sha256": "239ba8e4e124fd9693bef79d876f9ce4277c1ecd41ea4ab2542f4558e64546f0"
+    },
+    {
+      "role": "test",
+      "household_id": 15879,
+      "profile_id": "profile_6108efe9e58f6cba",
+      "peak_kW": 23.76121282865084,
+      "first_peak_hour": 329,
+      "on_restart_day": false,
+      "at_restart_hour": false,
+      "hourly_sha256": "24207b659d37b8fefa6dfd325cd1772e42f5f97831771c4aa8bc906275c73150"
+    },
+    {
+      "role": "test",
+      "household_id": 1662,
+      "profile_id": "profile_9753525a7981d467",
+      "peak_kW": 17.80862080867205,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "d5729b06c18dfbe8a1f3fe96c7d52a4b3d6ccb95d540da93fc722b2eb4ebbb43"
+    },
+    {
+      "role": "test",
+      "household_id": 6203,
+      "profile_id": "profile_0ba87e52dc3aab04",
+      "peak_kW": 23.450821306027553,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "a69a3586d9603001c116c21d563f667d2e85ee2aa212745042307df031163dbe"
+    },
+    {
+      "role": "test",
+      "household_id": 6986,
+      "profile_id": "profile_14ddd7bffc8c47d7",
+      "peak_kW": 25.417923164406943,
+      "first_peak_hour": 6915,
+      "on_restart_day": true,
+      "at_restart_hour": false,
+      "hourly_sha256": "aa2cb4ae29a0bf1413d0752714d137071c35989df6427b996ede23dd83a20ca8"
+    },
+    {
+      "role": "test",
+      "household_id": 12382,
+      "profile_id": "profile_81682c292b2c9c7c",
+      "peak_kW": 24.64604254532047,
+      "first_peak_hour": 324,
+      "on_restart_day": false,
+      "at_restart_hour": false,
+      "hourly_sha256": "cc5f8f55a20bcb6b7a0936dd7e30455701edfc30545146d96f44aba8df1cf3ba"
+    },
+    {
+      "role": "test",
+      "household_id": 8273,
+      "profile_id": "profile_d26aa1a8b37eaf97",
+      "peak_kW": 21.570087806909047,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "24663fef828ea4ff7bd92ecb7be3f500d58f6fb8ca909d12c87e7747033f3c15"
+    },
+    {
+      "role": "test",
+      "household_id": 11898,
+      "profile_id": "profile_41d4d5b784fdfa84",
+      "peak_kW": 21.570087806909047,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "8bef38ee504e508a913b393d5729c8c73cf1530e1885d9890242363e3171f77a"
+    },
+    {
+      "role": "test",
+      "household_id": 2195,
+      "profile_id": "profile_c318993d2fed990a",
+      "peak_kW": 22.922151625045384,
+      "first_peak_hour": 6917,
+      "on_restart_day": true,
+      "at_restart_hour": false,
+      "hourly_sha256": "20e5f1d8edfceffbf63b637c7fcb782ab867d1bbf4c729d4e8edbe2961191a2b"
+    },
+    {
+      "role": "test",
+      "household_id": 8937,
+      "profile_id": "profile_2c3bb0191d34a620",
+      "peak_kW": 22.966452173729976,
+      "first_peak_hour": 6916,
+      "on_restart_day": true,
+      "at_restart_hour": false,
+      "hourly_sha256": "9618fd394e9e2c3a733133c29f95ca80f29178c7a92eee19ee3b05e6bc4300ff"
+    },
+    {
+      "role": "test",
+      "household_id": 17634,
+      "profile_id": "profile_9b69518b1843a3f7",
+      "peak_kW": 17.80862080867205,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "0b1101dfa4f00f20eee55134c3e794bcbe9f6597b653122b9ed8dbac9ee51c41"
+    },
+    {
+      "role": "test",
+      "household_id": 18634,
+      "profile_id": "profile_a24f277e55d33677",
+      "peak_kW": 23.450821306027553,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "b7e2c0f631f830ec32b5de9f1f29d99b4485477ab8cb41c298206a47b89565e6"
+    },
+    {
+      "role": "test",
+      "household_id": 14983,
+      "profile_id": "profile_1e526dff0f49dc82",
+      "peak_kW": 25.310761431600728,
+      "first_peak_hour": 295,
+      "on_restart_day": false,
+      "at_restart_hour": false,
+      "hourly_sha256": "77daf84406aa321d6e723a75758bdd93fe501c2b60c68938420d48a5525a255d"
+    },
+    {
+      "role": "test",
+      "household_id": 17551,
+      "profile_id": "profile_018bbe23d2c79c65",
+      "peak_kW": 23.609113391924076,
+      "first_peak_hour": 323,
+      "on_restart_day": false,
+      "at_restart_hour": false,
+      "hourly_sha256": "cb5cc76b9c436a284fff3a9c589b4d457bd5121d3d49fb1a1bd56ccbc551545c"
+    },
+    {
+      "role": "test",
+      "household_id": 3719,
+      "profile_id": "profile_f7fcb6a8c2046d9d",
+      "peak_kW": 21.570087806909047,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "888e24e58ec54c06917b9df083e92253fc2c6cae8de4d5b9f949edbf70fb0085"
+    },
+    {
+      "role": "test",
+      "household_id": 19858,
+      "profile_id": "profile_57161fdeb29de709",
+      "peak_kW": 21.570087806909047,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "cd71474cf7db9785909abcfb4952643470c9084b2be8fba02219eb5acd16e6ee"
+    },
+    {
+      "role": "test",
+      "household_id": 4417,
+      "profile_id": "profile_25a45218566c3160",
+      "peak_kW": 22.890193722436244,
+      "first_peak_hour": 6918,
+      "on_restart_day": true,
+      "at_restart_hour": false,
+      "hourly_sha256": "77c764809846dd1db8e0324607c23f67e2b18ad759b2ce118ea22123847d7c3b"
+    },
+    {
+      "role": "test",
+      "household_id": 16890,
+      "profile_id": "profile_da15a31706143ae1",
+      "peak_kW": 23.02090833228682,
+      "first_peak_hour": 6915,
+      "on_restart_day": true,
+      "at_restart_hour": false,
+      "hourly_sha256": "7fe2799b6885643d020309f7e6c3bec438242efc446d3348d25ffddbfafe27cd"
+    },
+    {
+      "role": "test",
+      "household_id": 2181,
+      "profile_id": "profile_307037ddb97640c5",
+      "peak_kW": 17.80862080867205,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "a96f5e26948d7b57584826a7b93349af4079736b0b7bfeff13eb72644781f0ac"
+    },
+    {
+      "role": "test",
+      "household_id": 7644,
+      "profile_id": "profile_e795df5ce5e452a1",
+      "peak_kW": 17.80862080867205,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "45a2537d6e853cdb99f05af8d760bfa488a104efd2074c1c549b7d44498a655e"
+    },
+    {
+      "role": "test",
+      "household_id": 11132,
+      "profile_id": "profile_ddf59f6da52c52e5",
+      "peak_kW": 25.417923164406943,
+      "first_peak_hour": 6915,
+      "on_restart_day": true,
+      "at_restart_hour": false,
+      "hourly_sha256": "9a075de5f1a56e39434590b7676b001f85156453d9639636c811fd4a9a63bbe9"
+    },
+    {
+      "role": "test",
+      "household_id": 11614,
+      "profile_id": "profile_8eaa3aac3d4ac6f9",
+      "peak_kW": 27.21228830426456,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "4884ce8c76d9ed5e09fd91afc18d03591a05678d0c9c9b516604b9e9798862a1"
+    },
+    {
+      "role": "test",
+      "household_id": 6543,
+      "profile_id": "profile_e1d0773f5ee6b6d7",
+      "peak_kW": 21.570087806909047,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "a9bcf7886c70c6d2c6bd33713f91160bf1442077133a1ef22986a71e5273756b"
+    },
+    {
+      "role": "test",
+      "household_id": 15177,
+      "profile_id": "profile_1b4ca2e74b79c90e",
+      "peak_kW": 27.21228830426456,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "60c7dbaadd6fa9a3ec8071a4c59db5d3bb1717b28a96cc87a934d2ba03ee1b23"
+    },
+    {
+      "role": "test",
+      "household_id": 10119,
+      "profile_id": "profile_9b3f3b90d7dfb380",
+      "peak_kW": 22.966452173729976,
+      "first_peak_hour": 6916,
+      "on_restart_day": true,
+      "at_restart_hour": false,
+      "hourly_sha256": "014aeabe544a5de60fa463532bf2619d220bb4553e9413011c0809a3df81be56"
+    },
+    {
+      "role": "test",
+      "household_id": 11326,
+      "profile_id": "profile_14753a3b5ec0df3d",
+      "peak_kW": 23.02090833228682,
+      "first_peak_hour": 6915,
+      "on_restart_day": true,
+      "at_restart_hour": false,
+      "hourly_sha256": "46e239be3cd039e463dce332f2042645fee0ba90975df5d579c8e946630305f0"
+    },
+    {
+      "role": "test",
+      "household_id": 10331,
+      "profile_id": "profile_ccf8c6938973195d",
+      "peak_kW": 17.80862080867205,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "3e80a89b5494f0673e8dd0289a03e77df61bd188ec39683ab30677cf316ec9d4"
+    },
+    {
+      "role": "test",
+      "household_id": 14531,
+      "profile_id": "profile_93ee760003d6925b",
+      "peak_kW": 17.80862080867205,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "059786f2e77457b715df8ce0dc1c0afbea1b5ac2e7cc5cefc29175f53ed2b8ea"
+    },
+    {
+      "role": "test",
+      "household_id": 14457,
+      "profile_id": "profile_aa5a7b151b3c3ab3",
+      "peak_kW": 27.21228830426456,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "29ca088cd75e2d0f5d2795f7ccecfe8865257e01e0925993bcf0a41bb0ec2787"
+    },
+    {
+      "role": "test",
+      "household_id": 14965,
+      "profile_id": "profile_3fe14a6c114086b6",
+      "peak_kW": 25.842177999737082,
+      "first_peak_hour": 6914,
+      "on_restart_day": true,
+      "at_restart_hour": false,
+      "hourly_sha256": "36a378bbb83df638516d975c04ed671619ee8014af551fd0712eb1c2d80cc43b"
+    },
+    {
+      "role": "test",
+      "household_id": 14721,
+      "profile_id": "profile_e9dd2daa39499e65",
+      "peak_kW": 21.570087806909047,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "4c6174ef027de54e4a5469ec0bb6549ae03ef39da8063aaedd216a798b60ef0b"
+    },
+    {
+      "role": "test",
+      "household_id": 19250,
+      "profile_id": "profile_7e5f58e423a25471",
+      "peak_kW": 27.21228830426456,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "71063dadc552f7a27c54105f167f8f67f48c4891dc98a61fe82d7798e173b354"
+    },
+    {
+      "role": "component",
+      "household_id": 2941,
+      "profile_id": "profile_f9c307728d863a17",
+      "peak_kW": 23.018720417253093,
+      "first_peak_hour": 326,
+      "on_restart_day": false,
+      "at_restart_hour": false,
+      "hourly_sha256": "632bc5811a2165bb25adde8d84c97a9bc2da0317ed5610698f10f42b7013fe00"
+    },
+    {
+      "role": "component",
+      "household_id": 981,
+      "profile_id": "profile_fa8d5f91549f24b8",
+      "peak_kW": 17.80862080867205,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "1a3e77b0d44f66b014289373c1e5027cf12260690060e67f6766d05911357e93"
+    },
+    {
+      "role": "component",
+      "household_id": 5303,
+      "profile_id": "profile_9450b1c9a71b9c19",
+      "peak_kW": 24.14890092526709,
+      "first_peak_hour": 327,
+      "on_restart_day": false,
+      "at_restart_hour": false,
+      "hourly_sha256": "84e363dd8016b277399fd09e476d0efc42f54b7a02c6232bfcfbb683d083499b"
+    },
+    {
+      "role": "component",
+      "household_id": 9574,
+      "profile_id": "profile_cd558223cc43db28",
+      "peak_kW": 21.570087806909047,
+      "first_peak_hour": 6912,
+      "on_restart_day": true,
+      "at_restart_hour": true,
+      "hourly_sha256": "eeacb5c7d15af0376f3252f2944bedabf2d2ed66c68bb823c77b29b572e49d04"
+    }
+  ]
+}

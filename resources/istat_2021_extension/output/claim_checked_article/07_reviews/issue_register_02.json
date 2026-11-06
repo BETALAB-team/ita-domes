@@ -1,0 +1,193 @@
+{
+  "through_round": 2,
+  "review_sha256": "3e258716d7516c05d8b78c306b358ff5651d204ed39110b831652877fa761fd4",
+  "response_sha256": "1f6069e8dbfcdae9692199c759ec55293e83a98871aff1e19b28bcfaa86796d2",
+  "revision_filename": "article_claims_v02.md",
+  "revision_sha256": "91373b60fe5f574057f2e2fdfc597cf9e373c090ae4d2aba4757682b183c0045",
+  "review_01_closure_sha256": "369fda16a8653c42a0750672ed39a3e67eed5faf4ced052cf65e255e9e278774",
+  "entries": [
+    {
+      "source_round": 1,
+      "issue_id": "R1-01",
+      "severity": "critical",
+      "claim_ids": [
+        "MET-003",
+        "MET-005",
+        "MET-008",
+        "RES-004",
+        "RES-005",
+        "RES-007",
+        "INT-001",
+        "RQ-002",
+        "MET-006",
+        "LIM-005",
+        "LIM-006"
+      ],
+      "disposition": "Conditionally closed for the specific ideal-sensible 1C single-commit state repair after fresh independent transition and 175,200-hour balance checks. This does not admit physical annual results; separate R2-01 remains open for invalid sky forcing and new runs.",
+      "revision_locations": [
+        "article_claims_v02.md#met-003",
+        "article_claims_v02.md#met-005",
+        "article_claims_v02.md#met-008",
+        "article_claims_v02.md#lim-006",
+        "article_claims_v02.md#lim-007"
+      ],
+      "evidence_paths": [
+        "07_reviews/reviewer_02/independent_audit.json",
+        "07_reviews/reviewer_02/runtime_checks.json",
+        "07_reviews/closure_01_after_review02.md"
+      ],
+      "still_open": false,
+      "closure_condition": "Narrow dispatcher correction independently verified within the declared sensible 1C scope; physical-result admission is tracked in R2-01."
+    },
+    {
+      "source_round": 1,
+      "issue_id": "R1-02",
+      "severity": "major",
+      "claim_ids": [
+        "GAP-001",
+        "RQ-001",
+        "MET-001",
+        "MET-002",
+        "RES-003",
+        "RES-004",
+        "RES-005",
+        "RES-006",
+        "RES-007",
+        "INT-001"
+      ],
+      "disposition": "Closed for wording and estimand: survey-reported mean operating hours, encoded high-setpoint hours and actual positive heating are separate. Independent source-profile checks confirm mapping; old v3 partition quantity is withheld under R2-01.",
+      "revision_locations": [
+        "article_claims_v02.md#gap-001",
+        "article_claims_v02.md#met-001",
+        "article_claims_v02.md#met-002",
+        "article_claims_v02.md#res-003",
+        "article_claims_v02.md#res-006"
+      ],
+      "evidence_paths": [
+        "C:/Works/GRINS/GRINS-Tool/classes/EndUse.py",
+        "07_reviews/reviewer_02/runtime_checks.json",
+        "07_reviews/closure_01_after_review02.md"
+      ],
+      "still_open": false,
+      "closure_condition": "Continue the distinction in later prose/figures; future corrected-run partitions require separate result review under R2-01."
+    },
+    {
+      "source_round": 1,
+      "issue_id": "R1-03",
+      "severity": "minor",
+      "claim_ids": [
+        "DAT-004"
+      ],
+      "disposition": "Closed: DAT-004 remains a bounded derived-estimate inventory claim in readable and machine ledgers; no observed measurement is asserted.",
+      "revision_locations": [
+        "article_claims_v02.md#dat-004",
+        "claim_ledger_v02.json DAT-004.evidence_class"
+      ],
+      "evidence_paths": [
+        "06_claim_drafts/claim_ledger_v02.json",
+        "07_reviews/closure_01_after_review02.md"
+      ],
+      "still_open": false,
+      "closure_condition": "Preserve derived-estimate class and bounded inventory scope."
+    },
+    {
+      "source_round": 2,
+      "issue_id": "R2-01",
+      "severity": "critical",
+      "claim_ids": [
+        "DAT-002",
+        "MET-003",
+        "MET-005",
+        "MET-006",
+        "MET-008",
+        "MET-009",
+        "RES-004",
+        "RES-005",
+        "RES-006",
+        "RES-007",
+        "INT-001",
+        "LIM-005",
+        "LIM-007"
+      ],
+      "disposition": "Accepted. All v3 physical annual/peak, setback-partition and summer-temperature values withdrawn; 20 v3 runs retained only as defective-forcing diagnostics. Narrow state correction remains supported. A documented local longwave/IR or justified alternate pathway and complete weather QC must precede new Padova/all-site annual runs and independent review.",
+      "revision_locations": [
+        "article_claims_v02.md#dat-002",
+        "article_claims_v02.md#met-005",
+        "article_claims_v02.md#met-006",
+        "article_claims_v02.md#met-009",
+        "article_claims_v02.md#res-004",
+        "article_claims_v02.md#res-005",
+        "article_claims_v02.md#res-006",
+        "article_claims_v02.md#res-007",
+        "article_claims_v02.md#int-001",
+        "article_claims_v02.md#lim-005",
+        "article_claims_v02.md#lim-007"
+      ],
+      "evidence_paths": [
+        "07_reviews/reviewer_02/independent_audit.json",
+        "07_reviews/reviewer_02/runtime_checks.json",
+        "C:/Works/EUReCA/EUReCA/eureca_building/weather.py",
+        "C:/Works/EUReCA/EUReCA/eureca_building/thermal_zone.py",
+        "05_simulations/climate_inputs_v2/acquisition_manifest.json"
+      ],
+      "still_open": true,
+      "closure_condition": "Predeclared and documented valid sky treatment, guards for all consumed fields, independent night/zero-solar and forcing diagnostics, versioned new Padova/all-site annual outputs, passed state/repeat/warm-up and arithmetic checks, and fresh independent scientific review. No v3 numerical effect is promoted by state closure alone."
+    },
+    {
+      "source_round": 2,
+      "issue_id": "R2-02",
+      "severity": "minor",
+      "claim_ids": [
+        "MET-003",
+        "MET-005",
+        "MET-006",
+        "MET-010",
+        "RES-004",
+        "RES-005",
+        "RES-007"
+      ],
+      "disposition": "Accepted. Historic v3 manifest omits required SITE argument. Response records complete Padova command syntax as a labelled provenance correction, without rewriting manifests or executing fixed-output historic script. New separate-destination replay entry point and exact command/environment record are pending.",
+      "revision_locations": [
+        "article_claims_v02.md#met-010",
+        "response_02.md#r2-02--minor-incomplete-recorded-command"
+      ],
+      "evidence_paths": [
+        "07_reviews/reviewer_02/recorded_command_replay.txt",
+        "04_analysis/run_climate_campaign_v3.py",
+        "05_simulations/climate_campaign_v3/Padova/completion_manifest.json"
+      ],
+      "still_open": true,
+      "closure_condition": "A tested replay command for new versioned runs records executable, working directory, complete site argv and isolated output destination, with output/source hashes; historical manifests stay immutable with annotation."
+    }
+  ],
+  "standing_limitations": [
+    {
+      "claim_id": "LIM-001",
+      "description": "One unweighted respondent and assumed dwelling do not support city/population inference."
+    },
+    {
+      "claim_id": "LIM-002",
+      "description": "No compatible independent empirical meter validation has been established."
+    },
+    {
+      "claim_id": "LIM-003",
+      "description": "Early/late placements are neither observed schedules nor extrema over all alternatives."
+    },
+    {
+      "claim_id": "LIM-004",
+      "description": "Current code/config is not established as the conference executable."
+    },
+    {
+      "claim_id": "LIM-005",
+      "description": "No-cooling case does not establish comfort behavior."
+    },
+    {
+      "claim_id": "LIM-006",
+      "description": "Original dispatcher-based v1/v2 outputs remain quarantined."
+    },
+    {
+      "claim_id": "LIM-007",
+      "description": "V3 weather-forcing annual outputs are quarantined despite correct narrow state-equation closure."
+    }
+  ]
+}

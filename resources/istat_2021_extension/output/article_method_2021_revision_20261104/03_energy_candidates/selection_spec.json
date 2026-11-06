@@ -1,0 +1,29 @@
+{
+  "registered_before_computation": true,
+  "rule": "Smallest K with mean fold RMSE <= minimum mean fold RMSE + SE of RMSE at that minimum AND full-data between-cell mean variance retained >=0.95",
+  "fidelity_floor": 0.95,
+  "K_candidates": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "folds": 5,
+  "fold_seed": 20261104,
+  "objective": "Exact contiguous partition of training cell means sorted by mean minimizing sum n_cell*(mean_cell-group_mean)^2",
+  "unit": "Households, unweighted original-style group estimation; survey-weighted group summaries separate",
+  "leakage": "Fold training-only cell means, ranks, partitions and group predictions; same cell features map heldout households. Unseen cell fallback training global mean. Demographic labels previously fitted and fixed; CV validates energy compression conditional on those labels, not entire demographic workflow.",
+  "standard_errors": "Sample SD of five fold RMSEs /sqrt(5); folds are dependent training sets, not population confidence intervals",
+  "comparison": "K7H/K5E and K9H/K13E DP resolutions are separate from original Tukey membership. Existing original Tukey full-data summaries retained as descriptive comparisons only, never used for fold predictions."
+}

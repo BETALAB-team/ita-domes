@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "all_raw_ids_retained_unique": true,
+    "eligible_labels_complete": true,
+    "excluded_unassigned": true,
+    "four_labels": true,
+    "children_retained": true,
+    "empirical_simplex": true,
+    "weighted_empirical_simplex": true,
+    "matrix_basis_reproduces_predictions": true,
+    "all_source_hashes_unchanged": true
+  },
+  "eligible_under11_households": 7737,
+  "fit_domain_range_violations": 0,
+  "fit_domain_probability_sum_range": [
+    0.9804381695919396,
+    1.0351689209780617
+  ],
+  "full_grid_probability_sum_range": [
+    0.9804381695919396,
+    1.6824556607212466
+  ],
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7"
+  },
+  "plot_qa": "All five scientific PNGs viewed. Titles/axes/legends readable; heatmap corrected to cross-mark invalid raw polynomial values and disclose capped color scale. SVG/PNG paired."
+}

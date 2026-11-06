@@ -1,0 +1,396 @@
+
+
+===== PDF PAGE 2; printed 1302 =====
+A model to Simulate the Energy Consumption 
+of the Italian Residential Building Stock 
+with Regional Resolution 
+Jacopo Vivian1(B), Enrico Prataviera1, Laura Carnieletto2, Wilmer Pasut2, 
+and Angelo Zarrella1 
+1 Department of Industrial Engineering, University of Padova, Padova, Italy 
+jacopo.vivian@unipd.it 
+2 Department of Environmental Sciences, Informatics and Statistics, Ca’ Foscari University of 
+V enice, V enice, Italy 
+Abstract. In this paper, we present a bottom-up model of the Italian residential 
+building stock called ita-domes. The model uses data from an ISTA T survey on 
+the energy consumption of families to account for the behavioral and technolog-
+ical diversity in energy use within households. The model accounts for different 
+climates within each region. V alidation against National Energy Balances of 2013 
+and 2014 showed alignment for natural gas, electricity and biomass consump-
+tion but discrepancies for LPG, gasoline and district heating. The paper shows 
+that the model can provide estimates on the effect of energy efﬁciency measures 
+with regional resolution, thus being a useful tool to inform policy makers. The 
+model is released as an open-source Github repository. Future work will update 
+this analysis using surveys conducted by ISTA T in 2021 and 2024. 
+Keywords: building stock · national model · policy support 
+1 Introduction 
+In recent years, there has been growing attention towards the decarbonization of the 
+building sector, driven by the need to reduce greenhouse gas emissions and align with 
+global climate goals. EU policies such as the European Green Deal [ 1], the Energy 
+Performance of Buildings Directive [2], and the Fit for 55 packages [3] have established 
+ambitious targets to improve building energy efﬁciency and promote renewable energy 
+integration. Building simulations emerged as a powerful tool to estimate the effect of 
+energy efﬁciency at a large scale, providing valuable insights to achieve the European 
+target goals. The reliability of such simulations does not only depend on the accuracy of 
+the underlying models, but also on the quality of input data including weather conditions, 
+technological diffusion within households, and user behavior [
+4]. Incorporating these 
+aspects into building stock simulations at a national scale is a challenging task due to the 
+diversity of users and households and to the computational burden required to simulate 
+millions of buildings. For instance, a recent paper used large public datasets to inform 
+building energy models and study energy poverty in Southern Spain [
+5].
+© The Author(s), under exclusive license to Springer Nature Switzerland AG 2026 
+C. Zilio et al. (Eds.): CLIMA 2025, LNCE 788, pp. 1302–1311, 2026. 
+https://doi.org/10.1007/978-3-032-10546-2_123 
+
+
+===== PDF PAGE 3; printed 1303 =====
+A model to Simulate the Energy Consumption of the Italian 1303
+This study not only provides a detailed representation of the Italian residential build-
+ing stock but also serves as a valuable tool for identifying priority areas for energy 
+efﬁciency interventions and renewable energy integration. The challenges of compu-
+tational complexity have been addressed with a bottom-up model using data from an 
+ISTA T survey on the energy consumption of families to account for the behavioral 
+and technological diversity in energy use within households, providing high-resolution 
+insights into heat demand patterns. Indeed, the dataset was previously used to develop 
+a bottom-up national building stock model called MOIRAE in a collaborative effort 
+between Politecnico di Milano and Ricerca Sistema Energetico [
+6]. The simulation tool 
+was later improved and released with the name MODENA [7], which allowed to perform 
+a sensitivity analysis to study the effect of climate change on future energy consump-
+tion [8]. The new model, called ita-domes, has been almost completely rewritten and is 
+released as an open-source Github repository. 
+2 Dataset 
+This work relies on a dataset gathering detailed statistics on Italian households’ energy 
+consumption in the form of responses to a survey, available online as open access data 
+[9]. The target population targeted households with a landline subscription, selected ran-
+domly across Italy’s 8,000 municipalities and stratiﬁed by demographic and geographic 
+parameters (e.g., metropolitan centers, mountain towns, and coastal areas). The sampling 
+was one-stage, including a base sample of 20,000 households with a reserve sample of 
+100,000 additional households to ensure sufﬁcient participation. Surveys were conducted 
+between March and July 2013 using CA TI (Computer-Assisted Telephone Interview-
+ing), monitoring interviews to maintain high data quality. Households and respondents 
+were selected carefully, engaging an adult in each household with substantial knowledge 
+about energy-related topics. 
+The survey includes more than 380 questions divided into nine sections: general 
+information on households, household characteristics, heating system, domestic hot 
+water, cooling system, biomass, lighting, household appliances, energy expenditure. 
+These questions concern the presence, type, characteristics, number and type of use of 
+different technologies related to the energy consumption of the households surveyed. 
+By cross-referencing the answers with external databases or models, it was possible 
+to characterize detailed energy consumption of households. To ensure data reliability, 
+survey responses were cleaned and validated through deterministic and probabilistic 
+correction methods. Errors were identiﬁed using ISTA T’s CONCORD software, which 
+ensures coherence across responses. 
+3 Methods 
+The simulations rely on three main data sources: (i) the ISTA T dataset described in 
+Sect. 
+2, (ii) performance data (average power and efﬁciency) of domestic appliances 
+de-scribed in Sect. 3.2, (iii) weather data for building simulations described in Sect. 3.3.
+
+
+===== PDF PAGE 4; printed 1304 =====
+1304 J. Vivian et al.
+3.1 Models for space heating and cooling 
+Space heating accounts for the highest energy demand in the Italian domestic sector. The 
+calculation presented in this work relies on the lumped capacitance models implemented 
+in the building energy simulation software EUReCA [
+10], in particular with the one-
+capacitance model proposed by ISO 13790 [ 11]. The input data for the simulations, 
+including the stratigraphy and thermal properties of building components, have been 
+selected from the answers to the survey described in Sect. 
+2. The most important questions 
+are summarized in Table 1. The combination of construction period, walls construction 
+type and windows frame material resulted in sixty archetypes [ 12]. 
+Table 1. Summary of questions in the survey and possible answers. 
+Questions content Possible answers 
+Building 
+type 
+single family house, multi-family or terraced 
+house, apartment block with <10 units, with 
+10–27 units, with >27 units 
+Building construction period before 1900, 1900–1949, 1950–1959, 
+1960–1969, 1970–1979, 1980–1989, 
+1990–1999, 2000 or later 
+Walls construction type concrete, stone, masonry, wood 
+Walls thermal insulation yes, no 
+Windows frame material (wood, metal, PVC) yes, no (for each material) 
+Surface exposure to north, east, west, south yes, no (for each orientation) 
+Apartment position basement, ground ﬂoor or mezzanine, middle 
+ﬂoor, top ﬂoor 
+Floor area 10–19 m2, 20–39 m 2, 40–59 m 2, 60–89 m 2, 
+90–119 m2, 120–149 m2, >120 m 2 
+The ﬂoor surface area has been assumed equal to the rounded mean value of each 
+class. For instance, if the answer was 40–59 m2, the considered surface area was assumed 
+equal to 50 m2. The overall glazed surface has been calculated by multiplying the number 
+of windows by an assumed average window area of 1.7 m 2. Oriented surface areas of 
+external walls have been calculated accordingly based on surface exposure and assuming 
+that all dwellings have a square ﬂoor plan. The boundary conditions of building surfaces 
+depend on apartment position and surface exposure. The energy used for space heating 
+and cooling depends not only on the building characteristics described above, but also on 
+occupants’ behaviour. Therefore, hourly schedules of temperature setpoint and internal 
+heat gains due to the occupants have been assumed based on the answers provided by 
+each occupant. In particular, the heating setpoint schedule has been assumed based on 
+the declared number of heating hours during morning, afternoon and evening time. The 
+ﬁrst and last day of the heating season have been determined based on the climatic zone, 
+according to the Italian law [
+13].
+
+
+===== PDF PAGE 5; printed 1305 =====
+A model to Simulate the Energy Consumption of the Italian 1305
+Two methods have been used to calculate the electricity consumption of cooling 
+devices. The ﬁrst one is the calculation of the cooling demand using ﬁxed indoor con-
+ditions (usually 26 °C air temperature and 50% relative humidity). Then, the electricity 
+consumption is calculated based on a given EER, which depends on average outdoor 
+temperature. The second method multiplies a ﬁxed power by the number of daily hours 
+estimated from the switch on frequency declared by the respondent (6 h/day if “always”, 
+4 if “some days a week”, 3 if “once per week”, 0.75 if “less than 4 times per month”, 
+0.5 if “occasionally”). 
+The number of days with space cooling depends on the climatic zone of the respon-
+dent. The emission, distribution, control, and generation efﬁciency were assumed for 
+each dwelling considering the type of emitter, the system layout, and the age declared 
+by the respondents. The only exception to this method is represented by heat pumps, 
+whose efﬁciency is calculated dynamically using the correlation proposed by Staffell 
+[
+14]. 
+3.2 Models for Electrical Appliances, Cooking and DHW 
+Similar calculations to those performed for cooling systems were carried out for other 
+typical energy-consuming household devices, i.e. lights, fridges, washing machines etc. 
+A complete list of the appliances considered can be found in Table 2. 
+Table 2. Description of other energy-consuming domestic devices. 
+Category Device description Energy carriers 
+Lights Light bulbs Electricity 
+Small appliances V acuum cleaner, iron, food processor, 
+blender, slicer, microwave 
+Electricity 
+Refrigerators Fridges, freezers Electricity 
+Big appliances Washing machines, dryers and 
+dishwashers 
+Electricity 
+TVs and PCs TVs and PCs Electricity 
+Standby appliances All other electrical devices Electricity 
+Cooking Hobs and ovens Electricity, Gas, Biomass, LPG 
+DHW Electricity, Gas, Biomass, LPG 
+For the electrical appliances listed in Table 2, the average power consumption and 
+performance of each device was taken from an external market analysis on sales and 
+multiplied by the annual operation hours obtained from the responses of the survey. The 
+method was proposed by a previous study with available open data [
+6] and was already 
+implemented in a previous version of the tool [7]. As an example, the annual consumption 
+for lighting (and similarly for electric appliances) is calculated by multiplying the number 
+of light bulbs, the average power consumption per bulb, the daily usage hours, and the
+
+
+===== PDF PAGE 6; printed 1306 =====
+1306 J. Vivian et al.
+annual number of days. The assumed power consumption is 15 W for energy-saving 
+bulbs and 40 W for traditional bulbs, and three daily usage patterns are also assumed: 
+3 h, 7 h, 14 h. 
+Cooking devices are considered as thermal power, converting the obtained thermal 
+energy demand to a certain consumption based on the device efﬁciency. For instance, 
+100 h/year of use of a gas oven turn into 140 kWh/year of thermal energy produced by 
+the oven to cook (average power 1.40 kW) with an efﬁciency of 40% leading to a gas 
+consumption of 350 kWh/year (approximately 33 Smc/year). In a household where the 
+same use frequency is declared for an electric oven (average power 1.5 kW and efﬁciency 
+of 74%), 150 kWh/year of thermal energy produced by the oven become 203 kWh/year 
+of electricity consumed by that device. 
+The tool calculates the energy demand for domestic hot water (DHW) production 
+using UNI/TS 11300–2 Standard [ 15]. 
+3.3 Simulations 
+The simulations performed to calculate the heating demand are based on typical mete-
+orological years. These proﬁles have been developed by Comitato Termotecnico Ital-
+iano starting from the weather data of 110 weather stations (one for each province) to 
+inform the Italian Standard UNI 10349:2016 [
+16] based on the methods contained in 
+the International Standard EN ISO 15927-4 [ 17]. Therefore, the simulation uses typical 
+meteorological years unless a speciﬁc year is speciﬁed by the user. 
+For this study, weather data were selected for 2013 and 2014, relying on information 
+collected by individual weather stations. This choice was made because the ISTA T 
+survey on energy consumption of Italian households, which is the main input of our 
+model, was carried out during 2013. Additionally, 2014 has been included because it 
+was a particularly warm year, which makes it suitable to assess the model accuracy. 
+In Italy there are 21 meteorological agencies: 19 regional agencies and those of the 
+autonomous provinces of Trento and Bolzano. For this work, weather data of the typ-
+ical meteorological year was overwritten using data from 30 meteorological stations, 
+taken from Emilia Romagna (8 provinces), Friuli V enezia Giulia (4 provinces), Lazio 
+(5 provinces), Lombardy (Milan only), Piemonte (4 provinces including Turin), the 
+province of Trento, and V eneto (7 provinces). The considered provinces account for 
+approximately 27% of the Italian households. The validation was performed at aggre-
+gated (national) level on six energy carriers: electricity, natural gas, LPG, biomass (sum 
+of wood and pellets), gasoline and district heating. The benchmark values were taken 
+from the National Energy Balance (NEB). 
+4 Results 
+Section 4.1 shows a comparison between the aggregate consumptions calculated by the 
+model with those published by the Ministry of Economic Development (MISE) in the 
+National Energy Balance. We considered the years 2013 and 2014 as reference years 
+since the survey was conducted during 2013. Section 4.2 and 4.3 show the regional 
+distribution of energy consumption by end use and energy carrier, respectively.
+
+
+===== PDF PAGE 7; printed 1307 =====
+A model to Simulate the Energy Consumption of the Italian 1307
+4.1 Comparison with National Energy Balance 
+Table 3 shows the overall national consumption by energy carrier with weather correc-
+tions for 2013 and 2014 as speciﬁed in Sect. 3.3. Results about 2013 are very accurate for 
+electricity and natural gas consumption. In the authors opinion, this result depends on the 
+fact that weather data for 2013 are similar to the Test Reference Y ear from CTI. Indeed, 
+2014 was much warmer. Since the weather data was replaced only for 30 provinces out 
+of 110, the drop in natural gas consumption (−16% compared to 2013 according to 
+the National Energy Balance) is not entirely captured by the model. The same happens 
+for biomass consumption, although the slight underestimation of year 2013 is compen-
+sated for by the warmer climate of 2014. The model overestimates LPG consumption, 
+and underestimates gasoline and district heating supplied to households. For LPG and 
+gasoline, the deviations from National Energy Balances could be linked to inaccurate 
+assumptions on the energy demand for DHW and heating in some regions. For district 
+heating, the error is most likely linked to insufﬁcient data in the ISTA T sample. 
+Table 3. Final energy consumption of residential buildings in the National Energy Balance (NEB) 
+vs. that calculated by ita-domes. 
+Energy 
+carrier 
+2013 2014 
+NEB [ktoe] ita-domes [ktoe] 
+(Deviation [%]) 
+NEB [ktoe] ita-domes [ktoe] 
+(Error [%]) 
+Electricity 5760 5759 (0.0%) 5525 5752 (4.1%) 
+Natural gas 18073 18090 (+0.1%) 15151 17115 (13%) 
+LPG 1192 1552 (+30%) 1080 1472 (+36%) 
+Biomass 6633 6265 (−5.5%) 5676 6036 (+6.4%) 
+Gasoline 1506 682 (−55%) 1158 640 (−45%) 
+District heating 931 86 (−91%) 818 76 (−91%) 
+4.2 Energy Consumption by End Use 
+Figure 1 shows the regional distribution of the annual energy consumption of Italian 
+households, considering four end uses: space heating, space cooling, other domestic 
+appliances and cooking. 
+Figure 1(a) shows that Lombardy is by far the highest consumer with regard to space 
+heating as it is responsible for 22% of Italian consumption, followed by other three 
+Northern regions with the highest population: Piedmont with 13%, Emilia Romagna and 
+V eneto both with 10%. While heating consumption seems to be dominated by the number 
+of heating degree days (HDD) and population, Fig. 
+1(b) shows energy consumption 
+related to space cooling. Lombardy shares the ﬁrst place with Sicily with approximately 
+14% of the Italian consumption each, while the third and fourth energy consumers 
+are V eneto with 12% and Emilia Romagna with 11%, followed by Lazio with 10%. 
+With regard to electrical appliances and cooking devices, Fig. 
+1(c) and 1(d) show that
+
+
+===== PDF PAGE 8; printed 1308 =====
+1308 J. Vivian et al.
+Lombardy is responsible for around 17% of the national consumption, followed by Lazio 
+with 10%, V eneto with 9%, Campania and Emilia Romagna both with 8%. 
+Fig. 1. Regional distribution of energy consumption by end use: (a) space heating, (b) space 
+cooling, (c) electrical appliances, (d) cooking. 
+These ﬁgures suggest that space heating is mainly driven by HDD and population, 
+while electrical consumption due to appliances and especially for space cooling are 
+strongly dependent on the regional diffusion of domestic and cooling devices, which is 
+a crucial information provided by the ISTA T survey. 
+4.3 Energy Consumption by Energy Carrier 
+The heatmaps in Fig. 2 show the regional distribution of four energy carriers consumed 
+annually in Italian households: electricity, natural gas, biomass and LPG. Electricity 
+consumption is consistent with the results shown in the previous Section: the combination 
+of energy demand due to appliances and cooling leads to Lombardy being the highest 
+electricity consumer (17% of the National electricity consumption) followed by Lazio 
+(10%) and Sicily (8.5%).
+
+
+===== PDF PAGE 9; printed 1309 =====
+A model to Simulate the Energy Consumption of the Italian 1309
+Fig. 2. Regional distribution of annual energy consumption by energy carriers: (a) electricity, (b) 
+natural gas, (c) biomass, (d) LPG. 
+Lombardy is currently the largest consumer of natural gas (28% of Italian consump-
+tion), and its consumption is more than the sum of the second (Emilia Romagna) and 
+third (Piedmont) in the ranking, which account for 12% and 11% respectively. Biomass 
+consumption is concentrated mainly in Piedmont (17%), V eneto (11%) and Lombardy 
+(8%), likely due to the greater presence of forested areas in these regions. 
+5 Conclusions 
+The decarbonization of the building sector is a critical step toward achieving EU climate 
+goals, with building simulations proving to be essential tools for evaluating energy 
+efﬁciency and renewable integration at scale. This study demonstrates how a detailed, 
+bottom-up model of the Italian residential building stock - developed using data from 
+ISTA T surveys - can address challenges such as behavioral diversity and computational 
+complexity. 
+Results showed that energy use for space heating is mostly related to weather con-
+ditions, population and available resources in case of biomass, while space cooling is 
+inﬂuenced by other variables such as the presence of air conditioning systems.
+
+===== PDF PAGE 10; printed 1310 =====
+1310 J. Vivian et al.
+Results conﬁrm that the quality of input data is a critical factor in enhancing the 
+reliability of simulations, enabling more accurate and representative estimates of real-
+world energy consumption patterns. 
+Acknowledgements. This study was funded by the European Union - NextGenerationEU, Mis-
+sion 4, Component 2, in the framework of the GRINS -Growing Resilient, INclusive and Sustain-
+able project (GRINS PE00000018 – CUP C93C22005270001). The views and opinions expressed 
+are solely those of the authors and do not necessarily reﬂect those of the European Union, nor can 
+the European Union be held responsible for them. 
+Data A vailability. The model used in this paper is available here: https://github.com/BETALAB-
+team/ita-domes/. The simulation results presented in this work can be provided by the authors upon 
+request or can be accessed on the AMELIA platform at https://ameliadp.grins.it/. 
+References 
+1. European Commission. The European Green Deal. COM 640 ﬁnal. https://eur-lex.europa.eu/ 
+legal-content/EN/TXT/?uri=CELEX:52019DC0640. (2019) 
+2. European Parliamento and the Council of the European Union. Directive (EU) 2024/1275 of 
+the European Parliament and of the Council of 24 April 2024 on the energy performance of 
+buildings (recast) (Text with EEA relevance). 
+https://eur-lex.europa.eu/eli/dir/2024/1275/oj. 
+(2024) 
+3. European Commission. “Fit for 55”: delivering the EU’s 2030 Climate Target on the 
+way to climate neutrality. 
+https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX% 
+3A52021AE5481. (2022) 
+4. Brøgger, M., Wittchen, K.B.: Estimating the energy-saving potential in national building 
+stocks—A methodology review. Renew. Sust. Energ. Rev. 82, 1489–1496 (2018). 
+https://doi. 
+org/10.1016/j.rser.2017.05.239 
+5. Calama-González, C.M., Escandón, R., Suárez, R., Alonso, A., León-Rodríguez, Á.L.: House-
+hold energy vulnerability evaluation in southern Spain through parametric energy simulation 
+models and socio-economic data. Sustain. Cities Soc. 103, 105276 (2024). 
+https://doi.org/10. 
+1016/j.scs.2024.105276 
+6. Besagni, G., Borgarello, M., Premoli Vilà, L., Najaﬁ, B., Rinaldi, F.: MOIRAE—Bottom-up 
+Model to compute the energy consumption of the Italian residential sector: Model design, 
+validation and evaluation of electriﬁcation pathways. Energy. 211, 118674 (2020). 
+https://doi. 
+org/10.1016/j.energy.2020.118674 
+7. Croci L., V ani S., Prataviera E., and Zarrella A.. “Applicativo per la valutazione dei consumi 
+energetici degli ediﬁci residenziali italiani,” Ricerca Sistema Energetico (RSE), Deliverable 
+21012539. 
+https://www.rse-web.it/prodotti/modena-modello-energetico-abitazioni/. (2021). 
+Accessed 14 Nov. 2024 
+8. Prataviera E., Vivian J., Gaudino F., and Zarrella A.. “Analysis of Energy Consumption Sce-
+narios of the Italian Residential Building Stock,” In Prof. of the 6th IBPSA-Italy conference, 
+Bozen-Bolzano (Italy). https://bsa.events.unibz.it/conference_proceedings/. (2024) Accessed 
+28 Jun. 2024 
+9. ISTA T. “Indagine sui consumi energetici delle famiglie.” https://www.istat.it/microdati/ind 
+agine-sui-consumi-energetici-delle-famiglie-anno-2013-2/. (2017). 30 Aug. 2017 
+10. Prataviera, E., Romano, P ., Carnieletto, L., Pirotti, F., Vivian, J., Zarrella, A.: EUReCA: An 
+open-source urban building energy modelling tool for the efﬁcient evaluation of cities energy 
+demand. Renew. Energy. 173, 544–560 (2021). 
+https://doi.org/10.1016/j.renene.2021.03.144
+
+
+===== PDF PAGE 11; printed 1311 =====
+A model to Simulate the Energy Consumption of the Italian 1311
+11. Vivian, J., Zarrella, A., Emmi, G., De Carli, M.: An evaluation of the suitability of lumped-
+capacitance models in calculating energy needs and thermal behaviour of buildings. Energ. 
+Buildings. 150, 447–465 (2017). https://doi.org/10.1016/j.enbuild.2017.06.021 
+12. Carnieletto, L., et al.: Italian prototype building models for urban scale building perfor-
+mance simulation. Build. Environ. 192, 107590 (2021). https://doi.org/10.1016/j.buildenv. 
+2021.107590 
+13. Decreto del Presidente della Repubblica 26 agosto 1993, n. 412. https://www.gazzettaufﬁ 
+ciale.it/eli/id/1993/10/14/093G0451/sg. (1993) 
+14. Staffell, I., Brett, D., Brandon, N., Hawkes, A.: A review of domestic heat pumps. Energy 
+Environ. Sci. 5(11), 9291 (2012). https://doi.org/10.1039/c2ee22653g 
+15. Ente Nazionale Italiano di Uniﬁcazione (UNI). UNI/TS 11300–2:2019 Prestazioni ener-
+getiche degli ediﬁci - Parte 2: Determinazione del fabbisogno di energia primaria e dei 
+rendimenti per la climatizzazione invernale, per la produzione di acqua calda sanitaria, per la 
+ventilazione e per l’illuminazione in ediﬁci non residenziali. (2019) 
+16. Ente nazionale italiano di uniﬁcazione. UNI 10349 1:2016 Riscaldamento e raffrescamento 
+degli ediﬁci Dati climatici Parte 1: Medie mensili per la valutazione della prestazione termo 
+energetica dell’ediﬁcio e metodi per ripartire l’irradianza solare nella frazione diretta e diffusa 
+e per calcolare l’irradianza solare su di una superﬁcie inclinata. (2016) 
+17. ISO 15927-4:2005 Hygrothermal performance of buildings—Calculation and presentation of 
+climatic data Part 4: Hourly data for assessing the annual energy use for heating and cooling, 
+ISO 15927-4:2005. https://www.iso.org/standard/41371.html. (2005)

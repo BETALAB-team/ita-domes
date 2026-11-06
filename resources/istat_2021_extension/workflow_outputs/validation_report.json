@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "checks": {
+    "raw_istat_input_exists": true,
+    "energy_input_exists": true,
+    "all_required_outputs_exist": true,
+    "baseline_stage_passed": true,
+    "pfe_stage_passed": true,
+    "energy_stage_passed": true,
+    "word_report_stage_passed": true,
+    "baseline_schema_is_exact": true,
+    "pfe_schema_is_exact": true,
+    "energy_schema_is_exact": true,
+    "anova_schema_is_exact": true,
+    "baseline_ids_are_unique": true,
+    "energy_ids_are_unique": true,
+    "energy_ids_are_archetyped": true,
+    "all_four_archetypes_are_present": true,
+    "pfe_has_63_published_windows": true,
+    "pfe_probabilities_sum_to_one": true,
+    "pfe_probability_sum_column_is_consistent": true,
+    "anova_has_two_complete_14_term_models": true,
+    "anova_p_values_are_bounded": true,
+    "all_energy_rows_have_tukey_groups": true,
+    "configured_seeds_reached_baseline": true,
+    "configured_seed_reached_pfe": true,
+    "configured_seed_reached_energy": true,
+    "configured_mapping_reached_baseline": true,
+    "configured_mapping_reached_pfe": true,
+    "configured_mappings_reached_energy": true
+  },
+  "row_counts": {
+    "archetyped_households": 17855,
+    "pfe_windows": 63,
+    "energy_analysis_households": 17605,
+    "anova_rows": 28
+  },
+  "paper_alignment": {
+    "anova_significance_matches": 25,
+    "anova_terms_compared": 28,
+    "all_anova_significance_decisions_match": false,
+    "heating_groups": 8,
+    "paper_heating_groups": 7,
+    "heating_group_count_matches_paper": false,
+    "electricity_groups": 4,
+    "paper_text_electricity_groups": 6,
+    "paper_table_6_electricity_groups_listed": 5,
+    "electricity_group_count_matches_a_published_count": false
+  }
+}

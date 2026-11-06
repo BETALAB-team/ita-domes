@@ -1,0 +1,37 @@
+1 | SRC-CLIMA2026 | Publisher metadata and abstract; complete local chapter reviewed by conference evidence owner
+2 | SRC-ARCH2025 | Complete local 15-page primary PDF available; selected complete methods/results/conclusion pages directly read with pypdf; no new quantitative table transcription in this pack
+3 | CF-SRC-BROGGER2018 | Original publisher abstract/section excerpts and author-institution metadata; not complete full-text appraisal
+4 | SRC-MOIRAE2020 | Author-uploaded primary abstract; publisher direct fetch failed; metadata corroborated by author ORCID
+5 | CF-SRC-RSE2021 | Official report page abstract/metadata; download link returns page/access UI rather than fullreport
+6 | SRC-MODENA2024 | Full8-page primary proceedings chapter; selected methods/results inspected
+7 | CF-SRC-ISTAT2013PUF | Official exact landing page referenced by CLIMA; metadata/description inspected
+8 | SRC-PUGLISI2016 | Primary full HTML methods and metadata inspected
+9 | AE-SRC-CARNIELETTO2021 | Full34-page author manuscript available; selected complete methods/conclusion pages inspected
+10 | AE-SRC-URBEM2025 | Publisher-indexed full-text sections; direct429; author-institution records corroborate
+11 | AE-SRC-SOKOL2017 | Primary publisher abstract, introduction and section snippets returned
+12 | AE-SRC-ALI2019 | Author-institution abstract and selected indexed manuscript methods; directfetchfailed
+13 | AE-SRC-RICHARDSON2010 | Primary author-institution abstract and bibliographic record
+14 | AE-SRC-WIDEN2010 | Primary publisher abstract, introduction and section outline
+15 | AE-SRC-BUTTITTA2019 | Full32-page primary author manuscript; selected complete methods/results inspected
+16 | AE-SRC-BUTTITTA2020 | Primary publisher abstract plus author-released model description
+17 | AE-SRC-CHEN2022 | Primary publisher abstract/introduction/conclusion indexed; laboratory record corroborates
+18 | AE-SRC-JUNG2023 | Full27-page primary manuscript; selected methods/limitations inspected
+19 | AE-SRC-HANMER2019 | Primary fullHTML; methods and limitations inspected
+20 | SRC-HUEBNER2013 | Primary author-institution abstract and bibliographic record
+21 | SRC-LATIFI2026 | Publisher full-text sections indexed by web search; metadata corroborated by Tilburg/TUe author repositories
+22 | AE-SRC-MOSTEIRO2020 | Primary author-institution abstract and citation; ETHPDFindexed but directfailed
+23 | SRC-UA2022 | Full19-page primary article; selected methods/results inspected
+24 | SRC-KOENE2023 | Primary author-institution abstract and metadata; full files require request, not made
+25 | AE-SRC-RUGANI2024 | Primary publisher abstract/highlights plus author-institution bibliographic record; institutional fullPDF fetch403
+26 | SRC-EURECA2021 | Official author-maintained software README and citation; publisher indexed record; direct publisher full fetch failed
+27 | CF-SRC-VIVIAN2017 | Original publisher abstract/highlights/methodology/conclusion excerpts indexed; direct403; author-institution metadata corroborated
+28 | CF-SRC-STAFFELL2012 | Original publisher abstract/metadata; no detailed correlation rederivation
+29 | CF-SRC-UNI113002019 | Official UNI catalog title/summary/edition date; standard body not accessed
+30 | AE-SRC-DEJAEGER2020 | Primary author-institution abstract and indexed authorPDF; directjournal/PDFfailed
+31 | SRC-FERRANDO2022 | Author-institution manuscript abstract/highlights indexed by search; direct PDF fetch failed
+32 | AE-SRC-GILANI2018 | Primary publisher abstract,introduction and scope
+33 | AE-SRC-WIDEN2025 | Primary indexedfullHTMLmethods/discussion/conclusion; directfetchfailed; officialUppsalarecordcorroborates
+34 | AE-SRC-SOOD2025 | Primary author-institution abstract and publisher highlights; directfullfetchfailed
+35 | SRC-DABIRIAN2026 | Full primary HTML methods/conclusion inspected
+36 | CF-SRC-CALAMA2024 | Primary author-institution abstract and indexed complete selected methods page; directPDF403
+37 | CF-SRC-ISO159272005 | Official ISO catalog abstract/edition information; full standard not accessed

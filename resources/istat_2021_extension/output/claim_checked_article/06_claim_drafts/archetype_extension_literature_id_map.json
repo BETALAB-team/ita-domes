@@ -1,0 +1,237 @@
+{
+  "source_packet": "02_evidence/archetype_extension/literature_claim_ledger.json",
+  "mapping": {
+    "AE-LIT-001": {
+      "formal_ids": [
+        "LIT-005"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-002": {
+      "formal_ids": [
+        "LIT-006"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-003": {
+      "formal_ids": [
+        "LIT-007"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-004": {
+      "formal_ids": [
+        "LIT-008"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-005": {
+      "formal_ids": [
+        "LIT-009"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-006": {
+      "formal_ids": [
+        "LIT-010"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-007": {
+      "formal_ids": [
+        "LIT-011"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-008": {
+      "formal_ids": [
+        "LIT-012"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-009": {
+      "formal_ids": [
+        "LIT-013"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-010": {
+      "formal_ids": [
+        "LIT-014"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-011": {
+      "formal_ids": [
+        "LIT-015"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-012": {
+      "formal_ids": [
+        "LIT-016"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-013": {
+      "formal_ids": [
+        "LIT-017"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-014": {
+      "formal_ids": [
+        "LIT-018"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-015": {
+      "formal_ids": [
+        "LIT-019"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-016": {
+      "formal_ids": [
+        "LIT-020"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-017": {
+      "formal_ids": [
+        "LIT-004"
+      ],
+      "disposition": "existing claim updated or retained",
+      "reason": "Substance already covered by the stable original literature claim."
+    },
+    "AE-LIT-018": {
+      "formal_ids": [
+        "LIT-021"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-019": {
+      "formal_ids": [
+        "LIT-022"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-020": {
+      "formal_ids": [
+        "LIT-023"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-021": {
+      "formal_ids": [
+        "LIT-002"
+      ],
+      "disposition": "existing claim updated or retained",
+      "reason": "Substance already covered by the stable original literature claim."
+    },
+    "AE-LIT-022": {
+      "formal_ids": [
+        "LIT-024"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-023": {
+      "formal_ids": [
+        "LIT-025"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-024": {
+      "formal_ids": [
+        "LIT-026"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-025": {
+      "formal_ids": [
+        "LIT-003"
+      ],
+      "disposition": "existing claim updated or retained",
+      "reason": "Substance already covered by the stable original literature claim."
+    },
+    "AE-LIT-026": {
+      "formal_ids": [
+        "LIT-027"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-027": {
+      "formal_ids": [
+        "LIT-028"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-028": {
+      "formal_ids": [
+        "LIT-029"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-029": {
+      "formal_ids": [
+        "LIT-030"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-030": {
+      "formal_ids": [
+        "LIT-031"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-031": {
+      "formal_ids": [
+        "LIT-032"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    },
+    "AE-LIT-032": {
+      "formal_ids": [
+        "LIT-001",
+        "LIT-004"
+      ],
+      "disposition": "existing claim updated or retained",
+      "reason": "Substance already covered by the stable original literature claim."
+    },
+    "AE-LIT-033": {
+      "formal_ids": [
+        "GAP-003"
+      ],
+      "disposition": "new atomic claim",
+      "reason": "Distinct study or evidentiary boundary retained for substantive synthesis."
+    }
+  }
+}

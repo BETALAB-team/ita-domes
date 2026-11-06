@@ -1,0 +1,52 @@
+{
+  "saved_file": "probablities_only.csv",
+  "sha256": "8de054f2c8ce1eed3b5af045b68849a1e24ae6b1273cb9e4dd2e1dc2a02903ec",
+  "all_rows": 350,
+  "primary_rows": 125,
+  "age_centers": [
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100,
+    105,
+    110,
+    115,
+    120,
+    125,
+    130,
+    135
+  ],
+  "area_centers": [
+    40,
+    64,
+    88,
+    112,
+    136
+  ],
+  "context_values": {
+    "region": [
+      "ALL"
+    ],
+    "type": [
+      "ALL"
+    ],
+    "isolation": [
+      "ALL"
+    ]
+  },
+  "note": "Read-only schema/geometry audit; no 2013 labels or regressions refitted or replaced."
+}

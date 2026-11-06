@@ -1,0 +1,234 @@
+{
+  "scope": "author-side independent standard-library EPW and hourly arithmetic check; not a reviewer verdict, full radiation audit, benchmark, or empirical validation",
+  "sites": {
+    "Padova": {
+      "epw_sha256": "390ead08c3e32d34a874c564b57c28ef1b7275682c7a749477208f5b6846adca",
+      "rows": 8760,
+      "cloud_missing_count": 8760,
+      "mean_air_minus_sky_K": 12.77565604632737
+    },
+    "Bolzano": {
+      "epw_sha256": "ff2561b3a202e1ae67201bd46086e56e50c66d328bd118bfe8e7d0c3270d472b",
+      "rows": 8760,
+      "cloud_missing_count": 8760,
+      "mean_air_minus_sky_K": 17.620782214282908
+    },
+    "Roma": {
+      "epw_sha256": "edbe4470b89164c1c80e8dd8969949addfd132ce4a10cb93278eb88c8f1247cd",
+      "rows": 8760,
+      "cloud_missing_count": 8760,
+      "mean_air_minus_sky_K": 13.551708113654964
+    },
+    "Palermo": {
+      "epw_sha256": "1e51aa278551c25cddd96ce1c40ae0f86a8e91f05ca71157f67b17be8cf1d80f",
+      "rows": 8760,
+      "cloud_missing_count": 8760,
+      "mean_air_minus_sky_K": 14.073726997419667
+    }
+  },
+  "case_checks": [
+    {
+      "site": "Padova",
+      "case": "seeded",
+      "rows": 8760,
+      "sha256": "02545e6feffb6e95c0951aec6a584a199dcf890a52d188feefa8023a823a5b76",
+      "annual_kWh": 9574.018167900284,
+      "peak_kW": 10.049540394516585,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Padova",
+      "case": "early",
+      "rows": 8760,
+      "sha256": "399dff1dc09f5b457b3bacb69af6896dd2a8453e3869c9b134793edd853e1f59",
+      "annual_kWh": 9659.6327823585,
+      "peak_kW": 10.253471877549893,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Padova",
+      "case": "late",
+      "rows": 8760,
+      "sha256": "615f5d4f68992c0391254b4a1a01e5d52d7cababfff91795e431cc15927af845",
+      "annual_kWh": 9606.296439353202,
+      "peak_kW": 9.838176213778482,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Padova",
+      "case": "repeat_seeded",
+      "rows": 8760,
+      "sha256": "02545e6feffb6e95c0951aec6a584a199dcf890a52d188feefa8023a823a5b76",
+      "annual_kWh": 9574.018167900284,
+      "peak_kW": 10.049540394516585,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Padova",
+      "case": "warmup_seeded",
+      "rows": 8760,
+      "sha256": "fb4f9a52108a2af7f45a92418c2015fe63f62a79808cf257a1067758e3647718",
+      "annual_kWh": 9574.018167900114,
+      "peak_kW": 10.049540394516585,
+      "annual_summary_error_kWh": 1.8189894035458565e-12,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Bolzano",
+      "case": "seeded",
+      "rows": 8760,
+      "sha256": "d8b7038f337ced6afeec4b6d70e84bf5df9ff6c14dd1a1dd268469cfd4322410",
+      "annual_kWh": 15851.213775339595,
+      "peak_kW": 17.80862080867205,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Bolzano",
+      "case": "early",
+      "rows": 8760,
+      "sha256": "920d4dbdd74cc769106d47b893215c650151567a4544265357ddf39606ffdc30",
+      "annual_kWh": 15835.683227440928,
+      "peak_kW": 17.80862080867205,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Bolzano",
+      "case": "late",
+      "rows": 8760,
+      "sha256": "98d1d67b7d8f5bb5e4b3398a4180193733a63f9ad697aec568437b2f3fbceab5",
+      "annual_kWh": 15855.464323253667,
+      "peak_kW": 17.80862080867205,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Bolzano",
+      "case": "repeat_seeded",
+      "rows": 8760,
+      "sha256": "d8b7038f337ced6afeec4b6d70e84bf5df9ff6c14dd1a1dd268469cfd4322410",
+      "annual_kWh": 15851.213775339595,
+      "peak_kW": 17.80862080867205,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Bolzano",
+      "case": "warmup_seeded",
+      "rows": 8760,
+      "sha256": "4b98d7e5cb7b6148b63fad7219e3a575a9cd43385ae480a528b1382d877bf7fb",
+      "annual_kWh": 15851.213775338707,
+      "peak_kW": 17.80862080867205,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Roma",
+      "case": "seeded",
+      "rows": 8760,
+      "sha256": "f9eaf71f3df6a39dc91cf2239394eaf74a8b83734d7972992da77de24890dcd8",
+      "annual_kWh": 6602.228771252248,
+      "peak_kW": 8.909926839273298,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Roma",
+      "case": "early",
+      "rows": 8760,
+      "sha256": "f283c54369f7ec358fab95eeb1562fd7ca682fd77a761bb926cc5d3bae990f0d",
+      "annual_kWh": 6736.445695874722,
+      "peak_kW": 9.651766061306555,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Roma",
+      "case": "late",
+      "rows": 8760,
+      "sha256": "55c09962557ad84f989ecb6265266262913834a9de07233c5b506384f4bea60d",
+      "annual_kWh": 6635.240374545854,
+      "peak_kW": 9.211202940624576,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Roma",
+      "case": "repeat_seeded",
+      "rows": 8760,
+      "sha256": "f9eaf71f3df6a39dc91cf2239394eaf74a8b83734d7972992da77de24890dcd8",
+      "annual_kWh": 6602.228771252248,
+      "peak_kW": 8.909926839273298,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Roma",
+      "case": "warmup_seeded",
+      "rows": 8760,
+      "sha256": "e8ddf516caafa7b82dce4597a9bc5ce6ca1d970a3d65c68f4e83f47499a97252",
+      "annual_kWh": 6602.22877102024,
+      "peak_kW": 8.909926839273298,
+      "annual_summary_error_kWh": 9.094947017729282e-13,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Palermo",
+      "case": "seeded",
+      "rows": 8760,
+      "sha256": "222ecb953871fcecf5b834c721f53ea205a9e5a5c37f1ae0772b077dcb12c5af",
+      "annual_kWh": 5078.83719988635,
+      "peak_kW": 8.292527171918435,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Palermo",
+      "case": "early",
+      "rows": 8760,
+      "sha256": "26aeb1502f7f0d660c73c16d6554b771c66bb6dcbcea23d5c1b1942f87d5b20b",
+      "annual_kWh": 5275.2931610934265,
+      "peak_kW": 8.787517382639285,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Palermo",
+      "case": "late",
+      "rows": 8760,
+      "sha256": "f7036264b9b18b7be3c37e91c4d6a1030fd509c022a808d292879d3ffb1eebe8",
+      "annual_kWh": 5128.684362229468,
+      "peak_kW": 8.418924698544206,
+      "annual_summary_error_kWh": -9.094947017729282e-13,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Palermo",
+      "case": "repeat_seeded",
+      "rows": 8760,
+      "sha256": "222ecb953871fcecf5b834c721f53ea205a9e5a5c37f1ae0772b077dcb12c5af",
+      "annual_kWh": 5078.83719988635,
+      "peak_kW": 8.292527171918435,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    },
+    {
+      "site": "Palermo",
+      "case": "warmup_seeded",
+      "rows": 8760,
+      "sha256": "a176830862a4d5299d78106e287e36e7a8808520f3a9c61e2ec377419a6566c1",
+      "annual_kWh": 5078.837144908502,
+      "peak_kW": 8.292527171918435,
+      "annual_summary_error_kWh": 0.0,
+      "peak_summary_error_kW": 0.0
+    }
+  ],
+  "paired_table_max_abs_error": 1.1071005223683983e-14,
+  "padova_replay_seeded_byte_identical": true,
+  "passed": true
+}

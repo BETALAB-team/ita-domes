@@ -1,0 +1,59 @@
+{
+  "source_packet": "02_evidence/archetype_extension/conference_claim_records.json",
+  "mapping": {
+    "AE-CF-001": {
+      "formal_ids": [
+        "LIT-033"
+      ],
+      "disposition": "new bounded conference-backbone claim"
+    },
+    "AE-CF-002": {
+      "formal_ids": [
+        "LIT-034"
+      ],
+      "disposition": "new bounded conference-backbone claim"
+    },
+    "AE-CF-003": {
+      "formal_ids": [
+        "LIT-035"
+      ],
+      "disposition": "new bounded conference-backbone claim"
+    },
+    "AE-CF-004": {
+      "formal_ids": [
+        "LIT-036"
+      ],
+      "disposition": "new bounded conference-backbone claim"
+    },
+    "AE-CF-005": {
+      "formal_ids": [
+        "LIT-037"
+      ],
+      "disposition": "new bounded conference-backbone claim"
+    },
+    "AE-CF-006": {
+      "formal_ids": [
+        "LIT-038"
+      ],
+      "disposition": "new bounded conference-backbone claim"
+    },
+    "AE-CF-007": {
+      "formal_ids": [
+        "LIT-039"
+      ],
+      "disposition": "new bounded conference-backbone claim"
+    },
+    "AE-CF-008": {
+      "formal_ids": [
+        "LIT-040"
+      ],
+      "disposition": "new bounded conference-backbone claim"
+    },
+    "AE-CF-009": {
+      "formal_ids": [
+        "INT-002"
+      ],
+      "disposition": "new bounded conference-backbone claim"
+    }
+  }
+}

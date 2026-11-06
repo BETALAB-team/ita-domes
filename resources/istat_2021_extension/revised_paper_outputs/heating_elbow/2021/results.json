@@ -1,0 +1,17 @@
+{
+  "year": 2021,
+  "selected_k": 2,
+  "range_sensitivity": {
+    "9": 2,
+    "12": 2,
+    "16": 3,
+    "24": 4
+  },
+  "training_cells": 48,
+  "original_tukey_training_groups": 8,
+  "test_n": 7305,
+  "unsupported_test": 0,
+  "test_rmse": 4.822524775287348,
+  "selection": "Maximum normalized chord gap on training weighted cell-mean WCSS, k=1..12",
+  "caution": "Exploratory elbow candidate, not proof of a unique optimum. Cell variance explained is not household variance explained. Pairwise tests are model-based, not a full survey-design correction."
+}

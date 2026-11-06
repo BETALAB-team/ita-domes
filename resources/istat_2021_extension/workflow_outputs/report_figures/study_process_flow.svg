@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="672.8pt" height="370.4pt" viewBox="0 0 672.8 370.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>GRINS deterministic workflow</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 370.4 
+L 672.8 370.4 
+L 672.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 14.254286 343.175 
+L 91.851429 343.175 
+L 91.851429 36.125 
+L 14.254286 36.125 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 37.768571 138.475 
+L 91.851429 138.475 
+L 91.851429 36.125 
+L 37.768571 36.125 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #f4f4f4; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 37.768571 240.825 
+L 91.851429 240.825 
+L 91.851429 138.475 
+L 37.768571 138.475 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #f4f4f4; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 37.768571 343.175 
+L 91.851429 343.175 
+L 91.851429 240.825 
+L 37.768571 240.825 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #f4f4f4; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 136.528571 107.325 
+L 214.125714 107.325 
+L 214.125714 60.6 
+L 136.528571 60.6 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 249.397143 107.325 
+L 331.697143 107.325 
+L 331.697143 60.6 
+L 249.397143 60.6 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 371.671429 107.325 
+L 453.971429 107.325 
+L 453.971429 60.6 
+L 371.671429 60.6 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 493.945714 107.325 
+L 590.354286 107.325 
+L 590.354286 60.6 
+L 493.945714 60.6 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 93.850229 83.24 
+Q 110.190421 83.24 126.530614 83.24 
+L 126.530614 79.74 
+Q 130.530621 81.74 134.530629 83.74 
+Q 130.530621 85.74 126.530614 87.74 
+L 126.530614 84.24 
+Q 110.190421 84.24 93.850229 84.24 
+L 93.850229 83.24 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 216.127816 83.24 
+Q 227.759488 83.24 239.391161 83.24 
+L 239.391161 79.74 
+Q 243.393067 81.74 247.394973 83.74 
+Q 243.393067 85.74 239.391161 87.74 
+L 239.391161 84.24 
+Q 227.759488 84.24 216.127816 84.24 
+L 216.127816 83.24 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 333.692929 83.24 
+Q 347.684073 83.24 361.675216 83.24 
+L 361.675216 79.74 
+Q 365.674254 81.74 369.673292 83.74 
+Q 365.674254 85.74 361.675216 87.74 
+L 361.675216 84.24 
+Q 347.684073 84.24 333.692929 84.24 
+L 333.692929 83.24 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 455.967215 83.24 
+Q 469.958358 83.24 483.949502 83.24 
+L 483.949502 79.74 
+Q 487.94854 81.74 491.947578 83.74 
+Q 487.94854 85.74 483.949502 87.74 
+L 483.949502 84.24 
+Q 469.958358 84.24 455.967215 84.24 
+L 455.967215 83.24 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 209.422857 223.025 
+L 350.508571 223.025 
+L 350.508571 171.85 
+L 209.422857 171.85 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 93.849942 197.16 
+Q 146.635024 197.16 199.420106 197.16 
+L 199.420106 193.66 
+Q 203.421576 195.66 207.423045 197.66 
+Q 203.421576 199.66 199.420106 201.66 
+L 199.420106 198.16 
+Q 146.635024 198.16 93.849942 198.16 
+L 93.849942 197.16 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 386.133633 198.16 
+Q 373.319563 198.16 360.505493 198.16 
+L 360.505493 201.66 
+Q 356.505073 199.66 352.504653 197.66 
+Q 356.505073 195.66 360.505493 193.66 
+L 360.505493 197.16 
+Q 373.319563 197.16 386.133633 197.16 
+L 386.133633 198.16 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 392.834286 320.925 
+L 590.354286 320.925 
+L 590.354286 265.3 
+L 392.834286 265.3 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 380.726955 292.835 
+Q 381.780505 292.835 382.834056 292.835 
+L 382.834056 289.335 
+Q 386.833602 291.335 390.833147 293.335 
+Q 386.833602 295.335 382.834056 297.335 
+L 382.834056 293.835 
+Q 381.780505 293.835 380.726955 293.835 
+L 380.726955 292.835 
+z
+" clip-path="url(#pc7cc4961f6)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 542.385143 107.325 
+L 542.385143 197.66 
+L 350.508571 197.66 
+" clip-path="url(#pc7cc4961f6)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 91.851429 312.025 
+L 291.722857 312.025 
+L 291.722857 247.5 
+" clip-path="url(#pc7cc4961f6)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 279.965714 223.025 
+L 279.965714 293.335 
+L 378.725714 293.335 
+" clip-path="url(#pc7cc4961f6)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(29.339695 215.059375) rotate(-90)">Raw Dataset</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(31.527852 85.083608)">Socio-demographic</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(49.469492 94.443071)">variables</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(31.930625 188.366484)">Construction-related</text>
+    <text style="font-size: 8px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(50.371875 196.372891)">variables</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(39.399648 289.646812)">Energy-pattern</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(49.469492 299.143071)">variables</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(163.763823 82.604741)">Define</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(139.097885 91.105571)">informative variables</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(275.677455 82.604741)">Reduced</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(265.285541 90.246938)">dimensionality</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(395.113538 81.746108)">Clustering</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(399.12846 90.246938)">analysis</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(508.867852 81.746108)">Socio-demographic</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(525.035117 89.821274)">user types</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle" x="231.996571" y="44.525527" transform="rotate(-0 231.996571 44.525527)">Principal Component Analysis</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(230.854761 195.299334)">Assign user-type probabilities</text>
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(236.241777 203.500135)">from dwelling information</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle" x="150.637143" y="177.135527" transform="rotate(-0 150.637143 177.135527)">Probabilistic Feature Extraction</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle" x="451.62" y="176.690527" transform="rotate(-0 451.62 176.690527)">Probabilistic Feature Extraction</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(423.206239 291.000409)">Significant dwelling-user groups based on</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" transform="translate(414.662004 299.1012)">heating-system use and electricity consumption</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="127.122857" y="299.955527" transform="rotate(-0 127.122857 299.955527)">Analysis of Variance</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc7cc4961f6">
+   <rect x="7.2" y="7.2" width="658.4" height="356"/>
+  </clipPath>
+ </defs>
+</svg>

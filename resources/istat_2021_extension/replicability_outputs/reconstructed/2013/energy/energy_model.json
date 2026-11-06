@@ -1,0 +1,42 @@
+{
+  "method": "Type-II ANOVA followed by iterative Tukey-Kramer HSD reduction",
+  "responses": {
+    "heating_daily_hours": "q_3_11A + q_3_11B + q_3_11C",
+    "electricity_annual_kwh": "results_grins.appliances_el_kWh"
+  },
+  "formula": "<response> ~ C(archetype) + C(dwelling_type) + C(location) + C(insulation) + building_age_years + dwelling_area_m2 + C(cooling_system_use) + C(archetype):C(dwelling_type) + C(archetype):C(location) + C(archetype):C(insulation) + C(insulation):C(location) + C(dwelling_type):C(location) + C(dwelling_type):C(insulation) + building_age_years:dwelling_area_m2",
+  "alpha": 0.05,
+  "dwelling_seed": 42,
+  "tukey_factors": {
+    "heating_daily_hours": [
+      "location",
+      "archetype",
+      "dwelling_type"
+    ],
+    "electricity_annual_kwh": [
+      "location",
+      "dwelling_type"
+    ]
+  },
+  "separate_paper_factors": {
+    "heating": {
+      "insulation_level": [
+        "none_or_slight",
+        "sufficient_or_high"
+      ]
+    },
+    "electricity": {
+      "archetypes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cooling_system_use": [
+        "absent_or_unused",
+        "present_or_used"
+      ]
+    }
+  },
+  "published_group_count_note": "The article text reports six electricity groups, while Table 6 lists only E1-E5; validation accepts either published count."
+}

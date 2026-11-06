@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": {
+    "unique_household_ids": true,
+    "all_52617_eligible_households_preserved": true,
+    "all80cells_each_K": true,
+    "exact_K_segments": true,
+    "monotone_fidelity": true,
+    "group_prediction_matches_household_mean": true,
+    "H_selected_passes_rule": true,
+    "H_assignment_count": true,
+    "E_selected_passes_rule": true,
+    "E_assignment_count": true
+  },
+  "maximum_mean_error": 4.547473508864641e-13
+}

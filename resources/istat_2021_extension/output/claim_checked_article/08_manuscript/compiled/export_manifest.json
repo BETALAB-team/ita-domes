@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-20",
+  "source": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\08_manuscript\\article_first_draft.md",
+  "source_sha256": "79d39383485e4310254a2fa74764fd93dd63e252bda37379d187f9e13642614c",
+  "pages": 12,
+  "references": 37,
+  "tables": 2,
+  "figures": 2,
+  "content_verification": {
+    "source_unchanged": true,
+    "visible_source_blocks_and_table_cells_checked": 166,
+    "missing_docx_text": [],
+    "missing_pdf_text": [],
+    "embedded_source_images_byte_identical": true,
+    "paragraph_borders": 0,
+    "pages": 12,
+    "pdf_link_annotations": 128,
+    "body_paragraph_wording": "preserved exactly after Markdown formatting removal",
+    "figure_placement": "floated within methods/results for pagination"
+  },
+  "visual_qa": "pass; all12pages",
+  "outputs": {
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\08_manuscript\\compiled\\Italian_user_archetypes_manuscript.docx": {
+      "bytes": 662853,
+      "sha256": "e4e085a0b1395b628f68b208492d26a94b25e4b3e48b41c99b11fd8b8a9dbbd8"
+    },
+    "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article\\08_manuscript\\compiled\\Italian_user_archetypes_manuscript.pdf": {
+      "bytes": 580211,
+      "sha256": "943ae6a89e4c349cf5ad38d835d4763a9d1163b91822e1286db4d38bf2c90655"
+    }
+  }
+}

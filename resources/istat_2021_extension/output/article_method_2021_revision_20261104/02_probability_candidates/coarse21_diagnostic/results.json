@@ -1,0 +1,29 @@
+{
+  "n_fixedlabel_households": 46712,
+  "split_seeds": [
+    11,
+    42,
+    101,
+    2021,
+    2026
+  ],
+  "training_fraction": 0.7,
+  "primary_basis": [
+    "intercept",
+    "age/100",
+    "area/100",
+    "age*area/10000",
+    "age^2/10000",
+    "area^2/10000"
+  ],
+  "source_hashes": {
+    "output\\article_method_2021_20261104\\02_probabilities\\household_archetypes_2021.csv": "e9d7d2f72e6cceb5e5d9beafe817dfbba2da3d32f692414257cbd5c62771167d",
+    "output\\article_method_2021_20261104\\02_probabilities\\dwelling_samples_2021.csv": "d3a279166f3b67b008d764da97e09137af9e1a2de1af73efc107232082dc521c",
+    "clusters.csv": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90",
+    "05_03_PFE_Analysis.py": "640fb33caf9f7db3201ce09f462998b757895dfcd240c7833f53eb94cc7d73b5"
+  },
+  "source_hashes_unchanged": true,
+  "selection": "Compare matched repeated household holdout metrics; no recommendation chosen by appearance",
+  "fig6_source_note": "Actual figure has dwellingarea x-axis and vintage lines; caption contradicts actual figure.2021 vintage before1950 used rather than inventing within-bin before1945 distinction.",
+  "softmax_note": "Equal-window crossentropy, quadratic three log odds vsA4, fixedridge1e-4 for nonintercept coefficients, no tuning ontest splits. Fit onlytraining windows; fixed demographic labels external."
+}

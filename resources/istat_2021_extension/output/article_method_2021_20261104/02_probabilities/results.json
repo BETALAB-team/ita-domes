@@ -1,0 +1,53 @@
+{
+  "raw_n": 54069,
+  "eligible_n": 52617,
+  "pfe_n": 46712,
+  "window_contributing_n": 12334,
+  "nonempty_windows": 63,
+  "minimum5_windows": 57,
+  "fit_windows": 21,
+  "age_seed": 42,
+  "dwelling_seed": 42,
+  "unknown_construction_excluded": true,
+  "probability_flags": {
+    "outside_0_1": 35,
+    "sum_not_one": 63
+  },
+  "source_hashes": {
+    "istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\MICRODATI\\ISTAT_MFR_ECH_Microdati_2021_DELIMITED.txt": "dd7afa7fcf581014e4a95c27035422b08fa9fb2f211c7551deeb4568fe174eb4",
+    "clusters.csv": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90",
+    "03_PCA_Clustering.py": "c2fe140e16a339cb0a27f95a90bb7609e6138a85ce03fbf2afcafd93614a62d0",
+    "01_PCA_Exploratory.py": "557450d3ff5d52adeee4b38f071058b9169f20631d03804209381d86d4b95939",
+    "05_00_PFE_Exploratory.py": "f876131e1dddb2e0dde4638aac576349a4f6c316b78410685deb8ea8ed4fd6b6",
+    "05_01_PFE_Variable_Analysis.py": "ff8fdc541cafb76b450e1fadd707d341c8aceb40e13d9e2b66d5aab0463b8588",
+    "05_02_PFE_Probablity.py": "ab30a94b1cbfc341ff67b19e79189fc8d8ca13d4630ab8bb46eb81f9dd3b9df7",
+    "05_03_PFE_Analysis.py": "640fb33caf9f7db3201ce09f462998b757895dfcd240c7833f53eb94cc7d73b5",
+    "pfe_pipeline.py": "4e88bad171086912a40a0661cb62c698999b2b2a3b274c70a5f6c40b564d4503"
+  },
+  "archived_labels_unchanged": true,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3"
+  },
+  "source_before_hashes": {
+    "istat\\Microdati21\\500Tj00000M4IEcIAN-1_00250525-1\\MICRODATI\\ISTAT_MFR_ECH_Microdati_2021_DELIMITED.txt": "dd7afa7fcf581014e4a95c27035422b08fa9fb2f211c7551deeb4568fe174eb4",
+    "clusters.csv": "0df1bcc11c5b89f4a485affb6e0d661c417ef13b7879d10b8fa8550d29cded90",
+    "02_Families_Analysis.py": "5067d46f95eb4f84f772f829beecbc7a09236298c2aa3e155a540a36a5a1cb0b",
+    "03_PCA_Clustering.py": "c2fe140e16a339cb0a27f95a90bb7609e6138a85ce03fbf2afcafd93614a62d0",
+    "01_PCA_Exploratory.py": "557450d3ff5d52adeee4b38f071058b9169f20631d03804209381d86d4b95939",
+    "05_00_PFE_Exploratory.py": "f876131e1dddb2e0dde4638aac576349a4f6c316b78410685deb8ea8ed4fd6b6",
+    "05_01_PFE_Variable_Analysis.py": "ff8fdc541cafb76b450e1fadd707d341c8aceb40e13d9e2b66d5aab0463b8588",
+    "05_02_PFE_Probablity.py": "ab30a94b1cbfc341ff67b19e79189fc8d8ca13d4630ab8bb46eb81f9dd3b9df7",
+    "05_03_PFE_Analysis.py": "640fb33caf9f7db3201ce09f462998b757895dfcd240c7833f53eb94cc7d73b5",
+    "pfe_pipeline.py": "4e88bad171086912a40a0661cb62c698999b2b2a3b274c70a5f6c40b564d4503"
+  },
+  "all_source_hashes_unchanged": true,
+  "probability_basis_order": [
+    "intercept",
+    "age/100",
+    "area/100",
+    "age*area/10000",
+    "age^2/10000",
+    "area^2/10000"
+  ]
+}

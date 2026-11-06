@@ -1,0 +1,121 @@
+{
+  "artifact_root": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\claim_checked_article",
+  "scope": "Structural/provenance audit only; does not evaluate scientific adequacy.",
+  "drafts": [
+    {
+      "file": "06_claim_drafts\\article_claims_v00.md",
+      "sha256": "f2df38afd47db701eba7edf7304a7bd7e9da158d65e7bebd3acace32ecfc0089",
+      "claim_count": 31,
+      "duplicate_ids": [],
+      "ids_absent_since_prior_version": []
+    },
+    {
+      "file": "06_claim_drafts\\article_claims_v01.md",
+      "sha256": "5e35bc02e77d6345a9c82be51a8a405d5d4ba3e8490f6c24d037b8488a04bab1",
+      "claim_count": 35,
+      "duplicate_ids": [],
+      "ids_absent_since_prior_version": []
+    },
+    {
+      "file": "06_claim_drafts\\article_claims_v02.md",
+      "sha256": "91373b60fe5f574057f2e2fdfc597cf9e373c090ae4d2aba4757682b183c0045",
+      "claim_count": 38,
+      "duplicate_ids": [],
+      "ids_absent_since_prior_version": []
+    },
+    {
+      "file": "06_claim_drafts\\article_claims_v03.md",
+      "sha256": "c96e3307de9b9587cc554c076f5d3527cc3ce8a6c29b12342777c07bc93c5eb2",
+      "claim_count": 41,
+      "duplicate_ids": [],
+      "ids_absent_since_prior_version": []
+    },
+    {
+      "file": "06_claim_drafts\\article_claims_v04.md",
+      "sha256": "8a641ab68bd80fb96aad3016f3deea37ba0dbd4ab50ce9d984d8b59cfe50da7e",
+      "claim_count": 41,
+      "duplicate_ids": [],
+      "ids_absent_since_prior_version": []
+    }
+  ],
+  "cycles": [
+    {
+      "cycle": 1,
+      "artifacts_present": {
+        "review": true,
+        "response": true,
+        "revised_draft": true,
+        "register_snapshot": true
+      },
+      "artifact_complete": true,
+      "reviewed_draft_hash_recorded": true,
+      "hashes": {
+        "review": "c7a8d509563fbef997f1615cb03dc0700a83800d619367b91207d944afaa6925",
+        "response": "61a5c3fb372994fe8902ed2bb1e79ada8025ea9139d5be6f39697059fb567214",
+        "revised_draft": "5e35bc02e77d6345a9c82be51a8a405d5d4ba3e8490f6c24d037b8488a04bab1",
+        "register_snapshot": "d842911844b06556f07b26f051af2e6093908e8f0b9323caf71ac3e784817314"
+      }
+    },
+    {
+      "cycle": 2,
+      "artifacts_present": {
+        "review": true,
+        "response": true,
+        "revised_draft": true,
+        "register_snapshot": true
+      },
+      "artifact_complete": true,
+      "reviewed_draft_hash_recorded": true,
+      "hashes": {
+        "review": "3e258716d7516c05d8b78c306b358ff5651d204ed39110b831652877fa761fd4",
+        "response": "1f6069e8dbfcdae9692199c759ec55293e83a98871aff1e19b28bcfaa86796d2",
+        "revised_draft": "91373b60fe5f574057f2e2fdfc597cf9e373c090ae4d2aba4757682b183c0045",
+        "register_snapshot": "50f28e39ffb1867b063e333be8dfe991d04abd1f2b6b76b9477853affb3b14c9"
+      }
+    },
+    {
+      "cycle": 3,
+      "artifacts_present": {
+        "review": true,
+        "response": true,
+        "revised_draft": true,
+        "register_snapshot": true
+      },
+      "artifact_complete": true,
+      "reviewed_draft_hash_recorded": true,
+      "hashes": {
+        "review": "dda6e7288e34af7368f458cc40390297efa7b3da0ab097cabb1cb606e9e77e34",
+        "response": "8e80265a850143a617c4b3c2ae944089680a06d19a34aef18413092854557f17",
+        "revised_draft": "c96e3307de9b9587cc554c076f5d3527cc3ce8a6c29b12342777c07bc93c5eb2",
+        "register_snapshot": "95db0f13acf987ca3bea0a5d67b5fcbff8ed8b6414f1c5571727f5c5489039a2"
+      }
+    },
+    {
+      "cycle": 4,
+      "artifacts_present": {
+        "review": true,
+        "response": true,
+        "revised_draft": true,
+        "register_snapshot": true
+      },
+      "artifact_complete": true,
+      "reviewed_draft_hash_recorded": true,
+      "hashes": {
+        "review": "ce16dcca6b71bd1da3e5ce0c47ba44001628d66ed8535833da3d3c4fa549b687",
+        "response": "d0c27ab5d2d39eaaf1689eaabc96e85a94664b77b8dd27c74e2f2da567942e9b",
+        "revised_draft": "8a641ab68bd80fb96aad3016f3deea37ba0dbd4ab50ce9d984d8b59cfe50da7e",
+        "register_snapshot": "77d956d016606ea0bba7501b3531f917efbb3ead93c2d0b9cffb77d81529055b"
+      }
+    }
+  ],
+  "latest_claim_ledger_check": {
+    "exists": true,
+    "draft_filename": "article_claims_v04.md",
+    "draft_hash_matches": true,
+    "claim_count": 41
+  },
+  "structurally_complete_cycles": 4,
+  "final_claims_exists": true,
+  "closure_exists": true,
+  "prose_exists": true
+}

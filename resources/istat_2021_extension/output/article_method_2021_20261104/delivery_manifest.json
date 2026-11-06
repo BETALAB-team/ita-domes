@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-04",
+  "status": "complete",
+  "analysis_year": 2021,
+  "python": "C:\\Users\\khajmoh18975\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "scientific_dependencies": "requirements-2021.txt",
+  "requested_outputs": {
+    "probabilities": "02_probabilities/probability_grid_empirical.csv",
+    "matrix": "02_probabilities/polynomial_coefficient_matrix.csv",
+    "heating_groups": 9,
+    "electricity_groups": 13,
+    "appendix_assignment_cells": 160,
+    "figures": "04_figures",
+    "editable_report": "06_report/Italian_user_archetypes_2021_reconstruction.docx",
+    "pdf_report": "06_report/Italian_user_archetypes_2021_reconstruction.pdf"
+  },
+  "checks": {
+    "protected_original_files_unchanged": 14,
+    "frozen_probability_artifacts_unchanged": 44,
+    "source_provenance_unchanged": true,
+    "independent_scientific_review": "05_review/scientific_review.md",
+    "independent_report_review": "05_review/final_report_check.md",
+    "rendered_pages_visually_checked": 11,
+    "compact_assignment_rows": 52617
+  },
+  "regional_correction": "No separate physical energy multiplier was located. Multiplier 1; official PESO weights supplied as separate diagnostics.",
+  "source_copies": [
+    {
+      "original": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\01_PCA_Exploratory.py",
+      "copy": "07_source_reference\\01_PCA_Exploratory.py",
+      "sha256": "557450d3ff5d52adeee4b38f071058b9169f20631d03804209381d86d4b95939"
+    },
+    {
+      "original": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\02_Families_Analysis.py",
+      "copy": "07_source_reference\\02_Families_Analysis.py",
+      "sha256": "5067d46f95eb4f84f772f829beecbc7a09236298c2aa3e155a540a36a5a1cb0b"
+    },
+    {
+      "original": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\03_PCA_Clustering.py",
+      "copy": "07_source_reference\\03_PCA_Clustering.py",
+      "sha256": "c2fe140e16a339cb0a27f95a90bb7609e6138a85ce03fbf2afcafd93614a62d0"
+    },
+    {
+      "original": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\05_00_PFE_Exploratory.py",
+      "copy": "07_source_reference\\05_00_PFE_Exploratory.py",
+      "sha256": "f876131e1dddb2e0dde4638aac576349a4f6c316b78410685deb8ea8ed4fd6b6"
+    },
+    {
+      "original": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\05_01_PFE_Variable_Analysis.py",
+      "copy": "07_source_reference\\05_01_PFE_Variable_Analysis.py",
+      "sha256": "ff8fdc541cafb76b450e1fadd707d341c8aceb40e13d9e2b66d5aab0463b8588"
+    },
+    {
+      "original": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\05_02_PFE_Probablity.py",
+      "copy": "07_source_reference\\05_02_PFE_Probablity.py",
+      "sha256": "ab30a94b1cbfc341ff67b19e79189fc8d8ca13d4630ab8bb46eb81f9dd3b9df7"
+    },
+    {
+      "original": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\05_03_PFE_Analysis.py",
+      "copy": "07_source_reference\\05_03_PFE_Analysis.py",
+      "sha256": "640fb33caf9f7db3201ce09f462998b757895dfcd240c7833f53eb94cc7d73b5"
+    },
+    {
+      "original": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\07_ANOVA_analysis.py",
+      "copy": "07_source_reference\\07_ANOVA_analysis.py",
+      "sha256": "4145f687a8737d76191fa5531924a1c9998ac672dff1097318a8ca5e467826dd"
+    },
+    {
+      "original": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\pfe_pipeline.py",
+      "copy": "07_source_reference\\pfe_pipeline.py",
+      "sha256": "4e88bad171086912a40a0661cb62c698999b2b2a3b274c70a5f6c40b564d4503"
+    },
+    {
+      "original": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\energy_analysis.py",
+      "copy": "07_source_reference\\energy_analysis.py",
+      "sha256": "e3d040da180f1f0f5bb08f75eef44e12a2b2a14d3c2027b1ba05e0fceca612e2"
+    },
+    {
+      "original": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\model_electricity_2021.py",
+      "copy": "07_source_reference\\model_electricity_2021.py",
+      "sha256": "5e45a969f128a9b60f1e7622869451e3e619ceb406a14220559add6c9ab11b0a"
+    }
+  ],
+  "large_local_files_omitted_from_zip": [
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\01_inputs\\analysis_input_2021.csv",
+      "bytes": 59923786,
+      "sha256": "a6020c39720ec3f7f1100197d45b1462e0788e2fad44b360165e33cac5ccbc8b"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\03_energy\\E_household_assignments_2021.csv",
+      "bytes": 59256466,
+      "sha256": "8b8e9d18cef033257f79215f724a6338b21619b0aee38e0ba1891f97a492efcb"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\03_energy\\H_household_assignments_2021.csv",
+      "bytes": 55057052,
+      "sha256": "a606220d0ef45eabaac15c035df0a0e9b1697ee22a2393aa66c77e340783ed07"
+    },
+    {
+      "path": "C:\\Works\\GRINS\\GRINS-Tool\\resources\\istat_data\\output\\article_method_2021_20261104\\03_energy\\analysis_households_2021.csv",
+      "bytes": 59406473,
+      "sha256": "7bc97a9025bf56eba60abe05009cb5aafe03ba24dae1ef659f8bbc021304bf9c"
+    }
+  ]
+}
